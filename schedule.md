@@ -8,5 +8,12 @@
 |Day 5| Q&A of DAY 4 | Challenging practice problems | Cumulative Practice Problems | Search Engine Validation | Continuation on Search Engine Validation|
 
 
+### Things to Decide
+  - choice of IDE? 
+  - CloudCoder problems to go over? 
+  - CyberDojo sessions? 
+
+
+
 
 
