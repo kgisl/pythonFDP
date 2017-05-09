@@ -9,7 +9,7 @@
 
 
 ### Things to Decide
-  - choice of IDE? 
+  - choice of IDE? https://www.jetbrains.com/pycharm/
   - CloudCoder problems to go over? 
   - CyberDojo sessions? 
 
