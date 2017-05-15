@@ -14,6 +14,11 @@
   - CyberDojo sessions? 
 
 
+### Draft Agenda
 
-
-
+0. http://bit.ly/fizzBuzzVideoCD for review before workshop
+1. Blockly 10-part challenge and Python equivalent code review 
+2. CD-1 review of http://j.mp/fizzBuzzPythonFDP 
+5. Part 2 - OOP version Custom Start - http://j.mp/oopFizzBuzzCD
+3. Part 3 - expand CD-2 to output sequence 
+4. Part 4 - expand CD-3 to output for FizzBuzzPlus⁠⁠⁠⁠
