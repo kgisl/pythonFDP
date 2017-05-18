@@ -32,9 +32,13 @@
 2. Problem statements in CyberDojo 
 	- subset of solutions in Step 3 
 3. Automating Boring stuff in Python 
+   - https://automatetheboringstuff.com/
+   - https://www.udemy.com/automate/?couponCode=FOR_LIKE_TEN_BUCKS
 4. Learn PySpark 
+   - https://www.dezyre.com/apache-spark-tutorial/pyspark-tutorial 
    - Refactor earlier solutions into Pyspark platform 
 5. RPA experience on UI-Path 
-   - Use Python API to automate some simple tasks on the web 
+   - Use Python API to automate some simple tasks on the web
+	   - https://www.uipath.com/kb-articles/uipath-robot-api 
    - CloudGate exception report generation - is this possible? 
 
