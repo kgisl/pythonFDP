@@ -22,3 +22,19 @@
 5. Part 2 - OOP version Custom Start - http://j.mp/oopFizzBuzzCD
 3. Part 3 - expand CD-2 to output sequence 
 4. Part 4 - expand CD-3 to output for FizzBuzzPlus⁠⁠⁠⁠
+
+
+### Learning Pathway
+
+1. Fundamentals of Python language
+	- learn Python in 10 minutes
+	- learn Python in 90 minutes
+2. Problem statements in CyberDojo 
+	- subset of solutions in Step 3 
+3. Automating Boring stuff in Python 
+4. Learn PySpark 
+   - Refactor earlier solutions into Pyspark platform 
+5. RPA experience on UI-Path 
+   - Use Python API to automate some simple tasks on the web 
+   - CloudGate exception report generation - is this possible? 
+
