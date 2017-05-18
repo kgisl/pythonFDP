@@ -27,8 +27,8 @@
 ### Learning Pathway
 
 1. Fundamentals of Python language
-	- learn Python in 10 minutes
-	- learn Python in 90 minutes
+	- [learn Python in 10 minutes](https://github.com/kgisl/pythonFDP/blob/master/files/learn-python.pdf) 
+	- [learn Python in 90 minutes](https://github.com/kgisl/pythonFDP/blob/master/files/pythonin90minutes.pdf)
 2. Problem statements in CyberDojo 
 	- subset of solutions in Step 3 
 3. Automating Boring stuff in Python 
