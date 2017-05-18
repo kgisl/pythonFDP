@@ -12,7 +12,8 @@
   - choice of IDE? https://www.jetbrains.com/pycharm/ - is it available online?
   - CloudCoder problems to go over? 
   - CyberDojo sessions? 
-
+  - Who wants to focus on RPA? 
+	  - We now can enroll some faculty to become RPA experts / consultants...both in KGCAS and KITE and they can progress on their own to some level of expertise...and take students along.
 
 ### Draft Agenda
 
