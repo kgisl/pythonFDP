@@ -53,6 +53,7 @@ Reason 2
    - Use Python API to automate some simple tasks on the web
 	   - https://www.uipath.com/kb-articles/uipath-robot-api 
    - CloudGate exception report generation - is this possible? 
+   - Compare two documents using Python - https://github.com/kgisl/project-ideas/blob/master/compareSimilarDocsUsingPython.md and http://www.datasciencecentral.com/profiles/blogs/state-of-the-art-machine-learning-automation-with-hdt and http://www.datasciencecentral.com/profiles/blogs/advanced-machine-learning-with-basic-excel
 
 6. What next?  https://learnpythonthehardway.org/book/next.html
 
