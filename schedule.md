@@ -66,7 +66,7 @@ Read up the write up at http://j.mp/pythonForDataScience.
 1. https://learnpythonthehardway.org/book/ 
 2. Automate the boring stuff using Python
 
-### Variant 2 
+#### Variant 2 
 Also read http://www.datasciencecentral.com/profiles/blogs/the-guide-to-learning-python-for-data-science-2 
 
 https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1
