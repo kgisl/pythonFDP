@@ -1,3 +1,12 @@
+# FDP for Python
+
+Reason 1 
+> You can code. They cannot. That is pretty damn cool. - _[LTHW Python](https://learnpythonthehardway.org/book/advice.html)_
+
+Reason 2
+> Python is a multipurpose programming language and widely used for Data Science, which is termed as the sexiest job of this century. - [Vinay Babu, DSC](http://www.datasciencecentral.com/profiles/blogs/learn-python-for-data-science-from-scratch)
+
+
 |Day   | AM Session 1 | AM Session 2 |AM Session 3| PM Session 1 | PM Session 2 |
 |:-----|:-------------|:-------------|:-----------|:----------|:----------|
 |      |(9.00 - 9.30) | (9.45 - 11.45)  | (11.45 - 12.15) | (1.15.00 to 3.15) | (3.30 to 4.30)| 
@@ -25,6 +34,7 @@
 4. Part 4 - expand CD-3 to output for FizzBuzzPlus⁠⁠⁠⁠
 
 
+
 ### Learning Pathway
 
 1. Fundamentals of Python language
@@ -43,4 +53,23 @@
    - Use Python API to automate some simple tasks on the web
 	   - https://www.uipath.com/kb-articles/uipath-robot-api 
    - CloudGate exception report generation - is this possible? 
+
+6. What next?  https://learnpythonthehardway.org/book/next.html
+
+
+### Python for Data Science 
+
+Read up the write up at http://j.mp/pythonForDataScience. 
+
+0. https://developers.google.com/edu/python/ - At Google, all this material makes up an intensive 2-day class, so the videos are organized as the day-1 and day-2 sections.
+1. https://learnpythonthehardway.org/book/ 
+2. Automate the boring stuff using Python
+
+### Variant 2 
+Also read http://www.datasciencecentral.com/profiles/blogs/the-guide-to-learning-python-for-data-science-2 
+
+https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1
+
+https://www.datacamp.com/courses/intermediate-python-for-data-science
+https://campus.datacamp.com/courses/pandas-foundations/data-ingestion-inspection?ex=1
 
