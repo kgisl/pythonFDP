@@ -1,5 +1,8 @@
 # FDP for Python
 
+Reason 0 
+> The basis for education in the last millennium was reading, writing, and arithmetic; now it is reading, writing, and computing. - Sedgwick
+
 Reason 1 
 > You can code. They cannot. That is pretty damn cool. - _[LTHW Python](https://learnpythonthehardway.org/book/advice.html)_
 
