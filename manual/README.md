@@ -19,6 +19,6 @@ A sample [file](lab6-kgashok.py.md) is provided with contains
 ### Guidelines
 
 1. Please create github accounts and start adding in your respective names. 
-2. Make sure that you are checking coding standards against PEP-8 guidelines. 
+2. Make sure that you are checking coding standards against PEP-8 guidelines. http://pep8online.com/checkresult
 3. Make sure that the code compiles and logically correct as well. 
 4. Multiple contributions will be evaluated, and the best will be chosen to be part of the lab manual. 
