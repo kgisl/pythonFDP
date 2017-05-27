@@ -1,5 +1,5 @@
 
-# **** NOT EVEN Draft 1.0 ******
+# **** Not even Draft 1.0 ******
 
 # Lab 1: Compute the gcd of two numbers. 
 
