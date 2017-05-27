@@ -66,3 +66,8 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
 
+## Bonus 3
+
+1. How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
+
+ 
