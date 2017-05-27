@@ -21,12 +21,25 @@ Implement a python program that finds the maximum in a list of numbers. The prog
 
 ```python 
 
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 def getMaxNumber(numbers):
-    maxval = None
-    for num in numbers:
-        if not maxval or maxval < num:
+    """returns the maximum number in the list
+....The sequence of steps in the algorithm is:
+....#1 - initialize the maximum value
+....#2 - Loop through the entries in the list
+........#3 - If maxval is not set, update with number
+........#3 - If maxval is less than number, update
+....#4 - Return the max value
+...."""
+
+    maxval = None  # 1
+    for num in numbers:  # 2
+        if not maxval or maxval < num:  # 3
             maxval = num
-    return maxval
+    return maxval  # 4
 
 
 def getListOfNumbers():
@@ -58,7 +71,6 @@ print ('The largest number is ', maxNum)
 
 # Functional programming style
 print ('The largest number is ', getMaxNumber(getListOfNumbers()))
-
 
 ```
 
