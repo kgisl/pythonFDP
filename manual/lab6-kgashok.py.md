@@ -43,11 +43,11 @@ def getListOfNumbers():
     for x in range(0, 10):  # 2
         try:  # 3
             userVal = input('Enter number ' + str(x) + ': ')
-            ilist.append(int(userVal))
+            ilist.append(int(userVal))  # 4
         except ValueError:
             break  # if user enters a non-integer
 
-    return ilist  # 4
+    return ilist  # 5
 
 
 # Program starts here
