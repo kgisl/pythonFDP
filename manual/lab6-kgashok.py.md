@@ -1,6 +1,7 @@
 
 # Lab 6: find the maximum of a list of numbers. 
 
+[TOC]
 
 ## Problem statement 
 
@@ -16,7 +17,7 @@ Implement a python program that finds the maximum in a list of numbers. The prog
 	Sample Output3: 4
 
 
-## Lab 6 Solution 
+## Solution Key
 
 ```python 
 
@@ -48,7 +49,7 @@ print(getMaxNumber(userList))
 ```
 
 
-## CloudCoder exercise 
+## CloudCoder Exercise 
 
 http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81 
 
