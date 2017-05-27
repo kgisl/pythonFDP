@@ -6,8 +6,8 @@ For the filename, use the following naming convention: lab**XX**-_githubID_.py.m
     lab1-kgashok.py.md
     lab2-kgashok.py.md
     lab3-kgashok.py.md
-    lab1.62ramya.py.md
-    lab8.62ramya.py.md
+    lab1-62ramya.py.md
+    lab8-62ramya.py.md
 
 A sample file is provided with contains 
   - the problem description and the code. 
