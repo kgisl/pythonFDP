@@ -1,18 +1,18 @@
 # Manual for Python Lab
 
 Add your respective code contributions to this directory. 
-Use the following naming convention: 
+For the filename, use the following naming convention: lab**XX**-_githubID_.py
 
-    lab1-Ashok.py
-    lab2-Ashok.py
-    lab3-Ashok.py 
-    lab1.Vijaya.py
-    lab8.Vijaya.py
+    lab1-kgashok.py
+    lab2-kgashok.py
+    lab3-kgashok.py 
+    lab1.62ramya.py
+    lab8.62ramya.py
 
 Add your respective viva-Question contributions to this directory.
 Use the following naming convention: 
 
-    lab1-viva-Ashok.py
-    lab2-viva-Vijaya.py
-    lab3-viva-Lanitha.py
+    lab1-viva-kgashok.py
+    lab2-viva-vijaya.py
+    lab3-viva-62ramya.py
     
