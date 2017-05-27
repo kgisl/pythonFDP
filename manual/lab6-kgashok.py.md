@@ -104,7 +104,9 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 ### Bonus 3
 
 1. How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
-2. How will you find the `k`th largest number in the list of numbers? 
+2. How will you find the `k`th largest number in the list of numbers? (a #GTG challenge, a Google interview question) 
+
+
 
 
  
