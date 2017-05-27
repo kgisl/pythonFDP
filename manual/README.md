@@ -9,9 +9,16 @@ For the filename, use the following naming convention: lab**XX**-_githubID_.py.m
     lab1-62ramya.py.md
     lab8-62ramya.py.md
 
-A sample file is provided with contains 
+## Sample 
+A sample [file](lab6-kgashok.py.md) is provided with contains 
   - the problem description and the code. 
   - A Cloudcoder exercise link if available
   - possible viva questions 
  
 
+### Guidelines
+
+1. Please create github accounts and start adding in your respective names. 
+2. Make sure that you are checking coding standards against PEP-8 guidelines. 
+3. Make sure that the code compiles and logically correct as well. 
+4. Multiple contributions will be evaluated, and the best will be chosen to be part of the lab manual. 
