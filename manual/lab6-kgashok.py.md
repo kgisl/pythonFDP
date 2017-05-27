@@ -59,9 +59,9 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
 2. If the list is empty, what will be the value returned from the function? 
 3. If the list happens to be empty, then return the string `"N.A.".`. What changes will you make to the code? 
-			> Sample Input: []
-			> Sample Output: "N.A." 
-
+		
+		Sample Input: []     
+		Sample Output: "N.A." 
 
 3. For Point 2, refactor the code that you have written using a ternary operator. 
 
