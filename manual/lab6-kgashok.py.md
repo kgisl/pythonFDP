@@ -107,9 +107,4 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 
 ## Interview Grade 
-How will you find the `k`th largest number in the list of numbers? (a **#GTG** challenge, a Google interview question) 
-
-
-
-
- 
+If `n` is the size of the list, and `1 < k < n`, how will you find the `k`th largest number in the list of numbers? (a **#GTG** challenge, a Google interview question).
