@@ -18,7 +18,6 @@ Implement a python program that finds the maximum in a list of numbers. The prog
 ```python 
 
 def getMaxNumber(numbers):
-
     maxval = None
     for num in numbers:
         if not maxval or maxval < num:
