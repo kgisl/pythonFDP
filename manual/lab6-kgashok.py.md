@@ -93,18 +93,21 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 3. For Point 2, refactor the code that you have written using a ternary operator. 
 
 
-### Bonus 1 
+## Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
 
-### Bonus 2 
+## Bonus 2 
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
 3. Under what conditions will the one-liner function fail? 
 
-### Bonus 3
+## Bonus 3
 
 1. How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
-2. How will you find the `k`th largest number in the list of numbers? (a #GTG challenge, a Google interview question) 
+
+
+## Interview Grade 
+How will you find the `k`th largest number in the list of numbers? (a **#GTG** challenge, a Google interview question) 
 
 
 
