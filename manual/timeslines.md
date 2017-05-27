@@ -25,19 +25,22 @@ Deadlines:
 
   Lab Manual could be done based on your mail message.
 
-Lab Manual Template:
+# Lab Manual Template
 
-Pre Lab Questions
+## Pre Lab Questions
+	
+	Aim: 
+	Algorithm:
+	Pseudocode
+	Flowchart
+	Program:
+	Validation and verification: 
+	Test Cases:
+	Results:
+	
+## Post Lab Questions
 
-Aim:
-Algorithm:
-Pseudocode
-Flowchart
-Program:
-Validation and verification: Test Cases:
-Results:
 
-Post Lab Questions.
 
 Plan to complete the Lab Experiments.
 
