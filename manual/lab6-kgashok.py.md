@@ -64,6 +64,5 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ## Bonus 2 
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
-
-
+2. Can you reduce the function to a one-liner? 
 
