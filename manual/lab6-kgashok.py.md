@@ -1,6 +1,9 @@
 
 # Lab 6: find the maximum of a list of numbers. 
 
+
+## Problem statement 
+
 Implement a python program that finds the maximum in a list of numbers. The program must call a python function `getMaxNumber(numbers)` that takes as argument a list of numbers (maximum of 10 integers). It must then return the maximum number in that list. 
 
 	Sample Input1: []
@@ -13,7 +16,7 @@ Implement a python program that finds the maximum in a list of numbers. The prog
 	Sample Output3: 4
 
 
-# Lab 6 Solution 
+## Lab 6 Solution 
 
 ```python 
 
@@ -45,12 +48,12 @@ print(getMaxNumber(userList))
 ```
 
 
-# CloudCoder exercise 
+## CloudCoder exercise 
 
 http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81 
 
 
-# Viva Questions 
+## Viva Questions 
 
 1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
 2. If the list is empty, what will be the value returned from the function? 
@@ -58,14 +61,14 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 3. For Point 2, refactor the code that you have written using a ternary operator. 
 
 
-## Bonus 1 
+### Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
 
-## Bonus 2 
+### Bonus 2 
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
 
-## Bonus 3
+### Bonus 3
 
 1. How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
 
