@@ -1,4 +1,6 @@
 
+# **** NOT EVEN Draft 1.0 ******
+
 # Lab 1: Compute the gcd of two numbers. 
 
 [TOC]
@@ -22,45 +24,37 @@ Write a Python program to compute the greatest common divisor (***gcd***) of two
 ```python 
 
 
-def gcd(number1,number2):
-    
-    if number2 > number1: 
-        number1, number2 = number2, number1
-    
-    if number1 % number2 == 0: 
-        return number2 
-    else: 
-        return 1 
-    
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+def gcd(number1, number2):
+
+    if number2 > number1:
+        (number1, number2) = (number2, number1)
+
+    if number1 % number2 == 0:
+        return number2
+    else:
+        return 1
+
     return number1
 
 
-def getListOfNumbers(count=10):
-    """returns a list containing elements entered by user
-....The sequence of steps in the algorithm is:
-....#1 - initialize the list
-....#2 - Start loop for maximum of 10 entries
-........#3 - Get input from user. If not an number, break
-........#4 - Append the number to the list
-....#5 - Return the list containing numbers
-...."""
-
-    ilist = []  # 1
-    for x in range(0, count):  # 2
-        try:  # 3
-            userVal = input('Enter number ' + str(x) + ': ')
-            ilist.append(int(userVal))  # 4
-        except ValueError:
-            break  # if user enters a non-integer
-
-    return ilist  # 5
+def getTwoNumbers():
+    global a, b
+    a = int(input('Enter number: '))
+    b = int(input('Enter number: '))
 
 
 # Program starts here
-userList = getListOfNumbers(2)
-print ('List of numbers: ', userList)
-gcdVal = gcd(*userList)
+
+a = None
+b = None
+getTwoNumbers()
+gcdVal = gcd(a, b)
 print ('The gcd is ', gcdVal)
+
 
 ```
 
