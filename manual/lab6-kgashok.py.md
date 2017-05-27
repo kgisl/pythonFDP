@@ -43,7 +43,7 @@ def getMaxNumber(numbers):
 
 
 def getListOfNumbers():
-    """elements entered on stdin get append to a list
+    """returns a list containing elements entered by user
 ....The sequence of steps in the algorithm is:
 ....#1 - initialize the list
 ....#2 - Start loop for maximum of 10 entries
