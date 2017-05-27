@@ -57,7 +57,13 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 2. If the list is empty, what will be the value returned from the function? 
 3. If the list happens to be empty, then return the string `"N.A.".`. What changes will you make to the code? 
 3. For Point 2, refactor the code that you have written using a ternary operator. 
+
+
+## Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
+
+## Bonus 2 
+1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 
 
 
