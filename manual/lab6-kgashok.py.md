@@ -82,6 +82,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ## Viva Questions 
 
+0. Both the functions `getMaxNumber` and `getListOfNumbers` are not **fruitful** functions. True or False? 
 1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
 2. If the list is empty, what will be the value returned from the function? 
 3. If the list happens to be empty, then `getMaxNumber` function must return the string `"N.A.".`. What changes will you make to the code? 
