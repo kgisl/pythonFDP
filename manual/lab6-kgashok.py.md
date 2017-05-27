@@ -1,7 +1,7 @@
 
-# Lab 6 
+# Lab 6: find the maximum of a list of numbers. 
 
-Define a python function `getMaxNumber(numbers)` that takes in a list of numbers and that returns the maximum number in that list. If the list happens to be empty, then return the string `"N.A."`
+Implement a python program that finds the maximum in a list of numbers. The program must call a python function `getMaxNumber(numbers)` that takes as argument a list of numbers (maximum of 10 integers). It must then return the maximum number in that list. 
 
 	Sample Input1: []
 	Sample Output1: "N.A."
@@ -19,15 +19,45 @@ Define a python function `getMaxNumber(numbers)` that takes in a list of numbers
 
 def getMaxNumber(numbers):
 
-    max = None
+    maxval = None
     for num in numbers:
-        if not max or max < num:
-            max = num
-    return max if max else "N.A"
+        if not maxval or maxval < num:
+            maxval = num
+    return maxval if maxval else "N.A."
+
+
+def getListOfNumbers():
+    ilist = []
+    for _ in range(0, 10):
+        try:
+            userVal = int(input())
+            ilist.append(int(userVal))
+        except ValueError:
+            # if user enters a non-integer, then break
+            break
+
+    return ilist
+
+
+userList = getListOfNumbers()
+print("List of numbers: ", userList)
+print(getMaxNumber(userList))
+
 ```
 
 
 # CloudCoder exercise 
 
 http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81 
+
+
+# Viva Questions 
+
+1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
+2. If the list is empty, what will be the value returned from the function? 
+3. If the list happens to be empty, then return the string `"N.A.".`. What changes will you make to the code? 
+3. For Point 2, refactor the code that you have written using a ternary operator. 
+4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
+
+
 
