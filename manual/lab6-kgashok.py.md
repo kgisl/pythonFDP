@@ -34,7 +34,7 @@ def getListOfNumbers():
     for _ in range(0, 10):
         try:
             userVal = int(input())
-            ilist.append(int(userVal))
+            ilist.append(userVal)
         except ValueError:
             # if user enters a non-integer, then break
             break
@@ -67,7 +67,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ### Bonus 2 
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
-2. Can you reduce the function to a one-liner? 
+2. Can you reduce the function to a one-liner? Under what conditions will the one-liner function fail? 
 
 ### Bonus 3
 
