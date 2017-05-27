@@ -17,13 +17,13 @@ Define a python function `getMaxNumber(numbers)` that takes in a list of numbers
 
 ```python 
 
-	def getMaxNumber(numbers):
+def getMaxNumber(numbers):
 
-	    max = None
-	    for num in numbers:
-	        if not max or max < num:
-	            max = num
-	    return max if max else "N.A"
+    max = None
+    for num in numbers:
+        if not max or max < num:
+            max = num
+    return max if max else "N.A"
 ```
 
 
