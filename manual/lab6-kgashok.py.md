@@ -26,7 +26,7 @@ def getMaxNumber(numbers):
     for num in numbers:
         if not maxval or maxval < num:
             maxval = num
-    return maxval if maxval else "N.A."
+    return maxval
 
 
 def getListOfNumbers():
@@ -67,7 +67,8 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ### Bonus 2 
 1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
-2. Can you reduce the function to a one-liner? Under what conditions will the one-liner function fail? 
+2. Can you reduce the function to a one-liner? 
+3. Under what conditions will the one-liner function fail? 
 
 ### Bonus 3
 
