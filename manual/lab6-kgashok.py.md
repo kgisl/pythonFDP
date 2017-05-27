@@ -30,21 +30,35 @@ def getMaxNumber(numbers):
 
 
 def getListOfNumbers():
-    ilist = []
-    for _ in range(0, 10):
-        try:
-            userVal = int(input())
-            ilist.append(userVal)
+    """elements entered on stdin get append to a list
+....The sequence of steps in the algorithm is:
+....#1 - initialize the list
+....#2 - Start loop for maximum of 10 entries
+........#3 - Get input from user. If not an number, break
+........#4 - Append the number to the list
+....#5 - Return the list containing numbers
+...."""
+
+    ilist = []  # 1
+    for x in range(0, 10):  # 2
+        try:  # 3
+            userVal = input('Enter number ' + str(x) + ': ')
+            ilist.append(int(userVal))
         except ValueError:
-            # if user enters a non-integer, then break
-            break
+            break  # if user enters a non-integer
 
-    return ilist
+    return ilist  # 4
 
 
+# Program starts here
 userList = getListOfNumbers()
-print("List of numbers: ", userList)
-print(getMaxNumber(userList))
+print ('List of numbers: ', userList)
+maxNum = getMaxNumber(userList)
+print ('The largest number is ', maxNum)
+
+# Functional programming style
+print ('The largest number is ', getMaxNumber(getListOfNumbers()))
+
 
 ```
 
