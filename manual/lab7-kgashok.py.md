@@ -86,6 +86,10 @@ TBD
 
 1. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
 
-## Interview Grade 
+## Bonus 2 
 
 1. There is probably a one-line Pythonic solution for almost every complicated problem out there. That is also the case for this lab exercise. Can you figure it out? 
+
+## Interview grade
+
+Calculate the `gcd` for a list of integers using the prime factorization method. The method is well described in the video at http://j.mp/gcdVideo - use lists as part of the solution. 
