@@ -31,7 +31,7 @@ def gcd(number1, number2):
     return a
 
 
-def getTwoNumbers():
+def get_two_numbers():
     global a, b
     a = input('Enter number: ')
     b = input('Enter number: ')
@@ -41,9 +41,9 @@ def getTwoNumbers():
 # Program starts here
 a = None  # initializing variables
 b = None
-getTwoNumbers() # to get values from user 
-gcdVal = gcd(a, b) 
-print ('The gcd is ', gcdVal)
+get_two_numbers() # to get values from user 
+gcdval = gcd(a, b) 
+print ('The gcd is ', gcdval)
 
 ```
 
