@@ -62,9 +62,12 @@ Why 1 is the common factor? http://j.mp/gcdOne
 
 ## Viva Questions 
 
-0. What is the practical use of calculating the `gcd` of two numbers? 
+0. Show your manual workings for the ***gcd*** of 924 and 2562. 
+1. What is the practical use of calculating the ***`gcd`*** of two numbers? 
 1. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
 2. How does the algorithm for the `gcd` of two numbers work? What is the name for this algorithm? Why is it so special? 
+3. Why is the `global` keyword used in the function `getTwoNumbers`? 
+4. Is the function `getTwoNumbers()` fruitful or not fruitful? 
 
 
 ## Bonus 1 
