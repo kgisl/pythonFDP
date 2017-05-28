@@ -65,17 +65,18 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 
 ## Related material 
 
+How to find the gcd of two numbers using prime factorization? http://j.mp/gcdPrime
 Why 1 is the common factor? http://j.mp/gcdOne
+
 
 
 ## Viva Questions 
 
 0. What is the practical use of calculating the `gcd` of two numbers? 
 1. What is the Euclid Algorithm for finding out the `gcd` of two numbers?
-2. If you have written the recursive solution, then write the iterative solution, and vice versa. 
+2. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
 
 
 ## Bonus 1 
 4. How will find the `gcd` of three integers? 
-
 
