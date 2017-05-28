@@ -1,7 +1,7 @@
 
 # *** Draft 0.1 ***
 
-# Lab 1: Compute the gcd of two numbers. 
+# Lab 1: Compute the gcd of two numbers 
 
 [TOC]
 
@@ -55,13 +55,17 @@ getTwoNumbers() # to get values from user
 gcdVal = gcd(a, b) 
 print ('The gcd is ', gcdVal)
 
-
 ```
 
 
 ## CloudCoder Exercise 
 
 http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
+
+
+## Related material 
+
+Why 1 is the common factor? http://j.mp/gcdOne
 
 
 ## Viva Questions 
@@ -73,4 +77,5 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 
 ## Bonus 1 
 4. How will find the `gcd` of three integers? 
+
 
