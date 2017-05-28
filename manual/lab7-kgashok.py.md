@@ -25,7 +25,7 @@ Write a python program that removes all the duplicate elements in a list.
 ```python 
 
 def removeDuplicates (mlist): 
-	return mlist 
+	pass 
 
 def getListOfNumbers():
     """returns a list containing elements entered by user
@@ -73,7 +73,6 @@ TBD
 
 0. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
 
-
 ## Bonus 1 
 
 ## Bonus 2 
@@ -81,3 +80,5 @@ TBD
 ## Bonus 3
 
 ## Interview Grade 
+
+1. There is probably a one-line Pythonic solution for almost every complicated problem out there. That is also the case for this lab exercise. Can you figure it out? 
