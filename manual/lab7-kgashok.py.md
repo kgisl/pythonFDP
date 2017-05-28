@@ -29,7 +29,11 @@ Write a python program that removes all the duplicate elements in a list.
 
 
 def remove_duplicates(mlist):
-    return mlist
+	tokens = {}
+	for elem in mlist: 
+		tokens[elem] = 1 
+		
+	return tokens.keys()
 
 
 def get_list_of_elements():
@@ -76,13 +80,11 @@ TBD
 
 ## Post-Lab Questions 
 
-0. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
+0. Rewrite the code to use only lists and not a dictionary. 
 
 ## Bonus 1 
 
-## Bonus 2 
-
-## Bonus 3
+1. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
 
 ## Interview Grade 
 
