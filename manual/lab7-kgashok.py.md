@@ -7,6 +7,9 @@
 
 Write a python program that removes all the duplicate elements in a list. 
 
+	Sample Input0: [1, 2, 3, 4]
+	Sample Output0: [1, 2, 3, 4]
+
 	Sample Input1: [1, 2, 3, 4, 4]
 	Sample Output1: [1, 2, 3]
 
@@ -21,6 +24,8 @@ Write a python program that removes all the duplicate elements in a list.
 
 ```python 
 
+def removeDuplicates (mlist): 
+	return mlist 
 
 def getListOfNumbers():
     """returns a list containing elements entered by user
@@ -57,8 +62,16 @@ print ('The list after removing duplicates ', rList)
 
 TBD 
 
-## Viva Questions 
+## Pre-Lab Questions 
 
+0. What is the method available to remove an element from a list? 
+1. How will you get a list of all the keys that are present in a dictionary? 
+2. How will get a list of all the values that are present in a dictionary? 
+
+
+## Post-Lab Questions 
+
+0. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
 
 
 ## Bonus 1 
