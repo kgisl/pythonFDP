@@ -5,7 +5,7 @@
 
 ## Problem statement 
 
-Implement a python program that finds the maximum in a list of numbers. The program must call a python function `getMaxNumber` that takes as argument a list of numbers (maximum of 10 integers). It must then return the maximum number in that list. 
+Implement a python program that finds the maximum in a list of numbers. The program must call a python function `get_maxnumber` that takes as argument a list of numbers (maximum of 10 integers). It must then return the maximum number in that list. 
 
 	Sample Input1: [5]
 	Sample Output1: 5
@@ -82,10 +82,10 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ## Viva Questions 
 
-0. Both the functions `getMaxNumber` and `getListOfNumbers` are not **fruitful** functions. True or False? 
+0. Both the functions `get_maxnumber` and `get_list_of_numbers` are not **fruitful** functions. True or False? 
 1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
 2. If the list is empty, what will be the value returned from the function? 
-3. If the list happens to be empty, then `getMaxNumber` function must return the string `"N.A.".`. What changes will you make to the code? 
+3. If the list happens to be empty, then `get_maxnumber` function must return the string `"N.A.".`. What changes will you make to the code? 
 		
 		Sample Input: []     
 		Sample Output: "N.A." 
@@ -97,7 +97,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
 
 ## Bonus 2 
-1. How will you rewrite the function `getMaxNumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
+1. How will you rewrite the function `get_maxnumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
 3. Under what conditions will the one-liner function fail? 
 
