@@ -24,35 +24,40 @@ Write a python program that removes all the duplicate elements in a list.
 
 ```python 
 
-def removeDuplicates (mlist): 
-	pass 
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-def getListOfNumbers():
+
+def remove_duplicates(mlist):
+    return mlist
+
+
+def get_list_of_elements():
     """returns a list containing elements entered by user
 ....The sequence of steps in the algorithm is:
 ....#1 - initialize the list
 ....#2 - Start loop for maximum of 10 entries
-........#3 - Get input from user. If not an number, break
-........#4 - Append the number to the list
-....#5 - Return the list containing numbers
+........#3 - Get input from user. If null, break
+........#4 - Append the element to the list
+....#5 - Return the list containing elements
 ...."""
 
     ilist = []  # 1
     for x in range(0, 10):  # 2
-        try:  # 3
-            userVal = input('Enter number ' + str(x) + ': ')
-            ilist.append(int(userVal))  # 4
-        except ValueError:
-            break  # if user enters a non-integer
-
+        element = input('Enter element ' + str(x) + ': ')
+        if element:
+            ilist.append(element)  # 4
+        else:
+            break  # 3
     return ilist  # 5
 
 
 # Program starts here
-userList = getListOfNumbers()
-print ('List of elements: ', userList)
-rList = removeDuplicates(userList)
-print ('The list after removing duplicates ', rList)
+
+elist = get_list_of_elements()
+print ('List of elements: ', elist)
+nlist = remove_duplicates(elist)
+print ('The list after removing duplicates ', nlist)
 
 
 ```
