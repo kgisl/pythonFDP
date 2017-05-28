@@ -1,6 +1,4 @@
 
-# *** Draft 0.1 ***
-
 # Lab 1: Compute the gcd of two numbers 
 
 [TOC]
@@ -27,18 +25,10 @@ Write a Python program to compute the greatest common divisor (***gcd***) of two
 
 ```python 
 
-
 def gcd(number1, number2):
-
-    if number2 > number1:
-        (number1, number2) = (number2, number1)
-
-    if number1 % number2 == 0:
-        return number2
-    else:
-        return 1
-
-    return number1
+	while b:
+	    (a, b) = (b, a % b)
+    return a
 
 
 def getTwoNumbers():
@@ -73,8 +63,8 @@ Why 1 is the common factor? http://j.mp/gcdOne
 ## Viva Questions 
 
 0. What is the practical use of calculating the `gcd` of two numbers? 
-1. What is the Euclid Algorithm for finding out the `gcd` of two numbers?
-2. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
+1. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
+2. How does the algorithm for the `gcd` of two numbers work? What is the name for this algorithm? Why is it so special? 
 
 
 ## Bonus 1 
