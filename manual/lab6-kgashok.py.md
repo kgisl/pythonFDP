@@ -25,7 +25,7 @@ Implement a python program that finds the maximum in a list of numbers. The prog
 # -*- coding: utf-8 -*-
 
 
-def getMaxNumber(numbers):
+def get_maxnumber(numbers):
     """returns the maximum number in the list
 ....The sequence of steps in the algorithm is:
 ....#1 - initialize the maximum value
@@ -42,7 +42,7 @@ def getMaxNumber(numbers):
     return maxval  # 4
 
 
-def getListOfNumbers():
+def get_list_of_numbers():
     """returns a list containing elements entered by user
 ....The sequence of steps in the algorithm is:
 ....#1 - initialize the list
@@ -55,8 +55,8 @@ def getListOfNumbers():
     ilist = []  # 1
     for x in range(0, 10):  # 2
         try:  # 3
-            userVal = input('Enter number ' + str(x) + ': ')
-            ilist.append(int(userVal))  # 4
+            userval = input('Enter number ' + str(x) + ': ')
+            ilist.append(int(userval))  # 4
         except ValueError:
             break  # if user enters a non-integer
 
@@ -64,13 +64,13 @@ def getListOfNumbers():
 
 
 # Program starts here
-userList = getListOfNumbers()
-print ('List of numbers: ', userList)
-maxNum = getMaxNumber(userList)
-print ('The largest number is ', maxNum)
+ulist = get_list_of_numbers()
+print ('List of numbers: ', ulist)
+maxnum = get_maxnumber(userList)
+print ('The largest number is ', maxnum)
 
 # Functional programming style
-print ('The largest number is ', getMaxNumber(getListOfNumbers()))
+print ('The largest number is ', get_maxnumber(get_list_of_numbers()))
 
 ```
 
