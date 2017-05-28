@@ -55,8 +55,8 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 
 ## Related material 
 
-How to find the gcd of two numbers using prime factorization? http://j.mp/gcdPrime
-Why 1 is the common factor? http://j.mp/gcdOne
+- How to find the gcd of two numbers using prime factorization? http://j.mp/gcdPrime  
+- Why 1 is the common factor? http://j.mp/gcdOne
 
 
 
