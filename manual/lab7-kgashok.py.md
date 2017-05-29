@@ -79,9 +79,10 @@ TBD
 3. How will you get a list of all the `keys` that are present in a dictionary (which basically contains a key:value pair)? 
 4. How will get a list of all the `values` that are present in a dictionary? 
 5. What is the python code for building a dictionary out of 3 tuples. For e.g. 
-	> ("jan", 31)
-	> ("feb", 28) and 
-	> ("mar", 31) `
+	> ("jan", 31)  
+	> ("feb", 28) and  
+	> ("mar", 31) `  
+
 
 
 ## Post-Lab Questions 
