@@ -87,6 +87,8 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 1. If the list is a sorted list in descending order, for e.g. `[5, 4, 3, 2, -1]`, what is the maximum value? What is the python code that will access the maximum value in the list? 
 2. What is the single line python code that will return the maximum value in any list that is sorted in the descending order? 
 3. Assume that the list is already sorted, but it is not known whether it is in ascending order or descending order. In that case, what is the single line python code that will return the maximum value in the list? 
+4. What are some of the methods that are available to the `list` python data type? 
+
 
 ## Post-Lab Questions 
 1. Both the functions `get_maxnumber` and `get_list_of_numbers` are not **fruitful** functions. True or False? 
@@ -110,8 +112,11 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ## Bonus 3
 
-1. How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
+How will you find out the 2nd largest number in the list of numbers? Take into consideration that the list may contain duplicate numbers as well. 
 
+## Bonus 4 
+
+Write a program that asks the user to input 10 integers, and then prints the largest odd number that was entered. If no odd number was entered, it should print a message to that effect.
 
 ## Interview Grade 
 If `n` is the size of the list, and `1 < k < n`, how will you find the `k`th largest number in the list of numbers? (a **#GTG** challenge, a Google interview question).
