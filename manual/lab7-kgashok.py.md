@@ -92,6 +92,7 @@ TBD
 
 1. There is probably a one-line Pythonic solution for almost every complicated problem out there. That is also the case for this lab exercise. Can you figure it out? 
 2. There is even a shorter one liner if you use another powerful Python data type. Can you figure it out? 
+3. Between 1 and 2, which solution is more preferable? And why? 
 
 
 ## Interview grade
