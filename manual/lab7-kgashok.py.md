@@ -33,7 +33,7 @@ def remove_duplicates(mlist):
 	for elem in mlist: 
 		tokens[elem] = 1 
 		
-	return tokens.keys()
+	return list(tokens.keys())
 
 
 def get_list_of_elements():
@@ -91,6 +91,8 @@ TBD
 ## Bonus 2 
 
 1. There is probably a one-line Pythonic solution for almost every complicated problem out there. That is also the case for this lab exercise. Can you figure it out? 
+2. There is even a shorter one liner if you use another powerful Python data type. Can you figure it out? 
+
 
 ## Interview grade
 
