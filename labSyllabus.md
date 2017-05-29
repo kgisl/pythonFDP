@@ -26,9 +26,9 @@ Python 3 interpreter for Windows/Linux
 TOTAL:60 PERIODS
 
 
-# Bonus Lab 13 
+# Bonus Lab Integration
 
-Write the python code for the CloudCoder problem - http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229
+Solve the CloudCoder problem - http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229 . Maximum points for writing the most efficient code that is also elegant and easy to understand. 
 
 # Bonus Lab GTG 
 - Genius Project - choose an open source project of your choice from `github`. Understand the logic of the code as close as possible to 100%. 
