@@ -73,14 +73,16 @@ TBD
 
 ## Pre-Lab Questions 
 
-0. What is the method available to remove an element from a list? 
-1. How will you get a list of all the keys that are present in a dictionary? 
-2. How will get a list of all the values that are present in a dictionary? 
+0. If a list contains `[1, 2, 3, 'python', 3, 4, 'python1', 'python', 5]`, what would the list look like after all the duplicates are removed? 
+1. If a list contains `[5, 5, 5, 5, 5, 6, [1, 2, 6], [1, 2, 6]]`, what would the list contain after all the duplicates are removed? 
+2. What is the method available to remove an element from a list? 
+3. How will you get a list of all the `keys` that are present in a dictionary (which basically contains a key:value pair)? 
+4. How will get a list of all the `values` that are present in a dictionary? 
 
 
 ## Post-Lab Questions 
 
-0. Rewrite the code to use only lists and not a dictionary. 
+0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. 
 
 ## Bonus 1 
 
@@ -92,4 +94,5 @@ TBD
 
 ## Interview grade
 
-Calculate the `gcd` for a list of integers using the prime factorization method. The method is well described in the video at http://j.mp/gcdVideo - use lists as part of the solution. 
+Calculate the `gcd` for a list of integers using the prime factorization method. The method is well described in the video at http://j.mp/gcdPrime - use lists as part of the solution. 
+
