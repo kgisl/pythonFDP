@@ -45,7 +45,6 @@ user_number = int(input('Input number: '))
 sqroot_number = square_root(user_number)
 print ('The square root of ', user_number, 'is ', sqroot_number)
 
-
 ```
 
 
@@ -61,6 +60,9 @@ TBD
 
 
 ## Post-Lab Questions 
+
+0. Why is the `guess` initialized to `guess = k / 2.0` and not simply `guess = k / 2`?
+1. There is an in-built function for square root calculation? What is it? Compare it with the value that you have generated through your own program. 
 
 
 ## Bonus 1 
