@@ -26,19 +26,22 @@ Implement a python program that determines the square root of a number using the
 
 
 def square_root(number):
-	#Newton-Raphson for square root
-	#Find x such that x**2 - 24 is within epsilon of 0
-	
-	epsilon = 0.01
-	k       = number
-	guess   = k/2.0
-	while abs(guess*guess - k) >= epsilon:
-		guess = guess - (((guess**2) - k)/(2*guess))
-	print 'Square root of', k, 'is about', guess
-	return guess
+
+    # Newton-Raphson for square root
+    # Find x such that x**2 - 24 is within epsilon of 0
+
+    epsilon = 0.01
+    k = number
+    guess = k / 2.0
+    while abs(guess * guess - k) >= epsilon:
+        guess = guess - (guess ** 2 - k) / (2 * guess)
+    print 'Square root of', k, 'is about', guess
+    return guess
+
 
 # Program starts here
-number = input ("Input number: ") 
+
+number = input('Input number: ')
 sqroot_number = square_root(number)
 print ('The square root of ', number, 'is ', sqroot_number)
 
@@ -53,8 +56,8 @@ TBD
 
 ## Pre-Lab Questions 
 
-0. What is the square root of 4? of 9? of 20?  (Use your calculator if you have to)
-1. Manually work out the square root of 20 using the Newton method and show your workings. 
+0. What is the `square root` of 4? of 9? of 20?  (Use your calculator if you have to)
+1. Manually work out the `square root` of 20 using the Newton method and show your workings. 
 
 
 ## Post-Lab Questions 
