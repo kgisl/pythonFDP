@@ -32,9 +32,9 @@ def gcd(number1, number2):
 
 
 def get_two_numbers():
-    global a, b
-    a = input('Enter number: ')
-    b = input('Enter number: ')
+    global a, b  
+    a = input('Enter number: ')  
+    b = input('Enter number: ')  
 	a, b =  int (a), int (b)
 
 
