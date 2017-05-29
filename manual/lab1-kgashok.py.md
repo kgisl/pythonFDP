@@ -26,16 +26,16 @@ Write a Python program to compute the greatest common divisor (***gcd***) of two
 ```python 
 
 def gcd(number1, number2):
-	while b:
+    while b:
 	    (a, b) = (b, a % b)
     return a
 
 
 def get_two_numbers():
     global a, b  
-    a = input('Enter number: ')  
-    b = input('Enter number: ')  
-	a, b =  int (a), int (b)
+    a = input('Enter number: ')
+    b = input('Enter number: ')
+    a, b =  int (a), int (b)
 
 
 # Program starts here
