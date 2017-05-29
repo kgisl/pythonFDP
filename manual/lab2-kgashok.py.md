@@ -30,8 +30,8 @@ def square_root(number):
 	#Find x such that x**2 - 24 is within epsilon of 0
 	
 	epsilon = 0.01
-	k = 24.0
-	guess = k/2.0
+	k       = number
+	guess   = k/2.0
 	while abs(guess*guess - k) >= epsilon:
 		guess = guess - (((guess**2) - k)/(2*guess))
 	print 'Square root of', k, 'is about', guess
@@ -72,7 +72,7 @@ TBD
 Add some code to the implementation of Newton-Raphson that keeps track of the number of iterations used to find the root. Use that code as part of a program that compares the efficiency of Newton-Raphson and bisection search. Please report which is more efficient. And by how much. 
 
 
-# The Newton Method 
+## The Newton Method 
 
 The most commonly used approximation algorithm is usually attributed to Isaac Newton. It is typically called Newton’s method, but is sometimes referred to as the Newton-Raphson method.15 It can be used to find the real roots of many functions, but we shall look at it only in the context of finding the real roots of a polynomial with one variable. The generalization to polynomials with multiple variables is straightforward both mathematically and algorithmically.
 
