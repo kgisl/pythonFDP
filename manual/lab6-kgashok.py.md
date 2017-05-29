@@ -80,9 +80,16 @@ print ('The largest number is ', get_maxnumber(get_list_of_numbers()))
 http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81 
 
 
-## Viva Questions 
+## Pre-Lab Questions 
 
-0. Both the functions `get_maxnumber` and `get_list_of_numbers` are not **fruitful** functions. True or False? 
+0. If the list is a sorted list in ascending order, for e.g. `[1, 2, 3, 4, 5, 6]`, what is the maximum value? What is the python code that will access the maximum value in the list? 
+1. What is the single line python code that will return the maximum value any list that is sorted in the ascending order? 
+1. If the list is a sorted list in descending order, for e.g. `[5, 4, 3, 2, -1]`, what is the maximum value? What is the python code that will access the maximum value in the list? 
+2. What is the single line python code that will return the maximum value in any list that is sorted in the descending order? 
+3. Assume that the list is already sorted, but it is not known whether it is in ascending order or descending order. In that case, what is the single line python code that will return the maximum value in the list? 
+
+## Post-Lab Questions 
+1. Both the functions `get_maxnumber` and `get_list_of_numbers` are not **fruitful** functions. True or False? 
 1. How will you find the minimum of the values in a list of numbers? What change will you make to the code? 
 2. If the list is empty, what will be the value returned from the function? 
 3. If the list happens to be empty, then `get_maxnumber` function must return the string `"N.A.".`. What changes will you make to the code? 
@@ -108,3 +115,4 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 ## Interview Grade 
 If `n` is the size of the list, and `1 < k < n`, how will you find the `k`th largest number in the list of numbers? (a **#GTG** challenge, a Google interview question).
+
