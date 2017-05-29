@@ -24,3 +24,18 @@
 Python 3 interpreter for Windows/Linux
 
 TOTAL:60 PERIODS
+
+
+# Bonus Lab Integration
+
+Solve the CloudCoder problem - http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229 . Maximum points for writing the most efficient code that is also elegant and easy to understand. 
+
+# Bonus Lab GTG 
+- Genius Project - choose an open source project of your choice from `github`. Understand the logic of the code as close as possible to 100%. 
+- Make changes to the code to improve the efficiency or effectiveness or create meaningful extensions. 
+- Pre-register with your faculty to indicate that you want to complete this project with mentoring help 
+- If you win the Python Genius Project Competition which will be held in the week of Sept 6, 2017, you will be awarded a prize for the best `GTG Project`,  worth upto Rs 10,000 
+
+
+
+
