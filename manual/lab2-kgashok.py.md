@@ -35,7 +35,6 @@ def square_root(number):
     guess   = k / 2.0
     while abs(guess * guess - k) >= epsilon:
         guess = guess - (guess ** 2 - k) / (2 * guess)
-    print ('Square root of', k, 'is about', guess)
     return guess
 
 
@@ -43,7 +42,7 @@ def square_root(number):
 
 user_number = int(input('Input number: '))
 sqroot_number = square_root(user_number)
-print ('The square root of ', user_number, 'is ', sqroot_number)
+print ('The square root of ', user_number, 'is about ', sqroot_number)
 
 ```
 
