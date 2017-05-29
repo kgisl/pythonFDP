@@ -31,7 +31,7 @@ TOTAL:60 PERIODS
 Solve the CloudCoder problem - http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229 . Maximum points for writing the most efficient code that is also elegant and easy to understand. 
 
 # Bonus Lab GTG 
-- Genius Project - choose an open source project of your choice from `github`. Understand the logic of the code as close as possible to 100%. 
+- Genius Project - choose an open source project of your choice from `github`. If you are mechanical engineer, choose a project that is related to your discipline. Make a serious attempt to understand 100%  of the logic of the code. 
 - Make changes to the code to improve the efficiency or effectiveness or create meaningful extensions. 
 - Pre-register with your faculty to indicate that you want to complete this project with mentoring help 
 - If you win the Python Genius Project Competition which will be held in the week of Sept 6, 2017, you will be awarded a prize for the best `GTG Project`,  worth upto Rs 10,000 
