@@ -27,7 +27,7 @@ Write a Python program to compute the greatest common divisor (***gcd***) of two
 
 def gcd(number1, number2):
     while b:
-	    (a, b) = (b, a % b)
+        (a, b) = (b, a % b)
     return a
 
 
