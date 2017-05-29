@@ -31,19 +31,19 @@ def square_root(number):
     # Find x such that x**2 - 24 is within epsilon of 0
 
     epsilon = 0.01
-    k = number
-    guess = k / 2.0
+    k       = number
+    guess   = k / 2.0
     while abs(guess * guess - k) >= epsilon:
         guess = guess - (guess ** 2 - k) / (2 * guess)
-    print 'Square root of', k, 'is about', guess
+    print ('Square root of', k, 'is about', guess)
     return guess
 
 
 # Program starts here
 
-number = input('Input number: ')
-sqroot_number = square_root(number)
-print ('The square root of ', number, 'is ', sqroot_number)
+user_number = int(input('Input number: '))
+sqroot_number = square_root(user_number)
+print ('The square root of ', user_number, 'is ', sqroot_number)
 
 
 ```
