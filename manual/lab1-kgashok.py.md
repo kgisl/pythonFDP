@@ -73,3 +73,6 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 ## Bonus 1 
 4. How will find the `gcd` of three integers? 
 
+## Related Material 
+
+http://j.mp/gcdDemo 
