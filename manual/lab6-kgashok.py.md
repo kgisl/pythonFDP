@@ -102,8 +102,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 8. What is the value of `L` after you run the code below?
 
-![Imgur](http://i.imgur.com/0VP4CHb.png)
-
+![Imgur](http://i.imgur.com/3WRTL5N.png)
 
 
 ## Post-Lab Questions 
@@ -139,4 +138,4 @@ If `n` is the size of the list, and `1 < k < n`, how will you find the `k`th lar
 
 ## Related Links
 
-https://goo.gl/mH28cw
+https://goo.gl/v7ephq
