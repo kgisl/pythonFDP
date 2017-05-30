@@ -88,6 +88,19 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 2. What is the single line python code that will return the maximum value in any list that is sorted in the descending order? 
 3. Assume that the list is already sorted, but it is not known whether it is in ascending order or descending order. In that case, what is the single line python code that will return the maximum value in the list? 
 4. What are some of the methods that are available to the `list` python data type? 
+5. What is the output of the following python code?
+ 
+		for x in [1, 3, 5, 7]: 
+			print (x) 
+		
+6. What is the output of the following python code? 
+		
+		for elem in [ 1, 2, 3, 'abc', 99]: 
+			print (elem*2) 
+
+7. What is the python code for outputting all the odd integers from 3 to 44? 
+
+
 
 
 ## Post-Lab Questions 
