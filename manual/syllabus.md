@@ -9,28 +9,24 @@
 
 |Sequence | Objective|
 |:-------|:-----------|
-|lab1 | Compute the GCD of two numbers |
-|lab2 | Find the square root of a number (Newton’s method)
-|lab3 | Exponentiation (power of a number)
-|lab4 | Linear search and Binary search
-|lab5 | First n prime numbers
-|lab6 | Find the maximum of a list of numbers
-|lab7 | Removing  all the duplicate elements in a list
-|lab8 | Selection sort, Insertion sort
-|lab9 | Merge sort, Quick sort
-|lab10 | Multiply matrices
-|lab11 | Programs that take command line arguments (word count)
-|lab12 | Find the most frequent words in a text read from a file
+|lab 1 | Compute the GCD of two numbers |
+|lab 2 | Find the square root of a number (Newton’s method)
+|lab 3 | Exponentiation (power of a number)
+|lab 4 | Linear search and Binary search
+|lab 5 | First n prime numbers
+|lab 6 | Find the maximum of a list of numbers
+|lab 7 | Removing  all the duplicate elements in a list
+|lab 8 | Selection sort, Insertion sort
+|lab 9 | Merge sort, Quick sort
+|lab 10 | Multiply matrices
+|lab 11 | Programs that take command line arguments (word count)
+|lab 12 | Find the most frequent words in a text read from a file
+|Lab Integration| Solve the CloudCoder problem at  http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229. Maximum points for writing the most efficient code that is also elegant and easy to understand. 
+
 	 
-# Platform needed
-Python 3 interpreter for Windows/Linux
-
-TOTAL:60 PERIODS
-
-
-# Bonus Lab Integration
-
-Solve the CloudCoder problem - http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229 . Maximum points for writing the most efficient code that is also elegant and easy to understand. 
+## Platform needed
+- Python 3 interpreter for Windows/Linux
+- Total: 60 Periods 
 
 # Bonus Lab GTG 
 - Genius Project - choose an open source project of your choice from `github`. If you are mechanical engineer, choose a project that is related to your discipline. Make a serious attempt to understand 100%  of the logic of the code. 
