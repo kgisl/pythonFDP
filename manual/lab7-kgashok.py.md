@@ -83,9 +83,6 @@ TBD
 	> ("feb", 28) and  
 	> ("mar", 31) `  
 
-8. What is the value of `L` after you run the code below?
-
-![Imgur](http://i.imgur.com/0VP4CHb.png)
 
 
 
