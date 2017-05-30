@@ -100,6 +100,9 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 7. What is the python code for outputting all the odd integers from 3 to 44? 
 
+8. What is the value of `L` after you run the code below?
+
+![Imgur](http://i.imgur.com/0VP4CHb.png)
 
 
 
