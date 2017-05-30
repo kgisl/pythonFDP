@@ -83,7 +83,9 @@ TBD
 	> ("feb", 28) and  
 	> ("mar", 31) `  
 
+8. What is the value of `L` after you run the code below?
 
+![Imgur](http://i.imgur.com/0VP4CHb.png)
 
 
 
@@ -106,3 +108,6 @@ TBD
 
 Calculate the `gcd` for a list of integers using the prime factorization method. The method is well described in the video at http://j.mp/gcdPrime - use lists as part of the solution. 
 
+## Related Links 
+
+https://goo.gl/mH28cw
