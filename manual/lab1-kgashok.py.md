@@ -76,3 +76,5 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 ## Related Material 
 
 http://j.mp/gcdDemo 
+
+![recursionImage](http://i.imgur.com/vXBg7rb.png)
