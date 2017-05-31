@@ -1,3 +1,4 @@
+
 # COURSE OBJECTIVES
     To write, test, and debug simple Python programs.
     To implement Python programs with conditionals and loops.
@@ -35,5 +36,6 @@
 - If you win the Python Genius Project Competition which will be held in the week of Sept 6, 2017, you will be awarded a prize for the best `GTG Project`,  worth upto Rs 10,000 
 
 
+### Regsitation Link : http://bit.ly/2rSW0Hs
 
 
