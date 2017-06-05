@@ -20,7 +20,9 @@ A sample [file](lab6-kgashok.py.md) is provided with contains
 
 1. Please create github accounts and start adding in your respective names. 
 2. Make sure that you are checking coding standards against PEP-8 guidelines. http://pep8online.com/checkresult
+    - Coding style guidelines - http://python-guide-pt-br.readthedocs.io/en/latest/writing/style/
+    - https://www.python.org/dev/peps/pep-0008/#other-recommendations
+
 3. Make sure that the code compiles and logically correct as well. 
 4. Multiple contributions will be evaluated, and the best will be chosen to be part of the lab manual. 
 5. Follow the PEP8 Coding conventions, especially for function names - http://pep8.org/#function-names
-6. Coding style guidelines - http://python-guide-pt-br.readthedocs.io/en/latest/writing/style/
