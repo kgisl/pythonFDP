@@ -116,6 +116,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 3. For Point 2, refactor the code that you have written using a ternary operator. 
 
+4. Write the recursive version for finding the maximum value in a list. 
 
 ## Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
