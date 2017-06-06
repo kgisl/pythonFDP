@@ -14,7 +14,7 @@ Write a python program to do linear search operations on a list
 8. Find the position of the Element.
 9. Find the List is Sorted or not.
 
-## Solution Key
+## Solution Key for Linear Search
 ```python
 def sizeOfList(list):
     return len(list)
@@ -358,3 +358,6 @@ if __name__ == '__main__':
 ```
 ## PythonTutor Visualizer
 http://rajasekaranap.github.io/lins.html
+
+## CyberDojo Link Updated
+http://10.100.8.8/kata/edit/86A713A750?avatar=moose
