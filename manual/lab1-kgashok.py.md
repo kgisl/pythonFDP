@@ -31,7 +31,7 @@ def gcd(number1, number2):
     return a
 
 
-def get_two_numbers():
+def get_twonumbers():
     global a, b  
     a = input('Enter number: ')
     b = input('Enter number: ')
@@ -41,7 +41,7 @@ def get_two_numbers():
 # Program starts here
 a = None  # initializing variables
 b = None
-get_two_numbers() # to get values from user 
+get_twonumbers() # to get values from user 
 gcdval = gcd(a, b) 
 print ('The gcd is ', gcdval)
 
@@ -60,15 +60,18 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 
 
 
-## Viva Questions 
+## Pre-Lab Questions 
 
 0. Show your manual workings for the ***gcd*** of 924 and 2562. 
 1. What is the practical use of calculating the ***`gcd`*** of two numbers? 
-1. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
-2. How does the algorithm for the `gcd` of two numbers work? What is the name for this algorithm? Why is it so special? 
-3. Why is the `global` keyword used in the function `getTwoNumbers`? 
-4. Is the function `getTwoNumbers()` fruitful or not fruitful? 
+2. If you have written the recursive solution of the Euclid algorithm, then write the iterative solution, and vice versa. 
+3. How does the algorithm for the `gcd` of two numbers work? What is the name for this algorithm? Why is it so special? 
+4. Why is the `global` keyword used in the function `get_twonumbers`? 
+5. Is the function `get_twonumbers()` fruitful or not fruitful? 
 
+## Post-lab Questions
+
+0. What if `a` or/and `b` are negative integers? How will you need to modify the logic of the program? 
 
 ## Bonus 1 
 4. How will find the `gcd` of three integers? 
