@@ -1,3 +1,7 @@
+
+#Solution for BinarySearch
+```python
+
 def Bsearch(lst,searchElement):
     lst.sort()
     length=len(lst)
@@ -19,4 +23,4 @@ def Bsearch(lst,searchElement):
             left=middle+1
     
     return "The Element is not present in the list"
- 
+ ```
