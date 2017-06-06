@@ -71,7 +71,7 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 
 ## Post-lab Questions
 
-0. What if `a` or/and `b` are negative integers? How will you need to modify the logic of the program? 
+0. What if `a` or/and `b` are negative integers? How will you modify the program to handle this? 
 
 ## Bonus 1 
 4. How will find the `gcd` of three integers? 
