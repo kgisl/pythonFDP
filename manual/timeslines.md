@@ -12,6 +12,7 @@ Deadlines:
   As 7 faculties handling 1st year python classes, so 5 of them can prepare for theory, each one unit.
 
   From IT - Mr. Rajasekar  and Ms. Dhanalakshmi will be preparing material for First Two Units.
+  
 
   Version 1: June 16th 
 
@@ -64,4 +65,9 @@ Plan to complete the Lab Experiments.
 		Lab 11 - 11th Experiment
 		Lab 12 - 12th Experiment
 		Lab 13 - Model Exam
+		
+Unit 1 & 2 : Mr Rajasekaran & Mrs Dhanalakshmi 
+Unit 3 : Mr Nandhakuamr
+Unit 4 : Mr Ashok R
+Unit 5 : Ms Pricilla & Ms Divya
 
