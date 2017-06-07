@@ -19,7 +19,7 @@ A sample [file](lab6-kgashok.py.md) is provided with contains
 ### Guidelines
 
 1. Please create github accounts and start adding in your respective names. 
-2. Make sure that you are checking coding standards against PEP-8 guidelines. http://pep8online.com/checkresult
+2. Make sure that you are checking coding standards against PEP-8 guidelines. http://pep8online.com/
     - Follow the PEP8 Coding conventions, especially for function names - http://pep8.org/#function-names
     - https://www.python.org/dev/peps/pep-0008/#other-recommendations
     - Coding style guidelines - http://python-guide-pt-br.readthedocs.io/en/latest/writing/style/
