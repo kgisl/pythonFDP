@@ -4,6 +4,7 @@
 
 Write a Python program to compute the power of a given number.
 
+```
 Sample Input1: 2,3
 Sample Output1: 8
 
@@ -18,6 +19,8 @@ Sample Output4: 0.125
 
 Sample Input4: 2, "ab"
 Sample Output4: Invalid Input
+```
+
 
 ## Solution Key
 
