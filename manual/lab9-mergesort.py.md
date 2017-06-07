@@ -29,31 +29,33 @@ Output="Invalid input"
 
 ```python
 def mergesort(numbers):
-    #checks for the empty list or the list with single element
-    if not numbers or len(numbers)==1:
+    # check for the empty list or the list with single element
+    if not numbers or len(numbers) == 1:
         return numbers
-    # recursive splitting (Divide)   
-    else:        
-        mid=len(numbers)//2        
-        left=mergesort(numbers[:mid])        
-        right=mergesort(numbers[mid:])        
-        return merge(left,right)
+    # recursive splitting (Divide)
+    else:
+        mid = len(numbers)//2
+        left = mergesort(numbers[:mid])
+        right = mergesort(numbers[mid:])
+        return merge(left, right)
 
-def merge(left,right):
+
+def merge(left, right):
     # left and right are the sorted lists to be merged
     # The merged list after sorting
-    merged=[]
-    # Loops till left or right becomes empty
+    merged = []
+    # Loop till left or right becomes empty
     while left and right:
-        #removing the minimum of left[0] and right[0] and additing it to the merged list        
-        if left[0]<right[0]:
-            merged+=[left.pop(0)]            
+        # remove the minimum of left[0] and right[0]
+        # and add it to the merged list
+        if left[0] < right[0]:
+            merged += [left.pop(0)]
         else:
-            merged+=[right.pop(0)]            
-    #adding the remaining elements of left, if any
-    merged+=left
-    #adding the remaining elements of right, if any
-    merged+=right    
+            merged += [right.pop(0)]
+    # add the remaining elements of left, if any
+    merged += left
+    # add the remaining elements of right, if any
+    merged += right
     return merged
 
 ```
@@ -185,17 +187,17 @@ if __name__ == '__main__':
 
 ```python
 def mergesort(numbers):
-    #Top level function to validate the input once
+    # Top level function to validate the input once
     if not is_valid(numbers):
         return "Invalid input"
-    return split(numbers) # Original `mergedsort` function is renamed as `split`
+    # Original `mergedsort` function is renamed as `split`    
+    return split(numbers) 
     
 def is_valid(numbers):
-    if(type(numbers)!=list):
+    if(type(numbers) != list):
         return False
     for elem in numbers:
-        if type(elem)!=int and type(elem)!=float:
+        if not isinstance(elem, int) and not isinstance(elem, float):
             return False
     return True
-
 ```
