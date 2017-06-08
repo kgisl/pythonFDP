@@ -1,12 +1,12 @@
 
-# Lab 12: Compute the most frequently used words from the text file.
+# Lab 12: Compute the most frequently used words from the text file
 
 
 ## Problem statement 
 
 Write a Python program to compute the most frequently used words from the text file.
 
-
+```
 sample input 0: the peacock is the beautiful bird...
 sample output 0: the
 
@@ -15,7 +15,8 @@ sample output 1: sea
 
 sample input 2: It is a quite easy program
 sample output 2: There are no frequently used words
-	
+```
+
 
 
 ## Solution Key
@@ -23,7 +24,7 @@ sample output 2: There are no frequently used words
 ```python 
 
 def word_freq():
-    max = 0 
+    max = 0
     val = ''
     counter = {}
     f = open('animal.txt', 'r')
@@ -32,9 +33,9 @@ def word_freq():
     for i in range(len(words)):
         words[i] = words[i].strip(',:.;')
         if words[i].lower() not in counter:
-           counter[words[i].lower()] = 1
+            counter[words[i].lower()] = 1
         else:
-           counter[words[i].lower()] += 1
+            counter[words[i].lower()] += 1
     for i in counter.keys():
         if counter[i] > max:
             max = counter[i]
@@ -46,14 +47,16 @@ def word_freq():
 
 ## CloudCoder Exercise 
 
+- To be created. 
+
 ## Pre Lab Questions 
-1. Why max value is initialised to 0?
-2. What is he purpose of counter={}?
-3. What will the split() function do?
+1. Why is `max` value is initialised to `0`?
+2. What is the purpose of `counter={}`?
+3. What will the `split()` function do?
 
 ## Post Lab Questions
-1. What are the other inbuilt functions that can be used for this program?
-2. How do you give the input directly in the program instead of taking the input from .txt file?
+1. What are the other `inbuilt` Python functions that can be used for this program?
+2. How do you give the input directly in the program instead of taking the input from `.txt` file?
 
 
 ## Bonus 1 
