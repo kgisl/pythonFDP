@@ -46,11 +46,14 @@ def word_freq():
 
 ## CloudCoder Exercise 
 
+## Pre Lab Questions 
+1. Why max value is initialised to 0?
+2. What is he purpose of counter={}?
+3. What will the split() function do?
 
-## Related material 
-
-
-## Viva Questions 
+## Post Lab Questions
+1. What are the other inbuilt functions that can be used for this program?
+2. How do you give the input directly in the program instead of taking the input from .txt file?
 
 
 ## Bonus 1 
