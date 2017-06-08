@@ -83,9 +83,11 @@ TBD
 	> ("feb", 28) and  
 	> ("mar", 31) `  
 
-8. What is the value of `L` after you run the code below?
+6. A list contains `n` elements (where `n` is a positive integer and  `0 > n > 10`. Write the necessary python code to produce a list that contains only the last `n-1` elements. Is there a version of the code that does not use any `list` methods whatsoever to achieve the same result? 
 
-![Imgur](http://i.imgur.com/3WRTL5N.png)
+7. What is the value of `L` after you run the code below?
+
+> ![Imgur](http://i.imgur.com/3WRTL5N.png)
 
 
 
