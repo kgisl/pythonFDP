@@ -116,6 +116,8 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 4. Write the recursive version for finding the maximum value in a list. 
 
+5. How can you create a static variable inside a python function? Give an example. 
+
 ## Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
 
