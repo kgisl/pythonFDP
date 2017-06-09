@@ -13,7 +13,7 @@ Tools / concepts introduced
 5. Online REPL repl.it 
 6. Local Geany + Python IDLE 
 7. CyberDojo for TDD and incremental learning / thinking 
-	- http://j.mp/customPython 
+	- http://j.mp/customPython - select the 1st iteration and do a "fork"
 8. **unittest** Testing framework 
 9. Python online documentation 
 
