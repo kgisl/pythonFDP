@@ -5,15 +5,17 @@
 # Tools / concepts introduced
 
 Tools / concepts introduced 
-	1. Github and Gitter
-	2. http://www.Peponline.com  
-	3. Markdown format for documentation
-	4. PythonTutor.com 
-	5. Online REPL repl.it 
-	6. Local Geany + Python IDLE 
-	7. CyberDojo for TDD and incremental learning / thinking 
-	8. **unittest** Testing framework 
-	8. Python online documentation 
+
+1. Github and Gitter
+2. http://www.Peponline.com  
+3. Markdown format for documentation
+4. PythonTutor.com 
+5. Online REPL repl.it 
+6. Local Geany + Python IDLE 
+7. CyberDojo for TDD and incremental learning / thinking 
+	- http://j.mp/customPython 
+8. **unittest** Testing framework 
+9. Python online documentation 
 
 
 
