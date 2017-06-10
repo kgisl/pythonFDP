@@ -25,16 +25,15 @@ def prime(min, max):
     primeList = []
     if type(min) == str or type(max) == str:
         return "Invalid Range"
-    for num in range(min,max+ 1):
-       # prime numbers are greater than 1
-       if num > 1:
-           for i in range(2,num):
-               if (num % i) == 0:
-                   break
-           else:
-               primeList.append(num)
+    for num in range(min, max + 1):
+        # prime numbers are greater than 1
+        if num > 1:
+            for i in range(2, num):
+                if num % i == 0:
+                    break
+            else:
+                primeList.append(num)
     return primeList
-
 ```
 
 ## CloudCoder Exercise 
