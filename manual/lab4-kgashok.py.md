@@ -27,7 +27,7 @@ def binary_search(myl, token):
             right = mid - 1
         else:
             left  = mid + 1
-
+            
     return found
 
 # Recursive Version
@@ -37,16 +37,17 @@ def binary_search_r(myl, token):
     right = len(myl)-1
     mid   = (right + left)//2
 
+	# Terminal conditions for the recursion
     if len(myl) == 0:
         return False
     if myl[mid] == token:
         return True
-
+        
+	# Preparing the arguments for the next recursive call
     if myl[mid] > token:
         myl = myl[:mid]
     else:
         myl = myl[mid:]
-
     return binary_search_r(myl, token)
 
 
