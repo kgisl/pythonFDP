@@ -85,8 +85,7 @@ The test  image looks like this:
 The binary search test output looks like this:
 ![code](https://rawgit.com/kgisl/pythonFDP/master/img/binarySearchTestOutput.png)
 
-There are four calls made to the `binary_search_recursive` function. What change must be made to the code to reduce the number of calls to three? 
-
+As per the test output, there are four calls made to the `binary_search_recursive` function before the result is arrived at. What change(s) must be made to the code to reduce the number of calls to three? 
 
 
 ## Related Material
