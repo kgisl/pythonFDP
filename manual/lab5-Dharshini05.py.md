@@ -5,16 +5,16 @@
 
 ## Problem statement 
 
-Implement a python program that finds the first n prime numbers. 
+Implement a python program that finds the first `n` prime numbers. 
 
-	Sample Input1: [1,10]
-	Sample Output1: [2,3,5,7]
-	
-	Sample Input2: [7000,7005]
-	Sample Output2: [7001]
-	
-	Sample Input3: ["hello","world"]
-	Sample Output3: Invalid Range
+    Sample Input1: [1,10]
+    Sample Output1: [2,3,5,7]
+
+    Sample Input2: [7000,7005]
+    Sample Output2: [7001]
+
+    Sample Input3: ["hello","world"]
+    Sample Output3: Invalid Range
 
 
 ## Solution Key
