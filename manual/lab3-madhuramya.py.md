@@ -87,6 +87,8 @@ def expofloat(x,n):
 
 ## Related Material 
 
+Review https://stackoverflow.com/questions/327002/which-is-faster-in-python-x-5-or-math-sqrtx
+
 ## Cyber Dojo Link
 http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=rhino
 
