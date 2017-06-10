@@ -1,5 +1,5 @@
 
-# Lab 5 : find n prime numbers. 
+# Lab 5 : find n prime numbers
 
 [TOC]
 
@@ -50,4 +50,6 @@ def prime(min, max):
 
 ## Related Links
 
-### CDlINK : http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf
+### CyberDojo Link
+
+http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf
