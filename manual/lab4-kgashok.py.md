@@ -1,13 +1,21 @@
-# Lab 4 : Linear and Binary Search 
+# Lab 4: Linear and Binary Search 
 
 Given a list containing a list of numbers, find a number in the list using linear search and binary search algorithms. 
 
 
 ```python
+def linear_search(myl, token):
+    found = False
+    for number in myl:
+        if number == token:
+            found = True
+            break
+    return found
+
 def binary_search(myl, token):
     found = False
 
-    left = 0
+    left  = 0
     right = len(myl)-1
 
     while left <= right and not found:
@@ -20,14 +28,6 @@ def binary_search(myl, token):
         else:
             left  = mid + 1
 
-    return found
-
-def linear_search(myl, token):
-    found = False
-    for number in myl:
-        if number == token:
-            found = True
-            break
     return found
 
 # Recursive Version
@@ -69,10 +69,13 @@ if __name__ == '__main__':
 ## Pre-Lab Questions
 
 0. How to calculate midpoint of a list? Which operator is most relevant? 
-1. Both `Linear search` and `Binary search` expect that the input list to be always sorted. If the list is not sorted, both algorithms will not work. True or False? 
+1. Both `Linear search` and `Binary search` expect that the input list to be always sorted. If the list is not sorted, both algorithms will not work. True or False? Explain.
 
 
 ## Post-Lab Questions
+
+1. If the list has 10,000 unsorted positive integers and the number you are searching for is between 1 and 10, which search algorithm will you choose? Binary or Linear? Why? 
+
 
 ## Bonus 
 
