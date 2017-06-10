@@ -52,4 +52,4 @@ def prime(min, max):
 
 ### CyberDojo Link
 
-http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf
+http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf or [alt](http://cyberdojo1.kgfsl.com/kata/edit/FECB42D487?avatar=wolf) 
