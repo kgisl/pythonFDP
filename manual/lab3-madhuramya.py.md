@@ -32,7 +32,7 @@ def expo(x, n):
     if n == 0:
         return 1
     elif n > 0:
-        while n! = 0:
+        while n != 0:
             result = result * x
             n -= 1
         return round(result, 2)
@@ -59,11 +59,12 @@ def expofloat(x, n):
         r = int(n)
         c = r
         m = n % r
-        while r! = 0:
+        while r != 0:
             result = result * x
             r += 1
         p = pow(x, m)
         return round(1/result * p, 2)
+
 
 ```
 
