@@ -5,16 +5,16 @@
 
 ## Problem statement 
 
-  Write a Python Program to implement Matrix Multiplication
+Write a Python Program to implement Matrix Multiplication
 
-  Sample Input0    : [[1, 2], [1, 2]], [[1, 2], [1, 2]]
-  Sample Output0   : [[3, 6], [3, 6]]
+    Sample Input0    : [[1, 2], [1, 2]], [[1, 2], [1, 2]]
+    Sample Output0   : [[3, 6], [3, 6]]
 
-  Sample Input1    : [[1, 1], [1, 1]], [[1, 2, 1], [1, 2, 1]]
-  Sample Output1   : [2, 4, 2], [2, 4, 2]
+    Sample Input1    : [[1, 1], [1, 1]], [[1, 2, 1], [1, 2, 1]]
+    Sample Output1   : [2, 4, 2], [2, 4, 2]
 
-  Sample Input2    : [[1, 1], [1, 1]], [[1, 2], [1, 2], [1, 2]]
-  Sample Output2   : Cannot multiply the matrices. Incorrect dimensions.	
+    Sample Input2    : [[1, 1], [1, 1]], [[1, 2], [1, 2], [1, 2]]
+    Sample Output2   : Cannot multiply the matrices. Incorrect dimensions.	
 
 
 
@@ -23,6 +23,9 @@
 
 ```python 
 
+def print_matrix(matrix):
+    return "\n".join((("{:<5}"*len(row)).format(*row))for row in matrix)
+    
 def matrixmulti(X, Y):
     result = [[0 for col in range(len(Y[0]))] for row in range(len(X))]
 
@@ -35,6 +38,7 @@ def matrixmulti(X, Y):
             for k in range(len(Y)):
                 result[i][j] += X[i][k] * Y[k][j]
     
+    print(print_matrix(result))
     return result
 
 
