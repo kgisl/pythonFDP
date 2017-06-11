@@ -5,7 +5,13 @@
 
 ### 1. Differentiate between parameters and arguments. 
 
+![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
 
+**Argument Definition**
+![argument](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/argumentGlossary.jpeg)
+
+**Parameter Definition**
+![parameter](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/parameterGlossary.jpeg)
 ### 2. Explain Immutability with reference to the various data types in Python. 
 
 ![immutable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
