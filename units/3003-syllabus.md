@@ -1,4 +1,5 @@
 
+ [TOC]
  
 # PROBLEM SOLVING AND PROGRAMMING              L T P C 3003
 
@@ -36,16 +37,17 @@ Decompose a Python program into functions.
 Represent compound data using Python  lists, tuples, dictionaries.
 Read and write data from/to files in Python Programs.
  
-### TEXT BOOKS:
+### TEXT BOOKS
 Allen B. Downey, ``Think Python: How to Think Like a Computer Scientist’’,  2nd edition, Updated for Python 3, Shroff/O’Reilly Publishers, 2016  (http://greenteapress.com/wp/think-python/)
  
-REFERENCES:
-John V Guttag, “Introduction to Computation and Programming Using Python’’, Revised and expanded Edition, MIT Press , 2013
-Robert Sedgewick, Kevin Wayne, Robert Dondero, “Introduction to Programming in Python: An Inter-disciplinary Approach, Pearson India Education Services Pvt. Ltd., 2016.
-Timothy A. Budd, “Exploring Python”, Mc-Graw Hill Education (India) Private Ltd.,, 2015.
-Kenneth A. Lambert,  “Fundamentals of Python: First Programs”, CENGAGE Learning, 2012.
-Charles Dierbach, “Introduction to Computer Science using Python: A Computational Problem-Solving Focus, Wiley India Edition, 2013.
-The Python Tutorial, https://docs.python.org/2.7/tutorial/     
+#### REFERENCES:
+
+- John V Guttag, “Introduction to Computation and Programming Using Python’’, Revised and expanded Edition, MIT Press , 2013
+- Robert Sedgewick, Kevin Wayne, Robert Dondero, “Introduction to Programming in Python: An Inter-disciplinary Approach, Pearson India Education Services Pvt. Ltd., 2016.
+- Timothy A. Budd, “Exploring Python”, Mc-Graw Hill Education (India) Private Ltd.,, 2015.
+- Kenneth A. Lambert,  “Fundamentals of Python: First Programs”, CENGAGE Learning, 2012.
+- Charles Dierbach, “Introduction to Computer Science using Python: A Computational Problem-Solving Focus, Wiley India Edition, 2013.
+- The Python Tutorial, https://docs.python.org/2.7/tutorial/     
 
 
 ### Lab
