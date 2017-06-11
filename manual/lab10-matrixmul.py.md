@@ -23,7 +23,7 @@ Write a Python Program to implement Matrix Multiplication
 
 ```python 
 
-def print_matrix(matrix):
+def format_matrix(matrix):
     return "\n".join((("{:<5}"*len(row)).format(*row))for row in matrix)
     
 def matrixmulti(X, Y):
@@ -38,7 +38,7 @@ def matrixmulti(X, Y):
             for k in range(len(Y)):
                 result[i][j] += X[i][k] * Y[k][j]
     
-    print(print_matrix(result))
+    print(format_matrix(result))
     return result
 
 
