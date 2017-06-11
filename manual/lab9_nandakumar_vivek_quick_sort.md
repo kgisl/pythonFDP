@@ -58,31 +58,28 @@ def sort(lst):
 ## Pre-Lab Questions
 
 0. Quick sort uses `___________`.
-
 	- a. Divide and Conquer Technique
 	- b. Greedy Approach       
     - c. Back Tracking                 
     - d. None of the above
 
-1.How to select a pivot element?
+1. How to select a pivot element?
 
-2.Given the following list of numbers `[1, 20, 11, 5, 2, 9, 16, 14, 13, 19]` what would be the first pivot value using the median method?
+2. Given the following list of numbers `[1, 20, 11, 5, 2, 9, 16, 14, 13, 19]` what would be the first pivot value using the median method?
 
 3. Given the following list of numbers `[14, 17, 13, 15, 19, 10, 3, 16, 9, 12]` what is the contents of the list after the second partitioning according to the `quicksort` algorithm?
 
 4. What is the average case complexity for quick sort algorithm
-
   -  a. `O(n)`    
   - b. `O(n*n)`        
   - c. `O(nlogn)`          
   - d. `O(logn)`
 
 5. What is the worst case complexity for quick sort algorithm
-
-   - a. `O(n)`    
-   - b. `O(n*n)`            
-   - c. `O(nlogn)`           
-   - d. `O(logn)`
+  - a. `O(n)`    
+  - b. `O(n*n)`            
+  - c. `O(nlogn)`           
+  - d. `O(logn)`
 
 
 ## Post-Lab Questions
