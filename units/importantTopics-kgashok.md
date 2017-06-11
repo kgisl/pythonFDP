@@ -7,7 +7,7 @@
 
 |Type | Attributes | 
 |:------|:-------|
-|builtins | **`int`**, **`str`**, **`tuple`**, **`list`**, **`dict`**, **`len`**, **`sorted`**, **`del`** 
+|`__builtins__` | **`int`**, **`str`**, **`tuple`**, **`list`**, **`dict`**, **`len`**, **`sorted`**, **`del`** 
 |` <class 'str'>`|`capitalize`, 1 **`count`**, `endswith`, 2 **`find`**, `format`, `index`, `isalnum`, 3 **`isalpha`**, `isdecimal`, `isdigit`, `islower`, `isnumeric`, `isspace`, `istitle`, `isupper`, 4 **`join`**, `ljust`, `lower`, `lstrip`, `replace`, 5 **`rfind`**, `rindex`, `rjust`, 6 **`split`**, `splitlines`, `startswith`, 7 **`strip`**, `swapcase`, `title`, `upper`, `zfill` |
 |` <class 'tuple'>`|8 **`count`**, `index` |
 |` <class 'list'>`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
