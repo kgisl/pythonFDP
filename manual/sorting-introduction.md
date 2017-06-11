@@ -1,6 +1,8 @@
 
 # Sorting 
 
+**"A picture is worth a 1000 words."** The pictures help convey the contrasting dynamics that occur between the four sorts that need to covered in the lab. 
+
 [TOC]
 
 ## Modified Bubble Sort Approach
@@ -36,7 +38,7 @@
 ![mergeB](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/mergesortB.png)
 
 
-#### Quick Sort 
+### Quick Sort 
 
 ![quick4](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/firstsplit.png)
 
@@ -46,7 +48,7 @@
 
 
 
-## Questions
+## Clarifying Questions
 
 1. Which of the following sort algorithms are guaranteed to be O(n log n) even in the worst case?
 
