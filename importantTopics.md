@@ -8,7 +8,11 @@
 
 ### Explain Immutability with reference to the various data types in Python. 
 
+![immutable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
+
+
 ### What is list comprehension and what is the main benefit? Describe with an example. 
+
 
 **Main benefit**: Code is shorter and sometimes more clearer. 
 
