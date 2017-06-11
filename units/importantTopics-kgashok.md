@@ -3,15 +3,15 @@
 
 [TOC]
 
-### 1. Differentiate between parameters and arguments. 
+## 1. Differentiate between parameters and arguments. 
 
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
 
-**Argument Definition**
+### Argument Definition 
 
 ![argument](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/argumentGlossary.jpeg)
 
-**Parameter Definition**
+### Parameter Definition 
 
 ![parameter](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/parameterGlossary.jpeg)
 
@@ -47,12 +47,12 @@ Arguments are assigned to the named local variables (aka _parameters_) in a func
 A named entity in a function (or method) definition that specifies an argument (or in some cases, arguments that the function can accept. There are five kinds of parameters. 
 
 
-### 2. Explain Immutability with reference to the various data types in Python. 
+## 2. Explain Immutability with reference to the various data types in Python. 
 
 ![immutable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
 
 
-### 3. What is list comprehension and what is the main benefit? Describe with an example. 
+## 3. What is list comprehension and what is the main benefit? Describe with an example. 
 
 
 **Main benefit**: Code is shorter and sometimes more clearer. 
