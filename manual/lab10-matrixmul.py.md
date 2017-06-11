@@ -59,7 +59,7 @@ def matrixmulti(X, Y):
 
 ## Pre-Lab Questions 
 
-
+0. How to initialize a matrix (5 by 5) so that all its entries are equal to the number 10? What is the one line code for this?
 
 ## Post-lab Questions
 
