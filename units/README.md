@@ -1,4 +1,7 @@
 # Important Topics 
 
-Individual entries for all topics listed in https://github.com/kgisl/pythonFDP/blob/master/importantTopics.md 
+List down topics that need concise and clear answers. Choose the following file naming convention:
+
+    importantTopics-<gituserid>.md 
+
 
