@@ -4,7 +4,8 @@
 Write a python program to sort the given list using `quick sort` algorithm
 CD EXtrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot
 CD Local Link : http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
-```code
+
+```
 Examples:
 Sample Input0: [1, 2, 3, 4]
 Sample Output0: [1, 2, 3, 4]
@@ -14,9 +15,10 @@ Sample Output1: [3, 4, 5, 12, 21] 
 
 Sample Input2: [7.1, 9.2, 3.1]
 Sample Output2: [3.1, 7.1, 9.2]
+```
 
 ## Solution key
-​
+
 ```python
 
 def partition(lst, start, end, pivot):
@@ -48,15 +50,14 @@ def sort(lst):
   return lst
   
   ```
-​
-​
+
 
 ## CloudCoder exercises
 [To be updated]
 
 
 
-##Pre-Lab Questions
+## Pre-Lab Questions
 
 0. Quick sort uses ___________. 
 
@@ -78,7 +79,7 @@ def sort(lst):
   a.O(n)    b.O(n*n)            c.O(nlogn)           d.O(logn)
 
 
-##Post-Lab Questions
+## Post-Lab Questions
 
  
 1. What are the advantages and disadvantages of quick sort?
