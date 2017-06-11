@@ -84,12 +84,13 @@ Files and exception: text files, reading and writing files, format operator, com
 TOTAL:45 PERIODS
 COURSE OUTCOMES
 Upon completion of the course, students will be able to
-      * Develop algorithmic solutions to simple computational problems
-      * Read, write, execute by hand simple Python programs.
-      * Structure simple Python programs for solving problems.
-      * Decompose a Python program into functions.
-      * Represent compound data using Python  lists, tuples, dictionaries.
-      * Read and write data from/to files in Python Programs.
+
+* Develop algorithmic solutions to simple computational problems
+* Read, write, execute by hand simple Python programs.
+* Structure simple Python programs for solving problems.
+* Decompose a Python program into functions.
+* Represent compound data using Python  lists, tuples, dictionaries.
+* Read and write data from/to files in Python Programs.
 
 
 TEXT BOOKS:
