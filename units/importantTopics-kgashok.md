@@ -12,7 +12,7 @@
 |` <class 'tuple'>`|8 **`count`**, `index` |
 |` <class 'list'>`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
 |` <class 'dict'>`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
-|` <_io.TextIOWrapper name='file1.py' mode='r+' encoding='UTF-8'>`|23 **`close`**, `fileno`, `flush`, 24 **`mode`**, `name`, 25 **`read`**, `readline`, `readlines`, `seek`, 26 **`write`**, `writelines` |
+|` <_io.TextIOWrapper name='file1.txt' mode='r+' encoding='UTF-8'>`|23 **`close`**, `fileno`, `flush`, 24 **`mode`**, `name`, 25 **`read`**, `readline`, `readlines`, `seek`, 26 **`write`**, `writelines` |
    
 
 ## 1. Differentiate between parameters and arguments (Unit 3)
