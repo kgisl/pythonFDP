@@ -1,5 +1,5 @@
 
-Sorting 
+# Sorting 
 
 ## Modified Bubble Sort Approach
 
@@ -14,6 +14,17 @@ Sorting
 ### Insertion Sort
 
 ![selection](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/insertionsort.png)
+
+
+
+## Divide and Conquer Approach
+
+
+- Typically `O(n*logn)` and therefore suitably for bigger data sets. 
+- As in the case of Merge Sort, it requires additional space (so for real large sets, this can be a disadvantage). For Quick Sort, additional `nlog(n)` space is required. 
+- Typically,  as in the case of Quick Sort, they are also not **stable** sorts - the order of equal elements may not be maintained after the sort is complete 
+- http://interactivepython.org/runestone/static/pythonds/SortSearch/TheMergeSort.html
+- http://interactivepython.org/runestone/static/pythonds/SortSearch/TheQuickSort.html
 
 
 ### Merge Sort
@@ -31,15 +42,6 @@ Sorting
 
 ![quick2](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/partitionB.png)
 
-
-
-## Divide and Conquer Approach
-
-- Typically `O(n*logn)` and therefore suitably for bigger data sets. 
-- As in the case of Merge Sort, it requires additional space (so for real large sets, this can be a disadvantage). For Quick Sort, additional `nlog(n)` space is required. 
-- Typically,  as in the case of Quick Sort, they are also not **stable** sorts - the order of equal elements may not be maintained after the sort is complete 
-- http://interactivepython.org/runestone/static/pythonds/SortSearch/TheMergeSort.html
-- http://interactivepython.org/runestone/static/pythonds/SortSearch/TheQuickSort.html
 
 
 
