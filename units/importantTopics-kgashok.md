@@ -3,6 +3,15 @@
 
 [TOC]
 
+##0. Types and their attributes (aka methods)
+
+|Type | Attributes | 
+|:------|:-------|
+|` <class 'tuple'>`|0 ` count`, 1 ` index`|
+|` <class 'list'>`|2 ` append`, 3 ` clear`, 4 ` copy`, 5 ` count`, 6 ` extend`, 7 ` index`, 8 ` insert`, 9 ` pop`, 10 ` remove`, 11 ` reverse`, 12 ` sort` |
+|` <class 'dict'>`|13 ` clear`, 14 ` copy`, 15 ` fromkeys`, 16 ` get`, 17 ` items`, 18 ` keys`, 19 ` pop`, 20 ` popitem`, 21 ` setdefault`, 22 ` update`, 23 ` values` |
+
+
 ## 1. Differentiate between parameters and arguments (Unit 3)
 
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
