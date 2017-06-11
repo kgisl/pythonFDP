@@ -66,4 +66,4 @@ Lines `1-6` is equivalent to Lines `11-12` and equivalent to Line `17`.
 
 **Output of Code Snippet**
 
-![listOut](https://cdn.rawgit.com/kgisl/pythonFDP/1389b748/img/listComprehensionOutput.png)
+![listOut](https://cdn.rawgit.com/kgisl/pythonFDP/020de846/img/listComprehensionOutput.jpg)
