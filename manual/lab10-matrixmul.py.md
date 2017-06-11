@@ -68,6 +68,7 @@ def matrixmulti(X, Y):
 
 1. Fix the failing test case in the following cyberdojo session - http://j.mp/randomMatrixCD
 2. Use the functions to write a `randomize_matrix` function to generate a square matrix of size 5
+3. Is the matrix creation the most efficient? Are you able to create a size of 20000 by 20000 before CyberDojo times out?
 
 
 ## Related Material 
