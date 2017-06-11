@@ -3,7 +3,7 @@
 
 [TOC]
 
-##0. Types and their attributes (aka methods)
+## 0. Types and their attributes (aka methods)
 
 |Type | Attributes | 
 |:------|:-------|
