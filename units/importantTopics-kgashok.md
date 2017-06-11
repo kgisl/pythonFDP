@@ -8,9 +8,11 @@
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
 
 **Argument Definition**
+
 ![argument](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/argumentGlossary.jpeg)
 
 **Parameter Definition**
+
 ![parameter](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/parameterGlossary.jpeg)
 
 What is the difference between arguments and parameters?
