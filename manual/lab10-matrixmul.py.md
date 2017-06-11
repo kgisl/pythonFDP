@@ -61,10 +61,14 @@ def matrixmulti(X, Y):
 
 0. How to initialize a matrix (5 by 5) so that all its entries are equal to the number 10? What is the one line code for this?
 
+
 ## Post-lab Questions
 
-
 ## Bonus 1 
+
+1. Fix the failing test case in the following cyberdojo session - http://j.mp/randomMatrixCD
+2. Use the functions to write a `randomize_matrix` function to generate a square matrix of size 5
+
 
 ## Related Material 
 
