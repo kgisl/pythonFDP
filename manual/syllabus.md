@@ -7,22 +7,22 @@
  
 ### List of programs
 
-|Sequence | Objective|
-|:-------|:-----------|
-|lab 1 | Compute the GCD of two numbers |
-|lab 2 | Find the square root of a number (Newton’s method)
-|lab 3 | Exponentiation (power of a number)
-|lab 4 | Linear search and Binary search
-|lab 5 | First n prime numbers
-|lab 6 | Find the maximum of a list of numbers
-|lab 7 | Removing  all the duplicate elements in a list
-|lab 8 | Selection sort, Insertion sort
-|lab 9 | Merge sort, Quick sort
-|lab 10 | Multiply matrices
-|lab 11 | Programs that take command line arguments (word count)
-|lab 12 | Find the most frequent words in a text read from a file
-|Lab Integration| Solve the CloudCoder problem at  http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229. Maximum points for writing the most efficient code that is also elegant and easy to understand. 
-|Lab Integration 2| Read personal GPS data from file and plot on a map and find the distance from home to KITE | 
+|Concept |Sequence | Objective|
+|:------|:-------|:-----------|
+|Algorithmic, Tuples| lab 1 | Compute the GCD of two numbers |
+|Algorithmic |lab 2 | Find the square root of a number (Newton’s method)
+|Algorithmic |lab 3 | Exponentiation (power of a number)
+|Algorithmic, Subscripting| lab 4 | Linear search and Binary search
+|Algorithmic | lab 5 | First n prime numbers
+|Lists | lab 6 | Find the maximum of a list of numbers
+|List In-place vs Out-of-place |lab 7 | Removing  all the duplicate elements in a list
+|Looping through Lists |lab 8 | Selection sort, Insertion sort
+| |lab 9 | Merge sort, Quick sort
+|Mutable data - List of Lists |lab 10 | Multiply matrices
+|Mutable data - Dictionary |lab 11 | Programs that take command line arguments (word count)
+|File Handling |lab 12 | Find the most frequent words in a text read from a file
+|Advanced |Lab Integration| Solve the CloudCoder problem at  http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229. Maximum points for writing the most efficient code that is also elegant and easy to understand. 
+|Advanced |Lab Integration 2| Read personal GPS data from file and plot on a map and find the distance from home to KITE | 
 
 
 	 
