@@ -7,9 +7,9 @@
 
 |Type | Attributes | 
 |:------|:-------|
-|` <class 'tuple'>`|0 ` count`, 1 ` index`|
-|` <class 'list'>`|2 ` append`, 3 ` clear`, 4 ` copy`, 5 ` count`, 6 ` extend`, 7 ` index`, 8 ` insert`, 9 ` pop`, 10 ` remove`, 11 ` reverse`, 12 ` sort` |
-|` <class 'dict'>`|13 ` clear`, 14 ` copy`, 15 ` fromkeys`, 16 ` get`, 17 ` items`, 18 ` keys`, 19 ` pop`, 20 ` popitem`, 21 ` setdefault`, 22 ` update`, 23 ` values` |
+|` <class 'tuple'>`|1 ` count`, 2 ` index`|
+|` <class 'list'>`|3 ` append`, 4 ` clear`, 5 ` copy`, 6 ` count`, 7 ` extend`, 8 ` index`, 9 ` insert`, 10 ` pop`, 11 ` remove`, 12 ` reverse`, 13 ` sort` |
+|` <class 'dict'>`|14 ` clear`, 15 ` copy`, 16 ` fromkeys`, 17 ` get`, 18 ` items`, 19 ` keys`, 20 ` pop`, 21 ` popitem`, 22 ` setdefault`, 23 ` update`, 24 ` values` |
 
 
 ## 1. Differentiate between parameters and arguments (Unit 3)
