@@ -15,16 +15,16 @@
  Algorithms, building blocks of algorithms (instructions/statements, state, control flow, functions), notation (pseudo code, flow chart, programming language), algorithmic problem solving, simple strategies for developing algorithms (iteration, recursion)
  
 ### UNIT II            DATA, EXPRESSIONS, STATEMENTS                                                                  9
-Python interpreter and interactive mode; values and types: int, float, booleans, strings, and lists; variables, expressions,  statements, tuple assignment, precedence of operators, comments; modules and functions, function definition and use, flow of execution, parameters and arguments;  Illustrative programs: exchange the values of two variables, circulate the values of n variables, test for leap year.
+Python interpreter and interactive mode; values and types: int, float, booleans, strings, and lists; variables, expressions,  statements, tuple assignment, precedence of operators, comments; modules and functions, function definition and use, flow of execution, parameters and arguments;  **Illustrative programs**: exchange the values of two variables, circulate the values of n variables, test for leap year.
  
 ### UNIT III           CONTROL FLOW, FUNCTIONS                                                                               9
-Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, scope: local and global, composition, recursion; Strings:  string slices, immutability, string functions and methods, string module; Lists as arrays. Illustrative programs: square root, gcd, exponentiation, sum the array of numbers, linear search, binary search.
+Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, scope: local and global, composition, recursion; Strings:  string slices, immutability, string functions and methods, string module; Lists as arrays. **Illustrative programs**: square root, gcd, exponentiation, sum the array of numbers, linear search, binary search.
  
 ### UNIT IV           COMPOUND DATA: LISTS, TUPLES, DICTIONARIES                                          9
-Lists, list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples, tuple assignment, tuple as return value; Dictionaries: operations and methods; advanced list processing - list comprehension; Illustrative programs: selection sort, insertion sort, merge sort, quick sort.
+Lists, list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples, tuple assignment, tuple as return value; Dictionaries: operations and methods; advanced list processing - list comprehension; **Illustrative programs**: selection sort, insertion sort, merge sort, quick sort.
  
 ### UNIT V            FILES, MODULES, PACKAGES                                                                              9
-Files and exception: text files, reading and writing files, format operator, command line arguments,  errors and exceptions, handling exceptions, modules, packages; Illustrative programs: word count, copy file,
+Files and exception: text files, reading and writing files, format operator, command line arguments,  errors and exceptions, handling exceptions, modules, packages; **Illustrative programs**: word count, copy file,
 
 TOTAL: 45 PERIODS
 
