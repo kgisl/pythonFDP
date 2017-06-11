@@ -83,8 +83,6 @@ TBD
 	> ("feb", 28) and  
 	> ("mar", 31) `  
 
-6. A list contains `n` elements (where `n` is a positive integer and  `0 > n > 10`. Write the necessary python code to produce a list that contains only the last `n-1` elements. Is there a version of the code that does not use any `list` methods whatsoever to achieve the same result? 
-
 7. What is the value of `L` after you run the code below?
 
 > ![Imgur](http://i.imgur.com/3WRTL5N.png)
@@ -94,6 +92,7 @@ TBD
 ## Post-Lab Questions 
 
 0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. 
+1. You are not allowed to use another data element to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
 
 ## Bonus 1 
 
