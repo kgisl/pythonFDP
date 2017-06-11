@@ -18,7 +18,7 @@
 |Lists | lab 6 | Find the maximum of a list of numbers
 |Lists, Dictionaries |lab 7 | Removing  all the duplicate elements in a list
 |Looping through Lists, Sorting |lab 8 | Selection sort, Insertion sort
-| |lab 9 | Merge sort, Quick sort
+|Sorting (divide-and-conquer) |lab 9 | Merge sort, Quick sort
 |Mutable data - List of Lists |lab 10 | Multiply matrices
 |Mutable data - Dictionary |lab 11 | Programs that take command line arguments (word count)
 |Dictionary, File Handling, Exceptions, Formatted Writing |lab 12 | Find the most frequent words in a text read from a file
