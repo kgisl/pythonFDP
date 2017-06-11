@@ -7,10 +7,10 @@
 
 |Type | Attributes | 
 |:------|:-------|
-|` <class 'str'>`|1 `func`, 2 `func`, 3 `func`, 4 **`find`**, 5 `func`, 6 `func`, 7 `func`, 8 **`isalpha`**, 9 `func`, 10 `func`, 11 `func`, 12 `func`, 13 `func`, 14 `func`, 15 `func`, 16 **`join`**, 17 `func`, 18 `func`, 19 `func`, 20 `func`, 21 **`rfind`**, 22 `func`, 23 `func`, 24 **`split`**, 25 `func`, 26 `func`, 27 **`strip`**, 28 `func`, 29 `func`, 30 `func`, 31 `func`, |
-|` <class 'tuple'>`|32 `func`, 33 `func`, |
-|` <class 'list'>`|34 **`append`**, 35 `func`, 36 `func`, 37 `func`, 38 **`extend`**, 39 `func`, 40 **`insert`**, 41 **`pop`**, 42 **`remove`**, 43 **`reverse`**, 44 **`sort`**, |
-|` <class 'dict'>`|45 `func`, 46 `func`, 47 `func`, 48 **`get`**, 49 **`items`**, 50 **`keys`**, 51 **`pop`**, 52 `func`, 53 `func`, 54 **`update`**, 55 **`values`**, |
+|` <class 'str'>`|1 `capitalize`, 2 `count`, 3 `endswith`, 4 **`find`**, 5 `format`, 6 `index`, 7 `isalnum`, 8 **`isalpha`**, 9 `isdecimal`, 10 `isdigit`, 11 `islower`, 12 `isnumeric`, 13 `isspace`, 14 `istitle`, 15 `isupper`, 16 **`join`**, 17 `ljust`, 18 `lower`, 19 `lstrip`, 20 `replace`, 21 **`rfind`**, 22 `rindex`, 23 `rjust`, 24 **`split`**, 25 `splitlines`, 26 `startswith`, 27 **`strip`**, 28 `swapcase`, 29 `title`, 30 `upper`, 31 `zfill`, |
+|` <class 'tuple'>`|32 `count`, 33 `index`, |
+|` <class 'list'>`|34 **`append`**, 35 `clear`, 36 `copy`, 37 `count`, 38 **`extend`**, 39 `index`, 40 **`insert`**, 41 **`pop`**, 42 **`remove`**, 43 **`reverse`**, 44 **`sort`**, |
+|` <class 'dict'>`|45 `clear`, 46 `copy`, 47 `fromkeys`, 48 **`get`**, 49 **`items`**, 50 **`keys`**, 51 **`pop`**, 52 `popitem`, 53 `setdefault`, 54 **`update`**, 55 **`values`**, |
    
 
 ## 1. Differentiate between parameters and arguments (Unit 3)
