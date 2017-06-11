@@ -1,47 +1,6 @@
 
- COMPUTER PRACTICES LABORATORY                            
- LTPC 0042
-
-### COURSE OBJECTIVES
-To write, test, and debug simple Python programs.
-To implement Python programs with conditionals and loops.
-Use functions for structuring Python programs.
-Represent compound data using Python lists, tuples, dictionaries.
-Read and write data from/to files in Python.
  
-### List of programs
-
-	- Compute the GCD of two numbers
-	- Find the square root of a number (Newton’s method)
-	- Exponentiation (power of a number)
-	- Linear search and Binary search
-	- First n prime numbers
-	- Find the maximum of a list of numbers
-	- Removing  all the duplicate elements in a list
-	- Selection sort, Insertion sort
-	- Merge sort, Quick sort
-	- Multiply matrices
-	- Programs that take command line arguments (word count)
-	- Find the most frequent words in a text read from a file
-	 
-### Platform needed
-Python 3 interpreter for Windows/Linux
-TOTAL: 60 PERIODS
-
-### COURSE OUTCOMES
-
-Upon completion of the course, students will be able to
-
-- Write, test, and debug simple Python programs.
-- Implement Python programs with conditionals and loops.
-- Develop Python programs step-wise by defining functions and calling them.
-- Use Python lists, tuples, dictionaries for representing compound data.
-- Read and write data from/to files in Python.
-
-
----
-
-PROBLEM SOLVING AND PROGRAMMING              L T P C 3003
+# PROBLEM SOLVING AND PROGRAMMING              L T P C 3003
 
 - COURSE OBJECTIVES
 To develop an understanding of algorithmic problem solving
@@ -141,3 +100,48 @@ REFERENCES:
       4. Kenneth A. Lambert,  “Fundamentals of Python: First Programs”, CENGAGE Learning, 2012.
       5. Charles Dierbach, “Introduction to Computer Science using Python: A Computational Problem-Solving Focus, Wiley India Edition, 2013.
       6. The Python Tutorial, https://docs.python.org/2.7/tutorial/     
+
+
+----
+
+COMPUTER PRACTICES LABORATORY                            
+ LTPC 0042
+
+### COURSE OBJECTIVES
+To write, test, and debug simple Python programs.
+To implement Python programs with conditionals and loops.
+Use functions for structuring Python programs.
+Represent compound data using Python lists, tuples, dictionaries.
+Read and write data from/to files in Python.
+ 
+### List of programs
+
+	- Compute the GCD of two numbers
+	- Find the square root of a number (Newton’s method)
+	- Exponentiation (power of a number)
+	- Linear search and Binary search
+	- First n prime numbers
+	- Find the maximum of a list of numbers
+	- Removing  all the duplicate elements in a list
+	- Selection sort, Insertion sort
+	- Merge sort, Quick sort
+	- Multiply matrices
+	- Programs that take command line arguments (word count)
+	- Find the most frequent words in a text read from a file
+	 
+### Platform needed
+Python 3 interpreter for Windows/Linux
+TOTAL: 60 PERIODS
+
+### COURSE OUTCOMES
+
+Upon completion of the course, students will be able to
+
+- Write, test, and debug simple Python programs.
+- Implement Python programs with conditionals and loops.
+- Develop Python programs step-wise by defining functions and calling them.
+- Use Python lists, tuples, dictionaries for representing compound data.
+- Read and write data from/to files in Python.
+
+
+---
