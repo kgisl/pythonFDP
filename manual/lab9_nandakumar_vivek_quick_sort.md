@@ -1,9 +1,7 @@
 # Quick Sort
-​
+
 ## Problem statement
-Write a python program to sort the given list using `quick sort` algorithm
-CD EXtrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot
-CD Local Link : http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
+Write a python program to sort the given list using `quick sort` algorithm 
 
 ```
 Examples:
@@ -97,6 +95,12 @@ def sort(lst):
 
 
 ## Interview Grade
+
+## Related Material 
+
+CD External Link: http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot
+CD Local Link: http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
+
 
 
 
