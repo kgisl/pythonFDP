@@ -56,6 +56,8 @@ if __name__ == '__main__':
 ## Bonus
 Make your program to behave as close as possible to the Unix command [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix)). See the most important examples at https://www.tecmint.com/wc-command-examples/
 
+	- For example, `wc -l file.txt` ->  `112` (if there are 112 lines) 
+
 
 ## CD Links
 
