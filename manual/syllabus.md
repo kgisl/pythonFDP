@@ -21,7 +21,7 @@
 |Looping through Lists, Sorting |lab 8 | Selection sort, Insertion sort
 |Sorting (divide-and-conquer) |lab 9 | Merge sort, Quick sort
 |Mutable data - List of Lists |lab 10 | Multiply matrices
-|Mutable data - Dictionary |lab 11 | Programs that take command line arguments (word count)
+|Mutable data - Dictionary, **main()** function, **sys** module, **getopt** function, Basic error handling |lab 11 | Programs that take command line arguments (word count, aka Unix command `wc`)
 |Dictionary, File Handling, Exceptions, Formatted Writing |lab 12 | Find the most frequent words in a text read from a file
 |Advanced |Lab Integration| Solve the CloudCoder problem at  http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=7,p=1229. Maximum points for the most elegant solution, aka one that is both efficient and one that is also easy to understand. 
 |Advanced |Lab Integration2| Read personal GPS data from file and plot on a map and find the distance from home to KITE | 
