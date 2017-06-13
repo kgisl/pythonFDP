@@ -50,8 +50,8 @@ if __name__ == '__main__':
 
 1. Modify the version (make suitable changes to `wordcount.py file`) available in http://cyberdojo1.kgfsl.com/enter/show/3080E868E6 so that 
 	- The total lines in all the files to be calculated and displayed 
-	- If the filename with the specified command line argument is not available, echo **"Final not available**." 
-
+	- If the filename with the specified command line argument is not available, print **"Final not available**." 
+    - If there are other exceptions, catch them as well and print **"Unknown error!"**
 
 ## Bonus
 Make your program to behave as close as possible to the Unix command [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix)). See the most important examples at https://www.tecmint.com/wc-command-examples/
