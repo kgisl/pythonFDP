@@ -5,6 +5,9 @@
 
 ## 0. Types and their attributes (aka methods, Unit 3)
 
+There are 4 main types in Python (string, tuples, list and dictionary). And across all of them, there are about 25 important attributes (methods) that help process/modify them. They are tabulated as follows: 
+
+
 |Type | Attributes | 
 |:------|:-------|
 |`__builtins__` | **`int`**, **`str`**, **`tuple`**, **`list`**, **`dict`**, **`len`**, **`sorted`**, **`del`** 
@@ -61,7 +64,20 @@ A named entity in a function (or method) definition that specifies an argument (
 
 ## 2. Explain Immutability with reference to the various data types in Python. (Unit 3)
 
-![immutable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
+### Everything is an Object 
+![object](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/whatIsObject.png)
+
+### What is ID?
+![id](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/whatIsID.png)
+
+### What is value? 
+![value](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/whatIsValue.png)
+
+### Immutable and Mutable 
+![immutableP](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/pythonImmutable.png)
+![mutableP](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/pythonMutable.png)
+
+![immutableTable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
 
 
 ## 3. What is list comprehension and what is the main benefit? Describe with an example. (Unit 4)
