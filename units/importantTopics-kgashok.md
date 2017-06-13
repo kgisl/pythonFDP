@@ -99,3 +99,16 @@ Lines `1-6` is equivalent to Lines `11-12` and equivalent to Line `17`.
 **Output of Code Snippet**
 
 ![listOut](https://cdn.rawgit.com/kgisl/pythonFDP/020de846/img/listComprehensionOutput.jpg)
+
+
+# 4. If Python is interpreted, what are .pyc files?
+
+http://j.mp/deepAnswer 
+
+# 5. A String is a recursive data structure. True or False? 
+
+![stringRecursive](https://cdn.rawgit.com/kgisl/pythonFDP/a5233884/img/stringAsRecursive.jpg)
+
+Credit: https://twitter.com/dbader_org/status/874653012374859776
+
+Fun fact—Python `str` objects are **recursive** data structures: Each character in a string is a `str` of length 1 itself.
