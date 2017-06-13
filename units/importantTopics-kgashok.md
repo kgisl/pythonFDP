@@ -77,7 +77,11 @@ A named entity in a function (or method) definition that specifies an argument (
 ![immutableP](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/pythonImmutable.png)
 ![mutableP](https://cdn.rawgit.com/kgisl/pythonFDP/e7ccde61/img/pythonMutable.png)
 
+![mCode](https://cdn.rawgit.com/kgisl/pythonFDP/3a8caff1/img/mutableCode.png) ![mOutput](https://cdn.rawgit.com/kgisl/pythonFDP/3a8caff1/img/mutableOutput.png)
+
 ![immutableTable](https://cdn.rawgit.com/kgisl/pythonFDP/728f283e/img/mutablePython.png)
+
+
 
 
 ## 3. What is list comprehension and what is the main benefit? Describe with an example. (Unit 4)
