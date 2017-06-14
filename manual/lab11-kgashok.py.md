@@ -69,6 +69,9 @@ See the most important examples at https://www.tecmint.com/wc-command-examples/
 
 	- For example, `wc -l file.txt` ->  `112` (if there are 112 lines) 
 
+## Bonus 2 
+
+How to test all the various refactorings that were done as part of the post-lab Questions? 
 
 ## Related Material
 
