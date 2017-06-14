@@ -1,4 +1,15 @@
-# Timelines 
+
+# Unit Notes
+
+| Unit | Faculty | 
+|:------|:--------|
+|Unit 1 & 2 | Mr Rajasekaran & Mrs Dhanalakshmi |
+|Unit 3 | Mr Nandhakuamr |
+|Unit 4 | Mr Ashok R |
+|Unit 5 | Ms Pricilla & Ms Divya |
+
+
+## Timelines 
 
 As per the Discussion, the road map for the Python subject is defined and presented below for your reference.
 
