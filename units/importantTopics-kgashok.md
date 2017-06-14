@@ -20,14 +20,19 @@ There are 4 main types in Python (string, tuples, list and dictionary). And acro
 
 ## 1. Differentiate between parameters and arguments (Unit 3)
 
+http://j.mp/argsVsParams
+
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
+
 
 ### Argument Definition 
 
+https://docs.python.org/3/glossary.html#term-argument
 ![argument](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/argumentGlossary.jpeg)
 
 ### Parameter Definition 
 
+https://docs.python.org/3/glossary.html#term-parameter
 ![parameter](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/parameterGlossary.jpeg)
 
 What is the difference between arguments and parameters?
@@ -119,7 +124,7 @@ Credit: https://twitter.com/dbader_org/status/874653012374859776
 
 Fun fact—Python `str` objects are **recursive** data structures: Each character in a string is a `str` of length 1 itself.
 
-# 7. The XOR trick, grokked, finally! 
+## 7. The XOR trick, grokked, finally! 
 
 I have always wondered how the in-place `swap` worked using the XOR operation. The following **table** went a long way in helping clear up the magic in _my_ head. 
 
@@ -137,6 +142,6 @@ b  = a ^ b   # b now contains a ( since c ^ b -> a )
 a  = a ^ b   # a now contains b ( since c ^ a -> b )
 ```
 
-## Credits
+### Credits
 
 http://www.brunton-spall.co.uk/post/2010/09/07/interview-questions-xor-trick-and-why-you-should-j/
