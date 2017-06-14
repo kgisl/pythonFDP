@@ -53,7 +53,7 @@ if __name__ == '__main__':
 	- If the filename with the specified command line argument is not available, print **"File not available**." by using the appropriate named exception. 
     - If there are other errors, catch them as well and print **"Unknown error!"**
 
-2. Refactor the solution to the Question_1 to use `getopt` and handle the exceptions for handling options flags in an appropriate manner. 
+2. Refactor the solution to the Question_1 to use `getopt` and handle the exceptions for handling options flags in an appropriate manner. For example, choose a option flag which can be used to denote which file can be updated with the results of the processing. 
 
 ## Bonus
 Make your program to behave as close as possible to the Unix command [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix)). 
