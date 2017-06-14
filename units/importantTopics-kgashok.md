@@ -114,7 +114,7 @@ https://docs.python.org/3/library/functions.html#slice
 
 ## 5. If Python is interpreted, what are .pyc files?
 
-http://j.mp/deepAnswer 
+"...it reminded me that seemingly trivial questions may have rather deep answers.” http://bit.ly/deepAnswer  
 
 ## 6. A String is a recursive data structure. True or False? 
 
