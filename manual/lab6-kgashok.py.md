@@ -102,6 +102,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 8. A list contains `n` elements (where `n` is a positive integer and  `0 > n > 10`. Write the necessary python code to produce a list that contains only the last `n-1` elements. Is there a version of the code that does not use any `list` methods whatsoever to achieve the same result? 
 
+9. Complete the Hackerrank problem - https://www.hackerrank.com/challenges/python-lists 
 
 ## Post-Lab Questions 
 1. Both the functions `get_maxnumber` and `get_list_of_numbers` are not **fruitful** functions. True or False? 
