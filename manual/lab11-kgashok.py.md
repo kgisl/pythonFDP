@@ -63,5 +63,12 @@ See the most important examples at https://www.tecmint.com/wc-command-examples/
 	- For example, `wc -l file.txt` ->  `112` (if there are 112 lines) 
 
 
+## Related Material
+
+Using [**getopt**](http://www.diveintopython.net/scripts_and_streams/command_line_arguments.html)
+
+Basic command line [**argument handling**](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
+
+
 ## CD Links
 
