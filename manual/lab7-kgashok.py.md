@@ -94,7 +94,7 @@ TBD
 0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. 
 1. You are not allowed to use another data structure to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
 2. How will you find the common elements that exist in two different lists? 
-3. Find the `gcd` of two integers using the prime factorization method.  Here's a rough algorithm: 
+3. Find the `gcd` of two integers using the prime factorization method.  Use the function you developed in `Lab 5` to complete this. Here's an outline for the function that you will need to develop: 
 
 		def gcd(n1, n2):
 		    prime_factors_of_n1 = prime_factors(n1)
@@ -104,6 +104,7 @@ TBD
 		
 		    product_of_common_prime_factors = product(common_prime_factors)
 		    return product_of_common_prime_factors	
+
 	
 ## Bonus 1 
 
