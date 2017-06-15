@@ -12,7 +12,10 @@ http://medialab.github.io/artoo/quick_start/
 var termlist = artoo.scrape('div#glossary.section dt')
 var deflist  = artoo.scrape('div#glossary.section dd')
 
-desired = ['argument', 'attribute', 'binary file', 'BDFL', 'coroutine', 'dictionary', 'dictionary view', 'docstring', 'expression', 'file object', 'function', 'immutable', 'iterable', 'list', 'list comprehension', 'mapping', 'method', 'module', 'mutable', 'package', 'parameter', 'positional argument', 'keyword argument', 'sequence', 'slice', 'special method', 'statement', 'text file', 'triple-quoted string', 'Zen of Python']
+desired = [ \
+'argument', 'attribute', 'binary file', 'BDFL', 'coroutine', 'dictionary', 'dictionary view', 'docstring', 'expression', 'file object', 'function', 'immutable', 'iterable', \
+ 'list', 'list comprehension', 'mapping', 'method', 'module', 'mutable', 'package', 'parameter', 'positional argument', 'keyword argument', 'sequence', 'slice', 'special method', 'statement', \
+ 'text file', 'triple-quoted string', 'Zen of Python']
 
 var glist = [];
 
