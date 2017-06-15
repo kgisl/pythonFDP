@@ -92,7 +92,9 @@ TBD
 ## Post-Lab Questions 
 
 0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. 
-1. You are not allowed to use another data element to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
+1. You are not allowed to use another data structure to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
+2. How will you find the common elements that exist in two different lists? 
+3. Find the `gcd` of two integers using the prime factorization method. 
 
 ## Bonus 1 
 
