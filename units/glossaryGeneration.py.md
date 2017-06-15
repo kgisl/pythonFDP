@@ -3,6 +3,10 @@
 ### Artoo for Client Side Web Scraping 
 http://medialab.github.io/artoo/quick_start/ 
 
+1. I just opened up a console in the browser. 
+2. Added the `artoo` bookmark and click on it 
+3. In the console, I entered the following javascript snippet. 
+
 ```javascript 
 
 var termlist = artoo.scrape('div#glossary.section dt')
