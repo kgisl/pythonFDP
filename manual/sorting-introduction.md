@@ -17,7 +17,7 @@
 
 ### Insertion Sort
 
-![selection](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/insertionsort.png)
+![insertion](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/insertionsort.png)
 
 
 
@@ -40,11 +40,11 @@
 
 ### Quick Sort 
 
-![quick4](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/firstsplit.png)
+![split](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/firstsplit.png)
 
-![quick1](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/partitionA.png)
+![partition1](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/partitionA.png)
 
-![quick2](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/partitionB.png)
+![partition2](https://cdn.rawgit.com/kgisl/pythonFDP/67362bd2/img/partitionB.png)
 
 
 
