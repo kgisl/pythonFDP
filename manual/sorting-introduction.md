@@ -52,22 +52,24 @@
 
 1. Which of the following sort algorithms are guaranteed to be O(n log n) even in the worst case?
 
-- (A) Selection Sort
-- (B) Quick Sort
-- (C) Merge Sort
-- (D) Insertion Sort
+- (A) Selection Sort  
+- (B) Quick Sort  
+- (C) Merge Sort  
+- (D) Insertion Sort  
 
 2. Which takes the least amount of extra space for sorting to happen? Which takes the most amount of extra space? 
 
-- A.  Selection Sort, Merge Sort 
-- B. Insertion Sort, Quick Sort 
-- C. Insertion Sort, Merge Sort 
-- D. None of the above combinations 
+- A.  Selection Sort, Merge Sort  
+- B. Insertion Sort, Quick Sort  
+- C. Insertion Sort, Merge Sort  
+- D. None of the above combinations  
+
 
 3. What is the correct order in terms of ***increased*** efficiency of sorting? 
 
-- A. Selection, Insertion, Quick and Merge 
-- B. Insertion, Selection, Merge and Quick 
-- C. Selection, Insertion, Merge and Quick 
-- D. None of the above 
+- A. Selection, Insertion, Quick and Merge  
+- B. Insertion, Selection, Merge and Quick  
+- C. Selection, Insertion, Merge and Quick  
+- D. None of the above  
+
 
