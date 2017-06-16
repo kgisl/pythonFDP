@@ -95,7 +95,7 @@ TBD
 1. You are not allowed to use another data structure to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
 2. How will you find the common elements that exist in two different lists? 
 3. Write a program to calculate the product of all the integers that are available in a list. For e.g. if `alist = [2, 3, 5, 8]`, then `product(alist) = 240` 
-4. Find the `gcd` of two integers using the prime factorization method.  Use the function you developed in `Lab 5` to complete this. Here's an outline for the function that you will need to develop: 
+4. Find the `gcd` of two integers using the prime factorization method.  Review video at http://j.mp/gcdPrime. Use the function you developed in `Lab 5` to complete this. Here's an outline for the function that you will need to develop: 
 
 		def gcd(n1, n2):
 		    prime_factors_of_n1 = prime_factors(n1)
@@ -125,3 +125,4 @@ Calculate the `gcd` for a list of integers using the prime factorization method.
 ## Related Links 
 
 https://goo.gl/v7ephq
+
