@@ -39,14 +39,16 @@ def quick_sort(lst, start, end):
     quick_sort(lst, new_pivot + 1, end)
 
 def sort(lst):
-  for i in lst:
-    result=isinstance(i,str)
-  if result==True:
-    return "invalid input"
-    break
-  quick_sort(lst,0, len(lst) - 1)
-  return lst
-
+    if (len(lst)==0):
+        return "invalid input"
+    for i in lst:
+        result=isinstance(i,str)
+        if result==True:
+            return "invalid input"
+            break
+    quick_sort(lst, 0, len(lst) - 1)
+    #print(lst)
+    return lst
 ```
 
 
