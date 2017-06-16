@@ -1,8 +1,11 @@
 # PythonFDP
-Python FDP for KITE faculty 
 
-# Outcome Expected 
+Python FDP for KITE faculty
 
-- 100% pass percentage in "Problem solving and Programming" 
+# Outcome Expected
+
+* 100% pass percentage in "Problem solving and Programming" 
+* Create a passion for programming, problem solving and appreciation for Python
+
 
 
