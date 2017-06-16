@@ -2,11 +2,6 @@
 
 ## Problem statement
 Write a python program to sort the given list using `mergesort` algorithm
-
-CD Extrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/B006BC6DA0?avatar=bee
-
-CD local Link : http://10.100.8.8/kata/edit/B006BC6DA0?avatar=bee
-
 ```code
 Examples:
 Input:[5,8,2]
@@ -23,6 +18,29 @@ Output="Invalid input"
 
 Input=23
 Output="Invalid input"
+```
+## Pseudo code
+```
+merge_sort(num)
+	return divide(num)
+
+divide(num)
+	if num is empty or len(num) is 1:
+		return num
+	mid = len(num)/2
+	left = divide(num[:mid])
+	right = divide(num[mid:])
+	merge(left,right)
+
+
+merge(left,right)
+	merged_list = [ ]
+	while left and right are not empty:
+		if left[0] <  right[0]:
+			Pop left[0] and add it to merged_list
+		else:
+			Pop right[0] and add it to merged_list
+	Append  remaining left and right to merged_list
 ```
 
 ## Solution key
@@ -69,14 +87,44 @@ def merge(left, right):
 Merge sort -  http://bit.ly/KG_mergesort
 
 ## Pre-Lab Questions
+
 1. How do you get the number of elements in the list
-2. Write the code to split the list [6,2,8,4,3,7,5,1] into two halves.
-3. Write the code to merge two lists [2,4,3] and [7,5,6]
-4. Write the code to merge two sorted lists [2,6,7] and [3,5,8] in the sorted order
-5. Validate whether given input is of **list** type.
-6. Validate whether all the elements in the input are of **int** type.
-7. Validate whether given list is empty
-8. What are the first two elements to be merged from the input list [6,2,8,4,3,7,5,1] in the mergesort
+2. Merge two lists [2,4,3] and [7,5,6]
+3. Consider `left` and `right` lists of size 1. Merge them in a sorted order.
+```
+Example:
+left = [12]  right = [3]
+merged = [3,12]
+```
+4. Now consider the two sorted lists of unspecified size. Merge them in a sorted order.
+```
+Example:
+left = [12,45]  right = [3,17]
+merged = [3,12,17,45]
+```
+4b. Merge two sorted lists `[2,6,7]` and `[3,5,8]` in the sorted order
+
+5. Divide the list `num` into `left` and `right` halves.
+```
+Example:
+num = [6,2,8,4,3,7,5,1]
+left = [6,2,8,4]  right = [3,7,5,1]
+```
+6. Recursively divide, till the partition size is 1
+```
+Example:
+num = [12,3,45,17,15]
+left = [12,3]
+        left = [12]
+        right = [3]
+right = [17, 15]
+        left = [17]
+        right = [15]
+```
+7. What are the first two elements to be merged from the input list [6,2,8,4,3,7,5,1] in the mergesort
+8. Validate whether given input is of `list` type.
+9. Validate whether all the elements in the input are of `int` type.
+10. Validate whether given list is empty
 
 ## Post-Lab Questions
 1. Modify the program to validate whether given input is a valid list.
@@ -94,6 +142,9 @@ expected output=['c','c++','python','java']
 ## Interview Grade
 1.Why quicksort is better than mergesort?
 
+## CyberDojo session
+CD extrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/B006BC6DA0?avatar=bee
+CD local Link : http://10.100.8.8/kata/edit/B006BC6DA0?avatar=bee
 
 ## Test cases
 ```python
