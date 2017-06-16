@@ -23,6 +23,7 @@ A sample [file](lab6-kgashok.py.md) is provided with contains
     - Follow the PEP8 Coding conventions, especially for function names - http://pep8.org/#function-names
     - https://www.python.org/dev/peps/pep-0008/#other-recommendations
     - Coding style guidelines - http://python-guide-pt-br.readthedocs.io/en/latest/writing/style/
+    - Auto PEP8 convertor - https://pypi.python.org/pypi/autopep8/
 
 3. Make sure that the code compiles and logically correct as well. 
 4. Multiple contributions will be evaluated, and the best will be chosen to be part of the lab manual. 
