@@ -28,15 +28,15 @@ Sample Output4: Invalid Input
 
 ```python
 
-def expo(base,expo):
-    ans=1.0
+def expo(base, expo):
+    ans = 1.0
     if type(base) == str or type(expo) == str:
         return "Invalid Input"
-    elif expo>=0:
-        for i in range (1,expo + 1):
+    elif expo >= 0:
+        for i in range(1, expo + 1):
             ans = base*ans
     else:
-        for i in range (expo,0 ):
+        for i in range(expo, 0):
             ans = 1/base*ans
     return ans
 ```
@@ -44,18 +44,18 @@ def expo(base,expo):
 ### Using while loop:
 
 ```python 
-def expo(base,expo):
-    ans=1.0
+def expo(base, expo):
+    ans = 1.0
     if type(base) == str or type(expo) == str:
         return "Invalid Input"
-    elif expo>=0:
-        while expo!=0:
-            ans*=base
-            expo-=1
+    elif expo >= 0:
+        while expo != 0:
+            ans *= base
+            expo -= 1
     else:
-        while expo!=0:
-            ans*=(1/base)
-            expo+=1
+        while expo != 0:
+            ans *= (1/base)
+            expo += 1
     return ans
 ```
 
@@ -63,22 +63,24 @@ def expo(base,expo):
 
 ```python
 import math
-def expo(base,expo):
+
+
+def expo(base, expo):
     if type(base) == str or type(expo) == str:
         return "Invalid Input"
     else:
-        n=math.pow(base,expo)
-        return n;
+        n = math.pow(base, expo)
+        return n
 ```
 
 ### Using ** operator:
 
 ```python 
-def expo(base,expo):
+def expo(base, expo):
     if type(base) == str or type(expo) == str:
         return "Invalid Input"
     else:
-        base**=expo
+        base **= expo
         return base
 ```
 
