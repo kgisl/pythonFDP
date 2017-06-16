@@ -29,11 +29,11 @@ Write a python program that removes all the duplicate elements in a list.
 
 
 def remove_duplicates(mlist):
-	tokens = {}
-	for elem in mlist: 
-		tokens[elem] = 1 
-		
-	return list(tokens.keys())
+    tokens = {}
+    for elem in mlist:
+        tokens[elem] = 1
+
+    return list(tokens.keys())
 
 
 def get_list_of_elements():
