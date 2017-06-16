@@ -104,6 +104,8 @@ def sort(lst):
 CD External Link: http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot
 CD Local Link: http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
 
+### The Quicksort Dance 
 
+http://j.mp/quickSortDance
 
 
