@@ -108,4 +108,4 @@ CD Local Link: http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
 
 http://j.mp/quickSortDance
 https://www.quora.com/What-is-an-intuitive-explanation-of-QuickSort/answer/Arjun-Subramaniam?srid=ul6v
-
+https://www.quora.com/What-is-the-best-explanation-of-the-QuickSort-partition-algorithm
