@@ -7,9 +7,7 @@ Python FDP for KITE faculty
 * 100% pass percentage in "Problem solving and Programming" 
 * Create a passion for programming, problem solving and appreciation for Python
 
+## Python Community
 
-
-## Python Community 
-
-![](/assets/kovaiPyLogo.jpeg)
+![](/assets/kovaiPyLogo.jpg)
 
