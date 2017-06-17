@@ -2,7 +2,7 @@
 [TOC]
 
 # Iteration 1 
-##Blockly Maze 
+## Blockly Maze 
 ## Turtle Graphics for variety 
 Link is http://j.mp/turtleBlockly
 
@@ -30,6 +30,8 @@ Editor is http://j.mp/blocklyEditor
 ## Problem 5: Biggest number in a list
 
 ## Problem 5a: Sum of numbers in a list 
+
+## Problem 5b: Cumulative sum of `n` numbers 
 
 ## Problem 6: 2nd biggest number in a list 
 
