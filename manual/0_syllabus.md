@@ -52,9 +52,8 @@ For Inspiration review - [https://www.python.org/about/success/](https://www.pyt
   * Make changes to the code to improve the efficiency or effectiveness or create meaningful extensions. 
   * Pre-register with your faculty to indicate that you want to complete this project with mentoring help 
   * If you win the Python Genius Project Competition which will be held in the week of Sept 6, 2017, you will be awarded a prize for the best `GTG Project`,  worth upto Rs 10,000 
-* Create a personal Mobile App using Python - https://www.quora.com/Can-I-make-an-Android-app-with-Python
-
-
+* Think up a creative use of a Python script that you would like to use on your mobile. Create a personal Mobile App using Python to implement it - [https://www.quora.com/Can-I-make-an-Android-app-with-Python](https://www.quora.com/Can-I-make-an-Android-app-with-Python) 
+  * http://qpython.com/  
 
 
 
