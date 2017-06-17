@@ -110,5 +110,9 @@ CD Local Link: [http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot](http://10.
 
 ![](/assets/Sorting_quicksort_anim.gif)
 
+## Compare Merge and Quick 
+
+http://j.mp/mergeVsQuick 
+
 
 
