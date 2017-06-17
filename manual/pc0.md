@@ -10,6 +10,7 @@ Link is http://j.mp/turtleBlockly
 ## PC-1 Using Blockly and Python
 
 Editor is http://j.mp/blocklyEditor
+For documentation http://bit.ly/blocklyDoc
 
 ## Problem 1: Add a constant to a number 
 
@@ -47,7 +48,8 @@ Editor is http://j.mp/blocklyEditor
 # Iteration 3 
 ## CloudCoder Training: Printing a Right Triangle (series of 6?) 
 
-Diagonals and Diamonds Pattern Printing 
+- Diagonals and Diamonds Pattern Printing 
+- Need to teach how to http://j.mp/debugPrograms and use the Python Visualizer 
 
 # Lab 0.1 and 0.2 in CyberDojo
 
