@@ -11,3 +11,12 @@ Python FDP for KITE faculty
 
 ![](/assets/kovaiPyLogo.jpg)
 
+## Best Way to learn Python
+
+* https://www.quora.com/What-is-the-best-way-to-learn-Python-from-scratch-to-pro/answer/Venkatesan-Murugan-4?srid=ul6v
+* http://www.mytectra.com/blog/will-python-replace-java/ 
+
+
+
+
+

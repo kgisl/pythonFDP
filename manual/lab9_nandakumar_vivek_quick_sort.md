@@ -1,9 +1,11 @@
 # Quick Sort
 
 ## Problem statement
+
 Write a python program to sort the given list using `quick sort` algorithm.
 
 Examples:
+
 ```
 Sample Input0: [1, 2, 3, 4]
 Sample Output0: [1, 2, 3, 4]
@@ -17,10 +19,9 @@ Sample Output2: [3.1, 7.1, 9.2]
 
 ## Solution key
 
-```python 
-
+```python
 def partition(lst, start, end, pivot):
-  
+
   lst[pivot], lst[end] = lst[end], lst[pivot]
   store_index = start
   for i in range(start, end):
@@ -51,61 +52,63 @@ def sort(lst):
     return lst
 ```
 
-
 ## CloudCoder exercises
-[To be updated]
 
-
+\[To be updated\]
 
 ## Pre-Lab Questions
 
-0. Quick sort uses `___________`.
-	- a. Divide and Conquer Technique
-	- b. Greedy Approach       
-    - c. Back Tracking                 
-    - d. None of the above
+1. Quick sort uses `___________`.
 
-1. How to select a pivot element?
+   * a. Divide and Conquer Technique
+   * b. Greedy Approach       
+   * c. Back Tracking                 
+   * d. None of the above
 
-2. Given the following list of numbers `[1, 20, 11, 5, 2, 9, 16, 14, 13, 19]` what would be the first pivot value using the median method?
+2. How to select a pivot element?
 
-3. Given the following list of numbers `[14, 17, 13, 15, 19, 10, 3, 16, 9, 12]` what is the contents of the list after the second partitioning according to the `quicksort` algorithm?
+3. Given the following list of numbers `[1, 20, 11, 5, 2, 9, 16, 14, 13, 19]` what would be the first pivot value using the median method?
 
-4. What is the average case complexity for quick sort algorithm?
-  -  a. `O(n)`    
-  - b. `O(n*n)`        
-  - c. `O(nlogn)`          
-  - d. `O(logn)`
+4. Given the following list of numbers `[14, 17, 13, 15, 19, 10, 3, 16, 9, 12]` what is the contents of the list after the second partitioning according to the `quicksort` algorithm?
 
-5. What is the worst case complexity for quick sort algorithm?
-  - a. `O(n)`    
-  - b. `O(n*n)`            
-  - c. `O(nlogn)`           
-  - d. `O(logn)`
+5. What is the average case complexity for quick sort algorithm?
 
+   * a. `O(n)`    
+   * b. `O(n*n)`        
+   * c. `O(nlogn)`          
+   * d. `O(logn)`
+
+6. What is the worst case complexity for quick sort algorithm?
+
+   * a. `O(n)`    
+   * b. `O(n*n)`            
+   * c. `O(nlogn)`           
+   * d. `O(logn)`
 
 ## Post-Lab Questions
 
- 
 1. What are the advantages and disadvantages of quick sort?
 2. List out the applications of quick sort.
 3. If the list is empty, what will be the value returned from the function?
 4. If the list contain any string element, what will be the value returned from the function?
 5. Does the selection of pivot element help to optimize the quick sort algorithm performance?
 
-
 ## Bonus
-
 
 ## Interview Grade
 
-## Related Material 
+## Related Material
 
-CD External Link: http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot
-CD Local Link: http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot
+CD External Link: [http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot](http://cyberdojo1.kgfsl.com/kata/edit/8EE56C12AC?avatar=parrot)  
+CD Local Link: [http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot](http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot)
 
-### The Quicksort Dance 
+### The Quicksort Dance
 
-http://j.mp/quickSortDance
-https://www.quora.com/What-is-an-intuitive-explanation-of-QuickSort/answer/Arjun-Subramaniam?srid=ul6v
-https://www.quora.com/What-is-the-best-explanation-of-the-QuickSort-partition-algorithm
+[http://j.mp/quickSortDance](http://j.mp/quickSortDance)  
+[https://www.quora.com/What-is-an-intuitive-explanation-of-QuickSort/answer/Arjun-Subramaniam?srid=ul6v](https://www.quora.com/What-is-an-intuitive-explanation-of-QuickSort/answer/Arjun-Subramaniam?srid=ul6v)  
+[https://www.quora.com/What-is-the-best-explanation-of-the-QuickSort-partition-algorithm](https://www.quora.com/What-is-the-best-explanation-of-the-QuickSort-partition-algorithm)
+
+![](/assets/Sorting_quicksort_anim.gif)
+
+
+
