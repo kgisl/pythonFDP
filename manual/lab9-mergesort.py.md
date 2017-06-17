@@ -143,8 +143,8 @@ expected output=['c','c++','python','java']
 1.Why quicksort is better than mergesort?
 
 ## CyberDojo session
-CD extrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/B006BC6DA0?avatar=bee
-CD local Link : http://10.100.8.8/kata/edit/B006BC6DA0?avatar=bee
+- CD extrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/B006BC6DA0?avatar=bee  
+- CD local Link : http://10.100.8.8/kata/edit/B006BC6DA0?avatar=bee
 
 ## Test cases
 ```python
