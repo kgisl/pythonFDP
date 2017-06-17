@@ -1,16 +1,23 @@
 # Sorting
 
+## A Visualization is worth a 1000 tables
 
-
-## A Visualization is worth a 1000 tables 
-
-http://j.mp/mergeVsQuick
+[http://j.mp/mergeVsQuick](http://j.mp/mergeVsQuick)
 
 ## A Table is Worth a 1000 pictures
 
+|  | Selection | Insertion | Merge | Quick |
+| :--- | :--- | :--- | :--- | :--- |
+| Type | Simple | Simple | Efficient | Efficient |
+| Extra Space | Not required | Not required | Required | Required |
+| Constructs | Two for loops | Two for loops | Terminal cases and  Recursive calls | Terminal case and   Recursive calls |
+| Stable | Yes | No | Yes | No |
+| Strategy | Only Comparison | Only Comparison | Divide and Conquer | Divide and Conquer |
+| Preferable | for small size lists | for small size lists | Bigger lists | Bigger lists |
+| Parallelism | Not applicable | Not applicable | Most suitable | Suitable  |
+| Complexity O\(n\) | n\*\*2 | n\*\*2 | nlogn - worst case | n\*\*2 - worst case |
 
-
-
+## Pictures, pictures galore 
 
 **"A picture is worth a 1000 words."** The pictures help convey the contrasting dynamics that occur between the four sorts that need to covered in the lab.
 
@@ -60,7 +67,8 @@ http://j.mp/mergeVsQuick
 
 2. \(A\) Selection Sort
 
-3. \(B\) Quick Sort  
+3. \(B\) Quick Sort
+
 4. \(C\) Merge Sort  
 5. \(D\) Insertion Sort
 
@@ -68,17 +76,19 @@ http://j.mp/mergeVsQuick
 
 7. A.  Selection Sort, Merge Sort
 
-8. B. Insertion Sort, Quick Sort  
+8. B. Insertion Sort, Quick Sort
+
 9. C. Insertion Sort, Merge Sort  
-10. D. None of the above combinations  
+10. D. None of the above combinations
 
-1. What is the correct order in terms of _**increased**_ efficiency of sorting?
+11. What is the correct order in terms of _**increased**_ efficiency of sorting?
 
-2. A. Selection, Insertion, Quick and Merge
+12. A. Selection, Insertion, Quick and Merge
 
-3. B. Insertion, Selection, Merge and Quick  
-4. C. Selection, Insertion, Merge and Quick  
-5. D. None of the above  
+13. B. Insertion, Selection, Merge and Quick
+
+14. C. Selection, Insertion, Merge and Quick  
+15. D. None of the above  
 
 
 
