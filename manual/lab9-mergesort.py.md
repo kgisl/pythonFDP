@@ -141,7 +141,7 @@ expected output=['c','c++','python','java']
 
 ## Interview Grade
 1. Why quicksort is better than mergesort?
-2. Is there a way to implement a hybrid sort (which uses MergeSort and InsertionSort)? What is the algorithm for this?
+2. Is there a way to implement a hybrid sort (which uses MergeSort and InsertionSort)? What is the algorithm for this? Clue: Dynamic Task Parallelism https://msdn.microsoft.com/en-us/library/ff963551.aspx
 
 ## CyberDojo session
 - CD extrenal Link : http://cyberdojo1.kgfsl.com/kata/edit/B006BC6DA0?avatar=bee  
