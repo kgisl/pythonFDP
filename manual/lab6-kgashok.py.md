@@ -125,7 +125,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 ## Bonus 2 
 1. How will you rewrite the function `get_maxnumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
-3. Under what conditions will the one-liner function fail? 
+3. Under what conditions will the one-liner function fail? Can this failure be handled in a pythonic (aka gracefull) fashion? 
 
 ## Bonus 3
 
