@@ -9,7 +9,7 @@
 2. Read the instructions file
 3. Ask your mentor plenty of questions
 4. Modify the basic Python files to solve the problem statement
-
+5. Incorporate whatever exception handling code that would be appropriate. 
 
 ## Problem Statement 
 
