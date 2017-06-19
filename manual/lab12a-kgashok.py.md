@@ -5,7 +5,7 @@
 
 ## Overall Instructions 
 
-1. Update KyG.id file with your details
+1. Update `KyG.id` file with your details
 2. Read the instructions file
 3. Ask your mentor plenty of questions
 4. Modify the Java files to solve the problem statement
@@ -20,31 +20,30 @@ most errors are because you did not read the
 instructions carefully. Make sure your
 program produces the expected output,
 and nothing else. Make sure that the
-output is in a file called output.txt.
-Do not use C:\output.txt or any other
+output is in a file called `output.txt`.
+Do not use `C:\output.txt` or any other
 such path. Similarly, make sure you
-read the data from input.txt and not
-from C:\input.txt or anything else. Do
+read the data from `input.txt` and not
+from `C:\input.txt` or anything else. Do
 not print anything to stdout. Do not
-prompt the user to enter numbers. Use
-only standard C. Specifically do not
-use any Microsoft or Turbo-C
-extensions. Do not use conio.h or
-getch. Write a program which will read
-a bunch of integers from an input
-file, sort them, and print the sorted
-result to an output file.
+prompt the user to enter numbers. 
 
-You must read the input from input.txt
-and you must write the output to output.txt. 
+> Write a program which will read
+> a bunch of integers from an input
+> file, sort them, and print the sorted
+> result to an output file.
+
+You must read the input from `input.txt`
+and you must write the output to `output.txt`. 
 The input will contain one integer per line, 
 and you’re expected to stop reading when 
 you reach EOF. The output should also have
 one integer per line.
 
-Warning: Do not print anything else to 
-output.txt. Do not print prompts like 
-“Please enter a number.” The output should 
+## Warning 
+Do not print anything else to 
+`output.txt`. Do not print prompts like 
+`“Please enter a number.”` The output should 
 not contain anything other than the sorted 
 integers, one per line.
 
@@ -70,26 +69,20 @@ The output should be
 ```
 
 ## Important Notes
-Please write your program in C, C++, or Java. If you write your program
-in Java, please make sure that your main class is called Main (this is the class which contains public static void main)
+Please write your program in Python. 
 
 You must be able to read the input from a 
-file called input.txt in the current directory. 
+file called `input.txt` in the current directory. 
 You must be able to read the file in a format 
 exactly as shown above - do not assume that any 
 other information will be provided in the file 
-or on standard input. You must write your output
- to a file called output.txt in the current directory. 
+or on standard input. You must write your output 
+to a file called `output.txt` in the current directory. 
 
-Do not write or print anything else into output.txt 
-other than the expected answer.
+Do not write or print anything else into `output.txt`
+other than the expected answer. Do print anything extra to
+`stdout` or to the output file (if any). 
 
-For C/C++ programs, do not use non-standard 
-include files like conio.h and do not use non-standard 
-functions like clrscr or getch. Use only standard C. 
-not print anything extra to stdout or to the output file (if any).
-
-##Note 
-Read the instructions carefully. Most candidates 
-fail because they did not follow the instructions exactly.
+Read the instructions carefully. Most candidates fail 
+because they did not follow the instructions exactly.
 
