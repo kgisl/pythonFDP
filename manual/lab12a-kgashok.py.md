@@ -8,7 +8,7 @@
 1. Update `KyG.id` file with your details
 2. Read the instructions file
 3. Ask your mentor plenty of questions
-4. Modify the Java files to solve the problem statement
+4. Modify the basic Python files to solve the problem statement
 
 
 ## Problem Statement 
