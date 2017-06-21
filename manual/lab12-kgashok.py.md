@@ -21,8 +21,9 @@ Write a Python program to compute the most frequently used words from the text f
 
 2. When such a function `open_file()`is called with the appropriate argument, it is recommended coding practice to have exception handling code in the calling code or function to handle `OS_exceptions`. What would that exception handling code be for handling the specific exception which was raised in the previous question?
 
-3. What other exception handling code would you add to handle **all other types** of exceptions that may arise? 
+3. What is the difference between a text file and a binary file? 
 
+4. Imagine that the user specifies a filename, and a file exists with the same name but it happens to be a binary file and not a text file. If the program tries to read a binary file when it is expecting a text file, other exceptions will occur. What additional exception handling code would you add to handle **all other types** of exceptions that may arise, including the binary file scenario? 
 
 
 ## Post-lab Questions
