@@ -19,7 +19,7 @@ Write a Python program to compute the most frequently used words from the text f
 	```
 
 
-2. When such a function (`open_file()`) with the appropriate argument, it is always a good coding practice to have exception handling code in the calling code or function to handle `OS_exceptions`. What would that exception handling code be for handling the specific exception which was raised in the previous question?
+2. When such a function `open_file()`is called with the appropriate argument, it is recommended coding practice to have exception handling code in the calling code or function to handle `OS_exceptions`. What would that exception handling code be for handling the specific exception which was raised in the previous question?
 
 3. What other exception handling code would you add to handle **all other types** of exceptions that may arise? 
 
