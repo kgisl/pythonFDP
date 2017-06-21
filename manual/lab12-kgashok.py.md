@@ -10,6 +10,8 @@ Write a Python program to compute the most frequently used words from the text f
 
 ## Pre-Lab Questions 
 
+0. Distinguish between syntax errors (compile time) and exceptions (run time).
+
 1. There may not exist a file with the user provided filename(s) on the command line. In that case, a built-in [OS-level exception](https://docs.python.org/3/library/exceptions.html#os-exceptions) will be `raise`d when the program is executed. Write a Python function `open_file(filename)` that  handles the appropriate exception (https://docs.python.org/3/library/exceptions.html#FileNotFoundError) and re-`raise` the exception (allowing a caller to handle the exception as well). To help you get started, the basic code for `open_file` is already provided below. 
 
 	```python
