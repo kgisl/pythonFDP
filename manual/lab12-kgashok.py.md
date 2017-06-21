@@ -15,7 +15,7 @@ Write a Python program to compute the most frequently used words from the text f
 	```python
 	def open_file(filename):
 	    file = open(filename, 'r')
-	    return file
+	return file
 	```
 
 
