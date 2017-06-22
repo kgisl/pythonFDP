@@ -1,5 +1,4 @@
-# Lab 8: Selection Sort and Insertion Sort 
-
+# Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
 
@@ -72,6 +71,29 @@ print(alist)
 
 http://mcsp.wartburg.edu/zelle/python/sigcse-workshop/mgp00064.html
 
+```python 
+
+def qsort(L): 
+	if len (L) <= 1: return L
+	
+	return qsort([lt for lt in L[1:] if lt < L[0]]) + \
+			[L[0]] + \
+		   qsort([gt for gt in L[1:] if gt >= L[0]])
+```
+
+or 
+```python
+def qsort(L):
+		if len(L) <= 1: return L
+		
+		def subList(pivot, op):
+			return [elem for elem in L[1:] if op(elem, pivot)]
+
+		return qsort(subList(L[0], operator.lt)) + \
+			[L[0]] + \
+			qsort(subList(L[0], operator.ge))
+
+```
 
 ## What exactly does this accomplish? 
 
