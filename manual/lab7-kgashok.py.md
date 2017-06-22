@@ -91,7 +91,7 @@ TBD
 
 ## Post-Lab Questions 
 
-0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. 
+0. Rewrite the code to use only `lists` and not a `dictionary`. Or vice versa. Provide analysis to whether the eventual output is `stable` or `unstable`. 
 1. You are not allowed to use another data structure to remove duplicates. That is, remove the duplicates in-place. Is this possible?  
 2. How will you find the common elements that exist in two different lists? 
 3. Write a program to calculate the product of all the integers that are available in a list. For e.g. if `alist = [2, 3, 5, 8]`, then `product(alist) = 240` 
@@ -125,4 +125,40 @@ Calculate the `gcd` for a list of integers using the prime factorization method.
 ## Related Links 
 
 https://goo.gl/v7ephq
+http://j.mp/removeDuplicates 
+
+
+## Predict the output  of Snippet1
+
+```python
+
+mylist = [1, 5, 1, 2, 3, 4, 2, 7, 4, 6]
+if mylist:
+    mylist.sort()
+    last = mylist[-1]
+    for i in range(len(mylist)-2, -1, -1):
+      if last == mylist[i]:
+          del mylist[i]
+      else:
+          last = mylist[i]
+
+print(mylist)
+```
+
+## Predict the output of Snippet2 
+
+```python
+	
+	u = [1, 5, 1, 2, 3, 4, 2, 7, 4, 6]
+	for x in s:
+	 if x not in u:
+	     u.append(x)
+	print (u)
+```
+
+## Analyze Snippet1 vs Snippet2
+
+0. Both `mylist` and `u` are identical lists. True or False? 
+1. At the end of execution of their respective codes, `mylist` from `Snippet1` and `u` from `Snippet2` will always be of the same size, as long as they both start off by being equal. True or False? 
+2. At the end of execution of their respective codes, `mylist` and `u` will have the same contents, in the same order. True or False? 
 
