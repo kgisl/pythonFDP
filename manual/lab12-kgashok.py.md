@@ -30,12 +30,19 @@ Write a Python program to compute the most frequently used words from the text f
 
 ## Post-lab Questions
 
+1. How can you compare whether two files are equal in Python? 
 
+	```	
+	python -c "print open('f0.txt', 'rb').read() == open('f1.txt', 'rb').read()"
+	```
 
 
 
 ## Related Material
 
 http://programmingzen.com/use-python-to-detect-the-most-frequent-words-in-a-file/
+
+http://mcsp.wartburg.edu/zelle/python/sigcse-workshop/mgp00047.html 
+
 
  
