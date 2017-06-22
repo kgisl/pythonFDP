@@ -68,16 +68,18 @@ print(alist)
 	    return [v] + selsort(l[:idx] + l[idx + 1:])
 ```
 
-## What exactly does this accomplish? 
-
-from threading import Timer
-
-l = [8, 2, 4, 6, 7, 1]
-
-for n in l:
-    Timer(n, lambda x: print(x), [n]).start()
-
-
 ## Recursive QuickSort 
 
 http://mcsp.wartburg.edu/zelle/python/sigcse-workshop/mgp00064.html
+
+
+## What exactly does this accomplish? 
+
+
+```python 
+	from threading import Timer
+	l = [8, 2, 4, 6, 7, 1]
+	for n in l:
+	    Timer(n, lambda x: print(x), [n]).start()
+```
+
