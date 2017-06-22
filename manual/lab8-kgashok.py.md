@@ -76,9 +76,10 @@ http://mcsp.wartburg.edu/zelle/python/sigcse-workshop/mgp00064.html
 def qsort(L): 
 	if len (L) <= 1: return L
 	
-	return qsort([lt for lt in L[1:] if lt < L[0]]) + \
-			[L[0]] + \
-		   qsort([gt for gt in L[1:] if gt >= L[0]])
+	return qsort([n for n in L[1:] if n < L[0]]) + \
+					[L[0]] + \
+					qsort([n for n in L[1:] if n >= L[0]])
+
 ```
 
 or 
@@ -93,6 +94,19 @@ def qsort(L):
 			[L[0]] + \
 			qsort(subList(L[0], operator.ge))
 
+```
+
+or using `lambda` and `filter`
+
+```python
+def qsort(L): 
+	if len(L) <= 1: return L
+	pivot = L[0]
+	sublist = lambda op: [*filter(lambda num: op(num, pivot), L[1:])]
+	
+	return qsort(sublist(lt))+ [pivot] + qsort(sublist(ge))
+		
+print (qsort([3,1,4,2,5]) == [1,2,3,4,5])
 ```
 
 ## What exactly does this accomplish? 
