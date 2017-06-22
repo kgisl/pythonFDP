@@ -99,14 +99,37 @@ def qsort(L):
 or using `lambda` and `filter`
 
 ```python
+from operator import ge as greater, lt as lesser
+
 def qsort(L): 
-	if len(L) <= 1: return L
-	pivot = L[0]
-	sublist = lambda op: [*filter(lambda num: op(num, pivot), L[1:])]
-	
-	return qsort(sublist(lt))+ [pivot] + qsort(sublist(ge))
-		
+    if len(L) <= 1: return L
+    pivot   = L[0]
+    sublist = lambda op: [*filter(lambda num: op(num, pivot), L[1:])]
+
+    return qsort(sublist(lesser))+ [pivot] + qsort(sublist(greater))
+
 print (qsort([3,1,4,2,5]) == [1,2,3,4,5])
+```
+
+and the most efficient: 
+
+```python 
+
+import random
+
+def quicksort(s):
+    len_s = len(s)
+    if len_s < 2:
+        return s
+
+    pivot = s[random.randrange(0, len_s)]
+
+    L = [x for x in s if x < pivot]
+    E = [x for x in s if x == pivot]
+    G = [x for x in s if x > pivot]
+
+    return quicksort(L) + E + quicksort(G)
+
 ```
 
 ## What exactly does this accomplish? 
