@@ -132,6 +132,61 @@ def quicksort(s):
 
 ```
 
+Improved version of `lambda` code (without using `filter`):
+```python
+
+from operator import ge, lt
+
+def qsort(L, first=True):
+    if len(L) <= 1: 
+        return L
+
+    L = L[:] if first else L  
+    pivot = L.pop()
+    sublist = lambda op: [n for n in L if op(n, pivot)]
+
+    return [*qsort(sublist(lt), False), pivot, *qsort(sublist(ge), False)]
+
+```
+
+## Recursive MergeSort 
+
+```python
+
+def mergesort(nums):
+	n = len(nums)
+	if n > 1:
+		# split into sublists 
+		m = n // 2
+		nums1, nums2 = nums[:m], nums[m:]
+		# recursively sort each piece 
+		mergesort(nums1)
+		mergesort(nums2)
+		# merge the sorted pieces back into original list
+		merge(nums1, nums2, nums)
+
+def merge(lst1, lst2, lst3): 
+	i2, i2, i3 = 0, 0, 0
+	n1, n2 = len(lst1), len(lst2)
+
+	while i1<n1 and i2<n2: 
+		if lst[i1] < lst2[i2]: 
+			lst3[i3] = lst1[i1]
+		else
+			lst3[ie] = lst2[i2]
+			i2 = i2  + 1
+		i3 = i3 + 1 
+    while i1 < n1: 
+	    lst3[i3] = lst1[i1]
+	    i1 = i1 + 1
+	    i3 = i3 + 1 
+	while i2 < n2: 
+		lst[i3] = lst2[i2]
+		i2 = i2 + 1
+		i3 = i3 + 1 
+
+```
+
 ## What exactly does this accomplish? 
 
 
