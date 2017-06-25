@@ -212,6 +212,25 @@ class Test_mergesort(unittest.TestCase):
         self.assertEqual(expected, alist)
 
 
+    def generate_random_list(self): 
+        alist = []
+        for i in range (10): 
+            x = [random.randrange(-100, 101, 1)] * random.randrange(0, 6)
+            alist.extend(x)
+        
+        random.shuffle(alist)    
+        # print(sorted(alist))
+        return alist
+
+    def test_random_list(self):
+        alist = self.generate_random_list()
+
+        expected = sorted(alist)
+        mergesort(alist)
+        self.assertEqual(expected, alist)
+
+
+
 if __name__ == '__main__':
     unittest.main()
 
