@@ -200,11 +200,12 @@ def merge(lst1, lst2, lst3):
 
 from mergesort import mergesort
 import unittest
+import random
 
 class Test_mergesort(unittest.TestCase):
 
     def test_simple_lists(self):
-        alist = [1, 4, 5, 2, 4, 3, 10, 2]
+        alist = [1, 4, 5, 2, 4, 3, 10, 2, -4]
         
         expected = sorted(alist)
         mergesort(alist)
@@ -213,6 +214,7 @@ class Test_mergesort(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
 
 ```
 
