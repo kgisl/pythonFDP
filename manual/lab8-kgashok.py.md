@@ -108,7 +108,7 @@ def qsort(L):
 
   return qsort(sublist(lesser))+ [pivot] + qsort(sublist(greater))
 
-print (qsort([3,1,4,2,5]) == [1,2,3,4,5])
+print(qsort([3,1,4,2,5]) == [1,2,3,4,5])
 ```
 
 and the most efficient: 
