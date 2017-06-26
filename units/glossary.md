@@ -1,10 +1,12 @@
 [TOC]
 
 ## argument
-A value passed to a function (or method) when calling the
-function.  There are two kinds of argument:
+> A value passed to a function (or method) when calling the function. 
+> Contrast that with:  [parameter](#parameter) - a variable declared in a function (or method) for representing an argument. 
 
-keyword argument: an argument preceded by an identifier (e.g.
+There are two kinds of argument:
+
+**keyword argument:** an argument preceded by an identifier (e.g.
 name=) in a function call or passed as a value in a dictionary
 preceded by **.  For example, 3 and 5 are both keyword
 arguments in the following calls to complex():
@@ -14,7 +16,7 @@ arguments in the following calls to complex():
 
 
 
-positional argument: an argument that is not a keyword argument.
+**positional argument:** an argument that is not a keyword argument.
 Positional arguments can appear at the beginning of an argument list
 and/or be passed as elements of an iterable preceded by *.
 For example, 3 and 5 are both positional arguments in the
@@ -23,12 +25,12 @@ following calls:
 	complex(3, 5)
 	complex(*(3, 5))
 
-Arguments are assigned to the named local variables in a function body.
+Arguments are assigned to the named local variables (aka parameters) in a function body.
 See the Calls section for the rules governing this assignment.
 Syntactically, any expression can be used to represent an argument; the
 evaluated value is assigned to the local variable.
-See also the parameter glossary entry, the FAQ question on
-the difference between arguments and parameters, and PEP 362.
+See also the [parameter](#parameter) glossary entry, the [FAQ question](http://j.mp/argsVsParams) on
+the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
 
 
 
@@ -64,11 +66,11 @@ keys can be any object with __hash__() and __eq__() methods. Called a hash in Pe
 
 
 ## dictionary view
-The objects returned from dict.keys(), dict.values(), and
-dict.items() are called dictionary views. They provide a dynamic
+The objects returned from `dict.keys()`, `dict.values()`, and
+`dict.items()` are called dictionary views. They provide a dynamic
 view on the dictionary’s entries, which means that when the dictionary
 changes, the view reflects these changes. To force the
-dictionary view to become a full list use list(dictview).  
+dictionary view to become a full list use `list(dictview)`.  
 
 See Dictionary view objects.
 
