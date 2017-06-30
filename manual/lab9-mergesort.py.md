@@ -19,6 +19,38 @@ Output="Invalid input"
 Input=23
 Output="Invalid input"
 ```
+## How it works
+![Merge sort example](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+```python
+Before sorting: [6, 5, 3, 1, 8, 7, 2, 3]
+[6, 5, 3, 1, 8, 7, 2, 3]
+divide left: [6, 5, 3, 1]
+divide left: [6, 5]
+divide left: [6]
+divide right: [5]
+merging: [6] [5] merged: [5, 6]
+divide right: [3, 1]
+divide left: [3]
+divide right: [1]
+merging: [3] [1] merged: [1, 3]
+merging: [5, 6] [1, 3] merged: [1, 3, 5, 6]
+divide right: [8, 7, 2, 3]
+divide left: [8, 7]
+divide left: [8]
+divide right: [7]
+merging: [8] [7] merged: [7, 8]
+divide right: [2, 3]
+divide left: [2]
+divide right: [3]
+merging: [2] [3] merged: [2, 3]
+merging: [7, 8] [2, 3] merged: [2, 3, 7, 8]
+merging: [1, 3, 5, 6] [2, 3, 7, 8] merged: [1, 2, 3, 3, 5, 6, 7, 8]
+After sorting: [1, 2, 3, 3, 5, 6, 7, 8]
+```
+## Related material
+Animation  - https://visualgo.net/en/sorting?slide=10
+slides -  http://bit.ly/KG_mergesort
+
 ## Pseudo code
 ```
 merge_sort(num)
@@ -77,14 +109,6 @@ def merge(left, right):
     return merged
 
 ```
-
-
-## CloudCoder exercises
-[To be updated]
-
-
-## Related material
-Merge sort -  http://bit.ly/KG_mergesort
 
 ## Pre-Lab Questions
 
