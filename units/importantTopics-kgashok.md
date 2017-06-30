@@ -154,3 +154,15 @@ https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/
 
 http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
 
+The best programming practice book!
+ByKevin Lon April 17, 2017
+Format: Paperback
+TL;DR: When it comes to programming practice, Elements of Programming interviews is the cream of the crop. If you are only going to buy one practice book, I would recommend this one above all the others. I have nothing but good things to say about the book, and can confidently say that no other product that offers as much depth as EoPI does.
+
+The first thing you will notice about EoPI is that the level of detail is astounding; I was blown away by the sheer amount of effort that the authors put into it. The problem analysis is unparalleled, and goes far beyond basic algorithm/data structures knowledge. The solutions are easy to follow and explained very thoroughly. For example, if a problem has multiple solutions, the authors will walk you through each one and guide you towards the optimal solution. In addition to being a goldmine of commonly-asked problems, the book also offers many original problems that you wouldn't be able to find anywhere else; it is by far the most comprehensive practice resource out there. In terms of organization the book is extremely well structured, and even provides study plans for the reader to help with problem selection. Some of the problems in the book are much more difficult than what you would find in an actual interview. If you are able to comfortably solve the problems in this book, you should certainly have no problem with the real thing.
+
+Before using this book I tried various other resources, particularly Cracking the Coding Interview and LeetCode. The former offered no depth whatsoever: mostly simple and overused problems (like what you would get in a technical phone screen). While the latter provided no shortage of challenging problems, I found it sometimes frustrating to use because of its unclear problem statements and its reliance on an auto-grader to compensate for lack of published solutions and guidance.
+
+I have long been a fan of the series and I am delighted to see that a Python version has been released. I give Elements of Programming Interviews 5-stars because I think it is an essential practice resource. Honestly, it was a lot of fun to work through the book; it was much more pleasant than the usual practice problem grind. Even if you are not practicing for interviews at the time, I highly recommend checking it out. It is a great way to develop your problem solving ability and build confidence for future interviews.
+
+https://www.amazon.com/dp/1537713949/ref=cm_wl_huc_continue
