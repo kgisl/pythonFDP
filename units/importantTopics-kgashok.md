@@ -145,3 +145,12 @@ a  = a ^ b   # a now contains b ( since c ^ a -> b )
 ### Credits
 
 http://www.brunton-spall.co.uk/post/2010/09/07/interview-questions-xor-trick-and-why-you-should-j/
+
+
+### Important Links
+
+http://www.pixelmonkey.org/2015/06/06/pybooks
+https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/
+
+http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
+
