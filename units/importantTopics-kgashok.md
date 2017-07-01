@@ -166,3 +166,16 @@ Before using this book I tried various other resources, particularly Cracking th
 I have long been a fan of the series and I am delighted to see that a Python version has been released. I give Elements of Programming Interviews 5-stars because I think it is an essential practice resource. Honestly, it was a lot of fun to work through the book; it was much more pleasant than the usual practice problem grind. Even if you are not practicing for interviews at the time, I highly recommend checking it out. It is a great way to develop your problem solving ability and build confidence for future interviews.
 
 https://www.amazon.com/dp/1537713949/ref=cm_wl_huc_continue
+
+
+### The best 3 books
+
+Python expertise awaits. Whether you are a pair of hackers building a prototype for a new startup; a 20-person team that is doing large-scale engineering with Python; or a thousand-person engineering department that is switching from Java/C++, your team will benefit greatly from copies of each of these!
+
+- Python Essential Reference, 4e (Beazley)
+- Fluent Python, 1e (Ramalho)
+- Python Cookbook, 3e (Beazley, Jones)
+- Bonus: Python Cookbook, 2e (Martelli, Ascher)
+
+You’ll all be certified Pythonistas in no time. Welcome to the community, and Happy Hacking!
+
