@@ -183,3 +183,9 @@ You’ll all be certified Pythonistas in no time. Welcome to the community, and 
 
 https://doughellmann.com/blog/the-python-3-standard-library-by-example/ 
 
+### What standard libraries to learn in Python? 
+
+https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/
+
+http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
+
