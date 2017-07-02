@@ -179,3 +179,7 @@ Python expertise awaits. Whether you are a pair of hackers building a prototype 
 
 You’ll all be certified Pythonistas in no time. Welcome to the community, and Happy Hacking!
 
+#  Learn by Example
+
+https://doughellmann.com/blog/the-python-3-standard-library-by-example/ 
+
