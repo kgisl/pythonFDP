@@ -1,6 +1,6 @@
 # Sorting
 
-For a quick wordy comparison, take a look at: http://bit.ly/sortsCompared 
+For a quick wordy comparison, take a look at: [http://bit.ly/sortsCompared](http://bit.ly/sortsCompared)
 
 ## A Visualization is worth a 1000 tables
 
@@ -20,7 +20,7 @@ For a quick wordy comparison, take a look at: http://bit.ly/sortsCompared
 | Most preferable for | small size lists | small size lists | bigger lists | bigger lists |
 | Parallelism | Not applicable | Not applicable | Most suitable | Suitable |
 | Complexity O\(n\) | n\*\*2 | n\*\*2 | nlogn - worst case | n\*\*2 - worst case |
-| Used by |  | Python's timsort | Python's timsort | Linux's sort |
+| Used by |  | **Python**'s timsort | **Python**'s timsort | **Linux**'s sort |
 
 ## Pictures, pictures galore
 
