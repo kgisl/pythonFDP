@@ -6,46 +6,51 @@ Sort the given list using selection sort and insertion sort.
 
 ```python
 
-def selectionSort(alist):
+def selectsort(L): 
     # start filling from the end of the list
-    for fillslot in range(len(alist) - 1, 0, -1):
+    for slot in range(len(L)-1, 0, -1):
         positionOfMax = 0
         # find the position of the maximum value
-        for location in range(1, fillslot + 1):
-            if alist[location] > alist[positionOfMax]:
+        for location in range(1, slot + 1):
+            if L[location] > L[positionOfMax]:
                 positionOfMax = location
 
-        # swap the fillslot with the maximum value
-        temp = alist[fillslot]
-        alist[fillslot] = alist[positionOfMax]
-        alist[positionOfMax] = temp
+        # swap the slot with the maximum value
+        temp             = L[slot]
+        L[slot]          = L[positionOfMax]
+        L[positionOfMax] = temp
+        print(L) 
+        
+    return L
 
 
-def insertionSort(L):
+def insertsort(L):
+
   # scan every element to determined where it must be inserted
   # Location 0 constitutes a "sorted" list already. So begin from 1
   for index in range(1, len(L)):
     key = L[index]
     # start with the immediate previous element
-    j = index-1
+    j = index - 1
 
     # determine which 'j' it should be at
     # meanwhile, keep shifting elements to the right
     while j >= 0 and (L[j] > key):
-      L[j+1] = L[j]
+      L[j + 1] = L[j]
       j = j - 1
       print(L)
     # end of inner while loop 
-   
-    # update the list with the current element in consideration
-    L[j+1] = key
-  # end of outer for loop
 
+    # update the list with the current element in consideration
+    L[j + 1] = key
+  # end of outer for loop
+  return L
+  
 alist = [54,26,93,17,77,31,44,55,20]
-selectionSort(alist)
+selectsort(alist)
 print(alist)
 alist = [54,26,93,17,77,31,44,55,20]
-insertionSort(alist)
+insertsort(alist)
 print(alist)
 
 ```
@@ -60,10 +65,12 @@ print(alist)
 ## Recursive version of SelectionSort 
 
 ```python
-def selsort(l):
+import operator 
+def selectsortr(l):
     if not l: return []
     idx, v = min(enumerate(l), key=operator.itemgetter(1))
-    return [v] + selsort(l[:idx] + l[idx + 1:])
+    print(v, l[:idx], l[idx+1:])
+    return [v] + selectsortr(l[:idx] + l[idx + 1:])
 ```
 
 ## Recursive QuickSort 
