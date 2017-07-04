@@ -22,24 +22,23 @@ def selectionSort(alist):
 
 
 def insertionSort(alist):
-
   # scan every element to determined where it must be inserted
-  for index in range(1, len(alist)):
-	  currentvalue = alist[index]
-	  # current location where it is situated
-	  location = index
+  # Location 0 constitutes a "sorted" list already. So begin from 1
+  for index in range(1, len(L)):
+    key = L[index]
+    # start with the immediate previous element
+    j = index-1
 
-	  # determine which location it should be at 
-	  while location > 0:
-	    if alist[location - 1] > currentvalue:
-	        alist[location] = alist[location - 1]
-	        location = location - 1
-	    else:
-		    break
-	  # end of inner while loop 
+    # determine which 'j' it should be at
+    # meanwhile, keep shifting elements to the right
+    while j >= 0 and (L[j] > key):
+      L[j+1] = L[j]
+      j = j - 1
+      print(L)
+    # end of inner while loop 
    
-	  # update the list with the current element in consideration
-	  alist[location] = currentvalue
+    # update the list with the current element in consideration
+    L[j+1] = key
   # end of outer for loop
 
 alist = [54,26,93,17,77,31,44,55,20]
