@@ -35,7 +35,7 @@ def insertionSort(alist):
 	        alist[location] = alist[location - 1]
 	        location = location - 1
 	    else:
-	      break
+		    break
 	  # end of inner while loop 
    
 	  # update the list with the current element in consideration
