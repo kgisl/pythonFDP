@@ -21,7 +21,7 @@ def selectionSort(alist):
         alist[positionOfMax] = temp
 
 
-def insertionSort(alist):
+def insertionSort(L):
   # scan every element to determined where it must be inserted
   # Location 0 constitutes a "sorted" list already. So begin from 1
   for index in range(1, len(L)):
