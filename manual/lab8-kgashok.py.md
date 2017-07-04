@@ -25,21 +25,21 @@ def insertionSort(alist):
 
   # scan every element to determined where it must be inserted
   for index in range(1, len(alist)):
-  currentvalue = alist[index]
-  # current location where it is situated
-  location = index
+	  currentvalue = alist[index]
+	  # current location where it is situated
+	  location = index
 
-  # determine which location it should be at 
-  while location > 0:
-    if alist[location - 1] > currentvalue:
-        alist[location] = alist[location - 1]
-        location = location - 1
-    else:
-      break
-  # end of inner while loop 
+	  # determine which location it should be at 
+	  while location > 0:
+	    if alist[location - 1] > currentvalue:
+	        alist[location] = alist[location - 1]
+	        location = location - 1
+	    else:
+	      break
+	  # end of inner while loop 
    
-  # update the list with the current element in consideration
-  alist[location] = currentvalue
+	  # update the list with the current element in consideration
+	  alist[location] = currentvalue
   # end of outer for loop
 
 alist = [54,26,93,17,77,31,44,55,20]
