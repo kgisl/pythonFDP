@@ -1,8 +1,6 @@
 # Sorting
 
-For a quick wordy comparison, take a look at: 
-
-https://github.com/kgisl/pythonFDP/blob/master/manual/lab8-kgashok.py.md#select-vs-insert-vs-merge-vs-quick
+For a quick wordy comparison, take a look at: http://bit.ly/sortsCompared 
 
 ## A Visualization is worth a 1000 tables
 
@@ -10,7 +8,7 @@ https://github.com/kgisl/pythonFDP/blob/master/manual/lab8-kgashok.py.md#select-
 
 ## A Table is Worth a 1000 pictures
 
-https://en.wikipedia.org/wiki/Sorting\_algorithm\#Comparison\_of\_algorithms 
+[https://en.wikipedia.org/wiki/Sorting\_algorithm\#Comparison\_of\_algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_of_algorithms)
 
 | Classifier | Selection | Insertion | Merge | Quick |
 | :--- | :--- | :--- | :--- | :--- |
@@ -22,6 +20,7 @@ https://en.wikipedia.org/wiki/Sorting\_algorithm\#Comparison\_of\_algorithms
 | Most preferable for | small size lists | small size lists | bigger lists | bigger lists |
 | Parallelism | Not applicable | Not applicable | Most suitable | Suitable |
 | Complexity O\(n\) | n\*\*2 | n\*\*2 | nlogn - worst case | n\*\*2 - worst case |
+| Used by |  | Python's timsort | Python's timsort | Linux's sort |
 
 ## Pictures, pictures galore
 
@@ -97,6 +96,7 @@ https://en.wikipedia.org/wiki/Sorting\_algorithm\#Comparison\_of\_algorithms
 
 14. C. Selection, Insertion, Merge and Quick
 
-15. D. None of the above  
+15. D. None of the above
+
 
 
