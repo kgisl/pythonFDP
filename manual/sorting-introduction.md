@@ -1,5 +1,9 @@
 # Sorting
 
+For a quick wordy comparison, take a look at: 
+
+https://github.com/kgisl/pythonFDP/blob/master/manual/lab8-kgashok.py.md#select-vs-insert-vs-merge-vs-quick
+
 ## A Visualization is worth a 1000 tables
 
 [http://j.mp/mergeVsQuick](http://j.mp/mergeVsQuick)
@@ -94,6 +98,5 @@ https://en.wikipedia.org/wiki/Sorting\_algorithm\#Comparison\_of\_algorithms
 14. C. Selection, Insertion, Merge and Quick
 
 15. D. None of the above  
-
 
 
