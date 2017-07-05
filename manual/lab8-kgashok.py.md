@@ -79,6 +79,7 @@ def ins_sort(k):
 
 - http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSort.html
 - http://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html
+- http://bit.ly/insertVisualizer - insertSort in the visualizer 
 
 
 
