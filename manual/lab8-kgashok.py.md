@@ -98,17 +98,16 @@ def selectsortr(l):
 ## Recursive InsertSort
 
 ```python
-def insertsortr(L):
-    if not L:
-        return []
+import bisect
 
-    if len(L) > 2:
-        L[:-1] = insertsortr(L[:-1])
-
-    candidate = L.pop()
-    idx       = bisect.bisect(L, candidate)
-    print(L[:idx], candidate, L[idx:])
-    return L[:idx] + [candidate] + L[idx:]
+def insertion_sort(L):
+    print(L)
+    if len(L) == 1:  
+        return L
+    else:
+        candidate = L.pop()
+        bisect.insort(insertion_sort(L), candidate)
+        return L
 ```
 
 ## Recursive QuickSort 
