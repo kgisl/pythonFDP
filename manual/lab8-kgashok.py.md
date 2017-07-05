@@ -62,6 +62,19 @@ print(alist)
 
 ```
 
+### Simplest insert sort 
+First see the video and then code!  http://j.mp/insertSortVideo
+
+```python
+def ins_sort(k):
+    for i in range(1,len(k)):   
+        j = i                   
+        while j > 0 and k[j] < k[j-1]: 
+            k[j], k[j-1] = k[j-1], k[j] 
+            j=j-1 
+    return k
+```
+
 ## Related Material 
 
 - http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSort.html
@@ -69,15 +82,33 @@ print(alist)
 
 
 
-## Recursive version of SelectionSort 
+## Recursive SelectionSort 
 
 ```python
+# https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
+
 import operator 
 def selectsortr(l):
     if not l: return []
     idx, v = min(enumerate(l), key=operator.itemgetter(1))
     print(v, l[:idx], l[idx+1:])
     return [v] + selectsortr(l[:idx] + l[idx + 1:])
+```
+
+## Recursive InsertSort
+
+```python
+def insertsortr(L):
+    if not L:
+        return []
+
+    if len(L) > 2:
+        L[:-1] = insertsortr(L[:-1])
+
+    candidate = L.pop()
+    idx       = bisect.bisect(L, candidate)
+    print(L[:idx], candidate, L[idx:])
+    return L[:idx] + [candidate] + L[idx:]
 ```
 
 ## Recursive QuickSort 
