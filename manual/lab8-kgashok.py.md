@@ -81,6 +81,13 @@ def ins_sort(k):
 - http://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html
 - http://bit.ly/insertVisualizer - insertSort in the visualizer 
 
+3-problem series for learning/teaching insertsort
+
+- Part 1- https://www.hackerrank.com/challenges/insertionsort1
+- Part 2 - https://www.hackerrank.com/challenges/insertionsort2
+- Part 3 - https://www.hackerrank.com/challenges/correctness-invariant  (fix the bug)
+
+
 
 
 ## Recursive SelectionSort 
