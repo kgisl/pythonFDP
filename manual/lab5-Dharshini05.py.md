@@ -21,7 +21,7 @@ Implement a python program that finds the first `n` prime numbers.
 
 ```python 
 
-def prime(min, max):
+def generate_primes(min, max):
     primeList = []
     if type(min) == str or type(max) == str:
         return "Invalid Range"
