@@ -71,7 +71,7 @@ def binary_search(myl, token):
 ## Lab 5
 ```python
 
-def prime(min, max):
+def generate_primes(min, max):
     primeList = []
     if type(min) == str or type(max) == str:
         return "Invalid Range"
