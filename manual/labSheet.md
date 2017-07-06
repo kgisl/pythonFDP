@@ -246,6 +246,21 @@ if __name__ == '__main__':
 
 ```
 
+### **Alternative:** 
+
+```python
+def wordcount(file=None):
+
+    def countwords(f):
+        return len(f.read().strip().split())
+
+    import sys
+    if file: 
+        return countwords(open(file))
+    return countwords(sys.stdin)
+```
+
+
 ## Lab 12
 
 ```python
