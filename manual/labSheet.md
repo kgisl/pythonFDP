@@ -1,7 +1,7 @@
 
 # Lab CheatSheet
 
-[//]: [TOC]
+[TOC]
 
 ## Lab 1
 
@@ -187,8 +187,21 @@ def quicksort(s):
   G = [x for x in s if x > pivot]
 
   return quicksort(L) + E + quicksort(G)
-
 ```
+
+
+### Alternative 
+```python
+from heapq import merge
+
+def mergesort(w):
+    if len(w)<2:
+        return w
+    else:    
+        mid=len(w)//2
+        return merge(mergesort(w[:mid]), mergesort(w[mid:]))
+```
+
 
 ## Lab 10
 
