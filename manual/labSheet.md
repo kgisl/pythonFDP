@@ -246,7 +246,7 @@ if __name__ == '__main__':
 
 ```
 
-### **Alternative:** 
+### **Alternative** 
 
 ```python
 def wordcount(file=None):
