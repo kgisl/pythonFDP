@@ -197,8 +197,8 @@ from heapq import merge
 def mergesort(w):
     if len(w)<2:
         return w
-    else:    
-        mid=len(w)//2
+    else:
+        mid = len(w) // 2
         return merge(mergesort(w[:mid]), mergesort(w[mid:]))
 ```
 
@@ -259,7 +259,7 @@ if __name__ == '__main__':
 
 ```
 
-### **Alternative** 
+### Alternative 
 
 ```python
 def wordcount(file=None):
