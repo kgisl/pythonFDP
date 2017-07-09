@@ -108,14 +108,11 @@ def selectsortr(l):
 ```python
 import bisect
 
-def insertion_sort(L):
-    print(L)
-    if len(L) == 1:  
-        return L
-    else:
-        candidate = L.pop()
-        bisect.insort(insertion_sort(L), candidate)
-        return L
+def insertion_sort(l, nsorted=1):
+    if nsorted >= len(l):
+        return l
+    bisect.insort(l, l.pop(), hi=nsorted)
+    return insertion_sort(l, nsorted + 1)
 ```
 
 ## Recursive QuickSort 
@@ -244,6 +241,51 @@ def merge(lst1, lst2, lst3):
 
   print("Interim (nums):", lst3)
 ```
+
+
+## Recursive QuickSort, in-place 
+
+```python
+
+def swap(arr,x,y):
+    mem = arr[x]
+    arr[x] = arr[y]
+    arr[y] = mem
+    return arr
+
+def qsort(ar,start,end):
+    # base case
+    if end-start <= 0:
+        return ar
+    # pivot
+    pivot = ar[end]
+    # init index for the next pivot
+    # which is used in the next rec calls in #27, #29
+    ind = start
+    # loop less final value (pivot)
+    for i in range(start,end):
+        elem = ar[i]
+        if elem <= pivot:
+            # move lesser elements to the left side
+            ar = swap(ar,i,ind)
+            ind += 1
+        else:
+            # leave greater elements as-is
+            pass
+    swap(ar,ind,end) # swap in the pivot element
+    print(ar)
+    # left side contains pivot, and lesser elements
+    ar = qsort(ar,start,ind-1)
+    # right side contain greater elements than pivot
+    ar = qsort(ar,ind+1,end)
+    return ar
+    
+n = int(input())
+ar = [int(x) for x in input().split()]
+qsort(ar,0,n-1)
+
+```
+
 
 ### Test file
 
