@@ -1,4 +1,8 @@
+
+Table of Contents
+
 [TOC]
+
 
 ## argument
 > A value passed to a function (or method) when calling the function. 
