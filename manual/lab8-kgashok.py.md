@@ -197,6 +197,11 @@ def qsort(L, first=True):
 
 ```
 
+### Related Material 
+
+http://bit.ly/quickSortVideoCD - a video explaining QuickSort incrementally in a CyberDojo session. 
+
+
 ## Recursive MergeSort (in-place)
 
 ```python
