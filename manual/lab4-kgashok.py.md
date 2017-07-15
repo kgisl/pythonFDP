@@ -47,7 +47,7 @@ def binary_search_r(myl, token):
     if myl[mid] > token:
         myl = myl[:mid]
     else:
-        myl = myl[mid:]
+        myl = myl[mid+1:]
     return binary_search_r(myl, token)
 
 
