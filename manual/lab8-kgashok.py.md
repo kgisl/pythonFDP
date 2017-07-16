@@ -1,6 +1,8 @@
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
+[TOC]
+
 ## Select vs Insert vs Merge vs Quick
 
 - In `selectsort`, the position of the update is pre-determined, starting from the end of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
@@ -250,7 +252,7 @@ def merge(lst1, lst2, lst3):
 
 
 
-### Test file
+### Unit test file
 
 ```python
 
@@ -333,6 +335,10 @@ ar = [int(x) for x in input().split()]
 qsort(ar,0,n-1)
 
 ```
+
+### Related Material
+
+http://bit.ly/quickSortVideo
 
 
 
