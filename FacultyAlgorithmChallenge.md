@@ -42,6 +42,6 @@
 
 
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
-- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html - IEEE and 
+- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American Institute of Physics and the IEEE Computer Society
 	- Comments about it on [reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)
 
