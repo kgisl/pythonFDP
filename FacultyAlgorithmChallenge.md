@@ -1,4 +1,15 @@
 
+# Guidelines for Evaluation
+
+**OBJECTIVE**: To tell the world why you as a CSE faculty care about algorithms, which is the bedrock of Computer Science. Secondly, your presentation must motivate and inspire your peers and students to adopt an algorithm of their choice and be inspired to make a presentation which is as fascinating as yours. 
+
+**IMPORTANT**: Bonus points for adopting PechaKucha format, and sticking to 400 seconds (20 by 20). No more than 10 minutes, whatsoever. 
+
+> 1. Personality of the presentation - there is no right or wrong in your choice of algorithm. All that matters, why are _you_ passionate about the algorithm and what about it is so fascinating from your perspective? 
+> 2. Choose at least one real-world application that the algorithm finds use for. Don't choose more than two. Describe the real-world application. 
+> 3. Show the code for the algorithm either in pseudo code or your favourite language
+> 4. Choose whatever format makes sense to you to present all the above three. Bring your creativity to the fore. 
+
 
 # Inspiration for Algorithmic Challenge
 
