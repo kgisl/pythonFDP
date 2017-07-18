@@ -14,6 +14,7 @@
 - http://www.scriptol.com/programming/list-algorithms.php by various application domains 
 -  http://www.scriptol.com/programming/graphic-algorithms.php 
 - http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-programmer-should-know-about.html
+- http://interviewkickstart.com/curriculum - what you need to know to get employed at leading tech companies 
 
 
 
