@@ -34,6 +34,13 @@
 - http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks of algorithms (search for "algorithm" across the article) 
     - https://news.ycombinator.com/item?id=10897460 - Hackers on Knuth's books 
 - https://www.quora.com/What-is-Professor-Thomas-Cormens-favorite-algorithm 
+	- It's not an algorithm, but a data structure.  I've always marveled at the simple tree-based data structure for disjoint-set union, using union by rank and path compression (Section 21.3 in the third edition of CLRS).  The code is amazingly simple, the data structure operations take just barely superlinear time, and the analysis (by Bob Tarjan) blows my mind.
+- https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v Keith Adams, Chief Architect at Slack
+	- Skip lists
+	- Paxos
+	- The "state machine" family of lock-free algorithms.
+
+
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
 - https://www.computer.org/csdl/mags/cs/2000/01/c1022.html - IEEE and 
 	- Comments about it on [reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)
