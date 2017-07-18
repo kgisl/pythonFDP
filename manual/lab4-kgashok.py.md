@@ -47,7 +47,7 @@ def binary_search_r(myl, token):
     if myl[mid] > token:
         myl = myl[:mid]
     else:
-        myl = myl[mid+1:]
+        myl = myl[mid:]
     return binary_search_r(myl, token)
 
 
@@ -98,5 +98,8 @@ As per the test output, there are four calls made to the `binary_search_recursiv
 - For visualizer debugging - https://goo.gl/aKE2ow 
 - Online execution - https://goo.gl/Z6z33B
 
+- For Linear Search
+  - https://thecodeaddict.wordpress.com/tag/sentinel-search/ 
+  - https://www.hackerearth.com/practice/notes/sentinel-linear-search/ 
 
 
