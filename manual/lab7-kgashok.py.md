@@ -110,6 +110,7 @@ TBD
 ## Bonus 1 
 
 1. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
+2. Count the number of number of distinct characters that occur more than once in the string. Read the problem statement and solve on CC - http://j.mp/countDuplicates 
 
 ## Bonus 2 
 
