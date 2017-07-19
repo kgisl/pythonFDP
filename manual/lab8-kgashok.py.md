@@ -1,3 +1,22 @@
+** Table of contents **
+
+* [Lab 8: Sorting](#lab-8-sorting)
+	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)
+	* [Solution Key](#solution-key)
+		* [Simplest insert sort](#simplest-insert-sort)
+	* [Related Material](#related-material)
+	* [Recursive SelectionSort](#recursive-selectionsort)
+	* [Recursive InsertSort](#recursive-insertsort)
+	* [Recursive QuickSort](#recursive-quicksort)
+		* [Related Material](#related-material)
+	* [Recursive MergeSort (in-place)](#recursive-mergesort-in-place)
+		* [Unit test file](#unit-test-file)
+	* [Recursive QuickSort, in-place](#recursive-quicksort-in-place)
+		* [Related Material](#related-material)
+	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)
+
+
+
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
@@ -95,7 +114,10 @@ def ins_sort(k):
 ## Recursive SelectionSort 
 
 ```python
-# https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
+
+'''
+https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
+'''
 
 import operator 
 def selectsortr(l):
