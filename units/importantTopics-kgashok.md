@@ -19,9 +19,12 @@
 		* [Credits](#credits)  
 	* [7. Packages and Modules](#7-packages-and-modules)  
 		* [Important Links](#important-links)  
-		* [The best 3 books](#the-best-3-books)  
-* [Learn by Example](#learn-by-example)  
+* [Misc](#misc)  
+	* [The best 3 books](#the-best-3-books)  
+	* [Learn by Example](#learn-by-example)  
 		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
+
+
 
 
 
