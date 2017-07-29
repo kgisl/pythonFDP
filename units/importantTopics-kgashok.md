@@ -210,7 +210,9 @@ The distinction between module and package seems to hold just at the file system
   [2]: http://docs.python.org/tutorial/modules.html#packages
 
 
-### Important Links
+# Misc
+
+## Important Links
 
 http://www.pixelmonkey.org/2015/06/06/pybooks
 https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/
@@ -230,7 +232,6 @@ I have long been a fan of the series and I am delighted to see that a Python ver
 
 https://www.amazon.com/dp/1537713949/ref=cm_wl_huc_continue
 
-# Misc
 ## The best 3 books
 
 Python expertise awaits. Whether you are a pair of hackers building a prototype for a new startup; a 20-person team that is doing large-scale engineering with Python; or a thousand-person engineering department that is switching from Java/C++, your team will benefit greatly from copies of each of these!
