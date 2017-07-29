@@ -147,6 +147,40 @@ a  = a ^ b   # a now contains b ( since c ^ a -> b )
 http://www.brunton-spall.co.uk/post/2010/09/07/interview-questions-xor-trick-and-why-you-should-j/
 
 
+## 7. Packages and Modules 
+
+> **tl;dr  package**: A Python module which can contain submodules or recursively, subpackages. Technically, a package is a Python module with an __path__ attribute.
+
+> **tl; dr2** Packages are modules too. They are just packaged up differently; they are formed by the combination of a directory plus `__init__.py` file. They are modules that can contain other modules. 
+
+Any Python file is a [module][1], its name being the file's base name without the `.py` extension. A [package][2] is a collection of Python modules: while a module is a single Python file, a package is a directory of Python modules containing an additional `__init__.py` file, to distinguish a package from a directory that just happens to contain a bunch of Python scripts. Packages can be nested to any depth, provided that the corresponding directories contain their own `__init__.py` file.
+
+The distinction between module and package seems to hold just at the file system level. When you import a module or a package, the corresponding object created by Python is always of type `module`. Note, however, when you import a package, only variables/functions/classes in the `__init__.py` file of that package are directly visible, *not* sub-packages or modules. As an example, consider the `xml` package in the Python standard library: its `xml` directory contains an `__init__.py` file and four sub-directories; the sub-directory `etree` contains an `__init__.py` file and, among others, an `ElementTree.py` file. See what happens when you try to interactively import package/modules:
+
+    >>> import xml
+    >>> type(xml)
+    <type 'module'>
+    >>> xml.etree.ElementTree
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    AttributeError: 'module' object has no attribute 'etree'
+    >>> import xml.etree
+    >>> type(xml.etree)
+    <type 'module'>
+    >>> xml.etree.ElementTree
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    AttributeError: 'module' object has no attribute 'ElementTree'
+    >>> import xml.etree.ElementTree
+    >>> type(xml.etree.ElementTree)
+    <type 'module'>
+    >>> xml.etree.ElementTree.parse
+    <function parse at 0x00B135B0>
+
+  [1]: http://docs.python.org/tutorial/modules.html
+  [2]: http://docs.python.org/tutorial/modules.html#packages
+
+
 ### Important Links
 
 http://www.pixelmonkey.org/2015/06/06/pybooks
