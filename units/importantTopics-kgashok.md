@@ -1,4 +1,30 @@
 
+**Table of Contents**
+
+* [Important Concepts](#important-concepts)  
+	* [0. Types and their attributes (aka methods, Unit 3)](#0-types-and-their-attributes-aka-methods-unit-3)  
+	* [1. Differentiate between parameters and arguments (Unit 3)](#1-differentiate-between-parameters-and-arguments-unit-3)  
+		* [Argument Definition](#argument-definition)  
+		* [Parameter Definition](#parameter-definition)  
+	* [2. Explain Immutability with reference to the various data types in Python. (Unit 3)](#2-explain-immutability-with-reference-to-the-various-data-types-in-python-unit-3)  
+		* [Everything is an Object](#everything-is-an-object)  
+		* [What is ID?](#what-is-id)  
+		* [What is value?](#what-is-value)  
+		* [Immutable and Mutable](#immutable-and-mutable)  
+	* [3. What is list comprehension and what is the main benefit? Describe with an example. (Unit 4)](#3-what-is-list-comprehension-and-what-is-the-main-benefit-describe-with-an-example-unit-4)  
+	* [4. Slicing as an Object](#4-slicing-as-an-object)  
+	* [5. If Python is interpreted, what are .pyc files?](#5-if-python-is-interpreted-what-are-pyc-files)  
+	* [6. A String is a recursive data structure. True or False?](#6-a-string-is-a-recursive-data-structure-true-or-false)  
+	* [7. The XOR trick, grokked, finally!](#7-the-xor-trick-grokked-finally)  
+		* [Credits](#credits)  
+	* [7. Packages and Modules](#7-packages-and-modules)  
+		* [Important Links](#important-links)  
+		* [The best 3 books](#the-best-3-books)  
+* [Learn by Example](#learn-by-example)  
+		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
+
+
+
 # Important Concepts
 
 [TOC]
@@ -201,8 +227,8 @@ I have long been a fan of the series and I am delighted to see that a Python ver
 
 https://www.amazon.com/dp/1537713949/ref=cm_wl_huc_continue
 
-
-### The best 3 books
+# Misc
+## The best 3 books
 
 Python expertise awaits. Whether you are a pair of hackers building a prototype for a new startup; a 20-person team that is doing large-scale engineering with Python; or a thousand-person engineering department that is switching from Java/C++, your team will benefit greatly from copies of each of these!
 
@@ -213,7 +239,7 @@ Python expertise awaits. Whether you are a pair of hackers building a prototype 
 
 You’ll all be certified Pythonistas in no time. Welcome to the community, and Happy Hacking!
 
-#  Learn by Example
+##  Learn by Example
 
 https://doughellmann.com/blog/the-python-3-standard-library-by-example/ 
 
