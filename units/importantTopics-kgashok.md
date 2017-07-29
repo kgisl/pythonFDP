@@ -18,14 +18,11 @@
 	* [7. The XOR trick, grokked, finally!](#7-the-xor-trick-grokked-finally)  
 		* [Credits](#credits)  
 	* [7. Packages and Modules](#7-packages-and-modules)  
-		* [Important Links](#important-links)  
 * [Misc](#misc)  
+	* [Important Links](#important-links)  
 	* [The best 3 books](#the-best-3-books)  
 	* [Learn by Example](#learn-by-example)  
 		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
-
-
-
 
 
 # Important Concepts
