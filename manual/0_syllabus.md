@@ -13,7 +13,8 @@ Read and write data from/to files in Python.
 | Concept | Sequence | Objective |
 | :--- | :--- | :--- |
 | Learn Python in 10 minutes | lab 0.0 | Blockly Challenge, Read [http://bit.ly/python10](http://bit.ly/python10) |
-| 7 constructs, 140 CloudCoder exercises, [Python workshop](https://github.com/kgisl/pythonFDP/blob/master/manual/pc0.md) | lab 0.1 | Swap two numbers \(variables\), test for Leap Year \(conditional\), cycle through `n` variables, and sum of array of numbers \(loops\) |
+| Waterloo, CodingBat | lab 0.1 | Problem sets |
+| 7 constructs, 140 CloudCoder exercises, [Python workshop](https://github.com/kgisl/pythonFDP/blob/master/manual/pc0.md) | lab 0.2 | Swap two numbers \(variables\), test for Leap Year \(conditional\), cycle through `n` variables, and sum of array of numbers \(loops\) |
 | Algorithmic, Tuples | lab 1 | Compute the GCD of two numbers |
 | Algorithmic | lab 2 | Find the square root of a number \(Newton’s method\) |
 | Algorithmic | lab 3 | Exponentiation \(power of a number\) |
