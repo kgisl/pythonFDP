@@ -123,11 +123,11 @@ def get_maxnumber(numbers):
 ```python
 
 def remove_duplicates(L):
-	result = []
-	for elem in L:
-		if elem not in res:
-			res.append(elem)
-	return result
+    result = []
+    for elem in L:
+        if elem not in res:
+            res.append(elem)
+    return result
 	
 
 ```
@@ -302,21 +302,21 @@ import string, sys
 text = open(sys.argv[1], 'r').read()
 text = text.lower()
 for ch in string.punctuation:
-	text = text.replace(ch, ' ')
+    text = text.replace(ch, ' ')
 	
 counts = {}
 for w in text.split():
-	counts[w] = counts.get(w,0) + 1 
+    counts[w] = counts.get(w,0) + 1 
 	
 items = []
 for w, c in counts.items():
-	items.append((c, w))
+    items.append((c, w))
 items.sort()
 items.reverse()
 
 for i in range (5):
-	c, w = items[i]
-	print (w, c) 
+    c, w = items[i]
+    print (w, c) 
 
 ```
 
