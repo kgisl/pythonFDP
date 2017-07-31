@@ -19,6 +19,8 @@
 
 
 # Lab CheatSheet
+The minimal code that is expected of the student for each of the lab is collated together in one place, for the benefit of the student and the faculty. Practice problems around the base code will also need to be exercised during the labs. 
+
 
 [TOC]
 
