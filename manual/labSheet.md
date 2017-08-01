@@ -26,11 +26,35 @@ The minimal code that is expected of the student for each of the lab is collated
 
 ## Lab 1
 
+_Algorithmic, Tuples, Modulo Arithmetic, Global Scope (vs) Local Scope, Indefinite looping (`while` keyword), Recursion_
+
 ```python
 def gcd(number1, number2):
-    while b:
-        (a, b) = (b, a % b)
-    return a
+    while number2:
+        (number1, number2) = (number2, number1 % number2)
+    return number1
+
+
+def get_twonumbers():
+    global a, b  
+    a = input('Enter number: ')
+    b = input('Enter number: ')
+    a, b =  int (a), int (b)
+
+
+# Program starts here
+a = None  # initializing variables
+b = None
+get_twonumbers() # to get values from user 
+gcdval = gcd(a, b) 
+print ('The gcd is ', gcdval)
+
+
+def gcd_r(a, b): 
+	if b == 0: 
+		return a
+	return (b, a % b)
+	
 ```
 
 ## Lab 2
