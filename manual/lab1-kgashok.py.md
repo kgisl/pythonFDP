@@ -26,8 +26,11 @@ Write a Python program to compute the greatest common divisor (***gcd***) of two
 ```python 
 
 def gcd(number1, number2):
-    while number2:
-        (number1, number2) = (number2, number1 % number2)
+    while True:
+	    if number2 != 0:
+	        (number1, number2) = (number2, number1 % number2)
+	    else:
+		    break
     return number1
 
 
@@ -92,7 +95,7 @@ http://cloudcoder.kgkite.ac.in/cloudcoder/#exercise?c=80,p=6941
 def gcd_r(a, b): 
 	if b == 0: 
 		return a
-	return (b, a % b)
+	return gcd_r(b, a % b)
 ```
 
 ### Related Problems 
