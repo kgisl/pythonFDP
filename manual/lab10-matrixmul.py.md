@@ -64,6 +64,19 @@ def matrixmulti(X, Y):
 2. Use the functions to write a `randomize_matrix` function to generate a square matrix of size 5
 3. Is the matrix creation the most efficient? Are you able to create a size of `22000 by 22000` before CyberDojo times out?
 
+## Bonus 2 
+
+Consider a two-dimensional matrix containing integer entries in which all rows and all columns are sorted in ascending order; for example:
+
+```
+ 1 12 43 87
+ 9 25 47 88
+17 38 48 92
+45 49 74 95
+```
+Your task is to write a program that takes a matrix as describe above, and a target integer, and determines if the target integer is present in the matrix. 
+
+
 
 ## Related Material 
 
