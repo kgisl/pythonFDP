@@ -10,17 +10,15 @@ Read and write data from/to files in Python.
 
 ## Cheat Sheets
 
-* http://j.mp/pythonCrashCS - main page for all cheatsheets 
+* [http://j.mp/pythonCrashCS](http://j.mp/pythonCrashCS) - main page for all cheatsheets
 
-* http://bit.ly/beginnerCS - beginner Python cheatsheet
+* [http://bit.ly/beginnerCS](http://bit.ly/beginnerCS) - beginner Python cheatsheet \(variables, strings, etc\)
 
-* http://bit.ly/testingCS - cheatsheet for unit testing 
+* [http://bit.ly/conditionalCS](http://bit.ly/conditionalCS) - cheat sheet for conditionals \(if and while statements\)
 
-* http://bit.ly/conditionalCS - cheat sheet for conditionals 
+* [http://bit.ly/functionCS](http://bit.ly/functionCS) - cheat sheet for functions \(functions\)
 
-* http://bit.ly/functionCS - cheat sheet for functions 
-
-
+* [http://bit.ly/testingCS](http://bit.ly/testingCS) - cheatsheet for unit testing  \(unit testing\)
 
 ## List of programs
 
