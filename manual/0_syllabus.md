@@ -8,6 +8,20 @@ Represent compound data using Python lists, tuples, dictionaries.
 Read and write data from/to files in Python.
 ```
 
+## Cheat Sheets
+
+* http://j.mp/pythonCrashCS - main page for all cheatsheets 
+
+* http://bit.ly/beginnerCS - beginner Python cheatsheet
+
+* http://bit.ly/testingCS - cheatsheet for unit testing 
+
+* http://bit.ly/conditionalCS - cheat sheet for conditionals 
+
+* http://bit.ly/functionCS - cheat sheet for functions 
+
+
+
 ## List of programs
 
 | Concept | Sequence | Objective |
