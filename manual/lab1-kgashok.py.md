@@ -1,4 +1,20 @@
 
+**Table of Contents**
+
+* [Lab 1: Compute the gcd of two numbers](#lab-1-compute-the-gcd-of-two-numbers)  
+	* [Problem statement](#problem-statement)  
+	* [Solution Key](#solution-key)  
+	* [CloudCoder Exercise](#cloudcoder-exercise)  
+	* [Related material](#related-material)  
+	* [Pre-Lab Questions](#pre-lab-questions)  
+	* [Post-lab Questions](#post-lab-questions)  
+	* [Bonus 1](#bonus-1)  
+	* [Related Material](#related-material)  
+		* [PPT Slides showing the Recursive Calls](#ppt-slides-showing-the-recursive-calls)  
+		* [Recursion vs Iteration](#recursion-vs-iteration)  
+		* [Related Problems](#related-problems)  
+
+
 # Lab 1: Compute the gcd of two numbers 
 
 [TOC]
