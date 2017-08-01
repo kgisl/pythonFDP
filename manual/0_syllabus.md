@@ -15,7 +15,7 @@ Read and write data from/to files in Python.
 | Learn Python in 10 minutes | lab 0.0 | Blockly Challenge and Turtle Graphics, Read [http://bit.ly/python10](http://bit.ly/python10) |
 | Waterloo, CodingBat | lab 0.1 | Problem sets |
 | 7 constructs, 140 CloudCoder exercises, [Python workshop](https://github.com/kgisl/pythonFDP/blob/master/manual/pc0.md) | lab 0.2 | Swap two numbers \(variables\), test for Leap Year \(conditional\), cycle through `n` variables, and sum of array of numbers \(loops\) |
-| Algorithmic, Tuples, Modulo Arithmetic, Global Scope \(vs\) Local Scope, Indefinite looping \(\`while\` keyword\), Recursion | lab 1 | Compute the GCD of two numbers |
+| Algorithmic, Tuples, Modulo Arithmetic, Global Scope \(vs\) Local Scope, Indefinite looping \(\`while\` keyword\), \`if-else\` statements, Recursion | lab 1 | Compute the GCD of two numbers |
 | Algorithmic | lab 2 | Find the square root of a number \(Newton’s method\) |
 | Algorithmic | lab 3 | Exponentiation \(power of a number\) |
 | Algorithmic, Searching, Subscripting | lab 4 | Linear search and Binary search |
