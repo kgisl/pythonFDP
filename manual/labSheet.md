@@ -25,25 +25,6 @@
 		* [Alternative](#alternative)  
 
 
-**Table of Contents**
-
-* [Lab CheatSheet](#lab-cheatsheet)  
-	* [Lab 1](#lab-1)  
-	* [Lab 2](#lab-2)  
-	* [Lab 3](#lab-3)  
-	* [Lab 4](#lab-4)  
-	* [Lab 5](#lab-5)  
-	* [Lab 6](#lab-6)  
-	* [Lab 7](#lab-7)  
-	* [Lab 8](#lab-8)  
-	* [Lab 9](#lab-9)  
-		* [Alternative](#alternative)  
-	* [Lab 10](#lab-10)  
-	* [Lab 11](#lab-11)  
-		* [Alternative](#alternative)  
-	* [Lab 12](#lab-12)  
-
-
 # Lab CheatSheet
 The minimal code that is expected of the student for each of the lab is collated together in one place, for the benefit of the student, faculty and mentor. Practice problems around the base code will also need to be exercised during the labs. 
 
