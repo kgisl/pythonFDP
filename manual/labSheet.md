@@ -1,3 +1,29 @@
+**Table of Contents**
+
+* [Lab CheatSheet](#lab-cheatsheet)  
+	* [Lab 1](#lab-1)  
+* [Program starts here](#program-starts-here)  
+	* [Lab 2](#lab-2)  
+	* [Lab 3](#lab-3)  
+	* [Lab 4](#lab-4)  
+		* [Alternative](#alternative)  
+		* [Pythonic Search](#pythonic-search)  
+		* [Alternative](#alternative)  
+	* [Lab 5](#lab-5)  
+		* [Alternative](#alternative)  
+	* [Lab 6](#lab-6)  
+		* [Alternative](#alternative)  
+	* [Lab 7](#lab-7)  
+		* [Alternative](#alternative)  
+	* [Lab 8](#lab-8)  
+	* [Lab 9](#lab-9)  
+		* [Alternative](#alternative)  
+	* [Lab 10](#lab-10)  
+	* [Lab 11](#lab-11)  
+		* [Alternative](#alternative)  
+	* [Lab 12](#lab-12)  
+		* [Alternative](#alternative)  
+
 
 **Table of Contents**
 
@@ -37,14 +63,6 @@ def gcd(number1, number2):
 		    break
     return number1
 
-### Alternative
-```python
-def gcd(number1, number2):
-    while number2:
-	        (number1, number2) = (number2, number1 % number2)
-    return number1
-```
-
 
 def get_twonumbers():
     global a, b  
@@ -67,6 +85,7 @@ def gcd_r(a, b):
 	return gcd_r(b, a % b)
 	
 ```
+
 
 ## Lab 2
 ```python
@@ -116,10 +135,10 @@ def linear_search(mylist, token):
     return False
 ```
 
-### Alternative pythonic search
+### Pythonic Search
 ```python
 def linear_search(mylist, token):
-    return (token in mylist)        
+    return (token in mylist)
 ```
 
 ```python
@@ -240,7 +259,7 @@ def remove_duplicates(L):
 def remove_duplicates(L):
 	return list(set(L))
 ```
-Note: it returns the sorted list without duplicates.
+Note: it returns the sorted list without duplicates, and therefore the original order may not be maintained (aka _unstable_).
 
 ## Lab 8 
 
