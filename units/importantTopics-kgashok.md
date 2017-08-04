@@ -17,9 +17,9 @@
 	* [6. A String is a recursive data structure. True or False?](#6-a-string-is-a-recursive-data-structure-true-or-false)  
 	* [7. The XOR trick, grokked, finally!](#7-the-xor-trick-grokked-finally)  
 		* [Credits](#credits)  
-	* [7. Packages and Modules](#7-packages-and-modules)  
-* [Misc](#misc)  
-	* [Important Links](#important-links)  
+	* [8. Packages and Modules](#8-packages-and-modules)  
+* [Misc](#misc) 
+	* [Important Links](#important-links)  
 	* [The best 3 books](#the-best-3-books)  
 	* [Learn by Example](#learn-by-example)  
 		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
@@ -173,7 +173,7 @@ a  = a ^ b   # a now contains b ( since c ^ a -> b )
 http://www.brunton-spall.co.uk/post/2010/09/07/interview-questions-xor-trick-and-why-you-should-j/
 
 
-## 7. Packages and Modules 
+## 8. Packages and Modules 
 
 > **tl;dr  package**: A Python module which can contain submodules or recursively, subpackages. Technically, a package is a Python module with an __path__ attribute.
 
