@@ -71,12 +71,12 @@ if __name__ == '__main__':
 
 0. How to calculate midpoint of a list? Which operator is most relevant? 
 1. Both `Linear search` and `Binary search` expect that the input list to be always sorted. If the list is not sorted, both algorithms will not work. True or False? Explain.
-2. The `bisection` algorithm (available in the Python standard library as the `bisect` module is useful for many applications). Use it to code up the Student Grading challenge available at http://j.mp/gradeCD. First read the **instructions** file for problem statement. 
-
 
 ## Post-Lab Questions
 
 1. If the list has 10,000 unsorted positive integers and the number you are searching for is between 1 and 10, which search algorithm will you choose? Binary or Linear? Why? 
+2. The `bisection` algorithm (available in the Python standard library as the `bisect` module is useful for many applications). Use it to code up the Student Grading challenge available at http://j.mp/gradeCD. First read the **instructions** file for problem statement. 
+
 
 
 ## Bonus 
