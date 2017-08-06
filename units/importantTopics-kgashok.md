@@ -17,9 +17,9 @@
 	* [6. A String is a recursive data structure. True or False?](#6-a-string-is-a-recursive-data-structure-true-or-false)  
 	* [7. The XOR trick, grokked, finally!](#7-the-xor-trick-grokked-finally)  
 		* [Credits](#credits)  
-	* [8. Packages and Modules](#8-packages-and-modules)  
-* [Misc](#misc) 
-	* [Important Links](#important-links)  
+	* [7. Packages and Modules](#7-packages-and-modules)  
+* [Misc](#misc)  
+	* [Important Links](#important-links)  
 	* [The best 3 books](#the-best-3-books)  
 	* [Learn by Example](#learn-by-example)  
 		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
@@ -206,6 +206,8 @@ The distinction between module and package seems to hold just at the file system
   [1]: http://docs.python.org/tutorial/modules.html
   [2]: http://docs.python.org/tutorial/modules.html#packages
 
+## 9. How to maintain a sorted list? 
+You need to maintain a list in sorted order without having to call `sort` each time an item is added to the list. How will you do this?
 
 # Misc
 
