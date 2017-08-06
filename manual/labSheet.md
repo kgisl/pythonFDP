@@ -156,6 +156,22 @@ def bsearch(mylist, token):
         return bsearch(mylist[mid+1:], token)
 ```
 
+### Using Bisect module in the Python library
+
+```python
+import bisect 
+def bsearch(number, L):
+    '''
+    returns -1 if the 'number' is not in the list 'L' 
+    otherwise, returns the index at which is is present
+    '''
+    index = bisect.bisect_left(L, number)
+    if index != len(L) and L[index] == number:
+        return index
+    return -1
+```
+
+
 
 ## Lab 5
 ```python
