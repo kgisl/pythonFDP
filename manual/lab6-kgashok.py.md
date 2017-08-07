@@ -1,4 +1,20 @@
 
+**Table of Contents**
+
+* [Lab 6: find the maximum of a list of numbers.](#lab-6-find-the-maximum-of-a-list-of-numbers)  
+	* [Problem statement](#problem-statement)  
+	* [Solution Key](#solution-key)  
+	* [CloudCoder Exercise](#cloudcoder-exercise)  
+	* [Pre-Lab Questions](#pre-lab-questions)  
+	* [Post-Lab Questions](#post-lab-questions)  
+	* [Bonus 1](#bonus-1)  
+	* [Bonus 2](#bonus-2)  
+	* [Bonus 3](#bonus-3)  
+	* [Bonus 4](#bonus-4)  
+	* [Interview Grade](#interview-grade)  
+	* [Related Links](#related-links)  
+
+
 # Lab 6: find the maximum of a list of numbers. 
 
 [TOC]
@@ -127,7 +143,8 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 ## Bonus 2 
 1. How will you rewrite the function `get_maxnumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
-3. Under what conditions will the one-liner function fail? Can this failure be handled in a pythonic (aka gracefull) fashion? 
+3. Under what conditions will the one-liner function fail? Can this failure be handled in a pythonic (aka graceful) fashion?  Clue: There are at least conditions
+4. How will the code be modified so that both the `max_value` and the `max_index` at which the `max_value` occurs is returned?
 
 ## Bonus 3
 
@@ -142,4 +159,4 @@ If `n` is the size of the list, and `1 < k < n`, how will you find the `k`th lar
 
 ## Related Links
 
-https://goo.gl/v7ephq
+PythonTutor for visualizing the code related to list processing.  https://goo.gl/v7ephq
