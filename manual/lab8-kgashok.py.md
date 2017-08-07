@@ -1,4 +1,4 @@
-** Table of contents **
+**Table of Contents**
 
 * [Lab 8: Sorting](#lab-8-sorting)
 	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)
@@ -120,11 +120,23 @@ https://code.activestate.com/recipes/576917-functional-selection-sort/#c1
 '''
 
 import operator 
-def selectsortr(l):
-    if not l: return []
-    idx, v = min(enumerate(l), key=operator.itemgetter(1))
-    print(v, l[:idx], l[idx+1:])
-    return [v] + selectsortr(l[:idx] + l[idx + 1:])
+def selectsortr(L):
+    if not L: return []
+    idx, v = min(enumerate(L), key=operator.itemgetter(1))
+    print(v, L[:idx], L[idx+1:])
+    return [v] + selectsortr(L[:idx] + L[idx+1:])
+    
+```
+**Output**
+```
+>> selectsortr([1,56, 99, -1, 22, 99])
+-1 [1, 56, 99] [22, 99]
+1 [] [56, 99, 22, 99]
+22 [56, 99] [99]
+56 [] [99, 99]
+99 [] [99]
+99 [] []
+=> [-1, 1, 22, 56, 99, 99]
 ```
 
 ## Recursive InsertSort
