@@ -237,6 +237,11 @@ def get_maxnumber(numbers):
     return reduce(lambda x, y: x if x > y else y, numbers)
 ```    
 
+**using max**
+```python
+get_maxnumber = max 
+```
+
 ## Lab 7 
 
 ```python
