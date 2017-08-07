@@ -119,10 +119,9 @@ def ins_sort(k):
 https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
 '''
 
-import operator 
 def selectsortr(L):
     if not L: return []
-    idx, v = min(enumerate(L), key=operator.itemgetter(1))
+    idx, v = min(enumerate(L), key=lambda e: e[1])
     print(v, L[:idx], L[idx+1:])
     return [v] + selectsortr(L[:idx] + L[idx+1:])
     
