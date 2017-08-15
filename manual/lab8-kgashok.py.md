@@ -122,6 +122,8 @@ https://code.activestate.com/recipes/576917-functional-selection-sort/#c1
 def selectsortr(L):
     if not L: return []
     idx, v = min(enumerate(L), key=lambda e: e[1])
+    #v, idx = min((v, i) for i, v in enumerate(L))
+
     print(v, L[:idx], L[idx+1:])
     return [v] + selectsortr(L[:idx] + L[idx+1:])
     
