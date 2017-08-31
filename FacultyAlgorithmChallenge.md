@@ -32,10 +32,11 @@ How do I go about finding algorithms to get inspired by? Visit any of the follow
 - http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-programmer-should-know-about.html
 - http://interviewkickstart.com/curriculum - what you need to know to get employed at leading tech companies 
 
-## Stackoverflow
+## Stackoverflow TCS (Theoretical Computer Science)
 
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
    - [Euclid's Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
+   - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
  
 
 
