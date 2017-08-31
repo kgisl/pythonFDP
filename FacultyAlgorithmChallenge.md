@@ -19,6 +19,12 @@
 # Inspiration for Algorithmic Challenge
 How do I go about finding algorithms to get inspired by? Visit any of the following links. 
 
+
+## The Next 50 years of Computing by MIT 
+
+http://mac50.csail.mit.edu/agenda.html
+
+
 ## Quora Based    
 -  http://j.mp/AlgoKG  
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
