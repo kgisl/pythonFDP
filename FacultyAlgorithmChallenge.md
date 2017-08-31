@@ -20,11 +20,6 @@
 How do I go about finding algorithms to get inspired by? Visit any of the following links. 
 
 
-## The Next 50 years of Computing by MIT 
-
-http://mac50.csail.mit.edu/agenda.html
-
-
 ## Quora Based    
 -  http://j.mp/AlgoKG  
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
@@ -282,3 +277,114 @@ The rest:
 	Match.com: -34 votes
 	de Vaucanson’s Mechanical Duck: -39 votes
 	von Kempelen’s Mechanical Turk: -52 votes
+
+
+
+## The Next 50 years of Computing by MIT 
+
+http://mac50.csail.mit.edu/agenda.html
+
+SESSION 1
+9:00 AM                                   
+Fifty Years of Robotics; Now the Practical Payoff
+Rodney Brooks, Rethink Robotics, Inc
+ 
+Tales from the Blocks World
+Matt Mason, Carnegie Mellon University
+ 
+Dynamic Robots
+Marc Raibert, Boston Dynamics
+ 
+Aerial Robots: Computing in the Sky
+Russ Tedrake, MIT CSAIL
+ 
+The Analysis Revolution in Genomics and Modern Medicine
+Manolis Kellis, MIT CSAIL
+                       
+10:30 AM - BREAK           
+ 
+SESSION II
+11:00 AM                                   
+ 
+Akamai: From Theory to Practice
+Tom Leighton, Akamai Technologies
+ 
+Everyday Life in a Data-Rich World
+Jon Kleinberg, Cornell University
+ 
+The Evolution of Proofs in Computer Science
+Yael Tauman Kalai, Microsoft Research
+ 
+Quantum Computing and Fundamental Physics
+Scott Aaronson, MIT CSAIL
+ 
+12:25 PM - LUNCH           
+ 
+SESSION III
+2:00 PM
+Towards a Theory of Trust in Networks of Humans and Computers
+Jeannette Wing, Microsoft Research
+ 
+Harmonizing Technology with Society
+Latanya Sweeney, Harvard University
+ 
+On the Benefits of Coordination – Before, During, and Even After the Fact! – in Differential Privacy
+Cynthia Dwork, Microsoft Research
+ 
+The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors
+Nickolai Zeldovich, MIT CSAIL
+ 
+3:25 PM - BREAK
+ 
+SESSION IV
+4:00 PM
+Time Sharing vs Personal Computing
+Ivan Sutherland, Portland State University
+ 
+The End of Moore's Law and the Future of Computing
+Bill Dally, Stanford University
+ 
+How I invented Ethernet at MIT Project MAC 1969-1972
+Bob Metcalfe, The University of Texas at Austin      
+ 
+5:20 PM – ADJOURN
+ 
+Banquet Dinner – Cambridge Marriott Hotel - Grand Ballroom
+7:00-9:00 PM
+Recognition of Bob Fano
+Entertainment by ImprovBoston
+ 
+Thursday, May 29, 2014
+Location: MIT Stata Center, 32-123 Kirsch Auditorium
+ 
+8:00 AM Continental Breakfast/Registration
+                     
+SESSION V
+9:00 AM                                   
+Turtles All the Way Down
+Greg Papadopoulos, New Enterprise Associates
+ 
+Graduate Education and Research in the Information Age
+Daniel Huttenlocher, Cornell Tech NYC
+ 
+Some Surprising Lessons Learned while Creating a Real MOOC-based Masters of Science
+Charles Isbell, Georgia Institute of Technology
+ 
+10:20 AM - BREAK           
+ 
+SESSION VI
+10:50 AM           
+Small, n=me, data
+Deborah Estrin, Cornell Tech NYC
+ 
+The Right Thing: Things We Hit, Things We Missed, Things Still Left To Do
+Tom Knight, Ginko Bioworks
+ 
+Teaching Computers to See
+Antonio Torralba, MIT CSAIL
+ 
+Modeling Brain Connectivity from Functional MRI
+Polina Golland, MIT CSAIL
+ 
+Reflections of an Entrepreneur on Experiences at MIT Then and Now
+Ray Stata, Analog Devices, Inc
