@@ -35,7 +35,7 @@ How do I go about finding algorithms to get inspired by? Visit any of the follow
 ## Stackoverflow
 
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
-   - [Euclid](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
+   - [Euclid's Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
  
 
 
