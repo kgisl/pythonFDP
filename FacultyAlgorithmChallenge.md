@@ -1,4 +1,9 @@
 
+**Table of Contents**
+
+[TOC]
+
+
 # Guidelines for Evaluation
 
 **OBJECTIVE**: To tell the world why you as a CSE faculty care about algorithms, which is the bedrock of Computer Science. Secondly, your presentation must motivate and inspire your peers and students to adopt an algorithm of their choice and be inspired to make a presentation which is as fascinating as yours. 
@@ -12,24 +17,29 @@
 
 
 # Inspiration for Algorithmic Challenge
+How do I go about finding algorithms to get inspired by? Visit any of the following links. 
 
-
-### Quora Based 
+## Quora Based    
 -  http://j.mp/AlgoKG  
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
 -  https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student-must-implement-at-least-once-in-life 
 - https://www.quora.com/What-are-some-interesting-algorithms-that-have-no-known-implementation-to-date
 
-### Misc 
+## Misc   
 - http://j.mp/algo2KG
 - http://www.scriptol.com/programming/list-algorithms.php by various application domains 
 -  http://www.scriptol.com/programming/graphic-algorithms.php 
 - http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-programmer-should-know-about.html
 - http://interviewkickstart.com/curriculum - what you need to know to get employed at leading tech companies 
 
+## Stackoverflow
+
+- https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
+   - [Euclid](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
+ 
 
 
-### Personality based 
+## Personality based   
 
 - http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks of algorithms (search for "algorithm" across the article) 
     - https://news.ycombinator.com/item?id=10897460 - Hackers on Knuth's books 
