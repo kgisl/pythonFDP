@@ -2,6 +2,8 @@
 
 ## Links scrapped from Reddit 
 
+https://www.reddit.com/r/Python/comments/29qd6x/ask_recommended_python_books_for_experienced/ 
+
 Python resources For Experienced Developers
 
 ## Outbound links 
