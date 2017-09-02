@@ -119,7 +119,7 @@ def linear_search(mylist, token):
 ### Pythonic Search
 ```python
 def linear_search(mylist, token):
-    return (token in mylist)
+    return token in mylist
 ```
 
 ```python
