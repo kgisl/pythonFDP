@@ -1,5 +1,24 @@
 
 
+## Another interesting article 
+
+https://medium.com/@petloverooka/programs-every-programmer-should-make-at-least-once-d4ab69d9b976
+
+    - Networking 
+    - Storage
+    - Assembly
+    - OS concepts.
+    - Languages
+
+    - For someone interested in game development, I might recommend a different set of expertise:
+
+	- Graphics
+	- Security
+	- Artificial intelligence
+
+
+
+
 ## Links scrapped from Reddit 
 
 https://www.reddit.com/r/Python/comments/29qd6x/ask_recommended_python_books_for_experienced/ 
