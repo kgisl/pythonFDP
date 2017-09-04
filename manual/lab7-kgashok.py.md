@@ -111,8 +111,7 @@ TBD
 
 1. You are asked to remove all the duplicate occurrences of only one specific element in the list. Write a function for this. 
 2. Count the number of number of distinct characters that occur more than once in the string. Read the problem statement and solve on CC - http://j.mp/countDuplicates 
-3. Determine whether a string is an isogram, pangram or a partial perfect pangram. Also if the string contains duplicates, count the number of duplicate characters that are there in the string. 
-
+3. Write a program that will analyze whether a string is an isogram, pangram or a partial perfect pangram. Also if the string contains duplicates, count the number of duplicate characters that are there in the string. 
 
 ## Bonus 2 
 
