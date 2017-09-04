@@ -1,3 +1,24 @@
+**Table of Contents**
+
+* [Lab 7: Removing  all the duplicate elements in a list](#lab-7-removing--all-the-duplicate-elements-in-a-list)  
+	* [Problem statement](#problem-statement)  
+	* [Solution Key](#solution-key)  
+* [!/usr/bin/python](#usrbinpython)  
+* [-- coding: utf-8 --](#---coding-utf-8---)  
+* [Program starts here](#program-starts-here)  
+	* [CloudCoder Exercise](#cloudcoder-exercise)  
+	* [Pre-Lab Questions](#pre-lab-questions)  
+	* [Post-Lab Questions](#post-lab-questions)  
+	* [Bonus 1](#bonus-1)  
+	* [Bonus 2](#bonus-2)  
+	* [Interview grade](#interview-grade)  
+	* [Related Links](#related-links)  
+	* [Predict the output  of Snippet1](#predict-the-output--of-snippet1)  
+	* [Predict the output of Snippet2](#predict-the-output-of-snippet2)  
+	* [Analyze Snippet1 vs Snippet2](#analyze-snippet1-vs-snippet2)  
+
+
+
 
 # Lab 7: Removing  all the duplicate elements in a list
 
