@@ -1,4 +1,10 @@
 
+## Misc
+
+Popular Open source projects 
+ - https://hackernoon.com/top-6-open-source-projects-in-2017-db34b9d034a2
+
+
 
 ## Another interesting article 
 
