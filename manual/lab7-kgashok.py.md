@@ -3,9 +3,6 @@
 * [Lab 7: Removing  all the duplicate elements in a list](#lab-7-removing--all-the-duplicate-elements-in-a-list)  
 	* [Problem statement](#problem-statement)  
 	* [Solution Key](#solution-key)  
-* [!/usr/bin/python](#usrbinpython)  
-* [-- coding: utf-8 --](#---coding-utf-8---)  
-* [Program starts here](#program-starts-here)  
 	* [CloudCoder Exercise](#cloudcoder-exercise)  
 	* [Pre-Lab Questions](#pre-lab-questions)  
 	* [Post-Lab Questions](#post-lab-questions)  
@@ -185,4 +182,3 @@ print(mylist)
 0. Both `mylist` and `u` are identical lists. True or False? 
 1. At the end of execution of their respective codes, `mylist` from `Snippet1` and `u` from `Snippet2` will always be of the same size, as long as they both start off by being equal. True or False? 
 2. At the end of execution of their respective codes, `mylist` and `u` will have the same contents, in the same order. True or False? 
-
