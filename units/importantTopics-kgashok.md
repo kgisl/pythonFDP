@@ -1,6 +1,7 @@
 
 # Useful links to explore
 
+- https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
 - https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
 
