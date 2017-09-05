@@ -1,4 +1,10 @@
 
+# Useful links to explore
+
+- https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
+- https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
+
+
 **Table of Contents**
 
 * [Important Concepts](#important-concepts)  
@@ -26,11 +32,31 @@
 		* [What standard libraries to learn in Python?](#what-standard-libraries-to-learn-in-python)  
 
 
+
 # Important Concepts
 
 [TOC]
 
-## 0. Types and their attributes (aka methods, Unit 3)
+
+## 0.0 Iterables 
+
+In Python, there are iterables and there are non-iterables. Which of the following is not an iterable? 
+
+  - `'abcdef'`
+  - `range(100)` 
+  - `[1, 2, 3, 4, 55, 100]` 
+  - `[('a', 1), ('b', 2), ('c', 33)]` 
+  - `(('a'), ('b'), ('c'), ('a', 1), ('b', 2), ('c', 33))`
+  - `zip(string.ascii_lowercase, range(26))`
+  - `adict.keys()`  where `adict` is a Python dictionary variable 
+  - `adict.values()` where `adict` is a Python dictionary variable 
+  - `{'a': 1, 'b': 2, 'c':3}`
+  - `set(string.ascii_lowercase)`
+  - `[[1, 2], [3], [4, 5, 6], [0]]`
+
+
+
+## 0.1 Types and their attributes (aka methods, Unit 3)
 
 There are 4 main types in Python (string, tuples, list and dictionary). And across all of them, there are about 25 important attributes (methods) that help process/modify them. They are tabulated as follows: 
 
