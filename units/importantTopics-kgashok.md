@@ -6,7 +6,10 @@
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
 - http://docs.python-guide.org/en/latest/intro/learning/ 
 - https://stackoverflow.com/questions/2439638/in-what-order-should-the-python-concepts-be-explained-to-absolute-beginners 
-- https://bitbucket.org/gregmalcolm/python_koans - 289 koans to enlightenment! 
+- https://bitbucket.org/gregmalcolm/python_koans or https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
+- http://j.mp/pythonKoanVideo 
+- http://www.learnpython.org/ 
+
 
 
 **Table of Contents**
