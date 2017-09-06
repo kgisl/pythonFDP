@@ -4,6 +4,9 @@
 - https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
 - https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
+- http://docs.python-guide.org/en/latest/intro/learning/ 
+- https://stackoverflow.com/questions/2439638/in-what-order-should-the-python-concepts-be-explained-to-absolute-beginners 
+- https://bitbucket.org/gregmalcolm/python_koans - 289 koans to enlightenment! 
 
 
 **Table of Contents**
