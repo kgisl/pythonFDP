@@ -1,6 +1,10 @@
 
 # Useful links to explore
 
+- See some beautiful Python poems - https://www.reddit.com/r/programming/comments/26dyh/ask_reddit_whats_the_most_beautiful_piece_of/c26ny9/
+-  j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
+-  https://www.reddit.com/r/programming/wiki/faq
+- http://bit.ly/beginnerPython - easy video tutorials including for unittesting - http://j.mp/unittestVideo
 - https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
 - https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
@@ -9,6 +13,21 @@
 - https://bitbucket.org/gregmalcolm/python_koans or https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
 - http://j.mp/pythonKoanVideo 
 - http://www.learnpython.org/ 
+- https://www.quora.com/How-does-Quincy-Larson-suggest-I-learn-to-code/answer/Quincy-Larson 
+   - https://www.quora.com/What-is-a-step-by-step-procedure-to-become-a-GitHub-open-source-developer-for-a-complete-newbie-What-are-the-prerequisite-courses-I-should-take-and-how-should-I-choose-the-best-project-Also-please-suggest-some-projects-in-C++-Java/answer/Quincy-Larson 
+	   - https://github.com/search?l=Python&q=label%3Afirst-timers-only&state=open&type=Issues 
+- https://www.quora.com/What-are-commonly-asked-Python-interview-questions
+- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa 
+
+- Learn by Doing (#6) - #6 Learn by doing: practice your programming skills and build real projects as soon as possible. 
+	- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa
+		 - http://pythonpracticeprojects.com/ 
+		 - http://javascriptissexy.com/how-to-learn-javascript-properly/ 
+
+
+
+
+
 
 
 
@@ -80,7 +99,8 @@ There are 4 main types in Python (string, tuples, list and dictionary). And acro
 
 ## 1. Differentiate between parameters and arguments (Unit 3)
 
-http://j.mp/argsVsParams
+http://j.mp/argsVsParams - the official Python guide does not do justice. It is best to read this article here - http://stupidpythonideas.blogspot.in/2013/08/arguments-and-parameters.html
+
 
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
 
