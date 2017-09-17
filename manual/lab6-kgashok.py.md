@@ -137,14 +137,29 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 
 5. How can you create a static variable inside a python function? Give an example. 
 
+
+
 ## Bonus 1 
 4. Suppose the user wanted the freedom not to be restricted to a maximum of 10 numbers, what change would you do to the code? 
 
 ## Bonus 2 
 1. How will you rewrite the function `get_maxnumber()` using the in-built function `max` (https://docs.python.org/3/library/functions.html?highlight=max#max)? 
 2. Can you reduce the function to a one-liner? 
-3. Under what conditions will the one-liner function fail? Can this failure be handled in a pythonic (aka graceful) fashion?  Clue: There are at least conditions
+3. Under what conditions will the one-liner function fail? Can this failure be handled in a pythonic (aka graceful) fashion?  Clue: There are at least conditions.
 4. How will the code be modified so that both the `max_value` and the `max_index` at which the `max_value` occurs is returned?
+
+
+## Bonus 2.1 
+
+Assume a list contains only lists as its elements. Write a program to return the element (i.e. a list) in that that contains the maximum number of elements. Use the built-in `max` to come up with the appropriate logic. 
+
+For e.g., 
+```
+alist = [ [1, 2, 3], [3, 4, 5, 6], [100, 1] ] 
+max_element(alist) -> [3, 4, 5, 6]
+```
+
+
 
 ## Bonus 3
 
