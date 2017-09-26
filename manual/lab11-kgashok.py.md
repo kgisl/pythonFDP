@@ -6,9 +6,9 @@ Write a Python program that does counting of words and sentences in a file. The 
 
 ## Examples 
 
-`wordcount("python"`) -> `1 # 1 word and no sentences `
-`wordcount("python is great language")` ->  `4 # 4 words and no sentences`
-`wordcount("Sentence 1. Sentence 2.")` -> `(4, 2) # 4 words and 2 sentences`
+`wordcount("python"`) -> `1 # 1 word and no sentences `  
+`wordcount("python is great language")` ->  `4 # 4 words and no sentences`  
+`wordcount("Sentence 1. Sentence 2.")` -> `(4, 2) # 4 words and 2 sentences`  
 
 
 ## Solution Key 
