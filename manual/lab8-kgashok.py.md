@@ -345,7 +345,7 @@ def qsort(ar,start,end):
     # pivot
     pivot = ar[end]
     # init index for the next pivot
-    # which is used in the next rec calls in #27, #29
+    # which is used in the next recursive qsort calls below
     ind = start
     # loop less final value (pivot)
     for i in range(start,end):
