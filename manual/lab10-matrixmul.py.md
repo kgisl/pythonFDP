@@ -66,7 +66,7 @@ def matrixmulti(X, Y):
 
 ## Bonus 2 
 
-Consider a two-dimensional matrix containing integer entries in which all rows and all columns are sorted in ascending order; for example:
+Consider a two-dimensional matrix containing integer entries in which all rows and all columns are sorted in ascending order. For example:
 
 ```
  1 12 43 87
@@ -85,3 +85,10 @@ Your task is to write a program that takes a matrix as describe above, and a tar
 
 http://10.100.8.8/kata/edit/3A77017D5C?avatar=dolphin  (Poongothai)  
 http://cyberdojo1.kgfsl.com/kata/edit/F52E98217E?avatar=raccoon (Ashok)
+
+
+### Transpose a matrix 
+
+- CloudCoder Problem: http://j.mp/transposeCC 
+- The video key for it (using visualizer) -  http://j.mp/transposeVideoKey 
+
