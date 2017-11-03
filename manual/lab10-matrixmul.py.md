@@ -48,7 +48,7 @@ def matrixmulti(X, Y):
 
 ## CloudCoder Exercise 
 
-[To be created]
+http://j.mp/matrixMultiplyCC 
 
 
 ## Pre-Lab Questions 
