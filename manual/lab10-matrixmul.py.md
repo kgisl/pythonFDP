@@ -92,6 +92,6 @@ http://cyberdojo1.kgfsl.com/kata/edit/F52E98217E?avatar=raccoon (Ashok)
 
 ### Transpose a matrix 
 
-- CloudCoder Problem: http://j.mp/transposeCC 
+- CloudCoder Problem:  http://j.mp/stransposeCC and http://j.mp/transposeCC 
 - The video key for it (using visualizer) -  http://j.mp/transposeVideoKey 
 
