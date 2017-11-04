@@ -55,7 +55,7 @@ http://j.mp/matrixMultiplyCC
 
 0. How to initialize a matrix (5 by 5) so that all its entries are equal to the number 10? What is the one line code for this?
 1. Write a program to test whether the given matrix is a square matrix or not.
-2. Write a program to test whether the given two matrices (say `a` and `b`) can be multiplied together to get a resultant matrix? 
+2. Write a program to test whether the given two matrices (say `a` and `b`), the matrix product operation `a * b` is possible or not. 
 
 
 
