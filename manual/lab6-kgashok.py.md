@@ -102,6 +102,7 @@ http://cloudcoder.kgisl.com/cloudcoder/#exercise?c=1,p=81
 1. What is the single line python code that will return the maximum value any list that is sorted in the ascending order? 
 1. If the list is a sorted list in descending order, for e.g. `[5, 4, 3, 2, -1]`, what is the maximum value? What is the python code that will access the maximum value in the list? 
 2. What is the single line python code that will return the maximum value in any list that is sorted in the descending order? 
+3. What is the code for finding out the index of the minimum value of the element in the list. Assume the list contains only integers. Is there a one-line code for this? 
 3. Assume that the list is already sorted, but it is not known whether it is in ascending order or descending order. In that case, what is the single line python code that will return the maximum value in the list? 
 4. What are some of the methods that are available to the `list` python data type? 
 5. What is the output of the following python code?
