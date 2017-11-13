@@ -2,6 +2,13 @@
 
 # Agenda 
 
+## Assign 1:3 mentors 
+
+This is key - please complete this before the workshop happens. 
+
+
+## Day Plan 
+
 - DAY 1 - Greetings10  (and PC-1 completion)
     - CloudCoder 
 	- Tool introduction - PythonTutor and Matrix
@@ -94,4 +101,3 @@
 | Group 1|3.30pm - 4.00pm | PC-1 | Greetings10 (CC), Start Repetition #3
 | |4.00pm - 4.30pm | PC-2 | Feedback, Commitments, Individual review and project ideas
 
-PCC Agenda: https://github.com/kgisl/pythonFDP/issues/68
