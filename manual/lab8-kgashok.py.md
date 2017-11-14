@@ -146,9 +146,9 @@ import bisect
 def insertion_sortr(L, nsorted=1):
     if nsorted >= len(L): return L  # terminal case
     key = L.pop() # pre-determined location
-    # place key in sublist of 'nsorted' elements
+    print(key, L)
+    # insert key in sublist of 'nsorted' elements
     bisect.insort(L, key, hi=nsorted) 
-    print(L)
     return insertion_sortr(L, nsorted + 1)
 ```
 **Output**
