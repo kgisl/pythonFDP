@@ -91,8 +91,9 @@ def ins_sort(k):
     for i in range(1,len(k)):   
         j = i                   
         while j > 0 and k[j] < k[j-1]: 
+	        # swapping values and it is expensive
             k[j], k[j-1] = k[j-1], k[j] 
-            j=j-1 
+            j = j - 1 
     return k
 ```
 
@@ -396,5 +397,19 @@ http://bit.ly/quickSortVideo
   l = [8, 2, 4, 6, 7, 1]
   for n in l:
       Timer(n, lambda x: print(x), [n]).start()
+```
+  
+## Lambdas (advanced)
+
+A one-liner solution using Python Lambdas: 
+
+```python
+selectsort = (
+    lambda L: [] if not L else (
+        lambda idx, v: [v] + selectsort(L[:idx] + L[idx + 1:]))(
+            *min(enumerate(L), key=lambda t: t[1])
+    )
+)
+
 ```
   
