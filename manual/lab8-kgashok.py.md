@@ -144,12 +144,12 @@ def selectsortr(L):
 
 ```python
 import bisect
-
-def insertion_sort(l, nsorted=1):
-    if nsorted >= len(l):
-        return l
-    bisect.insort(l, l.pop(), hi=nsorted)
-    return insertion_sort(l, nsorted + 1)
+def insertion_sort(L, nsorted=1):
+    if nsorted >= len(L): return L  # terminal case
+    key = L.pop() # pre-determined location
+	# pop and place key in sublist of 'nsorted' elements
+	bisect.insort(L, key, hi=nsorted) 
+    return insertion_sort(L, nsorted + 1)
 ```
 
 ## Recursive QuickSort 
