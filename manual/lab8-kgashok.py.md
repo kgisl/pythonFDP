@@ -112,12 +112,10 @@ def ins_sort(k):
 
 
 ## Recursive SelectionSort 
+Credits: https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
+
 
 ```python
-
-'''
-https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
-'''
 
 def selection_sortr(L):
     if not L: return [] # terminal case
