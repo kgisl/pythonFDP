@@ -119,18 +119,19 @@ def ins_sort(k):
 https://code.activestate.com/recipes/576917-functional-selection-sort/#c1 
 '''
 
-def selectsortr(L):
-    if not L: return []
+def selection_sortr(L):
+    if not L: return [] # terminal case
+    # select the minimum value and the index where it is located
     idx, v = min(enumerate(L), key=lambda e: e[1])
     #v, idx = min((v, i) for i, v in enumerate(L))
 
     print(v, L[:idx], L[idx+1:])
-    return [v] + selectsortr(L[:idx] + L[idx+1:])
+    return [v] + selection_sortr(L[:idx] + L[idx+1:])
     
 ```
 **Output**
 ```
->> selectsortr([1,56, 99, -1, 22, 99])
+>> selection_sortr([1,56, 99, -1, 22, 99])
 -1 [1, 56, 99] [22, 99]
 1 [] [56, 99, 22, 99]
 22 [56, 99] [99]
@@ -144,12 +145,24 @@ def selectsortr(L):
 
 ```python
 import bisect
-def insertion_sort(L, nsorted=1):
+def insertion_sortr(L, nsorted=1):
     if nsorted >= len(L): return L  # terminal case
     key = L.pop() # pre-determined location
 	# place key in sublist of 'nsorted' elements
 	bisect.insort(L, key, hi=nsorted) 
-    return insertion_sort(L, nsorted + 1)
+	print(L)
+    return insertion_sortr(L, nsorted + 1)
+```
+**Output**
+```
+
+insertion_sortr([1, 56, 99, -1, 22, 99])
+99 [1, 56, 99, -1, 22]
+22 [1, 99, 56, 99, -1]
+-1 [1, 22, 99, 56, 99]
+99 [-1, 1, 22, 99, 56]
+56 [-1, 1, 22, 99, 99]
+=> [-1, 1, 22, 56, 99, 99]
 ```
 
 ## Recursive QuickSort 
