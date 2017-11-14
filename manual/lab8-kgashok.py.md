@@ -6,7 +6,7 @@
 		* [Simplest insert sort](#simplest-insert-sort)
 	* [Related Material](#related-material)
 	* [Recursive SelectionSort](#recursive-selectionsort)
-	* [Recursive InsertSort](#recursive-insertsort)
+	* [Recursive InsertionSort](#recursive-insertionsort)
 	* [Recursive QuickSort](#recursive-quicksort)
 		* [Related Material](#related-material)
 	* [Recursive MergeSort (in-place)](#recursive-mergesort-in-place)
