@@ -83,6 +83,24 @@ print(alist)
 
 ```
 
+### Simplest selection sort 
+
+```python
+def selectsort(alist):    
+    i = 0
+    while i < len(alist):
+        sublist = alist[i:]
+        smallest = min(sublist)
+        index_of_smallest = alist.index(smallest)        
+        #swap
+        temp = alist[index_of_smallest]
+        alist[index_of_smallest] = alist[i]
+        alist[i] = temp
+        
+        i = i + 1    
+    return alist
+```
+
 ### Simplest insert sort 
 First see the video and then code!  http://j.mp/insertSortVideo
 
@@ -387,7 +405,20 @@ qsort(ar,0,n-1)
 
 http://bit.ly/quickSortVideo
 
+ 
+## Lambdas (advanced)
 
+A one-liner solution using Lambdas: 
+
+```python
+selectsort = (
+    lambda L: [] if not L else (
+        lambda idx, v: [v] + selectsort(L[:idx] + L[idx + 1:]))(
+            *min(enumerate(L), key=lambda t: t[1])
+    )
+)
+```
+ 
 
 ## What exactly does this accomplish? 
 
@@ -397,19 +428,5 @@ http://bit.ly/quickSortVideo
   l = [8, 2, 4, 6, 7, 1]
   for n in l:
       Timer(n, lambda x: print(x), [n]).start()
-```
-  
-## Lambdas (advanced)
-
-A one-liner solution using Python Lambdas: 
-
-```python
-selectsort = (
-    lambda L: [] if not L else (
-        lambda idx, v: [v] + selectsort(L[:idx] + L[idx + 1:]))(
-            *min(enumerate(L), key=lambda t: t[1])
-    )
-)
-
 ```
   
