@@ -22,7 +22,7 @@ This is key - please complete this before the workshop happens.
 	- Misc 
 		- Meet and Greet
 
-- DAY 3 - Tiling Problem 
+- DAY 3 - Tiling Problem, SelectSort Challenge
 	- Dictionary and its application 
 		- reverse dictionary
 		- lucky number 
