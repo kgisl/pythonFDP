@@ -83,12 +83,11 @@ print(alist)
 
 ```
 
-### Simplest selection sort 
+### English-like sorting code 
 
 ```python
 def selectsort(alist):    
-    i = 0
-    while i < len(alist):
+    for i in range(len(alist)):
         sublist = alist[i:]
         smallest = min(sublist)
         index_of_smallest = alist.index(smallest)        
@@ -96,8 +95,19 @@ def selectsort(alist):
         temp = alist[index_of_smallest]
         alist[index_of_smallest] = alist[i]
         alist[i] = temp
-        
-        i = i + 1    
+    return alist
+
+def insertsort(alist):
+    for i in range(len(alist)):
+        sublist = alist[:i]
+        key = alist.pop() # element to insert
+        for j in range(len(sublist)):
+            if key < alist[j]:
+                alist.insert(j, key)
+                break
+        else:
+			# insert it at the top of the sublist
+            alist.insert(i, key)
     return alist
 ```
 
@@ -114,6 +124,7 @@ def ins_sort(k):
             j = j - 1 
     return k
 ```
+
 
 ## Related Material 
 
