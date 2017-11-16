@@ -15,8 +15,8 @@
 		* [Unit test file](#unit-test-file)  
 	* [Recursive QuickSort, in-place](#recursive-quicksort-in-place)  
 		* [Related Material](#related-material)  
-	* [Lambdas (advanced)](#lambdas-advanced)  
 	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)  
+
 
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
@@ -433,20 +433,6 @@ qsort(ar,0,n-1)
 ### Related Material
 
 http://bit.ly/quickSortVideo
-
- 
-## Lambdas (advanced)
-
-A one-liner solution using Lambdas: 
-
-```python
-selectsort = (
-    lambda L: [] if not L else (
-        lambda idx, v: [v] + selectsort(L[:idx] + L[idx + 1:]))(
-            *min(enumerate(L), key=lambda t: t[1])
-    )
-)
-```
  
 
 ## What exactly does this accomplish? 
