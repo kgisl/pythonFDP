@@ -90,7 +90,7 @@ def selectsort(alist):
     for i in range(len(alist)):
         sublist = alist[i:]
         smallest = min(sublist)
-        index_of_smallest = alist.index(smallest)        
+        index_of_smallest = alist.index(smallest, i)        
         #swap
         temp = alist[index_of_smallest]
         alist[index_of_smallest] = alist[i]
@@ -111,7 +111,7 @@ def insertsort(alist):
     return alist
 ```
 
-### Simplest insert sort 
+### index-based insert sort 
 First see the video and then code!  http://j.mp/insertSortVideo
 
 ```python
@@ -123,6 +123,23 @@ def ins_sort(k):
             k[j], k[j-1] = k[j-1], k[j] 
             j = j - 1 
     return k
+```
+
+### Pythonic versions 
+```python
+def selectsort(alist):
+    for i in range(len(alist)):
+        smallest, idx = min(
+            (v, i) for i, v in enumerate(alist[i:]))
+        alist[i], alist[idx+i] = alist[idx+i], alist[i]
+    return alist
+
+import bisect
+def insert_sort(alist):
+    for i in range(len(alist)):
+        key = alist.pop() 
+        bisect.insort(alist, key, hi=i)
+    return alist
 ```
 
 
