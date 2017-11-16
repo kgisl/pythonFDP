@@ -1,19 +1,3 @@
-**Table of Contents**
-
-* [Lab 8: Sorting](#lab-8-sorting)
-	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)
-	* [Solution Key](#solution-key)
-		* [Simplest insert sort](#simplest-insert-sort)
-	* [Related Material](#related-material)
-	* [Recursive SelectionSort](#recursive-selectionsort)
-	* [Recursive InsertSort](#recursive-insertionsort)
-	* [Recursive QuickSort](#recursive-quicksort)
-		* [Related Material](#related-material)
-	* [Recursive MergeSort (in-place)](#recursive-mergesort-in-place)
-		* [Unit test file](#unit-test-file)
-	* [Recursive QuickSort, in-place](#recursive-quicksort-in-place)
-		* [Related Material](#related-material)
-	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)
 
 
 
