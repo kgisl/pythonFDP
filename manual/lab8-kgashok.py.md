@@ -1,5 +1,22 @@
+**Table of Contents**
 
-
+* [Lab 8: Sorting](#lab-8-sorting)  
+	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)  
+	* [Solution Key](#solution-key)  
+		* [English-like sorting code](#english-like-sorting-code)  
+		* [index-based insert sort](#index-based-insert-sort)  
+		* [Pythonic versions](#pythonic-versions)  
+	* [Related Material](#related-material)  
+	* [Recursive SelectionSort](#recursive-selectionsort)  
+	* [Recursive InsertionSort](#recursive-insertionsort)  
+	* [Recursive QuickSort](#recursive-quicksort)  
+		* [Related Material](#related-material)  
+	* [Recursive MergeSort (in-place)](#recursive-mergesort-in-place)  
+		* [Unit test file](#unit-test-file)  
+	* [Recursive QuickSort, in-place](#recursive-quicksort-in-place)  
+		* [Related Material](#related-material)  
+	* [Lambdas (advanced)](#lambdas-advanced)  
+	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)  
 
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
