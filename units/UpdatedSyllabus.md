@@ -32,8 +32,8 @@
 > assignment, precedence of operators, comments; modules and functions,
 > function definition and use, flow of execution, parameters and
 > arguments; Illustrative programs: exchange the values of two
-> variables, circulate the values of n variables, distance between two
-> points.
+> variables, circulate the values of n variables, [distance between two
+> points](http://j.mp/twoPoints).
 >
 > **UNIT III CONTROL FLOW, FUNCTIONS 9**
 >
