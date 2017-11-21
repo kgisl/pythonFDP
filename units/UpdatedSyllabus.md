@@ -43,7 +43,7 @@
 > values, parameters, local and global scope, function composition,
 > recursion; Strings: string slices, immutability, string functions and
 > methods, string module; Lists as arrays. Illustrative programs: square
-> root, gcd, exponentiation, sum an array of numbers, linear search,
+> root, [gcd](, exponentiation, sum an array of numbers, linear search,
 > binary search.
 >
 > **UNIT IV LISTS, TUPLES, DICTIONARIES 9**
