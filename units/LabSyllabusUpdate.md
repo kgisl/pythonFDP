@@ -32,7 +32,7 @@
 >
 > 8. First n prime numbers
 >
-> 9. Multiply matrices
+> 9. [Multiply matrices](http://j.mp/matrixMultiplyCC)
 >
 > 10. Programs that take command line arguments (word count)
 >
