@@ -1,3 +1,16 @@
+**Table of Contents**
+
+* [Lab 8: Sorting](#lab-8-sorting)  
+	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)  
+	* [Solution Key](#solution-key)  
+		* [select sort](#select-sort)  
+		* [insert  sort](#insert--sort)  
+		* [merge sort](#merge-sort)  
+		* [quick sort](#quick-sort)  
+	* [Related Material](#related-material)  
+	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)  
+
+
 
 
 # Lab 8: Sorting
