@@ -57,7 +57,7 @@ def mergesort(series):
         ] + A + B
         return merged
 
-    iseries = iseries = [[i] for i in series]
+    iseries = [[i] for i in series]
     while len(iseries) > 1:
         ilist = iter(iseries)
         iseries = [
