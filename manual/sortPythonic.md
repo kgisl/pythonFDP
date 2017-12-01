@@ -49,7 +49,7 @@ def insert_sort(alist):
 ### merge sort
 ```
 from itertools import zip_longest
-def mergesort(series, verbose=False):
+def mergesort(series):
     def merge(A, B):
         merged = [
             (A if A[0] < B[0] else B).pop(0)
@@ -85,7 +85,7 @@ def quicksort(s):
 
 ```
 
-Improved version of `lambda` code (without using `filter`):
+`lambda` version: 
 ```python
 
 from operator import ge, lt
