@@ -208,8 +208,8 @@ Fun fact—Python `str` objects are **recursive** data structures: Each characte
 
 I have always wondered how the in-place `swap` worked using the XOR operation. The following **table** went a long way in helping clear up the magic in _my_ head. 
 
-| arg 1 | arg 2   |	Result     |
-|--------|--------|------------|
+| arg 1 | arg 2   |	Result|
+|--------|--------|-------|
 |A	     |B       |	C     |
 |B	     |C	      | A     |   
 |A	     |C	      | B     |
