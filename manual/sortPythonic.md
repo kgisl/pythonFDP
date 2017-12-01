@@ -1,6 +1,5 @@
 
 
-
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
@@ -92,12 +91,9 @@ def qsort(L, first=True):
 
 ```
 
-### Related Material 
+## Related Material 
 
 http://bit.ly/quickSortVideoCD - a video explaining QuickSort incrementally in a CyberDojo session. 
-
-
-### Related Material
 
 http://bit.ly/quickSortVideo
  
