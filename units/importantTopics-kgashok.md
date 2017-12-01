@@ -218,8 +218,8 @@ Therefore,
 
 ```
 a  = a ^ b   # c value in a 
-b  = a ^ b   # b now contains a ( since c ^ b -> a ) 
-a  = a ^ b   # a now contains b ( since c ^ a -> b )
+b  = a ^ b   # b now contains a (since c ^ b -> a) 
+a  = a ^ b   # a now contains b (since c ^ a -> b)
 ```
 
 ### Credits
