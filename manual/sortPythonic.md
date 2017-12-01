@@ -1,5 +1,6 @@
 
 
+
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
