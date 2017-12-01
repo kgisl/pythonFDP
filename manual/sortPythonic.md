@@ -1,3 +1,4 @@
+
 **Table of Contents**
 
 * [Lab 8: Sorting](#lab-8-sorting)  
@@ -28,7 +29,7 @@ Sort the given list using selection sort and insertion sort.
 
 ## Solution Key 
 
-## select sort
+### select sort
 
 ```python
 def selectsort(alist):
@@ -38,7 +39,7 @@ def selectsort(alist):
         alist[i], alist[idx+i] = alist[idx+i], alist[i]
     return alist
 ```
-## insert  sort
+### insert  sort
 ```
 import bisect
 def insert_sort(alist):
@@ -48,7 +49,7 @@ def insert_sort(alist):
     return alist
 ```
 
-## merge sort
+### merge sort
 ```
 from itertools import zip_longest
 def mergesort(series, verbose=False):
@@ -69,7 +70,7 @@ def mergesort(series, verbose=False):
     return iseries[0]
 ```
 
-## quick sort
+### quick sort
 ```
 import random
 def quicksort(s):
