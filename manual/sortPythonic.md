@@ -11,8 +11,6 @@
 	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)  
 
 
-
-
 # Lab 8: Sorting
 Sort the given list using selection sort and insertion sort. 
 
