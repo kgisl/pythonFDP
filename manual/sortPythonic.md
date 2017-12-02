@@ -68,13 +68,12 @@ def quicksort(s):
   len_s = len(s)
   if len_s < 2:
     return s
-
   pivot = s[random.randrange(0, len_s)]
 
   L = [x for x in s if x < pivot]
   E = [x for x in s if x == pivot]
   G = [x for x in s if x > pivot]
-
+  
   return quicksort(L) + E + quicksort(G)
 
 ```
