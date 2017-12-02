@@ -47,28 +47,27 @@ def insert_sort(alist):
 ```
 
 ### merge sort
-```
+```python
 from itertools import zip_longest
-def mergesort(series):
+def mergesort(alist, verbose=False):
     def merge(A, B):
-        merged = [
+        return [
             (A if A[0] < B[0] else B).pop(0)
-            for _ in A+B if len(A) and len(B)
+            for _ in A + B if len(A) and len(B)
         ] + A + B
-        return merged
 
-    iseries = [[i] for i in series]
-    while len(iseries) > 1:
-        ilist = iter(iseries)
-        iseries = [
-            merge(a, b) if b else a
-            for a, b in zip_longest(ilist, ilist)
+    series = [[i] for i in alist]
+    while len(series) > 1:
+        isl = iter(series)
+        series = [
+            merge(a, b) if a else b
+            for a, b in zip_longest(isl, isl)
         ]
-    return iseries[0]
+    return series[0]
 ```
 
 ### quick sort
-```
+```python
 import random
 def quicksort(s):
   len_s = len(s)
