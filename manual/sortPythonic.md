@@ -26,8 +26,6 @@ Sort the given list using selection sort and insertion sort.
 
 ## Solution Key 
 
-### select sort
-
 ```python
 def selectsort(alist):
     for i in range(len(alist)):
@@ -36,7 +34,6 @@ def selectsort(alist):
         alist[i], alist[idx+i] = alist[idx+i], alist[i]
     return alist
 ```
-### insert  sort
 ```
 import bisect
 def insert_sort(alist):
@@ -46,7 +43,6 @@ def insert_sort(alist):
     return alist
 ```
 
-### merge sort
 ```python
 from itertools import zip_longest
 def mergesort(alist, verbose=False):
@@ -66,7 +62,6 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 
-### quick sort
 ```python
 import random
 def quicksort(s):
