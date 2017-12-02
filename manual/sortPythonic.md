@@ -60,7 +60,7 @@ def mergesort(alist, verbose=False):
     while len(series) > 1:
         isl = iter(series)
         series = [
-            merge(a, b) if a else b
+            merge(a, b) if b else a
             for a, b in zip_longest(isl, isl)
         ]
     return series[0]
