@@ -34,7 +34,7 @@ def selectsort(alist):
         alist[i], alist[idx+i] = alist[idx+i], alist[i]
     return alist
 ```
-```
+```python
 import bisect
 def insert_sort(alist):
     for i in range(len(alist)):
