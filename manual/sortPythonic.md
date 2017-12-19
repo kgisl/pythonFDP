@@ -33,6 +33,15 @@ def selectsort(alist):
             (v, i) for i, v in enumerate(alist[i:]))
         alist[i], alist[idx+i] = alist[idx+i], alist[i]
     return alist
+
+or 
+
+def selectsort(alist):
+	if not alist: return alist
+	smallest = min(alist)
+	alist.remove(smallest)
+	return [smallest] + selectsort(alist)
+	
 ```
 ```python
 import bisect
@@ -41,6 +50,14 @@ def insert_sort(alist):
         key = alist.pop() 
         bisect.insort(alist, key, hi=i)
     return alist
+
+or 
+
+def insert_sort(alist, i=1):
+	if i >= len(alist): return alist
+	elem = alist.pop()
+	bisect.insort(alist, elem, hi=i)
+	return insert_sort(alist, i+1)
 ```
 
 ```python
