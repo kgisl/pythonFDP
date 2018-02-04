@@ -96,7 +96,7 @@ As per the test output, there are four calls made to the `binary_search_recursiv
 ## Related Material
 
 - Binary search Visualization - http://j.mp/binarySearch
-   - Simply the very best - comparative, and silent and quite effective all the same!
+   - Simply the very best - comparative, silent and quite effective all the same!
 - For visualizer debugging - https://goo.gl/aKE2ow 
 - Online execution - https://goo.gl/Z6z33B
 
