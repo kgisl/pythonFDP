@@ -61,6 +61,9 @@
 
 # Important Concepts
 
+What's new in Python 3? Read [this](https://github.com/crazyguitar/pysheeet/blob/master/docs/notes/python-new-py3.rst)
+
+
 [TOC]
 
 
@@ -261,7 +264,7 @@ The distinction between module and package seems to hold just at the file system
   [2]: http://docs.python.org/tutorial/modules.html#packages
 
 ## 9. How to maintain a sorted list? 
-You need to maintain a list in sorted order without having to call `sort` each time an item is added to the list. How will you do this?
+You need to maintain a list in sorted order without having to call `sort` each time an item is added to the list. How will you do this? http://j.mp/sortApply
 
 # Misc
 
