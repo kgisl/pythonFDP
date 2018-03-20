@@ -50,7 +50,11 @@ Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.
 
 ## binary file
 A file object able to read and write bytes-like objects.
-Examples of binary files are files opened in binary mode ('rb', 'wb' or 'rb+'), sys.stdin.buffer, sys.stdout.buffer, and instances of io.BytesIO and gzip.GzipFile.
+Examples of binary files are   
+  - files opened in binary mode (`'rb'`, `'wb'` or `'rb+'`), 
+  - `sys.stdin.buffer`, 
+  - sys.stdout.buffer, and 
+  - instances of `io.BytesIO` and `gzip.GzipFile`.
 
 See also
 A text file reads and writes str objects.
@@ -343,5 +347,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTEyODQ3Ml19
+eyJoaXN0b3J5IjpbMzcyNzY5OTg0XX0=
 -->
