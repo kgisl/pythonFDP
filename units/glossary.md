@@ -215,19 +215,17 @@ A named entity in a function (or method) definition that
 specifies an argument (or in some cases, arguments) that the
 function can accept.  There are five kinds of parameter:
 
-positional-or-keyword: specifies an argument that can be passed
-either positionally or as a keyword argument.  This is the default kind of parameter, for example foo
-and bar in the following:
-def func(foo, bar=None): ...
+**positional-or-keyword:** specifies an argument that can be passed
+either positionally or as a keyword argument.  This is the default kind 
+of parameter, for example foo and bar in the following:
 
+	def func(foo, bar=None):
+		...
 
-
-
-
-positional-only: specifies an argument that can be supplied only
+**positional-only**: specifies an argument that can be supplied only
 by position.  Python has no syntax for defining positional-only
 parameters.  However, some built-in functions have positional-only
-parameters (e.g. abs()).
+parameters (e.g. `abs()`).
 
 
 keyword-only: specifies an argument that can be supplied only
@@ -345,5 +343,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDcxODIxMTVdfQ==
+eyJoaXN0b3J5IjpbLTIwMDc5OTg3MzldfQ==
 -->
