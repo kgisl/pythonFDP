@@ -177,7 +177,8 @@ If omitted, all elements in `range(256)` are processed.
 
 ## mapping
 A container object that supports arbitrary key lookups and 
-implements the methods specified in the `Mapping` or `MutableMapping` abstract base classes.  
+implements the methods specified in the `Mapping` or 
+`MutableMapping` abstract base classes.  
 
 Examples include 
  - `dict`, 
@@ -189,7 +190,8 @@ Examples include
 ## method
 A function which is defined inside a class body.  If called as an attribute
 of an instance of that class, the method will get the instance object as
-its first argument (which is usually called self).
+its first argument (which is usually called `self`).
+
 See function and nested scope.
 
 
@@ -197,6 +199,7 @@ See function and nested scope.
 An object that serves as an organizational unit of Python code.  Modules
 have a namespace containing arbitrary Python objects.  Modules are loaded
 into Python by the process of importing.
+
 See also package.
 
 
@@ -347,5 +350,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTI0NDYwNF19
+eyJoaXN0b3J5IjpbLTMxMzA4NDkwXX0=
 -->
