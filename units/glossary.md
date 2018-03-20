@@ -74,13 +74,15 @@ PEP 492.
 			return "Buzz" 
 		return number
 
-The above function `fizzBuzz` has three exit points (the three `return` statements). 
+The above coroutine `fizzBuzz` has three exit points (the three `return` statements). 
 
 
 
 ## dictionary
 An associative array, where arbitrary keys are mapped to values.  The
-keys can be any object with __hash__() and __eq__() methods. Called a hash in Perl.
+keys can be any object with __hash__() and __eq__() methods. 
+
+	a
 
 
 ## dictionary view
@@ -359,5 +361,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4ODYzNzNdfQ==
+eyJoaXN0b3J5IjpbMTUxNDk5OTMwMl19
 -->
