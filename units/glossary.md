@@ -140,8 +140,8 @@ and tuple) and some non-sequence types like dict,
 file objects, and objects of any classes you define
 with an __iter__() or __getitem__() method.  Iterables can be
 used in a for loop and in many other places where a sequence is
-needed (zip(), map(), ...).  When an iterable object is passed
-as an argument to the built-in function iter(), it returns an
+needed (`zip()`, `map()`, ...).  When an iterable object is passed
+as an argument to the built-in function `iter()`, it returns an
 iterator for the object.  This iterator is good for one pass over the set
 of values.  When using iterables, it is usually not necessary to call
 iter() or deal with iterator objects yourself.  The for
@@ -347,5 +347,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MTIzNzUyXX0=
+eyJoaXN0b3J5IjpbMTI1NzYxOTEzNl19
 -->
