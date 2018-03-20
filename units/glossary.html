@@ -92,9 +92,15 @@ dotted expressions.  For example, if an object <code>o</code> has an attribute<b
 <img src="https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg" alt="guido"></p>
 <h2 id="binary-file">binary file</h2>
 <p>A file object able to read and write bytes-like objects.<br>
-Examples of binary files are files opened in binary mode (‘rb’, ‘wb’ or ‘rb+’), sys.stdin.buffer, sys.stdout.buffer, and instances of io.BytesIO and gzip.GzipFile.</p>
+Examples of binary files are</p>
+<ul>
+<li>files opened in binary mode (<code>'rb'</code>, <code>'wb'</code> or <code>'rb+'</code>),</li>
+<li><code>sys.stdin.buffer</code>,</li>
+<li><code>sys.stdout.buffer</code>, and</li>
+<li>instances of <code>io.BytesIO</code> and <code>gzip.GzipFile</code>.</li>
+</ul>
 <p>See also<br>
-A text file reads and writes str objects.</p>
+A text file reads and writes string objects.</p>
 <h2 id="coroutine">coroutine</h2>
 <p>Coroutines is a more generalized form of subroutines. Subroutines are<br>
 entered at one point and exited at another point.  Coroutines can be<br>
@@ -159,11 +165,11 @@ and tuple) and some non-sequence types like dict,<br>
 file objects, and objects of any classes you define<br>
 with an <strong>iter</strong>() or <strong>getitem</strong>() method.  Iterables can be<br>
 used in a for loop and in many other places where a sequence is<br>
-needed (zip(), map(), …).  When an iterable object is passed<br>
-as an argument to the built-in function iter(), it returns an<br>
+needed (<code>zip()</code>, <code>map()</code>, <code>...</code>).  When an iterable object is passed<br>
+as an argument to the built-in function <code>iter()</code>, it returns an<br>
 iterator for the object.  This iterator is good for one pass over the set<br>
 of values.  When using iterables, it is usually not necessary to call<br>
-iter() or deal with iterator objects yourself.  The for<br>
+<code>iter()</code> or deal with iterator objects yourself.  The <code>for</code><br>
 statement does that automatically for you, creating a temporary unnamed<br>
 variable to hold the iterator for the duration of the loop.  See also<br>
 iterator, sequence, and generator.</p>
@@ -187,7 +193,8 @@ in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause
 If omitted, all elements in <code>range(256)</code> are processed.</p>
 <h2 id="mapping">mapping</h2>
 <p>A container object that supports arbitrary key lookups and<br>
-implements the methods specified in the <code>Mapping</code> or <code>MutableMapping</code> abstract base classes.</p>
+implements the methods specified in the <code>Mapping</code> or<br>
+<code>MutableMapping</code> abstract base classes.</p>
 <p>Examples include</p>
 <ul>
 <li><code>dict</code>,</li>
@@ -198,13 +205,13 @@ implements the methods specified in the <code>Mapping</code> or <code>MutableMap
 <h2 id="method">method</h2>
 <p>A function which is defined inside a class body.  If called as an attribute<br>
 of an instance of that class, the method will get the instance object as<br>
-its first argument (which is usually called self).<br>
-See function and nested scope.</p>
+its first argument (which is usually called <code>self</code>).</p>
+<p>See function and nested scope.</p>
 <h2 id="module">module</h2>
 <p>An object that serves as an organizational unit of Python code.  Modules<br>
 have a namespace containing arbitrary Python objects.  Modules are loaded<br>
-into Python by the process of importing.<br>
-See also package.</p>
+into Python by the process of importing.</p>
+<p>See also package.</p>
 <h2 id="mutable">mutable</h2>
 <p>Mutable objects can change their value but keep their id().  See<br>
 also immutable.</p>
