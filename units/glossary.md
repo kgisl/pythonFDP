@@ -53,11 +53,11 @@ A file object able to read and write bytes-like objects.
 Examples of binary files are   
   - files opened in binary mode (`'rb'`, `'wb'` or `'rb+'`), 
   - `sys.stdin.buffer`, 
-  - sys.stdout.buffer, and 
+  - `sys.stdout.buffer`, and 
   - instances of `io.BytesIO` and `gzip.GzipFile`.
 
 See also
-A text file reads and writes str objects.
+A text file reads and writes string objects.
 
 
 ## coroutine
@@ -347,5 +347,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyNzY5OTg0XX0=
+eyJoaXN0b3J5IjpbMzM1MTIzNzUyXX0=
 -->
