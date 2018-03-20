@@ -255,9 +255,10 @@ above.
 
 Parameters can specify both optional and required arguments, as well as
 default values for some optional arguments.
-See also the argument glossary entry, the FAQ question on
-the difference between arguments and parameters, the inspect.Parameter class, the
-Function definitions section, and PEP 362.
+
+See also the `argument` glossary entry, the FAQ question on
+the difference between arguments and parameters, inspect, 
+Parameter class, the Function definitions section, and PEP 362.
 
 
 ## positional argument
@@ -343,5 +344,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMzg5MzI1XX0=
+eyJoaXN0b3J5IjpbLTEzMjEyMjc1MzhdfQ==
 -->
