@@ -155,20 +155,25 @@ elements are O(1).
 
 ## list comprehension
 A compact way to process all or part of the elements in a sequence and
-return a list with the results.  result = ['{:#04x}'.format(x) for x in
-range(256) if x % 2 == 0] generates a list of strings containing
-even hex numbers (0x..) in the range from 0 to 255. The if
-clause is optional.  If omitted, all elements in range(256) are
-processed.
+return a list with the results.  
+
+	result = ['{:#04x}'.format(x) for x in range(256)
+	          if x % 2 == 0
+	          ]
+generates a list of strings containing even hex numbers `(0x..)` 
+in the range from `0` to `255`. The `if` clause is optional.  
+If omitted, all elements in `range(256)` are processed.
 
 
 ## mapping
-A container object that supports arbitrary key lookups and implements the
-methods specified in the Mapping or
-MutableMapping
-abstract base classes.  Examples
-include dict, collections.defaultdict,
-collections.OrderedDict and collections.Counter.
+A container object that supports arbitrary key lookups and 
+implements the methods specified in the `Mapping` or `MutableMapping` abstract base classes.  
+
+Examples include 
+ - `dict`, 
+ - `collections.defaultdict`,
+ - `collections.OrderedDict` and 
+ - `collections.Counter`
 
 
 ## method
@@ -295,14 +300,15 @@ as if, while or for.
 
 
 ## text file
-A file object able to read and write str objects.
+A file object able to read and write string objects.
 Often, a text file actually accesses a byte-oriented datastream
 and handles the text encoding automatically.
-Examples of text files are files opened in text mode ('r' or 'w'),
-sys.stdin, sys.stdout, and instances of
-io.StringIO.
+Examples of text files are 
+  - files opened in text mode (`'r'` or `'w'`),
+  - sys.stdin, sys.stdout, and 
+  - instances of `io.StringIO`.
 
-See also
+See also:  
 A binary file reads and write bytes objects.
 
 
@@ -310,16 +316,20 @@ A binary file reads and write bytes objects.
 
 ## triple-quoted string
 A string which is bound by three instances of either a quotation mark
-(”) or an apostrophe (‘).  While they don’t provide any functionality
+(`”`) or an apostrophe (`‘`).  While they don’t provide any functionality
 not available with single-quoted strings, they are useful for a number
 of reasons.  They allow you to include unescaped single and double
 quotes within a string and they can span multiple lines without the
 use of the continuation character, making them especially useful when
-writing docstrings.
+writing `docstrings`.
 
 ## tuple 
 
-A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+A tuple is a sequence of immutable Python objects. 
+Tuples are sequences, just like lists. The differences between 
+tuples and lists are:  
+  - the tuples cannot be changed unlike lists and 
+  - tuples use parentheses, whereas lists use square brackets
 
 ## Zen of Python
 Listing of Python design principles and philosophies that are helpful in
@@ -328,3 +338,6 @@ understanding and using the language.  The listing can be found by typing
 
 ----
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ0ODk5ODc5OV19
+-->
