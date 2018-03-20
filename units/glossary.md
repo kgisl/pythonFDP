@@ -82,7 +82,10 @@ The above coroutine `fizzBuzz` has three exit points (the three `return` stateme
 An associative array, where arbitrary keys are mapped to values.  The
 keys can be any object with __hash__() and __eq__() methods. 
 
-	a
+	adict = dict() # initialization
+	adict['Sam'] = 233-2333
+	adict['Victor'] = 900-2222
+	
 
 
 ## dictionary view
@@ -361,5 +364,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDk5OTMwMl19
+eyJoaXN0b3J5IjpbLTU1MTA2MjY1XX0=
 -->
