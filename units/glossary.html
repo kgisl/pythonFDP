@@ -179,6 +179,8 @@ return a list with the results.</p>
 <pre><code>result = ['{:#04x}'.format(x) for x in range(256)
           if x % 2 == 0
           ]
+# ['0x00', '0x02', '0x04', '0x06', '0x08', '0x0a', '0x0c', '0x0e',
+ '0x10', '0x12', '0x14', '0x16', ...]
 </code></pre>
 <p>generates a list of strings containing even hex numbers <code>(0x..)</code><br>
 in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause is optional.<br>
