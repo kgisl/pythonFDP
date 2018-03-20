@@ -74,7 +74,7 @@ PEP 492.
 			return "Buzz" 
 		return number
 
-The above coroutine `fizzBuzz` has three exit points (the three `return` statements). 
+The above **coroutine** `fizzBuzz` has three exit points (the three `return` statements). 
 
 
 
@@ -364,5 +364,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTA2MjY1XX0=
+eyJoaXN0b3J5IjpbMTQyMDc5MTFdfQ==
 -->
