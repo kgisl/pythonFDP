@@ -116,6 +116,12 @@ are expressions.  There are also statements which cannot be used
 as expressions, such as the conditional `if`.  Assignments are also statements,
 not expressions.
 
+The _evaluation of an expression_ produces a value, which is why 
+expressions can appear on the right hand side of assignment statements. 
+A value all by itself is a simple expression, and so is a variable. Evaluating a
+variable gives the value that the variable refers to.
+
+
 
 ## file object
 An object exposing a file-oriented API (with methods such as
@@ -364,5 +370,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM4MzQ4MjZdfQ==
+eyJoaXN0b3J5IjpbLTY4NTM5ODk4Nl19
 -->
