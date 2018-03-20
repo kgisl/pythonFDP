@@ -142,8 +142,17 @@ an expression is an accumulation of expression elements like literals,<br>
 names, attribute access, operators or function calls which all return a<br>
 value.  In contrast to many other languages, not all language constructs<br>
 are expressions.  There are also statements which cannot be used<br>
-as expressions, such as if.  Assignments are also statements,<br>
+as expressions, such as the conditional <code>if</code>.  Assignments are also statements,<br>
 not expressions.</p>
+<p>The <em>evaluation of an expression</em> produces a value, which is why<br>
+expressions can appear on the right hand side of assignment statements.<br>
+A value all by itself is a simple expression, and so is a variable. Evaluating a<br>
+variable gives the value that the variable refers to.</p>
+<pre><code>3.141569 # is a value, and therefore a simple expression
+pi = 3.141569  # is an assignment statement 
+radius = 5 # is an assignment statement
+2 * pi * radius   # is an expression that evaluates to 31.4
+</code></pre>
 <h2 id="file-object">file object</h2>
 <p>An object exposing a file-oriented API (with methods such as<br>
 <code>read()</code> or <code>write()</code>) to an underlying resource.  Depending<br>
