@@ -64,7 +64,7 @@ A text file reads and writes string objects.
 Coroutines is a more generalized form of subroutines. Subroutines are
 entered at one point and exited at another point.  Coroutines can be
 entered, exited, and resumed at many different points.  They can be
-implemented with the async def statement.  See also
+implemented with the async `def` statement.  See also
 PEP 492.
 
 	def fizzBuzz(number): 
@@ -72,7 +72,10 @@ PEP 492.
 			return "Fizz"
 		if number%5: 
 			return "Buzz" 
-			
+		return number
+
+The above function `fizzBuzz` has three exit points (the three `return` statements). 
+
 
 
 ## dictionary
@@ -356,5 +359,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE4NjY0NzVdfQ==
+eyJoaXN0b3J5IjpbNTQ4ODYzNzNdfQ==
 -->
