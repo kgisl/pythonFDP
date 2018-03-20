@@ -231,9 +231,11 @@ parameters (e.g. `abs()`).
 **keyword-only**: specifies an argument that can be supplied only
 by keyword.  Keyword-only parameters can be defined by including a
 single var-positional parameter or bare `*` in the parameter list
-of the function definition before them, for example kw_only1 and
-kw_only2 in the following:
-def func(arg, *, kw_only1, kw_only2): ...
+of the function definition before them. For example, `kw_only1` and
+`kw_only2` in the following:
+
+	def func(arg, *, kw_only1, kw_only2): 
+		...
 
 
 
@@ -343,5 +345,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY2Mjc1OV19
+eyJoaXN0b3J5IjpbNjU5NDY0NDc3XX0=
 -->
