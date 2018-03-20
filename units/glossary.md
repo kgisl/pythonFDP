@@ -148,9 +148,9 @@ See argument.
 
 
 ## list
-A built-in Python sequence.  Despite its name it is more akin
+A built-in Python sequence.  Despite its name, it is more akin
 to an array in other languages than to a linked list since access to
-elements are O(1).
+elements are `O(1)`.
 
 
 ## list comprehension
@@ -339,5 +339,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODk5ODc5OV19
+eyJoaXN0b3J5IjpbLTEwOTU5NjQ2MzddfQ==
 -->
