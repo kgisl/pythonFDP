@@ -7,17 +7,20 @@
 
 There are two kinds of argument:
 
-**keyword argument:** an argument preceded by an identifier (e.g.
-name=) in a function call or passed as a value in a dictionary
-preceded by **.  For example, 3 and 5 are both keyword
-arguments in the following calls to complex():
+### keyword argument
+
+an argument preceded by an identifier (e.g. name=) in a function call or 
+passed as a value in a dictionary preceded by **.  For example, 3 and 5
+are both keyword arguments in the following calls to `complex()`:
 
 	complex(real=3, imag=5)
 	complex(**{'real': 3, 'imag': 5})
 
 
 
-#positional argument:** an argument that is not a keyword argument.
+### positional argument
+an argument that is not a keyword argument.
+
 Positional arguments can appear at the beginning of an argument list
 and/or be passed as elements of an iterable preceded by *.
 For example, 3 and 5 are both positional arguments in the
@@ -336,5 +339,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTIyNjkyNl19
+eyJoaXN0b3J5IjpbLTg4OTg5NDIyMV19
 -->
