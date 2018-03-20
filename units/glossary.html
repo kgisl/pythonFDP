@@ -217,36 +217,42 @@ See also regular package and namespace package.</p>
 <p>A named entity in a function (or method) definition that<br>
 specifies an argument (or in some cases, arguments) that the<br>
 function can accept.  There are five kinds of parameter:</p>
-<p>positional-or-keyword: specifies an argument that can be passed<br>
-either positionally or as a keyword argument.  This is the default kind of parameter, for example foo<br>
-and bar in the following:<br>
-def func(foo, bar=None): …</p>
-<p>positional-only: specifies an argument that can be supplied only<br>
+<p><strong>positional-or-keyword:</strong> specifies an argument that can be passed<br>
+either positionally or as a keyword argument.  This is the default kind<br>
+of parameter, for example foo and bar in the following:</p>
+<pre><code>def func(foo, bar=None):
+	...
+</code></pre>
+<p><strong>positional-only</strong>: specifies an argument that can be supplied only<br>
 by position.  Python has no syntax for defining positional-only<br>
 parameters.  However, some built-in functions have positional-only<br>
-parameters (e.g. abs()).</p>
-<p>keyword-only: specifies an argument that can be supplied only<br>
+parameters (e.g. <code>abs()</code>).</p>
+<p><strong>keyword-only</strong>: specifies an argument that can be supplied only<br>
 by keyword.  Keyword-only parameters can be defined by including a<br>
-single var-positional parameter or bare * in the parameter list<br>
-of the function definition before them, for example kw_only1 and<br>
-kw_only2 in the following:<br>
-def func(arg, *, kw_only1, kw_only2): …</p>
-<p>var-positional: specifies that an arbitrary sequence of<br>
+single var-positional parameter or bare <code>*</code> in the parameter list<br>
+of the function definition before them. For example, <code>kw_only1</code> and<br>
+<code>kw_only2</code> in the following:</p>
+<pre><code>def func(arg, *, kw_only1, kw_only2): 
+	...
+</code></pre>
+<p><strong>var-positional</strong>: specifies that an arbitrary sequence of<br>
 positional arguments can be provided (in addition to any positional<br>
 arguments already accepted by other parameters).  Such a parameter can<br>
-be defined by prepending the parameter name with *, for example<br>
-args in the following:<br>
-def func(*args, **kwargs): …</p>
-<p>var-keyword: specifies that arbitrarily many keyword arguments<br>
+be defined by prepending the parameter name with <code>*</code>, for example<br>
+<code>args</code> in the following:</p>
+<pre><code>def func(*args, **kwargs): 
+	...
+</code></pre>
+<p><strong>var-keyword</strong>: specifies that arbitrarily many keyword arguments<br>
 can be provided (in addition to any keyword arguments already accepted<br>
 by other parameters).  Such a parameter can be defined by prepending<br>
-the parameter name with **, for example kwargs in the example<br>
+the parameter name with <code>**</code>, for example <code>kwargs</code> in the example<br>
 above.</p>
 <p>Parameters can specify both optional and required arguments, as well as<br>
-default values for some optional arguments.<br>
-See also the argument glossary entry, the FAQ question on<br>
-the difference between arguments and parameters, the inspect.Parameter class, the<br>
-Function definitions section, and PEP 362.</p>
+default values for some optional arguments.</p>
+<p>See also the <code>argument</code> glossary entry, the FAQ question on<br>
+the difference between arguments and parameters, inspect,<br>
+Parameter class, the Function definitions section, and PEP 362.</p>
 <h2 id="positional-argument-1">positional argument</h2>
 <p>See argument.</p>
 <h2 id="sequence">sequence</h2>
@@ -260,15 +266,15 @@ mapping rather than a sequence because the lookups use arbitrary<br>
 immutable keys rather than integers.<br>
 The collections.abc.Sequence abstract base class<br>
 defines a much richer interface that goes beyond just<br>
-<strong>getitem</strong>() and <strong>len</strong>(), adding count(),<br>
-index(), <strong>contains</strong>(), and<br>
+<strong>getitem</strong>() and <strong>len</strong>(), adding <code>count()</code>,<br>
+<code>index()</code>, <strong>contains</strong>(), and<br>
 <strong>reversed</strong>(). Types that implement this expanded<br>
 interface can be registered explicitly using<br>
-register().</p>
+<code>register()</code>.</p>
 <h2 id="slice">slice</h2>
 <p>An object usually containing a portion of a sequence.  A slice is<br>
-created using the subscript notation, [] with colons between numbers<br>
-when several are given, such as in variable_name[1:3:5].  The bracket<br>
+created using the subscript notation, <code>[]</code> with colons between numbers<br>
+when several are given, such as in <code>variable_name[1:3:5]</code>.  The bracket<br>
 (subscript) notation uses slice objects internally.</p>
 <h2 id="special-method">special method</h2>
 <p>A method that is called implicitly by Python to execute a certain<br>
