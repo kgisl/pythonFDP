@@ -105,10 +105,12 @@ on the way it was created, a file object can mediate access to a real
 on-disk file or to another type of storage or communication device
 (for example standard input/output, in-memory buffers, sockets, pipes,
 etc.).  File objects are also called file-like objects or streams.
-There are actually three categories of file objects: raw binary files, buffered
+There are actually three categories of file objects: 
+  - raw binary files, buffered
 binary files and text files.
 
-Their interfaces are defined in the `io` module.  The canonical way to create a file object is by using the open() function.
+Their interfaces are defined in the `io` module.  The canonical way to
+create a file object is by using the `open()` function.
 
 
 ## function
@@ -339,5 +341,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg3MTM2MzNdfQ==
+eyJoaXN0b3J5IjpbLTE1NDE2NzE2MDBdfQ==
 -->
