@@ -238,22 +238,20 @@ of the function definition before them. For example, `kw_only1` and
 		...
 
 
-
-var-positional: specifies that an arbitrary sequence of
+**var-positional**: specifies that an arbitrary sequence of
 positional arguments can be provided (in addition to any positional
 arguments already accepted by other parameters).  Such a parameter can
-be defined by prepending the parameter name with *, for example
-args in the following:
-def func(*args, **kwargs): ...
+be defined by prepending the parameter name with `*`, for example
+`args` in the following:
 
+	def func(*args, **kwargs): 
+		...
 
-
-var-keyword: specifies that arbitrarily many keyword arguments
+**var-keyword**: specifies that arbitrarily many keyword arguments
 can be provided (in addition to any keyword arguments already accepted
 by other parameters).  Such a parameter can be defined by prepending
-the parameter name with **, for example kwargs in the example
+the parameter name with `**`, for example `kwargs` in the example
 above.
-
 
 Parameters can specify both optional and required arguments, as well as
 default values for some optional arguments.
@@ -345,5 +343,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NDY0NDc3XX0=
+eyJoaXN0b3J5IjpbMzEwMzg5MzI1XX0=
 -->
