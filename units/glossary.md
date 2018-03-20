@@ -276,18 +276,17 @@ mapping rather than a sequence because the lookups use arbitrary
 immutable keys rather than integers.
 The collections.abc.Sequence abstract base class
 defines a much richer interface that goes beyond just
-__getitem__() and __len__(), adding count(),
-index(), __contains__(), and
+__getitem__() and __len__(), adding `count()`,
+`index()`, __contains__(), and
 __reversed__(). Types that implement this expanded
 interface can be registered explicitly using
-register().
-
+`register()`.
 
 
 ## slice
 An object usually containing a portion of a sequence.  A slice is
-created using the subscript notation, [] with colons between numbers
-when several are given, such as in variable_name[1:3:5].  The bracket
+created using the subscript notation, `[]` with colons between numbers
+when several are given, such as in `variable_name[1:3:5]`.  The bracket
 (subscript) notation uses slice objects internally.
 
 
@@ -344,5 +343,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEyMjc1MzhdfQ==
+eyJoaXN0b3J5IjpbMTAwMTEyODQ3Ml19
 -->
