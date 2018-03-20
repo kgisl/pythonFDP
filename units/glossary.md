@@ -100,10 +100,10 @@ not expressions.
 
 ## file object
 An object exposing a file-oriented API (with methods such as
-read() or write()) to an underlying resource.  Depending
+`read()` or `write()`) to an underlying resource.  Depending
 on the way it was created, a file object can mediate access to a real
 on-disk file or to another type of storage or communication device
-(for example standard input/output, in-memory buffers, sockets, pipes,
+(for example, standard input/output, in-memory buffers, sockets, pipes,
 etc.).  File objects are also called file-like objects or streams.
 There are actually three categories of file objects: 
   - raw binary files 
@@ -342,5 +342,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkwMDU0NTVdfQ==
+eyJoaXN0b3J5IjpbMTQyMDMzMzY1NV19
 -->
