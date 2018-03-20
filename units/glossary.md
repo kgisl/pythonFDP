@@ -113,7 +113,7 @@ an expression is an accumulation of expression elements like literals,
 names, attribute access, operators or function calls which all return a
 value.  In contrast to many other languages, not all language constructs
 are expressions.  There are also statements which cannot be used
-as expressions, such as if.  Assignments are also statements,
+as expressions, such as the conditional `if`.  Assignments are also statements,
 not expressions.
 
 
@@ -364,5 +364,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDc5MTFdfQ==
+eyJoaXN0b3J5IjpbLTE1MjM4MzQ4MjZdfQ==
 -->
