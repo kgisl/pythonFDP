@@ -105,8 +105,16 @@ A text file reads and writes string objects.</p>
 <p>Coroutines is a more generalized form of subroutines. Subroutines are<br>
 entered at one point and exited at another point.  Coroutines can be<br>
 entered, exited, and resumed at many different points.  They can be<br>
-implemented with the async def statement.  See also<br>
+implemented with the async <code>def</code> statement.  See also<br>
 PEP 492.</p>
+<pre><code>def fizzBuzz(number): 
+	if number%3: 
+		return "Fizz"
+	if number%5: 
+		return "Buzz" 
+	return number
+</code></pre>
+<p>The above coroutine <code>fizzBuzz</code> has three exit points (the three <code>return</code> statements).</p>
 <h2 id="dictionary">dictionary</h2>
 <p>An associative array, where arbitrary keys are mapped to values.  The<br>
 keys can be any object with <strong>hash</strong>() and <strong>eq</strong>() methods. Called a hash in Perl.</p>
