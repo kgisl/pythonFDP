@@ -46,7 +46,7 @@ dotted expressions.  For example, if an object `o` has an attribute
 
 ## BDFL
 Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.
-
+![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
 ## binary file
 A file object able to read and write bytes-like objects.
@@ -339,5 +339,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU5NjQ2MzddfQ==
+eyJoaXN0b3J5IjpbMTkwOTAwMzkyXX0=
 -->
