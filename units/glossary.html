@@ -169,11 +169,14 @@ to an array in other languages than to a linked list since access to<br>
 elements are O(1).</p>
 <h2 id="list-comprehension">list comprehension</h2>
 <p>A compact way to process all or part of the elements in a sequence and<br>
-return a list with the results.  result = [’{:#04x}’.format(x) for x in<br>
-range(256) if x % 2 == 0] generates a list of strings containing<br>
-even hex numbers (0x…) in the range from 0 to 255. The if<br>
-clause is optional.  If omitted, all elements in range(256) are<br>
-processed.</p>
+return a list with the results.</p>
+<pre><code>result = ['{:#04x}'.format(x) for x in range(256)
+          if x % 2 == 0
+          ]
+</code></pre>
+<p>generates a list of strings containing even hex numbers <code>(0x..)</code><br>
+in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause is optional.<br>
+If omitted, all elements in <code>range(256)</code> are processed.</p>
 <h2 id="mapping">mapping</h2>
 <p>A container object that supports arbitrary key lookups and<br>
 implements the methods specified in the <code>Mapping</code> or <code>MutableMapping</code> abstract base classes.</p>
