@@ -128,14 +128,19 @@ as expressions, such as if.  Assignments are also statements,<br>
 not expressions.</p>
 <h2 id="file-object">file object</h2>
 <p>An object exposing a file-oriented API (with methods such as<br>
-read() or write()) to an underlying resource.  Depending<br>
+<code>read()</code> or <code>write()</code>) to an underlying resource.  Depending<br>
 on the way it was created, a file object can mediate access to a real<br>
 on-disk file or to another type of storage or communication device<br>
-(for example standard input/output, in-memory buffers, sockets, pipes,<br>
+(for example, standard input/output, in-memory buffers, sockets, pipes,<br>
 etc.).  File objects are also called file-like objects or streams.<br>
-There are actually three categories of file objects: raw binary files, buffered<br>
-binary files and text files.</p>
-<p>Their interfaces are defined in the <code>io</code> module.  The canonical way to create a file object is by using the open() function.</p>
+There are actually three categories of file objects:</p>
+<ul>
+<li>raw binary files</li>
+<li>buffered binary files</li>
+<li>text files</li>
+</ul>
+<p>Their interfaces are defined in the <code>io</code> module.  The canonical way to<br>
+create a file object is by using the <code>open()</code> function.</p>
 <h2 id="function">function</h2>
 <p>A series of statements which returns some value to a caller. It can also<br>
 be passed zero or more arguments which may be used in<br>
