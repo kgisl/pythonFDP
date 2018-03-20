@@ -281,7 +281,7 @@ tuple, and bytes. Note that dict also
 supports __getitem__() and __len__(), but is considered a
 mapping rather than a sequence because the lookups use arbitrary
 immutable keys rather than integers.
-The collections.abc.Sequence abstract base class
+The `collections.abc.Sequence` abstract base class
 defines a much richer interface that goes beyond just
 __getitem__() and __len__(), adding `count()`,
 `index()`, __contains__(), and
@@ -299,9 +299,8 @@ when several are given, such as in `variable_name[1:3:5]`.  The bracket
 
 ## special method
 A method that is called implicitly by Python to execute a certain
-operation on a type, such as addition.  Such methods have names starting
-and ending with double underscores.  Special methods are documented in
-Special method names.
+operation on a type, such as addition.  Such methods have names
+starting and ending with double underscores.  Special methods are documented in Special method names.
 
 
 ## statement
@@ -350,5 +349,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzA4NDkwXX0=
+eyJoaXN0b3J5IjpbNjU0MjEwNTMyXX0=
 -->
