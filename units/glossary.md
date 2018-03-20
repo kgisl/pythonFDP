@@ -121,10 +121,10 @@ expressions can appear on the right hand side of assignment statements.
 A value all by itself is a simple expression, and so is a variable. Evaluating a
 variable gives the value that the variable refers to.
 
-	3.141569 # is a value, and therefore a simple expression
+	3.141569       # is a value, and therefore a simple expression
 	pi = 3.141569  # is an assignment statement 
-	radius = 5 # is an assignment statement
-	2 * pi * radius   # is an expression that evaluates to 31.4
+	radius = 5     # is an assignment statement
+	2*pi*radius    # is an expression that evaluates to 31.4
 	
 
 
@@ -375,5 +375,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MTcxNDQ2XX0=
+eyJoaXN0b3J5IjpbMTg0NjIzNTM2XX0=
 -->
