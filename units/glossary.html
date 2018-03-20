@@ -13,7 +13,7 @@
     <div class="stackedit__toc">
       
 <ul>
-<li>
+<li><a href="#important-terms">Important Terms</a>
 <ul>
 <li><a href="#argument">argument</a></li>
 <li><a href="#attribute">attribute</a></li>
@@ -28,7 +28,7 @@
 <li><a href="#function">function</a></li>
 <li><a href="#immutable">immutable</a></li>
 <li><a href="#iterable">iterable</a></li>
-<li><a href="#keyword-argument">keyword argument</a></li>
+<li><a href="#keyword-argument-1">keyword argument</a></li>
 <li><a href="#list">list</a></li>
 <li><a href="#list-comprehension">list comprehension</a></li>
 <li><a href="#mapping">mapping</a></li>
@@ -37,7 +37,7 @@
 <li><a href="#mutable">mutable</a></li>
 <li><a href="#package">package</a></li>
 <li><a href="#parameter">parameter</a></li>
-<li><a href="#positional-argument">positional argument</a></li>
+<li><a href="#positional-argument-1">positional argument</a></li>
 <li><a href="#sequence">sequence</a></li>
 <li><a href="#slice">slice</a></li>
 <li><a href="#special-method">special method</a></li>
@@ -54,23 +54,23 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <p>Table of Contents</p>
-<p>[TOC]</p>
+      <h1 id="important-terms">Important Terms</h1>
 <h2 id="argument">argument</h2>
 <blockquote>
 <p>A value passed to a function (or method) when calling the function.<br>
 Contrast that with:  <a href="#parameter">parameter</a> - a variable declared in a function (or method) for representing an argument.</p>
 </blockquote>
 <p>There are two kinds of argument:</p>
-<p><strong>keyword argument:</strong> an argument preceded by an identifier (e.g.<br>
-name=) in a function call or passed as a value in a dictionary<br>
-preceded by **.  For example, 3 and 5 are both keyword<br>
-arguments in the following calls to complex():</p>
+<h3 id="keyword-argument">keyword argument</h3>
+<p>an argument preceded by an identifier (e.g. name=) in a function call or<br>
+passed as a value in a dictionary preceded by **.  For example, 3 and 5<br>
+are both keyword arguments in the following calls to <code>complex()</code>:</p>
 <pre><code>complex(real=3, imag=5)
 complex(**{'real': 3, 'imag': 5})
 </code></pre>
-<p><strong>positional argument:</strong> an argument that is not a keyword argument.<br>
-Positional arguments can appear at the beginning of an argument list<br>
+<h3 id="positional-argument">positional argument</h3>
+<p>an argument that is not a keyword argument.</p>
+<p>Positional arguments can appear at the beginning of an argument list<br>
 and/or be passed as elements of an iterable preceded by *.<br>
 For example, 3 and 5 are both positional arguments in the<br>
 following calls:</p>
@@ -162,7 +162,7 @@ iter() or deal with iterator objects yourself.  The for<br>
 statement does that automatically for you, creating a temporary unnamed<br>
 variable to hold the iterator for the duration of the loop.  See also<br>
 iterator, sequence, and generator.</p>
-<h2 id="keyword-argument">keyword argument</h2>
+<h2 id="keyword-argument-1">keyword argument</h2>
 <p>See argument.</p>
 <h2 id="list">list</h2>
 <p>A built-in Python sequence.  Despite its name, it is more akin<br>
@@ -240,7 +240,7 @@ default values for some optional arguments.<br>
 See also the argument glossary entry, the FAQ question on<br>
 the difference between arguments and parameters, the inspect.Parameter class, the<br>
 Function definitions section, and PEP 362.</p>
-<h2 id="positional-argument">positional argument</h2>
+<h2 id="positional-argument-1">positional argument</h2>
 <p>See argument.</p>
 <h2 id="sequence">sequence</h2>
 <p>An iterable which supports efficient element access using integer<br>
