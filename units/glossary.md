@@ -1,8 +1,5 @@
 
-Table of Contents
-
-[TOC]
-
+# Important Terms
 
 ## argument
 > A value passed to a function (or method) when calling the function. 
@@ -339,5 +336,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTAwMzkyXX0=
+eyJoaXN0b3J5IjpbLTEzMTI5MDQwMDldfQ==
 -->
