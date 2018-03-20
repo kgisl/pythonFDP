@@ -95,8 +95,6 @@ view on the dictionary’s entries, which means that when the dictionary
 changes, the view reflects these changes. To force the
 dictionary view to become a full list use `list(dictview)`.  
 
-See Dictionary view objects.
-
 
 ## docstring
 A string literal which appears as the first expression in a class,
@@ -375,5 +373,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjIzNTM2XX0=
+eyJoaXN0b3J5IjpbLTc4NjQ5ODU3Ml19
 -->
