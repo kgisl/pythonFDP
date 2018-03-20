@@ -67,6 +67,13 @@ entered, exited, and resumed at many different points.  They can be
 implemented with the async def statement.  See also
 PEP 492.
 
+	def fizzBuzz(number): 
+		if number%3: 
+			return "Fizz"
+		if number%5: 
+			return "Buzz" 
+			
+
 
 ## dictionary
 An associative array, where arbitrary keys are mapped to values.  The
@@ -349,5 +356,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MjEwNTMyXX0=
+eyJoaXN0b3J5IjpbLTE5MzE4NjY0NzVdfQ==
 -->
