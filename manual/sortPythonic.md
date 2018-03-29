@@ -50,11 +50,10 @@ or
 ```python
 # remix of code contributed by Ajeeth B (KITE, 2018)
 def selsort(a):
-    n = 0
-    while n != len(a):
-      	mini = a.index(min(a[n:]))
-        a[n], a[mini] = a[mini], a[n]
-        n = n + 1
+    for n in range(len(a)-1):
+        sublist = a[n:]
+        mini = sublist.index(min(sublist))
+        a[n+mini], a[n] = a[n], a[n+mini]
     return a
 ```
 
@@ -146,5 +145,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTgyMzk5OV19
+eyJoaXN0b3J5IjpbMTk3MTMzNDY0XX0=
 -->
