@@ -46,6 +46,7 @@ def selectsort(alist):
 
 or 
 
+### Ajeeth selectSort
 ```python
 # remix of code contributed by Ajeeth B (KITE, 2018)
 def selsort(a):
@@ -145,5 +146,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODQ1OTY4OV19
+eyJoaXN0b3J5IjpbLTEwOTMwMjQwMTddfQ==
 -->
