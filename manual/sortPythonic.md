@@ -53,7 +53,7 @@ def selsort(a):
     n = 0
     while n != len(a):
       	mini = a.index(min(a[n:]))
-        a[n],a[mini] = a[mini],a[n]
+        a[n], a[mini] = a[mini], a[n]
         n = n + 1
     return a
 ```
@@ -146,5 +146,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDAxNzQ4N119
+eyJoaXN0b3J5IjpbLTI1NTgyMzk5OV19
 -->
