@@ -56,6 +56,7 @@ def selsort(a):
         a[n+mini], a[n] = a[n], a[n+mini]
     return a
 ```
+---
 
 
 ```python
@@ -145,5 +146,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTMzNDY0XX0=
+eyJoaXN0b3J5IjpbMjE0MTQxODM2N119
 -->
