@@ -43,6 +43,21 @@ def selectsort(alist):
 	return [smallest] + selectsort(alist)
 	
 ```
+
+or 
+
+```python
+# remix of code contributed by Ajeeth B (KITE, 2018)
+def selsort(a):
+    n = 0
+    while n != len(a):
+      	mini = a.index(min(a[n:]))
+        a[n],a[mini] = a[mini],a[n]
+        n = n + 1
+    return a
+```
+
+
 ```python
 import bisect
 def insert_sort(alist):
@@ -129,3 +144,6 @@ http://bit.ly/quickSortVideo
       Timer(n, lambda x: print(x), [n]).start()
 ```
   
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc1ODQ1OTY4OV19
+-->
