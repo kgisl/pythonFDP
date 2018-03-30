@@ -182,42 +182,25 @@ A named entity in a function (or method) definition that specifies an argument (
 	def func(foo, bar=None):
 		...
 
-**positional-only**: specifies an argument that can be supplied only
-by position.  Python has no syntax for defining positional-only
-parameters.  However, some built-in functions have positional-only
-parameters (e.g. `abs()`).
+**positional-only**: specifies an argument that can be supplied only by position.  Python has no syntax for defining positional-only parameters.  However, some built-in functions have positional-only parameters (e.g. `abs()`).  
 
 
-**keyword-only**: specifies an argument that can be supplied only
-by keyword.  Keyword-only parameters can be defined by including a
-single var-positional parameter or bare `*` in the parameter list
-of the function definition before them. For example, `kw_only1` and
-`kw_only2` in the following:
+**keyword-only**: specifies an argument that can be supplied only by keyword.  Keyword-only parameters can be defined by including a single var-positional parameter or bare `*` in the parameter list of the function definition before them. For example, `kw_only1` and `kw_only2` in the following:
 
 	def func(arg, *, kw_only1, kw_only2): 
 		...
 
 
-**var-positional**: specifies that an arbitrary sequence of
-positional arguments can be provided (in addition to any positional
-arguments already accepted by other parameters).  Such a parameter can
-be defined by prepending the parameter name with `*`, for example
-`args` in the following:
+**var-positional**: specifies that an arbitrary sequence of positional arguments can be provided (in addition to any positional arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with `*`, for example `args` in the following:
 
 	def func(*args, **kwargs): 
 		...
 
-**var-keyword**: specifies that arbitrarily many keyword arguments
-can be provided (in addition to any keyword arguments already accepted
-by other parameters).  Such a parameter can be defined by prepending
-the parameter name with `**`, for example `kwargs` in the example
-above.
+**var-keyword**: specifies that arbitrarily many keyword arguments can be provided (in addition to any keyword arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with `**`, for example `kwargs` in the example above.
 
-Parameters can specify both optional and required arguments, as well as
-default values for some optional arguments.
+Parameters can specify both optional and required arguments, as well as default values for some optional arguments.
 
-See also the `argument` glossary entry, the FAQ question on
-the difference between arguments and parameters, inspect, 
+See also the `argument` glossary entry, the FAQ question on the difference between arguments and parameters, inspect, 
 Parameter class, the Function definitions section, and PEP 362.
 
 
@@ -312,5 +295,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE3NjQwNzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjc1OTgxMDBdfQ==
 -->
