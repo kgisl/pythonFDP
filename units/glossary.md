@@ -131,7 +131,7 @@ A compact way to process all or part of the elements in a sequence and return a 
 	# ['0x00', '0x02', '0x04', '0x06', '0x08', '0x0a', '0x0c', '0x0e',
 	 '0x10', '0x12', '0x14', '0x16', ...]
 
-generates a list of strings containing even hex numbers `(0x..)`  in the range from `0` to `255`. The `if` clause is optional.   If omitted, all elements in `range(256)` are processed.
+generates a list of strings containing even hex numbers `(0x..)`  in the range from `0` to `255`. The `if` clause is optional. If omitted, all elements in `range(256)` are processed.  
 
 
 ## mapping
@@ -151,7 +151,7 @@ See function and nested scope.
 
 
 ## module
-An object that serves as an organizational unit of Python code.  Modules have a namespace containing arbitrary Python objects.  Modules are loaded into Python by the process of importing.  
+An object that serves as an organizational unit of Python code. Modules have a namespace containing arbitrary Python objects. Modules are loaded into Python by the process of importing.  
 
 See also package.
 
@@ -258,5 +258,5 @@ Listing of Python design principles and philosophies that are helpful in underst
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDM3MzE3N119
+eyJoaXN0b3J5IjpbLTE0MTA5OTk4MzFdfQ==
 -->
