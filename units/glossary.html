@@ -73,8 +73,7 @@ complex(**{'real': 3, 'imag': 5})
 complex(*(3, 5))
 </code></pre>
 <p>Arguments are assigned to the named local variables (aka parameters) in a function body.<br>
-See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the <a href="#parameter">parameter</a> glossary entry, the <a href="http://j.mp/argsVsParams">FAQ question</a> on<br>
-the difference between arguments and parameters, and <a href="http://j.mp/pep362_doc">PEP 362</a>.</p>
+See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the <a href="#parameter">parameter</a> glossary entry, the <a href="http://j.mp/argsVsParams">FAQ question</a> on the difference between arguments and parameters, and <a href="http://j.mp/pep362_doc">PEP 362</a>.</p>
 <h2 id="attribute">attribute</h2>
 <p>A value associated with an object which is referenced by name using dotted expressions.  For example, if an object <code>o</code> has an attribute  a<code>it would be referenced as</code>o.a`.</p>
 <h2 id="bdfl">BDFL</h2>
@@ -91,7 +90,7 @@ the difference between arguments and parameters, and <a href="http://j.mp/pep362
 <p>See also<br>
 A text file reads and writes string objects.</p>
 <h2 id="coroutine">coroutine</h2>
-<p>Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point.  Coroutines can be entered, exited, and resumed at many different points.  They can be implemented with the async <code>def</code> statement.  See also PEP 492.</p>
+<p>Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point. Coroutines can be entered, exited, and resumed at many different points. They can be implemented with the async <code>def</code> statement. See also PEP 492.</p>
 <pre><code>def fizzBuzz(number): 
 	if number%3: 
 		return "Fizz"
@@ -107,15 +106,12 @@ adict['Sam'] = 233-2333
 adict['Victor'] = 900-2222
 </code></pre>
 <h2 id="dictionary-view">dictionary view</h2>
-<p>The objects returned from <code>dict.keys()</code>, <code>dict.values()</code>, and <code>dict.items()</code> are called dictionary views. They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes. To force the<br>
-dictionary view to become a full list use <code>list(dictview)</code>.</p>
+<p>The objects returned from <code>dict.keys()</code>, <code>dict.values()</code>, and <code>dict.items()</code> are called dictionary views. They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes. To force the dictionary view to become a full list use <code>list(dictview)</code>.</p>
 <h2 id="docstring">docstring</h2>
-<p>A string literal which appears as the first expression in a class, function or module.  While ignored when the suite is executed, it is recognized by the compiler and put into the <strong>doc</strong> attribute of the enclosing class, function or module.  Since it is available via<br>
-introspection, it is the canonical place for documentation of the object.</p>
+<p>A string literal which appears as the first expression in a class, function or module.  While ignored when the suite is executed, it is recognized by the compiler and put into the <strong>doc</strong> attribute of the enclosing class, function or module.  Since it is available via introspection, it is the canonical place for documentation of the object.</p>
 <h2 id="expression">expression</h2>
 <p>A piece of syntax which can be evaluated to some value.  In other words, an expression is an accumulation of expression elements like literals, names, attribute access, operators or function calls which all return a value.  In contrast to many other languages, not all language constructs are expressions.  There are also statements which cannot be used<br>
-as expressions, such as the conditional <code>if</code>.  Assignments are also statements,<br>
-not expressions.</p>
+as expressions, such as the conditional <code>if</code>.  Assignments are also statements, not expressions.</p>
 <p>The <em>evaluation of an expression</em> produces a value, which is why  expressions can appear on the right hand side of assignment statements.  A value all by itself is a simple expression, and so is a variable. Evaluating a variable gives the value that the variable refers to.</p>
 <pre><code>3.141569       # is a value, and therefore a simple expression
 pi = 3.141569  # is an assignment statement 
@@ -123,8 +119,7 @@ radius = 5     # is an assignment statement
 2*pi*radius    # is an expression that evaluates to 31.4
 </code></pre>
 <h2 id="file-object">file object</h2>
-<p>An object exposing a file-oriented API (with methods such as  <code>read()</code> or <code>write()</code>) to an underlying resource.  Depending on the way it was created, a file object can mediate access to a real on-disk file or to another type of storage or communication device<br>
-(for example, standard input/output, in-memory buffers, sockets, pipes, etc.).  File objects are also called file-like objects or streams. There are actually three categories of file objects:</p>
+<p>An object exposing a file-oriented API (with methods such as  <code>read()</code> or <code>write()</code>) to an underlying resource.  Depending on the way it was created, a file object can mediate access to a real on-disk file or to another type of storage or communication device (for example, standard input/output, in-memory buffers, sockets, pipes, etc.).  File objects are also called file-like objects or streams. There are actually three categories of file objects:</p>
 <ul>
 <li>raw binary files</li>
 <li>buffered binary files</li>
