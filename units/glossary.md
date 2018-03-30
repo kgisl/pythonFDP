@@ -249,29 +249,20 @@ A binary file reads and write bytes objects.
 
 
 ## triple-quoted string
-A string which is bound by three instances of either a quotation mark
-(`”`) or an apostrophe (`‘`).  While they don’t provide any functionality
-not available with single-quoted strings, they are useful for a number
-of reasons.  They allow you to include unescaped single and double
-quotes within a string and they can span multiple lines without the
-use of the continuation character, making them especially useful when
-writing `docstrings`.
+A string which is bound by three instances of either a quotation mark (`”`) or an apostrophe (`‘`).  While they don’t provide any functionality not available with single-quoted strings, they are useful for a number of reasons.  They allow you to include unescaped single and double quotes within a string and they can span multiple lines without the use of the continuation character, making them especially useful when
+writing `docstrings`.  
 
 ## tuple 
 
-A tuple is a sequence of immutable Python objects. 
-Tuples are sequences, just like lists. The differences between 
-tuples and lists are:  
+A tuple is a sequence of immutable Python objects.  Tuples are sequences, just like lists. The differences between  tuples and lists are:  
   - the tuples cannot be changed unlike lists and 
   - tuples use parentheses, whereas lists use square brackets
 
 ## Zen of Python
-Listing of Python design principles and philosophies that are helpful in
-understanding and using the language.  The listing can be found by typing
-“import this” at the interactive prompt.
+Listing of Python design principles and philosophies that are helpful in understanding and using the language.  The listing can be found by typing `import this` at the interactive prompt.
 
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDkxOTYzOF19
+eyJoaXN0b3J5IjpbLTEwNzA2NjM4N119
 -->
