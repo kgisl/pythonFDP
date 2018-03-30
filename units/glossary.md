@@ -99,44 +99,25 @@ The _evaluation of an expression_ produces a value, which is why  expressions ca
 ## file object
 An object exposing a file-oriented API (with methods such as  `read()` or `write()`) to an underlying resource.  Depending on the way it was created, a file object can mediate access to a real on-disk file or to another type of storage or communication device
 (for example, standard input/output, in-memory buffers, sockets, pipes, etc.).  File objects are also called file-like objects or streams. There are actually three categories of file objects:  
-  - raw binary files 
-  - buffered binary files
-  - text files
+  - raw binary files  
+  - buffered binary files  
+  - text files  
 
-Their interfaces are defined in the `io` module.  The canonical way to
-create a file object is by using the `open()` function.
+Their interfaces are defined in the `io` module.  The canonical way to create a file object is by using the `open()` function.
 
 
 ## function
-A series of statements which returns some value to a caller. It can also
-be passed zero or more arguments which may be used in
-the execution of the body. See also parameter, method,
-and the Function definitions section.
+A series of statements which returns some value to a caller. It can also be passed zero or more arguments which may be used in the execution of the body. See also parameter, method, and the Function definitions section.
 
 
 ## immutable
-An object with a fixed value.  Immutable objects include numbers, strings and
-tuples.  Such an object cannot be altered.  A new object has to
-be created if a different value has to be stored.  They play an important
-role in places where a constant hash value is needed, for example as a key
-in a dictionary.
+An object with a fixed value.  Immutable objects include numbers, strings and tuples.  Such an object cannot be altered.  A new object has to be created if a different value has to be stored.  They play an important role in places where a constant hash value is needed, for example as a key in a dictionary.
 
 
 ## iterable
-An object capable of returning its members one at a time. Examples of
-iterables include all sequence types (such as list, str,
-and tuple) and some non-sequence types like dict,
-file objects, and objects of any classes you define
-with an __iter__() or __getitem__() method.  Iterables can be
-used in a for loop and in many other places where a sequence is
-needed (`zip()`, `map()`, `...`).  When an iterable object is passed
-as an argument to the built-in function `iter()`, it returns an
-iterator for the object.  This iterator is good for one pass over the set
-of values.  When using iterables, it is usually not necessary to call
-`iter()` or deal with iterator objects yourself.  The `for`
-statement does that automatically for you, creating a temporary unnamed
-variable to hold the iterator for the duration of the loop.  See also
-iterator, sequence, and generator.
+An object capable of returning its members one at a time. Examples of iterables include all sequence types (such as list, str, and tuple) and some non-sequence types like dict,
+file objects, and objects of any classes you define with an __iter__() or __getitem__() method.  Iterables can be used in a for loop and in many other places where a sequence is
+needed (`zip()`, `map()`, `...`).  When an iterable object is passed as an argument to the built-in function `iter()`, it returns an iterator for the object.  This iterator is good for one pass over the set of values.  When using iterables, it is usually not necessary to call `iter()` or deal with iterator objects yourself.  The `for` statement does that automatically for you, creating a temporary unnamed variable to hold the iterator for the duration of the loop.  See also iterator, sequence, and generator.
 
 
 ## keyword argument
@@ -144,14 +125,11 @@ See argument.
 
 
 ## list
-A built-in Python sequence.  Despite its name, it is more akin
-to an array in other languages than to a linked list since access to
-elements are `O(1)`.
+A built-in Python sequence.  Despite its name, it is more akin to an array in other languages than to a linked list since access to elements are `O(1)`.
 
 
 ## list comprehension
-A compact way to process all or part of the elements in a sequence and
-return a list with the results.  
+A compact way to process all or part of the elements in a sequence and return a list with the results.  
 
 	result = ['{:#04x}'.format(x) for x in range(256)
 	          if x % 2 == 0
@@ -348,5 +326,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjQ0ODc1Ml19
+eyJoaXN0b3J5IjpbNTY1Mjg2ODZdfQ==
 -->
