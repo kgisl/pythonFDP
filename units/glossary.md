@@ -207,17 +207,14 @@ See also the `argument` glossary entry, the FAQ question on the difference betwe
 See argument.
 
 
-## sequence
+## sequence  
 An iterable which supports efficient element access using integer indices via the __getitem__() special method and defines a __len__() method that returns the length of the sequence. Some built-in sequence types are list, str, tuple, and bytes. Note that dict also supports __getitem__() and __len__(), but is considered a mapping rather than a sequence because the lookups use arbitrary immutable keys rather than integers.
 
 The `collections.abc.Sequence` abstract base class defines a much richer interface that goes beyond just __getitem__() and __len__(), adding `count()`, `index()`, __contains__(), and __reversed__(). Types that implement this expanded interface can be registered explicitly using`register()`.
 
 
 ## slice
-An object usually containing a portion of a sequence.  A slice is
-created using the subscript notation, `[]` with colons between numbers
-when several are given, such as in `variable_name[1:3:5]`.  The bracket
-(subscript) notation uses slice objects internally.
+An object usually containing a portion of a sequence.  A slice is created using the subscript notation, `[]` with colons between numbers when several are given, such as in `variable_name[1:3:5]`.  The bracket (subscript) notation uses slice objects internally.
 
 ```python
 a = list(range(10))
@@ -231,9 +228,7 @@ print(a[everyThird]) # [1, 4, 7]
 ```
 
 ## special method
-A method that is called implicitly by Python to execute a certain
-operation on a type, such as addition.  Such methods have names
-starting and ending with double underscores.  Special methods are documented in Special method names.
+A method that is called implicitly by Python to execute a certain operation on a type, such as addition.  Such methods have names starting and ending with double underscores.  Special methods are documented in Special method names.
 
 
 ## statement
@@ -282,5 +277,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzk3NTA5MF19
+eyJoaXN0b3J5IjpbLTk2NTc0NTE0OF19
 -->
