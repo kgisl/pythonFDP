@@ -320,6 +320,16 @@ created using the subscript notation, `[]` with colons between numbers
 when several are given, such as in `variable_name[1:3:5]`.  The bracket
 (subscript) notation uses slice objects internally.
 
+```python
+a = list(range(10))
+
+even = slice(0, -1, 2)
+print(a[even]) # [0, 2, 4, 6, 8]
+
+everyThird = slice(1, -1, 3)
+print(a[everyThird]) # [1, 4, 7]
+
+```
 
 ## special method
 A method that is called implicitly by Python to execute a certain
@@ -373,5 +383,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjQ5ODU3Ml19
+eyJoaXN0b3J5IjpbLTE4MjU2Nzk1NTZdfQ==
 -->
