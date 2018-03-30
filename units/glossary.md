@@ -9,9 +9,7 @@ There are two kinds of argument:
 
 ### keyword argument
 
-an argument preceded by an identifier (e.g. name=) in a function call or 
-passed as a value in a dictionary preceded by **.  For example, 3 and 5
-are both keyword arguments in the following calls to `complex()`:
+an argument preceded by an identifier (e.g. name=) in a function call or  passed as a value in a dictionary preceded by **.  For example, 3 and 5 are both keyword arguments in the following calls to `complex()`:
 
 	complex(real=3, imag=5)
 	complex(**{'real': 3, 'imag': 5})
@@ -21,27 +19,19 @@ are both keyword arguments in the following calls to `complex()`:
 ### positional argument
 an argument that is not a keyword argument.
 
-Positional arguments can appear at the beginning of an argument list
-and/or be passed as elements of an iterable preceded by `*`.
-For example, 3 and 5 are both positional arguments in the
-following calls:
+Positional arguments can appear at the beginning of an argument list and/or be passed as elements of an iterable preceded by `*`. For example, 3 and 5 are both positional arguments in the following calls:
 
 	complex(3, 5)
 	complex(*(3, 5))
 
 Arguments are assigned to the named local variables (aka parameters) in a function body.
-See the Calls section for the rules governing this assignment.
-Syntactically, any expression can be used to represent an argument; the
-evaluated value is assigned to the local variable.
-See also the [parameter](#parameter) glossary entry, the [FAQ question](http://j.mp/argsVsParams) on
+See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the [parameter](#parameter) glossary entry, the [FAQ question](http://j.mp/argsVsParams) on
 the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
 
 
 
 ## attribute
-A value associated with an object which is referenced by name using
-dotted expressions.  For example, if an object `o` has an attribute
-`a` it would be referenced as `o.a`.
+A value associated with an object which is referenced by name using dotted expressions.  For example, if an object `o` has an attribute  a` it would be referenced as `o.a`.
 
 
 ## BDFL
@@ -49,8 +39,7 @@ Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.
 ![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
 ## binary file
-A file object able to read and write bytes-like objects.
-Examples of binary files are   
+A file object able to read and write bytes-like objects. Examples of binary files are   
   - files opened in binary mode (`'rb'`, `'wb'` or `'rb+'`), 
   - `sys.stdin.buffer`, 
   - `sys.stdout.buffer`, and 
@@ -61,11 +50,7 @@ A text file reads and writes string objects.
 
 
 ## coroutine
-Coroutines is a more generalized form of subroutines. Subroutines are
-entered at one point and exited at another point.  Coroutines can be
-entered, exited, and resumed at many different points.  They can be
-implemented with the async `def` statement.  See also
-PEP 492.
+Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point.  Coroutines can be entered, exited, and resumed at many different points.  They can be implemented with the async `def` statement.  See also PEP 492.
 
 	def fizzBuzz(number): 
 		if number%3: 
@@ -79,8 +64,7 @@ The above **coroutine** `fizzBuzz` has three exit points (the three `return` sta
 
 
 ## dictionary
-An associative array, where arbitrary keys are mapped to values.  The
-keys can be any object with __hash__() and __eq__() methods. 
+An associative array, where arbitrary keys are mapped to values.  The keys can be any object with __hash__() and __eq__() methods. 
 
 	adict = dict() # initialization
 	adict['Sam'] = 233-2333
@@ -383,5 +367,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU2Nzk1NTZdfQ==
+eyJoaXN0b3J5IjpbMTY4MTI3NDIyNF19
 -->
