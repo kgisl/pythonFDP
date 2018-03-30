@@ -52,8 +52,8 @@ or
 def selsort(a):
     for n in range(len(a)-1):
         sublist = a[n:]
-        mini = sublist.index(min(sublist))
-        a[n+mini], a[n] = a[n], a[n+mini]
+        min_idx = sublist.index(min(sublist))
+        a[n+min_idx], a[n] = a[n], a[n+min_idx]
     return a
 ```
 ---
@@ -146,5 +146,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTQxODM2N119
+eyJoaXN0b3J5IjpbMTYxMjI4NDMwNl19
 -->
