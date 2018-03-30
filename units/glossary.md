@@ -25,9 +25,7 @@ Positional arguments can appear at the beginning of an argument list and/or be p
 	complex(*(3, 5))
 
 Arguments are assigned to the named local variables (aka parameters) in a function body.
-See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the [parameter](#parameter) glossary entry, the [FAQ question](http://j.mp/argsVsParams) on
-the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
-
+See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the [parameter](#parameter) glossary entry, the [FAQ question](http://j.mp/argsVsParams) on the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
 
 
 ## attribute
@@ -50,7 +48,7 @@ A text file reads and writes string objects.
 
 
 ## coroutine
-Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point.  Coroutines can be entered, exited, and resumed at many different points.  They can be implemented with the async `def` statement.  See also PEP 492.
+Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point. Coroutines can be entered, exited, and resumed at many different points. They can be implemented with the async `def` statement. See also PEP 492.
 
 	def fizzBuzz(number): 
 		if number%3: 
@@ -264,5 +262,5 @@ Listing of Python design principles and philosophies that are helpful in underst
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA2NjM4N119
+eyJoaXN0b3J5IjpbLTE3NTI3ODY1MTNdfQ==
 -->
