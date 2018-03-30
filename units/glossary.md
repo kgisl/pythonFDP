@@ -228,19 +228,15 @@ print(a[everyThird]) # [1, 4, 7]
 ```
 
 ## special method
-A method that is called implicitly by Python to execute a certain operation on a type, such as addition.  Such methods have names starting and ending with double underscores.  Special methods are documented in Special method names.
+A method that is called implicitly by Python to execute a certain operation on a type, such as addition.  Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.  
 
 
 ## statement
-A statement is part of a suite (a “block” of code).  A statement is either
-an expression or one of several constructs with a keyword, such
-as if, while or for.
+A statement is part of a suite (a “block” of code).  A statement is either an expression or one of several constructs with a keyword, such as if, while or for.
 
 
 ## text file
-A file object able to read and write string objects.
-Often, a text file actually accesses a byte-oriented datastream
-and handles the text encoding automatically.
+A file object able to read and write string objects. Often, a text file actually accesses a byte-oriented datastream and handles the text encoding automatically.
 Examples of text files are 
   - files opened in text mode (`'r'` or `'w'`),
   - sys.stdin, sys.stdout, and 
@@ -277,5 +273,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTc0NTE0OF19
+eyJoaXN0b3J5IjpbMTE4MDkxOTYzOF19
 -->
