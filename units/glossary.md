@@ -200,8 +200,7 @@ A named entity in a function (or method) definition that specifies an argument (
 
 Parameters can specify both optional and required arguments, as well as default values for some optional arguments.
 
-See also the `argument` glossary entry, the FAQ question on the difference between arguments and parameters, inspect, 
-Parameter class, the Function definitions section, and PEP 362.
+See also the `argument` glossary entry, the FAQ question on the difference between arguments and parameters, inspect,  Parameter class, the Function definitions section, and PEP 362.  
 
 
 ## positional argument
@@ -209,17 +208,8 @@ See argument.
 
 
 ## sequence
-An iterable which supports efficient element access using integer
-indices via the __getitem__() special method and defines a
-__len__() method that returns the length of the sequence.
-Some built-in sequence types are list, str,
-tuple, and bytes. Note that dict also
-supports __getitem__() and __len__(), but is considered a
-mapping rather than a sequence because the lookups use arbitrary
-immutable keys rather than integers.
-The `collections.abc.Sequence` abstract base class
-defines a much richer interface that goes beyond just
-__getitem__() and __len__(), adding `count()`,
+An iterable which supports efficient element access using integer indices via the __getitem__() special method and defines a __len__() method that returns the length of the sequence. Some built-in sequence types are list, str, tuple, and bytes. Note that dict also supports __getitem__() and __len__(), but is considered a mapping rather than a sequence because the lookups use arbitrary immutable keys rather than integers.
+The `collections.abc.Sequence` abstract base class defines a much richer interface that goes beyond just __getitem__() and __len__(), adding `count()`,
 `index()`, __contains__(), and
 __reversed__(). Types that implement this expanded
 interface can be registered explicitly using
@@ -295,5 +285,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc1OTgxMDBdfQ==
+eyJoaXN0b3J5IjpbMTY0ODgwMDIzMl19
 -->
