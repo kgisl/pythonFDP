@@ -137,15 +137,11 @@ A compact way to process all or part of the elements in a sequence and return a 
 	# ['0x00', '0x02', '0x04', '0x06', '0x08', '0x0a', '0x0c', '0x0e',
 	 '0x10', '0x12', '0x14', '0x16', ...]
 
-generates a list of strings containing even hex numbers `(0x..)` 
-in the range from `0` to `255`. The `if` clause is optional.  
-If omitted, all elements in `range(256)` are processed.
+generates a list of strings containing even hex numbers `(0x..)`  in the range from `0` to `255`. The `if` clause is optional.   If omitted, all elements in `range(256)` are processed.
 
 
 ## mapping
-A container object that supports arbitrary key lookups and 
-implements the methods specified in the `Mapping` or 
-`MutableMapping` abstract base classes.  
+A container object that supports arbitrary key lookups and  implements the methods specified in the `Mapping` or  `MutableMapping` abstract base classes.  
 
 Examples include 
  - `dict`, 
@@ -155,43 +151,33 @@ Examples include
 
 
 ## method
-A function which is defined inside a class body.  If called as an attribute
-of an instance of that class, the method will get the instance object as
-its first argument (which is usually called `self`).
+A function which is defined inside a class body.  If called as an attribute of an instance of that class, the method will get the instance object as its first argument (which is usually called `self`).  
 
-See function and nested scope.
+See function and nested scope.  
 
 
 ## module
-An object that serves as an organizational unit of Python code.  Modules
-have a namespace containing arbitrary Python objects.  Modules are loaded
-into Python by the process of importing.
+An object that serves as an organizational unit of Python code.  Modules have a namespace containing arbitrary Python objects.  Modules are loaded into Python by the process of importing.  
 
 See also package.
 
 
 
 ## mutable
-Mutable objects can change their value but keep their id().  See
-also immutable.
+Mutable objects can change their value but keep their id().  See also immutable.
 
 
 ## package
-A Python module which can contain submodules or recursively,
-subpackages.  Technically, a package is a Python module with an
-__path__ attribute.
+A Python module which can contain submodules or recursively, subpackages.  Technically, a package is a Python module with an __path__ attribute.
+
 See also regular package and namespace package.
 
 
 
 ## parameter
-A named entity in a function (or method) definition that
-specifies an argument (or in some cases, arguments) that the
-function can accept.  There are five kinds of parameter:
+A named entity in a function (or method) definition that specifies an argument (or in some cases, arguments) that the function can accept.  There are five kinds of parameter:
 
-**positional-or-keyword:** specifies an argument that can be passed
-either positionally or as a keyword argument.  This is the default kind 
-of parameter, for example foo and bar in the following:
+**positional-or-keyword:** specifies an argument that can be passed either positionally or as a keyword argument.  This is the default kind  of parameter, for example foo and bar in the following:
 
 	def func(foo, bar=None):
 		...
@@ -326,5 +312,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1Mjg2ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDE3NjQwNzJdfQ==
 -->
