@@ -73,35 +73,21 @@ An associative array, where arbitrary keys are mapped to values.  The keys can b
 
 
 ## dictionary view
-The objects returned from `dict.keys()`, `dict.values()`, and
-`dict.items()` are called dictionary views. They provide a dynamic
-view on the dictionary’s entries, which means that when the dictionary
-changes, the view reflects these changes. To force the
+The objects returned from `dict.keys()`, `dict.values()`, and `dict.items()` are called dictionary views. They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes. To force the
 dictionary view to become a full list use `list(dictview)`.  
 
 
 ## docstring
-A string literal which appears as the first expression in a class,
-function or module.  While ignored when the suite is executed, it is
-recognized by the compiler and put into the __doc__ attribute
-of the enclosing class, function or module.  Since it is available via
-introspection, it is the canonical place for documentation of the
-object.
+A string literal which appears as the first expression in a class, function or module.  While ignored when the suite is executed, it is recognized by the compiler and put into the __doc__ attribute of the enclosing class, function or module.  Since it is available via
+introspection, it is the canonical place for documentation of the object.
 
 
 ## expression
-A piece of syntax which can be evaluated to some value.  In other words,
-an expression is an accumulation of expression elements like literals,
-names, attribute access, operators or function calls which all return a
-value.  In contrast to many other languages, not all language constructs
-are expressions.  There are also statements which cannot be used
+A piece of syntax which can be evaluated to some value.  In other words, an expression is an accumulation of expression elements like literals, names, attribute access, operators or function calls which all return a value.  In contrast to many other languages, not all language constructs are expressions.  There are also statements which cannot be used
 as expressions, such as the conditional `if`.  Assignments are also statements,
-not expressions.
+not expressions.  
 
-The _evaluation of an expression_ produces a value, which is why 
-expressions can appear on the right hand side of assignment statements. 
-A value all by itself is a simple expression, and so is a variable. Evaluating a
-variable gives the value that the variable refers to.
+The _evaluation of an expression_ produces a value, which is why  expressions can appear on the right hand side of assignment statements.  A value all by itself is a simple expression, and so is a variable. Evaluating a variable gives the value that the variable refers to.
 
 	3.141569       # is a value, and therefore a simple expression
 	pi = 3.141569  # is an assignment statement 
@@ -111,13 +97,8 @@ variable gives the value that the variable refers to.
 
 
 ## file object
-An object exposing a file-oriented API (with methods such as
-`read()` or `write()`) to an underlying resource.  Depending
-on the way it was created, a file object can mediate access to a real
-on-disk file or to another type of storage or communication device
-(for example, standard input/output, in-memory buffers, sockets, pipes,
-etc.).  File objects are also called file-like objects or streams.
-There are actually three categories of file objects: 
+An object exposing a file-oriented API (with methods such as  `read()` or `write()`) to an underlying resource.  Depending on the way it was created, a file object can mediate access to a real on-disk file or to another type of storage or communication device
+(for example, standard input/output, in-memory buffers, sockets, pipes, etc.).  File objects are also called file-like objects or streams. There are actually three categories of file objects:  
   - raw binary files 
   - buffered binary files
   - text files
@@ -367,5 +348,5 @@ understanding and using the language.  The listing can be found by typing
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTI3NDIyNF19
+eyJoaXN0b3J5IjpbMTAxNjQ0ODc1Ml19
 -->
