@@ -40,7 +40,9 @@ assignment. Syntactically, any expression can be used to
 represent an argument; the evaluated value is assigned to 
 the local variable. See also the [parameter](#parameter) 
 glossary entry, the [FAQ 
-question](http://j.mp/argsVsParams) on the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
+question](http://j.mp/argsVsParams) on the difference 
+between arguments and parameters, and [PEP 
+362](http://j.mp/pep362_doc).
 
 
 ## attribute
@@ -187,7 +189,8 @@ iterable object  is passed as an argument to the built-in
 function `iter()`,  it returns an iterator for the object. 
 This iterator is  good for one pass over the set of values. 
 When using iterables, it is usually not necessary to call 
-`iter()` or  deal with iterator objects yourself. The `for` statement  does that automatically for you, creating 
+`iter()` or  deal with iterator objects yourself. The `for` 
+statement  does that automatically for you, creating 
 a temporary unnamed variable to hold the iterator for the 
 duration of the loop.   
 
