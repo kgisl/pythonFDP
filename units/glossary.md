@@ -40,10 +40,9 @@ See the Calls section for the rules governing this
 assignment. Syntactically, any expression can be used to 
 represent an argument; the evaluated value is assigned to 
 the local variable. See also the [parameter](#parameter) 
-glossary entry, the [FAQ 
-question](http://j.mp/argsVsParams) on the difference 
-between arguments and parameters, and [PEP 
-362](http://j.mp/pep362_doc).
+glossary entry, the [FAQ question](http://j.mp/argsVsParams) 
+on the difference between arguments and parameters, and 
+[PEP  362](http://j.mp/pep362_doc).
 
 
 ## attribute
@@ -55,8 +54,7 @@ name using dotted expressions.  For example, if an object
 ## BDFL
 Benevolent Dictator For Life, a.k.a. Guido van Rossum, 
 Python’s creator.
-![guido](https://www.unixmen.com/wp-content/uploads/2015/10/
-GuidoAvatar_400x400.jpg)
+![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
 ## binary file
 A file object able to read and write bytes-like objects. 
