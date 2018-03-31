@@ -40,9 +40,7 @@ assignment. Syntactically, any expression can be used to
 represent an argument; the evaluated value is assigned to 
 the local variable. See also the [parameter](#parameter) 
 glossary entry, the [FAQ 
-question](http://j.mp/argsVsParams) on the difference 
-between arguments and parameters, and [PEP 
-362](http://j.mp/pep362_doc).
+question](http://j.mp/argsVsParams) on the difference between arguments and parameters, and [PEP 362](http://j.mp/pep362_doc).
 
 
 ## attribute
@@ -423,5 +421,5 @@ interactive prompt.
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjI2NzMyOV19
+eyJoaXN0b3J5IjpbODEyODE0NDY1XX0=
 -->
