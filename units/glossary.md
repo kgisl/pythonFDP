@@ -1,4 +1,5 @@
 
+
 # Important Terms
 
 ## argument
@@ -134,12 +135,10 @@ assignment statements.  A value all by itself is a simple
 expression, and so is a variable. Evaluating a variable 
 gives the value that the variable refers to.
 
-	3.141569       # is a value, and therefore a simple 
-expression
+	3.141569   # is a value, and therefore a simple expression
 	pi = 3.141569  # is an assignment statement 
 	radius = 5     # is an assignment statement
-	2*pi*radius    # is an expression that evaluates to 
-31.4
+	2*pi*radius    # is an expression that evaluates to 31.4
 	
 
 
@@ -214,9 +213,9 @@ sequence and return a list with the results.
 	result = ['{:#04x}'.format(x) for x in range(256)
 	          if x % 2 == 0
 	          ]
-	# ['0x00', '0x02', '0x04', '0x06', '0x08', '0x0a', 
-'0x0c', '0x0e',
-	 '0x10', '0x12', '0x14', '0x16', ...]
+	# ['0x00', '0x02', '0x04', '0x06', '0x08', 
+	'0x0a','0x0c', '0x0e', '0x10', '0x12', 
+	'0x14', '0x16', ...]
 
 generates a list of strings containing even hex numbers 
 `(0x..)`  in the range from `0` to `255`. The `if` clause 
@@ -422,6 +421,4 @@ interactive prompt.
 
 ----
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI0MDA0OTNdfQ==
--->
+
