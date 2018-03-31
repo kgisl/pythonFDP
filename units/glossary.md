@@ -187,8 +187,7 @@ iterable object  is passed as an argument to the built-in
 function `iter()`,  it returns an iterator for the object. 
 This iterator is  good for one pass over the set of values. 
 When using iterables, it is usually not necessary to call 
-`iter()` or  deal with iterator objects yourself. The 
-`for` statement  does that automatically for you, creating 
+`iter()` or  deal with iterator objects yourself. The `for` statement  does that automatically for you, creating 
 a temporary unnamed variable to hold the iterator for the 
 duration of the loop.   
 
@@ -421,5 +420,5 @@ interactive prompt.
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyODE0NDY1XX0=
+eyJoaXN0b3J5IjpbLTIxMDI0MDA0OTNdfQ==
 -->
