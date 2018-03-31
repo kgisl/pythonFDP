@@ -180,9 +180,7 @@ as a key in a dictionary.
 ## iterable
 An object capable of returning its members one at a time. 
 Examples of iterables include all sequence types (such as 
-list, str, and tuple) and some non-sequence types like dict,
-file objects, and objects of any classes you define with an 
-__iter__() or __getitem__() method.  Iterables can be used 
+list, str, and tuple) and some non-sequence types like dict, file objects, and objects of any classes you define with an __iter__() or __getitem__() method.  Iterables can be used 
 in a for loop and in many other places where a sequence is
 needed (`zip()`, `map()`, `...`).  When an iterable object 
 is passed as an argument to the built-in function `iter()`, 
@@ -421,5 +419,5 @@ interactive prompt.
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMzMDc1OTNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU2Nzg5OTNdfQ==
 -->
