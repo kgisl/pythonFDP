@@ -57,32 +57,55 @@
       <h1 id="important-terms">Important Terms</h1>
 <h2 id="argument">argument</h2>
 <blockquote>
-<p>A value passed to a function (or method) when calling the function.<br>
-Contrast that with:  <a href="#parameter">parameter</a> - a variable declared in a function (or method) for representing an argument.</p>
+<p>A value passed to a function (or method) when calling the<br>
+function.<br>
+Contrast that with:  <a href="#parameter">parameter</a> - a variable<br>
+declared in a function (or method) for representing an<br>
+argument.</p>
 </blockquote>
 <p>There are two kinds of argument:</p>
 <h3 id="keyword-argument">keyword argument</h3>
-<p>an argument preceded by an identifier (e.g. name=) in a function call or  passed as a value in a dictionary preceded by **.  For example, 3 and 5 are both keyword arguments in the following calls to <code>complex()</code>:</p>
+<p>an argument preceded by an identifier (e.g. name=) in a<br>
+function call or  passed as a value in a dictionary<br>
+preceded by **.  For example, 3 and 5 are both keyword<br>
+arguments in the following calls to <code>complex()</code>:</p>
 <pre><code>complex(real=3, imag=5)
 complex(**{'real': 3, 'imag': 5})
 </code></pre>
 <h3 id="positional-argument">positional argument</h3>
 <p>an argument that is not a keyword argument.</p>
-<p>Positional arguments can appear at the beginning of an argument list and/or be passed as elements of an iterable preceded by <code>*</code>. For example, 3 and 5 are both positional arguments in the following calls:</p>
+<p>Positional arguments can appear at the beginning of an<br>
+argument list and/or be passed as elements of an iterable<br>
+preceded by <code>*</code>. For example, 3 and 5 are both positional<br>
+arguments in the following calls:</p>
 <pre><code>complex(3, 5)
 complex(*(3, 5))
 </code></pre>
-<p>Arguments are assigned to the named local variables (aka parameters) in a function body.<br>
-See the Calls section for the rules governing this assignment. Syntactically, any expression can be used to represent an argument; the evaluated value is assigned to the local variable. See also the <a href="#parameter">parameter</a> glossary entry, the <a href="http://j.mp/argsVsParams">FAQ question</a> on the difference between arguments and parameters, and <a href="http://j.mp/pep362_doc">PEP 362</a>.</p>
+<p>Arguments are assigned to the named local variables (aka<br>
+parameters) in a function body.<br>
+See the Calls section for the rules governing this<br>
+assignment. Syntactically, any expression can be used to<br>
+represent an argument; the evaluated value is assigned to<br>
+the local variable. See also the <a href="#parameter">parameter</a><br>
+glossary entry, the <a href="http://j.mp/argsVsParams">FAQ<br>
+question</a> on the difference<br>
+between arguments and parameters, and <a href="http://j.mp/pep362_doc">PEP<br>
+362</a>.</p>
 <h2 id="attribute">attribute</h2>
-<p>A value associated with an object which is referenced by name using dotted expressions.  For example, if an object <code>o</code> has an attribute  a<code>it would be referenced as</code>o.a`.</p>
+<p>A value associated with an object which is referenced by<br>
+name using dotted expressions.  For example, if an object<br>
+<code>o</code> has an attribute  a<code>it would be referenced as</code>o.a`.</p>
 <h2 id="bdfl">BDFL</h2>
-<p>Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.<br>
-<img src="https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg" alt="guido"></p>
+<p>Benevolent Dictator For Life, a.k.a. Guido van Rossum,<br>
+Python’s creator.<br>
+![guido](<a href="https://www.unixmen.com/wp-content/uploads/2015/10/">https://www.unixmen.com/wp-content/uploads/2015/10/</a><br>
+GuidoAvatar_400x400.jpg)</p>
 <h2 id="binary-file">binary file</h2>
-<p>A file object able to read and write bytes-like objects. Examples of binary files are</p>
+<p>A file object able to read and write bytes-like objects.<br>
+Examples of binary files are</p>
 <ul>
-<li>files opened in binary mode (<code>'rb'</code>, <code>'wb'</code> or <code>'rb+'</code>),</li>
+<li>files opened in binary mode (<code>'rb'</code>, <code>'wb'</code> or<br>
+<code>'rb+'</code>),</li>
 <li><code>sys.stdin.buffer</code>,</li>
 <li><code>sys.stdout.buffer</code>, and</li>
 <li>instances of <code>io.BytesIO</code> and <code>gzip.GzipFile</code>.</li>
@@ -90,7 +113,11 @@ See the Calls section for the rules governing this assignment. Syntactically, an
 <p>See also<br>
 A text file reads and writes string objects.</p>
 <h2 id="coroutine">coroutine</h2>
-<p>Coroutines is a more generalized form of subroutines. Subroutines are entered at one point and exited at another point. Coroutines can be entered, exited, and resumed at many different points. They can be implemented with the async <code>def</code> statement. See also PEP 492.</p>
+<p>Coroutines is a more generalized form of subroutines.<br>
+Subroutines are entered at one point and exited at another<br>
+point. Coroutines can be entered, exited, and resumed at<br>
+many different points. They can be implemented with the<br>
+async <code>def</code> statement. See also PEP 492.</p>
 <pre><code>def fizzBuzz(number): 
 	if number%3: 
 		return "Fizz"
@@ -98,57 +125,119 @@ A text file reads and writes string objects.</p>
 		return "Buzz" 
 	return number
 </code></pre>
-<p>The above <strong>coroutine</strong> <code>fizzBuzz</code> has three exit points (the three <code>return</code> statements).</p>
+<p>The above <strong>coroutine</strong> <code>fizzBuzz</code> has three exit points<br>
+(the three <code>return</code> statements).</p>
 <h2 id="dictionary">dictionary</h2>
-<p>An associative array, where arbitrary keys are mapped to values.  The keys can be any object with <strong>hash</strong>() and <strong>eq</strong>() methods.</p>
+<p>An associative array, where arbitrary keys are mapped to<br>
+values.  The keys can be any object with <strong>hash</strong>() and<br>
+<strong>eq</strong>() methods.</p>
 <pre><code>adict = dict() # initialization
 adict['Sam'] = 233-2333
 adict['Victor'] = 900-2222
 </code></pre>
 <h2 id="dictionary-view">dictionary view</h2>
-<p>The objects returned from <code>dict.keys()</code>, <code>dict.values()</code>, and <code>dict.items()</code> are called dictionary views. They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes. To force the dictionary view to become a full list use <code>list(dictview)</code>.</p>
+<p>The objects returned from <code>dict.keys()</code>, <code>dict.values()</code>,<br>
+and <code>dict.items()</code> are called dictionary views. They<br>
+provide a dynamic view on the dictionary’s entries, which<br>
+means that when the dictionary changes, the view reflects<br>
+these changes. To force the dictionary view to become a<br>
+full list use <code>list(dictview)</code>.</p>
 <h2 id="docstring">docstring</h2>
-<p>A string literal which appears as the first expression in a class, function or module.  While ignored when the suite is executed, it is recognized by the compiler and put into the <strong>doc</strong> attribute of the enclosing class, function or module.  Since it is available via introspection, it is the canonical place for documentation of the object.</p>
+<p>A string literal which appears as the first expression in a<br>
+class, function or module.  While ignored when the suite is<br>
+executed, it is recognized by the compiler and put into the<br>
+<strong>doc</strong> attribute of the enclosing class, function or<br>
+module.  Since it is available via introspection, it is the<br>
+canonical place for documentation of the object.</p>
 <h2 id="expression">expression</h2>
-<p>A piece of syntax which can be evaluated to some value.  In other words, an expression is an accumulation of expression elements like literals, names, attribute access, operators or function calls which all return a value.  In contrast to many other languages, not all language constructs are expressions.  There are also statements which cannot be used<br>
-as expressions, such as the conditional <code>if</code>.  Assignments are also statements, not expressions.</p>
-<p>The <em>evaluation of an expression</em> produces a value, which is why  expressions can appear on the right hand side of assignment statements.  A value all by itself is a simple expression, and so is a variable. Evaluating a variable gives the value that the variable refers to.</p>
-<pre><code>3.141569       # is a value, and therefore a simple expression
+<p>A piece of syntax which can be evaluated to some value.  In<br>
+other words, an expression is an accumulation of expression<br>
+elements like literals, names, attribute access, operators<br>
+or function calls which all return a value.  In contrast to<br>
+many other languages, not all language constructs are<br>
+expressions.  There are also statements which cannot be used<br>
+as expressions, such as the conditional <code>if</code>.  Assignments<br>
+are also statements, not expressions.</p>
+<p>The <em>evaluation of an expression</em> produces a value, which<br>
+is why  expressions can appear on the right hand side of<br>
+assignment statements.  A value all by itself is a simple<br>
+expression, and so is a variable. Evaluating a variable<br>
+gives the value that the variable refers to.</p>
+<pre><code>3.141569   # is a value, and therefore a simple expression
 pi = 3.141569  # is an assignment statement 
 radius = 5     # is an assignment statement
 2*pi*radius    # is an expression that evaluates to 31.4
 </code></pre>
 <h2 id="file-object">file object</h2>
-<p>An object exposing a file-oriented API (with methods such as  <code>read()</code> or <code>write()</code>) to an underlying resource.  Depending on the way it was created, a file object can mediate access to a real on-disk file or to another type of storage or communication device (for example, standard input/output, in-memory buffers, sockets, pipes, etc.).  File objects are also called file-like objects or streams. There are actually three categories of file objects:</p>
+<p>An object exposing a file-oriented API (with methods such<br>
+as  <code>read()</code> or <code>write()</code>) to an underlying resource.<br>
+Depending on the way it was created, a file object can<br>
+mediate access to a real on-disk file or to another type of<br>
+storage or communication device (for example, standard<br>
+input/output, in-memory buffers, sockets, pipes, etc.).<br>
+File objects are also called file-like objects or streams.<br>
+There are actually three categories of file objects:</p>
 <ul>
 <li>raw binary files</li>
 <li>buffered binary files</li>
 <li>text files</li>
 </ul>
-<p>Their interfaces are defined in the <code>io</code> module.  The canonical way to create a file object is by using the <code>open()</code> function.</p>
+<p>Their interfaces are defined in the <code>io</code> module.  The<br>
+canonical way to create a file object is by using the<br>
+<code>open()</code> function.</p>
 <h2 id="function">function</h2>
-<p>A series of statements which returns some value to a caller. It can also be passed zero or more arguments which may be used in the execution of the body. See also parameter, method, and the Function definitions section.</p>
+<p>A series of statements which returns some value to a<br>
+caller. It can also be passed zero or more arguments which<br>
+may be used in the execution of the body. See also<br>
+parameter, method, and the Function definitions section.</p>
 <h2 id="immutable">immutable</h2>
-<p>An object with a fixed value.  Immutable objects include numbers, strings and tuples.  Such an object cannot be altered.  A new object has to be created if a different value has to be stored.  They play an important role in places where a constant hash value is needed, for example as a key in a dictionary.</p>
+<p>An object with a fixed value.  Immutable objects include<br>
+numbers, strings and tuples.  Such an object cannot be<br>
+altered.  A new object has to be created if a different<br>
+value has to be stored.  They play an important role in<br>
+places where a constant hash value is needed, for example<br>
+as a key in a dictionary.</p>
 <h2 id="iterable">iterable</h2>
-<p>An object capable of returning its members one at a time. Examples of iterables include all sequence types (such as list, str, and tuple) and some non-sequence types like dict,<br>
-file objects, and objects of any classes you define with an <strong>iter</strong>() or <strong>getitem</strong>() method.  Iterables can be used in a for loop and in many other places where a sequence is<br>
-needed (<code>zip()</code>, <code>map()</code>, <code>...</code>).  When an iterable object is passed as an argument to the built-in function <code>iter()</code>, it returns an iterator for the object.  This iterator is good for one pass over the set of values.  When using iterables, it is usually not necessary to call <code>iter()</code> or deal with iterator objects yourself.  The <code>for</code> statement does that automatically for you, creating a temporary unnamed variable to hold the iterator for the duration of the loop.  See also iterator, sequence, and generator.</p>
+<p>An object capable of returning its members one at a time.<br>
+Examples of iterables include all sequence types (such as<br>
+list, str, and tuple) and some non-sequence types like<br>
+dict, file objects, and objects of any classes you define<br>
+with an <strong>iter</strong>() or <strong>getitem</strong>() method. Iterables can<br>
+be used in a for loop and in many other places where a<br>
+sequence is needed (<code>zip()</code>, <code>map()</code>, <code>...</code>). When an<br>
+iterable object  is passed as an argument to the built-in<br>
+function <code>iter()</code>,  it returns an iterator for the object.<br>
+This iterator is  good for one pass over the set of values.<br>
+When using iterables, it is usually not necessary to call<br>
+<code>iter()</code> or  deal with iterator objects yourself. The <code>for</code><br>
+statement  does that automatically for you, creating<br>
+a temporary unnamed variable to hold the iterator for the<br>
+duration of the loop.</p>
+<p>See also iterator, sequence, and generator.</p>
 <h2 id="keyword-argument-1">keyword argument</h2>
 <p>See argument.</p>
 <h2 id="list">list</h2>
-<p>A built-in Python sequence.  Despite its name, it is more akin to an array in other languages than to a linked list since access to elements are <code>O(1)</code>.</p>
+<p>A built-in Python sequence.  Despite its name, it is more<br>
+akin to an array in other languages than to a linked list<br>
+since access to elements are <code>O(1)</code>.</p>
 <h2 id="list-comprehension">list comprehension</h2>
-<p>A compact way to process all or part of the elements in a sequence and return a list with the results.</p>
+<p>A compact way to process all or part of the elements in a<br>
+sequence and return a list with the results.</p>
 <pre><code>result = ['{:#04x}'.format(x) for x in range(256)
           if x % 2 == 0
           ]
-# ['0x00', '0x02', '0x04', '0x06', '0x08', '0x0a', '0x0c', '0x0e',
- '0x10', '0x12', '0x14', '0x16', ...]
+# ['0x00', '0x02', '0x04', '0x06', '0x08', 
+'0x0a','0x0c', '0x0e', '0x10', '0x12', 
+'0x14', '0x16', ...]
 </code></pre>
-<p>generates a list of strings containing even hex numbers <code>(0x..)</code>  in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause is optional. If omitted, all elements in <code>range(256)</code> are processed.</p>
+<p>generates a list of strings containing even hex numbers<br>
+<code>(0x..)</code>  in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause<br>
+is optional. If omitted, all elements in <code>range(256)</code> are<br>
+processed.</p>
 <h2 id="mapping">mapping</h2>
-<p>A container object that supports arbitrary key lookups and  implements the methods specified in the <code>Mapping</code> or  <code>MutableMapping</code> abstract base classes.</p>
+<p>A container object that supports arbitrary key lookups and<br>
+implements the methods specified in the <code>Mapping</code> or<br>
+<code>MutableMapping</code> abstract base classes.</p>
 <p>Examples include</p>
 <ul>
 <li><code>dict</code>,</li>
@@ -157,41 +246,93 @@ needed (<code>zip()</code>, <code>map()</code>, <code>...</code>).  When an iter
 <li><code>collections.Counter</code></li>
 </ul>
 <h2 id="method">method</h2>
-<p>A function which is defined inside a class body.  If called as an attribute of an instance of that class, the method will get the instance object as its first argument (which is usually called <code>self</code>).</p>
+<p>A function which is defined inside a class body.  If called<br>
+as an attribute of an instance of that class, the method<br>
+will get the instance object as its first argument (which<br>
+is usually called <code>self</code>).</p>
 <p>See function and nested scope.</p>
 <h2 id="module">module</h2>
-<p>An object that serves as an organizational unit of Python code. Modules have a namespace containing arbitrary Python objects. Modules are loaded into Python by the process of importing.</p>
+<p>An object that serves as an organizational unit of Python<br>
+code. Modules have a namespace containing arbitrary Python<br>
+objects. Modules are loaded into Python by the process of<br>
+importing.</p>
 <p>See also package.</p>
 <h2 id="mutable">mutable</h2>
-<p>Mutable objects can change their value but keep their id().  See also immutable.</p>
+<p>Mutable objects can change their value but keep their id().<br>
+See also immutable.</p>
 <h2 id="package">package</h2>
-<p>A Python module which can contain submodules or recursively, subpackages.  Technically, a package is a Python module with an <strong>path</strong> attribute.</p>
+<p>A Python module which can contain submodules or<br>
+recursively, subpackages.  Technically, a package is a<br>
+Python module with an <strong>path</strong> attribute.</p>
 <p>See also regular package and namespace package.</p>
 <h2 id="parameter">parameter</h2>
-<p>A named entity in a function (or method) definition that specifies an argument (or in some cases, arguments) that the function can accept.  There are five kinds of parameter:</p>
-<p><strong>positional-or-keyword:</strong> specifies an argument that can be passed either positionally or as a keyword argument.  This is the default kind  of parameter, for example foo and bar in the following:</p>
+<p>A named entity in a function (or method) definition that<br>
+specifies an argument (or in some cases, arguments) that<br>
+the function can accept.  There are five kinds of parameter:</p>
+<p><strong>positional-or-keyword:</strong> specifies an argument that can<br>
+be passed either positionally or as a keyword argument.<br>
+This is the default kind  of parameter, for example foo and<br>
+bar in the following:</p>
 <pre><code>def func(foo, bar=None):
 	...
 </code></pre>
-<p><strong>positional-only</strong>: specifies an argument that can be supplied only by position.  Python has no syntax for defining positional-only parameters.  However, some built-in functions have positional-only parameters (e.g. <code>abs()</code>).</p>
-<p><strong>keyword-only</strong>: specifies an argument that can be supplied only by keyword.  Keyword-only parameters can be defined by including a single var-positional parameter or bare <code>*</code> in the parameter list of the function definition before them. For example, <code>kw_only1</code> and <code>kw_only2</code> in the following:</p>
+<p><strong>positional-only</strong>: specifies an argument that can be<br>
+supplied only by position.  Python has no syntax for<br>
+defining positional-only parameters.  However, some<br>
+built-in functions have positional-only parameters (e.g.<br>
+<code>abs()</code>).</p>
+<p><strong>keyword-only</strong>: specifies an argument that can be<br>
+supplied only by keyword.  Keyword-only parameters can be<br>
+defined by including a single var-positional parameter or<br>
+bare <code>*</code> in the parameter list of the function definition<br>
+before them. For example, <code>kw_only1</code> and <code>kw_only2</code> in the<br>
+following:</p>
 <pre><code>def func(arg, *, kw_only1, kw_only2): 
 	...
 </code></pre>
-<p><strong>var-positional</strong>: specifies that an arbitrary sequence of positional arguments can be provided (in addition to any positional arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with <code>*</code>, for example <code>args</code> in the following:</p>
+<p><strong>var-positional</strong>: specifies that an arbitrary sequence of<br>
+positional arguments can be provided (in addition to any<br>
+positional arguments already accepted by other parameters).<br>
+Such a parameter can be defined by prepending the<br>
+parameter name with <code>*</code>, for example <code>args</code> in the<br>
+following:</p>
 <pre><code>def func(*args, **kwargs): 
 	...
 </code></pre>
-<p><strong>var-keyword</strong>: specifies that arbitrarily many keyword arguments can be provided (in addition to any keyword arguments already accepted by other parameters).  Such a parameter can be defined by prepending the parameter name with <code>**</code>, for example <code>kwargs</code> in the example above.</p>
-<p>Parameters can specify both optional and required arguments, as well as default values for some optional arguments.</p>
-<p>See also the <code>argument</code> glossary entry, the FAQ question on the difference between arguments and parameters, inspect,  Parameter class, the Function definitions section, and PEP 362.</p>
+<p><strong>var-keyword</strong>: specifies that arbitrarily many keyword<br>
+arguments can be provided (in addition to any keyword<br>
+arguments already accepted by other parameters).  Such a<br>
+parameter can be defined by prepending the parameter name<br>
+with <code>**</code>, for example <code>kwargs</code> in the example above.</p>
+<p>Parameters can specify both optional and required<br>
+arguments, as well as default values for some optional<br>
+arguments.</p>
+<p>See also the <code>argument</code> glossary entry, the FAQ question on<br>
+the difference between arguments and parameters, inspect,<br>
+Parameter class, the Function definitions section, and PEP<br>
+362.</p>
 <h2 id="positional-argument-1">positional argument</h2>
 <p>See argument.</p>
 <h2 id="sequence">sequence</h2>
-<p>An iterable which supports efficient element access using integer indices via the <strong>getitem</strong>() special method and defines a <strong>len</strong>() method that returns the length of the sequence. Some built-in sequence types are list, str, tuple, and bytes. Note that dict also supports <strong>getitem</strong>() and <strong>len</strong>(), but is considered a mapping rather than a sequence because the lookups use arbitrary immutable keys rather than integers.</p>
-<p>The <code>collections.abc.Sequence</code> abstract base class defines a much richer interface that goes beyond just <strong>getitem</strong>() and <strong>len</strong>(), adding <code>count()</code>, <code>index()</code>, <strong>contains</strong>(), and <strong>reversed</strong>(). Types that implement this expanded interface can be registered explicitly using<code>register()</code>.</p>
+<p>An iterable which supports efficient element access using<br>
+integer indices via the <strong>getitem</strong>() special method and<br>
+defines a <strong>len</strong>() method that returns the length of the<br>
+sequence. Some built-in sequence types are list, str,<br>
+tuple, and bytes. Note that dict also supports<br>
+<strong>getitem</strong>() and <strong>len</strong>(), but is considered a mapping<br>
+rather than a sequence because the lookups use arbitrary<br>
+immutable keys rather than integers.</p>
+<p>The <code>collections.abc.Sequence</code> abstract base class defines<br>
+a much richer interface that goes beyond just <strong>getitem</strong>()<br>
+and <strong>len</strong>(), adding <code>count()</code>, <code>index()</code>, <strong>contains</strong>(),<br>
+and <strong>reversed</strong>(). Types that implement this expanded<br>
+interface can be registered explicitly using<code>register()</code>.</p>
 <h2 id="slice">slice</h2>
-<p>An object usually containing a portion of a sequence.  A slice is created using the subscript notation, <code>[]</code> with colons between numbers when several are given, such as in <code>variable_name[1:3:5]</code>.  The bracket (subscript) notation uses slice objects internally.</p>
+<p>An object usually containing a portion of a sequence.  A<br>
+slice is created using the subscript notation, <code>[]</code> with<br>
+colons between numbers when several are given, such as in<br>
+<code>variable_name[1:3:5]</code>.  The bracket (subscript) notation<br>
+uses slice objects internally.</p>
 <pre class=" language-python"><code class="prism  language-python">a <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 
 even <span class="token operator">=</span> <span class="token builtin">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
@@ -202,11 +343,19 @@ everyThird <span class="token operator">=</span> <span class="token builtin">sli
 
 </code></pre>
 <h2 id="special-method">special method</h2>
-<p>A method that is called implicitly by Python to execute a certain operation on a type, such as addition.  Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.</p>
+<p>A method that is called implicitly by Python to execute a<br>
+certain operation on a type, such as addition.  Such<br>
+methods have names starting and ending with double<br>
+underscores. Special methods are documented in Special<br>
+method names.</p>
 <h2 id="statement">statement</h2>
-<p>A statement is part of a suite (a “block” of code).  A statement is either an expression or one of several constructs with a keyword, such as if, while or for.</p>
+<p>A statement is part of a suite (a “block” of code).  A<br>
+statement is either an expression or one of several<br>
+constructs with a keyword, such as if, while or for.</p>
 <h2 id="text-file">text file</h2>
-<p>A file object able to read and write string objects. Often, a text file actually accesses a byte-oriented datastream and handles the text encoding automatically.<br>
+<p>A file object able to read and write string objects. Often,<br>
+a text file actually accesses a byte-oriented datastream<br>
+and handles the text encoding automatically.<br>
 Examples of text files are</p>
 <ul>
 <li>files opened in text mode (<code>'r'</code> or <code>'w'</code>),</li>
@@ -216,16 +365,29 @@ Examples of text files are</p>
 <p>See also:<br>
 A binary file reads and write bytes objects.</p>
 <h2 id="triple-quoted-string">triple-quoted string</h2>
-<p>A string which is bound by three instances of either a quotation mark (<code>”</code>) or an apostrophe (<code>‘</code>).  While they don’t provide any functionality not available with single-quoted strings, they are useful for a number of reasons.  They allow you to include unescaped single and double quotes within a string and they can span multiple lines without the use of the continuation character, making them especially useful when<br>
+<p>A string which is bound by three instances of either a<br>
+quotation mark (<code>”</code>) or an apostrophe (<code>‘</code>).  While<br>
+they don’t provide any functionality not available with<br>
+single-quoted strings, they are useful for a number of<br>
+reasons.  They allow you to include unescaped single and<br>
+double quotes within a string and they can span multiple<br>
+lines without the use of the continuation character, making<br>
+them especially useful when<br>
 writing <code>docstrings</code>.</p>
 <h2 id="tuple">tuple</h2>
-<p>A tuple is a sequence of immutable Python objects.  Tuples are sequences, just like lists. The differences between  tuples and lists are:</p>
+<p>A tuple is a sequence of immutable Python objects.  Tuples<br>
+are sequences, just like lists. The differences between<br>
+tuples and lists are:</p>
 <ul>
 <li>the tuples cannot be changed unlike lists and</li>
-<li>tuples use parentheses, whereas lists use square brackets</li>
+<li>tuples use parentheses, whereas lists use square<br>
+brackets</li>
 </ul>
 <h2 id="zen-of-python">Zen of Python</h2>
-<p>Listing of Python design principles and philosophies that are helpful in understanding and using the language.  The listing can be found by typing <code>import this</code> at the interactive prompt.</p>
+<p>Listing of Python design principles and philosophies that<br>
+are helpful in understanding and using the language.  The<br>
+listing can be found by typing <code>import this</code> at the<br>
+interactive prompt.</p>
 <hr>
 
     </div>
