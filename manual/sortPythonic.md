@@ -70,10 +70,10 @@ def insert_sort(alist):
 or 
 
 def insert_sort(alist, i=1):
-	if i >= len(alist): return alist
-	elem = alist.pop()
-	bisect.insort(alist, elem, hi=i)
-	return insert_sort(alist, i+1)
+    if i >= len(alist): return alist
+    elem = alist.pop()
+    bisect.insort(alist, elem, hi=i)
+    return insert_sort(alist, i+1)
 ```
 
 ```python
@@ -143,8 +143,9 @@ from threading import Timer
 l = [8, 2, 4, 6, 7, 1]
 for n in l:
     Timer(n, lambda x: print(x), [n]).start()
+    
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MDQzMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE2ODg4NTM2MjhdfQ==
 -->
