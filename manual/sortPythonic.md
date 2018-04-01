@@ -139,12 +139,12 @@ http://bit.ly/quickSortVideo
 
 
 ```python 
-  from threading import Timer
-  l = [8, 2, 4, 6, 7, 1]
-  for n in l:
-      Timer(n, lambda x: print(x), [n]).start()
+from threading import Timer
+l = [8, 2, 4, 6, 7, 1]
+for n in l:
+    Timer(n, lambda x: print(x), [n]).start()
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2Njk4NzBdfQ==
+eyJoaXN0b3J5IjpbMjE4MDQzMzQ2XX0=
 -->
