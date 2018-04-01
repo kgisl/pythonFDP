@@ -37,10 +37,10 @@ def selectsort(alist):
 or 
 
 def selectsort(alist):
-	if not alist: return alist
-	smallest = min(alist)
-	alist.remove(smallest)
-	return [smallest] + selectsort(alist)
+    if not alist: return alist
+    smallest = min(alist)
+    alist.remove(smallest)
+    return [smallest] + selectsort(alist)
 	
 ```
 
@@ -146,5 +146,5 @@ http://bit.ly/quickSortVideo
 ```
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjI4NDMwNl19
+eyJoaXN0b3J5IjpbLTE5MTI2Njk4NzBdfQ==
 -->
