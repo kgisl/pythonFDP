@@ -166,7 +166,7 @@ def mergesort(alist, verbose=False):
     # breakdown every element into its own list
     series = [[i] for i in alist]
     while len(series) > 1:
-	    # iterator to handle two at a time in the zip_lo
+	    # iterator to handle two at a time in the zip_longest below
         isl = iter(series)
         series = [
             merge(a, b) if b else a
@@ -174,6 +174,8 @@ def mergesort(alist, verbose=False):
         ]
     return series[0]
 ```
+
+`zip_longest` is used to handle odd counts in the merging of lists, since it will use 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTk3NzI1MV19
+eyJoaXN0b3J5IjpbLTk3OTIwNTYzM119
 -->
