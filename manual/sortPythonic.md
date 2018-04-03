@@ -175,7 +175,7 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 
-`zip_longest` is used to handle odd counts in the merging of lists, since it will use 
+`zip_longest` is used to handle odd counts in the merging of lists, since it will automatically use a suitable `[]` element to balance things out, whenever required. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTIwNTYzM119
+eyJoaXN0b3J5IjpbLTE0NDg4NTgwNjddfQ==
 -->
