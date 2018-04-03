@@ -160,10 +160,10 @@ A general purpose `merge` function which can merge **sorted arrays** in ascendin
 
 Review the first test in the http://bit.ly/mergeSortCD session. 
 
-
 ```python
 from itertools import zip_longest
 def mergesort(alist, verbose=False):
+    # breakdown every element into its own list
     series = [[i] for i in alist]
     while len(series) > 1:
         isl = iter(series)
@@ -174,5 +174,5 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAzMDI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE4NjIyMjk4NjddfQ==
 -->
