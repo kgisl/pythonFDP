@@ -158,6 +158,7 @@ def merge(A, B):
 ```
 A general purpose `merge` function which can merge arrays in ascending order of their elements. The merge is accomplished by popping the element from either `A` or `B`. 
 
+
 ```python
 from itertools import zip_longest
 def mergesort(alist, verbose=False):
@@ -171,5 +172,5 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODM0NDgyM119
+eyJoaXN0b3J5IjpbMTI0MDk3MTQ4M119
 -->
