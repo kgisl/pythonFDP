@@ -145,7 +145,10 @@ for n in l:
     Timer(n, lambda x: print(x), [n]).start()
     
 ```
-  
+
+
+## MergeSort description
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg4NTM2MjhdfQ==
+eyJoaXN0b3J5IjpbLTkxNTM5MjU0OF19
 -->
