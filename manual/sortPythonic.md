@@ -166,6 +166,7 @@ def mergesort(alist, verbose=False):
     # breakdown every element into its own list
     series = [[i] for i in alist]
     while len(series) > 1:
+	    # iterator to handle two at a time in the zip_lo
         isl = iter(series)
         series = [
             merge(a, b) if b else a
@@ -174,5 +175,5 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIyMjk4NjddfQ==
+eyJoaXN0b3J5IjpbMTg2NTk3NzI1MV19
 -->
