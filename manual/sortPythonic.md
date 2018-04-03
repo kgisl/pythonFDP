@@ -149,6 +149,27 @@ for n in l:
 
 ## MergeSort description
 
+```python
+def merge(A, B):
+    return [
+        (A if A[0] < B[0] else B).pop(0)
+        for _ in A + B if len(A) and len(B)
+    ] + A + B
+```
+A general purpose `merge` function which can merge 
+
+```python
+from itertools import zip_longest
+def mergesort(alist, verbose=False):
+    series = [[i] for i in alist]
+    while len(series) > 1:
+        isl = iter(series)
+        series = [
+            merge(a, b) if b else a
+            for a, b in zip_longest(isl, isl)
+        ]
+    return series[0]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTM5MjU0OF19
+eyJoaXN0b3J5IjpbLTQ5MDY3NTEwNV19
 -->
