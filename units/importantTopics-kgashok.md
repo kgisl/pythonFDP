@@ -197,6 +197,7 @@ Lines `1-6` is equivalent to Lines `11-12` and equivalent to Line `17`.
 
 
 ## 4. Slicing as an Object 
+
 https://docs.python.org/3/library/functions.html#slice
 
 ![slice](https://cdn.rawgit.com/kgisl/pythonFDP/7502044e/img/slicingAsObject.png)
@@ -317,5 +318,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzgwNzMzNV19
+eyJoaXN0b3J5IjpbMTAzMTIwMjY0NV19
 -->
