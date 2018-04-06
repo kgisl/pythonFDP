@@ -205,7 +205,7 @@ since access to elements are `O(1)`.
 
 
 ## list comprehension
-_also see _http://j.mp/listBenefit and http://j.mp/listComprehension_  
+_also see http://j.mp/listBenefit and http://j.mp/listComprehension_  
 A compact way to process all or part of the elements in a 
 sequence and return a list with the results.  
 
