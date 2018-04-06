@@ -2,7 +2,7 @@
 # Useful links to explore
 
 - See some beautiful Python poems - https://www.reddit.com/r/programming/comments/26dyh/ask_reddit_whats_the_most_beautiful_piece_of/c26ny9/
--  j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
+- http://j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
 -  https://www.reddit.com/r/programming/wiki/faq
 - http://bit.ly/beginnerPython - easy video tutorials including for unittesting - http://j.mp/unittestVideo
 - https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
