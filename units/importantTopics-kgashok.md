@@ -25,6 +25,15 @@
 - http://j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
 - http://bit.ly/beginnerPython - easy video tutorials including for unittesting - http://j.mp/unittestVideo
 
+- Learn by Doing (#6) - #6 Learn by doing: practice your programming skills and build real projects as soon as possible. 
+	- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa
+		 - http://pythonpracticeprojects.com/ 
+		 - http://javascriptissexy.com/how-to-learn-javascript-properly/ 
+
+- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa 
+
+
+
 
 ### Misc
 
@@ -33,16 +42,6 @@
 - https://www.quora.com/How-does-Quincy-Larson-suggest-I-learn-to-code/answer/Quincy-Larson 
    - https://www.quora.com/What-is-a-step-by-step-procedure-to-become-a-GitHub-open-source-developer-for-a-complete-newbie-What-are-the-prerequisite-courses-I-should-take-and-how-should-I-choose-the-best-project-Also-please-suggest-some-projects-in-C++-Java/answer/Quincy-Larson 
    - https://github.com/search?l=Python&q=label%3Afirst-timers-only&state=open&type=Issues 
-
-- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa 
-
-- Learn by Doing (#6) - #6 Learn by doing: practice your programming skills and build real projects as soon as possible. 
-	- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa
-		 - http://pythonpracticeprojects.com/ 
-		 - http://javascriptissexy.com/how-to-learn-javascript-properly/ 
-
-
-
 
 **Table of Contents**
 
@@ -323,5 +322,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzIyODI2XX0=
+eyJoaXN0b3J5IjpbMjA0MzA5Nzc1OF19
 -->
