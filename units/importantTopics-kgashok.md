@@ -8,6 +8,12 @@
 - https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
 
 ### Tutorials
+- http://j.mp/pythonKoanVideo 
+	- https://bitbucket.org/gregmalcolm/python_koans or
+	- https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
+- http://www.learnpython.org/ 
+
+- https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
 - http://j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
 - http://bit.ly/beginnerPython - easy video tutorials including for unittesting - http://j.mp/unittestVideo
 
@@ -18,9 +24,6 @@
 -  https://www.reddit.com/r/programming/wiki/faq
 - http://docs.python-guide.org/en/latest/intro/learning/ 
 - https://stackoverflow.com/questions/2439638/in-what-order-should-the-python-concepts-be-explained-to-absolute-beginners 
-- https://bitbucket.org/gregmalcolm/python_koans or https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
-- http://j.mp/pythonKoanVideo 
-- http://www.learnpython.org/ 
 - https://www.quora.com/How-does-Quincy-Larson-suggest-I-learn-to-code/answer/Quincy-Larson 
    - https://www.quora.com/What-is-a-step-by-step-procedure-to-become-a-GitHub-open-source-developer-for-a-complete-newbie-What-are-the-prerequisite-courses-I-should-take-and-how-should-I-choose-the-best-project-Also-please-suggest-some-projects-in-C++-Java/answer/Quincy-Larson 
 	   - https://github.com/search?l=Python&q=label%3Afirst-timers-only&state=open&type=Issues 
@@ -318,5 +321,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTQ1Mzc0MF19
+eyJoaXN0b3J5IjpbMTE0OTU2NjQwOF19
 -->
