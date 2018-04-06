@@ -1,7 +1,7 @@
 
-## Useful links to explore
+# Useful links to explore
 
-### To read and incorporate 
+## To read and incorporate 
 
 - https://www.quora.com/What-are-commonly-asked-Python-interview-questions
 
@@ -14,7 +14,7 @@
 - https://stackoverflow.com/questions/2439638/in-what-order-should-the-python-concepts-be-explained-to-absolute-beginners 
 
 
-### Tutorials
+## Tutorials
 - http://www.learnpython.org/ 
 
 - http://j.mp/pythonKoanVideo 
@@ -33,9 +33,7 @@
 - https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa 
 
 
-
-
-### Misc
+## Misc
 
 - See some beautiful Python poems - https://www.reddit.com/r/programming/comments/26dyh/ask_reddit_whats_the_most_beautiful_piece_of/c26ny9/
 -  https://www.reddit.com/r/programming/wiki/faq
@@ -320,5 +318,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ4OTgxMzVdfQ==
+eyJoaXN0b3J5IjpbMzM3OTkzNjE1XX0=
 -->
