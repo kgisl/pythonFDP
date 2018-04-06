@@ -75,10 +75,6 @@
 
 What's new in Python 3? Read [this](https://github.com/crazyguitar/pysheeet/blob/master/docs/notes/python-new-py3.rst)
 
-
-[TOC]
-
-
 ## 0.0 Iterables 
 
 In Python, there are iterables and there are non-iterables. Which of the following is not an iterable? 
@@ -322,5 +318,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzA5Nzc1OF19
+eyJoaXN0b3J5IjpbLTEwNDYzMjYyMjZdfQ==
 -->
