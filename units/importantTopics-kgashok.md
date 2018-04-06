@@ -3,6 +3,8 @@
 
 ### To read and incorporate 
 
+- https://www.quora.com/What-are-commonly-asked-Python-interview-questions
+
 - http://docs.python-guide.org/en/latest/intro/learning/ 
 
 - https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
@@ -38,10 +40,6 @@
 	- https://medium.com/@sebastienphl/a-practical-guide-to-learning-the-basics-of-web-programming-79961f3f3baa
 		 - http://pythonpracticeprojects.com/ 
 		 - http://javascriptissexy.com/how-to-learn-javascript-properly/ 
-
-
-
-
 
 
 
@@ -325,5 +323,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODQ3MzQ2NV19
+eyJoaXN0b3J5IjpbOTEzMzIyODI2XX0=
 -->
