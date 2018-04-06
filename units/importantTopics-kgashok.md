@@ -11,6 +11,7 @@
 - http://j.mp/pythonKoanVideo 
 	- https://bitbucket.org/gregmalcolm/python_koans or
 	- https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
+   
 - http://www.learnpython.org/ 
 
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
@@ -321,5 +322,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTU2NjQwOF19
+eyJoaXN0b3J5IjpbLTE3MTc3MTgzMF19
 -->
