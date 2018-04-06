@@ -205,6 +205,7 @@ since access to elements are `O(1)`.
 
 
 ## list comprehension
+_also see _http://j.mp/listBenefit and http://j.mp/listComprehension_  
 A compact way to process all or part of the elements in a 
 sequence and return a list with the results.  
 
@@ -345,6 +346,7 @@ interface can be registered explicitly using`register()`.
 
 
 ## slice
+_also see http://j.mp/sliceObject_  
 An object usually containing a portion of a sequence.  A 
 slice is created using the subscript notation, `[]` with 
 colons between numbers when several are given, such as in 
