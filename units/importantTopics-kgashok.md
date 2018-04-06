@@ -1,6 +1,12 @@
 
 ## Useful links to explore
 
+### To read and incorporate 
+
+- https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
+
+- https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
+
 ### Tutorials
 - http://j.mp/python4Months   - and http://blog.agupieware.com/2014/01/benchmarks-teach-yourself-python-in.html 
 - http://bit.ly/beginnerPython - easy video tutorials including for unittesting - http://j.mp/unittestVideo
@@ -10,9 +16,6 @@
 
 - See some beautiful Python poems - https://www.reddit.com/r/programming/comments/26dyh/ask_reddit_whats_the_most_beautiful_piece_of/c26ny9/
 -  https://www.reddit.com/r/programming/wiki/faq
-- https://danieltakeshi.github.io/2013/07/05/ten-things-python-programmers-should-know/
-- https://www.quora.com/What-are-the-most-important-topics-to-learn-in-Python/answer/Janarthanan-S-1?srid=ul6v
-- https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
 - http://docs.python-guide.org/en/latest/intro/learning/ 
 - https://stackoverflow.com/questions/2439638/in-what-order-should-the-python-concepts-be-explained-to-absolute-beginners 
 - https://bitbucket.org/gregmalcolm/python_koans or https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
@@ -315,5 +318,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDcyODE1ODhdfQ==
+eyJoaXN0b3J5IjpbMTA0NTQ1Mzc0MF19
 -->
