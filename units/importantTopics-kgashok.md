@@ -38,6 +38,7 @@ Want a ToC? View at http://j.mp/importantPy
 
 ## Misc
 
+- Beginner ML projects - https://elitedatascience.com/machine-learning-projects-for-beginners 
 - See some beautiful Python poems - https://www.reddit.com/r/programming/comments/26dyh/ask_reddit_whats_the_most_beautiful_piece_of/c26ny9/
 -  https://www.reddit.com/r/programming/wiki/faq
 - https://www.quora.com/How-does-Quincy-Larson-suggest-I-learn-to-code/answer/Quincy-Larson 
@@ -320,5 +321,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAyMDUxNDFdfQ==
+eyJoaXN0b3J5IjpbMTMzMzI4Njg3M119
 -->
