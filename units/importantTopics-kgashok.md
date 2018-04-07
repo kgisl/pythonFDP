@@ -18,6 +18,8 @@ Want a ToC? View at http://j.mp/importantPy
 ## Tutorials
 - http://www.learnpython.org/ 
 
+- https://www.quora.com/How-should-I-start-learning-Python-1?redirected_qid=907
+
 - http://j.mp/pythonKoanVideo 
 	- https://bitbucket.org/gregmalcolm/python_koans or
 	- https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
@@ -318,5 +320,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY2NjM4MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDAyMDUxNDFdfQ==
 -->
