@@ -17,6 +17,8 @@ Want a ToC? View at http://j.mp/importantPy
 
 ## Tutorials
 
+- University of Waterloo Tutorial  - to be reviewed 
+
 - https://www.codeforlife.education/rapidrouter
 
 - http://www.learnpython.org/ 
@@ -324,5 +326,5 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Mzc1MzY5Ml19
+eyJoaXN0b3J5IjpbLTIwOTAxNjU3MDNdfQ==
 -->
