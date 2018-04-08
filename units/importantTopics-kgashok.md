@@ -20,7 +20,7 @@ Want a ToC? View at http://j.mp/importantPy
 - Top links
 	- Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
 	- University of Waterloo Tutorial   https://cscircles.cemc.uwaterloo.ca/
-	- https://www.codeforlife.education/rapidrouter
+	- https://www.codeforlife.education/rapidrouter - better transfer or complement to Blockly
 	- http://www.learnpython.org/ 
 
 - https://www.quora.com/How-should-I-start-learning-Python-1?redirected_qid=907
@@ -326,6 +326,6 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzcyOTksLTMzNjgyMzM2NywtMjA5MD
-E2NTcwM119
+eyJoaXN0b3J5IjpbLTEwNjM0ODY3NDcsLTMzNjgyMzM2NywtMj
+A5MDE2NTcwM119
 -->
