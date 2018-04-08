@@ -1,5 +1,5 @@
 
-Want a ToC? View at http://j.mp/pyGlossary
+Want a ToC? View at http://j.mp/pyGlossary  
 Also visit - https://gto76.github.io/python-cheatsheet/
 # Important Terms
 
