@@ -2,7 +2,7 @@
 Want a ToC? View at http://j.mp/importantPy    
 # Useful links to explore
 
-j.mp/python30  - Python in 30 minutes! 
+j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minutes! 
 
 ## To read and incorporate 
 
@@ -331,6 +331,7 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5MDkwODA3LC0xMTYyODUyNzM3LDExMT
-IxNzIyNjEsLTMzNjgyMzM2NywtMjA5MDE2NTcwM119
+eyJoaXN0b3J5IjpbMjI0MjgyNjUwLDM5OTA5MDgwNywtMTE2Mj
+g1MjczNywxMTEyMTcyMjYxLC0zMzY4MjMzNjcsLTIwOTAxNjU3
+MDNdfQ==
 -->
