@@ -2,6 +2,7 @@
 Want a ToC? View at http://j.mp/importantPy    
 # Useful links to explore
 
+
 ## To read and incorporate 
 
 - Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
@@ -329,6 +330,6 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI4NTI3MzcsMTExMjE3MjI2MSwtMz
-M2ODIzMzY3LC0yMDkwMTY1NzAzXX0=
+eyJoaXN0b3J5IjpbNDk3NDQxNjE3LC0xMTYyODUyNzM3LDExMT
+IxNzIyNjEsLTMzNjgyMzM2NywtMjA5MDE2NTcwM119
 -->
