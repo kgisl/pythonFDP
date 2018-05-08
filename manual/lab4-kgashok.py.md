@@ -37,7 +37,7 @@ def binary_search_r(myl, token):
     right = len(myl)-1
     mid   = (right + left)//2
 
-	# Terminal conditions for the recursion
+    # Terminal conditions for the recursion  
     if len(myl) == 0:
         return False
     if myl[mid] == token:
