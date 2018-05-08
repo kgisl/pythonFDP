@@ -43,7 +43,7 @@ def binary_search_r(myl, token):
     if myl[mid] == token:
         return True
         
-	# Preparing the arguments for the next recursive call
+    # Preparing the arguments for the next recursive call
     if myl[mid] > token:
         myl = myl[:mid]
     else:
@@ -51,7 +51,7 @@ def binary_search_r(myl, token):
     return binary_search_r(myl, token)
 
 
-# Program starts here
+# Main program starts here
 
 if __name__ == '__main__':
 
