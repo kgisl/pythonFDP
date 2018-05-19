@@ -189,6 +189,14 @@ canonical way to create a file object is by using the<br>
 caller. It can also be passed zero or more arguments which<br>
 may be used in the execution of the body. See also<br>
 parameter, method, and the Function definitions section.</p>
+<p>Functions that return values, are also called<br>
+<em><a href="http://openbookproject.net/thinkcs/python/english3e/fruitful_functions.html#fruitful-functions">fruitful functions</a></em>. As an example find below<br>
+a fruitful function  <code>area</code>, which returns the area of a<br>
+circle with the given radius:</p>
+<pre><code>def area(radius):
+    a = 3.14159 * radius**2
+    return a
+</code></pre>
 <h2 id="immutable">immutable</h2>
 <p>An object with a fixed value.  Immutable objects include<br>
 numbers, strings and tuples.  Such an object cannot be<br>
