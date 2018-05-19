@@ -94,7 +94,7 @@ on the difference between arguments and parameters, and<br>
 <h2 id="attribute">attribute</h2>
 <p>A value associated with an object which is referenced by<br>
 name using dotted expressions.  For example, if an object<br>
-<code>o</code> has an attribute  a<code>it would be referenced as</code>o.a`.</p>
+<code>o</code> has an attribute  <code>a</code> it would be referenced as <code>o.a</code>.</p>
 <h2 id="bdfl">BDFL</h2>
 <p>Benevolent Dictator For Life, a.k.a. Guido van Rossum,<br>
 Python’s creator.<br>
@@ -118,11 +118,11 @@ point. Coroutines can be entered, exited, and resumed at<br>
 many different points. They can be implemented with the<br>
 async <code>def</code> statement. See also PEP 492.</p>
 <pre><code>def fizzBuzz(number): 
-	if number%3: 
-		return "Fizz"
-	if number%5: 
-		return "Buzz" 
-	return number
+    if number%3: 
+	    return "Fizz"
+    if number%5: 
+	    return "Buzz" 
+    return number
 </code></pre>
 <p>The above <strong>coroutine</strong> <code>fizzBuzz</code> has three exit points<br>
 (the three <code>return</code> statements).</p>
@@ -140,7 +140,7 @@ and <code>dict.items()</code> are called dictionary views. They<br>
 provide a dynamic view on the dictionary’s entries, which<br>
 means that when the dictionary changes, the view reflects<br>
 these changes. To force the dictionary view to become a<br>
-full list use <code>list(dictview)</code>.</p>
+full list, use <code>list(dictview)</code>.</p>
 <h2 id="docstring">docstring</h2>
 <p>A string literal which appears as the first expression in a<br>
 class, function or module.  While ignored when the suite is<br>
