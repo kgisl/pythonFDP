@@ -305,9 +305,9 @@ http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
 The best programming practice book!
 ByKevin Lon April 17, 2017
 Format: Paperback
-**tl;dr** When it comes to programming practice, **Elements of Programming Interviews** is the cream of the crop. If you are only going to buy one practice book, I would recommend this one above all the others. I have nothing but good things to say about the book, and can confidently say that no other product that offers as much depth as EoPI does.
+**tl;dr** When it comes to programming practice, **Elements of Programming Interviews** is the cream of the crop. If you are only going to buy one practice book, I would recommend this one above all the others. I have nothing but good things to say about the book, and can confidently say that no other product that offers as much depth as **EoPI** does.
 
-The first thing you will notice about EoPI is that the level of detail is astounding; I was blown away by the sheer amount of effort that the authors put into it. The problem analysis is unparalleled, and goes far beyond basic algorithm/data structures knowledge. The solutions are easy to follow and explained very thoroughly. For example, if a problem has multiple solutions, the authors will walk you through each one and guide you towards the optimal solution. In addition to being a goldmine of commonly-asked problems, the book also offers many original problems that you wouldn't be able to find anywhere else; it is by far the most comprehensive practice resource out there. In terms of organization the book is extremely well structured, and even provides study plans for the reader to help with problem selection. Some of the problems in the book are much more difficult than what you would find in an actual interview. If you are able to comfortably solve the problems in this book, you should certainly have no problem with the real thing.
+The first thing you will notice about **EoPI** is that the level of detail is astounding; I was blown away by the sheer amount of effort that the authors put into it. The problem analysis is *unparalleled*, and goes far beyond basic algorithm/data structures knowledge. The solutions are easy to follow and explained very thoroughly. For example, if a problem has multiple solutions, the authors will walk you through each one and guide you towards the optimal solution. In addition to being a goldmine of commonly-asked problems, the book also offers many original problems that you wouldn't be able to find anywhere else; it is by far the most comprehensive practice resource out there. In terms of organization the book is extremely well structured, and even provides study plans for the reader to help with problem selection. Some of the problems in the book are much more difficult than what you would find in an actual interview. If you are able to comfortably solve the problems in this book, you should certainly have no problem with the real thing.
 
 Before using this book I tried various other resources, particularly Cracking the Coding Interview and LeetCode. The former offered no depth whatsoever: mostly simple and overused problems (like what you would get in a technical phone screen). While the latter provided no shortage of challenging problems, I found it sometimes frustrating to use because of its unclear problem statements and its reliance on an auto-grader to compensate for lack of published solutions and guidance.
 
@@ -337,8 +337,8 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTMyNjgyLC0yMDg5MDI0ODgyLDE0Nz
-czOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyODI2
-NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEsLT
-MzNjgyMzM2NywtMjA5MDE2NTcwM119
+eyJoaXN0b3J5IjpbLTEwMTgwNDEyMzYsLTIwODkwMjQ4ODIsMT
+Q3NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4MjEyMjEyLDIyNDI4
+MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3MzcsMTExMjE3MjI2MS
+wtMzM2ODIzMzY3LC0yMDkwMTY1NzAzXX0=
 -->
