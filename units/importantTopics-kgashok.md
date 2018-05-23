@@ -6,7 +6,8 @@ j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minute
 
 ## To read and incorporate 
 
-- Python and puzzles - 
+- Python and puzzles - j.mp/puzzlesPythonMIT 
+- 
 - Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
 
 - https://www.quora.com/What-are-commonly-asked-Python-interview-questions
@@ -332,7 +333,7 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgyMTIyMTIsMjI0MjgyNjUwLDM5OT
-A5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcyMjYxLC0zMzY4MjMz
-NjcsLTIwOTAxNjU3MDNdfQ==
+eyJoaXN0b3J5IjpbLTExNDgwNDEwOTgsLTE1NTgyMTIyMTIsMj
+I0MjgyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcy
+MjYxLC0zMzY4MjMzNjcsLTIwOTAxNjU3MDNdfQ==
 -->
