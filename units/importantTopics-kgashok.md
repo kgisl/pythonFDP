@@ -11,7 +11,7 @@ j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minute
 - Part of the MITx commitment to open learning is focused on making MOOCs accessible to learners with disabilities. MITx learner Aditi Shah is a young woman in India with goals to create the next generation of cyber security tools. She’s also **blind**.  
 	- Aditi was able to independently complete our set of introductory computer science courses. She could do this without sighted assistance because MITx considers how a blind person accesses and demonstrates mastery of a subject. Now she’s moving on to a Master’s degree program and advancing in her career.
 	    - ![aditi](https://blog.edx.org/wp-content/uploads/2018/05/aditi.jpg)
-		- Read her inspiring [story](https://blog.edx.org/learning-accessible-way-meet-aditi)
+		- Read her inspiring [story] - http://j.mp/aditiMITPython)
 - Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
 
 - https://www.quora.com/What-are-commonly-asked-Python-interview-questions
@@ -337,8 +337,8 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzM5NzMxNywyMDgxMjUxMjMwLC0xNT
-U4MjEyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3
-MzcsMTExMjE3MjI2MSwtMzM2ODIzMzY3LC0yMDkwMTY1NzAzXX
-0=
+eyJoaXN0b3J5IjpbLTE0NDI0MjU3ODUsMTQ3NzM5NzMxNywyMD
+gxMjUxMjMwLC0xNTU4MjEyMjEyLDIyNDI4MjY1MCwzOTkwOTA4
+MDcsLTExNjI4NTI3MzcsMTExMjE3MjI2MSwtMzM2ODIzMzY3LC
+0yMDkwMTY1NzAzXX0=
 -->
