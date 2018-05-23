@@ -129,7 +129,7 @@ There are 4 main types in Python (string, tuples, list and dictionary). And acro
 ## 1. Differentiate between parameters and arguments (Unit 3)
 
 - http://j.mp/argsVsParams - the official Python guide does not do justice. It is best to read this article here - http://stupidpythonideas.blogspot.in/2013/08/arguments-and-parameters.html
-- https://github.com/kgisl/pythonFDP/blob/master/files/Arguments%20and%20parameters.pdf
+	- [pdf version](https://github.com/kgisl/pythonFDP/blob/master/files/Arguments%20and%20parameters.pdf)
 
 
 ![faqArg](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/ArgumentsVsParameters.jpeg)
@@ -338,7 +338,7 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzA5OTc0MSwtMjA3MjEwMTkxMywtMT
+eyJoaXN0b3J5IjpbMTg4MDUwNjM1MCwtMjA3MjEwMTkxMywtMT
 AxODA0MTIzNiwtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIwODEy
 NTEyMzAsLTE1NTgyMTIyMTIsMjI0MjgyNjUwLDM5OTA5MDgwNy
 wtMTE2Mjg1MjczNywxMTEyMTcyMjYxLC0zMzY4MjMzNjcsLTIw
