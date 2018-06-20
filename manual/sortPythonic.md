@@ -176,11 +176,11 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 
-`series` starts off with as many lists as there are elements in both the lists. 
-`zip_longest` is used to handle odd counts in the merging of lists, since it will automatically use a suitable `[]` element to balance things out, whenever required. The `while` loop continues until there is only list in the `series`. 
+- `series` starts off with as many lists as there are elements in both the lists. 
+- `zip_longest` is used to handle odd counts in the merging of lists, since it will automatically use a suitable `[]` element to balance things out, whenever required. The `while` loop continues until there is only list in the `series`. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDE5Mzc5NywxNzc4MDUxOTAsLTEzNz
-I0ODA4MF19
+eyJoaXN0b3J5IjpbMjExMjU4MjU3MSwxOTA0MTkzNzk3LDE3Nz
+gwNTE5MCwtMTM3MjQ4MDgwXX0=
 -->
