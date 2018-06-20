@@ -156,9 +156,10 @@ def merge(A, B):
         for _ in A + B if len(A) and len(B)
     ] + A + B
 ```
-A general purpose `merge` function which can merge **sorted arrays** in ascending order of their elements. The merge is accomplished by popping the element from either `A` or `B`, and then adding the remnants of `A` and `B`. 
+A general purpose `merge` function which can merge **sorted arrays** in ascending order of their elements. The merge is accomplished by popping the element from either `A` or `B`, and then adding the remnants of `A` and `B`.  
 
-Review the first test in the http://bit.ly/mergeSortCD session. 
+- Review the first test in the http://bit.ly/mergeSortCD session. 
+- if you attempt to merge two arrays and avoid duplicates, then try http://j.mp/unionListCC
 
 ```python
 from itertools import zip_longest
@@ -180,5 +181,6 @@ def mergesort(alist, verbose=False):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODA1MTkwLC0xMzcyNDgwODBdfQ==
+eyJoaXN0b3J5IjpbLTE2NjU0Nzk0NTEsMTc3ODA1MTkwLC0xMz
+cyNDgwODBdfQ==
 -->
