@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sortPythonic</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#lab-8-sorting">Lab 8: Sorting</a>
+<ul>
+<li><a href="#select-vs-insert-vs-merge-vs-quick">Select vs Insert vs Merge vs Quick</a></li>
+<li><a href="#solution-key">Solution Key</a></li>
+<li><a href="#related-material">Related Material</a></li>
+<li><a href="#what-exactly-does-this-accomplish">What exactly does this accomplish?</a></li>
+<li><a href="#mergesort-description">MergeSort description</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#lab-8-sorting">Lab 8: Sorting</a>
+<ul>
+<li><a href="#select-vs-insert-vs-merge-vs-quick">Select vs Insert vs Merge vs Quick</a></li>
+<li><a href="#solution-key">Solution Key</a>
+<ul>
+<li><a href="#select-sort">select sort</a></li>
+<li><a href="#insert--sort">insert  sort</a></li>
+<li><a href="#merge-sort">merge sort</a></li>
+<li><a href="#quick-sort">quick sort</a></li>
+</ul>
+</li>
+<li><a href="#related-material">Related Material</a></li>
+<li><a href="#what-exactly-does-this-accomplish">What exactly does this accomplish?</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="lab-8-sorting">Lab 8: Sorting</h1>
+<p>Sort the given list using selection sort and insertion sort.</p>
+<p>[TOC]</p>
+<h2 id="select-vs-insert-vs-merge-vs-quick">Select vs Insert vs Merge vs Quick</h2>
+<ul>
+<li>In <code>selectsort</code>, the position of the update is pre-determined, starting from the end of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
+<li>In <code>insertsort</code>, given a key, a copy of a pre-determined element in the list, we  <strong>insert</strong> it at the appropriate location after comparing it with the unsorted elements of the list.</li>
+<li>In <code>mergesort</code>, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The <code>merge()</code> function is used for merging two halves.</li>
+<li>In <code>quicksort</code>, also a divide-and-conquer partitioning algorithm (lends itself to be efficiently implemented <em>in-place</em> without extra memory), the choice of the pivot element determines how the elements get partitioned, and calls itself recursively for the two partitions.</li>
+</ul>
+<h2 id="solution-key">Solution Key</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        smallest<span class="token punctuation">,</span> idx <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>
+            <span class="token punctuation">(</span>v<span class="token punctuation">,</span> i<span class="token punctuation">)</span> <span class="token keyword">for</span> i<span class="token punctuation">,</span> v <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>idx<span class="token operator">+</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>idx<span class="token operator">+</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    <span class="token keyword">return</span> alist
+
+<span class="token operator">or</span> 
+
+<span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token operator">not</span> alist<span class="token punctuation">:</span> <span class="token keyword">return</span> alist
+    smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    alist<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>smallest<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>smallest<span class="token punctuation">]</span> <span class="token operator">+</span> selectsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+	
+</code></pre>
+<p>or</p>
+<h3 id="ajeeth-selectsort">Ajeeth selectsort</h3>
+<pre class=" language-python"><code class="prism  language-python"><span class="token comment"># remix of code contributed by Ajeeth B (KITE, 2018)</span>
+<span class="token keyword">def</span> <span class="token function">selsort</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> n <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        sublist <span class="token operator">=</span> a<span class="token punctuation">[</span>n<span class="token punctuation">:</span><span class="token punctuation">]</span>
+        min_idx <span class="token operator">=</span> sublist<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token builtin">min</span><span class="token punctuation">(</span>sublist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        a<span class="token punctuation">[</span>n<span class="token operator">+</span>min_idx<span class="token punctuation">]</span><span class="token punctuation">,</span> a<span class="token punctuation">[</span>n<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">,</span> a<span class="token punctuation">[</span>n<span class="token operator">+</span>min_idx<span class="token punctuation">]</span>
+    <span class="token keyword">return</span> a
+</code></pre>
+<hr>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">import</span> bisect
+<span class="token keyword">def</span> <span class="token function">insert_sort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span> 
+        bisect<span class="token punctuation">.</span>insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
+
+<span class="token operator">or</span> 
+
+<span class="token keyword">def</span> <span class="token function">insert_sort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> i <span class="token operator">&gt;=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token keyword">return</span> alist
+    elem <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    bisect<span class="token punctuation">.</span>insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> elem<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> insert_sort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> itertools <span class="token keyword">import</span> zip_longest
+<span class="token keyword">def</span> <span class="token function">mergesort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> verbose<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">merge</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span> B<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+            <span class="token keyword">for</span> _ <span class="token keyword">in</span> A <span class="token operator">+</span> B <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span> <span class="token operator">and</span> <span class="token builtin">len</span><span class="token punctuation">(</span>B<span class="token punctuation">)</span>
+        <span class="token punctuation">]</span> <span class="token operator">+</span> A <span class="token operator">+</span> B
+
+    series <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> alist<span class="token punctuation">]</span>
+    <span class="token keyword">while</span> <span class="token builtin">len</span><span class="token punctuation">(</span>series<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        isl <span class="token operator">=</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>series<span class="token punctuation">)</span>
+        series <span class="token operator">=</span> <span class="token punctuation">[</span>
+            merge<span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token keyword">if</span> b <span class="token keyword">else</span> a
+            <span class="token keyword">for</span> a<span class="token punctuation">,</span> b <span class="token keyword">in</span> zip_longest<span class="token punctuation">(</span>isl<span class="token punctuation">,</span> isl<span class="token punctuation">)</span>
+        <span class="token punctuation">]</span>
+    <span class="token keyword">return</span> series<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+</code></pre>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">import</span> random
+<span class="token keyword">def</span> <span class="token function">quicksort</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">:</span>
+  len_s <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span>
+  <span class="token keyword">if</span> len_s <span class="token operator">&lt;</span> <span class="token number">2</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> s
+  pivot <span class="token operator">=</span> s<span class="token punctuation">[</span>random<span class="token punctuation">.</span>randrange<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> len_s<span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+  L <span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword">for</span> x <span class="token keyword">in</span> s <span class="token keyword">if</span> x <span class="token operator">&lt;</span> pivot<span class="token punctuation">]</span>
+  E <span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword">for</span> x <span class="token keyword">in</span> s <span class="token keyword">if</span> x <span class="token operator">==</span> pivot<span class="token punctuation">]</span>
+  G <span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword">for</span> x <span class="token keyword">in</span> s <span class="token keyword">if</span> x <span class="token operator">&gt;</span> pivot<span class="token punctuation">]</span>
+  
+  <span class="token keyword">return</span> quicksort<span class="token punctuation">(</span>L<span class="token punctuation">)</span> <span class="token operator">+</span> E <span class="token operator">+</span> quicksort<span class="token punctuation">(</span>G<span class="token punctuation">)</span>
+
+</code></pre>
+<p><code>lambda</code> version:</p>
+<pre class=" language-python"><code class="prism  language-python">
+<span class="token keyword">from</span> operator <span class="token keyword">import</span> ge<span class="token punctuation">,</span> lt
+
+<span class="token keyword">def</span> <span class="token function">qsort</span><span class="token punctuation">(</span>L<span class="token punctuation">,</span> first<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>L<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span> 
+    <span class="token keyword">return</span> L
+
+  L <span class="token operator">=</span> L<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span> <span class="token keyword">if</span> first <span class="token keyword">else</span> L  
+  pivot <span class="token operator">=</span> L<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+  sublist <span class="token operator">=</span> <span class="token keyword">lambda</span> op<span class="token punctuation">:</span> <span class="token punctuation">[</span>n <span class="token keyword">for</span> n <span class="token keyword">in</span> L <span class="token keyword">if</span> op<span class="token punctuation">(</span>n<span class="token punctuation">,</span> pivot<span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">*</span>qsort<span class="token punctuation">(</span>sublist<span class="token punctuation">(</span>lt<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">,</span> pivot<span class="token punctuation">,</span> <span class="token operator">*</span>qsort<span class="token punctuation">(</span>sublist<span class="token punctuation">(</span>ge<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+</code></pre>
+<h2 id="related-material">Related Material</h2>
+<p><a href="http://bit.ly/quickSortVideoCD">http://bit.ly/quickSortVideoCD</a> - a video explaining QuickSort incrementally in a CyberDojo session.</p>
+<p><a href="http://bit.ly/quickSortVideo">http://bit.ly/quickSortVideo</a></p>
+<h2 id="what-exactly-does-this-accomplish">What exactly does this accomplish?</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> threading <span class="token keyword">import</span> Timer
+l <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> n <span class="token keyword">in</span> l<span class="token punctuation">:</span>
+    Timer<span class="token punctuation">(</span>n<span class="token punctuation">,</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token keyword">print</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>start<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    
+</code></pre>
+<h2 id="mergesort-description">MergeSort description</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">merge</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span> B<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> _ <span class="token keyword">in</span> A <span class="token operator">+</span> B <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span> <span class="token operator">and</span> <span class="token builtin">len</span><span class="token punctuation">(</span>B<span class="token punctuation">)</span>
+    <span class="token punctuation">]</span> <span class="token operator">+</span> A <span class="token operator">+</span> B
+</code></pre>
+<p>A general purpose <code>merge</code> function which can merge <strong>sorted arrays</strong> in ascending order of their elements. The merge is accomplished by popping the element from either <code>A</code> or <code>B</code>, and then adding the remnants of <code>A</code> and <code>B</code>.</p>
+<p>Review the first test in the <a href="http://bit.ly/mergeSortCD">http://bit.ly/mergeSortCD</a> session.</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> itertools <span class="token keyword">import</span> zip_longest
+<span class="token keyword">def</span> <span class="token function">mergesort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> verbose<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># breakdown every element into its own list</span>
+    series <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> alist<span class="token punctuation">]</span>
+    <span class="token keyword">while</span> <span class="token builtin">len</span><span class="token punctuation">(</span>series<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        <span class="token comment"># iterator to handle two at a time in the zip_longest below</span>
+        isl <span class="token operator">=</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>series<span class="token punctuation">)</span>
+        series <span class="token operator">=</span> <span class="token punctuation">[</span>
+            merge<span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token keyword">if</span> b <span class="token keyword">else</span> a
+            <span class="token keyword">for</span> a<span class="token punctuation">,</span> b <span class="token keyword">in</span> zip_longest<span class="token punctuation">(</span>isl<span class="token punctuation">,</span> isl<span class="token punctuation">)</span>
+        <span class="token punctuation">]</span>
+    <span class="token keyword">return</span> series<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+</code></pre>
+<p><code>series</code> starts off with as many lists as there are elements in both the lists.<br>
+<code>zip_longest</code> is used to handle odd counts in the merging of lists, since it will automatically use a suitable <code>[]</code> element to balance things out, whenever required. The <code>while</code> loop continues until there is only list in the <code>series</code>.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
