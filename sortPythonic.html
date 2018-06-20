@@ -180,8 +180,10 @@ l <span class="token operator">=</span> <span class="token punctuation">[</span>
         <span class="token punctuation">]</span>
     <span class="token keyword">return</span> series<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
 </code></pre>
-<p><code>series</code> starts off with as many lists as there are elements in both the lists.<br>
-<code>zip_longest</code> is used to handle odd counts in the merging of lists, since it will automatically use a suitable <code>[]</code> element to balance things out, whenever required. The <code>while</code> loop continues until there is only list in the <code>series</code>.</p>
+<ul>
+<li><code>series</code> starts off with as many lists as there are elements in both the lists.</li>
+<li><code>zip_longest</code> is used to handle odd counts in the merging of lists, since it will automatically use a suitable <code>[]</code> element to balance things out, whenever required. The <code>while</code> loop continues until there is only list in the <code>series</code>.</li>
+</ul>
 
     </div>
   </div>
