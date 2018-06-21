@@ -6,7 +6,7 @@ j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minute
 
 ## To read and incorporate 
 
-- Python and puzzles - j.mp/puzzlesPythonMIT 
+- Python and puzzles - http://j.mp/puzzlesPythonMIT 
 
 - Part of the MITx commitment to open learning is focused on making MOOCs accessible to learners with disabilities. MITx learner Aditi Shah is a young woman in India with goals to create the next generation of cyber security tools. She’s also **blind**.  
 	>Aditi was able to independently complete our set of introductory computer science courses. She could do this without sighted assistance because MITx considers how a blind person accesses and demonstrates mastery of a subject. Now she’s moving on to a Master’s degree program and advancing in her career.
@@ -338,9 +338,9 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDUwNjM1MCwtMjA3MjEwMTkxMywtMT
-AxODA0MTIzNiwtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIwODEy
-NTEyMzAsLTE1NTgyMTIyMTIsMjI0MjgyNjUwLDM5OTA5MDgwNy
-wtMTE2Mjg1MjczNywxMTEyMTcyMjYxLC0zMzY4MjMzNjcsLTIw
-OTAxNjU3MDNdfQ==
+eyJoaXN0b3J5IjpbNDcxMjEwMzIwLDE4ODA1MDYzNTAsLTIwNz
+IxMDE5MTMsLTEwMTgwNDEyMzYsLTIwODkwMjQ4ODIsMTQ3NzM5
+NzMxNywyMDgxMjUxMjMwLC0xNTU4MjEyMjEyLDIyNDI4MjY1MC
+wzOTkwOTA4MDcsLTExNjI4NTI3MzcsMTExMjE3MjI2MSwtMzM2
+ODIzMzY3LC0yMDkwMTY1NzAzXX0=
 -->
