@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>keywordComparison</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li>
+<ul>
+<li><a href="#comparing-python-and-c-through-keywords">Comparing Python and C through Keywords</a></li>
+<li><a href="#going-from-python-to-c">Going from Python to C</a></li>
+<li><a href="#part-0">Part 0</a></li>
+<li><a href="#part-1">Part 1</a></li>
+<li><a href="#part-2">Part 2</a></li>
+<li><a href="#part-3">Part 3</a></li>
+<li><a href="#program-listing">Program listing</a></li>
+<li><a href="#program-output">Program Output</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h2 id="comparing-python-and-c-through-keywords">Comparing Python and C through Keywords</h2>
+<p>As reported elsewhere (<a href="http://j.mp/reservedWords">http://j.mp/reservedWords</a>), Here are some popular languages and the count of keywords in each of them is tabulated below.</p>
+
+<table>
+<thead>
+<tr>
+<th>language</th>
+<th>keyword count</th>
+<th>comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smalltalk</td>
+<td>6</td>
+<td>takes the <a href="j.mp/smallTalkKeywords">top</a> spot!</td>
+</tr>
+<tr>
+<td>Go</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>25</td>
+<td><a href="http://bit.ly/elmKeywords">functional programming</a> for the web</td>
+</tr>
+<tr>
+<td>Python 2</td>
+<td>31</td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td>32</td>
+<td></td>
+</tr>
+<tr>
+<td>Python 3</td>
+<td>33</td>
+<td></td>
+</tr>
+<tr>
+<td>Javascript</td>
+<td>46</td>
+<td><a href="http://bit.ly/javascriptKeywords">elsewhere</a> it is 67</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>49</td>
+<td></td>
+</tr>
+<tr>
+<td>Java</td>
+<td>63</td>
+<td></td>
+</tr>
+<tr>
+<td>C++</td>
+<td>82</td>
+<td></td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>480</td>
+<td>Yes, <a href="http://bit.ly/sql480Keywords">four hundred and eighty</a>!</td>
+</tr>
+</tbody>
+</table><p>I was curious as to what were additional keywords added in Python 3 that made the language lose the distinct title of the <strong>“Language with the least number of keywords”</strong> to the formidable C language (nothwithstanding Smalltalk and the not-so-mainstream-yet Go and Elm). Here’s what I came up with:</p>
+<ul>
+<li>In the transition from Python2 to Python 3, total change in keywords is 6;  four were added and two were removed, resulting in a net addition of 2.</li>
+</ul>
+<pre class=" language-bash"><code class="prism  language-bash">     Keywords added to Python3: <span class="token punctuation">{</span><span class="token string">'None'</span>, <span class="token string">'nonlocal'</span>,  <span class="token string">'True'</span>, <span class="token string">'False'</span><span class="token punctuation">}</span>
+     Keywords removed from: <span class="token punctuation">{</span><span class="token string">'print'</span>, <span class="token string">'exec'</span><span class="token punctuation">}</span>
+     Total changes: 6
+</code></pre>
+<p>Note: <code>print</code> has been removed as a keyword, and retained as a built-in function.</p>
+<h2 id="going-from-python-to-c">Going from Python to C</h2>
+<p>If you really think about it, it is not an <strong>apples-to-apples</strong> comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming, whereas Python does.</p>
+<p>Nevertheless, for the benefit of a developer/student who has learnt Python and is keen on learning the C language as well, this is what I got:</p>
+<ul>
+<li>In comparison to type-free C, Python has 15 keywords and C has 21 keywords.</li>
+</ul>
+<pre class=" language-bash"><code class="prism  language-bash">-----------------------
+Comparing keywords <span class="token keyword">in</span> Python and type-free C
+-----------------------
+Python: <span class="token punctuation">[</span><span class="token string">'break'</span>, <span class="token string">'class'</span>, <span class="token string">'continue'</span>, <span class="token string">'def'</span>, <span class="token string">'del'</span>, 
+<span class="token string">'else'</span>, <span class="token string">'for'</span>, <span class="token string">'global'</span>, <span class="token string">'if'</span>, <span class="token string">'in'</span>, <span class="token string">'is'</span>, 
+<span class="token string">'nonlocal'</span>, <span class="token string">'pass'</span>, <span class="token string">'return'</span>, <span class="token string">'while'</span><span class="token punctuation">]</span> 15
+
+<span class="token string">'typefree'</span> C Language: <span class="token punctuation">[</span><span class="token string">'auto'</span>, <span class="token string">'break'</span>, <span class="token string">'const'</span>, 
+<span class="token string">'continue'</span>, <span class="token string">'do'</span>, <span class="token string">'else'</span>, <span class="token string">'enum'</span>, <span class="token string">'extern'</span>, <span class="token string">'for'</span>, 
+<span class="token string">'goto'</span>, <span class="token string">'if'</span>, <span class="token string">'register'</span>, <span class="token string">'return'</span>, <span class="token string">'sizeof'</span>, 
+<span class="token string">'static'</span>, <span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'void'</span>, 
+<span class="token string">'volatile'</span>, <span class="token string">'while'</span><span class="token punctuation">]</span> 21
+</code></pre>
+<p>If you remove the keywords that are common to both the above lists, here’s what remains:</p>
+<pre class=" language-bash"><code class="prism  language-bash">------ DIFFERENCE -------
+extra <span class="token keyword">in</span> python: <span class="token punctuation">[</span><span class="token string">'class'</span>, <span class="token string">'def'</span>, <span class="token string">'del'</span>, <span class="token string">'global'</span>, 
+<span class="token string">'in'</span>, <span class="token string">'is'</span>, <span class="token string">'nonlocal'</span>, <span class="token string">'pass'</span><span class="token punctuation">]</span> 8
+
+extra <span class="token keyword">in</span> clang: <span class="token punctuation">[</span><span class="token string">'auto'</span>, <span class="token string">'const'</span>, <span class="token string">'do'</span>, <span class="token string">'enum'</span>, 
+<span class="token string">'extern'</span>, <span class="token string">'goto'</span>, <span class="token string">'register'</span>, <span class="token string">'sizeof'</span>, <span class="token string">'static'</span>, 
+<span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'volatile'</span><span class="token punctuation">]</span> 14
+</code></pre>
+<p>My analysis below will attempt to compare and contrast the two languages by referring to the above 20 keywords (8 that exists in <code>Python</code> verus 14 that exists only in <code>C</code>)</p>
+<h2 id="part-0">Part 0</h2>
+<ul>
+<li>The <code>do-while</code> loop construct exists in C, but not in Python</li>
+<li><code>enum</code> exist in C to give variable-like labels to numeric values, but this is not supported in Python</li>
+<li><code>C</code> also has  the <code>switch-case-default</code> keywords allowing for multi-conditional constructs which can be quite elegant when used with <code>enums</code>. The equivalent of this can be codified with a series non-elegant <code>if-elif</code> statements in Python</li>
+<li><code>goto</code> allows you to jump to an arbitrary location in the <code>C</code>code, and allowing for obscure source code to be written. And therefore it is not recommended that this keyword be used sparingly; totally unsupported in Python</li>
+<li>A function or class definition in Python requires <code>def</code> which is not required in C.</li>
+<li><code>pass</code> - a Python statement which has no effect; the equivalent of this is best achieved in C by using the <code>;</code> delimiter</li>
+</ul>
+<h2 id="part-1">Part 1</h2>
+<ul>
+<li>Scope options are accomplished by using <code>global</code> and <code>nonlocal</code> in Python, whereas  in C the keywords <code>auto</code>, <code>static</code> and <code>extern</code> are used</li>
+<li>Because C allows you to get closer to the metal, you have <code>register</code> and <code>volatile</code> whereas Python is completely oblivious to this</li>
+<li><code>sizeof</code> is it a macro or a keyword? that’s a source of intense debate; and is used in conjunction with dynamically allocation of memory which is non-existent in Python</li>
+</ul>
+<hr>
+<h2 id="part-2">Part 2</h2>
+<ul>
+<li>Python supports Object-oriented programming with the <code>class</code> keyword for which the closest equivalents would be  <code>struct</code> and <code>typedef</code> in C. <code>union</code>, the memory-efficient construct is rather unique to C, which is not found even in other strictly typed languages</li>
+<li>Everything is an object in Python, and therefore an explicit <code>del</code> exists.</li>
+<li>C has the ability to define that variable of any data type to be <code>const</code> at compile time, whereas in Python, the type of the object determines whether it is mutable or immutable</li>
+</ul>
+<hr>
+<h2 id="part-3">Part 3</h2>
+<ul>
+<li>Member introspection in a sequence or collection is possible in Python through <code>in</code> keyword  - there is no equivalent of that in C</li>
+<li>Type reflection (meaning you can ask an object what type it is) and object equivalence is supported in Python and <code>is</code> is used to accomplish this</li>
+</ul>
+<h2 id="program-listing">Program listing</h2>
+<p>The above lists of keywords were generated using a Python (Version 3) program which is listed below.</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">import</span> keyword
+python3 <span class="token operator">=</span> keyword<span class="token punctuation">.</span>kwlist
+
+<span class="token comment"># this can be obtained from a Python2 interpreter</span>
+<span class="token comment"># by using the above two statements </span>
+<span class="token comment">#</span>
+python2 <span class="token operator">=</span> <span class="token punctuation">[</span>
+	<span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'as'</span><span class="token punctuation">,</span> <span class="token string">'assert'</span><span class="token punctuation">,</span> <span class="token string">'break'</span><span class="token punctuation">,</span> <span class="token string">'class'</span><span class="token punctuation">,</span> <span class="token string">'continue'</span><span class="token punctuation">,</span>
+	<span class="token string">'def'</span><span class="token punctuation">,</span> <span class="token string">'del'</span><span class="token punctuation">,</span> <span class="token string">'elif'</span><span class="token punctuation">,</span> <span class="token string">'else'</span><span class="token punctuation">,</span> <span class="token string">'except'</span><span class="token punctuation">,</span> <span class="token string">'exec'</span><span class="token punctuation">,</span> 
+	<span class="token string">'finally'</span><span class="token punctuation">,</span> <span class="token string">'for'</span><span class="token punctuation">,</span> <span class="token string">'from'</span><span class="token punctuation">,</span> <span class="token string">'global'</span><span class="token punctuation">,</span> <span class="token string">'if'</span><span class="token punctuation">,</span> <span class="token string">'import'</span><span class="token punctuation">,</span> 
+	<span class="token string">'in'</span><span class="token punctuation">,</span> <span class="token string">'is'</span><span class="token punctuation">,</span> <span class="token string">'lambda'</span><span class="token punctuation">,</span> <span class="token string">'not'</span><span class="token punctuation">,</span> <span class="token string">'or'</span><span class="token punctuation">,</span> <span class="token string">'pass'</span><span class="token punctuation">,</span> <span class="token string">'print'</span><span class="token punctuation">,</span>
+	<span class="token string">'raise'</span><span class="token punctuation">,</span> <span class="token string">'return'</span><span class="token punctuation">,</span> <span class="token string">'try'</span><span class="token punctuation">,</span> <span class="token string">'while'</span><span class="token punctuation">,</span> <span class="token string">'with'</span><span class="token punctuation">,</span> <span class="token string">'yield'</span>
+<span class="token punctuation">]</span>
+
+<span class="token comment"># new keywords in Python 3 </span>
+additional <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python2<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Keywords added to Python3:"</span><span class="token punctuation">,</span> additional<span class="token punctuation">)</span>
+
+removed <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python2<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Keywords removed from:"</span><span class="token punctuation">,</span> removed<span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Total changes:"</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>additional<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token builtin">len</span><span class="token punctuation">(</span>removed<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-----------------------"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Comparing keywords in Python and C"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-----------------------"</span><span class="token punctuation">)</span>
+
+<span class="token triple-quoted-string string">'''
+# get keywords for C from webpages 
+# write a scrap program by processing links in   
+  https://www.programiz.com/c-programming/list-all-keywords-c-language
+  
+	http://tigcc.ticalc.org/doc/keywords.html#switch
+'''</span>
+<span class="token comment"># Also read http://www.toves.org/books/cpy/</span>
+
+clang <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"programiz.txt"</span><span class="token punctuation">,</span> <span class="token string">"r"</span><span class="token punctuation">)</span> <span class="token keyword">as</span> fp<span class="token punctuation">:</span>
+	links <span class="token operator">=</span> fp<span class="token punctuation">.</span>readlines<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token keyword">for</span> link <span class="token keyword">in</span> links<span class="token punctuation">:</span> 
+		<span class="token keyword">try</span><span class="token punctuation">:</span>
+			link<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">"list-all-keywords-c-language#"</span><span class="token punctuation">)</span> 
+			hashsymbol <span class="token operator">=</span> link<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">"#"</span><span class="token punctuation">)</span>
+			keyword <span class="token operator">=</span> link<span class="token punctuation">[</span>hashsymbol<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>
+			<span class="token comment">#print("found keyword", keyword)</span>
+			klist <span class="token operator">=</span> keyword<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">"_"</span><span class="token punctuation">)</span>
+
+			clang<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>klist<span class="token punctuation">)</span>
+		<span class="token keyword">except</span><span class="token punctuation">:</span>
+			<span class="token keyword">pass</span>
+
+clang<span class="token punctuation">.</span>extend<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">"size_t"</span><span class="token punctuation">,</span> <span class="token string">"NULL"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+clangRemove <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token string">'NULL'</span><span class="token punctuation">,</span>
+    <span class="token string">'char'</span><span class="token punctuation">,</span> <span class="token string">'int'</span><span class="token punctuation">,</span> <span class="token string">'float'</span><span class="token punctuation">,</span> <span class="token string">'double'</span><span class="token punctuation">,</span> <span class="token string">'long'</span><span class="token punctuation">,</span> <span class="token string">'size_t'</span><span class="token punctuation">,</span> <span class="token string">'void'</span><span class="token punctuation">,</span>
+    <span class="token string">'short'</span><span class="token punctuation">,</span> <span class="token string">'unsigned'</span><span class="token punctuation">,</span> <span class="token string">'signed'</span><span class="token punctuation">,</span>
+    <span class="token string">'switch'</span><span class="token punctuation">,</span> <span class="token string">'case'</span><span class="token punctuation">,</span> <span class="token string">'default'</span><span class="token punctuation">,</span>
+    <span class="token comment"># 'auto', 'volatile', 'register', </span>
+    <span class="token comment"># 'enum', 'typedef',</span>
+<span class="token punctuation">]</span>
+
+clang <span class="token operator">=</span> <span class="token punctuation">[</span>
+    keyword <span class="token keyword">for</span> keyword <span class="token keyword">in</span> clang 
+	    <span class="token keyword">if</span> keyword <span class="token operator">not</span> <span class="token keyword">in</span> clangRemove
+<span class="token punctuation">]</span>
+
+pythonRemove <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token string">'None'</span><span class="token punctuation">,</span> <span class="token string">'False'</span><span class="token punctuation">,</span> <span class="token string">'True'</span><span class="token punctuation">,</span>
+    <span class="token string">'assert'</span><span class="token punctuation">,</span> <span class="token string">'with'</span><span class="token punctuation">,</span> <span class="token string">'yield'</span><span class="token punctuation">,</span> <span class="token string">'lambda'</span><span class="token punctuation">,</span>
+    <span class="token string">'try'</span><span class="token punctuation">,</span> <span class="token string">'except'</span><span class="token punctuation">,</span> <span class="token string">'finally'</span><span class="token punctuation">,</span> <span class="token string">'raise'</span><span class="token punctuation">,</span>
+    <span class="token string">'import'</span><span class="token punctuation">,</span> <span class="token string">'from'</span><span class="token punctuation">,</span> <span class="token string">'as'</span><span class="token punctuation">,</span> 
+    <span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'or'</span><span class="token punctuation">,</span> <span class="token string">'not'</span><span class="token punctuation">,</span>
+    <span class="token string">'elif'</span>
+<span class="token punctuation">]</span>
+
+python3 <span class="token operator">=</span> <span class="token punctuation">[</span>
+	keyword <span class="token keyword">for</span> keyword <span class="token keyword">in</span> python3
+		<span class="token keyword">if</span> keyword <span class="token operator">not</span> <span class="token keyword">in</span> pythonRemove
+<span class="token punctuation">]</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Python:"</span><span class="token punctuation">,</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"'typefree' C Language:"</span><span class="token punctuation">,</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>clang<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>clang<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"\n------ DIFFERENCE -------"</span><span class="token punctuation">)</span>
+pextra <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token builtin">set</span><span class="token punctuation">(</span>clang<span class="token punctuation">)</span>
+cextra <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span>clang<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token builtin">set</span><span class="token punctuation">(</span>python3<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"extra in python:"</span><span class="token punctuation">,</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>pextra<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>pextra<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"extra in clang:"</span><span class="token punctuation">,</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>cextra<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>cextra<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+</code></pre>
+<h2 id="program-output">Program Output</h2>
+<pre class=" language-bash"><code class="prism  language-bash">Keywords added to Python3: <span class="token punctuation">{</span><span class="token string">'None'</span>, <span class="token string">'nonlocal'</span>, 
+<span class="token string">'True'</span>, <span class="token string">'False'</span><span class="token punctuation">}</span>
+Keywords removed from: <span class="token punctuation">{</span><span class="token string">'print'</span>, <span class="token string">'exec'</span><span class="token punctuation">}</span>
+Total changes: 6
+-----------------------
+Comparing keywords <span class="token keyword">in</span> Python and C
+-----------------------
+Python: <span class="token punctuation">[</span><span class="token string">'break'</span>, <span class="token string">'class'</span>, <span class="token string">'continue'</span>, <span class="token string">'def'</span>, <span class="token string">'del'</span>, 
+<span class="token string">'else'</span>, <span class="token string">'for'</span>, <span class="token string">'global'</span>, <span class="token string">'if'</span>, <span class="token string">'in'</span>, <span class="token string">'is'</span>, 
+<span class="token string">'nonlocal'</span>, <span class="token string">'pass'</span>, <span class="token string">'return'</span>, <span class="token string">'while'</span><span class="token punctuation">]</span> 15
+
+<span class="token string">'typefree'</span> C Language: <span class="token punctuation">[</span><span class="token string">'auto'</span>, <span class="token string">'break'</span>, <span class="token string">'const'</span>, 
+<span class="token string">'continue'</span>, <span class="token string">'do'</span>, <span class="token string">'else'</span>, <span class="token string">'enum'</span>, <span class="token string">'extern'</span>, <span class="token string">'for'</span>, 
+<span class="token string">'goto'</span>, <span class="token string">'if'</span>, <span class="token string">'register'</span>, <span class="token string">'return'</span>, <span class="token string">'sizeof'</span>, 
+<span class="token string">'static'</span>, <span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'void'</span>, 
+<span class="token string">'volatile'</span>, <span class="token string">'while'</span><span class="token punctuation">]</span> 21
+
+------ DIFFERENCE -------
+extra <span class="token keyword">in</span> python: <span class="token punctuation">[</span><span class="token string">'class'</span>, <span class="token string">'def'</span>, <span class="token string">'del'</span>, <span class="token string">'global'</span>, 
+<span class="token string">'in'</span>, <span class="token string">'is'</span>, <span class="token string">'nonlocal'</span>, <span class="token string">'pass'</span><span class="token punctuation">]</span> 8
+extra <span class="token keyword">in</span> clang: <span class="token punctuation">[</span><span class="token string">'auto'</span>, <span class="token string">'const'</span>, <span class="token string">'do'</span>, <span class="token string">'enum'</span>, 
+<span class="token string">'extern'</span>, <span class="token string">'goto'</span>, <span class="token string">'register'</span>, <span class="token string">'sizeof'</span>, <span class="token string">'static'</span>, 
+<span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'volatile'</span><span class="token punctuation">]</span> 14
+
+</code></pre>
+
+    </div>
+  </div>
+</body>
+
+</html>
