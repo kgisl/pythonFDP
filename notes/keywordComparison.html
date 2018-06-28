@@ -24,6 +24,7 @@
 <li><a href="#part-3">Part 3</a></li>
 <li><a href="#program-listing">Program listing</a></li>
 <li><a href="#program-output">Program Output</a></li>
+<li><a href="#useful-links">Useful links</a></li>
 </ul>
 </li>
 </ul>
@@ -109,12 +110,12 @@
      Keywords removed from: <span class="token punctuation">{</span><span class="token string">'print'</span>, <span class="token string">'exec'</span><span class="token punctuation">}</span>
      Total changes: 6
 </code></pre>
-<p>Note: <code>print</code> has been removed as a keyword, and retained as a built-in function.</p>
+<p>Note: <code>print</code> has been removed as a keyword but retained as a built-in function.</p>
 <h2 id="going-from-python-to-c">Going from Python to C</h2>
-<p>If you really think about it, it is not an <strong>apples-to-apples</strong> comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming, whereas Python does.</p>
+<p>If you really think about it, it is not an <strong>apples-to-apples</strong> comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming or exception handling, whereas Python does.</p>
 <p>Nevertheless, for the benefit of a developer/student who has learnt Python and is keen on learning the C language as well, this is what I got:</p>
 <ul>
-<li>In comparison to type-free C, Python has 15 keywords and C has 21 keywords.</li>
+<li>In comparison to type-free C, Python (sans keywords related to objected orientation and exception handling) has 15 keywords and C has 21 keywords.</li>
 </ul>
 <pre class=" language-bash"><code class="prism  language-bash">-----------------------
 Comparing keywords <span class="token keyword">in</span> Python and type-free C
@@ -138,28 +139,28 @@ extra <span class="token keyword">in</span> clang: <span class="token punctuatio
 <span class="token string">'extern'</span>, <span class="token string">'goto'</span>, <span class="token string">'register'</span>, <span class="token string">'sizeof'</span>, <span class="token string">'static'</span>, 
 <span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'volatile'</span><span class="token punctuation">]</span> 14
 </code></pre>
-<p>My analysis below will attempt to compare and contrast the two languages by referring to the above 20 keywords (8 that exists in <code>Python</code> verus 14 that exists only in <code>C</code>)</p>
+<p>My analysis below will attempt to compare and contrast the two languages by referring to the above 20 keywords (8 that exists only in <code>Python</code> verus 14 that exists only in <code>C</code>)</p>
 <h2 id="part-0">Part 0</h2>
 <ul>
 <li>The <code>do-while</code> loop construct exists in C, but not in Python</li>
 <li><code>enum</code> exist in C to give variable-like labels to numeric values, but this is not supported in Python</li>
 <li><code>C</code> also has  the <code>switch-case-default</code> keywords allowing for multi-conditional constructs which can be quite elegant when used with <code>enums</code>. The equivalent of this can be codified with a series non-elegant <code>if-elif</code> statements in Python</li>
-<li><code>goto</code> allows you to jump to an arbitrary location in the <code>C</code>code, and allowing for obscure source code to be written. And therefore it is not recommended that this keyword be used sparingly; totally unsupported in Python</li>
-<li>A function or class definition in Python requires <code>def</code> which is not required in C.</li>
+<li><code>goto</code> allows you to jump to an arbitrary location in the <code>C</code>code, and allowing for obscure source code to be written. And for that reason, it is recommended that this keyword be used sparingly; totally unsupported in Python</li>
+<li>A function or class definition in Python requires <code>def</code> which is not required in C</li>
 <li><code>pass</code> - a Python statement which has no effect; the equivalent of this is best achieved in C by using the <code>;</code> delimiter</li>
 </ul>
 <h2 id="part-1">Part 1</h2>
 <ul>
 <li>Scope options are accomplished by using <code>global</code> and <code>nonlocal</code> in Python, whereas  in C the keywords <code>auto</code>, <code>static</code> and <code>extern</code> are used</li>
 <li>Because C allows you to get closer to the metal, you have <code>register</code> and <code>volatile</code> whereas Python is completely oblivious to this</li>
-<li><code>sizeof</code> is it a macro or a keyword? that’s a source of intense debate; and is used in conjunction with dynamically allocation of memory which is non-existent in Python</li>
+<li><code>sizeof</code> is it a macro or a keyword? that’s a source of intense debate; and is used in conjunction with dynamically allocation (and freeing) of memory. In contrast, explicit memory management is non-existent in Python</li>
 </ul>
 <hr>
 <h2 id="part-2">Part 2</h2>
 <ul>
-<li>Python supports Object-oriented programming with the <code>class</code> keyword for which the closest equivalents would be  <code>struct</code> and <code>typedef</code> in C. <code>union</code>, the memory-efficient construct is rather unique to C, which is not found even in other strictly typed languages</li>
+<li>Python supports object-oriented programming with the <code>class</code> keyword for which the closest equivalents would be  <code>struct</code> and <code>typedef</code> in C. <code>union</code>, the memory-efficient construct is rather unique to C, which is not found even in other strictly typed languages</li>
 <li>Everything is an object in Python, and therefore an explicit <code>del</code> exists.</li>
-<li>C has the ability to define that variable of any data type to be <code>const</code> at compile time, whereas in Python, the type of the object determines whether it is mutable or immutable</li>
+<li>C has the ability to define that variable of any data type to be <code>const</code> at compile time, whereas in Python, the type of the object pre-determines whether it is mutable or immutable</li>
 </ul>
 <hr>
 <h2 id="part-3">Part 3</h2>
@@ -289,6 +290,11 @@ extra <span class="token keyword">in</span> clang: <span class="token punctuatio
 <span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'volatile'</span><span class="token punctuation">]</span> 14
 
 </code></pre>
+<h2 id="useful-links">Useful links</h2>
+<ul>
+<li>Short tutorial <a href="http://techbeamers.com/python-keywords-identifiers-variables/">http://techbeamers.com/python-keywords-identifiers-variables/</a></li>
+<li>Tutorial for each of the Python keywords: <a href="http://j.mp/python3Keywords">http://j.mp/python3Keywords</a></li>
+</ul>
 
     </div>
   </div>
