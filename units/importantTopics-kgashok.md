@@ -339,9 +339,10 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MD
-UwNjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAy
-NDg4MiwxNDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMT
-IsMjI0MjgyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEy
-MTcyMjYxLC0zMzY4MjMzNjcsLTIwOTAxNjU3MDNdfQ==
+eyJoaXN0b3J5IjpbMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MT
+IxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQx
+MjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMC
+wtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYy
+ODUyNzM3LDExMTIxNzIyNjEsLTMzNjgyMzM2NywtMjA5MDE2NT
+cwM119
 -->
