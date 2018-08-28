@@ -29,6 +29,7 @@ j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minute
 ## Tutorials
 
 - Top links
+	- Rapid Router - what next? http://j.mp/rapidNext
 	- https://repl.it/student/classrooms/17929 - repl.it based
 	- Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
 	- University of Waterloo Tutorial   https://cscircles.cemc.uwaterloo.ca/
@@ -339,10 +340,10 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MT
-IxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQx
-MjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMC
-wtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYy
-ODUyNzM3LDExMTIxNzIyNjEsLTMzNjgyMzM2NywtMjA5MDE2NT
-cwM119
+eyJoaXN0b3J5IjpbLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNz
+gzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAx
+OTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMT
+csMjA4MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5
+MDkwODA3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEsLTMzNjgyMz
+M2NywtMjA5MDE2NTcwM119
 -->
