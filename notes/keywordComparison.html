@@ -112,7 +112,7 @@
      Keywords removed from: <span class="token punctuation">{</span><span class="token string">'print'</span>, <span class="token string">'exec'</span><span class="token punctuation">}</span>
      Total changes: 6
 </code></pre>
-<p>Note: <code>print</code> has been removed as a keyword but retained as a built-in function.</p>
+<p>Note: Both <code>print</code> and <code>exec</code> have been removed keywords but retained as built-in functions. For an in-depth and insightful answer on behaviour of <code>exec</code> in Python 3 vis-à-vis Python 2, read <a href="https://stackoverflow.com/questions/15086040/behavior-of-exec-function-in-python-2-and-python-3">this</a>.</p>
 <h1 id="core-python-versus-core-c">Core Python versus Core C</h1>
 <p>If you really think about it, it is not an <strong>apples-to-apples</strong> comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming or exception handling, whereas Python does.</p>
 <p>Nevertheless, for the benefit of a developer/student who is familiar with core Python and is keen on familiarizing with the core part of the C language, the journey can start with an critical inspection of the keywords in both the languages.  In comparison to type-free C, Python (sans keywords related to objected orientation and exception handling) has 15 keywords and C has 21 keywords.</p>
