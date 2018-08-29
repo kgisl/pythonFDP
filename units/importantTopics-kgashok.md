@@ -30,7 +30,7 @@ j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minute
 
 - Top links
 	- Rapid Router - what next? http://j.mp/rapidNext
-	- https://repl.it/student/classrooms/17929 - repl.it based
+	- http://j.mp/pythonREPLcourse - repl.it based
 	- Useful CheatSheet - https://gto76.github.io/python-cheatsheet/
 	- University of Waterloo Tutorial   https://cscircles.cemc.uwaterloo.ca/
 	- https://www.codeforlife.education/rapidrouter - better transfer or complement to Blockly
@@ -340,10 +340,10 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNz
-gzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAx
-OTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMT
-csMjA4MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5
-MDkwODA3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEsLTMzNjgyMz
-M2NywtMjA5MDE2NTcwM119
+eyJoaXN0b3J5IjpbNzExODg4MzA3LC0xMDA4MTY2NjYwLDIwNj
+IwMTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MDUwNjM1
+MCwtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAyNDg4Mi
+wxNDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMTIsMjI0
+MjgyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcyMj
+YxLC0zMzY4MjMzNjcsLTIwOTAxNjU3MDNdfQ==
 -->
