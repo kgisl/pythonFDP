@@ -13,7 +13,7 @@
     <div class="stackedit__toc">
       
 <ul>
-<li><a href="#comparing-python-and-c-through-keywords">Comparing Python and C through Keywords</a></li>
+<li><a href="#keywords-in-python-and-c">Keywords in Python and C</a></li>
 <li><a href="#net-change-is-6---4--2">Net Change is +6 - 4 = +2</a></li>
 <li><a href="#core-python-versus-core-c">Core Python versus Core C</a>
 <ul>
@@ -35,7 +35,8 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <h1 id="comparing-python-and-c-through-keywords">Comparing Python and C through Keywords</h1>
+      <h1 id="keywords-in-python-and-c">Keywords in Python and C</h1>
+<p>Comparing keywords that are common and unique to both languages provides for interesting insights.</p>
 <p>As reported elsewhere (<a href="http://j.mp/reservedWords">http://j.mp/reservedWords</a>), here are some popular languages and the count of keywords in each of them.</p>
 
 <table>
@@ -103,19 +104,20 @@
 <td>Yes, <a href="http://bit.ly/sql480Keywords">four hundred and eighty</a>!</td>
 </tr>
 </tbody>
-</table><p>I was curious as to what were additional keywords added in Python 3 that made it yield the distinction of being the <strong>“Language with the least number of keywords”</strong> to the formidable C language (nothwithstanding Smalltalk and the not-so-mainstream-yet Go and Elm). Here’s what I came up with:</p>
+</table><p>For quite some time, with only 31 keywords, Python (Version 2) had held the distinction of being the  <strong>“language with the least number of keywords”.</strong> Of course, we need to ignore Smalltalk (6) and the not-yet-mainstream Go (25) and Elm (25).</p>
+<p>But with the transition to Python 3, that  <strong>distinction</strong>  has been ceded to the C language (total keywords is 32). Therefore, I was quite curious as to what were the additional keywords that were added to the language. Here’s what I came up with:</p>
 <ul>
-<li>In the transition from Python2 to Python 3, total change in keywords is 6;  four were added and two were removed, resulting in a net addition of 2.</li>
+<li>In the transition from Python_2 to Python_3, actually there have been six changes to the keyword list; four were added and two were removed, resulting in a net addition of 2.</li>
 </ul>
 <h1 id="net-change-is-6---4--2">Net Change is +6 - 4 = +2</h1>
-<pre class=" language-bash"><code class="prism  language-bash">     Keywords added to Python3: <span class="token punctuation">{</span><span class="token string">'None'</span>, <span class="token string">'nonlocal'</span>,  <span class="token string">'True'</span>, <span class="token string">'False'</span><span class="token punctuation">}</span>
+<pre class=" language-bash"><code class="prism  language-bash">     Keywords added to Python_3: <span class="token punctuation">{</span><span class="token string">'None'</span>, <span class="token string">'nonlocal'</span>,  <span class="token string">'True'</span>, <span class="token string">'False'</span><span class="token punctuation">}</span>
      Keywords removed from: <span class="token punctuation">{</span><span class="token string">'print'</span>, <span class="token string">'exec'</span><span class="token punctuation">}</span>
      Total changes: 6
 </code></pre>
 <p>Note: Both <code>print</code> and <code>exec</code> have been removed keywords but retained as built-in functions. For an in-depth and insightful answer on behaviour of <code>exec</code> in Python 3 vis-à-vis Python 2, read <a href="https://stackoverflow.com/questions/15086040/behavior-of-exec-function-in-python-2-and-python-3">this</a>.</p>
 <h1 id="core-python-versus-core-c">Core Python versus Core C</h1>
-<p>If you really think about it, it is not an <strong>apples-to-apples</strong> comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming or exception handling, whereas Python does.</p>
-<p>Nevertheless, for the benefit of a developer/student who is familiar with core Python and is keen on familiarizing with the core part of the C language, the journey can start with an critical inspection of the keywords in both the languages.  In comparison to type-free C, Python (sans keywords related to objected orientation and exception handling) has 15 keywords and C has 21 keywords.</p>
+<p>If you really think about it, it is not an  <strong>apples-to-apples</strong>  comparison when you comparing the count of keywords in a strictly typed language (C, Java, etc) versus a dynamic language (Python). Also, C does not have syntax that supports object-oriented programming or exception handling, whereas Python does.</p>
+<p>Nevertheless, for the benefit of a developer/student who is familiar with core Python and is keen on familiarizing with the core part of the C language, the journey can start with an critical inspection of the keywords in both the languages. In comparison to  <em>“type-free”</em>  C, Python (sans keywords related to objected orientation and exception handling) has 15 keywords and C has 21 keywords.</p>
 <pre class=" language-bash"><code class="prism  language-bash">-----------------------
 Comparing keywords <span class="token keyword">in</span> Python and type-free C
 -----------------------
@@ -138,7 +140,7 @@ extra <span class="token keyword">in</span> clang: <span class="token punctuatio
 <span class="token string">'extern'</span>, <span class="token string">'goto'</span>, <span class="token string">'register'</span>, <span class="token string">'sizeof'</span>, <span class="token string">'static'</span>, 
 <span class="token string">'struct'</span>, <span class="token string">'typedef'</span>, <span class="token string">'union'</span>, <span class="token string">'volatile'</span><span class="token punctuation">]</span> 14
 </code></pre>
-<p>My analysis below will attempt to compare and contrast the two languages by referring to the above 20 keywords (8 that exists only in <code>Python</code> verus 14 that exists only in <code>C</code>).</p>
+<p>My analysis below will attempt to compare and contrast the two languages by referring to the above <strong>22 keywords</strong> (8 that exists only in <code>Python</code> verus 14 that exists only in <code>C</code>).</p>
 <h2 id="part-0">Part 0</h2>
 <ul>
 <li>The <code>do-while</code> loop construct exists in C, but not in Python</li>
@@ -150,9 +152,9 @@ extra <span class="token keyword">in</span> clang: <span class="token punctuatio
 </ul>
 <h2 id="part-1">Part 1</h2>
 <ul>
-<li>Scope options are accomplished by using <code>global</code> and <code>nonlocal</code> in Python, whereas  in C the keywords <code>auto</code>, <code>static</code> and <code>extern</code> are used</li>
-<li>Because C allows you to get closer to the metal, you have <code>register</code> and <code>volatile</code> whereas Python is completely oblivious to this</li>
-<li><code>sizeof</code> is it a macro or a keyword? that’s a source of intense debate; and is used in conjunction with dynamically allocation (and freeing) of memory. In contrast, explicit memory management is non-existent in Python</li>
+<li>Scope options are accomplished by using  <code>global</code>  and  <code>nonlocal</code>  in Python, whereas in C the keywords  <code>auto</code>,  <code>static</code>  and  <code>extern</code>  are used.</li>
+<li>C continues to be one of the few languages that allows you to get close to the metal, and that is why it has keywords like  <code>register</code>  and  <code>volatile</code> .</li>
+<li><code>sizeof</code>- is it a macro or a keyword? that’s a source for intense debate. The keyword is commonly used in calculation of dynamic memory allocation. In contrast,  <em>explicit</em>  memory management is non-existent in Python.</li>
 </ul>
 <hr>
 <h2 id="part-2">Part 2</h2>
