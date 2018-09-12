@@ -4,6 +4,8 @@ Want a ToC? View at http://j.mp/importantPy
 
 j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minutes! 
 
+http://j.mp/howToThinkLikeAProgrammer
+
 ## To read and incorporate 
 
 - What to build using Python? http://j.mp/pythonApps of course!
@@ -340,11 +342,11 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI3ODI4NzAsNzExODg4MzA3LC0xMD
-A4MTY2NjYwLDIwNjIwMTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAz
-MjAsMTg4MDUwNjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MTIzNi
-wtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1
-NTgyMTIyMTIsMjI0MjgyNjUwLDM5OTA5MDgwNywtMTE2Mjg1Mj
-czNywxMTEyMTcyMjYxLC0zMzY4MjMzNjcsLTIwOTAxNjU3MDNd
-fQ==
+eyJoaXN0b3J5IjpbLTc0ODA5NDUxNSwtMjAwMjc4Mjg3MCw3MT
+E4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4
+MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC
+0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4
+MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwOD
+A3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEsLTMzNjgyMzM2Nywt
+MjA5MDE2NTcwM119
 -->
