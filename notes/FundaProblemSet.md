@@ -4,6 +4,8 @@ http://j.mp/pc2Python
 
 ## FizzBuzz 
 
+## Remove Duplicates
+
 ## Reverse Dictionary
 http://j.mp/reverseDictionary
 
@@ -14,5 +16,5 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDgyMTI3OSwzNzAwMDIzODZdfQ==
+eyJoaXN0b3J5IjpbLTYxODk1NjY5NywzNzAwMDIzODZdfQ==
 -->
