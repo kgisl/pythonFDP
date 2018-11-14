@@ -41,10 +41,10 @@ http://j.mp/reverseDictionary
 
  - breadth first, depth first - which is better, and when? 
 
-
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDMxMTc0Myw1NzkxNzkwMDUsLTE3MT
-U0OTQxNTQsMTYzNzYzOTQ2OCwzODc4OTk1OTMsLTE0ODkxOTU0
-MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LDEyMDgxNTAxNzIsMz
-cwMDAyMzg2XX0=
+eyJoaXN0b3J5IjpbLTE5Njk5ODgxMTIsLTM2MDMxMTc0Myw1Nz
+kxNzkwMDUsLTE3MTU0OTQxNTQsMTYzNzYzOTQ2OCwzODc4OTk1
+OTMsLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LD
+EyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
