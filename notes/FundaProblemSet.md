@@ -9,8 +9,10 @@
 ## FizzBuzz 
 
 ## 2nd maximum value in an array 
+  - http://j.mp/getMaxCC
 
 ## Remove Duplicates
+
 
 ## Reverse Dictionary
 http://j.mp/reverseDictionary
@@ -25,6 +27,6 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzYzNDQ3LDEyMDgxNTAxNzIsMzcwMD
-AyMzg2XX0=
+eyJoaXN0b3J5IjpbLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LDEyMD
+gxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
