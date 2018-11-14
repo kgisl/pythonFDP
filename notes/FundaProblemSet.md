@@ -3,7 +3,7 @@
 
 ## Links
   - http://j.mp/pc2Python 
-  - j.mp/programmingProblemSetForSoftwareEngineers
+  - http://j.mp/programmingProblemSetForSoftwareEngineers
 
 ## FizzBuzz 
 
@@ -19,6 +19,6 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTE4Mjk3MiwxMjA4MTUwMTcyLDM3MD
-AwMjM4Nl19
+eyJoaXN0b3J5IjpbLTE4NTQzOTAzNDIsMTIwODE1MDE3MiwzNz
+AwMDIzODZdfQ==
 -->
