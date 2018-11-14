@@ -4,7 +4,7 @@
 What is an ideal problem set? Especially for someone who is learning Python as a first language? What set of problems will assess fundamental knowledge of computer science as well? 
 
 ## Links
-  - http://j.mp/pc2Python 
+  - http://j.mp/pc2Python and http://bit.ly/pc2doc
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
   - http://j.mp/bigIdeasInProgramming 
   
@@ -34,7 +34,7 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYwMDIyMjUsMTYzNzYzOTQ2OCwzOD
+eyJoaXN0b3J5IjpbLTE2MDA5NTAwMTYsMTYzNzYzOTQ2OCwzOD
 c4OTk1OTMsLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYz
 NDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
