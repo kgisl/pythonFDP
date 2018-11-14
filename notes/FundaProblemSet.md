@@ -22,12 +22,12 @@ http://j.mp/reverseDictionary
 
 ## Tile Solver 
 
- - http://j.mp/tileSolveCC
+ - http://j.mp/tileSolverCC
 
 
 ## Bracket Validator 
 
-## SelectSort 
+## Sorting 
 
 - Merging Lists 
 	- 	http://j.mp/unionListCC 
@@ -37,8 +37,7 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM3MTk3NDcsLTE3MTU0OTQxNTQsMT
-YzNzYzOTQ2OCwzODc4OTk1OTMsLTE0ODkxOTU0MzcsLTEzMTgy
-OTI5NTYsLTI2NzYzNDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX
-0=
+eyJoaXN0b3J5IjpbNTc5MTc5MDA1LC0xNzE1NDk0MTU0LDE2Mz
+c2Mzk0NjgsMzg3ODk5NTkzLC0xNDg5MTk1NDM3LC0xMzE4Mjky
+OTU2LC0yNjc2MzQ0NywxMjA4MTUwMTcyLDM3MDAwMjM4Nl19
 -->
