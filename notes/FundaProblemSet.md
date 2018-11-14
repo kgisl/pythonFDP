@@ -4,9 +4,8 @@
 ## Links
   - http://j.mp/pc2Python 
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
-  - 
-
-
+  
+  
 ## FizzBuzz 
 
 ## 2nd maximum value in an array 
@@ -20,9 +19,13 @@ http://j.mp/reverseDictionary
 
 ## SelectSort 
 
+- SelectSort implementation 
+- How to maintain a list of addresses in alphabetical order (best strategy) 
+
+
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNjcxNDk3LDEyMDgxNTAxNzIsMzcwMD
+eyJoaXN0b3J5IjpbMTg4MTE2NjYzLDEyMDgxNTAxNzIsMzcwMD
 AyMzg2XX0=
 -->
