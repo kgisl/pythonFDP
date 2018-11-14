@@ -19,6 +19,11 @@ What is an ideal problem set? Especially for someone who is learning Python as a
 ## Reverse Dictionary
 http://j.mp/reverseDictionary
 
+## Tile Solver 
+
+ - http://j.mp/tileSolveCC
+
+
 ## Bracket Validator 
 
 ## SelectSort 
@@ -29,7 +34,7 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzYzOTQ2OCwzODc4OTk1OTMsLTE0OD
-kxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LDEyMDgxNTAx
-NzIsMzcwMDAyMzg2XX0=
+eyJoaXN0b3J5IjpbLTE4MTYwMDIyMjUsMTYzNzYzOTQ2OCwzOD
+c4OTk1OTMsLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYz
+NDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
