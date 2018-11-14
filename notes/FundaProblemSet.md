@@ -41,10 +41,14 @@ http://j.mp/reverseDictionary
 
  - breadth first, depth first - which is better, and when? 
 
-#
+## Graph Traversal 
+
+  - Travelling Salesman problem, etc 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk5ODgxMTIsLTM2MDMxMTc0Myw1Nz
-kxNzkwMDUsLTE3MTU0OTQxNTQsMTYzNzYzOTQ2OCwzODc4OTk1
-OTMsLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LD
-EyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
+eyJoaXN0b3J5IjpbOTkzNTkyOTA3LC0zNjAzMTE3NDMsNTc5MT
+c5MDA1LC0xNzE1NDk0MTU0LDE2Mzc2Mzk0NjgsMzg3ODk5NTkz
+LC0xNDg5MTk1NDM3LC0xMzE4MjkyOTU2LC0yNjc2MzQ0NywxMj
+A4MTUwMTcyLDM3MDAwMjM4Nl19
 -->
