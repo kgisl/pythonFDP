@@ -22,10 +22,9 @@ http://j.mp/reverseDictionary
 - SelectSort implementation 
 - How to maintain a list of addresses in alphabetical order (best strategy) 
 
-
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTE2NjYzLDEyMDgxNTAxNzIsMzcwMD
+eyJoaXN0b3J5IjpbLTI2NzYzNDQ3LDEyMDgxNTAxNzIsMzcwMD
 AyMzg2XX0=
 -->
