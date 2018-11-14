@@ -36,8 +36,15 @@ http://j.mp/reverseDictionary
 
 ## Efficient Fibonacci Series 
 
+
+## Tree Traversal 
+
+ - breadth first, depth first - which is better, and when? 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MTc5MDA1LC0xNzE1NDk0MTU0LDE2Mz
-c2Mzk0NjgsMzg3ODk5NTkzLC0xNDg5MTk1NDM3LC0xMzE4Mjky
-OTU2LC0yNjc2MzQ0NywxMjA4MTUwMTcyLDM3MDAwMjM4Nl19
+eyJoaXN0b3J5IjpbLTM2MDMxMTc0Myw1NzkxNzkwMDUsLTE3MT
+U0OTQxNTQsMTYzNzYzOTQ2OCwzODc4OTk1OTMsLTE0ODkxOTU0
+MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LDEyMDgxNTAxNzIsMz
+cwMDAyMzg2XX0=
 -->
