@@ -4,7 +4,7 @@
 ## Links
   - http://j.mp/pc2Python 
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
-  - http://j
+  - http://j.mp/bigIdeasInProgramming 
   
 ## FizzBuzz 
 
@@ -27,6 +27,6 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTY0NTc4NSwtMTMxODI5Mjk1NiwtMj
-Y3NjM0NDcsMTIwODE1MDE3MiwzNzAwMDIzODZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLT
+I2NzYzNDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
