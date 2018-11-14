@@ -7,7 +7,8 @@ What is an ideal problem set? Especially for someone who is learning Python as a
   - http://j.mp/pc2Python and http://bit.ly/pc2doc
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
   - http://j.mp/bigIdeasInProgramming 
-  
+  - http://bit.ly/pythonPathwaysKITE
+ 
 ## FizzBuzz 
 
 ## 2nd maximum value in an array 
@@ -34,7 +35,7 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA5NTAwMTYsMTYzNzYzOTQ2OCwzOD
+eyJoaXN0b3J5IjpbLTE3MTU0OTQxNTQsMTYzNzYzOTQ2OCwzOD
 c4OTk1OTMsLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYz
 NDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
 -->
