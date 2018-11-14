@@ -1,6 +1,8 @@
 
 # Problem Set 
 
+What is an ideal problem set? Especially for someone who is learning Python as a first language? 
+
 ## Links
   - http://j.mp/pc2Python 
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
@@ -27,6 +29,7 @@ http://j.mp/reverseDictionary
 ## Efficient Fibonacci Series 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxOTU0MzcsLTEzMTgyOTI5NTYsLT
-I2NzYzNDQ3LDEyMDgxNTAxNzIsMzcwMDAyMzg2XX0=
+eyJoaXN0b3J5IjpbMzg3ODk5NTkzLC0xNDg5MTk1NDM3LC0xMz
+E4MjkyOTU2LC0yNjc2MzQ0NywxMjA4MTUwMTcyLDM3MDAwMjM4
+Nl19
 -->
