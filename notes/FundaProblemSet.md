@@ -36,7 +36,9 @@ http://j.mp/reverseDictionary
 
 ## Efficient Fibonacci Series 
 
-## Subsequence as incremental dev (TDD)
+## Maximum Subarray sum (TDD) 
+ 
+   - equivalent of Python for http://bit.ly/maxSubArraySumCC 
 
 ## Tree Traversal 
 
@@ -48,8 +50,9 @@ http://j.mp/reverseDictionary
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgzNzA0MDQsOTkzNTkyOTA3LC0zNj
-AzMTE3NDMsNTc5MTc5MDA1LC0xNzE1NDk0MTU0LDE2Mzc2Mzk0
-NjgsMzg3ODk5NTkzLC0xNDg5MTk1NDM3LC0xMzE4MjkyOTU2LC
-0yNjc2MzQ0NywxMjA4MTUwMTcyLDM3MDAwMjM4Nl19
+eyJoaXN0b3J5IjpbLTEwMDIwNzQ4NzAsLTE1OTgzNzA0MDQsOT
+kzNTkyOTA3LC0zNjAzMTE3NDMsNTc5MTc5MDA1LC0xNzE1NDk0
+MTU0LDE2Mzc2Mzk0NjgsMzg3ODk5NTkzLC0xNDg5MTk1NDM3LC
+0xMzE4MjkyOTU2LC0yNjc2MzQ0NywxMjA4MTUwMTcyLDM3MDAw
+MjM4Nl19
 -->
