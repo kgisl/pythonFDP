@@ -2,7 +2,7 @@
 
 - PC-1 assessment http://j.mp/greet10CC 
 - Sequence practice http://j.mp/twoPoints  
-- Conditional practicehttp://j.mp/cycleThrough3 
+- Conditional practice http://j.mp/cycleThrough3 
 - String practice http://j.mp/rotateCC 
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
 - Dictionary concepts http://j.mp/reverseDictionary and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
