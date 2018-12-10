@@ -331,7 +331,7 @@ def merge(lst1, lst2, lst3):
       i2 = i2  + 1
     i3 = i3 + 1 
   
-  # avoid `extend`, since it will not do in-place 
+  # avoid `extend`, as it will not do in-place 
   while i1 < n1:   
     lst3[i3] = lst1[i1]
     i1 = i1 + 1
@@ -444,4 +444,7 @@ http://bit.ly/quickSortVideo
   for n in l:
       Timer(n, lambda x: print(x), [n]).start()
 ```
-  
+  Read the analysis here - http://j.mp/sleepSortGeek
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzY0MjIwNTkyXX0=
+-->
