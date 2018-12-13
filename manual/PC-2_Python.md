@@ -6,7 +6,7 @@
 - String practice http://j.mp/rotateCC 
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
 - Dictionary concepts http://j.mp/reverseDictionary and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
-- Lab practice - http://j.mp/tilerSolveCC 
+- Lab practice - http://j.mp/tileSolverCC 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
 - Lab Pracice - http://j.mp/insertionSortCC
