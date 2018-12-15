@@ -2,11 +2,11 @@
 
 - PC-1 assessment http://j.mp/greet10CC 
 - Sequence practice http://j.mp/twoPoints  
-	- calculate total route distance over multiple points 
+	- How to calculate total route distance over multiple points?
 	- Which taxi to dispatch? 
 - Lab practice - http://j.mp/tileSolverCC 
 - Dictionary concepts http://j.mp/reverseDictionary 
-	- how to maintain a list in alphabetical order 
+	- How to maintain a list in alphabetical order? 
 	- and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
 - Conditional practice http://j.mp/cycleThrough3 
 - String practice http://j.mp/rotateCC 
