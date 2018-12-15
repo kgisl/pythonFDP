@@ -7,13 +7,13 @@
 - Lab practice - http://j.mp/tileSolverCC 
 - Dictionary concepts http://j.mp/reverseDictionary 
 	- How to maintain a list in alphabetical order? 
-	- and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
+	- and http://j.mp/luckyNumCC and http://j.mp/duplicateCountCC 
 - Conditional practice http://j.mp/cycleThrough3 
 - String practice http://j.mp/rotateCC 
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
-- Lab Pracice - http://j.mp/insertionSortCC
+- Lab Practice - http://j.mp/insertionSortCC
 
 ## If You Are a Student Interested in a Software Job…  
 Dorai Thodla  
