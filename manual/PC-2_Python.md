@@ -2,11 +2,15 @@
 
 - PC-1 assessment http://j.mp/greet10CC 
 - Sequence practice http://j.mp/twoPoints  
+	- calculate total route distance over multiple points 
+	- Which taxi to dispatch? 
+- Lab practice - http://j.mp/tileSolverCC 
+- Dictionary concepts http://j.mp/reverseDictionary 
+	- how to maintain a list in alphabetical order 
+	- and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
 - Conditional practice http://j.mp/cycleThrough3 
 - String practice http://j.mp/rotateCC 
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
-- Dictionary concepts http://j.mp/reverseDictionary and http://j.mp/luckyNumCC and j.mp/duplicateCountCC 
-- Lab practice - http://j.mp/tileSolverCC 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
 - Lab Pracice - http://j.mp/insertionSortCC
