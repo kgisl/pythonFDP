@@ -1,6 +1,7 @@
 # Problem Set PC-2 
 
 - PC-1 assessment http://j.mp/greet10CC 
+- Warm up! - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
 - Sequence practice http://j.mp/twoPoints  
 	- How to calculate total route distance over multiple points?
 	- Which taxi to dispatch? 
@@ -8,7 +9,7 @@
 - Dictionary concepts http://j.mp/reverseDictionary 
 	- How to maintain a list in alphabetical order? 
 	- and http://j.mp/luckyNumCC and http://j.mp/duplicateCountCC 
-- Conditional practice http://j.mp/cycleThrough3 
+- Conditional practice and Argument handling http://j.mp/cycleThrough3 
 - String practice http://j.mp/rotateCC 
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
