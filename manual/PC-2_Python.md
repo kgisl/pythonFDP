@@ -16,6 +16,8 @@
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
 - Lab Practice - http://j.mp/insertionSortCC
 
+Bonus: http://j.mp/selfConverge 
+
 ## If You Are a Student Interested in a Software Job…  
 Dorai Thodla  
 
