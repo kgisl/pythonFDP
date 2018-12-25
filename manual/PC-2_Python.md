@@ -18,13 +18,13 @@
 	- How to maintain a list in alphabetical order? 
 	- and http://j.mp/luckyNumCC and http://j.mp/duplicateCountCC 
 - Conditional practice and Argument handling http://j.mp/cycleThrough3 
+- Loop (3 ways) through Lists http://j.mp/getMaxCC 
 
 ## Bonus
-- http://j.mp/selfConverge 
-- http://j.mp/permutePython or even better, permute a palindrome on CyberDojo
+- http://j.mp/selfConverge - recursion practice as well
+- http://j.mp/permutePython and/or on CyberDojo
 
 ## Further Steps 
-- Loop (3 ways) through Lists http://j.mp/getMaxCC 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
 - Lab Practice - http://j.mp/insertionSortCC
