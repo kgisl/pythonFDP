@@ -12,6 +12,7 @@
 	- Which taxi to dispatch? 
 - String practice http://j.mp/rotateCC 
 - Lab practice - http://j.mp/tileSolverCC 
+	- perfect for learning the application of an algorithm. Interestingly, the solution can be reduced to one line, which incidentally, can also be a non-typical python code statement. 
 
 ## Step 2 
 - Dictionary concepts http://j.mp/reverseDictionary 
