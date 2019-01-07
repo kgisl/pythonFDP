@@ -57,6 +57,6 @@ If you are a student and is really interested in a software job, some actual pra
 - When you attend tech interviews, tell them about the stuff you have written. Point them to the links. Share the feedback your received and your journey of learning and iterating.  
 - Don’t worry that if you train in programming language X but the job is for Y that you may not qualify. 
 - **Except in a few cases, companies are trying to hire smart people with lots of initiative, who are willing to constantly learn and explore.**  
-- It may be a good idea to earn while you learn. It is not just the money, but it is the feeling that someone values what you have done enough to pay for it.  
+- It may be a good idea **to earn while you learn**. It is not just the money, but it is the feeling that someone values what you have done enough to pay for it.  
 - Find a master programmer to work with. How do you know they are masters? Pretty simple. Take a piece of code they have written and read it. It will read like an essay – elegant, beautiful and clear. 
 - A couple of years of apprentice with such great programmers will do more to accelerate your learning than any other activity.
