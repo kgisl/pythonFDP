@@ -36,7 +36,9 @@
  - PC2 is useful for refreshing the novice programmer about the syntax of the language, including some of the unique and important constructs and basic data types of the Python language, including **\*kwargs**, dictionaries, etc. 
  - PC2 is useful as an assessment tool to validate whether students have really internalized the 1st semester paper of **CS3003**. 
 
+## What is this anyway? 
 
+![what](https://j.mp/whatIsPC2)
 
 # If You Are a Student Interested in a Software Job…  
 Dorai Thodla  
