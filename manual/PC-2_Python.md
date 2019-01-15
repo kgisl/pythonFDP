@@ -37,7 +37,8 @@
  - PC2 is useful as an assessment tool to validate whether students have really internalized the 1st semester paper of **CS3003**. 
 
 ## What is this anyway? 
-
+- How to learn a threshold concept?
+ 
 ![what](https://j.mp/whatIsPC2)
 
 # If You Are a Student Interested in a Software Job…  
