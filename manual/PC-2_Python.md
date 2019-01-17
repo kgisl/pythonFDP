@@ -22,13 +22,20 @@
 - Loop (3 ways) through Lists http://j.mp/getMaxCC 
 
 ## Bonus
-- http://j.mp/selfConverge - recursion practice as well
+- http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/permutePython and/or on CyberDojo
 
 ## Further Steps 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
 - Lab Practice - http://j.mp/selectionSortCC and/or http://j.mp/selectSortChallenge on CD  
 - Lab Practice - http://j.mp/insertionSortCC
+
+## Advanced
+
+The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticketsCD 
+
+**Phase 1:**  Just solve the problem.
+**Phase 2:** What if we had some new denominations to the choices? 
 
 
 ## Motivations 
