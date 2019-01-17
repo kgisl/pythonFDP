@@ -39,6 +39,7 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
 
 
 ## Motivations 
+ - PC2 is all about learning a threshold concept (**pointers** in C, **problem solving** in Python, **patterns** like MVC in C++/Java, **promises** in JS) 
  - PC2 is a progressive challenging set of problems to use for practicing TDD skills on a regular basis. New ways of thinking can be ingrained into one's repertoire of skills only when they are practiced regularly. 
  - PC2 is useful for refreshing the novice programmer about the syntax of the language, including some of the unique and important constructs and basic data types of the Python language, including **\*kwargs**, dictionaries, etc. 
  - PC2 is useful as an assessment tool to validate whether students have really internalized the 1st semester paper of **CS3003**. 
