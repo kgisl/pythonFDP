@@ -49,7 +49,7 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
 ## What is this anyway? 
 - How to learn a threshold concept?
 
-![what](https://j.mp/whatIsPC2)
+![what](https://j.mp/whatisPC2)
 
 # If You Are a Student Interested in a Software Job…  
 Dorai Thodla  
