@@ -24,6 +24,8 @@
 ## Bonus
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/permutePython and/or on CyberDojo
+- subset and subseq equivalent in Python
+
 
 ## Further Steps 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
