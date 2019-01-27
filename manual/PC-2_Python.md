@@ -24,7 +24,7 @@
 ## Bonus
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/permutePython and/or on CyberDojo
-- subset and subseq equivalent in Python
+- subset and subseq equivalent in Python - http://j.mp/subProblems 
 
 
 ## Further Steps 
