@@ -4,7 +4,7 @@
 What is an ideal problem set? Especially for someone who is learning Python as a first language? What set of problems will assess fundamental knowledge of computer science as well? 
 
 ## Links
-  - http://j.mp/pc2Python and http://bit.ly/pc2doc
+  - http://j.mp/pc2PythonHTML and http://bit.ly/pc2doc
   - http://j.mp/programmingProblemSetForSoftwareEngineers 
   - http://j.mp/bigIdeasInProgramming 
   - http://bit.ly/pythonPathwaysKITE
@@ -53,9 +53,10 @@ http://j.mp/reverseDictionary
 http://j.mp/ladderCD 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg3MDEwNTksLTM0Mjc4NzIyLC0xMD
-AyMDc0ODcwLC0xNTk4MzcwNDA0LDk5MzU5MjkwNywtMzYwMzEx
-NzQzLDU3OTE3OTAwNSwtMTcxNTQ5NDE1NCwxNjM3NjM5NDY4LD
-M4Nzg5OTU5MywtMTQ4OTE5NTQzNywtMTMxODI5Mjk1NiwtMjY3
-NjM0NDcsMTIwODE1MDE3MiwzNzAwMDIzODZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDU3MDYzODIsLTEwMDg3MDEwNTksLT
+M0Mjc4NzIyLC0xMDAyMDc0ODcwLC0xNTk4MzcwNDA0LDk5MzU5
+MjkwNywtMzYwMzExNzQzLDU3OTE3OTAwNSwtMTcxNTQ5NDE1NC
+wxNjM3NjM5NDY4LDM4Nzg5OTU5MywtMTQ4OTE5NTQzNywtMTMx
+ODI5Mjk1NiwtMjY3NjM0NDcsMTIwODE1MDE3MiwzNzAwMDIzOD
+ZdfQ==
 -->
