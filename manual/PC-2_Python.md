@@ -25,6 +25,9 @@
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/permutePython and/or on CyberDojo
 - subset and subseq equivalent in Python - http://j.mp/subProblems 
+   - pangram - determine whether a sentence is a pangram
+- find whether a string has duplicates 
+	- determine whether a string is an isogram 
 
 
 ## Further Steps 
