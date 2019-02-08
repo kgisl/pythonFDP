@@ -1,4 +1,4 @@
-	# Problem Set PC-2 
+# Problem Set PC-2 
 
 - PC-1 assessment http://j.mp/greet10CC 
 - Warm up 1 - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
