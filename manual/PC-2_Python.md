@@ -1,4 +1,4 @@
-# Problem Set PC-2 
+	# Problem Set PC-2 
 
 - PC-1 assessment http://j.mp/greet10CC 
 - Warm up 1 - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
@@ -24,12 +24,6 @@
 ## Bonus
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/permutePython and/or on CyberDojo
-- subset and subseq equivalent in Python - http://j.mp/subProblems 
-   - pangram - determine whether a sentence is a pangram
-   - http://bit.ly/subsetSubseq - for contrasting between subset, substring and subsequence
-- find whether a string has duplicates 
-	- determine whether a string is an isogram 
-
 
 ## Further Steps 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
@@ -42,6 +36,21 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
 
 **Phase 1:**  Just solve the problem.
 **Phase 2:** What if we had some new denominations to the choices? 
+
+## Misc 
+
+- subset and subseq equivalent in Python - http://j.mp/subProblems 
+   - pangram - determine whether a sentence is a pangram
+   - http://bit.ly/subsetSubseq - for contrasting between subset, substring and subsequence
+- find whether a string has duplicates 
+	- determine whether a string is an isogram 
+
+## Misc 2  
+  - partial pangrams 
+  - higher order isograms 
+
+## Misc 3   
+   - codify  the substring search algorithm [Knuth-Morris-Pratt](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 
 
 ## Motivations 
