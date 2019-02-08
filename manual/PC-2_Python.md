@@ -26,6 +26,7 @@
 - http://j.mp/permutePython and/or on CyberDojo
 - subset and subseq equivalent in Python - http://j.mp/subProblems 
    - pangram - determine whether a sentence is a pangram
+   - http://bit.ly/subsetSubseq - for contrasting between subset, substring and subsequence
 - find whether a string has duplicates 
 	- determine whether a string is an isogram 
 
