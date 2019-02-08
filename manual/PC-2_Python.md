@@ -51,7 +51,7 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
 
 ## Misc 3   
    - codify  the substring search algorithm [Knuth-Morris-Pratt](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-
+		- https://j.mp/kmpAlgorithmVideo by NPTEL 
 
 ## Motivations 
  - PC2 is all about learning a threshold concept (**pointers** in C, **problem solving using TDD** in Python, **patterns** like MVC in C++/Java, **promises** in JavaScript) 
@@ -62,6 +62,9 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
  - PC2 is useful as an assessment tool to validate whether students have really internalized the 1st semester paper of **CS3003**. 
  -  What is this anyway? 
 	- It is all about threshold concepts, and how to learn it. ***"Learn how to learn"*** is another takeaway! 
+- PC2 (past the Misc sections) persuades you to choose an algorithm (for e.g. KMP algorithm) of your choice, and really become passionate about it! 
+
+
 	
 	>  ![what](https://j.mp/whatisPC2)
 
