@@ -3,6 +3,7 @@
 - PC-1 assessment http://j.mp/greet10CC 
 - Warm up 1 - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
 - Warm up 2 - http://j.mp/fizzBuzzC and http://j.mp/fizzBuzzMixC on CyberDojo 
+- Pattern problem - http://j.mp/treeCC 
 
 # Learn TDD the easy way
 
