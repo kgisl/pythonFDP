@@ -1,7 +1,7 @@
 # Problem Set PC-2 
 
 - PC-1 assessment http://j.mp/greet10CC 
-- Always think on paper, ***first***! Pattern problem - http://j.mp/treeCC 
+- Always think on paper, ***first***! Pattern problem - http://j.mp/ctreeCC 
 - Warm up 1 - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
 - Warm up 2 - http://j.mp/fizzBuzzC and http://j.mp/fizzBuzzMixC on CyberDojo 
 
@@ -24,7 +24,9 @@
 
 ## Bonus
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
+- http://j.mp/spyPlaneCD - come with the most elegant code for this 
 - http://j.mp/permutePython and/or on CyberDojo
+
 
 ## Further Steps 
 - Lab Practice - http://j.mp/transposeCC and/or http://j.mp/matrixMultiplyCC 
