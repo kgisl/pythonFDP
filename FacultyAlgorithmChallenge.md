@@ -323,7 +323,7 @@ von Kempelen’s Mechanical Turk: -52 votes
 
 http://mac50.csail.mit.edu/agenda.html
 
-SESSION 1
+## SESSION 1
 9:00 AM                                   
 Fifty Years of Robotics; Now the Practical Payoff
 Rodney Brooks, Rethink Robotics, Inc
@@ -342,7 +342,7 @@ Manolis Kellis, MIT CSAIL
                        
 10:30 AM - BREAK           
  
-SESSION II
+## SESSION II
 11:00 AM                                   
  
 Akamai: From Theory to Practice
@@ -359,7 +359,7 @@ Scott Aaronson, MIT CSAIL
  
 12:25 PM - LUNCH           
  
-SESSION III
+## SESSION III
 2:00 PM
 Towards a Theory of Trust in Networks of Humans and Computers
 Jeannette Wing, Microsoft Research
@@ -377,7 +377,7 @@ Nickolai Zeldovich, MIT CSAIL
  
 3:25 PM - BREAK
  
-SESSION IV
+## SESSION IV
 4:00 PM
 Time Sharing vs Personal Computing
 Ivan Sutherland, Portland State University
@@ -400,7 +400,7 @@ Location: MIT Stata Center, 32-123 Kirsch Auditorium
  
 8:00 AM Continental Breakfast/Registration
                      
-SESSION V
+## SESSION V
 9:00 AM                                   
 Turtles All the Way Down
 Greg Papadopoulos, New Enterprise Associates
@@ -414,7 +414,7 @@ Charles Isbell, Georgia Institute of Technology
  
 10:20 AM - BREAK           
  
-SESSION VI
+## SESSION VI
 10:50 AM           
 Small, n=me, data
 Deborah Estrin, Cornell Tech NYC
@@ -436,7 +436,7 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODk0NTE1OCwyNDkxMzExNTUsLTE3NT
-M4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5MTk3LC0xNjY3OTcy
-NzkzLDIxMjQzMDczODhdfQ==
+eyJoaXN0b3J5IjpbLTE4MTkyNDM4MTQsMTAxODk0NTE1OCwyND
+kxMzExNTUsLTE3NTM4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5
+MTk3LC0xNjY3OTcyNzkzLDIxMjQzMDczODhdfQ==
 -->
