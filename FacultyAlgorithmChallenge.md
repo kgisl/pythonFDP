@@ -125,6 +125,7 @@ the core of computer science and its application to everyday lives.
 https://www.scottaaronson.com/blog/?p=608 (including the zillion comments 
 below). 
  
+
 CS timeline voting: the results are in!
 
 ### The top 10 
@@ -436,8 +437,8 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1OTIyNTUzLC0xODE5MjQzODE0LDEwMT
-g5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5MTAwLC0xMzUzNDA0
-MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5MywyMTI0MzA3Mzg4XX
-0=
+eyJoaXN0b3J5IjpbLTExMjU4NjM5MjUsNzA1OTIyNTUzLC0xOD
+E5MjQzODE0LDEwMTg5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5
+MTAwLC0xMzUzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5My
+wyMTI0MzA3Mzg4XX0=
 -->
