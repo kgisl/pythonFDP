@@ -319,7 +319,7 @@ von Kempelen’s Mechanical Turk: -52 votes
 
 
 
-## The Next 50 years of Computing by MIT 
+# The Next 50 years of Computing by MIT 
 
 http://mac50.csail.mit.edu/agenda.html
 
@@ -436,7 +436,8 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkyNDM4MTQsMTAxODk0NTE1OCwyND
-kxMzExNTUsLTE3NTM4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5
-MTk3LC0xNjY3OTcyNzkzLDIxMjQzMDczODhdfQ==
+eyJoaXN0b3J5IjpbNzA1OTIyNTUzLC0xODE5MjQzODE0LDEwMT
+g5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5MTAwLC0xMzUzNDA0
+MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5MywyMTI0MzA3Mzg4XX
+0=
 -->
