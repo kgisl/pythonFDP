@@ -51,11 +51,13 @@ employed at leading tech companies
 ## Stackoverflow TCS (Theoretical Computer Science)
 
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
-   - [Euclid's Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
+   - [Euclid's Algorithm][Euclid] features in this list
    - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
-   - From Software Engineering SO - 
-https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades  
- 
+   - From [Software Engineering SO][SESO] 
+
+
+[Euclid]: https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
+[SESO]: https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades  
 
 
 ## Personality based   
@@ -70,16 +72,19 @@ the simple tree-based data structure for disjoint-set union, using union by
 rank and path compression (Section 21.3 in the third edition of CLRS).  The 
 code is amazingly simple, the data structure operations take just barely 
 superlinear time, and the analysis (by Bob Tarjan) blows my mind.
-- https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v Keith Adams, Chief Architect at Slack
-	- Skip lists
-	- Paxos
-	- The "state machine" family of lock-free algorithms.
-
+- [Slack's Keith Adams, Chief Architect][KeithAdams] favourites  
+    - Skip lists
+    - Paxos
+    - The "state machine" family of lock-free algorithms.
 
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
 - https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American 
 Institute of Physics and the IEEE Computer Society
-	- Comments about it on [reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)  
+    - Comments about it on [reddit][redditComments]
+
+
+[KeithAdams]: https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v
+[redditComments]: https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10
 
 ## Nine Algorithms that change the World 
 
