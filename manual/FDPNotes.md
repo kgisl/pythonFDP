@@ -101,6 +101,7 @@ your students with the same.
 The Faculty Algorithmic Challenge: 
 
 1. Choose an algorithm of your choice. 
+    - For inspiration review http://j.mp/htmlFAC 
 2. Register with Lanitha on what your choice is. 
 3. Set a deadline for making a presentation on the challenge 
 
