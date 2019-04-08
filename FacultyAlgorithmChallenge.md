@@ -79,8 +79,7 @@ superlinear time, and the analysis (by Bob Tarjan) blows my mind.
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
 - https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American 
 Institute of Physics and the IEEE Computer Society
-	- Comments about it on 
-[reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)
+	- Comments about it on [reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)  
 
 ## Nine Algorithms that change the World 
 
@@ -223,6 +222,7 @@ The rest:
 	BitTorrent: 23 votes
 	Low-Density Parity Check Codes: 23 votes
 	McCulloch and Pitts’ “A Logical Calculus Immanent in Nervous 
+	
 Activity”: 22 votes
 	Engelbart and English Invent Mouse: 22 votes
 	Dijkstra’s “Go To Statement Considered Harmful”: 22 votes
@@ -432,6 +432,6 @@ Polina Golland, MIT CSAIL
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjI5NzA1OSwtMTY2Nzk3Mjc5MywyMT
-I0MzA3Mzg4XX0=
+eyJoaXN0b3J5IjpbNzc3OTk0MjczLC0xNjY3OTcyNzkzLDIxMj
+QzMDczODhdfQ==
 -->
