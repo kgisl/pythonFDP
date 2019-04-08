@@ -1,8 +1,4 @@
 
-**Table of Contents**
-
-[TOC]
-
 
 # Guidelines for Evaluation
 
@@ -435,6 +431,7 @@ Polina Golland, MIT CSAIL
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM4NDkxMDAsLTEzNTM0MDQzMjMsND
-Y2MTk5MTk3LC0xNjY3OTcyNzkzLDIxMjQzMDczODhdfQ==
+eyJoaXN0b3J5IjpbMjQ5MTMxMTU1LC0xNzUzODQ5MTAwLC0xMz
+UzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5MywyMTI0MzA3
+Mzg4XX0=
 -->
