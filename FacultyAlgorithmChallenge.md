@@ -432,5 +432,6 @@ Polina Golland, MIT CSAIL
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc5NzI3OTMsMjEyNDMwNzM4OF19
+eyJoaXN0b3J5IjpbLTM5NjI5NzA1OSwtMTY2Nzk3Mjc5MywyMT
+I0MzA3Mzg4XX0=
 -->
