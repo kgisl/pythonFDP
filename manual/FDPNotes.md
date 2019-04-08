@@ -73,8 +73,7 @@ personal level what the code is doing, statement by statement
 
 ### Incremental style of teaching / learning 
 
-http://10.100.8.8/kata/edit/3BAD00470A?avatar=hyena or 
-[alt](http://cyberdojo1.kgfsl.com/kata/edit/3BAD00470A?avatar=hyena) - for GCD 
+http://cyberdojo1.kgfsl.com/kata/edit/3BAD00470A?avatar=hyena - for GCD
 
 #### Summary: Problem solving and Programming
 - The whole course is about problem solving. What is not mentioned in the 
