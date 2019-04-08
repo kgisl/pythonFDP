@@ -38,8 +38,7 @@ How do I go about finding algorithms to get inspired by? Visit any of the follow
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
    - [Euclid's Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
    - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
-   - From Software Engineering SO - https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades
-   - 
+   - From Software Engineering SO - https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades  
  
 
 
@@ -389,5 +388,5 @@ Polina Golland, MIT CSAIL
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDMwNzM4OF19
+eyJoaXN0b3J5IjpbLTE2Njc5NzI3OTMsMjEyNDMwNzM4OF19
 -->
