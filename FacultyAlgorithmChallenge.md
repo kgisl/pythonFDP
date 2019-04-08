@@ -221,9 +221,7 @@ The rest:
 	Antikythera Mechanism: 23 votes
 	BitTorrent: 23 votes
 	Low-Density Parity Check Codes: 23 votes
-	McCulloch and Pitts’ “A Logical Calculus Immanent in Nervous 
-	
-Activity”: 22 votes
+	McCulloch and Pitts’ “A Logical Calculus Immanent in Nervous Activity”: 22 votes
 	Engelbart and English Invent Mouse: 22 votes
 	Dijkstra’s “Go To Statement Considered Harmful”: 22 votes
 	Back-Propagation: 22 votes
@@ -432,6 +430,6 @@ Polina Golland, MIT CSAIL
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3OTk0MjczLC0xNjY3OTcyNzkzLDIxMj
+eyJoaXN0b3J5IjpbNDY2MTk5MTk3LC0xNjY3OTcyNzkzLDIxMj
 QzMDczODhdfQ==
 -->
