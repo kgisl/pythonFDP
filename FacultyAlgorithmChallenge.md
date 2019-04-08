@@ -6,39 +6,62 @@
 
 # Guidelines for Evaluation
 
-**OBJECTIVE**: To tell the world why you as a CSE faculty care about algorithms, which is the bedrock of Computer Science. Secondly, your presentation must motivate and inspire your peers and students to adopt an algorithm of their choice and be inspired to make a presentation which is as fascinating as yours. 
+**OBJECTIVE**: To tell the world why you as a CSE faculty care about 
+algorithms, which is the bedrock of Computer Science. Secondly, your 
+presentation must motivate and inspire your peers and students to adopt an 
+algorithm of their choice and be inspired to make a presentation which is as 
+fascinating as yours. 
 
-**IMPORTANT**: Bonus points for adopting PechaKucha format, and sticking to 400 seconds (20 by 20). No more than 10 minutes, whatsoever. 
+**IMPORTANT**: Bonus points for adopting PechaKucha format, and sticking to 400 
+seconds (20 by 20). No more than 10 minutes, whatsoever. 
 
-> 1. Personality of the presentation - there is no right or wrong in your choice of algorithm. All that matters, why are _you_ passionate about the algorithm and what about it is so fascinating from your perspective? 
-> 2. Choose at least one real-world application that the algorithm finds use for. Don't choose more than two. Describe the real-world application. 
-> 3. Show the code for the algorithm either in pseudo code or your favourite language
-> 4. Choose whatever format makes sense to you to present all the above three. Bring your creativity to the fore. 
+> 1. Personality of the presentation - there is no right or wrong in your 
+choice of algorithm. All that matters, why are _you_ passionate about the 
+algorithm and what about it is so fascinating from your perspective? 
+> 2. Choose at least one real-world application that the algorithm finds use 
+for. Don't choose more than two. Describe the real-world application. 
+> 3. Show the code for the algorithm either in pseudo code or your favourite 
+language
+> 4. Choose whatever format makes sense to you to present all the above three. 
+Bring your creativity to the fore. 
 
 
 # Inspiration for Algorithmic Challenge
-How do I go about finding algorithms to get inspired by? Visit any of the following links. 
+How do I go about finding algorithms to get inspired by? Visit any of the 
+following links. 
 
 
 ## Quora Based    
 -  http://j.mp/AlgoKG  
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
--  https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student-must-implement-at-least-once-in-life 
-- https://www.quora.com/What-are-some-interesting-algorithms-that-have-no-known-implementation-to-date
+-  
+https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student
+-must-implement-at-least-once-in-life 
+- 
+https://www.quora.com/What-are-some-interesting-algorithms-that-have-no-known-im
+plementation-to-date
 
 ## Misc   
 - http://j.mp/algo2KG
-- http://www.scriptol.com/programming/list-algorithms.php by various application domains 
+- http://www.scriptol.com/programming/list-algorithms.php by various 
+application domains 
 -  http://www.scriptol.com/programming/graphic-algorithms.php 
-- http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-programmer-should-know-about.html
-- http://interviewkickstart.com/curriculum - what you need to know to get employed at leading tech companies 
+- 
+http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-p
+rogrammer-should-know-about.html
+- http://interviewkickstart.com/curriculum - what you need to know to get 
+employed at leading tech companies 
 
 ## Stackoverflow TCS (Theoretical Computer Science)
 
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
-   - [Euclid's Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book) features in this list
+   - [Euclid's 
+Algorithm](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-
+book) features in this list
    - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
-   - From Software Engineering SO - https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades
+   - From Software Engineering SO - 
+https://softwareengineering.stackexchange.com/questions/20128/which-are-the-sign
+ificant-algorithms-for-humankind-in-past-decades
    - 
  
 
@@ -46,45 +69,72 @@ How do I go about finding algorithms to get inspired by? Visit any of the follow
 ## Personality based   
 
 - 50 ways MIT has transformed computing - http://j.mp/mitCSE 
-- http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks of algorithms (search for "algorithm" across the article) 
+- http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks 
+of algorithms (search for "algorithm" across the article) 
     - https://news.ycombinator.com/item?id=10897460 - Hackers on Knuth's books 
 - https://www.quora.com/What-is-Professor-Thomas-Cormens-favorite-algorithm 
-	- It's not an algorithm, but a data structure.  I've always marveled at the simple tree-based data structure for disjoint-set union, using union by rank and path compression (Section 21.3 in the third edition of CLRS).  The code is amazingly simple, the data structure operations take just barely superlinear time, and the analysis (by Bob Tarjan) blows my mind.
-- https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v Keith Adams, Chief Architect at Slack
+	- It's not an algorithm, but a data structure.  I've always marveled at 
+the simple tree-based data structure for disjoint-set union, using union by 
+rank and path compression (Section 21.3 in the third edition of CLRS).  The 
+code is amazingly simple, the data structure operations take just barely 
+superlinear time, and the analysis (by Bob Tarjan) blows my mind.
+- 
+https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer
+-science/answer/Keith-Adams?srid=ul6v Keith Adams, Chief Architect at Slack
 	- Skip lists
 	- Paxos
 	- The "state machine" family of lock-free algorithms.
 
 
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
-- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American Institute of Physics and the IEEE Computer Society
-	- Comments about it on [reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10/)
+- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American 
+Institute of Physics and the IEEE Computer Society
+	- Comments about it on 
+[reddit](https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_comp
+uter_society_journal_the_top_10/)
 
 ## Nine Algorithms that change the World 
 
-An algorithm is a well defined procedure for performing a task. A household example of an algorithm is a recipe -- for example, the list of ingredients together with the sequence of instructions needed to bake a pie. In order for a computer to perform a task, it needs ingredients -- the data -- and instructions -- the algorithm.
+An algorithm is a well defined procedure for performing a task. A household 
+example of an algorithm is a recipe -- for example, the list of ingredients 
+together with the sequence of instructions needed to bake a pie. In order for a 
+computer to perform a task, it needs ingredients -- the data -- and 
+instructions -- the algorithm.
 
-Author John MacCormick, currently Professor of Computer Science at Dickinson College, has chosen nine important tasks performed by computers and explained the algorithms that are used. In a chapter devoted to each, he explains:
+Author John MacCormick, currently Professor of Computer Science at Dickinson 
+College, has chosen nine important tasks performed by computers and explained 
+the algorithms that are used. In a chapter devoted to each, he explains:
 
  - The development of search engines -- how to find information on the internet.
- - The PageRank process used by Google to produce highly relevant search results.
- - Public-key cryptography, enabling secure transmission of secret messages -- such as your credit card number -- over open communication channels.
- - Methods for detecting errors in data transmission and automatically correcting them.
- - Several pattern recognition techniques, illustrated by classifying handwritten numbers, facial recognition, and decision trees.
+ - The PageRank process used by Google to produce highly relevant search 
+results.
+ - Public-key cryptography, enabling secure transmission of secret messages -- 
+such as your credit card number -- over open communication channels.
+ - Methods for detecting errors in data transmission and automatically 
+correcting them.
+ - Several pattern recognition techniques, illustrated by classifying 
+handwritten numbers, facial recognition, and decision trees.
  - Data compression. Storing text, music, and images efficiently.
- - Databases. Storing and retrieving information efficiently. Techniques for modifying databases reliably, even when computers crash while the modification is in progress.
+ - Databases. Storing and retrieving information efficiently. Techniques for 
+modifying databases reliably, even when computers crash while the modification 
+is in progress.
  - Digital signatures. How to be certain data is trustworthy.
  - Deciding what is computable.
 
-Even though the techniques that enable these algorithms are complex, Dr. MacCormick explains them in a clear and interesting manner using well constructed examples.
+Even though the techniques that enable these algorithms are complex, Dr. 
+MacCormick explains them in a clear and interesting manner using well 
+constructed examples.
 
-I highly recommend this book for a fascinating and easily accessible look at the core of computer science and its application to everyday lives.
+I highly recommend this book for a fascinating and easily accessible look at 
+the core of computer science and its application to everyday lives.
 
 
 
 ## Timeline of Computer Science
  
- Please read https://www.scottaaronson.com/blog/?p=524 and https://www.scottaaronson.com/blog/?p=608 (including the zillion comments below). 
+ Please read https://www.scottaaronson.com/blog/?p=524 and 
+https://www.scottaaronson.com/blog/?p=608 (including the zillion comments 
+below). 
  
 CS timeline voting: the results are in!
 
@@ -183,7 +233,8 @@ The rest:
 	Antikythera Mechanism: 23 votes
 	BitTorrent: 23 votes
 	Low-Density Parity Check Codes: 23 votes
-	McCulloch and Pitts’ “A Logical Calculus Immanent in Nervous Activity”: 22 votes
+	McCulloch and Pitts’ “A Logical Calculus Immanent in Nervous 
+Activity”: 22 votes
 	Engelbart and English Invent Mouse: 22 votes
 	Dijkstra’s “Go To Statement Considered Harmful”: 22 votes
 	Back-Propagation: 22 votes
@@ -328,10 +379,12 @@ Jeannette Wing, Microsoft Research
 Harmonizing Technology with Society
 Latanya Sweeney, Harvard University
  
-On the Benefits of Coordination – Before, During, and Even After the Fact! – in Differential Privacy
+On the Benefits of Coordination – Before, During, and Even After the Fact! 
+– in Differential Privacy
 Cynthia Dwork, Microsoft Research
  
-The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors
+The Scalable Commutativity Rule: Designing Scalable Software for Multicore 
+Processors
 Nickolai Zeldovich, MIT CSAIL
  
 3:25 PM - BREAK
@@ -367,7 +420,8 @@ Greg Papadopoulos, New Enterprise Associates
 Graduate Education and Research in the Information Age
 Daniel Huttenlocher, Cornell Tech NYC
  
-Some Surprising Lessons Learned while Creating a Real MOOC-based Masters of Science
+Some Surprising Lessons Learned while Creating a Real MOOC-based Masters of 
+Science
 Charles Isbell, Georgia Institute of Technology
  
 10:20 AM - BREAK           
