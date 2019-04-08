@@ -126,7 +126,8 @@ https://www.scottaaronson.com/blog/?p=608 (including the zillion comments
 below). 
  
 
-CS timeline voting: the results are in!
+**CS timeline voting: the results are in!**
+
 
 ### The top 10 
 
@@ -141,7 +142,7 @@ CS timeline voting: the results are in!
 9. PRIMES in P: 82 votes
 10. Cook-Levin Theorem: 80 votes
 
-The rest:
+### The rest
 
 Al-Khwarizmi’s “On the Calculation with Hindu Numerals”: 79 votes
 Bardeen, Brattain, and Shockley Invent Transistor: 79 votes
@@ -437,8 +438,8 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU4NjM5MjUsNzA1OTIyNTUzLC0xOD
-E5MjQzODE0LDEwMTg5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5
-MTAwLC0xMzUzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5My
-wyMTI0MzA3Mzg4XX0=
+eyJoaXN0b3J5IjpbMjIwNTY1MTYwLDcwNTkyMjU1MywtMTgxOT
+I0MzgxNCwxMDE4OTQ1MTU4LDI0OTEzMTE1NSwtMTc1Mzg0OTEw
+MCwtMTM1MzQwNDMyMyw0NjYxOTkxOTcsLTE2Njc5NzI3OTMsMj
+EyNDMwNzM4OF19
 -->
