@@ -112,3 +112,6 @@ more than 6 minutes
 
 
 
+# Misc
+
+![cutandpaste](http://bit.ly/neverPasteCode)
