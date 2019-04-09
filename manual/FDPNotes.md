@@ -8,6 +8,7 @@ Tools / concepts introduced
 3. Markdown format for documentation
     - http://bit.ly/markdown10sec
     - http://bit.ly/markdownTutorial
+    - http://j.mp/markdownLesson
 4. PythonTutor.com
 5. Online REPL repl.it
 6. Local Geany + Python IDLE
