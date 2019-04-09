@@ -1,14 +1,16 @@
 **Table of Contents**
 
 * [Lab 8: Sorting](#lab-8-sorting)  
-	* [Select vs Insert vs Merge vs Quick](#select-vs-insert-vs-merge-vs-quick)  
+	* [Select vs Insert vs Merge vs 
+Quick](#select-vs-insert-vs-merge-vs-quick)  
 	* [Solution Key](#solution-key)  
 		* [select sort](#select-sort)  
 		* [insert  sort](#insert--sort)  
 		* [merge sort](#merge-sort)  
 		* [quick sort](#quick-sort)  
 	* [Related Material](#related-material)  
-	* [What exactly does this accomplish?](#what-exactly-does-this-accomplish)  
+	* [What exactly does this 
+accomplish?](#what-exactly-does-this-accomplish)  
 
 
 # Lab 8: Sorting
@@ -18,10 +20,21 @@ Sort the given list using selection sort and insertion sort.
 
 ## Select vs Insert vs Merge vs Quick
 
-- In `selectsort`, the position of the update is pre-determined, starting from the end of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
-- In `insertsort`, given a key, a copy of a pre-determined element in the list, we  **insert** it at the appropriate location after comparing it with the unsorted elements of the list.
-- In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
-- In `quicksort`, also a divide-and-conquer partitioning algorithm (lends itself to be efficiently implemented *in-place* without extra memory), the choice of the pivot element determines how the elements get partitioned, and calls itself recursively for the two partitions. 
+- In `selectsort`, the position of the update is pre-determined, starting from 
+the end of the list. We then go **select** the maximum value among the unsorted 
+elements of the list, and swap it with the element in the pre-determined 
+location.
+- In `insertsort`, given a key, a copy of a pre-determined element in the list, 
+we  **insert** it at the appropriate location after comparing it with the 
+unsorted elements of the list.
+- In `mergesort`, a divide-and-conquer partitioning algorithm (which more often 
+requires extra memory), the input array is divided in two halves, calls itself 
+recursively for the two halves and then merges the two sorted halves. The 
+`merge()` function is used for merging two halves.
+- In `quicksort`, also a divide-and-conquer partitioning algorithm (lends 
+itself to be efficiently implemented *in-place* without extra memory), the 
+choice of the pivot element determines how the elements get partitioned, and 
+calls itself recursively for the two partitions. 
 
 
 ## Solution Key 
@@ -130,7 +143,8 @@ def qsort(L, first=True):
 
 ## Related Material 
 
-http://bit.ly/quickSortVideoCD - a video explaining QuickSort incrementally in a CyberDojo session. 
+http://bit.ly/quickSortVideoCD - a video explaining QuickSort incrementally in 
+a CyberDojo session. 
 
 http://bit.ly/quickSortVideo
  
@@ -156,10 +170,13 @@ def merge(A, B):
         for _ in A + B if len(A) and len(B)
     ] + A + B
 ```
-A general purpose `merge` function which can merge **sorted arrays** in ascending order of their elements. The merge is accomplished by popping the element from either `A` or `B`, and then adding the remnants of `A` and `B`.  
+A general purpose `merge` function which can merge **sorted arrays** in 
+ascending order of their elements. The merge is accomplished by popping the 
+element from either `A` or `B`, and then adding the remnants of `A` and `B`.  
 
 - Review the first test in the http://bit.ly/mergeSortCD session. 
-- If you attempt to merge two arrays and avoid duplicates, then try http://j.mp/unionListCC
+- If you attempt to merge two arrays and avoid duplicates, then try 
+http://j.mp/unionListCC
 
 ```python
 from itertools import zip_longest
@@ -176,8 +193,11 @@ def mergesort(alist, verbose=False):
     return series[0]
 ```
 
-- `series` starts off with as many lists as there are elements in both the lists. 
-- `zip_longest` is used to handle odd counts in the merging of lists, since it will automatically use a suitable `[]` element to balance things out, whenever required. The `while` loop continues until there is only list in the `series`. 
+- `series` starts off with as many lists as there are elements in both the 
+lists. 
+- `zip_longest` is used to handle odd counts in the merging of lists, since it 
+will automatically use a suitable `[]` element to balance things out, whenever 
+required. The `while` loop continues until there is only list in the `series`. 
 
 
 <!--stackedit_data:
