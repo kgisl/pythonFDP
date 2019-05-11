@@ -46,7 +46,7 @@ def test_random_lists():
     tcount = 2
     low = 1
     high = 2000000
-    size_variation = [500000]
+    size_variation = [100000]
 
     def exp_func(alist):
         print("\n", alist[: 10], "...")
