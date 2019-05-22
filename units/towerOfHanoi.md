@@ -67,4 +67,5 @@ http://bit.ly/hanoiVisual
 
 ### Play with the code! 
 
-https://repl.it/@kgashok/TowerOfHanoi
+- [C++ version](https://repl.it/@kgashok/TowerOfHanoi)  
+- [Python version](https://repl.it/@kgashok/demoOfHanoi)
