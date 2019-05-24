@@ -72,5 +72,5 @@ http://bit.ly/hanoiVisual
 
 ### Virtually play Tower of Hanoi 
 
-http://bit.ly/hanoiPlay
-http://bit.ly/hanoiPlay2
+- http://bit.ly/hanoiPlay  
+- http://bit.ly/hanoiPlay2
