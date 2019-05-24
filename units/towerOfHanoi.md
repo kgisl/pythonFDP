@@ -69,3 +69,8 @@ http://bit.ly/hanoiVisual
 
 - [C++ version](https://repl.it/@kgashok/TowerOfHanoi)  
 - [Python version](https://repl.it/@kgashok/demoOfHanoi)
+
+### Virtually play Tower of Hanoi 
+
+http://bit.ly/hanoiPlay
+http://bit.ly/hanoiPlay2
