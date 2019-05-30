@@ -1,7 +1,7 @@
 
 ```python
 ################################
-#
+# Program No 0
 # simple program for histogram 
 #  - without functions
 #  - prompting user for the input 
@@ -28,7 +28,7 @@ else:
 	print("No values available to build histogram")
 
 ################################
-#
+# Program No 1
 # using dictionary to build the histogram
 # using a randomizer for input
 # functionally decomposing the logic 
@@ -71,7 +71,7 @@ for i in range(len(histo)):
 
 
 ################################
-#
+# Program No 3
 # without using dictionary
 #
 #################################
@@ -100,5 +100,5 @@ for i in range(len(histo)):
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTI2NDgyLDU4OTM0MzE5MF19
+eyJoaXN0b3J5IjpbLTExMzc1ODkzMjcsNTg5MzQzMTkwXX0=
 -->
