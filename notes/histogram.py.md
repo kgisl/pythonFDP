@@ -2,7 +2,6 @@
 # Source code
 ```python
 
-
 ################################
 # Program No 0
 # simple program for histogram 
@@ -115,7 +114,7 @@ for i in range(len(histo)):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDA5MDU3NCwtNzQzMDM3MzI4LC05Nj
-M2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMx
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTIwMTcyOTc2OTYsLTgzNDA5MDU3NCwtNz
+QzMDM3MzI4LC05NjM2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3
+OTUwOCw1ODkzNDMxOTBdfQ==
 -->
