@@ -111,10 +111,10 @@ for i in range(len(histo)):
 1. How many distinct programs are there in the above code? 
 2. What is the main advantage of Program 1 over Program 2?
 3. What is the main advantage of Program 2 over Program 1? 
-4. Modify the Program 1 to display an ordered histogram. 
+4. Modify Program 1 to display an ordered histogram. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjc2NTA0MSw4NTc5MzgxNTIsLTgzND
-A5MDU3NCwtNzQzMDM3MzI4LC05NjM2NTY0MzIsLTg2MzE5Njgz
-NiwtMTI0MTQ3OTUwOCw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbODA2MTA3MTM2LDg1NzkzODE1MiwtODM0MD
+kwNTc0LC03NDMwMzczMjgsLTk2MzY1NjQzMiwtODYzMTk2ODM2
+LC0xMjQxNDc5NTA4LDU4OTM0MzE5MF19
 -->
