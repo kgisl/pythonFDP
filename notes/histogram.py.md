@@ -1,4 +1,5 @@
 
+# Source code
 ```python
 
 ################################
@@ -103,7 +104,11 @@ for i in range(len(histo)):
     print (f'{histo[i][0]:2}', '*'*histo[i][1])
 
 ```
+
+# Assignment
+1. How many distinct program sections are there? 
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzY1NjQzMiwtODYzMTk2ODM2LC0xMj
-QxNDc5NTA4LDU4OTM0MzE5MF19
+eyJoaXN0b3J5IjpbOTc1ODcyNDc4LC05NjM2NTY0MzIsLTg2Mz
+E5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMxOTBdfQ==
 -->
