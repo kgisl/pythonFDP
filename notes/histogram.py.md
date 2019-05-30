@@ -41,15 +41,16 @@ import random
 # returns a list containing numbers 1 <= n <= maxval
 # the list will contain n elements where
 #   mincount < n < maxcount 
-def random_list(mincount, maxcount, maxval): 
+def random_list(mincount, maxcount, maxval, minval=1): 
 	size = random.randint(mincount, maxcount)
 	alist = []
 	for _ in range(size):
-		alist.append(random.randrange(1, maxval+1))		
+		alist.append(random.randrange(minval, maxval+1))		
 	return alist
 
-arlist = random_list(50, 120, 20)
+arlist = random_list(50, 120, 20, -10)
 print("A random list", arlist)
+
 
 # returns a list containig tuples with 
 # value and frequency, aka a histogram
@@ -90,6 +91,9 @@ def generate_histogram2(arlist):
     histogram = [(i,n) for i, n in enumerate(counters) if n]
     return histogram
 
+arlist = random_list(50, 120, 20) # positive integers
+print("A random list", arlist)
+
 histo = generate_histogram2(arlist)
 print("A histogram with", histo)
 
@@ -100,5 +104,6 @@ for i in range(len(histo)):
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE0Nzk1MDgsNTg5MzQzMTkwXX0=
+eyJoaXN0b3J5IjpbLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1OD
+kzNDMxOTBdfQ==
 -->
