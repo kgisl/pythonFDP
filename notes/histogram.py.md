@@ -1,5 +1,6 @@
 
 ```python
+
 ################################
 # Program No 0
 # simple program for histogram 
@@ -84,7 +85,7 @@ def generate_histogram2(arlist):
     for number in arlist:
         try:
             counters[number] += 1
-	    except:
+        except:
             print(f'**** Error with {number}!')
             print(f'--- in {histo} with {len(histo)}')
 
@@ -101,9 +102,8 @@ print("Visualizing the histogram")
 for i in range(len(histo)): 
     print (f'{histo[i][0]:2}', '*'*histo[i][1])
 
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1OD
-kzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbLTk2MzY1NjQzMiwtODYzMTk2ODM2LC0xMj
+QxNDc5NTA4LDU4OTM0MzE5MF19
 -->
