@@ -1,6 +1,5 @@
 
-# Source code
-```python
+```python 
 
 ################################
 # Program No 0
@@ -20,14 +19,14 @@ for _ in range(entries):
   counters[userval] += 1
 
 if input_list:
-	print("Input values", input_list)
-	histogram = sorted(counters.items())
-	print("Histogram", histogram)
-	print("Visualize the histogram")
-	for i in range(len(histogram)): 
-		print (f'{histogram[i][0]:2}', '*'*histogram[i][1]) 
+  print("Input values", input_list)
+  histogram = sorted(counters.items())
+  print("Histogram", histogram)
+  print("Visualize the histogram")
+  for i in range(len(histogram)): 
+    print (f'{histogram[i][0]:2}', '*'*histogram[i][1]) 
 else:
-	print("No values available to build histogram")
+  print("No values available to build histogram")
 
 ################################
 # Program No 1
@@ -44,11 +43,11 @@ import random
 # the list will contain n elements where
 #   mincount < n < maxcount 
 def random_list(mincount, maxcount, maxval, minval=1): 
-	size = random.randint(mincount, maxcount)
-	alist = []
-	for _ in range(size):
-		alist.append(random.randrange(minval, maxval+1))		
-	return alist
+  size = random.randint(mincount, maxcount)
+  alist = []
+  for _ in range(size):
+    alist.append(random.randrange(minval, maxval+1))		
+  return alist
 
 arlist = random_list(50, 120, 20, -10)
 print("A random list", arlist)
@@ -58,19 +57,19 @@ print("A random list", arlist)
 # value and frequency, aka a histogram
 from collections import defaultdict
 def generate_histogram(arlist):
-	counters = defaultdict(int) #inits value to 0
-	for number in arlist:
-			counters[number] += 1
+  counters = defaultdict(int) #inits value to 0
+  for number in arlist:
+	  counters[number] += 1
 
-	histogram = sorted(counters.items())
-	return histogram
+  histogram = sorted(counters.items())
+  return histogram
 
 histo = generate_histogram(arlist)
 print("A histogram with", histo)
 
 print("Visualizing the histogram")
 for i in range(len(histo)): 
-	print (f'{histo[i][0]:2}', '*'*histo[i][1])
+  print (f'{histo[i][0]:2}', '*'*histo[i][1])
 
 
 ################################
@@ -81,17 +80,19 @@ for i in range(len(histo)):
 
 # returns a list of tuples with value and frequency
 def generate_histogram2(arlist):
-    counters = [0] * (1+max(arlist)) # non-zero values
+  counters = [0] * (1+max(arlist)) # non-zero values
 
-    for number in arlist:
-        try:
-            counters[number] += 1
-        except:
-            print(f'**** Error with {number}!')
-            print(f'--- in {histo} with {len(histo)}')
+  for number in arlist:
+    try:
+      counters[number] += 1
+    except:
+      print(f'**** Error with {number}!')
+      print(f'--- in {histo} with {len(histo)}')
 
-    histogram = [(i,n) for i, n in enumerate(counters) if n]
-    return histogram
+  histogram = [(i,n) 
+	  for i, n in enumerate(counters) if n
+	]
+  return histogram
 
 arlist = random_list(50, 120, 20) # positive integers
 print("A random list", arlist)
@@ -100,18 +101,11 @@ histo = generate_histogram2(arlist)
 print("A histogram with", histo)
 
 print("Visualizing the histogram")
-for i in range(len(histo)): 
-    print (f'{histo[i][0]:2}', '*'*histo[i][1])
-
+for i in range(len(histo)):
+  print (f'{histo[i][0]:2}', '*'*histo[i][1])
 ```
-
-# Assignment
-1. How many distinct programs are there in the above code? 
-2. What is the main advantage of Program 1 over Program 2?
-3. What is the main advantage of Program 2 over Program 1? 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzAzNzMyOCwtOTYzNjU2NDMyLC04Nj
-MxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5MzQzMTkwXX0=
+eyJoaXN0b3J5IjpbLTYxMTYwMzM1NiwtNzQzMDM3MzI4LC05Nj
+M2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMx
+OTBdfQ==
 -->
