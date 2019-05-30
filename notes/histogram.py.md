@@ -106,9 +106,13 @@ for i in range(len(histo)):
 ```
 
 # Assignment
-1. How many distinct program sections are there? 
-2. 
+1. How many distinct programs are there in the above code? 
+2. What is the difference between Program 1 and Program 2?
+3. What is the mainadvantage of Program 1 over Program 2?
+4. What is the main advantage of Program 2 over Program 1? 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1ODcyNDc4LC05NjM2NTY0MzIsLTg2Mz
-E5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbMTM1ODAzMjYyNSwtOTYzNjU2NDMyLC04Nj
+MxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5MzQzMTkwXX0=
 -->
