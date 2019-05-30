@@ -30,8 +30,8 @@ else:
 ################################
 # Program No 1
 # using dictionary to build the histogram
-# using a randomizer for input
-# functionally decomposing the logic 
+#   - using a randomizer for input
+#   - functionally decomposing the logic 
 #
 #################################
 # Build a histogram
@@ -71,9 +71,9 @@ for i in range(len(histo)):
 
 
 ################################
-# Program No 3
+# Program No 2
 # without using dictionary
-#
+# 
 #################################
 
 # returns a list of tuples with value and frequency
@@ -100,5 +100,5 @@ for i in range(len(histo)):
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc1ODkzMjcsNTg5MzQzMTkwXX0=
+eyJoaXN0b3J5IjpbLTEyNDE0Nzk1MDgsNTg5MzQzMTkwXX0=
 -->
