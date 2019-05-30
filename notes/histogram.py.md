@@ -78,14 +78,14 @@ for i in range(len(histo)):
 
 # returns a list of tuples with value and frequency
 def generate_histogram2(arlist):
-	counters = [0] * (1+max(arlist)) # non-zero values
+    counters = [0] * (1+max(arlist)) # non-zero values
 
-	for number in arlist:
-	    try:
-		    counters[number] += 1
+    for number in arlist:
+        try:
+            counters[number] += 1
 	    except:
-	        print(f'**** Error with {number}!')
-	        print(f'--- in {histo} with {len(histo)}')
+            print(f'**** Error with {number}!')
+            print(f'--- in {histo} with {len(histo)}')
 
     histogram = [(i,n) for i, n in enumerate(counters) if n]
     return histogram
@@ -100,5 +100,5 @@ for i in range(len(histo)):
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDAzOTc2Niw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbLTY5NTI2NDgyLDU4OTM0MzE5MF19
 -->
