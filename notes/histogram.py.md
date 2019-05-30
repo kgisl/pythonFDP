@@ -81,24 +81,24 @@ def generate_histogram2(arlist):
 	counters = [0] * (1+max(arlist)) # non-zero values
 
 	for number in arlist:
-		try:
-			counters[number] += 1
-		except:
-			print(f'**** Error with {number}!')
-			print(f'--- in {histo} with {len(histo)}')
+	    try:
+		    counters[number] += 1
+	    except:
+	        print(f'**** Error with {number}!')
+	        print(f'--- in {histo} with {len(histo)}')
 
-	histogram = [(i,n) for i, n in enumerate(counters) if n]
-	return histogram
+    histogram = [(i,n) for i, n in enumerate(counters) if n]
+    return histogram
 
 histo = generate_histogram2(arlist)
 print("A histogram with", histo)
 
 print("Visualizing the histogram")
 for i in range(len(histo)): 
-	print (f'{histo[i][0]:2}', '*'*histo[i][1])
+    print (f'{histo[i][0]:2}', '*'*histo[i][1])
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MzQzMTkwXX0=
+eyJoaXN0b3J5IjpbMTU0MDAzOTc2Niw1ODkzNDMxOTBdfQ==
 -->
