@@ -40,7 +40,7 @@ else:
 
 import random
 # build a random list 
-# returns a list containing numbers 1 <= n <= maxval
+# returns a list containing numbers 1 <= v <= maxval
 # the list will contain n elements where
 #   mincount < n < maxcount 
 def random_list(mincount, maxcount, maxval, minval=1): 
@@ -114,7 +114,7 @@ for i in range(len(histo)):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcyOTc2OTYsLTgzNDA5MDU3NCwtNz
-QzMDM3MzI4LC05NjM2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3
-OTUwOCw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbODU3OTM4MTUyLC04MzQwOTA1NzQsLTc0Mz
+AzNzMyOCwtOTYzNjU2NDMyLC04NjMxOTY4MzYsLTEyNDE0Nzk1
+MDgsNTg5MzQzMTkwXX0=
 -->
