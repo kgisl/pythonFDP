@@ -114,8 +114,32 @@ for i in range(len(histo)):
 4. Modify Program 1 to display an ordered histogram. 
 
 [//]: http://bit.ly/histoThis 
+
+# Misc
+
+```python
+###########################
+#
+# from Charulatha PDF
+#
+###########################
+def histogram(items):
+	for n in items:
+		output = ''
+		times = n
+		while( times > 0 ):
+			output += '@'
+			times = times - 1
+		print(output)
+
+histogram([2, 3, 6, 5])
+```
+
+1. Provide commentary on the above code snippet
+2. Why not use this code for teaching? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMzQ0NDUwLDgwNjEwNzEzNiw4NTc5Mz
-gxNTIsLTgzNDA5MDU3NCwtNzQzMDM3MzI4LC05NjM2NTY0MzIs
-LTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbLTk5Nzk3NTUxNCw1MDMzNDQ0NTAsODA2MT
+A3MTM2LDg1NzkzODE1MiwtODM0MDkwNTc0LC03NDMwMzczMjgs
+LTk2MzY1NjQzMiwtODYzMTk2ODM2LC0xMjQxNDc5NTA4LDU4OT
+M0MzE5MF19
 -->
