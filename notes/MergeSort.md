@@ -9,7 +9,7 @@
     - Animation
         - Refer to notes for the Unit 4 
 - InsertionSort 
-    - What is i 
+    - What are list comprehensions? Provide a sample  
     - TBD 
    
 - MergeSort 
@@ -156,5 +156,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ0NjQ4NzgsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbNDA4Njg2ODAxLC0zNDE3NjIxNDVdfQ==
 -->
