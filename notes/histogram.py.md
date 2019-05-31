@@ -138,11 +138,11 @@ def histogram(items):
 histogram([2, 3, 6, 5])
 ```
 
-2. Write a program that prints a histogram of frequencies of characters occurring in a message.
+4. Write a program that prints a histogram of frequencies of characters occurring in a message.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTkxMDMyMSwtMzY5MDcwNTAsNTAzMz
-Q0NDUwLDgwNjEwNzEzNiw4NTc5MzgxNTIsLTgzNDA5MDU3NCwt
-NzQzMDM3MzI4LC05NjM2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MT
-Q3OTUwOCw1ODkzNDMxOTBdfQ==
+eyJoaXN0b3J5IjpbMTc0MjU4MTI2MSwtNzA5OTEwMzIxLC0zNj
+kwNzA1MCw1MDMzNDQ0NTAsODA2MTA3MTM2LDg1NzkzODE1Miwt
+ODM0MDkwNTc0LC03NDMwMzczMjgsLTk2MzY1NjQzMiwtODYzMT
+k2ODM2LC0xMjQxNDc5NTA4LDU4OTM0MzE5MF19
 -->
