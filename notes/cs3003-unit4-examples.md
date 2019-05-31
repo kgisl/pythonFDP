@@ -7,9 +7,9 @@
     - TBD 
     - TBD 
     - Animation
-        - 
+        - Refer to notes for the Unit 4 
 - InsertionSort 
-    - TBD 
+    - What is 
     - TBD 
    
 - MergeSort 
@@ -156,5 +156,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ2MzE1OTMsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbMTU1OTkwNTgwMSwtMzQxNzYyMTQ1XX0=
 -->
