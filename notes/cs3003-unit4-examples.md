@@ -62,7 +62,19 @@ def selectsort(a):
 
 ## Source code
 
-
+```python
+n=int(input("Enter the size of the list:"))
+print("Enter the numbers:")
+a=[int(input())for i in range(n)]
+print("The list elements are: ",a)
+for i in range(n):
+    smallest= i 
+    for j in range(i+1, len(a)): 
+        if a[smallest] > a[j]: 
+            smallest = j 
+    a[i],a[smallest]=a[smallest],a[i]
+print("The sorted list is:",a)
+```
 
 # MergeSort
 
@@ -144,5 +156,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbLTE2MTQ2MzE1OTMsLTM0MTc2MjE0NV19
 -->
