@@ -1,7 +1,8 @@
 
+[//]: http://bit.ly/histoThis 
+
 # Source code
 ```python
-
 ################################
 # Program No 0
 # simple program for histogram 
@@ -113,8 +114,6 @@ for i in range(len(histo)):
 3. What is the main advantage of Program 2 over Program 1? 
 4. Modify Program 1 to display an ordered histogram. 
 
-[//]: http://bit.ly/histoThis 
-
 # Misc
 
 1. Provide commentary on the below program source code
@@ -141,7 +140,7 @@ histogram([2, 3, 6, 5])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxMjE3OTYwLDUwMzM0NDQ1MCw4MDYxMD
+eyJoaXN0b3J5IjpbNDUzNDkxMjg2LDUwMzM0NDQ1MCw4MDYxMD
 cxMzYsODU3OTM4MTUyLC04MzQwOTA1NzQsLTc0MzAzNzMyOCwt
 OTYzNjU2NDMyLC04NjMxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5Mz
 QzMTkwXX0=
