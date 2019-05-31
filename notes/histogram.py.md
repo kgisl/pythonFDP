@@ -117,6 +117,10 @@ for i in range(len(histo)):
 
 # Misc
 
+1. Provide commentary on the below program source code
+2. Is it okay to use this code for teaching? 
+3. If not, why not? 
+
 ```python
 ###########################
 #
@@ -135,12 +139,9 @@ def histogram(items):
 histogram([2, 3, 6, 5])
 ```
 
-1. Provide commentary on the above program source code
-2. Why not use this code for teaching? 
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTIzMDYyLDUwMzM0NDQ1MCw4MDYxMD
+eyJoaXN0b3J5IjpbODMxMjE3OTYwLDUwMzM0NDQ1MCw4MDYxMD
 cxMzYsODU3OTM4MTUyLC04MzQwOTA1NzQsLTc0MzAzNzMyOCwt
 OTYzNjU2NDMyLC04NjMxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5Mz
 QzMTkwXX0=
