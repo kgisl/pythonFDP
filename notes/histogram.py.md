@@ -127,20 +127,20 @@ for i in range(len(histo)):
 #
 ###########################
 def histogram(items):
-	for n in items:
-		output = ''
-		times = n
-		while(times > 0):
-			output += '@'
-			times = times - 1
-		print(output)
+  for n in items:
+    output = ''
+	times = n
+	while(times > 0):
+	  output += '@'
+	  times = times - 1
+	  print(output)
 
 histogram([2, 3, 6, 5])
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzNDkxMjg2LDUwMzM0NDQ1MCw4MDYxMD
+eyJoaXN0b3J5IjpbLTM2OTA3MDUwLDUwMzM0NDQ1MCw4MDYxMD
 cxMzYsODU3OTM4MTUyLC04MzQwOTA1NzQsLTc0MzAzNzMyOCwt
 OTYzNjU2NDMyLC04NjMxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5Mz
 QzMTkwXX0=
