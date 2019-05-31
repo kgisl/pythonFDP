@@ -113,8 +113,9 @@ for i in range(len(histo)):
 3. What is the main advantage of Program 2 over Program 1? 
 4. Modify Program 1 to display an ordered histogram. 
 
+[//]: http://bit.ly/histoThis 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2MTA3MTM2LDg1NzkzODE1MiwtODM0MD
-kwNTc0LC03NDMwMzczMjgsLTk2MzY1NjQzMiwtODYzMTk2ODM2
-LC0xMjQxNDc5NTA4LDU4OTM0MzE5MF19
+eyJoaXN0b3J5IjpbNTAzMzQ0NDUwLDgwNjEwNzEzNiw4NTc5Mz
+gxNTIsLTgzNDA5MDU3NCwtNzQzMDM3MzI4LC05NjM2NTY0MzIs
+LTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzNDMxOTBdfQ==
 -->
