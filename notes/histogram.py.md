@@ -137,9 +137,11 @@ histogram([2, 3, 6, 5])
 
 1. Provide commentary on the above program source code
 2. Why not use this code for teaching? 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MTM2NTgsNTAzMzQ0NDUwLDgwNjEwNz
-EzNiw4NTc5MzgxNTIsLTgzNDA5MDU3NCwtNzQzMDM3MzI4LC05
-NjM2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzND
-MxOTBdfQ==
+eyJoaXN0b3J5IjpbMTkxMTIzMDYyLDUwMzM0NDQ1MCw4MDYxMD
+cxMzYsODU3OTM4MTUyLC04MzQwOTA1NzQsLTc0MzAzNzMyOCwt
+OTYzNjU2NDMyLC04NjMxOTY4MzYsLTEyNDE0Nzk1MDgsNTg5Mz
+QzMTkwXX0=
 -->
