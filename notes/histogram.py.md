@@ -127,7 +127,7 @@ def histogram(items):
 	for n in items:
 		output = ''
 		times = n
-		while( times > 0 ):
+		while(times > 0):
 			output += '@'
 			times = times - 1
 		print(output)
@@ -135,11 +135,11 @@ def histogram(items):
 histogram([2, 3, 6, 5])
 ```
 
-1. Provide commentary on the above code snippet
+1. Provide commentary on the above program source code
 2. Why not use this code for teaching? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Nzk3NTUxNCw1MDMzNDQ0NTAsODA2MT
-A3MTM2LDg1NzkzODE1MiwtODM0MDkwNTc0LC03NDMwMzczMjgs
-LTk2MzY1NjQzMiwtODYzMTk2ODM2LC0xMjQxNDc5NTA4LDU4OT
-M0MzE5MF19
+eyJoaXN0b3J5IjpbMjU4MTM2NTgsNTAzMzQ0NDUwLDgwNjEwNz
+EzNiw4NTc5MzgxNTIsLTgzNDA5MDU3NCwtNzQzMDM3MzI4LC05
+NjM2NTY0MzIsLTg2MzE5NjgzNiwtMTI0MTQ3OTUwOCw1ODkzND
+MxOTBdfQ==
 -->
