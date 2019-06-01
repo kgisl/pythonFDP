@@ -236,18 +236,19 @@ print(mergesort(alist))
       - Create a list of tuples from a dictionary that contains all the key:value pairs. 
           - Sort the tuples in the list based on its value in descending order
           - Write code for both the above. 
-     - Can a list like `[1, 2, 3]` be a key in a dictionary? Why not? 
-     - Can a tuple like `(5, 10)` be a key in a dictionary? Why not? 
+     - Can a string be a key in a dictionary? Can a list like `[1, 2, 3]` be a key in a dictionary? Why not? 
+     - Can an integer be a key in the dictionary? Can a tuple like `(5, 10)` be a key in a dictionary? Why not? 
+     
        
       - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2MjE4MDEsLTMyMjQyMDQwNiwtMT
-UwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5
-OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLD
-c4ODQ0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NCwxNDI5Mzcz
-ODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMT
-YwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5
-MTk3XX0=
+eyJoaXN0b3J5IjpbMjA5NDQ3MzM3MCwtMzIyNDIwNDA2LC0xNT
+A2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwxNjA0ODk5
+MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00NTgwMzU2NTIsNz
+g4NDQ4MTExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4
+MTcsMjA4NDU4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNj
+A5NDMwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkx
+OTddfQ==
 -->
