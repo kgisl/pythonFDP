@@ -168,18 +168,17 @@ Notice that at each level we divide the array into two halves until we get bunch
 ## Algorithm
 The basic steps in the recursive MergeSort Algorithm is as follows: 
 
-Func MERGESORT: 
-    input (unsorted list of elements)  `ulist` 
-    output (sorted list of elements)   `slist`
+	Func MERGESORT: 
+	    input (unsorted list of elements)  `ulist` 
+	    output (sorted list of elements)   `slist`
 
-- TERMINAL CASE: 
-	- If size of list is 0 or 1, return (*since it is already sorted*)
-
-- Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist 
-- Recursively call MergeSort on the left sublist (`leftA`) 
-- Recursively call MergeSort on the right sublist (`leftB`) 
-- Merge the sorted left and sorted right sublists to form one sorted list 
-- Return the sorted list (`slist`) 
+	- TERMINAL CASE: 
+		- if size of list is 0 or 1, return (since it is sorted)
+	- Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist 
+	- Recursively call MergeSort on the left sublist (`leftA`) 
+	- Recursively call MergeSort on the right sublist (`leftB`) 
+	- Merge the sorted left and sorted right sublists to form one sorted list 
+	- Return the sorted list (`slist`) 
 
 ## MergeSort implementation in Python
 
@@ -227,10 +226,10 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NDQ4MTExLC0zMjM3ODQ2NzQsNjUyOD
-E4MjU0LDE0MjkzNzM4MTcsMjA4NDU4OTU2NCwyMTMzMjQ3ODU0
-LDM3NTg1MDE5NCwxNjA5NDMwNzY4LC0xOTg3MzkzOTU2LDIyMD
-I5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2MjIsLTE0ODU5ODEy
-MDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsOD
-E1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbLTEwODg2NTU4MjcsNzg4NDQ4MTExLC0zMj
+M3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4NDU4OTU2
+NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5NDMwNzY4LC0xOT
+g3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2
+MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLD
+E1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
