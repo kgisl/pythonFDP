@@ -123,8 +123,26 @@ More detailed pseudo-code:
     return sorted list
    
 	   
-## Source code
+## Source code 2
 
+```python
+def insertsort(alist):
+    for i in range(1,len(alist)):
+        key = alist.pop(i)
+        position = i
+        while position > 0 and alist[position-1] > key: 
+            alist[position] = alist[position-1]
+            position -= 1
+        if position != i: 
+            alist[position] = key
+            #alist.insert(position, key) 
+        # insort(alist, key, hi=i)
+        print(key, alist)
+    return alist
+
+alist = ['3', '2', '1', '5', '4', '7', '8', '6']
+print(insertsort(alist))
+```
 
 # MergeSort
 
@@ -212,9 +230,9 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MjE1MTY0LDIxMzMyNDc4NTQsMzc1OD
-UwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUs
-MTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNz
-MzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIy
-NDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbLTEyODY4MDM0MDAsMjEzMzI0Nzg1NCwzNz
+U4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1
+NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LD
+I3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYx
+MjI0NSwtMzQxNzYyMTQ1XX0=
 -->
