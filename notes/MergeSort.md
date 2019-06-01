@@ -17,7 +17,7 @@
 	    - Looping through a list  - write code to iterate through the elements in a list
 		    - Using indexing 
 		    - Without using indexing 
-		    - Using a `while` 
+		    - Using a `while` statement 
         -  pop() - what does it do? Does it accept any arguments?
             - does `alist.pop()` have the same effect as `alist.pop(0)`?
             - How to use `pop()` to remove the last element in the list? 
@@ -29,6 +29,7 @@
                      `print(alist[-1], alist[0])` 
              - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
             - Contrast between `del`, `pop` and `remove` effect on a list
+            - Write a function that takes a list as argument and prints the contents of the 
         - Merging 
 	        - In how many ways can you append two lists?
 	        -  What does the method `extend` perform for a list? 
@@ -167,6 +168,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjkyMzkzMSw4MTU2MTIyNDUsLTM0MT
+eyJoaXN0b3J5IjpbMTIyMDUwMDMyNiw4MTU2MTIyNDUsLTM0MT
 c2MjE0NV19
 -->
