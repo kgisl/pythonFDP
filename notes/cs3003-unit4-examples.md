@@ -32,6 +32,7 @@
         - How to get the first 3 elements in the list and create another list out of those elements? 
         - How to get the last 3 elements in a list and create another list of of those elements?
         - How to get all the elements to the right of the midpoint of a list and place it in another list? 
+        - Write a function `sliceInTwo` which accepts a list as argument. It should returns two lists which contain the elements of the 
      - Misc 
          - Provide an example for using the ternary operator in Python
          - What is the most critical thing that is to be specified in a recursive call so that the program does not run forever? 
@@ -161,5 +162,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMTg5MDg2NTYyNiw4MTU2MTIyNDUsLTM0MT
+c2MjE0NV19
 -->
