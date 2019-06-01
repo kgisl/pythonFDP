@@ -77,7 +77,7 @@ http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 ```python
 def selectsort(a):
   n = len(a) 
-  for i in range(n):
+  for i in range(n-1):
     smallest = min(a[i:])
     index_of_smallest=a.index(smallest, i)
     a[i],a[index_of_smallest]=a[index_of_smallest],a[i]
@@ -200,8 +200,9 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5OD
-czOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYy
-MiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMT
-U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMTYwOT
+QzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5MTk3
+LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LDI3MzM5NTk0NywtMT
+g5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYxMjI0NSwtMzQxNzYy
+MTQ1XX0=
 -->
