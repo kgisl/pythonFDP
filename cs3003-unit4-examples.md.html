@@ -51,8 +51,8 @@
 <li><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a></li>
 <li><a href="http://j.mp/mergeVisual">http://j.mp/mergeVisual</a></li>
 <li><a href="http://bit.ly/histogramVisual">http://bit.ly/histogramVisual</a></li>
+<li><a href="https://www.toptal.com/developers/sorting-algorithms">https://www.toptal.com/developers/sorting-algorithms</a></li>
 </ul>
-<p><a href="https://www.toptal.com/developers/sorting-algorithms">https://www.toptal.com/developers/sorting-algorithms</a></p>
 <p>Different</p>
 <ul>
 <li>
@@ -177,8 +177,8 @@ return sorted list
 <span class="token keyword">def</span> <span class="token function">insertsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
 	n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
 	<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-		key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
-		insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
+        key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
 	<span class="token keyword">return</span> alist
 
 alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">32</span><span class="token punctuation">,</span> <span class="token number">26</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">32</span><span class="token punctuation">,</span> <span class="token number">48</span><span class="token punctuation">,</span> <span class="token number">35</span><span class="token punctuation">,</span> <span class="token number">47</span><span class="token punctuation">,</span> <span class="token number">72</span><span class="token punctuation">]</span>
@@ -199,7 +199,7 @@ return sorted list
 	n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
     <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
         key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
-		<span class="token comment"># insort(alist, key, hi=i)</span>
+        <span class="token comment"># insort(alist, key, hi=i)</span>
         j <span class="token operator">=</span> i
         <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
             j <span class="token operator">-=</span> <span class="token number">1</span>
@@ -235,32 +235,18 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 </ul>
 <h2 id="algorithm-2">Algorithm</h2>
 <p>The basic steps in the recursive MergeSort Algorithm is as follows:</p>
-<p>Func MERGESORT:<br>
-input (unsorted list of elements)  <code>ulist</code><br>
-output (sorted list of elements)   <code>slist</code></p>
-<ul>
-<li>
-<p>TERMINAL CASE:</p>
-<ul>
-<li>If size of list is 0 or 1, return (<em>since it is already sorted</em>)</li>
-</ul>
-</li>
-<li>
-<p>Split the unsorted list (<code>ulist</code>) into equal sublists: left sublist and right sublist</p>
-</li>
-<li>
-<p>Recursively call MergeSort on the left sublist (<code>leftA</code>)</p>
-</li>
-<li>
-<p>Recursively call MergeSort on the right sublist (<code>leftB</code>)</p>
-</li>
-<li>
-<p>Merge the sorted left and sorted right sublists to form one sorted list</p>
-</li>
-<li>
-<p>Return the sorted list (<code>slist</code>)</p>
-</li>
-</ul>
+<pre><code>Func MERGESORT: 
+    input (unsorted list of elements)  `ulist` 
+    output (sorted list of elements)   `slist`
+
+- TERMINAL CASE: 
+	- if size of list is 0 or 1, return (since it is sorted)
+- Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist 
+- Recursively call MergeSort on the left sublist (`leftA`) 
+- Recursively call MergeSort on the right sublist (`leftB`) 
+- Merge the sorted left and sorted right sublists to form one sorted list 
+- Return the sorted list (`slist`) 
+</code></pre>
 <h2 id="mergesort-implementation-in-python">MergeSort implementation in Python</h2>
 <p>Visualize at <a href="http://tinyurl.com/visualMerge">http://tinyurl.com/visualMerge</a></p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token comment"># a helper function for the mergesort function</span>
