@@ -96,6 +96,8 @@ def selectsort(a):
 	  'extract' the element X
 	  insert into list at the relevant index so it remains sorted
     return sorted list 
+
+
     
 More detailed pseudo-code: 
 
@@ -198,8 +200,8 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTc1NjYyNiwxNjA5NDMwNzY4LC0xOT
-g3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2
-MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLD
-E1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5OD
+czOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYy
+MiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMT
+U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
