@@ -59,6 +59,7 @@ Different
 # SelectionSort 
 
 http://j.mp/selectVisual 
+http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
 ## Algorithm
 
@@ -79,6 +80,7 @@ def selectsort(a):
 
 - http://j.mp/insertVisual 
 - http://j.mp/interactInsert using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
+- [http://j.mp/compareSort](http://j.mp/compareSort)
 
 ## Algorithm
 
@@ -179,7 +181,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA0NDQyMTcsLTE0ODU5ODEyMDUsMj
+eyJoaXN0b3J5IjpbLTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMj
 czMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEy
 MjQ1LC0zNDE3NjIxNDVdfQ==
 -->
