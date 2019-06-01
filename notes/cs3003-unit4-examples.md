@@ -46,9 +46,22 @@ def selectsort(a):
 
 # InsertionSort 
 
-
+## Pre-requisites
 - http://j.mp/insertVisual 
 - http://j.mp/interactInsert using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
+ -  pop() - what does it do? Does it accept any arguments?
+    - does `alist.pop()` have the same effect as `alist.pop(0)`?
+    - How to use `pop()` to remove the last element in the list? 
+    - How to use `pop()` to remove the first element in the list?
+    - Assume `alist` contains 4 elements `['one', 'two', 'three', 'four', 'zero']`. If you execute the following code, what will be the output? 
+               `alist.pop(0)`
+               `alist.pop()` 
+               `alist.pop(0)`
+             `print(alist[-1], alist[0])` 
+     - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
+    - Contrast between `del`, `pop` and `remove` effect on a list
+    - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
+
 
 ## Algorithm
 	mark first element as sorted
@@ -111,18 +124,6 @@ print(insertsort(alist))
 	    - Using indexing 
 	    - Without using indexing 
 	    - Using a `while` statement 
-      -  pop() - what does it do? Does it accept any arguments?
-          - does `alist.pop()` have the same effect as `alist.pop(0)`?
-          - How to use `pop()` to remove the last element in the list? 
-          - How to use `pop()` to remove the first element in the list?
-          - Assume `alist` contains 4 elements `['one', 'two', 'three', 'four', 'zero']`. If you execute the following code, what will be the output? 
-                     `alist.pop(0)`
-                     `alist.pop()` 
-                     `alist.pop(0)`
-                   `print(alist[-1], alist[0])` 
-           - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
-          - Contrast between `del`, `pop` and `remove` effect on a list
-          - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
       - Merging 
         - In how many ways can you append two lists?
         -  What does the method `extend` perform for a list? 
@@ -238,11 +239,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI4NDAyNzMsMTYwNDg5OTE2NSwtNz
-A5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODEx
-MSwtMzIzNzg0Njc0LDY1MjgxODI1NCwxNDI5MzczODE3LDIwOD
-Q1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMTYwOTQzMDc2
-OCwtMTk4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5MTk3LC0xNT
-c0MzM1NjIyLC0xNDg1OTgxMjA1LDI3MzM5NTk0NywtMTg5OTQ2
-OTI2MF19
+eyJoaXN0b3J5IjpbLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03MD
+kxMzM3NTUsODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4NDQ4MTEx
+LC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4ND
+U4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5NDMwNzY4
+LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1Nz
+QzMzU2MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5
+MjYwXX0=
 -->
