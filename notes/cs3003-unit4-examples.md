@@ -101,8 +101,8 @@ def selectsort(a):
 
 from bisect import insort
 def insertsort(alist):
-	n = len(a)
-	for i in range(len(alist)):
+	n = len(alist)
+	for i in range(n):
 		key = alist.pop()
 		insort(alist, key, hi=i)
 	return alist
@@ -212,9 +212,9 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDQ1ODc2NSwyMTMzMjQ3ODU0LDM3NT
-g1MDE5NCwxNjA5NDMwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1
-LDEzMTMxMzkxOTcsLTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMj
-czMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEy
-MjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMzk2MjE1MTY0LDIxMzMyNDc4NTQsMzc1OD
+UwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUs
+MTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNz
+MzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIy
+NDUsLTM0MTc2MjE0NV19
 -->
