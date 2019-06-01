@@ -62,6 +62,8 @@ Different
 http://j.mp/selectVisual 
 http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
+- [http://j.mp/compareSort](http://j.mp/compareSort)
+
 ## Algorithm
 
 	repeat (numOfElements - 1) times
@@ -87,7 +89,6 @@ def selectsort(a):
 
 - http://j.mp/insertVisual 
 - http://j.mp/interactInsert using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
-- [http://j.mp/compareSort](http://j.mp/compareSort)
 
 ## Algorithm
 	mark first element as sorted
@@ -226,10 +227,10 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODg2NTU4MjcsNzg4NDQ4MTExLC0zMj
-M3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4NDU4OTU2
-NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5NDMwNzY4LC0xOT
-g3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2
-MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLD
-E1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMTUyOTI1ODQzMSw3ODg0NDgxMTEsLTMyMz
+c4NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0
+LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5OD
+czOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYy
+MiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMT
+U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
