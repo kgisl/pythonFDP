@@ -50,7 +50,7 @@ def selectsort(a):
 ## Pre-requisites
 - http://j.mp/insertVisual 
 - http://j.mp/interactInsert using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
- -  pop() - what does it do? Does it accept any arguments?
+ -  `pop()` - what does it do? Does it accept any arguments? What does `push()` do? Does it accept an argument as well?
     - does `alist.pop()` have the same effect as `alist.pop(0)`?
     - How to use `pop()` to remove the last element in the list? 
     - How to use `pop()` to remove the first element in the list?
@@ -240,11 +240,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2MD
-Q4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1ODAzNTY1
-Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOT
-M3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0
-LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMz
-EzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5
-NDddfQ==
+eyJoaXN0b3J5IjpbMTgwMjQ2NTgyNiwxMTIzNzY0MDczLC00OT
+A1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEz
+MSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0LDY1Mj
+gxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1
+NCwzNzU4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMj
+AyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgx
+MjA1XX0=
 -->
