@@ -48,7 +48,7 @@ Different
    
   - Histogram 
 	  - Write a sample code snippet which uses list comprehension to create a list of numbers from 1 to 10 
-      - Use the built-in divmod() function to divide 222 by 7 and unpack the quotient and remainder into a tuple, and print the tuple   
+      - Use the built-in **divmod**() function to divide 222 by 7 and unpack the quotient and remainder into a tuple, and print the tuple   
       - Create a list that contains all the keys in a dictionary. What is the code?
       - Create a list that contains all the values in a dictionary. What is the code?
       - Create a list of tuples from a dictionary that contains all the key:value pairs. 
@@ -178,7 +178,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE3MTc1ODksMjczMzk1OTQ3LC0xOD
+eyJoaXN0b3J5IjpbLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xOD
 k5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIx
 NDVdfQ==
 -->
