@@ -154,7 +154,8 @@ Notice that at each level we divide the array into two halves until we get bunch
 
 ## Merge example 
 
-1. How many lists are there in Row 4? 
+0. Use a 4-element array to explain mergesort - why should 
+1.  How many lists are there in Row 4? 
 2. Until what row is **Divide** happening? 
 3. From which row onwards **Conquer** has begun? 
 
@@ -244,11 +245,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMj
-I0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0
-MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLT
-Q1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgy
-NTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMz
-c1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTE2ODA4MDI2NjksLTM1MDk0NTUzNywyMD
+k0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2
+NDA3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NS
+w4MzU5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4
+NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LD
+IxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODcz
+OTM5NTZdfQ==
 -->
