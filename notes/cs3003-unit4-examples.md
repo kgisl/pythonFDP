@@ -81,16 +81,16 @@ More detailed pseudo-code:
 
 ```python
 def insertsort(alist):
-	n = len(alist)
-    for i in range(1, n):
-        key = alist.pop(i)
-        # insort(alist, key, hi=i)
-        j = i
-        while j > 0 and alist[j-1] > key: 
-            j -= 1
-        alist.insert(j, key) 
-        print(key, alist)
-    return alist
+  n = len(alist)
+  for i in range(1, n):
+    key = alist.pop(i)
+    # insort(alist, key, hi=i)
+    j = i
+    while j > 0 and alist[j-1] > key: 
+      j -= 1
+    alist.insert(j, key) 
+    print(key, alist)
+  return alist
 
 alist = ['3', '2', '1', '5', '4', '7', '8', '6']
 print(insertsort(alist))
@@ -227,11 +227,11 @@ print(mergesort(alist))
       - Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI4NDQxNTYsLTQ1ODAzNTY1Miw3OD
-g0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3Mzgx
-NywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MD
-k0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5
-NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLT
-E4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2
-MjE0NV19
+eyJoaXN0b3J5IjpbLTk0NjQwMDc0MCwtNDU4MDM1NjUyLDc4OD
+Q0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NCwxNDI5MzczODE3
+LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMTYwOT
+QzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5MTk3
+LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LDI3MzM5NTk0NywtMT
+g5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYxMjI0NSwtMzQxNzYy
+MTQ1XX0=
 -->
