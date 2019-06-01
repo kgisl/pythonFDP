@@ -15,6 +15,8 @@
  - http://j.mp/selectVisual 
  - http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
+  - Which built-in function helps find the minimum element in a list? 
+	  - What happen
 ## In-class Demo
 - [http://j.mp/compareSort](http://j.mp/compareSort)
 
@@ -33,7 +35,7 @@ def selectsort(a):
   for i in range(n-1):
     smallest = min(a[i:])
     index_of_smallest=a.index(smallest, i)
-    a[i],a[index_of_smallest]=a[index_of_smallest],a[i]
+    a[i],a[index_of_smallest] = a[index_of_smallest],a[i]
   return a
 
 
@@ -232,11 +234,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1OD
-AzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQs
-MTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1OD
-UwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUs
-MTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNz
-MzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIy
-NDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MzQ1ODQ1NDcsLTcwOTEzMzc1NSw4Mz
+U5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3
+NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMz
+MyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5
+NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMT
+Q4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3
+NjkyNF19
 -->
