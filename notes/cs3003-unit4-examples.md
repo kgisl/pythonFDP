@@ -9,7 +9,6 @@
     - Animation
         - Refer to notes for the Unit 4 
 - InsertionSort 
-    - What are list comprehensions? Provide a sample code snippet 
     - TBD 
    
 - MergeSort 
@@ -29,7 +28,7 @@
                      `print(alist[-1], alist[0])` 
              - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
             - Contrast between `del`, `pop` and `remove` effect on a list
-            - Write a code snippet which operates on a list and prints every element and by the time i
+            - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
         - Merging 
 	        - In how many ways can you append two lists?
 	        -  What does the method `extend` perform for a list? 
@@ -45,6 +44,7 @@
          - How do you swap two variables in the same statement? 
    
   - Histogram 
+	  - What are list comprehensions? Provide a sample code snippet 
       - Create a list that contains all the keys in a dictionary. What is the code?
       - Create a list that contains all the values in a dictionary. What is the code?
       - Create a list of tuples from a dictionary that contains all the key:value pairs. 
@@ -168,6 +168,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDg3NjYwOCw4MTU2MTIyNDUsLTM0MT
-c2MjE0NV19
+eyJoaXN0b3J5IjpbLTE2MDAyODMxMjMsODE1NjEyMjQ1LC0zND
+E3NjIxNDVdfQ==
 -->
