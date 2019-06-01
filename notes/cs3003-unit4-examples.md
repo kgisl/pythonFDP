@@ -66,10 +66,8 @@ http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 ## Algorithm
 
 	repeat (numOfElements - 1) times
-		set the first unsorted element as the minimum
 		for each of the unsorted elements
-			if element < currentMinimum
-				set element as new minimum
+			select the minimum value among them
 		swap minimum with first unsorted position
 
 ## Source code
@@ -200,9 +198,9 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMTYwOT
-QzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5MTk3
-LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LDI3MzM5NTk0NywtMT
-g5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYxMjI0NSwtMzQxNzYy
-MTQ1XX0=
+eyJoaXN0b3J5IjpbLTE4NDU0MzY1OTIsMjEzMzI0Nzg1NCwzNz
+U4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1
+NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LD
+I3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYx
+MjI0NSwtMzQxNzYyMTQ1XX0=
 -->
