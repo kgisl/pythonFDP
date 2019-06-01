@@ -2,12 +2,11 @@
 
 ## Pre-requisites
 
-- http://j.mp/insertVisual 
-- http://j.mp/selectVisual
-- http://j.mp/mergeVisual 
-- http://bit.ly/histogramVisual
-
-[https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
+- http://j.mp/insertVisual   
+- http://j.mp/selectVisual  
+- http://j.mp/mergeVisual    
+- http://bit.ly/histogramVisual    
+- [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
 Different 
 - SelectionSort 
@@ -228,10 +227,10 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Nzg2OTQxMCwtMzIzNzg0Njc0LDY1Mj
-gxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1
-NCwzNzU4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMj
-AyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgx
-MjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LD
-gxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
+eyJoaXN0b3J5IjpbNzg4NDQ4MTExLC0zMjM3ODQ2NzQsNjUyOD
+E4MjU0LDE0MjkzNzM4MTcsMjA4NDU4OTU2NCwyMTMzMjQ3ODU0
+LDM3NTg1MDE5NCwxNjA5NDMwNzY4LC0xOTg3MzkzOTU2LDIyMD
+I5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2MjIsLTE0ODU5ODEy
+MDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsOD
+E1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
