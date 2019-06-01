@@ -25,8 +25,9 @@
                      `print(alist[-1], alist[0])` 
              - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
             - Contrast between `del`, `pop` and `remove` effect on a list
-        - In how many ways can you append two lists?
-          - How is `extend` different from `append`? 
+        - Merging 
+	        - In how many ways can you append two lists?
+	        -  What does the method `extend` perform for a list? 
       - Slicing 
         - Write the code statement to initialize a variable `middle` with  the index of the middle element of a list containing `n` elements.  
         - How to get the first 3 elements in the list and create another list out of those elements? 
@@ -162,6 +163,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDkxNDQ5Nyw4MTU2MTIyNDUsLTM0MT
-c2MjE0NV19
+eyJoaXN0b3J5IjpbNjQzNzM1NTU4LDgxNTYxMjI0NSwtMzQxNz
+YyMTQ1XX0=
 -->
