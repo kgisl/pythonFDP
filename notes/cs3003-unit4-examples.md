@@ -131,10 +131,10 @@ def insertsort(alist):
     for i in range(1, n):
         key = alist.pop(i)
 		# insort(alist, key, hi=i)
-        position = i
-        while position > 0 and alist[position-1] > key: 
-            position -= 1
-        alist.insert(position, key) 
+        j = i
+        while j > 0 and alist[j-1] > key: 
+            j -= 1
+        alist.insert(j, key) 
         print(key, alist)
     return alist
 
@@ -228,9 +228,10 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMz
-MyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5
-NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMT
-Q4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3
-NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4ND
+U4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5NDMwNzY4
+LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1Nz
+QzMzU2MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5
+MjYwLDE1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ
+==
 -->
