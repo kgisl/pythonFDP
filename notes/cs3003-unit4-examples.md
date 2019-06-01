@@ -78,7 +78,7 @@ def selectsort(a):
 # InsertionSort 
 
 - http://j.mp/insertVisual 
-- http://j.mp/interactInsert using [
+- http://j.mp/interactInsert using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
 ## Algorithm
 
@@ -179,7 +179,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI1MTg4NTksLTE0ODU5ODEyMDUsMj
+eyJoaXN0b3J5IjpbLTE4ODA0NDQyMTcsLTE0ODU5ODEyMDUsMj
 czMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEy
 MjQ1LC0zNDE3NjIxNDVdfQ==
 -->
