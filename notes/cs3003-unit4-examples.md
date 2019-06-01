@@ -63,6 +63,7 @@ def selectsort(a):
     - Contrast between `del`, `pop` and `remove` effect on a list
     - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
   - `insert()` - what does this do? How many arguments does it accept? 
+	  - write the equivalent of `append()` function using `insert()` 
 
 ## Algorithm
 	mark first element as sorted
@@ -240,11 +241,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtND
-kwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjEx
-MzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NT
-I4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4
-NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMj
-IwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4
-MTIwNV19
+eyJoaXN0b3J5IjpbLTMyMjQyMDQwNiwtMTUwNjM5MzEwNywxMT
+IzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMz
+NzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMz
+IzNzg0Njc0LDY1MjgxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1
+NjQsMjEzMzI0Nzg1NCwzNzU4NTAxOTQsMTYwOTQzMDc2OCwtMT
+k4NzM5Mzk1NiwyMjAyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1
+NjIyXX0=
 -->
