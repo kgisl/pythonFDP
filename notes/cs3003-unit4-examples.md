@@ -83,6 +83,13 @@ def selectsort(a):
 - [http://j.mp/compareSort](http://j.mp/compareSort)
 
 ## Algorithm
+	mark first element as sorted
+	for each unsorted element X
+	  'extract' the element X
+	  for j = lastSortedIndex down to 0
+	    if current element j > X
+	      move sorted element to the right by 1
+	    break loop and insert X here
 
 ## Source code
 
@@ -181,7 +188,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMj
-czMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEy
-MjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbODQyODg4MDE5LC0xNTc0MzM1NjIyLC0xND
+g1OTgxMjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2
+OTI0LDgxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
 -->
