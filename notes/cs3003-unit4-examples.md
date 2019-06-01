@@ -136,7 +136,7 @@ print(insertsort(alist))
 [MergeSort Color](http://mergeVisual)
 
 
-## Visualizatio
+## Visualization
 Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide  portion of the divide and conquer  method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer  portion of divide and conquer.
 
 ![mergeGIF](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
@@ -229,7 +229,7 @@ print(mergesort(alist))
       - Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUxNDI0NDEsLTQ1ODAzNTY1Miw3OD
+eyJoaXN0b3J5IjpbLTE5MjQxNjc5NjMsLTQ1ODAzNTY1Miw3OD
 g0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3Mzgx
 NywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MD
 k0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5
