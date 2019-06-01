@@ -93,15 +93,15 @@ def selectsort(a):
 ## Algorithm
 	mark first element as sorted
 	for each unsorted element X
-	  'extract' the element X
-	  insert into list at the relevant index so it remains sorted
+	  'extract' the element X as 'key'
+	  insert key at the relevant index so list remains sorted
     return sorted list 
 
 ```python
-# heavily depended on in-built sort 
-from bisect import insort
 
+from bisect import insort
 def insertsort(alist):
+	n = len(a)
 	for i in range(len(alist)):
 		key = alist.pop()
 		insort(alist, key, hi=i)
@@ -212,9 +212,9 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM0NTIzODMsMjEzMzI0Nzg1NCwzNz
-U4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1
-NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LD
-I3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYx
-MjI0NSwtMzQxNzYyMTQ1XX0=
+eyJoaXN0b3J5IjpbLTUxMDQ1ODc2NSwyMTMzMjQ3ODU0LDM3NT
+g1MDE5NCwxNjA5NDMwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1
+LDEzMTMxMzkxOTcsLTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMj
+czMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEy
+MjQ1LC0zNDE3NjIxNDVdfQ==
 -->
