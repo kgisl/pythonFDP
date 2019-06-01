@@ -13,7 +13,8 @@
     - TBD 
    
 - MergeSort 
-    - List functions 
+    - List functions
+	    - Looping through a list  
         -  pop() - what does it do? Does it accept any arguments?
             - does `alist.pop()` have the same effect as `alist.pop(0)`?
             - How to use `pop()` to remove the last element in the list? 
@@ -163,6 +164,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNzM1NTU4LDgxNTYxMjI0NSwtMzQxNz
-YyMTQ1XX0=
+eyJoaXN0b3J5IjpbLTE5NzY3Nzc1OTEsODE1NjEyMjQ1LC0zND
+E3NjIxNDVdfQ==
 -->
