@@ -20,6 +20,8 @@
 </li>
 <li><a href="#selectionsort">SelectionSort</a>
 <ul>
+<li><a href="#pre-requisites-1">Pre-requisites</a></li>
+<li><a href="#in-class-demo">In-class Demo</a></li>
 <li><a href="#algorithm">Algorithm</a></li>
 <li><a href="#source-code">Source code</a></li>
 </ul>
@@ -32,10 +34,12 @@
 </li>
 <li><a href="#mergesort">MergeSort</a>
 <ul>
+<li><a href="#in-class-demo-1">In-class demo</a></li>
 <li><a href="#merge-example">Merge example</a></li>
 <li><a href="#algorithm-2">Algorithm</a></li>
 <li><a href="#mergesort-implementation-in-python">MergeSort implementation in Python</a></li>
 <li><a href="#histogram">Histogram</a></li>
+<li><a href="#pre-requisites-2">Pre-requisites</a></li>
 </ul>
 </li>
 </ul>
@@ -53,95 +57,16 @@
 <li><a href="http://bit.ly/histogramVisual">http://bit.ly/histogramVisual</a></li>
 <li><a href="https://www.toptal.com/developers/sorting-algorithms">https://www.toptal.com/developers/sorting-algorithms</a></li>
 </ul>
-<p>Different</p>
-<ul>
-<li>
-<p>SelectionSort</p>
-<ul>
-<li>TBD</li>
-<li>TBD</li>
-</ul>
-</li>
-<li>
-<p>InsertionSort</p>
-<ul>
-<li>TBD</li>
-</ul>
-</li>
-<li>
-<p>MergeSort</p>
-<ul>
-<li>
-<p>List functions</p>
-<ul>
-<li>Looping through a list  - write code to iterate through the elements in a list
-<ul>
-<li>Using indexing</li>
-<li>Without using indexing</li>
-<li>Using a <code>while</code> statement</li>
-</ul>
-</li>
-<li>pop() - what does it do? Does it accept any arguments?
-<ul>
-<li>does <code>alist.pop()</code> have the same effect as <code>alist.pop(0)</code>?</li>
-<li>How to use <code>pop()</code> to remove the last element in the list?</li>
-<li>How to use <code>pop()</code> to remove the first element in the list?</li>
-<li>Assume <code>alist</code> contains 4 elements <code>['one', 'two', 'three', 'four', 'zero']</code>. If you execute the following code, what will be the output?<br>
-<code>alist.pop(0)</code><br>
-<code>alist.pop()</code><br>
-<code>alist.pop(0)</code><br>
-<code>print(alist[-1], alist[0])</code></li>
-<li>If <code>ulist</code> is a non-zero list, what is the difference between <code>ulist[0]</code> versus <code>ulist.pop(0)</code>?</li>
-<li>Contrast between <code>del</code>, <code>pop</code> and <code>remove</code> effect on a list</li>
-<li>Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty.</li>
-</ul>
-</li>
-<li>Merging
-<ul>
-<li>In how many ways can you append two lists?</li>
-<li>What does the method <code>extend</code> perform for a list?</li>
-</ul>
-</li>
-<li>Slicing
-<ul>
-<li>Write the code statement to initialize a variable <code>middle</code> with  the index of the middle element of a list containing <code>n</code> elements.</li>
-<li>How to get the first 3 elements in the list and create another list out of those elements?</li>
-<li>How to get the last 3 elements in a list and create another list of of those elements?</li>
-<li>How to get all the elements to the right of the midpoint of a list and place it in another list?</li>
-<li>Write a function <code>sliceInTwo</code> which accepts a list as argument. It should returns two lists that contain equal number of elements from the original list.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Misc</p>
-<ul>
-<li>Provide an example for using the ternary operator in Python</li>
-<li>What is the most critical thing that is to be specified in a recursive call so that the program does not run forever?</li>
-<li>How do you swap two variables in the same statement?</li>
-</ul>
-</li>
-<li>
-<p>Histogram</p>
-<ul>
-<li>Write a sample code snippet which uses list comprehension to create a list of numbers from 1 to 10</li>
-<li>Use the built-in <strong>divmod</strong>() function to divide 222 by 7 and unpack the quotient and remainder into a tuple, and print the tuple</li>
-<li>Create a list that contains all the keys in a dictionary. What is the code?</li>
-<li>Create a list that contains all the values in a dictionary. What is the code?</li>
-<li>Create a list of tuples from a dictionary that contains all the key:value pairs.
-<ul>
-<li>Sort the tuples in the list based on its value in descending order</li>
-<li>Write code for both the above.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
 <h1 id="selectionsort">SelectionSort</h1>
-<p><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a><br>
-<a href="http://j.mp/interactSelect">http://j.mp/interactSelect</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></p>
+<h2 id="pre-requisites-1">Pre-requisites</h2>
+<ul>
+<li><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a></li>
+<li><a href="http://j.mp/interactSelect">http://j.mp/interactSelect</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
+</ul>
+<h2 id="in-class-demo">In-class Demo</h2>
+<ul>
+<li><a href="http://j.mp/compareSort">http://j.mp/compareSort</a></li>
+</ul>
 <h2 id="algorithm">Algorithm</h2>
 <pre><code>repeat (numOfElements - 1) times
 	for each of the unsorted elements
@@ -163,7 +88,6 @@
 <ul>
 <li><a href="http://j.mp/insertVisual">http://j.mp/insertVisual</a></li>
 <li><a href="http://j.mp/interactInsert">http://j.mp/interactInsert</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
-<li><a href="http://j.mp/compareSort">http://j.mp/compareSort</a></li>
 </ul>
 <h2 id="algorithm-1">Algorithm</h2>
 <pre><code>mark first element as sorted
@@ -211,6 +135,61 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <span class="token keyword">print</span><span class="token punctuation">(</span>insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
 </code></pre>
 <h1 id="mergesort">MergeSort</h1>
+<ul>
+<li>MergeSort
+<ul>
+<li>List functions
+<ul>
+<li>Looping through a list  - write code to iterate through the elements in a list
+<ul>
+<li>Using indexing</li>
+<li>Without using indexing</li>
+<li>Using a <code>while</code> statement</li>
+</ul>
+</li>
+<li>pop() - what does it do? Does it accept any arguments?
+<ul>
+<li>does <code>alist.pop()</code> have the same effect as <code>alist.pop(0)</code>?</li>
+<li>How to use <code>pop()</code> to remove the last element in the list?</li>
+<li>How to use <code>pop()</code> to remove the first element in the list?</li>
+<li>Assume <code>alist</code> contains 4 elements <code>['one', 'two', 'three', 'four', 'zero']</code>. If you execute the following code, what will be the output?<br>
+<code>alist.pop(0)</code><br>
+<code>alist.pop()</code><br>
+<code>alist.pop(0)</code><br>
+<code>print(alist[-1], alist[0])</code></li>
+<li>If <code>ulist</code> is a non-zero list, what is the difference between <code>ulist[0]</code> versus <code>ulist.pop(0)</code>?</li>
+<li>Contrast between <code>del</code>, <code>pop</code> and <code>remove</code> effect on a list</li>
+<li>Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty.</li>
+</ul>
+</li>
+<li>Merging
+<ul>
+<li>In how many ways can you append two lists?</li>
+<li>What does the method <code>extend</code> perform for a list?</li>
+</ul>
+</li>
+<li>Slicing
+<ul>
+<li>Write the code statement to initialize a variable <code>middle</code> with  the index of the middle element of a list containing <code>n</code> elements.</li>
+<li>How to get the first 3 elements in the list and create another list out of those elements?</li>
+<li>How to get the last 3 elements in a list and create another list of of those elements?</li>
+<li>How to get all the elements to the right of the midpoint of a list and place it in another list?</li>
+<li>Write a function <code>sliceInTwo</code> which accepts a list as argument. It should returns two lists that contain equal number of elements from the original list.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Misc
+<ul>
+<li>Provide an example for using the ternary operator in Python</li>
+<li>What is the most critical thing that is to be specified in a recursive call so that the program does not run forever?</li>
+<li>How do you swap two variables in the same statement?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="in-class-demo-1">In-class demo</h2>
 <p><a href="http://mergeVisual">MergeSort Color</a></p>
 <p>Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide  portion of the divide and conquer  method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer  portion of divide and conquer.</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="mergeGIF"></p>
@@ -285,6 +264,35 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <h2 id="histogram">Histogram</h2>
 <ul>
 <li><a href="http://bit.ly/histogramVisual">http://bit.ly/histogramVisual</a></li>
+</ul>
+<h2 id="pre-requisites-2">Pre-requisites</h2>
+<ul>
+<li>Histogram
+<ul>
+<li>
+<p>Write a sample code snippet which uses list comprehension to create a list of numbers from 1 to 10</p>
+</li>
+<li>
+<p>Use the built-in <strong>divmod</strong>() function to divide 222 by 7 and unpack the quotient and remainder into a tuple, and print the tuple</p>
+</li>
+<li>
+<p>Create a list that contains all the keys in a dictionary. What is the code?</p>
+</li>
+<li>
+<p>Create a list that contains all the values in a dictionary. What is the code?</p>
+</li>
+<li>
+<p>Create a list of tuples from a dictionary that contains all the key:value pairs.</p>
+<ul>
+<li>Sort the tuples in the list based on its value in descending order</li>
+<li>Write code for both the above.</li>
+</ul>
+</li>
+<li>
+<p>Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data</p>
+</li>
+</ul>
+</li>
 </ul>
 
     </div>
