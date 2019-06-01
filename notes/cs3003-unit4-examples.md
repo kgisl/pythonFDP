@@ -103,7 +103,7 @@ More detailed pseudo-code:
 	mark first element as sorted
 	for each unsorted element X
 	  position <= index of X
-	  for position = lastSortedIndex down to 0
+	  for j = lastSortedIndex down to 0
 	    if current element j > X
 	      move sorted element to the right by 1
 	    break loop and insert X here
@@ -210,7 +210,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NjU5ODM4LDIyMDI5OTU1LDEzMTMxMz
+eyJoaXN0b3J5IjpbLTI3NDg1NTAxLDIyMDI5OTU1LDEzMTMxMz
 kxOTcsLTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3
 LC0xODk5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEyMjQ1LC0zND
 E3NjIxNDVdfQ==
