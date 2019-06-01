@@ -1,9 +1,13 @@
-# Representative examples of Lists, Dictionaries and Tuples 
+# Illustrative programs of Tuples, Lists and Dictionaries
 
 ## Pre-requisites
 
-Pla
+- http://j.mp/insertVisual 
+- http://j.mp/selectVisual
+- h
 
+
+Different 
 - SelectionSort 
     - TBD 
     - TBD 
@@ -172,6 +176,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg2NjI4NTAsLTE4OTk0NjkyNjAsMT
-U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbMjAyMjE4MDY5LC0xODk5NDY5MjYwLDE1OD
+kwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
