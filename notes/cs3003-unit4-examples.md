@@ -2,6 +2,8 @@
 
 ## Pre-requisites
 
+Pla
+
 - SelectionSort 
     - TBD 
     - TBD 
@@ -170,6 +172,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUwNzI4OTksLTE4OTk0NjkyNjAsMT
+eyJoaXN0b3J5IjpbLTExNjg2NjI4NTAsLTE4OTk0NjkyNjAsMT
 U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
