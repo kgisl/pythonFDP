@@ -102,12 +102,12 @@ More detailed pseudo-code:
 
 	mark first element as sorted
 	for each unsorted element X
-	  position <= index of X
+	  extract the element X
 	  for j = lastSortedIndex (position -1) down to 0
 	    if current element j > X
-	      decrement position by 1 
+	      decrement j by 1 
 	    else break loop and insert X here
-    return sorted list 
+    return sorted list
    
 	   
 ## Source code
@@ -212,8 +212,8 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mzg3MzA3OSwtMTk4NzM5Mzk1NiwyMj
-AyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgx
-MjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LD
-gxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
+eyJoaXN0b3J5IjpbLTE0ODU1NzMzODEsLTE5ODczOTM5NTYsMj
+IwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4
+MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNC
+w4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
