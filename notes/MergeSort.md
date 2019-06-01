@@ -39,6 +39,9 @@
    
   - Histogram 
       - What does frequency mean in a histogram? What is an ordered histogram?
+      - Create a list that contains all the keys in a dictionary.
+      - Create a list that contains all the values in a dictionary.
+      - Create a list of tuples from a dictionary that contains all the key:value pairs. 
    
 # SelectionSort 
 
@@ -157,5 +160,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYyNDY4ODAsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbMTA2NzY1MDMwNiwtMzQxNzYyMTQ1XX0=
 -->
