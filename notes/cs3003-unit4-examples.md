@@ -6,6 +6,7 @@
 - http://j.mp/selectVisual
 - http://j.mp/mergeVisual 
 
+[https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
 Different 
 - SelectionSort 
@@ -188,7 +189,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODg4MDE5LC0xNTc0MzM1NjIyLC0xND
-g1OTgxMjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2
-OTI0LDgxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
+eyJoaXN0b3J5IjpbLTE5ODgxNzMzNjQsLTE1NzQzMzU2MjIsLT
+E0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkw
+NzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
