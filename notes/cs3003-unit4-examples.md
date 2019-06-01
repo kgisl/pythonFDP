@@ -130,7 +130,9 @@ print(insertsort(alist))
         - Provide an example for using the ternary operator in Python
         - What is the most critical thing that is to be specified in a recursive call so that the program does not run forever? 
         - How do you swap two variables in the same statement? 
-  
+    - Ultimate challenge 
+      - http://j.mp/sortApply 
+
  
 ## In-class demo
 [MergeSort Color](http://j.mp/mergeVisual)
@@ -228,12 +230,13 @@ print(mergesort(alist))
        
       - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4ND
-Q4MTExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcs
-MjA4NDU4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5ND
-MwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcs
-LTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xOD
-k5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIx
+eyJoaXN0b3J5IjpbLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1OD
+AzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQs
+MTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1OD
+UwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUs
+MTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNz
+MzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIy
 NDVdfQ==
 -->
