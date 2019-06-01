@@ -29,7 +29,7 @@
                      `print(alist[-1], alist[0])` 
              - If `ulist` is a non-zero list, what is the difference between `ulist[0]` versus `ulist.pop(0)`? 
             - Contrast between `del`, `pop` and `remove` effect on a list
-            - Write a function that takes a list as argument and prints the contents of the list
+            - Write a code snippet which operates on a list and prints every element and by the time i
         - Merging 
 	        - In how many ways can you append two lists?
 	        -  What does the method `extend` perform for a list? 
@@ -168,6 +168,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDQzODc5Miw4MTU2MTIyNDUsLTM0MT
+eyJoaXN0b3J5IjpbLTU5NDg3NjYwOCw4MTU2MTIyNDUsLTM0MT
 c2MjE0NV19
 -->
