@@ -154,8 +154,8 @@ Notice that at each level we divide the array into two halves until we get bunch
 
 ## Merge example 
 
-0. Use a 4-element array to explain mergesort - why should 
-1.  How many lists are there in Row 4? 
+0. Use a 4-element array to explain mergesort - why should it be 8 and so confusing upfront? 
+1.  With reference to below diagram, how many lists are there in Row 4? 
 2. Until what row is **Divide** happening? 
 3. From which row onwards **Conquer** has begun? 
 
@@ -245,7 +245,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4MDI2NjksLTM1MDk0NTUzNywyMD
+eyJoaXN0b3J5IjpbLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMD
 k0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2
 NDA3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NS
 w4MzU5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4
