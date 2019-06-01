@@ -16,7 +16,8 @@
  - http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
   - Which built-in function helps find the minimum element in a list? 
-	  - What happen
+	  - What happens when the built-in function is provided with a null list?
+   - 
 ## In-class Demo
 - [http://j.mp/compareSort](http://j.mp/compareSort)
 
@@ -234,7 +235,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ1ODQ1NDcsLTcwOTEzMzc1NSw4Mz
+eyJoaXN0b3J5IjpbLTExODg4MTI4MTIsLTcwOTEzMzc1NSw4Mz
 U5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3
 NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMz
 MyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5
