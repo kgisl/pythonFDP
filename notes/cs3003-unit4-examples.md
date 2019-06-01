@@ -55,11 +55,11 @@ def selectsort(a):
 
 from bisect import insort
 def insertsort(alist):
-	n = len(alist)
-	for i in range(1, n):
-        key = alist.pop()
-        insort(alist, key, hi=i)
-	return alist
+  n = len(alist)
+  for i in range(1, n):
+    key = alist.pop()
+    insort(alist, key, hi=i)
+  return alist
 
 alist = [32, 26, 15, 32, 48, 35, 47, 72]
 print(insertsort(alist))
@@ -227,10 +227,11 @@ print(mergesort(alist))
       - Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMz
-c4NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0
-LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5OD
-czOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYy
-MiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMT
-U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbLTE0OTI4NDQxNTYsLTQ1ODAzNTY1Miw3OD
+g0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3Mzgx
+NywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MD
+k0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5
+NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLT
+E4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2
+MjE0NV19
 -->
