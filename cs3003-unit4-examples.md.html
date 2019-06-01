@@ -268,7 +268,7 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
   <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span> 
     <span class="token keyword">return</span> ulist
 
-  mid <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span>
+  mid <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span><span class="token operator">//</span><span class="token number">2</span>
 
   leftA    <span class="token operator">=</span> ulist<span class="token punctuation">[</span><span class="token punctuation">:</span>mid<span class="token punctuation">]</span>
   rightB   <span class="token operator">=</span> ulist<span class="token punctuation">[</span>mid<span class="token punctuation">:</span><span class="token punctuation">]</span>
@@ -311,6 +311,12 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <li>Sort the tuples in the list based on its value in descending order</li>
 <li>Write code for both the above.</li>
 </ul>
+</li>
+<li>
+<p>Can a string be a key in a dictionary? Can a list like <code>[1, 2, 3]</code> be a key in a dictionary? Why not?</p>
+</li>
+<li>
+<p>Can an integer be a key in the dictionary? Can a tuple like <code>(5, 10)</code> be a key in a dictionary? Why not?</p>
 </li>
 <li>
 <p>Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data</p>
