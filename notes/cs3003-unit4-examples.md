@@ -5,6 +5,7 @@
 - http://j.mp/insertVisual 
 - http://j.mp/selectVisual
 - http://j.mp/mergeVisual 
+- http://bit.ly/histogramVisual
 
 [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
@@ -188,8 +189,13 @@ print(mergesort(alist))
 ```
 
 
+## Histogram 
+
+- http://bit.ly/histogramVisual
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgxNzMzNjQsLTE1NzQzMzU2MjIsLT
-E0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLDE1ODkw
-NzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMTkzOTQxMjMwOCwtMTU3NDMzNTYyMiwtMT
+Q4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3
+NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
