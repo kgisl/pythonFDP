@@ -6,8 +6,6 @@
 - SelectionSort 
     - TBD 
     - TBD 
-    - Animation
-        - Refer to notes for the Unit 4 
 - InsertionSort 
     - TBD 
    
@@ -168,6 +166,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc4NjAzNjIsODE1NjEyMjQ1LC0zND
-E3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MT
+c2MjE0NV19
 -->
