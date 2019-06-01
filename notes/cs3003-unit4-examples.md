@@ -82,21 +82,6 @@ def selectsort(a):
     index_of_smallest=a.index(smallest, i)
     a[i],a[index_of_smallest]=a[index_of_smallest],a[i]
   return a
-
-```python
-n=int(input("Enter the size of the list:"))
-print("Enter the numbers:")
-a=[int(input())for i in range(n)]
-print("The list elements are: ",a)
-for i in range(n):
-    smallest= i 
-    for j in range(i+1, len(a)): 
-        if a[smallest] > a[j]: 
-            smallest = j 
-    a[i],a[smallest]=a[smallest],a[i]
-print("The sorted list is:",a)
-```
-
 ```
 
 # InsertionSort 
@@ -213,8 +198,8 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMj
-AyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgx
-MjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LD
-gxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
+eyJoaXN0b3J5IjpbLTgyNTc1NjYyNiwxNjA5NDMwNzY4LC0xOT
+g3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcsLTE1NzQzMzU2
+MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xODk5NDY5MjYwLD
+E1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
