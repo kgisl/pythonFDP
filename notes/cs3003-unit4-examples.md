@@ -80,6 +80,8 @@ def selectsort(a):
     index_of_smallest=a.index(smallest, i)
     a[i],a[index_of_smallest]=a[index_of_smallest],a[i]
   return a
+
+
 ```
 
 # InsertionSort 
@@ -95,7 +97,19 @@ def selectsort(a):
 	  insert into list at the relevant index so it remains sorted
     return sorted list 
 
+```python
+# heavily depended on in-built sort 
+from bisect import insort
 
+def insertsort(alist):
+	for i in range(len(alist)):
+		key = alist.pop()
+		insort(alist, key, hi=i)
+	return alist
+
+alist = [32, 26, 15, 32, 48, 35, 47, 72]
+print(insertsort(alist))
+```
     
 More detailed pseudo-code: 
 
@@ -198,7 +212,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU0MzY1OTIsMjEzMzI0Nzg1NCwzNz
+eyJoaXN0b3J5IjpbLTIxNDM0NTIzODMsMjEzMzI0Nzg1NCwzNz
 U4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMjAyOTk1
 NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgxMjA1LD
 I3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LDgxNTYx
