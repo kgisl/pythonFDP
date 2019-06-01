@@ -99,11 +99,11 @@ return sorted list
 <pre class=" language-python"><code class="prism  language-python">
 <span class="token keyword">from</span> bisect <span class="token keyword">import</span> insort
 <span class="token keyword">def</span> <span class="token function">insertsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-	n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
-	<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-        key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
-        insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
-	<span class="token keyword">return</span> alist
+  n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+  <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> hi<span class="token operator">=</span>i<span class="token punctuation">)</span>
+  <span class="token keyword">return</span> alist
 
 alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">32</span><span class="token punctuation">,</span> <span class="token number">26</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">32</span><span class="token punctuation">,</span> <span class="token number">48</span><span class="token punctuation">,</span> <span class="token number">35</span><span class="token punctuation">,</span> <span class="token number">47</span><span class="token punctuation">,</span> <span class="token number">72</span><span class="token punctuation">]</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
@@ -120,16 +120,16 @@ return sorted list
 </code></pre>
 <h2 id="source-code-2">Source code 2</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">insertsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-	n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-        key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
-        <span class="token comment"># insort(alist, key, hi=i)</span>
-        j <span class="token operator">=</span> i
-        <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
-            j <span class="token operator">-=</span> <span class="token number">1</span>
-        alist<span class="token punctuation">.</span>insert<span class="token punctuation">(</span>j<span class="token punctuation">,</span> key<span class="token punctuation">)</span> 
-        <span class="token keyword">print</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> alist
+  n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+  <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    key <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+    <span class="token comment"># insort(alist, key, hi=i)</span>
+    j <span class="token operator">=</span> i
+    <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+      j <span class="token operator">-=</span> <span class="token number">1</span>
+    alist<span class="token punctuation">.</span>insert<span class="token punctuation">(</span>j<span class="token punctuation">,</span> key<span class="token punctuation">)</span> 
+    <span class="token keyword">print</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+  <span class="token keyword">return</span> alist
 
 alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'2'</span><span class="token punctuation">,</span> <span class="token string">'1'</span><span class="token punctuation">,</span> <span class="token string">'5'</span><span class="token punctuation">,</span> <span class="token string">'4'</span><span class="token punctuation">,</span> <span class="token string">'7'</span><span class="token punctuation">,</span> <span class="token string">'8'</span><span class="token punctuation">,</span> <span class="token string">'6'</span><span class="token punctuation">]</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
