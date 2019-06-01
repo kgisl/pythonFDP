@@ -14,10 +14,12 @@
 ## Pre-requisites
  - http://j.mp/selectVisual 
  - http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
-
   - Which built-in function helps find the minimum element in a list? 
 	  - What happens when the built-in function is provided with a null list?
-   - 
+   - What is the method of a list that returns the index for an element in the list? 
+	   - What is the difference between `find` and `index`? 
+	   - 
+
 ## In-class Demo
 - [http://j.mp/compareSort](http://j.mp/compareSort)
 
@@ -235,11 +237,11 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg4MTI4MTIsLTcwOTEzMzc1NSw4Mz
-U5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3
-NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMz
-MyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODczOTM5
-NTYsMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMT
-Q4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3
-NjkyNF19
+eyJoaXN0b3J5IjpbMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNT
+kyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0
+LDY1MjgxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMz
+I0Nzg1NCwzNzU4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1
+NiwyMjAyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xND
+g1OTgxMjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2
+OTI0XX0=
 -->
