@@ -103,8 +103,8 @@ from bisect import insort
 def insertsort(alist):
 	n = len(alist)
 	for i in range(1, n):
-		key = alist.pop()
-		insort(alist, key, hi=i)
+        key = alist.pop()
+        insort(alist, key, hi=i)
 	return alist
 
 alist = [32, 26, 15, 32, 48, 35, 47, 72]
@@ -228,10 +228,10 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOT
-M3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0
-LDE2MDk0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMz
-EzOTE5NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5
-NDcsLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLT
-M0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbLTM3Nzg2OTQxMCwtMzIzNzg0Njc0LDY1Mj
+gxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1
+NCwzNzU4NTAxOTQsMTYwOTQzMDc2OCwtMTk4NzM5Mzk1NiwyMj
+AyOTk1NSwxMzEzMTM5MTk3LC0xNTc0MzM1NjIyLC0xNDg1OTgx
+MjA1LDI3MzM5NTk0NywtMTg5OTQ2OTI2MCwxNTg5MDc2OTI0LD
+gxNTYxMjI0NSwtMzQxNzYyMTQ1XX0=
 -->
