@@ -4,7 +4,7 @@
 
 - http://j.mp/insertVisual 
 - http://j.mp/selectVisual
-- h
+- http://j.mp/mergeVisual 
 
 
 Different 
@@ -176,6 +176,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjE4MDY5LC0xODk5NDY5MjYwLDE1OD
+eyJoaXN0b3J5IjpbMjczMzk1OTQ3LC0xODk5NDY5MjYwLDE1OD
 kwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
