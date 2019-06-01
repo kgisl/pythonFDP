@@ -65,6 +65,13 @@ http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
 
 ## Algorithm
 
+	repeat (numOfElements - 1) times
+		set the first unsorted element as the minimum
+		for each of the unsorted elements
+			if element < currentMinimum
+				set element as new minimum
+		swap minimum with first unsorted position
+
 ## Source code
 
 ```python
@@ -195,7 +202,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTQxMjMwOCwtMTU3NDMzNTYyMiwtMT
+eyJoaXN0b3J5IjpbMTMxMzEzOTE5NywtMTU3NDMzNTYyMiwtMT
 Q4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0NjkyNjAsMTU4OTA3
 NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
