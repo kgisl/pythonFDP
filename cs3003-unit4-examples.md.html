@@ -28,20 +28,21 @@
 </li>
 <li><a href="#insertionsort">InsertionSort</a>
 <ul>
+<li><a href="#pre-requisites-2">Pre-requisites</a></li>
 <li><a href="#algorithm-1">Algorithm</a></li>
 <li><a href="#source-code-2">Source code 2</a></li>
 </ul>
 </li>
 <li><a href="#mergesort">MergeSort</a>
 <ul>
-<li><a href="#pre-requisites-2">Pre-requisites</a></li>
+<li><a href="#pre-requisites-3">Pre-requisites</a></li>
 <li><a href="#in-class-demo-1">In-class demo</a></li>
 <li><a href="#visualization">Visualization</a></li>
 <li><a href="#merge-example">Merge example</a></li>
 <li><a href="#algorithm-2">Algorithm</a></li>
 <li><a href="#mergesort-implementation-in-python">MergeSort implementation in Python</a></li>
 <li><a href="#histogram">Histogram</a></li>
-<li><a href="#pre-requisites-3">Pre-requisites</a></li>
+<li><a href="#pre-requisites-4">Pre-requisites</a></li>
 </ul>
 </li>
 </ul>
@@ -64,6 +65,17 @@
 <ul>
 <li><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a></li>
 <li><a href="http://j.mp/interactSelect">http://j.mp/interactSelect</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
+<li>Which built-in function helps find the minimum element in a list?
+<ul>
+<li>What happens when the built-in function is provided with a null list?</li>
+</ul>
+</li>
+<li>What is the method of a list that returns the index for an element in the list?
+<ul>
+<li>What is the difference between <code>find</code> and <code>index</code>?</li>
+<li></li>
+</ul>
+</li>
 </ul>
 <h2 id="in-class-demo">In-class Demo</h2>
 <ul>
@@ -81,15 +93,31 @@
   <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
     smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
     index_of_smallest<span class="token operator">=</span>a<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
-    a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span><span class="token operator">=</span>a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
   <span class="token keyword">return</span> a
 
 
 </code></pre>
 <h1 id="insertionsort">InsertionSort</h1>
+<h2 id="pre-requisites-2">Pre-requisites</h2>
 <ul>
 <li><a href="http://j.mp/insertVisual">http://j.mp/insertVisual</a></li>
 <li><a href="http://j.mp/interactInsert">http://j.mp/interactInsert</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
+<li>pop() - what does it do? Does it accept any arguments?
+<ul>
+<li>does <code>alist.pop()</code> have the same effect as <code>alist.pop(0)</code>?</li>
+<li>How to use <code>pop()</code> to remove the last element in the list?</li>
+<li>How to use <code>pop()</code> to remove the first element in the list?</li>
+<li>Assume <code>alist</code> contains 4 elements <code>['one', 'two', 'three', 'four', 'zero']</code>. If you execute the following code, what will be the output?<br>
+<code>alist.pop(0)</code><br>
+<code>alist.pop()</code><br>
+<code>alist.pop(0)</code><br>
+<code>print(alist[-1], alist[0])</code></li>
+<li>If <code>ulist</code> is a non-zero list, what is the difference between <code>ulist[0]</code> versus <code>ulist.pop(0)</code>?</li>
+<li>Contrast between <code>del</code>, <code>pop</code> and <code>remove</code> effect on a list</li>
+<li>Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty.</li>
+</ul>
+</li>
 </ul>
 <h2 id="algorithm-1">Algorithm</h2>
 <pre><code>mark first element as sorted
@@ -137,7 +165,7 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <span class="token keyword">print</span><span class="token punctuation">(</span>insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
 </code></pre>
 <h1 id="mergesort">MergeSort</h1>
-<h2 id="pre-requisites-2">Pre-requisites</h2>
+<h2 id="pre-requisites-3">Pre-requisites</h2>
 <ul>
 <li>List functions
 <ul>
@@ -146,21 +174,6 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <li>Using indexing</li>
 <li>Without using indexing</li>
 <li>Using a <code>while</code> statement</li>
-</ul>
-</li>
-<li>pop() - what does it do? Does it accept any arguments?
-<ul>
-<li>does <code>alist.pop()</code> have the same effect as <code>alist.pop(0)</code>?</li>
-<li>How to use <code>pop()</code> to remove the last element in the list?</li>
-<li>How to use <code>pop()</code> to remove the first element in the list?</li>
-<li>Assume <code>alist</code> contains 4 elements <code>['one', 'two', 'three', 'four', 'zero']</code>. If you execute the following code, what will be the output?<br>
-<code>alist.pop(0)</code><br>
-<code>alist.pop()</code><br>
-<code>alist.pop(0)</code><br>
-<code>print(alist[-1], alist[0])</code></li>
-<li>If <code>ulist</code> is a non-zero list, what is the difference between <code>ulist[0]</code> versus <code>ulist.pop(0)</code>?</li>
-<li>Contrast between <code>del</code>, <code>pop</code> and <code>remove</code> effect on a list</li>
-<li>Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty.</li>
 </ul>
 </li>
 <li>Merging
@@ -270,7 +283,7 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <ul>
 <li><a href="http://bit.ly/histogramVisual">http://bit.ly/histogramVisual</a></li>
 </ul>
-<h2 id="pre-requisites-3">Pre-requisites</h2>
+<h2 id="pre-requisites-4">Pre-requisites</h2>
 <ul>
 <li>Histogram
 <ul>
