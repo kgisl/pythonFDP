@@ -95,12 +95,10 @@ def selectsort(a):
 	mark first element as sorted
 	for each unsorted element X
 	  'extract' the element X
-	  for j = lastSortedIndex down to 0
-	    if current element j > X
-	      move sorted element to the right by 1
-	    break loop and insert X here
+	  insert into list so it remains sorted
 
 More detailed pseudocode: 
+
 	mark first element as sorted
 	for each unsorted element X
 	  'extract' the element X
@@ -211,8 +209,7 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM3NTQ5MTYsMTMxMzEzOTE5NywtMT
-U3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0
-NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV
-19
+eyJoaXN0b3J5IjpbMjIwMjk5NTUsMTMxMzEzOTE5NywtMTU3ND
+MzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLTE4OTk0Njky
+NjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
