@@ -9,7 +9,7 @@
     - Animation
         - Refer to notes for the Unit 4 
 - InsertionSort 
-    - What are list comprehensions? Provide a sample  
+    - What are list comprehensions? Provide a sample code snippet 
     - TBD 
    
 - MergeSort 
@@ -35,6 +35,7 @@
      - Misc 
          - Provide an example for using the ternary operator in Python
          - What is the most critical thing that is to be specified in a recursive call so that the program does not run forever? 
+         - How do you swap two variables in the same statement? 
    
   - Histogram 
       - What does frequency mean in a histogram? What is an ordered histogram?
@@ -156,5 +157,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4Njg2ODAxLC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbLTE1NTYyNDY4ODAsLTM0MTc2MjE0NV19
 -->
