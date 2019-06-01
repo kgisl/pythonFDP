@@ -2,7 +2,6 @@
 
 ## Pre-requisites
 
-
 - SelectionSort 
     - TBD 
     - TBD 
@@ -51,6 +50,8 @@
    
 # SelectionSort 
 
+http://j.mp/selectVisual 
+
 ## Algorithm
 
 ## Source code
@@ -67,6 +68,8 @@ def selectsort(a):
 ```
 
 # InsertionSort 
+
+http://j.mp/insertVisual 
 
 ## Algorithm
 
@@ -88,10 +91,12 @@ print("The sorted list is:",a)
 
 # MergeSort
 
+[MergeSort Color](http://mergeVisual)
+
+
 Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide  portion of the divide and conquer  method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer  portion of divide and conquer.
 
 ![mergeGIF](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
-[MergeSort Color](https://bl.ocks.org/alexmacy/raw/9f109c383f8ed21f5f610cb21113ca68/)
 
 ## Merge example 
 
@@ -165,6 +170,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MT
-U2MTIyNDUsLTM0MTc2MjE0NV19
+eyJoaXN0b3J5IjpbLTExMjUwNzI4OTksLTE4OTk0NjkyNjAsMT
+U4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2MjE0NV19
 -->
