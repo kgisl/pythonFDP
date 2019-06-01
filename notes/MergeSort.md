@@ -44,7 +44,7 @@
          - How do you swap two variables in the same statement? 
    
   - Histogram 
-	   - What are list comprehensions? Provide a sample code snippet 
+	  - Write a sample code snippet which uses list comprehension to create a list of numbers from 1 to 10 
       - Create a list that contains all the keys in a dictionary. What is the code?
       - Create a list that contains all the values in a dictionary. What is the code?
       - Create a list of tuples from a dictionary that contains all the key:value pairs. 
@@ -168,6 +168,6 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyMTUzNzEsODE1NjEyMjQ1LC0zNDE3Nj
-IxNDVdfQ==
+eyJoaXN0b3J5IjpbLTE4Njc4NjAzNjIsODE1NjEyMjQ1LC0zND
+E3NjIxNDVdfQ==
 -->
