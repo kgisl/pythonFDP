@@ -133,7 +133,7 @@ print(insertsort(alist))
   
  
 ## In-class demo
-[MergeSort Color](http://mergeVisual)
+[MergeSort Color](http://j.mp/mergeVisual)
 
 
 ## Visualization
@@ -229,11 +229,11 @@ print(mergesort(alist))
       - Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQxNjc5NjMsLTQ1ODAzNTY1Miw3OD
-g0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3Mzgx
-NywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MD
-k0MzA3NjgsLTE5ODczOTM5NTYsMjIwMjk5NTUsMTMxMzEzOTE5
-NywtMTU3NDMzNTYyMiwtMTQ4NTk4MTIwNSwyNzMzOTU5NDcsLT
-E4OTk0NjkyNjAsMTU4OTA3NjkyNCw4MTU2MTIyNDUsLTM0MTc2
-MjE0NV19
+eyJoaXN0b3J5IjpbNjc5OTM4Mjc5LC00NTgwMzU2NTIsNzg4ND
+Q4MTExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcs
+MjA4NDU4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5ND
+MwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcs
+LTE1NzQzMzU2MjIsLTE0ODU5ODEyMDUsMjczMzk1OTQ3LC0xOD
+k5NDY5MjYwLDE1ODkwNzY5MjQsODE1NjEyMjQ1LC0zNDE3NjIx
+NDVdfQ==
 -->
