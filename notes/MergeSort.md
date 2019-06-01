@@ -38,11 +38,11 @@
          - How do you swap two variables in the same statement? 
    
   - Histogram 
-      - What does frequency mean in a histogram? What is an ordered histogram?
-      - Create a list that contains all the keys in a dictionary. 
-      - Create a list that contains all the values in a dictionary.
+      - Create a list that contains all the keys in a dictionary. What is the code?
+      - Create a list that contains all the values in a dictionary. What is the code?
       - Create a list of tuples from a dictionary that contains all the key:value pairs. 
           - Sort the tuples in the list based on its value in descending order
+          - Write code for both the above. 
    
 # SelectionSort 
 
@@ -161,5 +161,5 @@ print(mergesort(alist))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDMwOTE3LC0zNDE3NjIxNDVdfQ==
+eyJoaXN0b3J5IjpbODE1NjEyMjQ1LC0zNDE3NjIxNDVdfQ==
 -->
