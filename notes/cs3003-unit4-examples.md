@@ -226,10 +226,10 @@ print(mergesort(alist))
           - Sort the tuples in the list based on its value in descending order
           - Write code for both the above. 
        
-      - Create a histogram with tuples that represent bins (low and high) of sufficient width and see the typical double peaks that occur in random data  
+      - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5OTM4Mjc5LC00NTgwMzU2NTIsNzg4ND
+eyJoaXN0b3J5IjpbODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4ND
 Q4MTExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcs
 MjA4NDU4OTU2NCwyMTMzMjQ3ODU0LDM3NTg1MDE5NCwxNjA5ND
 MwNzY4LC0xOTg3MzkzOTU2LDIyMDI5OTU1LDEzMTMxMzkxOTcs
