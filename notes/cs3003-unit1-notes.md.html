@@ -16,6 +16,7 @@
 <li><a href="#insertion-into-sorted-list">Insertion into Sorted List</a>
 <ul>
 <li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#example">Example</a></li>
 <li><a href="#source-code">Source Code</a></li>
 </ul>
 </li>
@@ -27,7 +28,7 @@
     <div class="stackedit__html">
       <h1 id="insertion-into-sorted-list">Insertion into Sorted List</h1>
 <h2 id="algorithm">Algorithm</h2>
-<pre><code>func INSERTSORT: 
+<pre><code>func INSERTINTOSORTEDARRAY: 
     input: sorted list, key to be inserted
     output: sorted list with key inserted 
     
@@ -45,8 +46,9 @@
 	return A 
 end func 
 </code></pre>
-<p>For  sorted list <code>ar = [3, 5, 6, 7]</code> and to insert <code>element 2</code>,<br>
-during the intermediary steps, the contents of <code>ar</code> are as shown below, <code>0</code> getting inserted at beginning of the list.</p>
+<h2 id="example">Example</h2>
+<p>Assume sorted list <code>ar = [3, 5, 6, 7]</code> and element to insert is <code>2</code>.</p>
+<p>During the intermediary steps, the contents of <code>ar</code> are as shown below, <code>0</code> getting inserted at beginning of the list.</p>
 <pre><code>Start: 3 4 6 7 2 
 	3 5 6 7 7  // 7 shifted right
 	3 5 6 6 7  // 6 shifted right
