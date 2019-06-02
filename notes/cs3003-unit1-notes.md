@@ -53,20 +53,23 @@ def insert_into_sortedArray(ar):
         ar[j] = key
         printarray(ar)
 
+```
+## Output
+```bash 
 # sorted array 
 ar = [1, 2, 5,  6, 7, 9]
 insert_into_sortedArray (ar + [4])
-	
+'''	
 	1 2 5 6 7 9 9 
 	1 2 5 6 7 7 9 
 	1 2 5 6 6 7 9 
 	1 2 5 5 6 7 9 
 	1 2 4 5 6 7 9 
-
+'''
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3Mjc2NzE4LC0zNDY4NTA2MDksODg4NT
-YzNzk4XX0=
+eyJoaXN0b3J5IjpbMTA2NjAwMTk1MywtMzQ2ODUwNjA5LDg4OD
+U2Mzc5OF19
 -->
