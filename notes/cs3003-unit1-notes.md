@@ -3,7 +3,7 @@
 
 ## Algorithm 
 
-	func INSERTSORT: 
+	func INSERTINTOSORTEDARRAY: 
 	    input: sorted list, key to be inserted
 	    output: sorted list with key inserted 
 	    
@@ -65,5 +65,5 @@ insertionSort (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NTYzNzk4XX0=
+eyJoaXN0b3J5IjpbLTQxNjI0MDAxOCw4ODg1NjM3OThdfQ==
 -->
