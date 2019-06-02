@@ -20,14 +20,14 @@
 	    key: <- last element in A  // A is already sorted
 	    index: <- length(List) - 1 
 		
-		iterate j from index to 1
-        if A[j-1] > key then 
-            shift the element right 
-        else
-            break
+        iterate j from index to 1
+	        if A[j-1] > key then 
+	            shift the element right 
+	        else
+	            break
+      
         if j != index: 
             A[j] = key // inserted at the right location
-
         return A 
     end func 
 
@@ -80,6 +80,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjk3Mjg0NSwxMDAyMDQyNzcwLC0zND
-Y4NTA2MDksODg4NTYzNzk4XX0=
+eyJoaXN0b3J5IjpbLTE4OTYxNDU4MywxODM2OTcyODQ1LDEwMD
+IwNDI3NzAsLTM0Njg1MDYwOSw4ODg1NjM3OThdfQ==
 -->
