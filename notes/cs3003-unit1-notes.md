@@ -55,7 +55,7 @@ def insert_into_sortedArray(ar):
 
 # sorted array 
 ar = [1, 2, 5,  6, 7, 9]
-insertionSort (ar + [4])
+insert_into_sortedArray (ar + [4])
 	'''
 	1 2 5 6 7 9 9 
 	1 2 5 6 7 7 9 
@@ -67,5 +67,5 @@ insertionSort (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzU3NzMwNyw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbLTMwNzEzODU1NSw4ODg1NjM3OThdfQ==
 -->
