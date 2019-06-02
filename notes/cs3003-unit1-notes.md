@@ -1,13 +1,16 @@
 
 # Insertion into Sorted List
 
-## Algorithm 
+## Description
+It is assumed that there is a list `A` which has elements which are alread
+
+## Algorithm in pseudocode 
 
 	func INSERT_INTO_SORTEDARRAY: 
 	    (input) sorted list, and key to be inserted
 	    (output) sorted list with key inserted 
 	    
-	    key: <- last element in A  // A is a list
+	    key: <- last element in A  // A is already sorted
 	    index: <- length(List) - 1 
 		
 		iterate j from index to 1
@@ -70,6 +73,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjg0MzQ2NSwtMzQ2ODUwNjA5LDg4OD
+eyJoaXN0b3J5IjpbLTUzMDE5NjcwNSwtMzQ2ODUwNjA5LDg4OD
 U2Mzc5OF19
 -->
