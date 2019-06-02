@@ -36,14 +36,14 @@
     index = length(List) - 1 
 	
 	iterate j from index to 1
-		if A[j-1] &gt; key then 
-			shift the element right 
-		else
-		    break
-	if j != index: 
-		A[j] = key // inserted at the right location
+    if A[j-1] &gt; key then 
+        shift the element right 
+     else
+        break
+    if j != index: 
+        A[j] = key // inserted at the right location
 
-	return A 
+    return A 
 end func 
 </code></pre>
 <h2 id="example">Example</h2>
@@ -77,7 +77,7 @@ Final: 2 3 4 6 7
 
 <span class="token comment"># sorted array </span>
 ar <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span>  <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
-insertionSort <span class="token punctuation">(</span>ar <span class="token operator">+</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+insert_into_sortedArray <span class="token punctuation">(</span>ar <span class="token operator">+</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 	<span class="token triple-quoted-string string">'''
 	1 2 5 6 7 9 9 
 	1 2 5 6 7 7 9 
