@@ -34,7 +34,7 @@
 ## Example 
 Assume sorted list `ar = [3, 5, 6, 7]` and element to insert is `2`. 
 
-During the intermediary steps, the contents of `ar` are as shown below, `0` getting inserted at beginning of the list.
+During the intermediary steps, the contents of `ar` are as shown below. The `key` is value `2` and eventually it gets inserted at beginning of the list.
 
 	Start: 3 4 6 7 2 
 		3 5 6 7 7  // 7 shifted right
@@ -80,6 +80,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjA0Mjc3MCwtMzQ2ODUwNjA5LDg4OD
-U2Mzc5OF19
+eyJoaXN0b3J5IjpbMTgzNjk3Mjg0NSwxMDAyMDQyNzcwLC0zND
+Y4NTA2MDksODg4NTYzNzk4XX0=
 -->
