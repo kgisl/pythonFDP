@@ -18,6 +18,7 @@
 <li><a href="#algorithm">Algorithm</a></li>
 <li><a href="#example">Example</a></li>
 <li><a href="#source-code">Source Code</a></li>
+<li><a href="#output">Output</a></li>
 </ul>
 </li>
 </ul>
@@ -28,8 +29,8 @@
     <div class="stackedit__html">
       <h1 id="insertion-into-sorted-list">Insertion into Sorted List</h1>
 <h2 id="algorithm">Algorithm</h2>
-<pre><code>func INSERTINTOSORTEDARRAY: 
-    input: sorted list, key to be inserted
+<pre><code>func INSERT_INTO_SORTEDARRAY: 
+    input: sorted list, and key to be inserted
     output: sorted list with key inserted 
     
     key &lt;= last element in A  // A is a list
@@ -75,16 +76,18 @@ Final: 2 3 4 6 7
         ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> key
         printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
 
-<span class="token comment"># sorted array </span>
-ar <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span>  <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
-insert_into_sortedArray <span class="token punctuation">(</span>ar <span class="token operator">+</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-	<span class="token triple-quoted-string string">'''
+</code></pre>
+<h2 id="output">Output</h2>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token comment"># sorted array </span>
+ar <span class="token operator">=</span> <span class="token punctuation">[</span>1, 2, 5,  6, 7, 9<span class="token punctuation">]</span>
+insert_into_sortedArray <span class="token punctuation">(</span>ar + <span class="token punctuation">[</span>4<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token string">''</span><span class="token string">'	
 	1 2 5 6 7 9 9 
 	1 2 5 6 7 7 9 
 	1 2 5 6 6 7 9 
 	1 2 5 5 6 7 9 
 	1 2 4 5 6 7 9 
-	'''</span>
+'</span><span class="token string">''</span>
 </code></pre>
 
     </div>
