@@ -14,12 +14,12 @@
         if A[j-1] > key then 
             shift the element right 
          else
-        break
-		if j != index: 
-			A[j] = key // inserted at the right location
+            break
+        if j != index: 
+            A[j] = key // inserted at the right location
 
-		return A 
-	end func 
+        return A 
+    end func 
 
 ## Example 
 Assume sorted list `ar = [3, 5, 6, 7]` and element to insert is `2`. 
@@ -67,5 +67,5 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTk0NTc5MSw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbLTM0Njg1MDYwOSw4ODg1NjM3OThdfQ==
 -->
