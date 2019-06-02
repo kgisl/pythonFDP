@@ -3,8 +3,8 @@
 
 ## Algorithm 
 
-	func INSERTINTOSORTEDARRAY: 
-	    input: sorted list, key to be inserted
+	func INSERT_INTO_SORTEDARRAY: 
+	    input: sorted list, and key to be inserted
 	    output: sorted list with key inserted 
 	    
 	    key <= last element in A  // A is a list
@@ -56,16 +56,17 @@ def insert_into_sortedArray(ar):
 # sorted array 
 ar = [1, 2, 5,  6, 7, 9]
 insert_into_sortedArray (ar + [4])
-	'''
+	
 	1 2 5 6 7 9 9 
 	1 2 5 6 7 7 9 
 	1 2 5 6 6 7 9 
 	1 2 5 5 6 7 9 
 	1 2 4 5 6 7 9 
-	'''
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Njg1MDYwOSw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbNjI3Mjc2NzE4LC0zNDY4NTA2MDksODg4NT
+YzNzk4XX0=
 -->
