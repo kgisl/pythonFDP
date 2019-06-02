@@ -4,11 +4,11 @@
 ## Algorithm 
 
 	func INSERT_INTO_SORTEDARRAY: 
-	    input: sorted list, and key to be inserted
-	    output: sorted list with key inserted 
+	    (input) sorted list, and key to be inserted
+	    (output) sorted list with key inserted 
 	    
-	    key <= last element in A  // A is a list
-	    index = length(List) - 1 
+	    key: <- last element in A  // A is a list
+	    index: <- length(List) - 1 
 		
 		iterate j from index to 1
         if A[j-1] > key then 
@@ -70,6 +70,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjAwMTk1MywtMzQ2ODUwNjA5LDg4OD
+eyJoaXN0b3J5IjpbMTEwNjg0MzQ2NSwtMzQ2ODUwNjA5LDg4OD
 U2Mzc5OF19
 -->
