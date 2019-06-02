@@ -5,10 +5,10 @@
 
 1. It is assumed that there is a list `A` which has elements which are already sorted. 
 2. The task at hand is to insert another element (referred to as `key`) into the sorted list `A` so that after the insertion, the list must continue to remain sorted. 
-3. The `key` is included by increasing the size of the list and placing it as the last element of the list. 
+3. The `key` is made part of the sorted list by increasing the size by 1 and placing it as the last element of the list. Therefore, space complexity is `O(1)`.  
 4. An iteration of `j` is begun from `i-1` all the way to `0`
 	-  The `key` is compared with the last element `A[j-1]` of the sorted list. If the element is greater than the key, it is shifted right to A[j].
-5. If key is greater than the element in the list, insertion happens at the location `j` 
+5. If key is greater than the element in the list, insertion happens at the location `j` and the iteration is exited 
 6. The function returns with the list containing `key` and maintaining the sort order.  
 
 ## Algorithm in pseudocode 
@@ -80,6 +80,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNTU4ODI0LC0zNDY4NTA2MDksODg4NT
-YzNzk4XX0=
+eyJoaXN0b3J5IjpbMTAwMjA0Mjc3MCwtMzQ2ODUwNjA5LDg4OD
+U2Mzc5OF19
 -->
