@@ -8,7 +8,8 @@
 3. The `key` is included by increasing the size of the list and placing it as the last element of the list. 
 4. An iteration of `j` is begun from `i-1` all the way to `0`
 	-  The `key` is compared with the last element `A[j-1]` of the sorted list. If the element is greater than the key, it is shifted right to A[j].
-5. After all
+5. If key is greater than the element in the list, insertion happens at the location `j` 
+6. The function returns with the list containing `key` and maintaining the sort order.  
 
 ## Algorithm in pseudocode 
 
@@ -22,7 +23,7 @@
 		iterate j from index to 1
         if A[j-1] > key then 
             shift the element right 
-         else
+        else
             break
         if j != index: 
             A[j] = key // inserted at the right location
@@ -79,6 +80,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM4MjkwMSwtMzQ2ODUwNjA5LDg4OD
-U2Mzc5OF19
+eyJoaXN0b3J5IjpbODczNTU4ODI0LC0zNDY4NTA2MDksODg4NT
+YzNzk4XX0=
 -->
