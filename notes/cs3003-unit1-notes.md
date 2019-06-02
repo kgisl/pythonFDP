@@ -21,8 +21,10 @@
 		return A 
 	end func 
 
-For  sorted list `ar = [3, 5, 6, 7]` and to insert `element 2`, 
-during the intermediary steps, the contents of `ar` are as shown below, `0` getting inserted at beginning of the list.
+## Example 
+Assume sorted list `ar = [3, 5, 6, 7]` and element to insert is `2`. 
+
+During the intermediary steps, the contents of `ar` are as shown below, `0` getting inserted at beginning of the list.
 
 	Start: 3 4 6 7 2 
 		3 5 6 7 7  // 7 shifted right
@@ -65,5 +67,5 @@ insertionSort (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjI0MDAxOCw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbMTMzMzU3NzMwNyw4ODg1NjM3OThdfQ==
 -->
