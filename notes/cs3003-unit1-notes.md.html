@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cs3003-unit1-notes</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#insertion-into-sorted-list">Insertion into Sorted List</a>
+<ul>
+<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#source-code">Source Code</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="insertion-into-sorted-list">Insertion into Sorted List</h1>
+<h2 id="algorithm">Algorithm</h2>
+<pre><code>func INSERTSORT: 
+    input: sorted list, key to be inserted
+    output: sorted list with key inserted 
+    
+    key &lt;= last element in A  // A is a list
+    index = length(List) - 1 
+	
+	iterate j from index to 1
+		if A[j-1] &gt; key then 
+			shift the element right 
+		else
+		    break
+	if j != index: 
+		A[j] = key // inserted at the right location
+
+	return A 
+end func 
+</code></pre>
+<p>For  sorted list <code>ar = [3, 5, 6, 7]</code> and to insert <code>element 2</code>,<br>
+during the intermediary steps, the contents of <code>ar</code> are as shown below, <code>0</code> getting inserted at beginning of the list.</p>
+<pre><code>Start: 3 4 6 7 2 
+	3 5 6 7 7  // 7 shifted right
+	3 5 6 6 7  // 6 shifted right
+	3 5 5 6 7  // 5 shifted right
+	3 3 5 6 7  // 3 shifted right
+	2 3 5 6 7  // 2 inserted in position 1 (index 0)
+Final: 2 3 4 6 7
+</code></pre>
+<h2 id="source-code">Source Code</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">printarray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> e <span class="token keyword">in</span> arr<span class="token punctuation">:</span> <span class="token keyword">print</span> <span class="token punctuation">(</span>e<span class="token punctuation">,</span> end <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">insert_into_sortedArray</span><span class="token punctuation">(</span>ar<span class="token punctuation">)</span><span class="token punctuation">:</span>    
+    key <span class="token operator">=</span> ar<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>  <span class="token comment"># the candidate to insert</span>
+    i <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ar<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span> <span class="token comment"># position of candidate</span>
+    j <span class="token operator">=</span> i
+
+    <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+        ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token comment"># move bigger element right</span>
+        j <span class="token operator">=</span> j<span class="token number">-1</span>
+        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> j <span class="token operator">!=</span> i<span class="token punctuation">:</span> 
+        ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> key
+        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
+
+<span class="token comment"># sorted array </span>
+ar <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span>  <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
+insertionSort <span class="token punctuation">(</span>ar <span class="token operator">+</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+	<span class="token triple-quoted-string string">'''
+	1 2 5 6 7 9 9 
+	1 2 5 6 7 7 9 
+	1 2 5 6 6 7 9 
+	1 2 5 5 6 7 9 
+	1 2 4 5 6 7 9 
+	'''</span>
+</code></pre>
+
+    </div>
+  </div>
+</body>
+
+</html>
