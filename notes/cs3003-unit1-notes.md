@@ -5,7 +5,8 @@
 
 1. It is assumed that there is a list `A` which has elements which are already sorted. 
 2. The task at hand is to insert another element (referred to as `key`) into the sorted list `A` so that after the insertion, the list must continue to remain sorted. 
-3. The `key` is included by increasing the size of the list and placing it at 
+3. The `key` is included by increasing the size of the list and placing it as the last element of the list. 
+4. The `key` is compared with the last element `A[j-1]` of the sorted list. If the element is greater than the key, it is shifted right to A[j]. This 
 
 
 ## Algorithm in pseudocode 
@@ -77,6 +78,6 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTc5Nzg0LC0zNDY4NTA2MDksODg4NT
+eyJoaXN0b3J5IjpbMjM4ODM4ODMzLC0zNDY4NTA2MDksODg4NT
 YzNzk4XX0=
 -->
