@@ -15,7 +15,8 @@
 <ul>
 <li><a href="#insertion-into-sorted-list">Insertion into Sorted List</a>
 <ul>
-<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#algorithm-in-pseudocode">Algorithm in pseudocode</a></li>
 <li><a href="#example">Example</a></li>
 <li><a href="#source-code">Source Code</a></li>
 <li><a href="#output">Output</a></li>
@@ -28,18 +29,31 @@
   <div class="stackedit__right">
     <div class="stackedit__html">
       <h1 id="insertion-into-sorted-list">Insertion into Sorted List</h1>
-<h2 id="algorithm">Algorithm</h2>
+<h2 id="description">Description</h2>
+<ol>
+<li>It is assumed that there is a list <code>A</code> which has elements which are already sorted.</li>
+<li>The task at hand is to insert another element (referred to as <code>key</code>) into the sorted list <code>A</code> so that after the insertion, the list must continue to remain sorted.</li>
+<li>The <code>key</code> is made part of the sorted list by increasing the size by 1 and placing it as the last element of the list. Therefore, space complexity is <code>O(1)</code>.</li>
+<li>An iteration of <code>j</code> is begun from <code>i-1</code> all the way to <code>0</code>
+<ul>
+<li>The <code>key</code> is compared with the last element <code>A[j-1]</code> of the sorted list. If the element is greater than the key, it is shifted right to A[j].</li>
+</ul>
+</li>
+<li>If key is greater than the element in the list, insertion happens at the location <code>j</code> and the iteration is exited</li>
+<li>The function returns with the list containing <code>key</code> and maintaining the sort order.</li>
+</ol>
+<h2 id="algorithm-in-pseudocode">Algorithm in pseudocode</h2>
 <pre><code>func INSERT_INTO_SORTEDARRAY: 
-    input: sorted list, and key to be inserted
-    output: sorted list with key inserted 
+    (input) sorted list, and key to be inserted
+    (output) sorted list with key inserted 
     
-    key &lt;= last element in A  // A is a list
-    index = length(List) - 1 
+    key: &lt;- last element in A  // A is already sorted
+    index: &lt;- length(List) - 1 
 	
 	iterate j from index to 1
     if A[j-1] &gt; key then 
         shift the element right 
-     else
+    else
         break
     if j != index: 
         A[j] = key // inserted at the right location
@@ -49,7 +63,7 @@ end func
 </code></pre>
 <h2 id="example">Example</h2>
 <p>Assume sorted list <code>ar = [3, 5, 6, 7]</code> and element to insert is <code>2</code>.</p>
-<p>During the intermediary steps, the contents of <code>ar</code> are as shown below, <code>0</code> getting inserted at beginning of the list.</p>
+<p>During the intermediary steps, the contents of <code>ar</code> are as shown below. The <code>key</code> is value <code>2</code> and eventually it gets inserted at beginning of the list.</p>
 <pre><code>Start: 3 4 6 7 2 
 	3 5 6 7 7  // 7 shifted right
 	3 5 6 6 7  // 6 shifted right
