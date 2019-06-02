@@ -50,14 +50,14 @@
     key: &lt;- last element in A  // A is already sorted
     index: &lt;- length(List) - 1 
 	
-	iterate j from index to 1
-    if A[j-1] &gt; key then 
-        shift the element right 
-    else
-        break
+    iterate j from index to 1
+        if A[j-1] &gt; key then 
+            shift the element right 
+        else
+            break
+  
     if j != index: 
         A[j] = key // inserted at the right location
-
     return A 
 end func 
 </code></pre>
