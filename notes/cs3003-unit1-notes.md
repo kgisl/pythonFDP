@@ -11,10 +11,10 @@
 	    index = length(List) - 1 
 		
 		iterate j from index to 1
-			if A[j-1] > key then 
-				shift the element right 
-			else
-			    break
+        if A[j-1] > key then 
+            shift the element right 
+         else
+        break
 		if j != index: 
 			A[j] = key // inserted at the right location
 
@@ -67,5 +67,5 @@ insert_into_sortedArray (ar + [4])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzEzODU1NSw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbMTU4NTk0NTc5MSw4ODg1NjM3OThdfQ==
 -->
