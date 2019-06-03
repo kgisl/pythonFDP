@@ -82,6 +82,15 @@ insert_into_sortedArray (ar + [4])
 
 The Tower of Hanoi problem is the most popular for introducing the concept of **Recursion** as well as demonstrating its power in solving what is a problem of medium complexity for humans, even if you are an adult. 
 
+In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).
+
+In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:
+
+1.  Move the upper n-1 discs from tower A to B (the temporary tower), using C as the in-between.
+2.  Move the single lowest disc from A to C.
+3.  Move the n-1 discs from tower B to C, using A as the in-between.
+
+The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  hanoi()  that is responsible for moving discs from one tower to another, given a third temporary tower.
 
 ## Pseudocode 
 
@@ -109,7 +118,7 @@ The Tower of Hanoi problem is the most popular for introducing the concept of **
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyNjUzMjAwLC0xMjIyMDYzNDE0LC0xOD
-k2MTQ1ODMsMTgzNjk3Mjg0NSwxMDAyMDQyNzcwLC0zNDY4NTA2
-MDksODg4NTYzNzk4XX0=
+eyJoaXN0b3J5IjpbMTYzMjU4MTk0MiwtMTIyMjA2MzQxNCwtMT
+g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
+NjA5LDg4ODU2Mzc5OF19
 -->
