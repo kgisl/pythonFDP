@@ -78,10 +78,15 @@ insert_into_sortedArray (ar + [4])
 '''
 ```
 
-## Tower of Hanoi
+# Tower of Hanoi
 
-	func moveDisk 
-		print Moving top dis
+The Tower of Hanoi problem is the most popular for introducing the concept of Recursion as well as demonstrating its 
+
+## Pseudocode 
+
+	func moveDisk (A, B)
+		print "Moving top disk from tower {A} to tower {B} "
+		
 	func towerOfHanoi (n, fromTower, toTower, tempTower)
 	
 		if (n >= 1) 
@@ -91,6 +96,8 @@ insert_into_sortedArray (ar + [4])
 		   
 	end func 
 
+
+## Sample Output
 ```
  Move top disk from tower Tower1 to tower Tower2
  Move top disk from tower Tower1 to tower Inter
@@ -101,7 +108,7 @@ insert_into_sortedArray (ar + [4])
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDMyMzY3MCwtMTIyMjA2MzQxNCwtMT
+eyJoaXN0b3J5IjpbLTIwNjUzMzY4OCwtMTIyMjA2MzQxNCwtMT
 g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
 NjA5LDg4ODU2Mzc5OF19
 -->
