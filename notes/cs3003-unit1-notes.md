@@ -81,8 +81,18 @@ insert_into_sortedArray (ar + [4])
 ## Tower of Hanoi
 
 
+
+```
+ Move top disk from tower Tower1 to tower Tower2
+ Move top disk from tower Tower1 to tower Inter
+ Move top disk from tower Tower2 to tower Inter
+ Move top disk from tower Tower1 to tower Tower2
+ Move top disk from tower Inter to tower Tower1
+ Move top disk from tower Inter to tower Tower2
+ Move top disk from tower Tower1 to tower Tower2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIwNjM0MTQsLTE4OTYxNDU4MywxOD
-M2OTcyODQ1LDEwMDIwNDI3NzAsLTM0Njg1MDYwOSw4ODg1NjM3
-OThdfQ==
+eyJoaXN0b3J5IjpbMTk3MTc5MTY0OSwtMTIyMjA2MzQxNCwtMT
+g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
+NjA5LDg4ODU2Mzc5OF19
 -->
