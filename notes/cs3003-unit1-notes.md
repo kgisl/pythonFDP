@@ -80,7 +80,8 @@ insert_into_sortedArray (ar + [4])
 
 # Tower of Hanoi
 
-The Tower of Hanoi problem is the most popular for introducing the concept of Recursion as well as demonstrating its 
+The Tower of Hanoi problem is the most popular for introducing the concept of **Recursion** as well as demonstrating its power in solving what is a problem of medium complexity for humans, even if you are an adult. 
+
 
 ## Pseudocode 
 
@@ -108,7 +109,7 @@ The Tower of Hanoi problem is the most popular for introducing the concept of Re
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUzMzY4OCwtMTIyMjA2MzQxNCwtMT
-g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
-NjA5LDg4ODU2Mzc5OF19
+eyJoaXN0b3J5IjpbODQyNjUzMjAwLC0xMjIyMDYzNDE0LC0xOD
+k2MTQ1ODMsMTgzNjk3Mjg0NSwxMDAyMDQyNzcwLC0zNDY4NTA2
+MDksODg4NTYzNzk4XX0=
 -->
