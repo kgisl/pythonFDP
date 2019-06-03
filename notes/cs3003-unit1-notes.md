@@ -80,7 +80,13 @@ insert_into_sortedArray (ar + [4])
 
 ## Tower of Hanoi
 
-
+func towerOfHanoi
+	if (n >= 1) 
+	   towerOfHanoi(fromTower, tempTower, toTower)
+	   moveDisk(from, to)
+	   towerOfHanoi(tempTower, toTower, fromTower)
+	   
+end func 
 
 ```
  Move top disk from tower Tower1 to tower Tower2
@@ -92,7 +98,7 @@ insert_into_sortedArray (ar + [4])
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTc5MTY0OSwtMTIyMjA2MzQxNCwtMT
-g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
-NjA5LDg4ODU2Mzc5OF19
+eyJoaXN0b3J5IjpbLTEyOTk2NTI0NDEsLTEyMjIwNjM0MTQsLT
+E4OTYxNDU4MywxODM2OTcyODQ1LDEwMDIwNDI3NzAsLTM0Njg1
+MDYwOSw4ODg1NjM3OThdfQ==
 -->
