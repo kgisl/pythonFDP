@@ -26,9 +26,9 @@ Pre-requisite: http://j.mp/immutablePython
 ## List Comprehension 
 Pre-requisite; http://j.mp/listBenefit 
 
-
+## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTI5NTA2MiwxNDYyMjczNzc4LC0xND
-k4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbLTMzNTM1NTkwLDE0NjIyNzM3NzgsLTE0OT
+g0ODkxNTRdfQ==
 -->
