@@ -15,10 +15,11 @@
 
 
 ## Concept Map 
+_A picture is worth a 1000 words_
 
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA4MDkyLC0xNDk4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
