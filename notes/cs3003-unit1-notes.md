@@ -107,7 +107,7 @@ The amazing thing is that this recursive algorithm works not only for three disc
 	end func 
 
 
-## Output for 3
+## Output for 3 disc Hanoi Problem
 ```
  Move top disk from tower Tower1 to tower Tower2
  Move top disk from tower Tower1 to tower Inter
@@ -118,7 +118,7 @@ The amazing thing is that this recursive algorithm works not only for three disc
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Njg2OTk4MCwxNjMyNTgxOTQyLC0xMj
+eyJoaXN0b3J5IjpbLTk4NjM0NDMxMywxNjMyNTgxOTQyLC0xMj
 IyMDYzNDE0LC0xODk2MTQ1ODMsMTgzNjk3Mjg0NSwxMDAyMDQy
 NzcwLC0zNDY4NTA2MDksODg4NTYzNzk4XX0=
 -->
