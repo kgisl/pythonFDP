@@ -19,7 +19,12 @@ _A picture is worth a 1000 words_
 
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
+## List Mutability 
+
+Pre-requisite: http://j.mp/immutablePython
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbLTc1NTU5OTczNywxNDYyMjczNzc4LC0xND
+k4NDg5MTU0XX0=
 -->
