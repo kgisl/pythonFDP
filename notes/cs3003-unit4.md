@@ -30,9 +30,12 @@ Pre-requisite; http://j.mp/listBenefit
 
 [Python has no pass by value](https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------)
 
-There is no pass by value in Python. functions arguments are always passed by reference. The reason that numbers don’t change even if they are passed by reference is because of their immutability
+There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.
+
+[Refer book section for more details](https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xND
-k4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbNjUxMzAzNDcwLC03NDg0NjExNTAsMTQ2Mj
+I3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
