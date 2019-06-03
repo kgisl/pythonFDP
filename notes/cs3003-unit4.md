@@ -37,14 +37,15 @@ List comprehensions are concise ways to create lists. The general syntax is:
 
 	[<expression> for <item> in <sequence> if  <condition>]
 
-where the if clause is optional. For example,
+where the `if` clause is optional. For example,
 
 ```python
 mylist = [1,2,3,4,5]
 yourlist = [item ** 2 for item in mylist]
 print(yourlist)
-#
+# [1, 4, 9, 16, 25]
 ```
+
 
 ## List Parameters 
 
@@ -56,6 +57,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1Mzg2NjE5LC0xOTMxNzQ2NTMxLC03ND
-g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbMjA4MzQ5NzEwOSwtMTkzMTc0NjUzMSwtNz
+Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
