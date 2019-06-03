@@ -46,6 +46,14 @@ print(yourlist)
 # [1, 4, 9, 16, 25]
 ```
 
+### Quiz
+What is printed by the following statements?
+
+```python
+alist = [4,2,8,6,5]
+blist = [num*2 for num in alist if num%2==1]
+print(blist)
+```
 
 ## List Parameters 
 
@@ -57,6 +65,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzQ5NzEwOSwtMTkzMTc0NjUzMSwtNz
+eyJoaXN0b3J5IjpbMjA5NTk3NTA3NSwtMTkzMTc0NjUzMSwtNz
 Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
