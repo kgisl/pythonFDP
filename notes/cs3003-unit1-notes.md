@@ -107,7 +107,7 @@ The amazing thing is that this recursive algorithm works not only for three disc
 	end func 
 
 
-## Sample Output
+## Output for 3
 ```
  Move top disk from tower Tower1 to tower Tower2
  Move top disk from tower Tower1 to tower Inter
@@ -118,7 +118,7 @@ The amazing thing is that this recursive algorithm works not only for three disc
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjU4MTk0MiwtMTIyMjA2MzQxNCwtMT
-g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
-NjA5LDg4ODU2Mzc5OF19
+eyJoaXN0b3J5IjpbMTE2Njg2OTk4MCwxNjMyNTgxOTQyLC0xMj
+IyMDYzNDE0LC0xODk2MTQ1ODMsMTgzNjk3Mjg0NSwxMDAyMDQy
+NzcwLC0zNDY4NTA2MDksODg4NTYzNzk4XX0=
 -->
