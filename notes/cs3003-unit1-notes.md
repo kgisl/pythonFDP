@@ -93,7 +93,6 @@ The amazing thing is that this recursive algorithm works not only for three disc
 In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).
 
 
-
 ## Pseudocode 
 
 	func moveDisk (A, B)
@@ -120,8 +119,7 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjg1NjgzMiwtOTg2MzQ0MzEzLDE2Mz
-I1ODE5NDIsLTEyMjIwNjM0MTQsLTE4OTYxNDU4MywxODM2OTcy
-ODQ1LDEwMDIwNDI3NzAsLTM0Njg1MDYwOSw4ODg1NjM3OThdfQ
-==
+eyJoaXN0b3J5IjpbNjc3MTc0NTEwLC05ODYzNDQzMTMsMTYzMj
+U4MTk0MiwtMTIyMjA2MzQxNCwtMTg5NjE0NTgzLDE4MzY5NzI4
+NDUsMTAwMjA0Mjc3MCwtMzQ2ODUwNjA5LDg4ODU2Mzc5OF19
 -->
