@@ -55,6 +55,7 @@ blist = [num*2 for num in alist if num%2==1]
 print(blist)
 ```
 
+
 ## List Parameters 
 
 [Python has no pass by value](https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------)
@@ -65,6 +66,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTk3NTA3NSwtMTkzMTc0NjUzMSwtNz
-Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbNjY1Mjk4MTkzLC0xOTMxNzQ2NTMxLC03ND
+g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
