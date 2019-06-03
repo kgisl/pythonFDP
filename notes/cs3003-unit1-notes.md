@@ -119,7 +119,5 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MTc0NTEwLC05ODYzNDQzMTMsMTYzMj
-U4MTk0MiwtMTIyMjA2MzQxNCwtMTg5NjE0NTgzLDE4MzY5NzI4
-NDUsMTAwMjA0Mjc3MCwtMzQ2ODUwNjA5LDg4ODU2Mzc5OF19
+eyJoaXN0b3J5IjpbNjc3MTc0NTEwXX0=
 -->
