@@ -47,7 +47,7 @@ print(yourlist)
 ```
 
 ### Quiz
-What is printed by the following statements?
+What is printed by the following statements? Or, what is the output of the following statements? 
 
 ```python
 alist = [4,2,8,6,5]
@@ -66,6 +66,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1Mjk4MTkzLC0xOTMxNzQ2NTMxLC03ND
-g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbMTI4NTAxNzk4NCwtMTkzMTc0NjUzMSwtNz
+Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
