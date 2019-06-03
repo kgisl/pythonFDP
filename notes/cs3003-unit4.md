@@ -14,10 +14,11 @@
 - Cloning -> making *identical* copies of each other. Cloning a goat using stem cells is about duplicating what is already available 
 
 
+## Concept Map 
 
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTA4MDkyLC0xNDk4NDg5MTU0XX0=
 -->
