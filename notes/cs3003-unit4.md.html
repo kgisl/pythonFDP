@@ -17,6 +17,9 @@
 <ul>
 <li><a href="#simplifying-terms">Simplifying terms</a></li>
 <li><a href="#concept-map">Concept Map</a></li>
+<li><a href="#list-mutability">List Mutability</a></li>
+<li><a href="#list-comprehension">List Comprehension</a></li>
+<li><a href="#list-parameters">List Parameters</a></li>
 </ul>
 </li>
 </ul>
@@ -47,7 +50,34 @@
 <li>Cloning -&gt; making <em>identical</em> copies of each other. Cloning a goat using stem cells is about duplicating what is already available</li>
 </ul>
 <h2 id="concept-map">Concept Map</h2>
+<p><em>A picture is worth a 1000 words</em></p>
 <p><img src="https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png" alt="mutableList"></p>
+<h2 id="list-mutability">List Mutability</h2>
+<p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
+<p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
+<p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
+<p>It would be incorrect to say that “mutable objects can change and immutable ones can’t”, however. Consider the following:</p>
+<h2 id="list-comprehension">List Comprehension</h2>
+<p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a></p>
+<p>List comprehensions are concise ways to create lists. The general syntax is:</p>
+<pre><code>[&lt;expression&gt; for &lt;item&gt; in &lt;sequence&gt; if  &lt;condition&gt;]
+</code></pre>
+<p>where the <code>if</code> clause is optional. For example,</p>
+<pre class=" language-python"><code class="prism  language-python">mylist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
+yourlist <span class="token operator">=</span> <span class="token punctuation">[</span>item <span class="token operator">**</span> <span class="token number">2</span> <span class="token keyword">for</span> item <span class="token keyword">in</span> mylist<span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>yourlist<span class="token punctuation">)</span>
+<span class="token comment"># [1, 4, 9, 16, 25]</span>
+</code></pre>
+<h3 id="quiz">Quiz</h3>
+<p>What is printed by the following statements?</p>
+<pre class=" language-python"><code class="prism  language-python">alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
+blist <span class="token operator">=</span> <span class="token punctuation">[</span>num<span class="token operator">*</span><span class="token number">2</span> <span class="token keyword">for</span> num <span class="token keyword">in</span> alist <span class="token keyword">if</span> num<span class="token operator">%</span><span class="token number">2</span><span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>blist<span class="token punctuation">)</span>
+</code></pre>
+<h2 id="list-parameters">List Parameters</h2>
+<p><a href="https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------">Python has no pass by value</a></p>
+<p>There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.</p>
+<p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html">Refer book section for more details</a></p>
 
     </div>
   </div>
