@@ -55,6 +55,11 @@ blist = [num*2 for num in alist if num%2==1]
 print(blist)
 ```
 
+	(A) [4,2,8,6,5]  
+	(B) [8,4,16,12,10]  
+	(C) 10  
+	(D) [10]
+
 
 ## List Parameters 
 
@@ -66,6 +71,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTAxNzk4NCwtMTkzMTc0NjUzMSwtNz
+eyJoaXN0b3J5IjpbMTkwMDk5NjUzNiwtMTkzMTc0NjUzMSwtNz
 Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
