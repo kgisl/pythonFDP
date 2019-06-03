@@ -80,13 +80,16 @@ insert_into_sortedArray (ar + [4])
 
 ## Tower of Hanoi
 
-func towerOfHanoi
-	if (n >= 1) 
-	   towerOfHanoi(fromTower, tempTower, toTower)
-	   moveDisk(from, to)
-	   towerOfHanoi(tempTower, toTower, fromTower)
-	   
-end func 
+	func moveDisk 
+		print Moving top dis
+	func towerOfHanoi (n, fromTower, toTower, tempTower)
+	
+		if (n >= 1) 
+		   towerOfHanoi(n-1, fromTower, tempTower, toTower)
+		   moveDisk(from, to)
+		   towerOfHanoi(n-1, tempTower, toTower, fromTower)
+		   
+	end func 
 
 ```
  Move top disk from tower Tower1 to tower Tower2
@@ -98,7 +101,7 @@ end func
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk2NTI0NDEsLTEyMjIwNjM0MTQsLT
-E4OTYxNDU4MywxODM2OTcyODQ1LDEwMDIwNDI3NzAsLTM0Njg1
-MDYwOSw4ODg1NjM3OThdfQ==
+eyJoaXN0b3J5IjpbMTQzNDMyMzY3MCwtMTIyMjA2MzQxNCwtMT
+g5NjE0NTgzLDE4MzY5NzI4NDUsMTAwMjA0Mjc3MCwtMzQ2ODUw
+NjA5LDg4ODU2Mzc5OF19
 -->
