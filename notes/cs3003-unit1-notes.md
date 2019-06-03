@@ -80,9 +80,7 @@ insert_into_sortedArray (ar + [4])
 
 # Tower of Hanoi
 
-The Tower of Hanoi problem is the most popular for introducing the concept of **Recursion** as well as demonstrating its power in solving what is a problem of medium complexity for humans, even if you are an adult. 
-
-In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).
+The Tower of Hanoi problem is a popular puzzle that is used to introduce the concept of **Recursion**. It also helps to demonstrate the power of recursion in how it can present an elegation solution to a problem of medium complexity. 
 
 In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:
 
@@ -91,6 +89,10 @@ In our three-disc example, we had a simple base case of moving a single disc and
 3.  Move the n-1 discs from tower B to C, using A as the in-between.
 
 The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  hanoi()  that is responsible for moving discs from one tower to another, given a third temporary tower.
+
+In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).
+
+
 
 ## Pseudocode 
 
@@ -118,7 +120,8 @@ The amazing thing is that this recursive algorithm works not only for three disc
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjM0NDMxMywxNjMyNTgxOTQyLC0xMj
-IyMDYzNDE0LC0xODk2MTQ1ODMsMTgzNjk3Mjg0NSwxMDAyMDQy
-NzcwLC0zNDY4NTA2MDksODg4NTYzNzk4XX0=
+eyJoaXN0b3J5IjpbMjEzNjg1NjgzMiwtOTg2MzQ0MzEzLDE2Mz
+I1ODE5NDIsLTEyMjIwNjM0MTQsLTE4OTYxNDU4MywxODM2OTcy
+ODQ1LDEwMDIwNDI3NzAsLTM0Njg1MDYwOSw4ODg1NjM3OThdfQ
+==
 -->
