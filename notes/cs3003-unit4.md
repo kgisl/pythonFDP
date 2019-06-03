@@ -33,6 +33,19 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 ## List Comprehension 
 Pre-requisite; http://j.mp/listBenefit 
 
+List comprehensions are concise ways to create lists. The general syntax is:
+
+	[<expression> for <item> in <sequence> if  <condition>]
+
+where the if clause is optional. For example,
+
+```python
+mylist = [1,2,3,4,5]
+yourlist = [item ** 2 for item in mylist]
+print(yourlist)
+#
+```
+
 ## List Parameters 
 
 [Python has no pass by value](https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------)
@@ -43,6 +56,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxND
-YyMjczNzc4LC0xNDk4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbMjE1Mzg2NjE5LC0xOTMxNzQ2NTMxLC03ND
+g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
