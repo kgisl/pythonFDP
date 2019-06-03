@@ -23,9 +23,12 @@ _A picture is worth a 1000 words_
 
 Pre-requisite: http://j.mp/immutablePython
 
-## Li
+## List Comprehension 
+Pre-requisite; http://j.mp/listBenefit 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ0NzI1NDYsMTQ2MjI3Mzc3OCwtMT
-Q5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbMTA0OTI5NTA2MiwxNDYyMjczNzc4LC0xND
+k4NDg5MTU0XX0=
 -->
