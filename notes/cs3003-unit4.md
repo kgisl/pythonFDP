@@ -78,13 +78,12 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 ## Dictionary
 
-A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type.
+A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  [associative array](http://en.wikipedia.org/wiki/Associative_array)  abstract data type. 
 
 **key**:  A data item that is  _mapped to_  a value in a dictionary. Keys are used to look up values in a dictionary.
 
 **key-value pair**:  One of the pairs of items in a dictionary. Values are looked up in a dictionary by key.
 
-**mapping type**: A mapping type is a data type comprised of a collection of keys and associated values. Python’s only built-in mapping type is the dictionary. Dictionaries implement the  [associative array](http://en.wikipedia.org/wiki/Associative_array)  abstract data type. 
 
 ```
 adict = dict() # initialization
@@ -140,8 +139,8 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTU0MTI2MSwxNDMxOTI4NjQ2LC0xOT
-k3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5NjA1NzQwOSwxODA3NzMz
-ODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1MzEsLTc0ODQ2MTE1MC
-wxNDYyMjczNzc4LC0xNDk4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5Nz
+QyODExOSwxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0
+NCwtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMT
+Q2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
