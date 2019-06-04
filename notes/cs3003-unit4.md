@@ -85,42 +85,22 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **list traversal** The sequential accessing of each element in a list.
 
-modifier
+**modifier** A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.
 
-A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.
+**mutable data type** A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.
 
-mutable data type
+**nested list** A list that is an element of another list.
 
-A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.
+**object** A thing to which a variable can refer.
 
-nested list
+**pure function** A function which has no side effects. Pure functions only make changes to the calling program through their return values.
 
-A list that is an element of another list.
+**sequence** Any of the data types that consist of an ordered collection of elements, with each element identified by an index.
 
-object
+**side effect** A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.
 
-A thing to which a variable can refer.
-
-pattern
-
-A sequence of statements, or a style of coding something that has general applicability in a number of different situations. Part of becoming a mature Computer Scientist is to learn and establish the patterns and algorithms that form your toolkit. Patterns often correspond to your “mental chunking”.
-
-pure function
-
-A function which has no side effects. Pure functions only make changes to the calling program through their return values.
-
-sequence
-
-Any of the data types that consist of an ordered collection of elements, with each element identified by an index.
-
-side effect
-
-A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.
-
-tuple
-
-A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
+**tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTA3NjQxNSwtMTkzMTc0NjUzMSwtNz
+eyJoaXN0b3J5IjpbMTY2NTUwMzY1MywtMTkzMTc0NjUzMSwtNz
 Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
