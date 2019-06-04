@@ -5,7 +5,7 @@
 - Warm up 1 - http://j.mp/secondBiggest and http://j.mp/secondBiggestValue
 - Warm up 2 - http://j.mp/fizzBuzzC and http://j.mp/fizzBuzzMixC on CyberDojo 
 
-# Learn TDD the easy way
+# Learn TDD the fun way
 
 ## Step 1 
 - Sequence practice http://j.mp/twoPoints  
@@ -26,6 +26,7 @@
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/spyPlaneCD - come with the most elegant code for this 
 - http://j.mp/permutePython and/or on CyberDojo
+- http://j.mp/friendsCC
 
 
 ## Further Steps 
