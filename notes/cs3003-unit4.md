@@ -4,9 +4,7 @@
 - Tuples: tuple assignment, tuple as return value; 
 - Dictionaries: operations and methods; 
 - Advanced list processing - list comprehension;
-
-## Simplifying terms
-
+- Refer to the glossary below to become familiar with the terms relevant to this unit 
 
 
 ## Concept Map 
@@ -68,11 +66,11 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **aliases** Multiple variables that contain references to the same object.
   - aliasing - nicknames - multiple names for the same object 
-	- Rajesh is the name of a boy; 'Ramki' might be the name used by his close relatives; "Bondaaaa" might be the name used by his close friends; 'Ramki' and "Bondaaa" are aliases (nicknames) for Rajesh
-- Cloning -> making *identical* copies of each other. Cloning a goat using stem cells is about duplicating what is already available 
-
+	- Rajesh is the name of a boy; 'Ramki' might be the name used by his close relatives; "Bondaaaa" might be the name used by his close friends; 'Ramki' and "Bondaaa" are **aliases** (nicknames) for Rajesh
 
 **clone** To create a new object that has the same value as an existing object. Copying a reference to an object creates an alias but doesn’t clone the object.
+  - Cloning a goat using stem cells is about duplicating what is already available 
+
 
 **delimiter** A character or string used to indicate where a string should be split.
 
@@ -103,6 +101,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2ODk5NzUzLC0xOTMxNzQ2NTMxLC03ND
-g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbLTM2NzIxNzAxNiwtMTkzMTc0NjUzMSwtNz
+Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
