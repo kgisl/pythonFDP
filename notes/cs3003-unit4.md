@@ -69,8 +69,8 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 [Refer book section for more details](https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html)
 
-
+## G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDk5NjUzNiwtMTkzMTc0NjUzMSwtNz
-Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbODY1MDkwMTkzLC0xOTMxNzQ2NTMxLC03ND
+g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
