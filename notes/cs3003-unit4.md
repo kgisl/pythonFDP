@@ -78,9 +78,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 ## Dictionary
 
-An associative array, where arbitrary keys are mapped to  
-values. The keys can be any object with  **hash**() and  
-**eq**() methods.
+An associative array, where arbitrary keys are mapped to   values. The keys can be any object with  **hash**() and   **eq**() methods.
 
 ```
 adict = dict() # initialization
@@ -136,7 +134,7 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDUzOTA1NiwtMTk5NzQyODExOSwxNT
+eyJoaXN0b3J5IjpbMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNT
 MzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0
 NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OC
 wtMTQ5ODQ4OTE1NF19
