@@ -110,7 +110,7 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
 	
 		if (n >= 1) 
 		   towerOfHanoi(n-1, fromTower, tempTower, toTower)
-		   moveDisk(from, to)
+		   moveDisk(fromTower, toTower)
 		   towerOfHanoi(n-1, tempTower, toTower, fromTower)
 		   
 	end func 
@@ -127,6 +127,6 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc4MTI5MjgsMTQ2NDA0Njc5LDY3Nz
-E3NDUxMF19
+eyJoaXN0b3J5IjpbMTExMjM5MzU2NiwtMTMwNzgxMjkyOCwxND
+Y0MDQ2NzksNjc3MTc0NTEwXX0=
 -->
