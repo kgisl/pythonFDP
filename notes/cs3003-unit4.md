@@ -18,7 +18,6 @@ _A picture is worth a 1000 words_
 
 |Type | Attributes | 
 |:------|:-------|
-|`__builtins__` | **`int`**, **`str`**, **`tuple`**, **`list`**, **`dict`**, **`len`**, **`sorted`**, **`del`** 
 |` <class 'str'>`|`capitalize`, 1 **`count`**, `endswith`, 2 **`find`**, `format`, `index`, `isalnum`, 3 **`isalpha`**, `isdecimal`, `isdigit`, `islower`, `isnumeric`, `isspace`, `istitle`, `isupper`, 4 **`join`**, `ljust`, `lower`, `lstrip`, `replace`, 5 **`rfind`**, `rindex`, `rjust`, 6 **`split`**, `splitlines`, `startswith`, 7 **`strip`**, `swapcase`, `title`, `upper`, `zfill` |
 |` <class 'tuple'>`|8 **`count`**, `index` |
 |` <class 'list'>`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
@@ -118,7 +117,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkxODcxNCwxNTMzNDYwMzMwLC00OT
+eyJoaXN0b3J5IjpbMTYyMDk1MjU5MSwxNTMzNDYwMzMwLC00OT
 YwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNzQ2
 NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF
 19
