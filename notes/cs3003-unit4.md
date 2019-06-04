@@ -7,11 +7,6 @@
 
 ## Simplifying terms
 
-- mutability - > ability to mutated, to be changed, to be modified 
-    - immutability -> cannot be changed 
-- aliasing - nicknames - multiple names for the same object 
-	- Rajesh is the name of a boy; 'Ramki' might be the name used by his close relatives; "Bondaaaa" might be the name used by his close friends; 'Ramki' and "Bondaaa" are aliases (nicknames) for Rajesh
-- Cloning -> making *identical* copies of each other. Cloning a goat using stem cells is about duplicating what is already available 
 
 
 ## Concept Map 
@@ -72,6 +67,10 @@ There is no pass by value in Python. Functions arguments are always passed by re
 ## Glossary
 
 **aliases** Multiple variables that contain references to the same object.
+  - aliasing - nicknames - multiple names for the same object 
+	- Rajesh is the name of a boy; 'Ramki' might be the name used by his close relatives; "Bondaaaa" might be the name used by his close friends; 'Ramki' and "Bondaaa" are aliases (nicknames) for Rajesh
+- Cloning -> making *identical* copies of each other. Cloning a goat using stem cells is about duplicating what is already available 
+
 
 **clone** To create a new object that has the same value as an existing object. Copying a reference to an object creates an alias but doesn’t clone the object.
 
@@ -88,6 +87,9 @@ There is no pass by value in Python. Functions arguments are always passed by re
 **modifier** A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.
 
 **mutable data type** A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.
+ -	mutability - > ability to mutated, to be changed, to be modified 
+ - immutability -> cannot be changed 
+
 
 **nested list** A list that is an element of another list.
 
@@ -101,6 +103,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTUwMzY1MywtMTkzMTc0NjUzMSwtNz
-Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbODg2ODk5NzUzLC0xOTMxNzQ2NTMxLC03ND
+g0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
