@@ -244,12 +244,15 @@ print(mergesort(alist))
       - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
 
 
+## Complexity Analysis
+
+http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMD
-k0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2
-NDA3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NS
-w4MzU5MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4
-NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LD
-IxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0MzA3NjgsLTE5ODcz
-OTM5NTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLT
+M1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYz
+OTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNj
+UsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1ODAzNTY1Miw3ODg0
+NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNy
+wyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0
+MzA3NjhdfQ==
 -->
