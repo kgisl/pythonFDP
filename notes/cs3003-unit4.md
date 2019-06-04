@@ -78,6 +78,10 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 ## Dictionary
 
+### Exercises
+- http://j.mp/reverseDictionary
+- http://j.mp/friendsCC 
+
 
 ## Glossary
 
@@ -122,8 +126,8 @@ There is no pass by value in Python. Functions arguments are always passed by re
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjI2NDk3NywtMTk5NzQyODExOSwxNT
-MzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0
-NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OC
-wtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbNzg0MTg0OTY2LC0xOTk3NDI4MTE5LDE1Mz
+M0NjAzMzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3
+MTEsLTE5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC
+0xNDk4NDg5MTU0XX0=
 -->
