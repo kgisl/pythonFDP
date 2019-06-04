@@ -54,6 +54,8 @@ print(blist)
 
 ## List Parameters 
 
+j.mp/parameterThis 
+
 [Python has no pass by value](https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------)
 
 There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.
@@ -99,6 +101,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNz
-Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOT
+MxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4
+OTE1NF19
 -->
