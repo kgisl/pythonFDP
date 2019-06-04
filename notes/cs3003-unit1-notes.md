@@ -80,6 +80,9 @@ insert_into_sortedArray (ar + [4])
 
 # Tower of Hanoi
 
+Pre-requisite: http://bit.ly/recursionELI5 
+
+
 The Tower of Hanoi problem is a popular puzzle that is used to introduce the concept of **Recursion**. It also helps to demonstrate the power of recursion in how it can present an elegation solution to a problem of medium complexity. 
 
 The rules one must follow when solving the tower puzzle are:
@@ -124,5 +127,6 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDA0Njc5LDY3NzE3NDUxMF19
+eyJoaXN0b3J5IjpbLTEzMDc4MTI5MjgsMTQ2NDA0Njc5LDY3Nz
+E3NDUxMF19
 -->
