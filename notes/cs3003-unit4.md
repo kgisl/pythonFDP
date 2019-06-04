@@ -1,11 +1,9 @@
 # Lists, Tuples and Dictionaries 
 
-- Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; 
-- Tuples: tuple assignment, tuple as return value; 
-- Dictionaries: operations and methods; 
-- Advanced list processing - list comprehension;
-- Refer to the glossary below to become familiar with the terms relevant to this unit 
+_Refer to the glossary below to become familiar with the terms relevant to this unit_
 
+- Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; 
+- Advanced list processing - list comprehension;
 
 ## Concept Map 
 _A picture is worth a 1000 words_
@@ -101,6 +99,6 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzIxNzAxNiwtMTkzMTc0NjUzMSwtNz
+eyJoaXN0b3J5IjpbLTM3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNz
 Q4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
