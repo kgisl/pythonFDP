@@ -16,12 +16,14 @@ _A picture is worth a 1000 words_
 
 ## List Methods 
 
+Here are some important methods that are associated with `tuple`, `list` and `dictionary` - all types that are covered in Unit 4. 
+
 |Type | Attributes | 
 |:------|:-------|
-|` <class 'str'>`|`capitalize`, 1 **`count`**, `endswith`, 2 **`find`**, `format`, `index`, `isalnum`, 3 **`isalpha`**, `isdecimal`, `isdigit`, `islower`, `isnumeric`, `isspace`, `istitle`, `isupper`, 4 **`join`**, `ljust`, `lower`, `lstrip`, `replace`, 5 **`rfind`**, `rindex`, `rjust`, 6 **`split`**, `splitlines`, `startswith`, 7 **`strip`**, `swapcase`, `title`, `upper`, `zfill` |
 |` <class 'tuple'>`|8 **`count`**, `index` |
 |` <class 'list'>`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
 |` <class 'dict'>`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
+ 
 
 ## List Mutability 
 
@@ -117,8 +119,8 @@ There is no pass by value in Python. Functions arguments are always passed by re
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDk1MjU5MSwxNTMzNDYwMzMwLC00OT
-YwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNzQ2
-NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF
-19
+eyJoaXN0b3J5IjpbLTE5OTc0MjgxMTksMTUzMzQ2MDMzMCwtND
+k2MDU3NDA5LDE4MDc3MzM4NDQsLTM3NTc1NDcxMSwtMTkzMTc0
+NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNT
+RdfQ==
 -->
