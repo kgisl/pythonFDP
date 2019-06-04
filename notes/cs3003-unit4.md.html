@@ -15,11 +15,13 @@
 <ul>
 <li><a href="#lists-tuples-and-dictionaries">Lists, Tuples and Dictionaries</a>
 <ul>
-<li><a href="#simplifying-terms">Simplifying terms</a></li>
 <li><a href="#concept-map">Concept Map</a></li>
+<li><a href="#list-methods">List Methods</a></li>
 <li><a href="#list-mutability">List Mutability</a></li>
 <li><a href="#list-comprehension">List Comprehension</a></li>
 <li><a href="#list-parameters">List Parameters</a></li>
+<li><a href="#glossary">Glossary</a></li>
+<li><a href="#exercises">Exercises</a></li>
 </ul>
 </li>
 </ul>
@@ -29,37 +31,47 @@
   <div class="stackedit__right">
     <div class="stackedit__html">
       <h1 id="lists-tuples-and-dictionaries">Lists, Tuples and Dictionaries</h1>
+<p>Pre-requisite: <a href="http://j.mp/pythonREPLcourse">http://j.mp/pythonREPLcourse</a></p>
+<p><em>Refer to the glossary below to become familiar with the terms relevant to this unit</em></p>
 <ul>
-<li>Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters;</li>
-<li>Tuples: tuple assignment, tuple as return value;</li>
-<li>Dictionaries: operations and methods;</li>
+<li>Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods;</li>
 <li>Advanced list processing - list comprehension;</li>
-</ul>
-<h2 id="simplifying-terms">Simplifying terms</h2>
-<ul>
-<li>mutability - &gt; ability to mutated, to be changed, to be modified
-<ul>
-<li>immutability -&gt; cannot be changed</li>
-</ul>
-</li>
-<li>aliasing - nicknames - multiple names for the same object
-<ul>
-<li>Rajesh is the name of a boy; ‘Ramki’ might be the name used by his close relatives; “Bondaaaa” might be the name used by his close friends; ‘Ramki’ and “Bondaaa” are aliases (nicknames) for Rajesh</li>
-</ul>
-</li>
-<li>Cloning -&gt; making <em>identical</em> copies of each other. Cloning a goat using stem cells is about duplicating what is already available</li>
 </ul>
 <h2 id="concept-map">Concept Map</h2>
 <p><em>A picture is worth a 1000 words</em></p>
 <p><img src="https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png" alt="mutableList"></p>
-<h2 id="list-mutability">List Mutability</h2>
+<h2 id="list-methods">List Methods</h2>
+<p>Here are some important methods that are associated with <code>tuple</code>, <code>list</code> and <code>dictionary</code> - all types that are covered in Unit 4.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Type</th>
+<th align="left">Attributes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>&lt;class 'tuple'&gt;</code></td>
+<td align="left">8 <strong><code>count</code></strong>, <code>index</code></td>
+</tr>
+<tr>
+<td align="left"><code>&lt;class 'list'&gt;</code></td>
+<td align="left">9 <strong><code>append</code></strong>, <code>clear</code>, <code>copy</code>, 10 <strong><code>count</code></strong>, 11 <strong><code>extend</code></strong>, <code>index</code>, 12 <strong><code>insert</code></strong>, 13 <strong><code>pop</code></strong>, 14 <strong><code>remove</code></strong>, 15 <strong><code>reverse</code></strong>, 16 <strong><code>sort</code></strong></td>
+</tr>
+<tr>
+<td align="left"><code>&lt;class 'dict'&gt;</code></td>
+<td align="left"><code>clear</code>, <code>copy</code>, <code>fromkeys</code>, 17 <strong><code>get</code></strong>, 18 <strong><code>items</code></strong>, 19 <strong><code>keys</code></strong>, 20 <strong><code>pop</code></strong>, <code>popitem</code>, <code>setdefault</code>, 21 <strong><code>update</code></strong>, 22 <strong><code>values</code></strong></td>
+</tr>
+</tbody>
+</table><h2 id="list-mutability">List Mutability</h2>
 <p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
 <p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
 <p>It would be incorrect to say that “mutable objects can change and immutable ones can’t”, however. Consider the following:</p>
 <h2 id="list-comprehension">List Comprehension</h2>
-<p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a></p>
-<p>List comprehensions are concise ways to create lists. The general syntax is:</p>
+<p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a>  and <a href="https://j.mp/listComprehensions">https://j.mp/listComprehensions</a><br>
+List comprehensions are concise ways to create lists. The general syntax is:</p>
 <pre><code>[&lt;expression&gt; for &lt;item&gt; in &lt;sequence&gt; if  &lt;condition&gt;]
 </code></pre>
 <p>where the <code>if</code> clause is optional. For example,</p>
@@ -80,9 +92,42 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 (D) [10]
 </code></pre>
 <h2 id="list-parameters">List Parameters</h2>
+<p><a href="http://j.mp/parameterThis">j.mp/parameterThis</a></p>
 <p><a href="https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------">Python has no pass by value</a></p>
 <p>There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.</p>
 <p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html">Refer book section for more details</a></p>
+<h2 id="glossary">Glossary</h2>
+<p><strong>aliases</strong> Multiple variables that contain references to the same object.</p>
+<ul>
+<li>aliasing - nicknames - multiple names for the same object
+<ul>
+<li>Rajesh is the name of a boy; ‘Ramki’ might be the name used by his close relatives; “Bondaaaa” might be the name used by his close friends; ‘Ramki’ and “Bondaaa” are <strong>aliases</strong> (nicknames) for Rajesh</li>
+</ul>
+</li>
+</ul>
+<p><strong>clone</strong> To create a new object that has the same value as an existing object. Copying a reference to an object creates an alias but doesn’t clone the object.</p>
+<ul>
+<li>Cloning a goat using stem cells is about duplicating what is already available</li>
+</ul>
+<p><strong>delimiter</strong> A character or string used to indicate where a string should be split.</p>
+<p><strong>element</strong> One of the values in a list (or other sequence). The bracket operator selects elements of a list.</p>
+<p><strong>index</strong> An integer variable or value that indicates an element of a list.</p>
+<p><strong>list</strong> A collection of objects, where each object is identified by an index. Like other types  <code>str</code>,  <code>int</code>,  <code>float</code>, etc. there is also a  <code>list</code>  type-converter function that tries to turn its argument into a list.</p>
+<p><strong>list traversal</strong> The sequential accessing of each element in a list.</p>
+<p><strong>modifier</strong> A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.</p>
+<p><strong>mutable data type</strong> A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.</p>
+<ul>
+<li>mutability - &gt; ability to mutated, to be changed, to be modified</li>
+<li>immutability -&gt; cannot be changed</li>
+</ul>
+<p><strong>nested list</strong> A list that is an element of another list.</p>
+<p><strong>object</strong> A thing to which a variable can refer.</p>
+<p><strong>pure function</strong> A function which has no side effects. Pure functions only make changes to the calling program through their return values.</p>
+<p><strong>sequence</strong> Any of the data types that consist of an ordered collection of elements, with each element identified by an index.</p>
+<p><strong>side effect</strong> A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.</p>
+<p><strong>tuple</strong> A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.</p>
+<h2 id="exercises">Exercises</h2>
+<p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html</a></p>
 
     </div>
   </div>
