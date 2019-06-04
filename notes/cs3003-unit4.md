@@ -76,6 +76,9 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 [Refer book section for more details](https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html)
 
+## Dictionary
+
+
 ## Glossary
 
 **aliases** Multiple variables that contain references to the same object.
@@ -119,8 +122,8 @@ There is no pass by value in Python. Functions arguments are always passed by re
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc0MjgxMTksMTUzMzQ2MDMzMCwtND
-k2MDU3NDA5LDE4MDc3MzM4NDQsLTM3NTc1NDcxMSwtMTkzMTc0
-NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNT
-RdfQ==
+eyJoaXN0b3J5IjpbLTI5MjI2NDk3NywtMTk5NzQyODExOSwxNT
+MzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0
+NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OC
+wtMTQ5ODQ4OTE1NF19
 -->
