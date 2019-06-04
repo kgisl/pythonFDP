@@ -2,6 +2,7 @@
 
 Pre-requisite: http://j.mp/pythonREPLcourse
 
+
 _Refer to the glossary below to become familiar with the terms relevant to this unit_
 
 - Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; 
@@ -101,8 +102,12 @@ There is no pass by value in Python. Functions arguments are always passed by re
 **side effect** A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
+
+
+## Exercises
+[https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjYyMDI4LC00OTYwNTc0MDksMTgwNz
-czMzg0NCwtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjEx
-NTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MD
+c3MzM4NDQsLTM3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYx
+MTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
