@@ -22,8 +22,7 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 
 ## List Comprehension 
-Pre-requisite; http://j.mp/listBenefit 
-
+Pre-requisite; http://j.mp/listBenefit  and https://j.mp/listComprehensions
 List comprehensions are concise ways to create lists. The general syntax is:
 
 	[<expression> for <item> in <sequence> if  <condition>]
@@ -101,7 +100,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOT
-MxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4
-OTE1NF19
+eyJoaXN0b3J5IjpbLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNz
+U3NTQ3MTEsLTE5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjcz
+Nzc4LC0xNDk4NDg5MTU0XX0=
 -->
