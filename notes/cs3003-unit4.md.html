@@ -18,6 +18,7 @@
 <li><a href="#concept-map">Concept Map</a></li>
 <li><a href="#list-methods">List Methods</a></li>
 <li><a href="#list-mutability">List Mutability</a></li>
+<li><a href="#slicing">Slicing</a></li>
 <li><a href="#list-comprehension">List Comprehension</a></li>
 <li><a href="#list-parameters">List Parameters</a></li>
 <li><a href="#dictionary">Dictionary</a></li>
@@ -70,6 +71,8 @@
 <p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
 <p>It would be incorrect to say that “mutable objects can change and immutable ones can’t”, however. Consider the following:</p>
+<h2 id="slicing">Slicing</h2>
+<p><a href="https://v4.software-carpentry.org/python/slice.pdf">https://v4.software-carpentry.org/python/slice.pdf</a></p>
 <h2 id="list-comprehension">List Comprehension</h2>
 <p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a>  and <a href="https://j.mp/listComprehensions">https://j.mp/listComprehensions</a><br>
 List comprehensions are concise ways to create lists. The general syntax is:</p>
@@ -98,6 +101,13 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 <p>There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.</p>
 <p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html">Refer book section for more details</a></p>
 <h2 id="dictionary">Dictionary</h2>
+<p>A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  <a href="http://en.wikipedia.org/wiki/Associative_array">associative array</a>  abstract data type.</p>
+<p><strong>key</strong>:  A data item that is  <em>mapped to</em>  a value in a dictionary. Keys are used to look up values in a dictionary.</p>
+<p><strong>key-value pair</strong>:  One of the pairs of items in a dictionary. Values are looked up in a dictionary by key.</p>
+<pre><code>adict = dict() # initialization
+adict['Sam'] = 233-2333
+adict['Victor'] = 900-2222
+</code></pre>
 <h3 id="exercises">Exercises</h3>
 <ul>
 <li><a href="http://j.mp/reverseDictionary">http://j.mp/reverseDictionary</a></li>
