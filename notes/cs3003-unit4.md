@@ -36,6 +36,9 @@ This brings us to an important point: there are actually two kinds of objects in
 It would be incorrect to say that "mutable objects can change and immutable ones can't", however. Consider the following:
 
 
+## Slicing
+[https://v4.software-carpentry.org/python/slice.pdf](https://v4.software-carpentry.org/python/slice.pdf)
+
 ## List Comprehension 
 Pre-requisite; http://j.mp/listBenefit  and https://j.mp/listComprehensions
 List comprehensions are concise ways to create lists. The general syntax is:
@@ -139,8 +142,8 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5Nz
-QyODExOSwxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0
-NCwtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMT
-Q2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbLTEwNTczMjY1NDQsMjQ3NjMwNDIsMTQzMT
+kyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00OTYwNTc0
+MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC
+03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
