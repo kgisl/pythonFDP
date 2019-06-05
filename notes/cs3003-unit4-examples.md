@@ -64,6 +64,7 @@ def selectsort(a):
     - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
   - `insert()` - what does this do? How many arguments does it accept? 
 	  - write the equivalent of `append()` function using `insert()` 
+	  - When `pop` method exists, why is there no `pus
 
 ## Algorithm
 	mark first element as sorted
@@ -248,11 +249,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLT
-M1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYz
-OTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNj
-UsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1ODAzNTY1Miw3ODg0
-NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQyOTM3MzgxNy
-wyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1ODUwMTk0LDE2MDk0
-MzA3NjhdfQ==
+eyJoaXN0b3J5IjpbLTE4MDY0MDgxMCwtMjEzMDI5MzEzOCwtMT
+U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
+MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
+UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
+MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NC
+wxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4
+NTAxOTRdfQ==
 -->
