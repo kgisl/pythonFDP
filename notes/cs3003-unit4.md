@@ -37,7 +37,15 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 
 ## Slicing
+
+[https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html](https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html)
+
+[https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html](https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html)
 [https://v4.software-carpentry.org/python/slice.pdf](https://v4.software-carpentry.org/python/slice.pdf)
+
+[https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html](https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html)
+
+
 
 ## List Comprehension 
 Pre-requisite; http://j.mp/listBenefit  and https://j.mp/listComprehensions
@@ -142,8 +150,9 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTczMjY1NDQsMjQ3NjMwNDIsMTQzMT
-kyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00OTYwNTc0
-MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC
-03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbLTc5NzMzMjA1LC0xMDU3MzI2NTQ0LDI0Nz
+YzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMTksMTUzMzQ2MDMz
+MCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3NTc1NDcxMSwtMT
+kzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0
+ODkxNTRdfQ==
 -->
