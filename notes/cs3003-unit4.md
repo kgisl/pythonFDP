@@ -63,6 +63,11 @@ What does rlist[:-10] evaluate to?
 What does rlist[:-10:3] evaluate to?
 # [88, 68]
 
+alist = [25, 20, 25, 84, 67, 99, 96, 67,\
+			 27, 78, 73] [-3:7:-1]
+
+What does `alist` contain? 
+
 ```
 
 [https://www.dotnetperls.com/slice-python](https://www.dotnetperls.com/slice-python)
@@ -183,9 +188,10 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMT
-A5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4
-NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5NjA1NzQwOS
-wxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1MzEsLTc0
-ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMT
+QxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2
+MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMz
+AsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5
+MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4ND
+g5MTU0XX0=
 -->
