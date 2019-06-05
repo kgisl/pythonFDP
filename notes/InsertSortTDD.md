@@ -124,8 +124,9 @@ print("Time taken", timeit.default_timer() - start)
 	Time taken 5.4949
 	Typical Text Book Code
 	Time taken 9.0260
+	
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTQwNjAyNl19
+eyJoaXN0b3J5IjpbLTM0MzQwODI2OCwxODk1NDA2MDI2XX0=
 -->
