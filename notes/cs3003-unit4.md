@@ -38,20 +38,20 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 ## Slicing
 
-**A Python slice** extracts elements, based on a start and stop. We take slices on many types in Python. We specify an optional first index, an optional last index, and an optional step.
+**A Python slice** extracts elements, based on a start and stop. It returns a sequence containing the elements. We take slices on many types in Python. We specify an optional first index, an optional last index, and an optional step.
 
 **Syntax notes.** The special syntax for this operation is at first confusing. But with practice, slicing becomes easy. When we omit a value, a default is used.
+
+### [Start: Stop: Step]
 
 |Slice| Description|
 |---------|--------|
 |`values[1:3]`  | Index 1 through index 3.
 |`values[2:-1]`| Index 2 through index one from last.
-|```values[:2]```   | Start through index 2.
-|values[2:]   | Index 2 through end.
-|values[::2]  | Start through end, skipping ahead 2 places each time.
+|`values[:2]`   | Start through index 2.
+|`values[2:]`   | Index 2 through end.
+|`values[::2]`  | Start through end, skipping ahead 2 places each time.
 
-
-### [Start: Stop: Step]
 
 [https://www.dotnetperls.com/slice-python](https://www.dotnetperls.com/slice-python)
 
@@ -168,9 +168,9 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTI4Nzk5MSwtMTA1NzMyNjU0NCwyND
-c2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAz
-MzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLT
-E5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4
-NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbNTgxMjE1MjIxLC0xMDU3MzI2NTQ0LDI0Nz
+YzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMTksMTUzMzQ2MDMz
+MCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3NTc1NDcxMSwtMT
+kzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0
+ODkxNTRdfQ==
 -->
