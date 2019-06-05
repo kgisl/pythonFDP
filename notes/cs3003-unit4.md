@@ -38,12 +38,15 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 ## Slicing
 
-[https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html](https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html)
+[https://www.dotnetperls.com/slice-python](https://www.dotnetperls.com/slice-python)
 
-[https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html](https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html)
-[https://v4.software-carpentry.org/python/slice.pdf](https://v4.software-carpentry.org/python/slice.pdf)
+[Star
+- Slice operator [https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html](https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html)
 
-[https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html](https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html)
+- Slicing of Lists
+- [https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html](https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html)
+
+- Slice Detailed Slides [https://v4.software-carpentry.org/python/slice.pdf](https://v4.software-carpentry.org/python/slice.pdf)
 
 
 
@@ -150,9 +153,9 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzMzMjA1LC0xMDU3MzI2NTQ0LDI0Nz
-YzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMTksMTUzMzQ2MDMz
-MCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3NTc1NDcxMSwtMT
-kzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNzM3NzgsLTE0OTg0
-ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbLTQ4OTcxODk1NSwtMTA1NzMyNjU0NCwyND
+c2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAz
+MzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLT
+E5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4
+NDg5MTU0XX0=
 -->
