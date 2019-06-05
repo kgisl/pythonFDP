@@ -71,7 +71,22 @@ What will the following snippets do?
 alist = list(range(10))
 for i in range(len(alist)):
 	val = alist.pop()
+	print(val, end=" ")
+```
+
+```python
+alist = list(range(10))
+for i in range(len(alist)):
+	val = alist.pop(0)
 	print(val)
+```
+
+```python
+alist = list(range(10))
+for i in range(len(alist)):
+	val = alist.pop(i)
+	print(val)
+
 ```
 
 
@@ -258,11 +273,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc4MTI2MDcsLTIxMzAyOTMxMzgsLT
-E1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0
-MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0Mj
-A1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1
-ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNT
-QsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1
-ODUwMTk0XX0=
+eyJoaXN0b3J5IjpbLTk5MzMxMTM5NiwtMjEzMDI5MzEzOCwtMT
+U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
+MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
+UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
+MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NC
+wxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4
+NTAxOTRdfQ==
 -->
