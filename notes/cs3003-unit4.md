@@ -40,7 +40,7 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 - **A Python slice** extracts elements from an `iterable` based on a start and stop.  It returns a `iterable` (or sequence) containing the extracted elements. 
 - We take slices on many types (`string, list and/or tuple`) in Python. 
-- We specify an optional first index, an optional last index, and an optional step.
+- We specify an optional `start` index, an optional `stop` index, and an optional `step` value.
 
 **Syntax notes.** The special syntax for this operation is at first confusing. But with practice, slicing becomes easy. When we omit a value, a default is used.
 
@@ -170,9 +170,9 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDkxMTA1MiwtMTA1NzMyNjU0NCwyND
-c2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAz
-MzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLT
-E5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4
-NDg5MTU0XX0=
+eyJoaXN0b3J5IjpbLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMj
+Q3NjMwNDIsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYw
+MzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC
+0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5
+ODQ4OTE1NF19
 -->
