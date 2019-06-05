@@ -64,7 +64,10 @@ def selectsort(a):
     - Write a code snippet which operates on a list and prints every element in it. By the time it is done, the list must be empty. 
   - `insert()` - what does this do? How many arguments does it accept? 
 	  - write the equivalent of `append()` function using `insert()` 
-	  - When `pop` method exists, why is there no `pus
+	  - When `pop` method exists, why is there no `push` method? Define a suitable list operation `push`that would be perform the role of a list `push` method if it were to exist. 
+
+
+
 
 ## Algorithm
 	mark first element as sorted
@@ -249,7 +252,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY0MDgxMCwtMjEzMDI5MzEzOCwtMT
+eyJoaXN0b3J5IjpbMTkwMTQxMTQ1MywtMjEzMDI5MzEzOCwtMT
 U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
 MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
 UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
