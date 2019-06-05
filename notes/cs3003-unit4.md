@@ -55,9 +55,11 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 |`values[::2]`  | Start through end, skipping ahead 2 places each time.
 
 ```python
-rlist = [88, 44, 65, 68, 78, 23, 72, 28, 50, 72, 21, 47, 27, 50, 15]
+rlist = [88, 44, 65, 68, 78, \
+	23, 72, 28, 50, 72, 21, 47, 27, 50, 15]
 
 What does rlist[:-10] evaluate to? 
+# [88, 44, 65, 68, 78]
 What does rlist[:-10:3] evaluate to?
 # [88, 68]
 
@@ -178,9 +180,9 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNzI1MDc2LC0xMDk0NzkxNDg1LC0xMD
-U3MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0Mjgx
-MTksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLT
-M3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIy
-NzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbLTIwMTI1OTE5NTcsLTEwOTQ3OTE0ODUsLT
+EwNTczMjY1NDQsMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5NzQy
+ODExOSwxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NC
+wtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2
+MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
 -->
