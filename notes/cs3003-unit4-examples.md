@@ -78,14 +78,14 @@ for i in range(len(alist)):
 alist = list(range(10))
 for i in range(len(alist)):
 	val = alist.pop(0)
-	print(val)
+	print(val, end =" ")
 ```
 
 ```python
 alist = list(range(10))
 for i in range(len(alist)):
 	val = alist.pop(i)
-	print(val)
+	print(val, end = " ")
 
 ```
 
@@ -273,7 +273,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzMxMTM5NiwtMjEzMDI5MzEzOCwtMT
+eyJoaXN0b3J5IjpbLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMT
 U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
 MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
 UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
