@@ -178,11 +178,14 @@ adict['Victor'] = 900-2222
 
 
 ## Exercises
-[https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
+1 [Runestone exercises](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
+2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg1ODAyMzAsLTEwOTQ3OTE0ODUsLT
-EwNTczMjY1NDQsMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5NzQy
-ODExOSwxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NC
-wtMzc1NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2
-MjI3Mzc3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMT
+A5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4
+NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5NjA1NzQwOS
+wxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1MzEsLTc0
+ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4NDg5MTU0XX0=
 -->
