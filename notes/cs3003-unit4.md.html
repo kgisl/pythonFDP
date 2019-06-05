@@ -72,7 +72,58 @@
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
 <p>It would be incorrect to say that “mutable objects can change and immutable ones can’t”, however. Consider the following:</p>
 <h2 id="slicing">Slicing</h2>
-<p><a href="https://v4.software-carpentry.org/python/slice.pdf">https://v4.software-carpentry.org/python/slice.pdf</a></p>
+<ul>
+<li><strong>A Python slice</strong> extracts elements from an <code>iterable</code> based on a start and stop.  It returns a <code>iterable</code> (or sequence) containing the extracted elements.</li>
+<li>We take slices on many types (<code>string, list and/or tuple</code>) in Python.</li>
+<li>We specify an optional <code>start</code> index, an optional <code>stop</code> index, and an optional <code>step</code> value.</li>
+</ul>
+<p><strong>Syntax notes.</strong> The special syntax for this operation is at first confusing. But with practice, slicing becomes easy. When we omit a value, a default is used.</p>
+<h3 id="start-stop-step">[Start: Stop: Step]</h3>
+
+<table>
+<thead>
+<tr>
+<th>Slice</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>values[1:3]</code></td>
+<td>Index 1 through index 3.</td>
+</tr>
+<tr>
+<td><code>values[2:-1]</code></td>
+<td>Index 2 through index one from last.</td>
+</tr>
+<tr>
+<td><code>values[:2]</code></td>
+<td>Start through index 2.</td>
+</tr>
+<tr>
+<td><code>values[2:]</code></td>
+<td>Index 2 through end.</td>
+</tr>
+<tr>
+<td><code>values[::2]</code></td>
+<td>Start through end, skipping ahead 2 places each time.</td>
+</tr>
+</tbody>
+</table><p><a href="https://www.dotnetperls.com/slice-python">https://www.dotnetperls.com/slice-python</a></p>
+<ul>
+<li>
+<p>Slice operator <a href="https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html">https://runestone.academy/runestone/static/thinkcspy/Strings/TheSliceOperator.html</a></p>
+</li>
+<li>
+<p>Slicing of Lists</p>
+</li>
+<li>
+<p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html">https://runestone.academy/runestone/static/thinkcspy/Lists/ListSlices.html</a></p>
+</li>
+<li>
+<p>Slice Detailed Slides <a href="https://v4.software-carpentry.org/python/slice.pdf">https://v4.software-carpentry.org/python/slice.pdf</a></p>
+</li>
+</ul>
 <h2 id="list-comprehension">List Comprehension</h2>
 <p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a>  and <a href="https://j.mp/listComprehensions">https://j.mp/listComprehensions</a><br>
 List comprehensions are concise ways to create lists. The general syntax is:</p>
