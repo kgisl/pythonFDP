@@ -42,13 +42,13 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 
 **Syntax notes.** The special syntax for this operation is at first confusing. But with practice, slicing becomes easy. When we omit a value, a default is used.
 
-:---------:--------
-
-values[1:3]  Index 1 through index 3.
-values[2:-1] Index 2 through index one from last.
-values[:2]   Start through index 2.
-values[2:]   Index 2 through end.
-values[::2]  Start through end, skipping ahead 2 places each time.
+|Slice| Description|
+|---------|--------|
+|`values[1:3]`  | Index 1 through index 3.
+|`values[2:-1]`| Index 2 through index one from last.
+|```values[:2]```   | Start through index 2.
+|values[2:]   | Index 2 through end.
+|values[::2]  | Start through end, skipping ahead 2 places each time.
 
 
 ### [Start: Stop: Step]
@@ -168,7 +168,7 @@ adict['Victor'] = 900-2222
 ## Exercises
 [https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjMzODkyNSwtMTA1NzMyNjU0NCwyND
+eyJoaXN0b3J5IjpbLTMxNTI4Nzk5MSwtMTA1NzMyNjU0NCwyND
 c2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAz
 MzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLT
 E5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4
