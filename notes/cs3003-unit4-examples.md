@@ -66,7 +66,13 @@ def selectsort(a):
 	  - write the equivalent of `append()` function using `insert()` 
 	  - When `pop` method exists, why is there no `push` method? Define a suitable list operation `push`that would be perform the role of a list `push` method if it were to exist. 
 
-
+What will the following snippets do? 
+```python
+alist = list(range(10))
+for i in range(len(alist)):
+	val = alist.pop()
+	print(val)
+```
 
 
 ## Algorithm
@@ -252,11 +258,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTQxMTQ1MywtMjEzMDI5MzEzOCwtMT
-U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
-MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
-UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
-MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NC
-wxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4
-NTAxOTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTc4MTI2MDcsLTIxMzAyOTMxMzgsLT
+E1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0
+MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0Mj
+A1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1
+ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNT
+QsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMyNDc4NTQsMzc1
+ODUwMTk0XX0=
 -->
