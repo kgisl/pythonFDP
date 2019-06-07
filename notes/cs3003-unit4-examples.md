@@ -128,14 +128,14 @@ def insertsort(alist):
     # STEP 2 - decide where to insert 
     sorted_already = alist[:idx]
     while j > 0 and value < sorted_already[j-1]:
-        j -= 1
-        # STEP 3 - insert it in the relevant index
-# alist.insert(j, value)
-		alist[j+1:idx+1] = alist[j:idx]
-		alist[j] = value
+      j -= 1
+      # STEP 3 - insert it in the relevant index
+      # alist.insert(j, value)
+      alist[j+1:idx+1] = alist[j:idx]
+      alist[j] = value
 
-		print('intermediary:', alist)
-	return alist
+    print('intermediary:', alist)
+  return alist
 
 # Test case using random shuffle
 from random import shuffle 
@@ -280,11 +280,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY5NjM0MjIsLTkxMDM3OTM4MiwxNj
-ExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAy
-OTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMz
-cwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3Mywt
-NDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5Mj
-ExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2
-NTI4MTgyNTRdfQ==
+eyJoaXN0b3J5IjpbODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMT
+U3NTAxMCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkz
+MTM4LC0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MC
+wtMzIyNDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5
+MDU5NDIwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMT
+MxLC00NTgwMzU2NTIsNzg4NDQ4MTExLC0zMjM3ODQ2NzQsNjUy
+ODE4MjU0XX0=
 -->
