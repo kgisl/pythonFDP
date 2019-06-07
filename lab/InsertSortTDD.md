@@ -56,57 +56,50 @@
 ## Verbose Mode Output
 
 ```bash
- *************************
+*************************
     INSERT SORT in verbose mode
     ************************
-bl [1, 4, 5, 2, 0, 3, 6]
+bl [2, 5, 3, 4, 6, 0, 1]
+ -> sorted:[2, 5] : value:3 no good for idx:2 -- idx:2 j:2
 j is 1 after loop
     -> Index to insert 1
-    -> After right shift [1, 4, 5, 2, 0, 3, 6]
-    -> After insertion   [1, 4, 5, 2, 0, 3, 6]
-intermediary res: [1, 4, 5, 2, 0, 3, 6]
+    -> After right shift [2, 5, 5, 4, 6, 0, 1]
+    -> After insertion   [2, 3, 5, 4, 6, 0, 1]
+intermediary res: [2, 3, 5, 4, 6, 0, 1]
 
+ -> sorted:[2, 3, 5] : value:4 no good for idx:3 -- idx:3 j:3
 j is 2 after loop
     -> Index to insert 2
-    -> After right shift [1, 4, 5, 2, 0, 3, 6]
-    -> After insertion   [1, 4, 5, 2, 0, 3, 6]
-intermediary res: [1, 4, 5, 2, 0, 3, 6]
+    -> After right shift [2, 3, 5, 5, 6, 0, 1]
+    -> After insertion   [2, 3, 4, 5, 6, 0, 1]
+intermediary res: [2, 3, 4, 5, 6, 0, 1]
 
- -> sorted:[1, 4, 5] : value:2 no good for idx:3 -- idx:3 j:3
- -> sorted:[1, 4, 5] : value:2 no good for idx:2 -- idx:3 j:2
-j is 1 after loop
-    -> Index to insert 1
-    -> After right shift [1, 4, 4, 5, 0, 3, 6]
-    -> After insertion   [1, 2, 4, 5, 0, 3, 6]
-intermediary res: [1, 2, 4, 5, 0, 3, 6]
-
- -> sorted:[1, 2, 4, 5] : value:0 no good for idx:4 -- idx:4 j:4
- -> sorted:[1, 2, 4, 5] : value:0 no good for idx:3 -- idx:4 j:3
- -> sorted:[1, 2, 4, 5] : value:0 no good for idx:2 -- idx:4 j:2
- -> sorted:[1, 2, 4, 5] : value:0 no good for idx:1 -- idx:4 j:1
+ -> sorted:[2, 3, 4, 5, 6] : value:0 no good for idx:5 -- idx:5 j:5
+ -> sorted:[2, 3, 4, 5, 6] : value:0 no good for idx:4 -- idx:5 j:4
+ -> sorted:[2, 3, 4, 5, 6] : value:0 no good for idx:3 -- idx:5 j:3
+ -> sorted:[2, 3, 4, 5, 6] : value:0 no good for idx:2 -- idx:5 j:2
+ -> sorted:[2, 3, 4, 5, 6] : value:0 no good for idx:1 -- idx:5 j:1
 j is 0 after loop
     -> Index to insert 0
-    -> After right shift [1, 1, 2, 4, 5, 3, 6]
-    -> After insertion   [0, 1, 2, 4, 5, 3, 6]
-intermediary res: [0, 1, 2, 4, 5, 3, 6]
+    -> After right shift [2, 2, 3, 4, 5, 6, 1]
+    -> After insertion   [0, 2, 3, 4, 5, 6, 1]
+intermediary res: [0, 2, 3, 4, 5, 6, 1]
 
- -> sorted:[0, 1, 2, 4, 5] : value:3 no good for idx:5 -- idx:5 j:5
- -> sorted:[0, 1, 2, 4, 5] : value:3 no good for idx:4 -- idx:5 j:4
-j is 3 after loop
-    -> Index to insert 3
-    -> After right shift [0, 1, 2, 4, 4, 5, 6]
-    -> After insertion   [0, 1, 2, 3, 4, 5, 6]
-intermediary res: [0, 1, 2, 3, 4, 5, 6]
-
-j is 6 after loop
-    -> Index to insert 6
-    -> After right shift [0, 1, 2, 3, 4, 5, 6]
+ -> sorted:[0, 2, 3, 4, 5, 6] : value:1 no good for idx:6 -- idx:6 j:6
+ -> sorted:[0, 2, 3, 4, 5, 6] : value:1 no good for idx:5 -- idx:6 j:5
+ -> sorted:[0, 2, 3, 4, 5, 6] : value:1 no good for idx:4 -- idx:6 j:4
+ -> sorted:[0, 2, 3, 4, 5, 6] : value:1 no good for idx:3 -- idx:6 j:3
+ -> sorted:[0, 2, 3, 4, 5, 6] : value:1 no good for idx:2 -- idx:6 j:2
+j is 1 after loop
+    -> Index to insert 1
+    -> After right shift [0, 2, 2, 3, 4, 5, 6]
     -> After insertion   [0, 1, 2, 3, 4, 5, 6]
 intermediary res: [0, 1, 2, 3, 4, 5, 6]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzI3OTc3MywtMTA2MDI4MTIzLC0xMj
-MwMjU2ODI1LDE5NjkzODUwMzAsLTcwNjY4ODY4NywtMTIwMzE0
-NTg1MSwxNTA1NDI5NzAsLTEzMDA3NTkzOTddfQ==
+eyJoaXN0b3J5IjpbNjQ2Mjg3ODEwLC0yOTcyNzk3NzMsLTEwNj
+AyODEyMywtMTIzMDI1NjgyNSwxOTY5Mzg1MDMwLC03MDY2ODg2
+ODcsLTEyMDMxNDU4NTEsMTUwNTQyOTcwLC0xMzAwNzU5Mzk3XX
+0=
 -->
