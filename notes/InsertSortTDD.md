@@ -290,9 +290,15 @@ print("Time taken", timeit.default_timer() - start)
 	  - Convert the pseudo code into Python code.  
 	  - Print the list before and after your insertion has happened
 
-## 4 Place the 4th element in the list into the first part part of the list (0:3) at the appropriate location
+## Place the 4th element in the list into the first part part of the list (0:3) at the appropriate location
   - Build a list in this order `[4, 5, 6, 0, 3, 1, 2]` - the 4th element being `0`. Represent this using a diagram in your notebook 
-  - Write 
+  - Initialize `idx = 4` and iterate through the first part of the list (which is already sorted) and insert it into the array at the appropriate location. Write the code for this. 
+
+## Place the last four elements in the list into the first part part of the list (0:3) at the appropriate location
+  - Build a list in this order `[4, 5, 6, 0, 3, 1, 2]` - the 4th element being `0`. Represent this using a diagram in your notebook 
+  - Initialize `idx = 4` and iterate through the first part of the list (which is already sorted) and insert it into the array at the appropriate location. Write the code for this. 
+
+
 
 
 
@@ -420,6 +426,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk5NDI2MTUsMjU1MTAxNzE4LDEzND
-k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTI4MjgwNzIyMSwyNTUxMDE3MTgsMTM0OT
+U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
