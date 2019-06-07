@@ -288,7 +288,9 @@ print("Time taken", timeit.default_timer() - start)
   - Build a sorted list containing 0 to 6. Append `2.5` into the list at the very end. 
   - In your notebook, write pseudo-code for determining how to find the index at which it needs to be inserted. 
 	  - Convert the pseudo code into Python code.  
-	  - Print the list before and 
+	  - Print the list before and after your insertion has happened
+
+## 4 Place the last 4th element in a list in the appropriate location 
 
 
 
@@ -416,6 +418,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NjcyMTUzLDI1NTEwMTcxOCwxMzQ5NT
-Q5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2XX0=
+eyJoaXN0b3J5IjpbMTQ4NDU5NDI0NiwyNTUxMDE3MTgsMTM0OT
+U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
