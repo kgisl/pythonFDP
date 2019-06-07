@@ -42,13 +42,19 @@
 2. Use appropriate names for the variables so the code is self-explanatory. Additional comments may also be included to further explain the code 
 3. Share with me your code through `repl.it` even prior to coming to class
 4. In the same file, clearly mark the code corresponding to the various steps that I have detailed above 
+5. Use CyberDojo to document your prog
 
 ## Pre-requisites
+
+1. Familiarity with List methods and operations
+	- pop()
+	- insert() 
+	- slicing 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNT
-A1NDI5NzAsLTEzMDA3NTkzOTddfQ==
+eyJoaXN0b3J5IjpbMjkxOTM0MTI2LC03MDY2ODg2ODcsLTEyMD
+MxNDU4NTEsMTUwNTQyOTcwLC0xMzAwNzU5Mzk3XX0=
 -->
