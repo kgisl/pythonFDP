@@ -40,11 +40,13 @@
 # Notes
 1. Bring your code and notes to the FDP session in a notebook of your own. 
 2. Write code so that it is self explanatory. 
-3. Use appropriate names for the variables so there might be very little comments that might be required to further explain what the cod does
+3. Use appropriate names for the variables so there might be very little comments that might be required to further explain what the code does
+4. Share with me your code through `repl.it` even prior to coming to class 
 
- 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg3OTgxMzAsMTUwNTQyOTcwLDI1NT
-EwMTcxOCwxMzQ5NTQ5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2
-XX0=
+eyJoaXN0b3J5IjpbLTg3NzQ3MjA2OCwxNTA1NDI5NzAsMjU1MT
+AxNzE4LDEzNDk1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZd
+fQ==
 -->
