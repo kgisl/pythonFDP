@@ -3,7 +3,7 @@
 
 ## 0 Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
- - Take the 3rd element and the last element and multiply them. Write code that does this.
+ - Take the 3rd element and the last element and multiply them. Write code that does this and prints the actual value of the multiplication.
  
 ## 1 Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
@@ -38,6 +38,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxOTY0NzgsMTUwNTQyOTcwLC0xMzAwNz
-U5Mzk3XX0=
+eyJoaXN0b3J5IjpbLTQyNjM4MzQyMywxNTA1NDI5NzAsLTEzMD
+A3NTkzOTddfQ==
 -->
