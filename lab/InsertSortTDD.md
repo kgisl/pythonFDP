@@ -43,10 +43,12 @@
 3. Share with me your code through `repl.it` even prior to coming to class
 4. In the same file, clearly mark the code corresponding to the various steps that I have detailed above 
 
+## Pre-requisites
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTI3ODg2NywtMTIwMzE0NTg1MSwxNT
+eyJoaXN0b3J5IjpbLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNT
 A1NDI5NzAsLTEzMDA3NTkzOTddfQ==
 -->
