@@ -34,11 +34,11 @@
 ## 6 Place your code inside a function  `insertsort`and write test cases to test the functionality 
 
 
-## 7 Replace the list method calls and instead use slicing to achieve the same sorting operation 
+## 7 Replace the list method calls and instead use `slicing` to achieve the same sorting operation 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjM4MzQyMywxNTA1NDI5NzAsMjU1MT
-AxNzE4LDEzNDk1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZd
-fQ==
+eyJoaXN0b3J5IjpbLTE1MDMyMTc0NjksMTUwNTQyOTcwLDI1NT
+EwMTcxOCwxMzQ5NTQ5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2
+XX0=
 -->
