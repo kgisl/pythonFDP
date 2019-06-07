@@ -42,7 +42,7 @@
 2. Use appropriate names for the variables so the code is self-explanatory. Additional comments may also be included to further explain the code 
 3. Share with me your code through `repl.it` even prior to coming to class
 4. In the same file, clearly mark the code corresponding to the various steps that I have detailed above 
-5. Use CyberDojo to document your progress and write test cases for validation 
+5. AlternatiUse CyberDojo to document your progress and write test cases for validation 
 	- Use [http://cyberdojo1.kgfsl.com/id_join/show](http://cyberdojo1.kgfsl.com/id_join/show) link and the session ID EUUPUS
 
 ## Pre-requisites
@@ -56,7 +56,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAyNTY4MjUsMTk2OTM4NTAzMCwtNz
-A2Njg4Njg3LC0xMjAzMTQ1ODUxLDE1MDU0Mjk3MCwtMTMwMDc1
-OTM5N119
+eyJoaXN0b3J5IjpbLTE2NDk2ODE2NywtMTIzMDI1NjgyNSwxOT
+Y5Mzg1MDMwLC03MDY2ODg2ODcsLTEyMDMxNDU4NTEsMTUwNTQy
+OTcwLC0xMzAwNzU5Mzk3XX0=
 -->
