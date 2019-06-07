@@ -270,9 +270,10 @@ print("Time taken", timeit.default_timer() - start)
 
 ## Create a list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
- - At what index is 0 located? How to find out? 
- - At what location is 3 located? How to find out? 
- - Take the 3rd element and the last element and multiply 
+ - At what index is 0 located? Write single line code for this.
+ - At what location is 3 located? How single line code for this. 
+ - Take the 3rd element and the last element and multiply them. Write code that does this.
+ - 
  
 ## Manually insert the `element  3.5` into the list at index 4
 ## 
@@ -401,6 +402,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjczNzcxNCwxMzQ5NTQ5NzIsLTgwND
-k2Mjg1MiwxODk1NDA2MDI2XX0=
+eyJoaXN0b3J5IjpbMjU1MTAxNzE4LDEzNDk1NDk3MiwtODA0OT
+YyODUyLDE4OTU0MDYwMjZdfQ==
 -->
