@@ -37,7 +37,10 @@
 ## 7 Replace the list method calls and instead use `slicing` to achieve the same sorting operation 
 
 
+# Notes
+1. Bring your code and notes to the FDP session in a notebook of your own. 
+2. Write code so that it is self explanatory. Use appropriate names for the variables so ther
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMyMTc0NjksMTUwNTQyOTcwLC0xMz
+eyJoaXN0b3J5IjpbLTIwMTAwNjU4OTgsMTUwNTQyOTcwLC0xMz
 AwNzU5Mzk3XX0=
 -->
