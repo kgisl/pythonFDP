@@ -268,11 +268,11 @@ print("Another variant")
 print("Time taken", timeit.default_timer() - start)
 ```
 
+# Incremental Approach
+
 ## 0 Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
  - Take the 3rd element and the last element and multiply them. Write code that does this.
-
- # Incremental Approach
  
 ## 1 Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
@@ -433,6 +433,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjkwMjYyNCwyNTUxMDE3MTgsMTM0OT
-U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
+eyJoaXN0b3J5IjpbMTUwNTQyOTcwLDI1NTEwMTcxOCwxMzQ5NT
+Q5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2XX0=
 -->
