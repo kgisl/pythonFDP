@@ -268,6 +268,9 @@ print("Another variant")
 print("Time taken", timeit.default_timer() - start)
 
 
+
+
+
 "Ground up explanation for InsertSort"
 al = list(range(7))
 bl = al[:]  # make a copy
@@ -390,6 +393,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMzc5OTc0LDEzNDk1NDk3MiwtODA0OT
-YyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NjY2MDgxOTYsMTM0OTU0OTcyLC04MD
+Q5NjI4NTIsMTg5NTQwNjAyNl19
 -->
