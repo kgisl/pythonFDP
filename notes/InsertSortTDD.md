@@ -42,7 +42,8 @@
 2. Use appropriate names for the variables so the code is self-explanatory. Additional comments may also be included to further explain the code 
 3. Share with me your code through `repl.it` even prior to coming to class
 4. In the same file, clearly mark the code corresponding to the various steps that I have detailed above 
-5. Use CyberDojo to 
+5. Use CyberDojo to document your progress and write test cases for validation 
+	- Use [http://cyberdojo1.kgfsl.com/id_join/show](http://cyberdojo1.kgfsl.com/id_join/show) link and the ID 
 
 ## Pre-requisites
 
@@ -55,7 +56,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTQwMzY2NCwtNzA2Njg4Njg3LC0xMj
+eyJoaXN0b3J5IjpbMTk2OTM4NTAzMCwtNzA2Njg4Njg3LC0xMj
 AzMTQ1ODUxLDE1MDU0Mjk3MCwyNTUxMDE3MTgsMTM0OTU0OTcy
 LC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
