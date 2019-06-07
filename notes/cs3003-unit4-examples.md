@@ -97,11 +97,11 @@ for i in range(len(alist)):
 
 - In `insertsort`, given a key, a copy of a pre-determined element in the list, we  **insert** it at the appropriate location after comparing it with the unsorted elements of the list.
 
-	mark first element as sorted
-	for each unsorted element X
-	  'extract' the element X as 'key'
-	  insert key at the relevant index so list remains sorted
-    return sorted list 
+		mark first element as sorted
+		for each unsorted element X
+			'extract' the element X as 'key'
+			insert key at the relevant index so list remains sorted
+		return sorted list 
 
 More detailed pseudo-code: 
 
@@ -280,11 +280,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU1NzExMjYsMTYxMTU3NTAxMCwtMT
-AyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4
-MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIyNDIwND
-A2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwx
-NjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00NTgwMz
-U2NTIsNzg4NDQ4MTExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0
-MjkzNzM4MTddfQ==
+eyJoaXN0b3J5IjpbLTkxMDM3OTM4MiwxNjExNTc1MDEwLC0xMD
+IxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLTE1Njgx
+MzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MD
+YsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2
+MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1ODAzNT
+Y1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQy
+OTM3MzgxN119
 -->
