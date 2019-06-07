@@ -279,7 +279,10 @@ print("Time taken", timeit.default_timer() - start)
  - Try doing the above step using `enumerate` to display the index and value pairs and validate your diagram with it 
 ## 
 
-## Insert the last element in a list Build a sorted list containing numbers 0 to 6
+## Insert the last element `3.5`in an `almost` sorted list into the list at index 4 
+ - Build a sorted list containing numbers 0 to 6. Append 3.5 into the list at the very end. 
+ - Draw a representation diagram for the above list 
+ - 
 
 
 
@@ -407,6 +410,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTk4NjYsMjU1MTAxNzE4LDEzNDk1ND
-k3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MjQ1NTE5ODIsMjU1MTAxNzE4LDEzND
+k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
 -->
