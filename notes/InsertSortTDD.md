@@ -268,18 +268,20 @@ print("Another variant")
 print("Time taken", timeit.default_timer() - start)
 ```
 
-## Create a list containing numbers from 0 to 6. 
+## Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
  - Take the 3rd element and the last element and multiply them. Write code that does this.
 
  
-## Insert the `element  3.5` into the list at index 4
+## Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
  - What is the python code which will achieve this? Print the list before the insertion and print the list after the insertion
  - Try doing the above step using `enumerate` to display the index and value pairs and validate your diagram with it 
 ## 
 
-## Insert th
+## Insert the element 
+
+
 
 ```python
 
@@ -405,6 +407,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk2MjQzMjAsMjU1MTAxNzE4LDEzND
-k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbMTU4MzI3NTUyNSwyNTUxMDE3MTgsMTM0OT
+U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
