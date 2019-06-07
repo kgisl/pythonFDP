@@ -97,20 +97,6 @@ for i in range(len(alist)):
 	  insert key at the relevant index so list remains sorted
     return sorted list 
 
-```python
-
-from bisect import insort
-def insertsort(alist):
-  n = len(alist)
-  for i in range(1, n):
-    key = alist.pop()
-    insort(alist, key, hi=i)
-  return alist
-
-alist = [32, 26, 15, 32, 48, 35, 47, 72]
-print(insertsort(alist))
-```
-    
 More detailed pseudo-code: 
 
 	mark first element as sorted
@@ -123,24 +109,35 @@ More detailed pseudo-code:
     return sorted list
    
 	   
-## Source code 2
+## Source code 
 
 ```python
 def insertsort(alist):
-  n = len(alist)
-  for i in range(1, n):
-    key = alist.pop(i)
-    # insort(alist, key, hi=i)
-    j = i
-    while j > 0 and alist[j-1] > key: 
-      j -= 1
-    alist.insert(j, key) 
-    print(key, alist)
-  return alist
+		n = len(alist)
+		for idx in range(1, n):
+				# STEP 1 - element to insert 
+				# j, value = idx, alist.pop(idx)
+				j, value = idx, alist[idx]
 
-alist = ['3', '2', '1', '5', '4', '7', '8', '6']
-print(insertsort(alist))
-```
+				# STEP 2 - decide where to insert 
+				sorted_already = alist[:idx]
+				while j > 0 and value < sorted_already[j-1]:
+						j -= 1
+				# STEP 3 - insert it in the relevant index
+				# alist.insert(j, value)
+				alist[j+1:idx+1] = alist[j:idx]
+				alist[j] = value
+
+				print('intermediary res:', alist)
+		return alist
+
+# Test case using random shuffle
+from random import shuffle 
+alist = list(range(10))
+shuffle(alist)
+
+print("************\nUnsorted", alist)
+print("sorted", insertsort(alist))```
 
 # MergeSort
 
@@ -273,11 +270,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMT
-U2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQy
-MDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMD
-UsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4
-MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Njc0LDY1MjgxODI1NC
-wxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEzMzI0Nzg1NCwzNzU4
-NTAxOTRdfQ==
+eyJoaXN0b3J5IjpbMTM3MzU2MDQxNSwtODYzNzA0NTcyLC0yMT
+MwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3
+MzM3MCwtMzIyNDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNz
+MsLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1
+OTIxMTMxLC00NTgwMzU2NTIsNzg4NDQ4MTExLC0zMjM3ODQ2Nz
+QsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4NDU4OTU2NCwyMTMz
+MjQ3ODU0XX0=
 -->
