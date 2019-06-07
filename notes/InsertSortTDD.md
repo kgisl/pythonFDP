@@ -1,5 +1,5 @@
 
-# Incremental Approach
+# Incremental Approach to Grokking InsertSort 
 
 ## 0 Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
@@ -110,7 +110,7 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 3. Write code on CloudCoder http://j.mp/insertionSortCC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjEwOTYyNCwxNTEwMjM3MDQxLC0xNj
+eyJoaXN0b3J5IjpbLTIxNjg4ODc1NiwxNTEwMjM3MDQxLC0xNj
 E1NTAyNTQ3LC05NTU1OTMyNjcsLTkyOTk3MzUwOCw2NDYyODc4
 MTAsLTI5NzI3OTc3MywtMTA2MDI4MTIzLC0xMjMwMjU2ODI1LD
 E5NjkzODUwMzAsLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNTA1
