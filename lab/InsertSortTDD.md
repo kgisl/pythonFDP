@@ -102,10 +102,12 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 1. Use a set of playing cards and demonstrate how they actually know **insert_sort** already
 2. Use repl.it - form their own list of numbers. 
 	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
-	4. The only piece that they have 
+	4. There is a piece of code that they have to write to reflect what they are doing in their head 
+
+3. Write code on CloudCoder 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5MjQyNzA0LDY0NjI4NzgxMCwtMjk3Mj
-c5NzczLC0xMDYwMjgxMjMsLTEyMzAyNTY4MjUsMTk2OTM4NTAz
-MCwtNzA2Njg4Njg3LC0xMjAzMTQ1ODUxLDE1MDU0Mjk3MCwtMT
-MwMDc1OTM5N119
+eyJoaXN0b3J5IjpbLTkyOTk3MzUwOCw2NDYyODc4MTAsLTI5Nz
+I3OTc3MywtMTA2MDI4MTIzLC0xMjMwMjU2ODI1LDE5NjkzODUw
+MzAsLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNTA1NDI5NzAsLT
+EzMDA3NTkzOTddfQ==
 -->
