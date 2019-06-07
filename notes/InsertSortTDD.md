@@ -282,10 +282,11 @@ print("Time taken", timeit.default_timer() - start)
 ## Place the last element `3.5`in an `almost` sorted list into the list at index 4 
  - Build a sorted list containing numbers 0 to 6. Append 3.5 into the list at the very end. 
  - Draw a representation diagram for the above list 
- - Write Python code to insert 3.5 at index 4. YouPrint the list before and after insertion. 
+ - Write Python code to remove `3.5` from its current location and then insert it at index 4. Print the list before and after insertion. 
 
-## Place the last element `3.5` in an `almost` sorted list into the list at the appropriate index so it fully sorted 
-  - Build a sorted list containing 0 to 6. 
+## Place the last element `2.5` in an `almost` sorted list into the list at the appropriate index so it fully sorted 
+  - Build a sorted list containing 0 to 6. Append `2.5` into the list at the very end. 
+  - Write pseudocode for determining how to find the index at which it needs to be inserted 
 
 
 
@@ -413,6 +414,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczOTE0NDE4LDI1NTEwMTcxOCwxMzQ5NT
-Q5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2XX0=
+eyJoaXN0b3J5IjpbMTQ0NzUyOTE1NSwyNTUxMDE3MTgsMTM0OT
+U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
