@@ -291,7 +291,8 @@ print("Time taken", timeit.default_timer() - start)
 	  - Print the list before and after your insertion has happened
 
 ## 4 Place the 4th element in the list into the first part part of the list (0:3) at the appropriate location
-  - Build a list in this order [4, 5, 6
+  - Build a list in this order `[4, 5, 6, 0, 3, 1, 2]` - the 4th element being `0`. Represent this using a diagram in your notebook 
+  - Write 
 
 
 
@@ -419,6 +420,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MTgxMDYsMjU1MTAxNzE4LDEzNDk1ND
-k3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE1Njk5NDI2MTUsMjU1MTAxNzE4LDEzND
+k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
 -->
