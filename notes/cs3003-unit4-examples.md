@@ -128,7 +128,7 @@ def insertsort(alist):
 		alist[j+1:idx+1] = alist[j:idx]
 		alist[j] = value
 
-		print('intermediary res:', alist)
+		print('intermediary:', alist)
 	return alist
 
 # Test case using random shuffle
@@ -271,11 +271,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMj
-EzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0
-NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MD
-czLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgz
-NTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Nj
-c0LDY1MjgxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEz
-MzI0Nzg1NF19
+eyJoaXN0b3J5IjpbLTI0MTMxODc3MSwtMTAyMTEyNjEzMSwtOD
+YzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5
+NDU1MzcsMjA5NDQ3MzM3MCwtMzIyNDIwNDA2LC0xNTA2MzkzMT
+A3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03
+MDkxMzM3NTUsODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4NDQ4MT
+ExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4
+NDU4OTU2NF19
 -->
