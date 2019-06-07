@@ -272,6 +272,7 @@ print("Time taken", timeit.default_timer() - start)
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
  - Take the 3rd element and the last element and multiply them. Write code that does this.
 
+ # Incremental Approach to Teaching/Learning InsertSort
  
 ## 1 Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
@@ -432,6 +433,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA3NTkzOTcsMjU1MTAxNzE4LDEzND
-k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbMjExMjk2MDQ3NiwyNTUxMDE3MTgsMTM0OT
+U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
