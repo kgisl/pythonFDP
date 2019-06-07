@@ -97,9 +97,16 @@ j is 1 after loop
 intermediary res: [0, 1, 2, 3, 4, 5, 6]
 ```
 
+## Activities
+
+1. Use a set of playing cards and demonstrate how they actually know **insert_sort** already
+2. Use repl.it - form their own list of numbers. 
+	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
+	4. The only piece that they have 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2Mjg3ODEwLC0yOTcyNzk3NzMsLTEwNj
-AyODEyMywtMTIzMDI1NjgyNSwxOTY5Mzg1MDMwLC03MDY2ODg2
-ODcsLTEyMDMxNDU4NTEsMTUwNTQyOTcwLDI1NTEwMTcxOCwxMz
-Q5NTQ5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2XX0=
+eyJoaXN0b3J5IjpbNjk5MjQyNzA0LDY0NjI4NzgxMCwtMjk3Mj
+c5NzczLC0xMDYwMjgxMjMsLTEyMzAyNTY4MjUsMTk2OTM4NTAz
+MCwtNzA2Njg4Njg3LC0xMjAzMTQ1ODUxLDE1MDU0Mjk3MCwyNT
+UxMDE3MTgsMTM0OTU0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAy
+Nl19
 -->
