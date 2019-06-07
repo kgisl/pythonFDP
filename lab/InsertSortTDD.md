@@ -104,12 +104,13 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 2. Use repl.it - form a list containing some random numbers of their choice. 
 	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
 	4. There is a piece of code that they have to write to reflect what they are doing in their head 
+	5. SPOILER ALERT - http://
 
 3. Write code on CloudCoder http://j.mp/insertionSortCC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTU5MzI2NywtOTI5OTczNTA4LDY0Nj
-I4NzgxMCwtMjk3Mjc5NzczLC0xMDYwMjgxMjMsLTEyMzAyNTY4
-MjUsMTk2OTM4NTAzMCwtNzA2Njg4Njg3LC0xMjAzMTQ1ODUxLD
-E1MDU0Mjk3MCwtMTMwMDc1OTM5N119
+eyJoaXN0b3J5IjpbLTE2MTU1MDI1NDcsLTk1NTU5MzI2NywtOT
+I5OTczNTA4LDY0NjI4NzgxMCwtMjk3Mjc5NzczLC0xMDYwMjgx
+MjMsLTEyMzAyNTY4MjUsMTk2OTM4NTAzMCwtNzA2Njg4Njg3LC
+0xMjAzMTQ1ODUxLDE1MDU0Mjk3MCwtMTMwMDc1OTM5N119
 -->
