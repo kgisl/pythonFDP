@@ -299,9 +299,13 @@ print("Time taken", timeit.default_timer() - start)
   - Iterate through the last four elements and perform the same operations you did in the previous exercise
   - Validate through proper print statements that your list is actually properly sorted 
 
-## 6 Replace the list method calls and instead use slicing to achieve the same sorting operation 
+## 6 Place your code inside a function  `insertsort`and write test cases to test the functionality 
 
-## 7 Place your code inside a function  `insertsort`and write test cases to test the function
+
+## 7 Replace the list method calls and instead use slicing to achieve the same sorting operation 
+
+
+
 
 
 ```python
@@ -428,6 +432,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzcwMjY3NDIsMjU1MTAxNzE4LDEzND
+eyJoaXN0b3J5IjpbLTEzMDA3NTkzOTcsMjU1MTAxNzE4LDEzND
 k1NDk3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
 -->
