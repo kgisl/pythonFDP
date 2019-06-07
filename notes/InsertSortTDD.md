@@ -269,7 +269,11 @@ print("Time taken", timeit.default_timer() - start)
 ```
 
 ## Create a list containing numbers from 0 to 6. 
-## Manually insert the `value  3.5` into the list at index 4
+ - At what index is 0 located? How to find out? 
+ - at what location is 3 located? How to find out? 
+ - 
+ 
+## Manually insert the `element  3.5` into the list at index 4
 ## 
 
 ```python
@@ -396,6 +400,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI2NzI0MzgsMTM0OTU0OTcyLC04MD
+eyJoaXN0b3J5IjpbLTE0NDk5MTM4MTYsMTM0OTU0OTcyLC04MD
 Q5NjI4NTIsMTg5NTQwNjAyNl19
 -->
