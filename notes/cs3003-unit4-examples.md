@@ -119,18 +119,18 @@ More detailed pseudo-code:
 
 ```python
 def insertsort(alist):
-	n = len(alist)
-	for idx in range(1, n):
-		# STEP 1 - element to insert 
-		# j, value = idx, alist.pop(idx)
-		j, value = idx, alist[idx]
+  n = len(alist)
+  for idx in range(1, n):
+    # STEP 1 - element to insert 
+    # j, value = idx, alist.pop(idx)
+    j, value = idx, alist[idx]
 
-		# STEP 2 - decide where to insert 
-		sorted_already = alist[:idx]
-		while j > 0 and value < sorted_already[j-1]:
-			j -= 1
-		# STEP 3 - insert it in the relevant index
-		# alist.insert(j, value)
+    # STEP 2 - decide where to insert 
+    sorted_already = alist[:idx]
+    while j > 0 and value < sorted_already[j-1]:
+        j -= 1
+        # STEP 3 - insert it in the relevant index
+# alist.insert(j, value)
 		alist[j+1:idx+1] = alist[j:idx]
 		alist[j] = value
 
@@ -280,11 +280,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDM3OTM4MiwxNjExNTc1MDEwLC0xMD
-IxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLTE1Njgx
-MzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MD
-YsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2
-MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1ODAzNT
-Y1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2NTI4MTgyNTQsMTQy
-OTM3MzgxN119
+eyJoaXN0b3J5IjpbLTE3ODY5NjM0MjIsLTkxMDM3OTM4MiwxNj
+ExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAy
+OTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMz
+cwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3Mywt
+NDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5Mj
+ExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NCw2
+NTI4MTgyNTRdfQ==
 -->
