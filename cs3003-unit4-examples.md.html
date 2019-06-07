@@ -172,23 +172,23 @@ return sorted list
 </code></pre>
 <h2 id="source-code-1">Source code</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">insertsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
-  <span class="token keyword">for</span> idx <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token comment"># STEP 1 - element to insert </span>
-    <span class="token comment"># j, value = idx, alist.pop(idx)</span>
-    j<span class="token punctuation">,</span> value <span class="token operator">=</span> idx<span class="token punctuation">,</span> alist<span class="token punctuation">[</span>idx<span class="token punctuation">]</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> idx <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># STEP 1 - element to insert </span>
+        <span class="token comment"># j, value = idx, alist.pop(idx)</span>
+        j<span class="token punctuation">,</span> value <span class="token operator">=</span> idx<span class="token punctuation">,</span> alist<span class="token punctuation">[</span>idx<span class="token punctuation">]</span>
 
-    <span class="token comment"># STEP 2 - decide where to insert </span>
-    sorted_already <span class="token operator">=</span> alist<span class="token punctuation">[</span><span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
-    <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> value <span class="token operator">&lt;</span> sorted_already<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
-      j <span class="token operator">-=</span> <span class="token number">1</span>
-      <span class="token comment"># STEP 3 - insert it in the relevant index</span>
-      <span class="token comment"># alist.insert(j, value)</span>
-      alist<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span>idx<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
-      alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> value
+        <span class="token comment"># STEP 2 - decide where to insert </span>
+        sorted_already <span class="token operator">=</span> alist<span class="token punctuation">[</span><span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
+        <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> value <span class="token operator">&lt;</span> sorted_already<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+            j <span class="token operator">-=</span> <span class="token number">1</span>
+        <span class="token comment"># STEP 3 - insert it in the relevant index</span>
+        <span class="token comment"># alist.insert(j, value)</span>
+        alist<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span>idx<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
+        alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> value
 
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'intermediary:'</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-  <span class="token keyword">return</span> alist
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'intermediary:'</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> alist
 
 <span class="token comment"># Test case using random shuffle</span>
 <span class="token keyword">from</span> random <span class="token keyword">import</span> shuffle 
