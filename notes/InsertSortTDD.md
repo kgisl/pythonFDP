@@ -284,6 +284,9 @@ print("Time taken", timeit.default_timer() - start)
  - Draw a representation diagram for the above list 
  - Write Python code to do this. Print the list before and after insertion. 
 
+## Place the last element in an `almost` sorted list into the list at the appropriate place so it fully sorted 
+  - Build a sorted list containing 0 
+
 
 
 ```python
@@ -410,6 +413,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTU3OTYyNywyNTUxMDE3MTgsMTM0OT
+eyJoaXN0b3J5IjpbLTMzNTUxOTA2MCwyNTUxMDE3MTgsMTM0OT
 U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
