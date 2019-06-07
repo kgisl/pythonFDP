@@ -113,41 +113,23 @@ More detailed pseudo-code:
 
 ```python
 def insertsort(alist):
-  n = len(alist)
-  for i in range(1, n):
-    key = alist.pop(i)
-    # insort(alist, key, hi=i)
-    j = i
-    while j > 0 and alist[j-1] > key: 
-      j -= 1
-    alist.insert(j, key) 
-    print(key, alist)
-  return alist
+	n = len(alist)
+	for idx in range(1, n):
+		# STEP 1 - element to insert 
+		# j, value = idx, alist.pop(idx)
+		j, value = idx, alist[idx]
 
-alist = ['3', '2', '1', '5', '4', '7', '8', '6']
-print(insertsort(alist))
+		# STEP 2 - decide where to insert 
+		sorted_already = alist[:idx]
+		while j > 0 and value < sorted_already[j-1]:
+			j -= 1
+		# STEP 3 - insert it in the relevant index
+		# alist.insert(j, value)
+		alist[j+1:idx+1] = alist[j:idx]
+		alist[j] = value
 
-```
-
-```python
-def insertsort(alist):
-		n = len(alist)
-		for idx in range(1, n):
-				# STEP 1 - element to insert 
-				# j, value = idx, alist.pop(idx)
-				j, value = idx, alist[idx]
-
-				# STEP 2 - decide where to insert 
-				sorted_already = alist[:idx]
-				while j > 0 and value < sorted_already[j-1]:
-						j -= 1
-				# STEP 3 - insert it in the relevant index
-				# alist.insert(j, value)
-				alist[j+1:idx+1] = alist[j:idx]
-				alist[j] = value
-
-				print('intermediary res:', alist)
-		return alist
+		print('intermediary res:', alist)
+	return alist
 
 # Test case using random shuffle
 from random import shuffle 
@@ -289,11 +271,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NzEwNTk4LC04NjM3MDQ1NzIsLTIxMz
-AyOTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDcz
-MzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3My
-wtNDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5
-MjExMzEsLTQ1ODAzNTY1Miw3ODg0NDgxMTEsLTMyMzc4NDY3NC
-w2NTI4MTgyNTQsMTQyOTM3MzgxNywyMDg0NTg5NTY0LDIxMzMy
-NDc4NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMj
+EzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0
+NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MD
+czLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgz
+NTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIzNzg0Nj
+c0LDY1MjgxODI1NCwxNDI5MzczODE3LDIwODQ1ODk1NjQsMjEz
+MzI0Nzg1NF19
 -->
