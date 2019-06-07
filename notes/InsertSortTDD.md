@@ -266,10 +266,13 @@ for _ in range(times):
 assert(alist == list(range(10)))
 print("Another variant")
 print("Time taken", timeit.default_timer() - start)
+```
 
+## Create a list containing numbers from 0 to 6. 
+## Manually insert 3.5 into the list at index 4
+## 
 
-
-
+```python
 
 "Ground up explanation for InsertSort"
 al = list(range(7))
@@ -393,6 +396,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY2MDgxOTYsMTM0OTU0OTcyLC04MD
-Q5NjI4NTIsMTg5NTQwNjAyNl19
+eyJoaXN0b3J5IjpbODU1NjA4ODAyLDEzNDk1NDk3MiwtODA0OT
+YyODUyLDE4OTU0MDYwMjZdfQ==
 -->
