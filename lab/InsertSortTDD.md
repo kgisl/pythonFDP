@@ -100,19 +100,19 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 ## Activities
 
 1. Use a set of playing cards and demonstrate how they actually know **insert_sort** already
-	2. Ask for a video contribution for **mergesort** since there is good one available on the web 
-	3. Sample is available at http://j.mp/compareSort 
+	2. Ask for a video contribution for **mergesort** since there is good one available on the web. Ask them to be creative and make it engaging video, unlike mine below! 
+		3. Sample is available at http://j.mp/compareSort 
 2. Use repl.it - form a list containing some random numbers of their choice. 
 	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
 	4. There is a piece of code that they have to write to reflect what they are doing in their head 
-	5. SPOILER ALERT - http://bit.ly/manInsert
+	5. SPOILER ALERT! - http://bit.ly/manInsert
 
 3. Write code on CloudCoder http://j.mp/insertionSortCC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDIzNzA0MSwtMTYxNTUwMjU0NywtOT
-U1NTkzMjY3LC05Mjk5NzM1MDgsNjQ2Mjg3ODEwLC0yOTcyNzk3
-NzMsLTEwNjAyODEyMywtMTIzMDI1NjgyNSwxOTY5Mzg1MDMwLC
-03MDY2ODg2ODcsLTEyMDMxNDU4NTEsMTUwNTQyOTcwLC0xMzAw
-NzU5Mzk3XX0=
+eyJoaXN0b3J5IjpbMjA5NjEwOTYyNCwxNTEwMjM3MDQxLC0xNj
+E1NTAyNTQ3LC05NTU1OTMyNjcsLTkyOTk3MzUwOCw2NDYyODc4
+MTAsLTI5NzI3OTc3MywtMTA2MDI4MTIzLC0xMjMwMjU2ODI1LD
+E5NjkzODUwMzAsLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNTA1
+NDI5NzAsLTEzMDA3NTkzOTddfQ==
 -->
