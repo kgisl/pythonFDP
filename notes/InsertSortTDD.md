@@ -290,7 +290,8 @@ print("Time taken", timeit.default_timer() - start)
 	  - Convert the pseudo code into Python code.  
 	  - Print the list before and after your insertion has happened
 
-## 4 Place the last 4th element in a list in the appropriate location 
+## 4 Place the 4th element in the list into the first part part of the list (0:3) at the appropriate location
+  - Build a list in this order [4, 5, 6
 
 
 
@@ -418,6 +419,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDU5NDI0NiwyNTUxMDE3MTgsMTM0OT
-U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
+eyJoaXN0b3J5IjpbODk3MTgxMDYsMjU1MTAxNzE4LDEzNDk1ND
+k3MiwtODA0OTYyODUyLDE4OTU0MDYwMjZdfQ==
 -->
