@@ -104,10 +104,10 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
 	4. There is a piece of code that they have to write to reflect what they are doing in their head 
 
-3. Write code on CloudCoder 
+3. Write code on CloudCoder http://j.mp/insertionSortCC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTk3MzUwOCw2NDYyODc4MTAsLTI5Nz
-I3OTc3MywtMTA2MDI4MTIzLC0xMjMwMjU2ODI1LDE5NjkzODUw
-MzAsLTcwNjY4ODY4NywtMTIwMzE0NTg1MSwxNTA1NDI5NzAsLT
-EzMDA3NTkzOTddfQ==
+eyJoaXN0b3J5IjpbMjA4Njk0ODYwOSwtOTI5OTczNTA4LDY0Nj
+I4NzgxMCwtMjk3Mjc5NzczLC0xMDYwMjgxMjMsLTEyMzAyNTY4
+MjUsMTk2OTM4NTAzMCwtNzA2Njg4Njg3LC0xMjAzMTQ1ODUxLD
+E1MDU0Mjk3MCwtMTMwMDc1OTM5N119
 -->
