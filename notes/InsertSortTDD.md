@@ -11,7 +11,7 @@
  - Try doing the above step using `enumerate` to display the index and value pairs and validate your diagram with it 
 ## 
 
-## 2 Place the last element `3.5`in an `almost` sorted list into the list at index 4 
+## 2 Place the last element `3.5` in an `almost` sorted list into the list at index 4 
  - Build a sorted list containing numbers 0 to 6. Append 3.5 into the list at the very end. 
  - Draw a representation diagram for the above list 
  - Write Python code to remove `3.5` from its current location and then insert it at index 4. Print the list before and after insertion. 
@@ -22,7 +22,7 @@
 	  - Convert the pseudo code into Python code.  
 	  - Print the list before and after your insertion has happened
 
-## 4 Place the 4th element in the list into the first part part of the list (0:3) at the appropriate location
+## 4 Place the 4th element in the list into the first part of the list `[0:3]` at the appropriate location
   - Build a list in this order `[4, 5, 6, 0, 3, 1, 2]` - the 4th element being `0`. Represent this using a diagram in your notebook 
   - Initialize `idx = 4` and iterate through the first part of the list (which is already sorted) and insert it into the array at the appropriate location. Write the code for this. 
 
@@ -47,7 +47,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMxNDU4NTEsMTUwNTQyOTcwLDI1NT
-EwMTcxOCwxMzQ5NTQ5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2
-XX0=
+eyJoaXN0b3J5IjpbMTYyNTI3ODg2NywtMTIwMzE0NTg1MSwxNT
+A1NDI5NzAsMjU1MTAxNzE4LDEzNDk1NDk3MiwtODA0OTYyODUy
+LDE4OTU0MDYwMjZdfQ==
 -->
