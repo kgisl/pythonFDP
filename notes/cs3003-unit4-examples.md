@@ -96,7 +96,6 @@ for i in range(len(alist)):
 ## Algorithm
 
 - In `insertsort`, given a key, a copy of a pre-determined element in the list, we  **insert** it at the appropriate location after comparing it with the unsorted elements of the list.
-- In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
 
 		mark first element as sorted
 		for each unsorted element X
@@ -199,6 +198,9 @@ Notice that at each level we divide the array into two halves until we get bunch
   - **Conquer** means sorting the two sub-arrays recursively using merge sort. Combine means merging the two sorted sub-arrays of size n/2 to produce the sorted array of n elements.
 
 ## Algorithm
+
+- In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
+
 The basic steps in the recursive MergeSort Algorithm is as follows: 
 
 	Func MERGESORT: 
@@ -278,11 +280,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU0NTQ1MDYsLTEwMjExMjYxMzEsLT
-g2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUw
-OTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5Mz
-EwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwt
-NzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0OD
-ExMSwtMzIzNzg0Njc0LDY1MjgxODI1NCwxNDI5MzczODE3LDIw
-ODQ1ODk1NjRdfQ==
+eyJoaXN0b3J5IjpbMTYxMTU3NTAxMCwtMTAyMTEyNjEzMSwtOD
+YzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5
+NDU1MzcsMjA5NDQ3MzM3MCwtMzIyNDIwNDA2LC0xNTA2MzkzMT
+A3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03
+MDkxMzM3NTUsODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4NDQ4MT
+ExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4
+NDU4OTU2NF19
 -->
