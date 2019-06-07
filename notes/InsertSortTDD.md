@@ -276,7 +276,9 @@ print("Time taken", timeit.default_timer() - start)
 ## Manually insert the `element  3.5` into the list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
  - What is the python code which will achieve this? Print the list before the insertion and print the list after the insertion
- - For printing the list after the insertion, 
+ - Try doing the above step using `enumerate` to display the index and value pairs and validate your diagram with it 
+## 
+
 ## 
 
 ```python
@@ -403,6 +405,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDU0ODc2OCwyNTUxMDE3MTgsMTM0OT
+eyJoaXN0b3J5IjpbMTMwMjY2MzYwMCwyNTUxMDE3MTgsMTM0OT
 U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
 -->
