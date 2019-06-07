@@ -91,6 +91,8 @@ for i in range(len(alist)):
 
 
 ## Algorithm
+
+
 	mark first element as sorted
 	for each unsorted element X
 	  'extract' the element X as 'key'
@@ -271,7 +273,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTMxODc3MSwtMTAyMTEyNjEzMSwtOD
+eyJoaXN0b3J5IjpbLTY1Njk3OTM1MSwtMTAyMTEyNjEzMSwtOD
 YzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5
 NDU1MzcsMjA5NDQ3MzM3MCwtMzIyNDIwNDA2LC0xNTA2MzkzMT
 A3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03
