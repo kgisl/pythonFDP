@@ -103,51 +103,43 @@
 </li>
 </ol>
 <h2 id="verbose-mode-output">Verbose Mode Output</h2>
-<pre class=" language-bash"><code class="prism  language-bash"> *************************
+<pre class=" language-bash"><code class="prism  language-bash">*************************
     INSERT SORT <span class="token keyword">in</span> verbose mode
     ************************
-bl <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
+bl <span class="token punctuation">[</span>2, 5, 3, 4, 6, 0, 1<span class="token punctuation">]</span>
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:3 no good <span class="token keyword">for</span> idx:2 -- idx:2 j:2
 j is 1 after loop
     -<span class="token operator">&gt;</span> Index to insert 1
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
-    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
-intermediary res: <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>2, 5, 5, 4, 6, 0, 1<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>2, 3, 5, 4, 6, 0, 1<span class="token punctuation">]</span>
+intermediary res: <span class="token punctuation">[</span>2, 3, 5, 4, 6, 0, 1<span class="token punctuation">]</span>
 
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:4 no good <span class="token keyword">for</span> idx:3 -- idx:3 j:3
 j is 2 after loop
     -<span class="token operator">&gt;</span> Index to insert 2
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
-    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
-intermediary res: <span class="token punctuation">[</span>1, 4, 5, 2, 0, 3, 6<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>2, 3, 5, 5, 6, 0, 1<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>2, 3, 4, 5, 6, 0, 1<span class="token punctuation">]</span>
+intermediary res: <span class="token punctuation">[</span>2, 3, 4, 5, 6, 0, 1<span class="token punctuation">]</span>
 
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:2 no good <span class="token keyword">for</span> idx:3 -- idx:3 j:3
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:2 no good <span class="token keyword">for</span> idx:2 -- idx:3 j:2
-j is 1 after loop
-    -<span class="token operator">&gt;</span> Index to insert 1
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>1, 4, 4, 5, 0, 3, 6<span class="token punctuation">]</span>
-    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>1, 2, 4, 5, 0, 3, 6<span class="token punctuation">]</span>
-intermediary res: <span class="token punctuation">[</span>1, 2, 4, 5, 0, 3, 6<span class="token punctuation">]</span>
-
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:4 -- idx:4 j:4
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:3 -- idx:4 j:3
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:2 -- idx:4 j:2
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:1 -- idx:4 j:1
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:5 -- idx:5 j:5
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:4 -- idx:5 j:4
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:3 -- idx:5 j:3
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:2 -- idx:5 j:2
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:0 no good <span class="token keyword">for</span> idx:1 -- idx:5 j:1
 j is 0 after loop
     -<span class="token operator">&gt;</span> Index to insert 0
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>1, 1, 2, 4, 5, 3, 6<span class="token punctuation">]</span>
-    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>0, 1, 2, 4, 5, 3, 6<span class="token punctuation">]</span>
-intermediary res: <span class="token punctuation">[</span>0, 1, 2, 4, 5, 3, 6<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>2, 2, 3, 4, 5, 6, 1<span class="token punctuation">]</span>
+    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>0, 2, 3, 4, 5, 6, 1<span class="token punctuation">]</span>
+intermediary res: <span class="token punctuation">[</span>0, 2, 3, 4, 5, 6, 1<span class="token punctuation">]</span>
 
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:3 no good <span class="token keyword">for</span> idx:5 -- idx:5 j:5
- -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 1, 2, 4, 5<span class="token punctuation">]</span> <span class="token keyword">:</span> value:3 no good <span class="token keyword">for</span> idx:4 -- idx:5 j:4
-j is 3 after loop
-    -<span class="token operator">&gt;</span> Index to insert 3
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>0, 1, 2, 4, 4, 5, 6<span class="token punctuation">]</span>
-    -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>0, 1, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
-intermediary res: <span class="token punctuation">[</span>0, 1, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
-
-j is 6 after loop
-    -<span class="token operator">&gt;</span> Index to insert 6
-    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>0, 1, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:1 no good <span class="token keyword">for</span> idx:6 -- idx:6 j:6
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:1 no good <span class="token keyword">for</span> idx:5 -- idx:6 j:5
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:1 no good <span class="token keyword">for</span> idx:4 -- idx:6 j:4
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:1 no good <span class="token keyword">for</span> idx:3 -- idx:6 j:3
+ -<span class="token operator">&gt;</span> sorted:<span class="token punctuation">[</span>0, 2, 3, 4, 5, 6<span class="token punctuation">]</span> <span class="token keyword">:</span> value:1 no good <span class="token keyword">for</span> idx:2 -- idx:6 j:2
+j is 1 after loop
+    -<span class="token operator">&gt;</span> Index to insert 1
+    -<span class="token operator">&gt;</span> After right <span class="token function">shift</span> <span class="token punctuation">[</span>0, 2, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
     -<span class="token operator">&gt;</span> After insertion   <span class="token punctuation">[</span>0, 1, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
 intermediary res: <span class="token punctuation">[</span>0, 1, 2, 3, 4, 5, 6<span class="token punctuation">]</span>
 </code></pre>
