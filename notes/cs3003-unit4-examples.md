@@ -119,23 +119,23 @@ More detailed pseudo-code:
 
 ```python
 def insertsort(alist):
-  n = len(alist)
-  for idx in range(1, n):
-    # STEP 1 - element to insert 
-    # j, value = idx, alist.pop(idx)
-    j, value = idx, alist[idx]
+    n = len(alist)
+    for idx in range(1, n):
+        # STEP 1 - element to insert 
+        # j, value = idx, alist.pop(idx)
+        j, value = idx, alist[idx]
 
-    # STEP 2 - decide where to insert 
-    sorted_already = alist[:idx]
-    while j > 0 and value < sorted_already[j-1]:
-      j -= 1
-      # STEP 3 - insert it in the relevant index
-      # alist.insert(j, value)
-      alist[j+1:idx+1] = alist[j:idx]
-      alist[j] = value
+        # STEP 2 - decide where to insert 
+        sorted_already = alist[:idx]
+        while j > 0 and value < sorted_already[j-1]:
+            j -= 1
+        # STEP 3 - insert it in the relevant index
+        # alist.insert(j, value)
+        alist[j+1:idx+1] = alist[j:idx]
+        alist[j] = value
 
-    print('intermediary:', alist)
-  return alist
+        print('intermediary:', alist)
+        return alist
 
 # Test case using random shuffle
 from random import shuffle 
@@ -280,11 +280,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMT
-U3NTAxMCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkz
-MTM4LC0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MC
-wtMzIyNDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5
-MDU5NDIwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMT
-MxLC00NTgwMzU2NTIsNzg4NDQ4MTExLC0zMjM3ODQ2NzQsNjUy
-ODE4MjU0XX0=
+eyJoaXN0b3J5IjpbNjI1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMz
+c5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3
+MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LD
+IwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5MzEwNywxMTIz
+NzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNz
+U1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIz
+Nzg0Njc0XX0=
 -->
