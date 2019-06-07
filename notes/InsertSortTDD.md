@@ -269,7 +269,7 @@ print("Time taken", timeit.default_timer() - start)
 ```
 
 ## Create a list containing numbers from 0 to 6. 
-## Manually insert 3.5 into the list at index 4
+## Manually insert the `value  3.5` into the list at index 4
 ## 
 
 ```python
@@ -396,6 +396,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NjA4ODAyLDEzNDk1NDk3MiwtODA0OT
-YyODUyLDE4OTU0MDYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTEyODI2NzI0MzgsMTM0OTU0OTcyLC04MD
+Q5NjI4NTIsMTg5NTQwNjAyNl19
 -->
