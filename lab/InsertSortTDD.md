@@ -100,13 +100,15 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 ## Activities
 
 1. Use a set of playing cards and demonstrate how they actually know **insert_sort** already
+	2. Ask for a video contribution for **mergesort** since there is good one available on the web 
 2. Use repl.it - form their own list of numbers. 
 	3. Use alist.pop() and alist.insert alternatively and manually ask them to sort their own list using the insertsort technique
 	4. There is a piece of code that they have to write to reflect what they are doing in their head 
 
 3. Write code on CloudCoder http://j.mp/insertionSortCC
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Njk0ODYwOSwtOTI5OTczNTA4LDY0Nj
+eyJoaXN0b3J5IjpbMjA0MDkwNTY1NCwtOTI5OTczNTA4LDY0Nj
 I4NzgxMCwtMjk3Mjc5NzczLC0xMDYwMjgxMjMsLTEyMzAyNTY4
 MjUsMTk2OTM4NTAzMCwtNzA2Njg4Njg3LC0xMjAzMTQ1ODUxLD
 E1MDU0Mjk3MCwtMTMwMDc1OTM5N119
