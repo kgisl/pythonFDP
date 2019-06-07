@@ -268,25 +268,27 @@ print("Another variant")
 print("Time taken", timeit.default_timer() - start)
 ```
 
-## Create a sorted list containing numbers from 0 to 6. 
+## 0 Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
  - Take the 3rd element and the last element and multiply them. Write code that does this.
 
  
-## Insert the `element  3.5` into the sorted list at index 4
+## 1 Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
  - What is the python code which will achieve this? Print the list before the insertion and print the list after the insertion
  - Try doing the above step using `enumerate` to display the index and value pairs and validate your diagram with it 
 ## 
 
-## Place the last element `3.5`in an `almost` sorted list into the list at index 4 
+## 2 Place the last element `3.5`in an `almost` sorted list into the list at index 4 
  - Build a sorted list containing numbers 0 to 6. Append 3.5 into the list at the very end. 
  - Draw a representation diagram for the above list 
  - Write Python code to remove `3.5` from its current location and then insert it at index 4. Print the list before and after insertion. 
 
-## Place the last element `2.5` in an `almost` sorted list into the list at the appropriate index so it fully sorted 
+## 3 Place the last element `2.5` in an `almost` sorted list into the list at the appropriate index so it fully sorted 
   - Build a sorted list containing 0 to 6. Append `2.5` into the list at the very end. 
-  - Write pseudocode for determining how to find the index at which it needs to be inserted 
+  - In your notebook, write pseudo-code for determining how to find the index at which it needs to be inserted. 
+	  - Convert the pseudo code into Python code.  
+	  - Print the list before and 
 
 
 
@@ -414,6 +416,6 @@ for i in range(1, len(bl)):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzUyOTE1NSwyNTUxMDE3MTgsMTM0OT
-U0OTcyLC04MDQ5NjI4NTIsMTg5NTQwNjAyNl19
+eyJoaXN0b3J5IjpbNzc4NjcyMTUzLDI1NTEwMTcxOCwxMzQ5NT
+Q5NzIsLTgwNDk2Mjg1MiwxODk1NDA2MDI2XX0=
 -->
