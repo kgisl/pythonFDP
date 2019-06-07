@@ -26,6 +26,9 @@
 
 ## Algorithm
 
+- In `selectsort`, the position of the update is pre-determined, starting from the end of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
+
+
 	repeat (numOfElements - 1) times
 		for each of the unsorted elements
 			select the minimum value among them
@@ -92,12 +95,14 @@ for i in range(len(alist)):
 
 ## Algorithm
 
+- In `insertsort`, given a key, a copy of a pre-determined element in the list, we  **insert** it at the appropriate location after comparing it with the unsorted elements of the list.
+- In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
 
-	mark first element as sorted
-	for each unsorted element X
-	  'extract' the element X as 'key'
-	  insert key at the relevant index so list remains sorted
-    return sorted list 
+		mark first element as sorted
+		for each unsorted element X
+		  'extract' the element X as 'key'
+		  insert key at the relevant index so list remains sorted
+	    return sorted list 
 
 More detailed pseudo-code: 
 
@@ -273,11 +278,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Njk3OTM1MSwtMTAyMTEyNjEzMSwtOD
-YzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5
-NDU1MzcsMjA5NDQ3MzM3MCwtMzIyNDIwNDA2LC0xNTA2MzkzMT
-A3LDExMjM3NjQwNzMsLTQ5MDU5NDIwNSwxNjA0ODk5MTY1LC03
-MDkxMzM3NTUsODM1OTIxMTMxLC00NTgwMzU2NTIsNzg4NDQ4MT
-ExLC0zMjM3ODQ2NzQsNjUyODE4MjU0LDE0MjkzNzM4MTcsMjA4
-NDU4OTU2NF19
+eyJoaXN0b3J5IjpbLTE5NDU0NTQ1MDYsLTEwMjExMjYxMzEsLT
+g2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUw
+OTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5Mz
+EwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwt
+NzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0OD
+ExMSwtMzIzNzg0Njc0LDY1MjgxODI1NCwxNDI5MzczODE3LDIw
+ODQ1ODk1NjRdfQ==
 -->
