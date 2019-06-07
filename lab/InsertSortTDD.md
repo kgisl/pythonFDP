@@ -4,8 +4,9 @@
 ## 0 Create a sorted list containing numbers from 0 to 6. 
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values
  - Take the 3rd element and the last element and multiply them. Write code that does this and prints the actual value of the multiplication.
- - Write a python Create a list containing numbers 0 through 6. The first 3 elements must be in sorted in ascending order. The last 3 elements must be unsorted. 
-	 - example: `[4, 5, 6, 0, 2, 1, 3]`
+ - Write a python program to create a list containing numbers 0 through 6. The first 3 elements must be in sorted in ascending order. The last 3 elements must be unsorted. 
+	 - example: `[4, 5, 6, 0, 2, 1, 3]`or `[4, 5, 6, 1, 3, 2, 0]`
+
 
 ## 1 Insert the `element  3.5` into the sorted list at index 4
  - Draw a representation diagram of the list, indicating values and indexes corresponding to the values 
@@ -112,9 +113,9 @@ intermediary res: [0, 1, 2, 3, 4, 5, 6]
 3. Write code on CloudCoder http://j.mp/insertionSortCC
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMwNzgyODAsLTY5NDA4MzU3OCwxNT
-EwMjM3MDQxLC0xNjE1NTAyNTQ3LC05NTU1OTMyNjcsLTkyOTk3
-MzUwOCw2NDYyODc4MTAsLTI5NzI3OTc3MywtMTA2MDI4MTIzLC
-0xMjMwMjU2ODI1LDE5NjkzODUwMzAsLTcwNjY4ODY4NywtMTIw
-MzE0NTg1MSwxNTA1NDI5NzAsLTEzMDA3NTkzOTddfQ==
+eyJoaXN0b3J5IjpbMjIwNjAyNTQ3LC02OTQwODM1NzgsMTUxMD
+IzNzA0MSwtMTYxNTUwMjU0NywtOTU1NTkzMjY3LC05Mjk5NzM1
+MDgsNjQ2Mjg3ODEwLC0yOTcyNzk3NzMsLTEwNjAyODEyMywtMT
+IzMDI1NjgyNSwxOTY5Mzg1MDMwLC03MDY2ODg2ODcsLTEyMDMx
+NDU4NTEsMTUwNTQyOTcwLC0xMzAwNzU5Mzk3XX0=
 -->
