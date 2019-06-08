@@ -348,8 +348,8 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |:-------|:--------------|:------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` | initialize a list with nothing in it, using a tuple, using another list | 
 |**Access** | `.find()`, `.index()` `.count()` and `[idx]` | `find` returns `-1`, `index` throws an exception if not present| 
-|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, 
-|**Modify** | _addition_ `.append()`, `.insert()`, `.extend()` 
+|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one is `True`
+|**Modify** | _addition_ `.append(loc)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations 
 | | _extraction_ ` .pop() .remove(), .clear()`| | |
 | | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`, `sorted`| |
@@ -359,7 +359,7 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg0NjEwMjEsMTY2OTk5ODc3OCwtMj
+eyJoaXN0b3J5IjpbLTE1MzUxNDM1NjUsMTY2OTk5ODc3OCwtMj
 A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
 NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
 wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
