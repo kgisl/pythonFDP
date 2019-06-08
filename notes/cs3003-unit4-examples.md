@@ -483,6 +483,7 @@ o_histogram = sorted(
 print("Visualizing the ordered histogram")
 for bin in o_histogram:
   print (f'{str(bin[1]):>10}', '@'*bin[0])])
+  
 ```
 
 
@@ -491,7 +492,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNzg0NDUyLDE5NDc1MTc1NjgsMTQxOD
+eyJoaXN0b3J5IjpbNTk4NDQ0Mjc0LDE5NDc1MTc1NjgsMTQxOD
 E2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkx
 LDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3Nz
 kxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLDYyNTE0OTk2
