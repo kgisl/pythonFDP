@@ -349,8 +349,8 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` | initialize an empty list, using a tuple, using another list | 
-|**Access** | `.find()`, `.index()` `.count()` and `[idx]` | `find` returns `-1`, `index` throws an exception if not present| 
-|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one is `True`
+|**Access** | [_idx_], `.find()`, `.index()` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
+|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _others_  `.reverse()`, `.sort()` | rearrange elements in the list|
@@ -361,11 +361,11 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTE3Mzc1OSwxMzQwMDY0OSwxNjY5OT
-k4Nzc4LC0yMDQ1MDg0Mzc1LC0yMDAyNzgyODcwLDcxMTg4ODMw
-NywtMTAwODE2NjY2MCwyMDYyMDE0OTg2LDE3ODM4MzgzNDQsND
-cxMjEwMzIwLDE4ODA1MDYzNTAsLTIwNzIxMDE5MTMsLTEwMTgw
-NDEyMzYsLTIwODkwMjQ4ODIsMTQ3NzM5NzMxNywyMDgxMjUxMj
-MwLC0xNTU4MjEyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTEx
-NjI4NTI3MzddfQ==
+eyJoaXN0b3J5IjpbLTE2NTkwNDI0MzQsMTM0MDA2NDksMTY2OT
+k5ODc3OCwtMjA0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgz
+MDcsLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LD
+Q3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4
+MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MT
+IzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0x
+MTYyODUyNzM3XX0=
 -->
