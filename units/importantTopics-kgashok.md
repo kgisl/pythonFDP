@@ -344,16 +344,16 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 ## List Methods and Operations
 
-|Type | Method Name | Description 
+|Type | Method / Operation | Description 
 |:-------|:--------------|:------------|
 |Initialization | `[]`, `.list()` | | | 
 |Examination | `.find()`, `.index()` | | | 
-|Manipulation | | | | 
+|Manipulation | add ``.insert()`, `.remove()`| | | 
 |Allocation | | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzU1OTQyOSwtMjA0NTA4NDM3NSwtMj
+eyJoaXN0b3J5IjpbMjEwNDY0MzkyOCwtMjA0NTA4NDM3NSwtMj
 AwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAx
 NDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC
 0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0
