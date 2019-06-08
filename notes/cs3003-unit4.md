@@ -32,6 +32,7 @@ The following table has been created by **_clustering_** multiple items based on
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` and **aliasing**| initialize an empty list, using a tuple, using another list | 
+ | _operation_ | the `=` operator | 
 |**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
@@ -206,11 +207,11 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIxMDk2NSwtMTI2MzgwMzU0NiwtMT
-Q1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1
-ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3NjMwND
-IsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00
-OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNz
-Q2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1
-NF19
+eyJoaXN0b3J5IjpbMTIzMjkyODcyNiwtMjEzMjEwOTY1LC0xMj
+YzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUx
+Mjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNj
+U0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1
+MzM0NjAzMzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NT
+Q3MTEsLTE5MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4
+LC0xNDk4NDg5MTU0XX0=
 -->
