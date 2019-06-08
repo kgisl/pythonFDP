@@ -24,7 +24,28 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 |` 'list'`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
 |` 'dict'`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
  
- 
+
+## List Methods and Operations 
+
+## List Methods and Operations
+
+_Clustering_ multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
+
+|Intent | Method / Operation | Description 
+|:-------|:--------------|:------------|
+|**Initialize** | `[]`, `list()` or `list(sequence)` | initialize an empty list, using a tuple, using another list | 
+|**Access** | [_idx_], `.find()`, `.index()` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
+|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
+|**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
+| | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
+| | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
+| _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
+|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
+|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` and list comprehension | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
+
+
+
+
 
 ## List Mutability 
 
@@ -189,7 +210,7 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTg1MzMxNCwtMTk3MzE0NDEyNCwxOT
+eyJoaXN0b3J5IjpbMTk0MjA1Nzg4NywtMTk3MzE0NDEyNCwxOT
 Y2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3
 MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMT
 ksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3
