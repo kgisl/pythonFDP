@@ -350,20 +350,20 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |**Access** | `.find()`, `.index()` `.count()` and `[idx]` | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
-| | _extraction_ `.pop()` `.remove(elem)`, `.clear()`| take out from list; |
-| | _others_  `.reverse()`, `.sort()`
-| _operation_|  `del`, `sorted`| |
-|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)
+| | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
+| | _others_  `.reverse()`, `.sort()` | rearrange elements in the list|
+| _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
+|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create new lists from existing on
 |  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` |  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MTA5MzAsMTY2OTk5ODc3OCwtMjA0NT
-A4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2
-NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxOD
-gwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5
-MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMj
-IxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDEx
-MTIxNzIyNjFdfQ==
+eyJoaXN0b3J5IjpbMTI5MzgzMjc4OSwxNjY5OTk4Nzc4LC0yMD
+Q1MDg0Mzc1LC0yMDAyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2
+NjY2MCwyMDYyMDE0OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLD
+E4ODA1MDYzNTAsLTIwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIw
+ODkwMjQ4ODIsMTQ3NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4Mj
+EyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3Mzcs
+MTExMjE3MjI2MV19
 -->
