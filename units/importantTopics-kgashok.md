@@ -350,10 +350,10 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 |:-------|:--------------|:------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` | initialize an empty list, using a tuple, using another list | 
 |**Access** | [_idx_], `.find()`, `.index()` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
-|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one element(s) is `True`
+|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
-| | _others_  `.reverse()`, `.sort()` | rearrange elements in the list|
+| | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
 |  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
@@ -361,7 +361,7 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkwNDI0MzQsMTM0MDA2NDksMTY2OT
+eyJoaXN0b3J5IjpbLTEzMTg1OTkyNTgsMTM0MDA2NDksMTY2OT
 k5ODc3OCwtMjA0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgz
 MDcsLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LD
 Q3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4
