@@ -27,7 +27,7 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 ## List Methods and Operations
 
-**_Clustering_** multiple items based on some cr - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
+The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize, deliver to maximizing retention among students. Moreover, there is going to be better chance of overall engagement
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
@@ -206,7 +206,7 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTA4MzA5MiwtMTI2MzgwMzU0NiwtMT
+eyJoaXN0b3J5IjpbMjEwNzA0ODM3MywtMTI2MzgwMzU0NiwtMT
 Q1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1
 ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3NjMwND
 IsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00
