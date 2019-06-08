@@ -359,6 +359,8 @@ for i in range(len(histo)):
 
 ## Version 2 
 
+A histogram contains bins (lower bound, upper bound), and statistical values are dropped into these bins. Eventually, the histogram is visualized based on the bin counts. This type of histogram is what is used in more statistical analysis. 
+
 ```python
 ################################
 # Program No 5
@@ -426,11 +428,11 @@ for bin in histo:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzUxNzU2OCwxNDE4MTY3NTMxLC00MT
-kyNjQ0NTMsMjA1Nzk0MzI1MywxMzgzOTI4OTEsMjE0NDk2MDcw
-NiwtOTA2NDIyMTAsLTQwODU5Nzg1MiwxMDc3OTE1Mjc0LC0xMz
-U2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MDY2NDkw
-NiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYxMzEsLT
-g2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUw
-OTQ1NTM3XX0=
+eyJoaXN0b3J5IjpbLTEzNjI0NTQxNjYsMTk0NzUxNzU2OCwxND
+E4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1MywxMzgzOTI4
+OTEsMjE0NDk2MDcwNiwtOTA2NDIyMTAsLTQwODU5Nzg1MiwxMD
+c3OTE1Mjc0LC0xMzU2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5
+OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLT
+EwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2
+ODEzMDcyNV19
 -->
