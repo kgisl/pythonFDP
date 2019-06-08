@@ -30,8 +30,8 @@
 
 		repeat (numOfElements - 1) times
 			for each of the unsorted elements
-		select the minimum value among them
-		swap minimum with first unsorted position
+			select the minimum value among them
+			swap minimum with first unsorted position
 
 ## Source code
 
@@ -300,7 +300,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDExMDA3MCwtMTM1NjQ0NjkwLC0xND
+eyJoaXN0b3J5IjpbMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xND
 E0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4
 MiwxNjExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLT
 IxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0
