@@ -136,14 +136,17 @@ def insertsort(alist):
 
         print('intermediary:', alist)
         return alist
+```
 
+The following code can be used to test the above code:
+```python
 # Test case using random shuffle
 from random import shuffle 
 alist = list(range(10))
 shuffle(alist)
 
-print("************\nUnsorted", alist)
-print("sorted", insertsort(alist))
+print("Unsorted", alist)
+print("Sorted", insertsort(alist))
 ```
 
 # MergeSort
@@ -280,11 +283,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMz
-c5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3
-MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LD
-IwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5MzEwNywxMTIz
-NzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNz
-U1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4ODQ0ODExMSwtMzIz
-Nzg0Njc0XX0=
+eyJoaXN0b3J5IjpbLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MD
+Y2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYx
+MzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNS
+wtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUw
+NjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OT
+E2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4
+ODQ0ODExMV19
 -->
