@@ -312,12 +312,76 @@ print(mergesort(alist))
 
 
 
+# Version 2 
+
+```python
+################################
+# Program No 5
+# using tuple as key in a dictionary 
+# to build bins of values for 
+# visualization 
+#
+# Refer https://datavizcatalogue.com/methods/histogram.html 
+#
+#################################
+# Build a histogram
+
+import random
+# build a random list 
+# returns a list containing numbers 1 <= n <= maxval
+# the list will contain n elements where
+#   mincount < n < maxcount 
+def random_list(mincount, maxcount, maxval, minval=1): 
+  size = random.randint(mincount, maxcount)
+  alist = []
+  for _ in range(size):
+    alist.append(random.randrange(minval, maxval+1))		
+  return alist
+
+maxval, minval = 100, 10
+arlist = random_list(40, 200, maxval, minval)
+#print("A random list", arlist)
+
+# returns a list containing tuples with 
+# value and frequency, aka a histogram
+from collections import defaultdict
+def generate_histogram(arlist):
+  counters = defaultdict(int) #inits value to 0
+
+  bincount = 10
+  binwidth = (maxval-minval)/bincount
+  #minval = min(arlist)
+  #maxval = max(arlist)
+  points = [p for p in range(minval, maxval+1, int(binwidth))]
+  
+  bins = [(start, end-1) if end != maxval else (start, end) for (start, end) in zip(points, points[1:])]
+	#bins.append(points[-1])
+  
+  for number in arlist:
+    for start, end in bins: 
+      if start <= number <= end: 
+        counters[(start, end)] += 1
+
+  #histogram = sorted(counters.items())
+  histogram = counters.items()
+  return histogram
+
+histo = generate_histogram(arlist)
+print("A histogram with", histo)
+
+print("Visualizing the histogram")
+for bin in histo: 
+  print (f'{str(bin[0]):>10}', 
+	        '@'*bin[1])
+```
+
+
 
 ## Complexity Analysis
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzY2MjIxNywtNDE5MjY0NDUzLDIwNT
+eyJoaXN0b3J5IjpbMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNT
 c5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEw
 LC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xND
 E0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4
