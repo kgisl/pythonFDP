@@ -17,6 +17,8 @@
 <ul>
 <li><a href="#concept-map">Concept Map</a></li>
 <li><a href="#list-methods">List Methods</a></li>
+<li><a href="#list-methods-and-operations">List Methods and Operations</a></li>
+<li><a href="#list-methods-and-operations-1">List Methods and Operations</a></li>
 <li><a href="#list-mutability">List Mutability</a></li>
 <li><a href="#slicing">Slicing</a></li>
 <li><a href="#list-comprehension">List Comprehension</a></li>
@@ -54,16 +56,75 @@
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>&lt;class 'tuple'&gt;</code></td>
+<td align="left"><code>'tuple'</code></td>
 <td align="left">8 <strong><code>count</code></strong>, <code>index</code></td>
 </tr>
 <tr>
-<td align="left"><code>&lt;class 'list'&gt;</code></td>
+<td align="left"><code>'list'</code></td>
 <td align="left">9 <strong><code>append</code></strong>, <code>clear</code>, <code>copy</code>, 10 <strong><code>count</code></strong>, 11 <strong><code>extend</code></strong>, <code>index</code>, 12 <strong><code>insert</code></strong>, 13 <strong><code>pop</code></strong>, 14 <strong><code>remove</code></strong>, 15 <strong><code>reverse</code></strong>, 16 <strong><code>sort</code></strong></td>
 </tr>
 <tr>
-<td align="left"><code>&lt;class 'dict'&gt;</code></td>
+<td align="left"><code>'dict'</code></td>
 <td align="left"><code>clear</code>, <code>copy</code>, <code>fromkeys</code>, 17 <strong><code>get</code></strong>, 18 <strong><code>items</code></strong>, 19 <strong><code>keys</code></strong>, 20 <strong><code>pop</code></strong>, <code>popitem</code>, <code>setdefault</code>, 21 <strong><code>update</code></strong>, 22 <strong><code>values</code></strong></td>
+</tr>
+</tbody>
+</table><h2 id="list-methods-and-operations">List Methods and Operations</h2>
+<h2 id="list-methods-and-operations-1">List Methods and Operations</h2>
+<p><em>Clustering</em> multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Intent</th>
+<th align="left">Method / Operation</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Initialize</strong></td>
+<td align="left"><code>[]</code>, <code>list()</code> or <code>list(sequence)</code> and <strong>aliasing</strong></td>
+<td align="left">initialize an empty list, using a tuple, using another list</td>
+</tr>
+<tr>
+<td align="left"><strong>Access</strong></td>
+<td align="left">[<em>idx</em>], <code>.find()</code>, <code>.index()</code> <code>.count()</code></td>
+<td align="left"><code>find</code> returns <code>-1</code>, <code>index</code> throws an exception if not present</td>
+</tr>
+<tr>
+<td align="left"><em>operation</em></td>
+<td align="left"><code>in</code> and <code>not in</code>, <code>any</code> and <code>all</code>, <code>max</code>, <code>min</code>, <code>len</code>, <code>sum</code></td>
+<td align="left">membership <code>in</code> list, <code>all</code> or <code>any</code> if element(s) is <code>True</code></td>
+</tr>
+<tr>
+<td align="left"><strong>Modify</strong></td>
+<td align="left"><em>addition</em> <code>.append(val)</code>, <code>.insert(loc, val)</code>, <code>.extend()</code></td>
+<td align="left">add elements to the list at specific locations; <code>extend</code> adds multiple elements from sequence</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><em>extraction</em> <code>.pop(loc)</code> <code>.remove(elem)</code>, <code>.clear()</code></td>
+<td align="left">take out from specified index, or element or all elements</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><em>ordering</em>  <code>.reverse()</code>, <code>.sort()</code></td>
+<td align="left">rearrange elements in the list</td>
+</tr>
+<tr>
+<td align="left"><em>operation</em></td>
+<td align="left"><code>del</code>, <code>sorted</code></td>
+<td align="left">same effect as the methods with better performance?</td>
+</tr>
+<tr>
+<td align="left"><strong>Allocate</strong></td>
+<td align="left"><code>.copy()</code> <code>[:]</code>, [<em>s</em>:<em>s</em>:<em>s</em>], repetition (using <code>*</code>) and concatenation (using <code>+</code>)</td>
+<td align="left">Create distinct list objects by duplicating existing ones</td>
+</tr>
+<tr>
+<td align="left"><em>operation</em></td>
+<td align="left">slice(<em>start</em>, <em>stop</em>, <em>step</em>), <code>zip</code>, <code>enumerate</code>, <strong>cloning</strong> (<em>copy.copy and deepcopy</em>) and <strong>list comprehension</strong></td>
+<td align="left">same as slice operator <code>[]</code>, <code>zip</code> creates a new list with tuples from two lists<code>,</code>enumerate` provides list with tuples containing index and value pair)</td>
 </tr>
 </tbody>
 </table><h2 id="list-mutability">List Mutability</h2>
@@ -116,6 +177,11 @@ What does rlist<span class="token punctuation">[</span><span class="token punctu
 <span class="token comment"># [88, 44, 65, 68, 78]</span>
 What does rlist<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span> evaluate to?
 <span class="token comment"># [88, 68]</span>
+
+alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">84</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span> <span class="token number">99</span><span class="token punctuation">,</span> <span class="token number">96</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span>\
+			 <span class="token number">27</span><span class="token punctuation">,</span> <span class="token number">78</span><span class="token punctuation">,</span> <span class="token number">73</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>
+
+What does `alist` contain? 
 
 </code></pre>
 <p><a href="https://www.dotnetperls.com/slice-python">https://www.dotnetperls.com/slice-python</a></p>
@@ -204,7 +270,8 @@ adict['Victor'] = 900-2222
 <p><strong>side effect</strong> A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.</p>
 <p><strong>tuple</strong> A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.</p>
 <h2 id="exercises-1">Exercises</h2>
-<p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html</a></p>
+<p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a><br>
+2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
 
     </div>
   </div>
