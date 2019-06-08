@@ -348,21 +348,21 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |:-------|:--------------|:------------|
 |Initialization | `[]`, `list()` or `list(sequence)` | | | 
 |Examination | `.find()`, `.index()` `.count()` | | | 
-|   _operation_| `in` and `not in`, `max`, `min`, `len`, `sum`
+|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`
 |Modification | _addition_ `.append()`, `.insert()`, `.extend()` 
 | | _extraction_ ` .pop() .remove(), .clear()`| | |
 | | _others_  `.reverse()`, `.sort()`
-| _operation_|  `del`| |
-|Allocation | `.copy()` `[:]`, [_s_:_s_:_s_]
+| _operation_|  `del`, `sorted`| |
+|Allocation | `.copy()` `[:]`, [_s_:_s_:_s_], `*` repetition
 |  _operation_ |  `copy`, `deepcopy()`, slice(_start_, _stop_, _step_), `zip`, `enumerate` | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTQ4NzIxMywxNjY5OTk4Nzc4LC0yMD
-Q1MDg0Mzc1LC0yMDAyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2
-NjY2MCwyMDYyMDE0OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLD
-E4ODA1MDYzNTAsLTIwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIw
-ODkwMjQ4ODIsMTQ3NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4Mj
-EyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3Mzcs
-MTExMjE3MjI2MV19
+eyJoaXN0b3J5IjpbLTEyNjUxMTUxOTUsMTY2OTk5ODc3OCwtMj
+A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
+NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
+wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
+MDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1OD
+IxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3
+LDExMTIxNzIyNjFdfQ==
 -->
