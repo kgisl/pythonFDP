@@ -27,7 +27,7 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 ## List Methods and Operations
 
-**_Clustering_** multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
+**_Clustering_** multiple items based on some cr - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
@@ -206,10 +206,11 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMT
-k3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0
-NzkxNDg1LC0xMDU3MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2ND
-YsLTE5OTc0MjgxMTksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4
-MDc3MzM4NDQsLTM3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4ND
-YxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbLTMzMTA4MzA5MiwtMTI2MzgwMzU0NiwtMT
+Q1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1
+ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3NjMwND
+IsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00
+OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNz
+Q2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1
+NF19
 -->
