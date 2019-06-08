@@ -6,7 +6,7 @@ Pre-requisite: http://j.mp/pythonREPLcourse
 _Refer to the glossary below to become familiar with the terms relevant to this unit_
 
 - Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; 
-- Advanced list processing - list comprehension;
+- Advanced list processing - list comprehension
 
 ## Concept Map 
 _A picture is worth a 1000 words_
@@ -207,7 +207,7 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM4MTc5OTcsMTYzNTUyNTgyMywtMj
+eyJoaXN0b3J5IjpbLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMj
 EzMjEwOTY1LC0xMjYzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMx
 NDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MT
 Q4NSwtMTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0x
