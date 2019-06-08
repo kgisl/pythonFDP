@@ -29,7 +29,7 @@
 - In `selectsort`, the position of the update is pre-determined, starting from the end of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
 
 		repeat (numOfElements - 1) times
-		     for each of the unsorted elements
+			for each of the unsorted elements
 		select the minimum value among them
 		swap minimum with first unsorted position
 
@@ -300,11 +300,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ2ODM4NiwtMTQxNDUzNTA3MSw2Mj
-UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
-MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
-0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
-NDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5ND
-IwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00
-NTgwMzU2NTJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjQ0NDY1NDgsLTE0MTQ1MzUwNzEsNj
+I1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUw
+MTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOC
+wtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMy
+MjQyMDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OT
+QyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwt
+NDU4MDM1NjUyXX0=
 -->
