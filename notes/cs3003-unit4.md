@@ -14,7 +14,7 @@ _A picture is worth a 1000 words_
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
 
-## Sequences and their main attritubes 
+## Sequences and their main attributes 
 
 Here are some important methods that are associated with `tuple`, `list` and `dictionary` - all types that are covered in Unit 4. 
 
@@ -207,11 +207,11 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMj
-EzMjEwOTY1LC0xMjYzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMx
-NDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MT
-Q4NSwtMTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0x
-OTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5NjA1NzQwOSwxODA3Nz
-MzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1MzEsLTc0ODQ2MTE1
-MCwxNDYyMjczNzc4XX0=
+eyJoaXN0b3J5IjpbLTE1MTA5MTc3MzQsLTE2MzA1MjU5MjYsMT
+YzNTUyNTgyMywtMjEzMjEwOTY1LC0xMjYzODAzNTQ2LC0xNDUz
+NjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4MD
+IzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0Miwx
+NDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5Nj
+A1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1
+MzEsLTc0ODQ2MTE1MF19
 -->
