@@ -45,8 +45,10 @@ def selectsort(a):
     a[i],a[index_of_smallest] = a[index_of_smallest],a[i]
   return a
 
-
 ```
+
+## Version 2
+ - uses `tuples` and list comprehe to make the code more efficient 
 
 # InsertionSort 
 
@@ -284,11 +286,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MzAxMzU5LC0xNDE0NTM1MDcxLDYyNT
-E0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1MDEw
-LC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLT
-E1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0
-MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0Mj
-A1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1
-ODAzNTY1Ml19
+eyJoaXN0b3J5IjpbMTYyMjcwOTk0OCwtMTQxNDUzNTA3MSw2Mj
+UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
+MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
+0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
+NDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5ND
+IwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00
+NTgwMzU2NTJdfQ==
 -->
