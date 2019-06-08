@@ -32,7 +32,7 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` and **aliasing**| initialize an empty list, using a tuple, using another list | 
-|**Access** | [_idx_], `.find()`, `.index()` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
+|**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
@@ -206,10 +206,10 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM2MTA4MCwtMTk3MzE0NDEyNCwxOT
-Y2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3
-MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMT
-ksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3
-NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNz
-M3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMT
+k3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0
+NzkxNDg1LC0xMDU3MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2ND
+YsLTE5OTc0MjgxMTksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4
+MDc3MzM4NDQsLTM3NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4ND
+YxMTUwLDE0NjIyNzM3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
