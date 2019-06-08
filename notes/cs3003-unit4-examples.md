@@ -48,7 +48,22 @@ def selectsort(a):
 ```
 
 ## Version 2
- - uses `tuples` and list comprehe to make the code more efficient 
+ - uses `tuples` and `list comprehension` to make the code more efficient 
+
+```python
+def selectsort(a):
+	n = len(a)
+	for i in range(n):
+		(minval, min_idx) = min((v, i) \
+			for i, v in enumerate(a[i:]))
+		a[i],a[min_idx+i]= a[min_idx+i],a[i]
+		print("intermediary", a)
+	return a
+
+alist = [85, 69, 12, 12, 54, 36, 45, 5]
+print("unsorted", alist)
+print("select:", selectsort(alist))
+```
 
 # InsertionSort 
 
@@ -286,11 +301,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjcwOTk0OCwtMTQxNDUzNTA3MSw2Mj
-UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
-MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
-0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
-NDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5ND
-IwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00
-NTgwMzU2NTJdfQ==
+eyJoaXN0b3J5IjpbLTEwMjM2NzA0NDAsLTE0MTQ1MzUwNzEsNj
+I1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUw
+MTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOC
+wtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMy
+MjQyMDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OT
+QyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwt
+NDU4MDM1NjUyXX0=
 -->
