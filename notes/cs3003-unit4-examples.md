@@ -297,6 +297,19 @@ print(mergesort(alist))
    
       - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
 
+## Algorithm 
+
+- We build a histogram using a dictionary where the keys of the dictionary will be the letters in the string and the associated values for each key will be the number of times that the letter appeared.
+
+- What about a letter that does not appear in the string? It will never be placed in the dictionary. By assumption, any key that is not in the dictionary has a count of 0.
+
+1.  Define the function to require one parameter, the string.
+2.  Create an empty dictionary of counts.
+3.  Iterate through the characters of the string, one character at a time.
+
+## Source Code 
+
+
 
 
 
@@ -304,11 +317,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTI2NDQ1MywyMDU3OTQzMjUzLDEzOD
-M5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4NTk3ODUy
-LDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQxNDUzNTA3MSw2Mj
-UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
-MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
-0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
-NDIwNDA2XX0=
+eyJoaXN0b3J5IjpbLTc2MzY2MjIxNywtNDE5MjY0NDUzLDIwNT
+c5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEw
+LC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xND
+E0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4
+MiwxNjExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLT
+IxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0
+NDczMzcwXX0=
 -->
