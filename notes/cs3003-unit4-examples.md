@@ -51,18 +51,18 @@ def selectsort(a):
  - uses `tuples` and `list comprehension` to make the code more efficient 
 
 ```python
-def selectsort(a):
-	n = len(a)
-	for i in range(n):
-		(minval, min_idx) = min((v, i) \
-			for i, v in enumerate(a[i:]))
-		a[i],a[min_idx+i]= a[min_idx+i],a[i]
+def selectsort(myl):
+    n = len(myl)
+    for i in range(n):
+        (minval, min_idx) = min((v, i) \
+            for i, v in enumerate(myl[i:]))
+		myl[i], myl[min_idx+i]= myl[min_idx+i], myl[i]
 		print("intermediary", a)
 	return a
 
 alist = [85, 69, 12, 12, 54, 36, 45, 5]
 print("unsorted", alist)
-print("select:", selectsort(alist))
+print("sorted:", selectsort(alist))
 ```
 
 # InsertionSort 
@@ -301,7 +301,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM2NzA0NDAsLTE0MTQ1MzUwNzEsNj
+eyJoaXN0b3J5IjpbLTE2NDU4Mjg3ODAsLTE0MTQ1MzUwNzEsNj
 I1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUw
 MTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOC
 wtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMy
