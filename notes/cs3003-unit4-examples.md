@@ -48,7 +48,7 @@ def selectsort(alist):
 ```
 
 ## Version 2
- - uses `tuples` and `list comprehension` to make the code more efficient 
+ - uses  `slicing`,  `tuples` and `list comprehension` to make the code very efficient and still re 
 
 ```python
 def selectsort(alist):
@@ -301,11 +301,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3Nz
-kxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLDYyNTE0OTk2
-Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1MDEwLC0xMD
-IxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLTE1Njgx
-MzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MD
-YsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2
-MDQ4OTkxNjVdfQ==
+eyJoaXN0b3J5IjpbLTE4NjA1NTQ3NzAsLTkwNjQyMjEwLC00MD
+g1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1
+MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNj
+ExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAy
+OTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMz
+cwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3Mywt
+NDkwNTk0MjA1XX0=
 -->
