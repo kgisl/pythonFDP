@@ -20,6 +20,7 @@
    - What is the method of a list that returns the index for an element in the list? 
 	   - What is the difference between `find` and `index`? 
    - Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple. 
+   - Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement. 
 
 
 ## In-class Demo
@@ -302,11 +303,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNj
-QyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0Njkw
-LC0xNDE0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMD
-M3OTM4MiwxNjExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1
-NzIsLTIxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNy
-wyMDk0NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEy
-Mzc2NDA3M119
+eyJoaXN0b3J5IjpbMjA1Nzk0MzI1MywxMzgzOTI4OTEsMjE0ND
+k2MDcwNiwtOTA2NDIyMTAsLTQwODU5Nzg1MiwxMDc3OTE1Mjc0
+LC0xMzU2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MD
+Y2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYx
+MzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNS
+wtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUw
+NjM5MzEwN119
 -->
