@@ -353,17 +353,17 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 | | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _others_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
-|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create new lists from existing on
-|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` |  
+|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
+|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples ocntaining inde  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzgzMjc4OSwxNjY5OTk4Nzc4LC0yMD
-Q1MDg0Mzc1LC0yMDAyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2
-NjY2MCwyMDYyMDE0OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLD
-E4ODA1MDYzNTAsLTIwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIw
-ODkwMjQ4ODIsMTQ3NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4Mj
-EyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3Mzcs
-MTExMjE3MjI2MV19
+eyJoaXN0b3J5IjpbLTE4MzU0NjIxODMsMTY2OTk5ODc3OCwtMj
+A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
+NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
+wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
+MDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1OD
+IxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3
+LDExMTIxNzIyNjFdfQ==
 -->
