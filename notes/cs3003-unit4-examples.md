@@ -56,9 +56,9 @@ def selectsort(alist):
     for i in range(n):
         (minval, min_idx) = min((v, i) \
             for i, v in enumerate(alist[i:]))
-		alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
-		print("intermediary", alist)
-	return alist
+        alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
+        print("intermediary", alist)
+    return alist
 
 tlist = [85, 69, 12, 12, 54, 36, 45, 5]
 print("unsorted", tlist)
@@ -301,11 +301,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM0NjczMzQsLTE0MTQ1MzUwNzEsNj
-I1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUw
-MTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOC
-wtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMy
-MjQyMDQwNiwtMTUwNjM5MzEwNywxMTIzNzY0MDczLC00OTA1OT
-QyMDUsMTYwNDg5OTE2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwt
-NDU4MDM1NjUyXX0=
+eyJoaXN0b3J5IjpbMjYxNDA1NjY2LC0xNDE0NTM1MDcxLDYyNT
+E0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1MDEw
+LC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLT
+E1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0
+MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0Mj
+A1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1
+ODAzNTY1Ml19
 -->
