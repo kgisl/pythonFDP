@@ -354,11 +354,11 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 | | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`| |
 |Allocation | `.copy()` `[:]`, [_s_:_s_:_s_]
-|  _operation_ |  `deepcopy()`, slice(_start_, _stop_, _step_), `zip`, `enumerate` | | | 
+|  _operation_ |  `copy`, `deepcopy()`, slice(_start_, _stop_, _step_), `zip`, `enumerate` | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTQ0MTExNSwtMjA0NTA4NDM3NSwtMj
+eyJoaXN0b3J5IjpbMTY2OTk5ODc3OCwtMjA0NTA4NDM3NSwtMj
 AwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAx
 NDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC
 0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0
