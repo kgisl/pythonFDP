@@ -344,6 +344,7 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 ## List Methods and Operations
 
+
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` | initialize a list with nothing in it, using a tuple, using another list | 
@@ -354,12 +355,12 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 | | _others_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
-|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples ocntaining inde  
+|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0NjIxODMsMTY2OTk5ODc3OCwtMj
+eyJoaXN0b3J5IjpbLTExMTcwMjMwNTAsMTY2OTk5ODc3OCwtMj
 A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
 NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
 wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
