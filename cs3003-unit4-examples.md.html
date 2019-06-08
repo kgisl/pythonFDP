@@ -491,63 +491,6 @@ arlist <span class="token operator">=</span> random_list<span class="token punct
       <span class="token keyword">if</span> start <span class="token operator">&lt;=</span> number <span class="token operator">&lt;=</span> end<span class="token punctuation">:</span> 
         counters<span class="token punctuation">[</span><span class="token punctuation">(</span>start<span class="token punctuation">,</span> end<span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">+=</span> <span class="token number">1</span>
 
-  <span class="token comment">#histogram = sorted(counters.items())</span>
-  histogram <span class="token operator">=</span> counters<span class="token punctuation">.</span>items<span class="token punctuation">(</span><span class="token punctuation">)</span>
-  <span class="token keyword">return</span> histogram
-
-histo <span class="token operator">=</span> generate_histogram<span class="token punctuation">(</span>arlist<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"A histogram with"</span><span class="token punctuation">,</span> histo<span class="token punctuation">)</span>
-
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Visualizing the histogram"</span><span class="token punctuation">)</span>
-<span class="token keyword">for</span> <span class="token builtin">bin</span> <span class="token keyword">in</span> histo<span class="token punctuation">:</span> 
-  <span class="token keyword">print</span> <span class="token punctuation">(</span>f<span class="token string">'{str(bin[0]):&gt;10}'</span><span class="token punctuation">,</span> 
-	        <span class="token string">'@'</span><span class="token operator">*</span><span class="token builtin">bin</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token comment">################################</span>
-<span class="token comment"># Program No 5</span>
-<span class="token comment"># using tuple as key in a dictionary </span>
-<span class="token comment"># to build bins of values for </span>
-<span class="token comment"># visualization </span>
-<span class="token comment">#</span>
-<span class="token comment"># Refer https://datavizcatalogue.com/methods/histogram.html </span>
-<span class="token comment">#</span>
-<span class="token comment">#################################</span>
-<span class="token comment"># Build a histogram</span>
-
-<span class="token keyword">import</span> random
-<span class="token comment"># build a random list </span>
-<span class="token comment"># returns a list containing numbers 1 &lt;= n &lt;= maxval</span>
-<span class="token comment"># the list will contain n elements where</span>
-<span class="token comment">#   mincount &lt; n &lt; maxcount </span>
-<span class="token keyword">def</span> <span class="token function">random_list</span><span class="token punctuation">(</span>mincount<span class="token punctuation">,</span> maxcount<span class="token punctuation">,</span> maxval<span class="token punctuation">,</span> minval<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span> 
-  size <span class="token operator">=</span> random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span>mincount<span class="token punctuation">,</span> maxcount<span class="token punctuation">)</span>
-  alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-  <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>size<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    alist<span class="token punctuation">.</span>append<span class="token punctuation">(</span>random<span class="token punctuation">.</span>randrange<span class="token punctuation">(</span>minval<span class="token punctuation">,</span> maxval<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>		
-  <span class="token keyword">return</span> alist
-
-maxval<span class="token punctuation">,</span> minval <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">10</span>
-arlist <span class="token operator">=</span> random_list<span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">,</span> maxval<span class="token punctuation">,</span> minval<span class="token punctuation">)</span>
-<span class="token comment">#print("A random list", arlist)</span>
-
-<span class="token comment"># returns a list containing tuples with </span>
-<span class="token comment"># value and frequency, aka a histogram</span>
-<span class="token keyword">from</span> collections <span class="token keyword">import</span> defaultdict
-<span class="token keyword">def</span> <span class="token function">generate_histogram</span><span class="token punctuation">(</span>arlist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  counters <span class="token operator">=</span> defaultdict<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token comment">#inits value to 0</span>
-
-  bincount <span class="token operator">=</span> <span class="token number">10</span>
-  binwidth <span class="token operator">=</span> <span class="token punctuation">(</span>maxval<span class="token operator">-</span>minval<span class="token punctuation">)</span><span class="token operator">/</span>bincount
-  <span class="token comment">#minval = min(arlist)</span>
-  <span class="token comment">#maxval = max(arlist)</span>
-  points <span class="token operator">=</span> <span class="token punctuation">[</span>p <span class="token keyword">for</span> p <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>minval<span class="token punctuation">,</span> maxval<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token builtin">int</span><span class="token punctuation">(</span>binwidth<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
-  
-  bins <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>start<span class="token punctuation">,</span> end<span class="token number">-1</span><span class="token punctuation">)</span> <span class="token keyword">if</span> end <span class="token operator">!=</span> maxval <span class="token keyword">else</span> <span class="token punctuation">(</span>start<span class="token punctuation">,</span> end<span class="token punctuation">)</span> <span class="token keyword">for</span> <span class="token punctuation">(</span>start<span class="token punctuation">,</span> end<span class="token punctuation">)</span> <span class="token keyword">in</span> <span class="token builtin">zip</span><span class="token punctuation">(</span>points<span class="token punctuation">,</span> points<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
-	<span class="token comment">#bins.append(points[-1])</span>
-  
-  <span class="token keyword">for</span> number <span class="token keyword">in</span> arlist<span class="token punctuation">:</span>
-    <span class="token keyword">for</span> start<span class="token punctuation">,</span> end <span class="token keyword">in</span> bins<span class="token punctuation">:</span> 
-      <span class="token keyword">if</span> start <span class="token operator">&lt;=</span> number <span class="token operator">&lt;=</span> end<span class="token punctuation">:</span> 
-        counters<span class="token punctuation">[</span><span class="token punctuation">(</span>start<span class="token punctuation">,</span> end<span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">+=</span> <span class="token number">1</span>
-
   <span class="token keyword">return</span> counters 
 
 histo <span class="token operator">=</span> generate_histogram<span class="token punctuation">(</span>arlist<span class="token punctuation">)</span>
@@ -564,8 +507,7 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
 
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Visualizing the ordered histogram"</span><span class="token punctuation">)</span>
 <span class="token keyword">for</span> <span class="token builtin">bin</span> <span class="token keyword">in</span> o_histogram<span class="token punctuation">:</span>
-  <span class="token keyword">print</span> <span class="token punctuation">(</span>f<span class="token string">'{str(bin[1]):&gt;10}'</span><span class="token punctuation">,</span> <span class="token string">'@'</span><span class="token operator">*</span><span class="token builtin">bin</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-  
+  <span class="token keyword">print</span> <span class="token punctuation">(</span>f<span class="token string">'{str(bin[1]):&gt;10}'</span><span class="token punctuation">,</span> <span class="token string">'@'</span><span class="token operator">*</span><span class="token builtin">bin</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 </code></pre>
 <h2 id="complexity-analysis">Complexity Analysis</h2>
 <p><a href="http://bit.ly/complexThis">http://bit.ly/complexThis</a></p>
