@@ -42,7 +42,8 @@ def selectsort(alist):
         smallest = min(alist[i:])
         min_idx = alist.index(smallest, i)
         alist[i],alist[min_idx] = alist[min_idx], alist[i]
-  return alist
+        print("intermediary", alist)
+    return alist
 
 ```
 
@@ -300,11 +301,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODU5Nzg1MiwxMDc3OTE1Mjc0LC0xMz
-U2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MDY2NDkw
-NiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYxMzEsLT
-g2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUw
-OTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUwNjM5Mz
-EwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OTE2NSwt
-NzA5MTMzNzU1XX0=
+eyJoaXN0b3J5IjpbLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3Nz
+kxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLDYyNTE0OTk2
+Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1MDEwLC0xMD
+IxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLTE1Njgx
+MzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0MjA0MD
+YsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0MjA1LDE2
+MDQ4OTkxNjVdfQ==
 -->
