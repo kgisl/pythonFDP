@@ -349,8 +349,8 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |**Initialize** | `[]`, `list()` or `list(sequence)` | initialize a list with nothing in it, using a tuple, using another list | 
 |**Access** | `.find()`, `.index()` `.count()` and `[idx]` | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` one is `True`
-|**Modify** | _addition_ `.append(loc)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations 
-| | _extraction_ ` .pop() .remove(), .clear()`| | |
+|**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
+| | _extraction_ `.pop()` `.remove(elem)`, `.clear()`| take out from list; |
 | | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`, `sorted`| |
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)
@@ -359,11 +359,11 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUxNDM1NjUsMTY2OTk5ODc3OCwtMj
-A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
-NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
-wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
-MDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1OD
-IxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3
-LDExMTIxNzIyNjFdfQ==
+eyJoaXN0b3J5IjpbODE1MTA5MzAsMTY2OTk5ODc3OCwtMjA0NT
+A4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2
+NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxOD
+gwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5
+MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMj
+IxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDEx
+MTIxNzIyNjFdfQ==
 -->
