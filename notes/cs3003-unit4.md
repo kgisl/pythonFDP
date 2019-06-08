@@ -29,8 +29,8 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be _better_ chance of overall engagement.
 
-|Intent | Method / Operation | Description 
-|:-------|:--------------|:------------|
+|Intent | Method / Operation | Description |
+|:-------|:--------------|:----------------|
 |**Initialize** | `[]`, `list()` or `list(sequence)` and **aliasing**| initialize an empty list, using a tuple, using another list | 
 |**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
@@ -206,7 +206,7 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1ODM1MDQ3LC0xMjYzODAzNTQ2LC0xND
+eyJoaXN0b3J5IjpbODE1OTA0NTkxLC0xMjYzODAzNTQ2LC0xND
 UzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4
 MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0Mi
 wxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5
