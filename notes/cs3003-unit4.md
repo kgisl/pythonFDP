@@ -27,7 +27,7 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 ## List Methods and Operations
 
-The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize, deliver to maximizing retention among students. Moreover, there is going to be better chance of overall engagement
+The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be _better_ chance of overall engagement.
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
@@ -206,11 +206,11 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzA0ODM3MywtMTI2MzgwMzU0NiwtMT
-Q1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1
-ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3NjMwND
-IsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00
-OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNz
-Q2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1
-NF19
+eyJoaXN0b3J5IjpbNzM1ODM1MDQ3LC0xMjYzODAzNTQ2LC0xND
+UzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4
+MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0Mi
+wxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5
+NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3ND
+Y1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4NDg5MTU0
+XX0=
 -->
