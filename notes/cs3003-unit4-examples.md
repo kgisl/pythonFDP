@@ -169,8 +169,8 @@ print("Unsorted", alist)
 print("Sorted", insertsort(alist))
 ```
 
-![insert2](http://j.mp/insert2PNG)
 ![insert1](http://j.mp/insert1PNG)
+![insert2](http://j.mp/insert2PNG)
 ![insert3](http://j.mp/insert3PNG)
 
 # MergeSort
@@ -442,7 +442,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgzMzUwMjQsMjA4NDc0NDg1OCwxMj
+eyJoaXN0b3J5IjpbLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMj
 Y0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0
 NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLT
 kwNjQyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0
