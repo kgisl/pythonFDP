@@ -20,9 +20,10 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 |Type | Attributes | 
 |:------|:-------|
-|` <class 'tuple'>`|8 **`count`**, `index` |
-|` <class 'list'>`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
-|` <class 'dict'>`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
+|` 'tuple'`|8 **`count`**, `index` |
+|` 'list'`|9 **`append`**, `clear`, `copy`, 10 **`count`**, 11 **`extend`**, `index`, 12 **`insert`**, 13 **`pop`**, 14 **`remove`**, 15 **`reverse`**, 16 **`sort`** |
+|` 'dict'`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
+ 
  
 
 ## List Mutability 
@@ -188,10 +189,10 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMT
-QxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2
-MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMz
-AsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5
-MzE3NDY1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4ND
-g5MTU0XX0=
+eyJoaXN0b3J5IjpbMTI4NTg1MzMxNCwtMTk3MzE0NDEyNCwxOT
+Y2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3
+MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMT
+ksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3
+NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNz
+M3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
