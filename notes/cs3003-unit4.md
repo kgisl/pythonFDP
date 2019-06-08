@@ -35,7 +35,7 @@ The following table has been created by **_clustering_** multiple items based on
 |**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
-| | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
+| | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
@@ -206,11 +206,11 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1OTA0NTkxLC0xMjYzODAzNTQ2LC0xND
-UzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4
-MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0Mi
-wxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5
-NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3ND
-Y1MzEsLTc0ODQ2MTE1MCwxNDYyMjczNzc4LC0xNDk4NDg5MTU0
-XX0=
+eyJoaXN0b3J5IjpbLTIxMzIxMDk2NSwtMTI2MzgwMzU0NiwtMT
+Q1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1
+ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3NjMwND
+IsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMwLC00
+OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1NzU0NzExLC0xOTMxNz
+Q2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mzc3OCwtMTQ5ODQ4OTE1
+NF19
 -->
