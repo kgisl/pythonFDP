@@ -33,7 +33,7 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
-|**Initialize** | `[]`, `list()` or `list(sequence)` | initialize an empty list, using a tuple, using another list | 
+|**Initialize** | `[]`, `list()` or `list(sequence)` and **aliasing**| initialize an empty list, using a tuple, using another list | 
 |**Access** | [_idx_], `.find()`, `.index()` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
@@ -41,7 +41,7 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
-|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` and list comprehension | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
+|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
 
 
 
@@ -210,10 +210,10 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjA1Nzg4NywtMTk3MzE0NDEyNCwxOT
-Y2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3
-MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMT
-ksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3
-NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNz
-M3NzgsLTE0OTg0ODkxNTRdfQ==
+eyJoaXN0b3J5IjpbNDc3NTYwMzI0LC0xOTczMTQ0MTI0LDE5Nj
+Y1MTI5ODksLTE0MTg1ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTcz
+MjY1NDQsMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5NzQyODExOS
+wxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1
+NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mz
+c3OCwtMTQ5ODQ4OTE1NF19
 -->
