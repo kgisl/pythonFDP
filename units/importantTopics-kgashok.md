@@ -349,20 +349,20 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |Initialization | `[]`, `.list()` | | | 
 |Examination | `.find()`, `.index()` .count() | | | 
 |   _operation_| `in` and `not in`, `max`, `min` and `len`
-|Modification | _addition_ `.append()``.insert()` 
+|Modification | _addition_ `.append()`, `.insert()`, `.extend()` 
 | | _extraction_ ` .pop() .remove(), .clear()`| | |
-| | _others_ | .reverse(), .sort()
+| | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`| |
 |Allocation | `.copy()` `[:]`, [_s_:_s_:_s_]
 |  _operation_ | slice(_start_, _stop_, _step_), `zip`  | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNTUwNDUyLC0yMDQ1MDg0Mzc1LC0yMD
-AyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2NjY2MCwyMDYyMDE0
-OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLDE4ODA1MDYzNTAsLT
-IwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIwODkwMjQ4ODIsMTQ3
-NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4MjEyMjEyLDIyNDI4Mj
-Y1MCwzOTkwOTA4MDcsLTExNjI4NTI3MzcsMTExMjE3MjI2MSwt
-MzM2ODIzMzY3XX0=
+eyJoaXN0b3J5IjpbLTIwODA1NzYxNjMsLTIwNDUwODQzNzUsLT
+IwMDI3ODI4NzAsNzExODg4MzA3LC0xMDA4MTY2NjYwLDIwNjIw
+MTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MDUwNjM1MC
+wtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAyNDg4Miwx
+NDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMTIsMjI0Mj
+gyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcyMjYx
+LC0zMzY4MjMzNjddfQ==
 -->
