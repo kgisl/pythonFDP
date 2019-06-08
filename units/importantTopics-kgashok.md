@@ -352,15 +352,16 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 |Manipulation | _addition_ `.append()``.insert()` 
 | | _extraction_ ` .pop() .remove()`| | |
 | _operation_|  `del`| |
-|Allocation | `slice(_start_, _stop_| | | 
+|Allocation | `.copy()` `[:]`, 
+|  _operation_ | slice(_start_, _stop_, _step_)  | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTU2MTgxOCwtMjA0NTA4NDM3NSwtMj
-AwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAx
-NDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC
-0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0
-NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyOD
-I2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEs
-LTMzNjgyMzM2N119
+eyJoaXN0b3J5IjpbOTk3ODY1MTM2LC0yMDQ1MDg0Mzc1LC0yMD
+AyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2NjY2MCwyMDYyMDE0
+OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLDE4ODA1MDYzNTAsLT
+IwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIwODkwMjQ4ODIsMTQ3
+NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4MjEyMjEyLDIyNDI4Mj
+Y1MCwzOTkwOTA4MDcsLTExNjI4NTI3MzcsMTExMjE3MjI2MSwt
+MzM2ODIzMzY3XX0=
 -->
