@@ -401,9 +401,8 @@ def generate_histogram(arlist):
   #maxval = max(arlist)
   points = [p for p in range(minval, maxval+1, int(binwidth))]
   
-  bins = [(start, end-1) if end != maxval \
-		else (start, end) for (start, end) \
-			in zip(points, points[1:])
+  bins = [(start, end-1) if end != maxval else (start, end) \
+          for (start, end) in zip(points, points[1:])
   ]
 	#bins.append(points[-1])
   
@@ -437,11 +436,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTY5MjkyMSwxMjY0NzQzOTY1LDE5ND
-c1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMy
-NTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MD
-g1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1
-MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNj
-ExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAy
-OTMxMzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MjM3MDM3NzksMTI2NDc0Mzk2NSwxOT
+Q3NTE3NTY4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3OTQz
+MjUzLDEzODM5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMCwtND
+A4NTk3ODUyLDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQxNDUz
+NTA3MSw2MjUxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMT
+YxMTU3NTAxMCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMw
+MjkzMTM4XX0=
 -->
