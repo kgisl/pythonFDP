@@ -131,8 +131,9 @@ def insertsort(alist):
             j -= 1
         # STEP 3 - insert it in the relevant index
         # alist.insert(j, value)
-        alist[j+1:idx+1] = alist[j:idx]
-        alist[j] = value
+        if j != idx: 
+            alist[j+1:idx+1] = alist[j:idx]
+            alist[j] = value
 
         print('intermediary:', alist)
         return alist
@@ -283,11 +284,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MD
-Y2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYx
-MzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNS
-wtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUw
-NjM5MzEwNywxMTIzNzY0MDczLC00OTA1OTQyMDUsMTYwNDg5OT
-E2NSwtNzA5MTMzNzU1LDgzNTkyMTEzMSwtNDU4MDM1NjUyLDc4
-ODQ0ODExMV19
+eyJoaXN0b3J5IjpbNTI0MzAxMzU5LC0xNDE0NTM1MDcxLDYyNT
+E0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1MDEw
+LC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLTIxMzAyOTMxMzgsLT
+E1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0NDczMzcwLC0zMjI0
+MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2NDA3MywtNDkwNTk0Mj
+A1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4MzU5MjExMzEsLTQ1
+ODAzNTY1Ml19
 -->
