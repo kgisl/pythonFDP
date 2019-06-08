@@ -14,7 +14,7 @@ _A picture is worth a 1000 words_
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
 
-## List Methods 
+## Sequences and their main attritubes 
 
 Here are some important methods that are associated with `tuple`, `list` and `dictionary` - all types that are covered in Unit 4. 
 
@@ -25,11 +25,9 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 |` 'dict'`|`clear`, `copy`, `fromkeys`, 17 **`get`**, 18 **`items`**, 19 **`keys`**, 20 **`pop`**, `popitem`, `setdefault`, 21 **`update`**, 22 **`values`** |
  
 
-## List Methods and Operations 
-
 ## List Methods and Operations
 
-_Clustering_ multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
+**_Clustering_** multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
@@ -208,10 +206,10 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NzMyNTgwLC0xOTczMTQ0MTI0LDE5Nj
-Y1MTI5ODksLTE0MTg1ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTcz
-MjY1NDQsMjQ3NjMwNDIsMTQzMTkyODY0NiwtMTk5NzQyODExOS
-wxNTMzNDYwMzMwLC00OTYwNTc0MDksMTgwNzczMzg0NCwtMzc1
-NzU0NzExLC0xOTMxNzQ2NTMxLC03NDg0NjExNTAsMTQ2MjI3Mz
-c3OCwtMTQ5ODQ4OTE1NF19
+eyJoaXN0b3J5IjpbLTE0NTM2MTA4MCwtMTk3MzE0NDEyNCwxOT
+Y2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3
+MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYsLTE5OTc0MjgxMT
+ksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5LDE4MDc3MzM4NDQsLTM3
+NTc1NDcxMSwtMTkzMTc0NjUzMSwtNzQ4NDYxMTUwLDE0NjIyNz
+M3NzgsLTE0OTg0ODkxNTRdfQ==
 -->
