@@ -346,8 +346,8 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
-|**Initialize** | `[]`, `list()` or `list(sequence)` | initialize a list with nothing in it, using a tuple [(1,  | 
-|**Access** | `.find()`, `.index()` `.count()` and `[idx]` | | | 
+|**Initialize** | `[]`, `list()` or `list(sequence)` | initialize a list with nothing in it, using a tuple, using another list | 
+|**Access** | `.find()`, `.index()` `.count()` and `[idx]` | `find` returns `-1`, `index` throws an error| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`
 |**Modify** | _addition_ `.append()`, `.insert()`, `.extend()` 
 | | _extraction_ ` .pop() .remove(), .clear()`| | |
@@ -359,7 +359,7 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1MTQyNTg3LDE2Njk5OTg3NzgsLTIwND
+eyJoaXN0b3J5IjpbNDc0Nzc5MTAwLDE2Njk5OTg3NzgsLTIwND
 UwODQzNzUsLTIwMDI3ODI4NzAsNzExODg4MzA3LC0xMDA4MTY2
 NjYwLDIwNjIwMTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMT
 g4MDUwNjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4
