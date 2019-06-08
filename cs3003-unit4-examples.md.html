@@ -24,6 +24,7 @@
 <li><a href="#in-class-demo">In-class Demo</a></li>
 <li><a href="#algorithm">Algorithm</a></li>
 <li><a href="#source-code">Source code</a></li>
+<li><a href="#version-2">Version 2</a></li>
 </ul>
 </li>
 <li><a href="#insertionsort">InsertionSort</a>
@@ -87,22 +88,39 @@
 <ul>
 <li>
 <p>In <code>selectsort</code>, the position of the update is pre-determined, starting from the end of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</p>
-<p>repeat (numOfElements - 1) times<br>
-for each of the unsorted elements<br>
-select the minimum value among them<br>
-swap minimum with first unsorted position</p>
+<pre><code>  repeat (numOfElements - 1) times
+  	for each of the unsorted elements
+  select the minimum value among them
+  swap minimum with first unsorted position
+</code></pre>
 </li>
 </ul>
 <h2 id="source-code">Source code</h2>
-<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> 
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+  n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
   <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-    index_of_smallest<span class="token operator">=</span>a<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
-    a<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>index_of_smallest<span class="token punctuation">]</span><span class="token punctuation">,</span>a<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
-  <span class="token keyword">return</span> a
+    smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    min_idx<span class="token operator">=</span>alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+    alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_idx<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_idx<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+  <span class="token keyword">return</span> alist
 
+</code></pre>
+<h2 id="version-2">Version 2</h2>
+<ul>
+<li>uses <code>tuples</code> and <code>list comprehension</code> to make the code more efficient</li>
+</ul>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token punctuation">(</span>minval<span class="token punctuation">,</span> min_idx<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span> i<span class="token punctuation">)</span> \
+            <span class="token keyword">for</span> i<span class="token punctuation">,</span> v <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
 
+tlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">85</span><span class="token punctuation">,</span> <span class="token number">69</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">54</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">45</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"unsorted"</span><span class="token punctuation">,</span> tlist<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"sorted:"</span><span class="token punctuation">,</span> selectsort<span class="token punctuation">(</span>tlist<span class="token punctuation">)</span><span class="token punctuation">)</span>
 </code></pre>
 <h1 id="insertionsort">InsertionSort</h1>
 <h2 id="pre-requisites-2">Pre-requisites</h2>
@@ -184,19 +202,21 @@ return sorted list
             j <span class="token operator">-=</span> <span class="token number">1</span>
         <span class="token comment"># STEP 3 - insert it in the relevant index</span>
         <span class="token comment"># alist.insert(j, value)</span>
-        alist<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span>idx<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
-        alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> value
+        <span class="token keyword">if</span> j <span class="token operator">!=</span> idx<span class="token punctuation">:</span> 
+            alist<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span>idx<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">:</span>idx<span class="token punctuation">]</span>
+            alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> value
 
         <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'intermediary:'</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
         <span class="token keyword">return</span> alist
-
-<span class="token comment"># Test case using random shuffle</span>
+</code></pre>
+<p>The following code can be used to test the above code:</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token comment"># Test case using random shuffle</span>
 <span class="token keyword">from</span> random <span class="token keyword">import</span> shuffle 
 alist <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 shuffle<span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
 
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"************\nUnsorted"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"sorted"</span><span class="token punctuation">,</span> insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Unsorted"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Sorted"</span><span class="token punctuation">,</span> insertsort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
 </code></pre>
 <h1 id="mergesort">MergeSort</h1>
 <h2 id="pre-requisites-3">Pre-requisites</h2>
