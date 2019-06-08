@@ -31,8 +31,8 @@ The following table has been created by **_clustering_** multiple items based on
 
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
-|**Initialize** | `[]`, `list()` or `list(sequence)` and **aliasing**| initialize an empty list, using a tuple, using another list | 
- | _operation_ | the `=` operator | 
+|**Initialize** | `[]`, `list()` or `list(sequence)` | initialize an empty list, using a tuple, using another list | 
+ | _operation_ | the `=` operator | creates `bl` as **aliasing** `bl = al` is a alias for the same `al` list object
 |**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
@@ -207,7 +207,7 @@ adict['Victor'] = 900-2222
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjkyODcyNiwtMjEzMjEwOTY1LC0xMj
+eyJoaXN0b3J5IjpbLTUxNzgxMjQzMywtMjEzMjEwOTY1LC0xMj
 YzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUx
 Mjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNj
 U0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1
