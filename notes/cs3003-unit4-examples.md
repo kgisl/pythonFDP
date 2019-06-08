@@ -309,9 +309,55 @@ print(mergesort(alist))
 
 ## Source Code 
 
-Version 1 
+## Version 1 
 
-# Version 2 
+```python
+################################
+# Program No 1
+# using dictionary to build the histogram
+#   - using a randomizer for input
+#   - functionally decomposing the logic 
+#
+#################################
+# Build a histogram
+
+import random
+# build a random list 
+# returns a list containing numbers 1 <= n <= maxval
+# the list will contain n elements where
+#   mincount < n < maxcount 
+def random_list(mincount, maxcount, maxval, minval=1): 
+  size = random.randint(mincount, maxcount)
+  alist = []
+  for _ in range(size):
+    alist.append(random.randrange(minval, maxval+1))		
+  return alist
+
+arlist = random_list(50, 120, 20, -10)
+print("A random list", arlist)
+
+
+# returns a list containing tuples with 
+# value and frequency, aka a histogram
+from collections import defaultdict
+def generate_histogram(arlist):
+  counters = defaultdict(int) #inits value to 0
+  for number in arlist:
+	  counters[number] += 1
+
+  histogram = sorted(counters.items())
+  return histogram
+
+histo = generate_histogram(arlist)
+print("A histogram with", histo)
+
+print("Visualizing the histogram")
+for i in range(len(histo)): 
+  print (f'{histo[i][0]:2}', '@'*histo[i][1])
+
+```
+
+## Version 2 
 
 ```python
 ################################
@@ -380,11 +426,11 @@ for bin in histo:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MDU4MDAwLDE0MTgxNjc1MzEsLTQxOT
-I2NDQ1MywyMDU3OTQzMjUzLDEzODM5Mjg5MSwyMTQ0OTYwNzA2
-LC05MDY0MjIxMCwtNDA4NTk3ODUyLDEwNzc5MTUyNzQsLTEzNT
-Y0NDY5MCwtMTQxNDUzNTA3MSw2MjUxNDk5NjIsODUwNjY0OTA2
-LC05MTAzNzkzODIsMTYxMTU3NTAxMCwtMTAyMTEyNjEzMSwtOD
-YzNzA0NTcyLC0yMTMwMjkzMTM4LC0xNTY4MTMwNzI1LC0zNTA5
-NDU1MzddfQ==
+eyJoaXN0b3J5IjpbMTk0NzUxNzU2OCwxNDE4MTY3NTMxLC00MT
+kyNjQ0NTMsMjA1Nzk0MzI1MywxMzgzOTI4OTEsMjE0NDk2MDcw
+NiwtOTA2NDIyMTAsLTQwODU5Nzg1MiwxMDc3OTE1Mjc0LC0xMz
+U2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MDY2NDkw
+NiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYxMzEsLT
+g2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNSwtMzUw
+OTQ1NTM3XX0=
 -->
