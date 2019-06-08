@@ -2,7 +2,7 @@
 Want a ToC? View at http://j.mp/importantPy    
 # Useful links to explore
 
-j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minutes! 
+http://j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minutes! 
 
 http://j.mp/howToThinkLikeAProgrammer - 7 very clear steps / tactics that must become second nature to you.
 
@@ -341,12 +341,15 @@ https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-pytho
 
 http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
 
+
+## List Methods and Operations
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUwODQzNzUsLTIwMDI3ODI4NzAsNz
-ExODg4MzA3LC0xMDA4MTY2NjYwLDIwNjIwMTQ5ODYsMTc4Mzgz
-ODM0NCw0NzEyMTAzMjAsMTg4MDUwNjM1MCwtMjA3MjEwMTkxMy
-wtMTAxODA0MTIzNiwtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIw
-ODEyNTEyMzAsLTE1NTgyMTIyMTIsMjI0MjgyNjUwLDM5OTA5MD
-gwNywtMTE2Mjg1MjczNywxMTEyMTcyMjYxLC0zMzY4MjMzNjcs
-LTIwOTAxNjU3MDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NzgzNDMzODIsLTIwNDUwODQzNzUsLT
+IwMDI3ODI4NzAsNzExODg4MzA3LC0xMDA4MTY2NjYwLDIwNjIw
+MTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MDUwNjM1MC
+wtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAyNDg4Miwx
+NDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMTIsMjI0Mj
+gyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcyMjYx
+LC0zMzY4MjMzNjddfQ==
 -->
