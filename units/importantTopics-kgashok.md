@@ -353,11 +353,11 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 | | _extraction_ ` .pop() .remove()`| | |
 | _operation_|  `del`| |
 |Allocation | `.copy()` `[:]`, [_s_:_s_:_s_]
-|  _operation_ | slice(_start_, _stop_, _step_),   | | | 
+|  _operation_ | slice(_start_, _stop_, _step_), `zip`  | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTA2NDc5NCwtMjA0NTA4NDM3NSwtMj
+eyJoaXN0b3J5IjpbMTM4NzU1NzY5MSwtMjA0NTA4NDM3NSwtMj
 AwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAx
 NDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC
 0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0
