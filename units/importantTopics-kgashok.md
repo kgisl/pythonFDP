@@ -346,7 +346,7 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 |Type | Method / Operation | Description 
 |:-------|:--------------|:------------|
-|Initialization | `[]`, `.list()` | | | 
+|Initialization | `[]`, `list()` | | | 
 |Examination | `.find()`, `.index()` .count() | | | 
 |   _operation_| `in` and `not in`, `max`, `min` and `len`
 |Modification | _addition_ `.append()`, `.insert()`, `.extend()` 
@@ -354,15 +354,15 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 | | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`| |
 |Allocation | `.copy()` `[:]`, [_s_:_s_:_s_]
-|  _operation_ | slice(_start_, _stop_, _step_), `zip`  | | | 
+|  _operation_ |  `deepcopy()`, slice(_start_, _stop_, _step_), `zip`, `enumerate` | | | 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA1NzYxNjMsLTIwNDUwODQzNzUsLT
-IwMDI3ODI4NzAsNzExODg4MzA3LC0xMDA4MTY2NjYwLDIwNjIw
-MTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MDUwNjM1MC
-wtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAyNDg4Miwx
-NDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMTIsMjI0Mj
-gyNjUwLDM5OTA5MDgwNywtMTE2Mjg1MjczNywxMTEyMTcyMjYx
-LC0zMzY4MjMzNjddfQ==
+eyJoaXN0b3J5IjpbMTQxOTQ0MTExNSwtMjA0NTA4NDM3NSwtMj
+AwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2NjAsMjA2MjAx
+NDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxODgwNTA2MzUwLC
+0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5MDI0ODgyLDE0
+NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMjIxMiwyMjQyOD
+I2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDExMTIxNzIyNjEs
+LTMzNjgyMzM2N119
 -->
