@@ -344,6 +344,7 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 ## List Methods and Operations
 
+_Clustering_ multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well. 
 
 |Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
@@ -360,11 +361,11 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTcwMjMwNTAsMTY2OTk5ODc3OCwtMj
-A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
-NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
-wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
-MDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1OD
-IxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3
-LDExMTIxNzIyNjFdfQ==
+eyJoaXN0b3J5IjpbMTM0MDA2NDksMTY2OTk5ODc3OCwtMjA0NT
+A4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgxNjY2
+NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMCwxOD
+gwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0yMDg5
+MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1ODIxMj
+IxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3LDEx
+MTIxNzIyNjFdfQ==
 -->
