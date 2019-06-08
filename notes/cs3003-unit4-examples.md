@@ -294,20 +294,21 @@ print(mergesort(alist))
           - Write code for both the above. 
      - Can a string be a key in a dictionary? Can a list like `[1, 2, 3]` be a key in a dictionary? Why not? 
      - Can an integer be a key in the dictionary? Can a tuple like `(5, 10)` be a key in a dictionary? Why not? 
-     
-       
+   
       - Create a histogram with tuples that represent bins (interval specified by low and high values) of sufficient width and see the typical double peaks that occur in random data  
+
+
 
 
 ## Complexity Analysis
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Nzk0MzI1MywxMzgzOTI4OTEsMjE0ND
-k2MDcwNiwtOTA2NDIyMTAsLTQwODU5Nzg1MiwxMDc3OTE1Mjc0
-LC0xMzU2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1MTQ5OTYyLDg1MD
-Y2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUwMTAsLTEwMjExMjYx
-MzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOCwtMTU2ODEzMDcyNS
-wtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMyMjQyMDQwNiwtMTUw
-NjM5MzEwN119
+eyJoaXN0b3J5IjpbLTQxOTI2NDQ1MywyMDU3OTQzMjUzLDEzOD
+M5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4NTk3ODUy
+LDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQxNDUzNTA3MSw2Mj
+UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
+MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
+0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
+NDIwNDA2XX0=
 -->
