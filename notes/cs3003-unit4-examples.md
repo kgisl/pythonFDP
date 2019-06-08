@@ -52,7 +52,7 @@ def selectsort(alist):
 ```python
 def selectsort(alist):
     n = len(alist)
-    for i in range(n):
+    for i in range(n-1):
         (minval, min_idx) = min((v, i) \
             for i, v in enumerate(alist[i:]))
         alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
@@ -300,11 +300,11 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY0NDY5MCwtMTQxNDUzNTA3MSw2Mj
-UxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3NTAx
-MCwtMTAyMTEyNjEzMSwtODYzNzA0NTcyLC0yMTMwMjkzMTM4LC
-0xNTY4MTMwNzI1LC0zNTA5NDU1MzcsMjA5NDQ3MzM3MCwtMzIy
-NDIwNDA2LC0xNTA2MzkzMTA3LDExMjM3NjQwNzMsLTQ5MDU5ND
-IwNSwxNjA0ODk5MTY1LC03MDkxMzM3NTUsODM1OTIxMTMxLC00
-NTgwMzU2NTJdfQ==
+eyJoaXN0b3J5IjpbLTgwMDExMDA3MCwtMTM1NjQ0NjkwLC0xND
+E0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4
+MiwxNjExNTc1MDEwLC0xMDIxMTI2MTMxLC04NjM3MDQ1NzIsLT
+IxMzAyOTMxMzgsLTE1NjgxMzA3MjUsLTM1MDk0NTUzNywyMDk0
+NDczMzcwLC0zMjI0MjA0MDYsLTE1MDYzOTMxMDcsMTEyMzc2ND
+A3MywtNDkwNTk0MjA1LDE2MDQ4OTkxNjUsLTcwOTEzMzc1NSw4
+MzU5MjExMzFdfQ==
 -->
