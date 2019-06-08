@@ -344,25 +344,26 @@ http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC
 
 ## List Methods and Operations
 
-|Type | Method / Operation | Description 
+|Intent | Method / Operation | Description 
 |:-------|:--------------|:------------|
-|**Initialization** | `[]`, `list()` or `list(sequence)` | | | 
+|**Initialize** | `[]`, `list()` or `list(sequence)` | | | 
 |**Access** | `.find()`, `.index()` `.count()` and `[idx]` | | | 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`
-|**Modification** | _addition_ `.append()`, `.insert()`, `.extend()` 
+|**Modify** | _addition_ `.append()`, `.insert()`, `.extend()` 
 | | _extraction_ ` .pop() .remove(), .clear()`| | |
 | | _others_  `.reverse()`, `.sort()`
 | _operation_|  `del`, `sorted`| |
-|Allocation | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)
+|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)
 |  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` |  
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDEyOTcxOSwxNjY5OTk4Nzc4LC0yMD
-Q1MDg0Mzc1LC0yMDAyNzgyODcwLDcxMTg4ODMwNywtMTAwODE2
-NjY2MCwyMDYyMDE0OTg2LDE3ODM4MzgzNDQsNDcxMjEwMzIwLD
-E4ODA1MDYzNTAsLTIwNzIxMDE5MTMsLTEwMTgwNDEyMzYsLTIw
-ODkwMjQ4ODIsMTQ3NzM5NzMxNywyMDgxMjUxMjMwLC0xNTU4Mj
-EyMjEyLDIyNDI4MjY1MCwzOTkwOTA4MDcsLTExNjI4NTI3Mzcs
-MTExMjE3MjI2MV19
+eyJoaXN0b3J5IjpbLTE5NzkwODk1OTYsMTY2OTk5ODc3OCwtMj
+A0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgzMDcsLTEwMDgx
+NjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LDQ3MTIxMDMyMC
+wxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4MDQxMjM2LC0y
+MDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MTIzMCwtMTU1OD
+IxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0xMTYyODUyNzM3
+LDExMTIxNzIyNjFdfQ==
 -->
