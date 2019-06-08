@@ -37,12 +37,12 @@
 ## Source code
 
 ```python
-def selectsort(a):
-  n = len(a) 
+def selectsort(alist):
+  n = len(alist) 
   for i in range(n-1):
-    smallest = min(a[i:])
-    index_of_smallest=a.index(smallest, i)
-    a[i],a[index_of_smallest] = a[index_of_smallest],a[i]
+    smallest = min(alist[i:])
+    min_idx=alist.index(smallest, i)
+    alist[i],alist[min_idx] = a[index_of_smallest],a[i]
   return a
 
 ```
@@ -51,18 +51,18 @@ def selectsort(a):
  - uses `tuples` and `list comprehension` to make the code more efficient 
 
 ```python
-def selectsort(myl):
-    n = len(myl)
+def selectsort(alist):
+    n = len(alist)
     for i in range(n):
         (minval, min_idx) = min((v, i) \
-            for i, v in enumerate(myl[i:]))
-		myl[i], myl[min_idx+i]= myl[min_idx+i], myl[i]
+            for i, v in enumerate(alist[i:]))
+		alist[i], alist[min_idx+i]= alist[min_idx+i], alist[i]
 		print("intermediary", a)
 	return a
 
-alist = [85, 69, 12, 12, 54, 36, 45, 5]
-print("unsorted", alist)
-print("sorted:", selectsort(alist))
+tlist = [85, 69, 12, 12, 54, 36, 45, 5]
+print("unsorted", tlist)
+print("sorted:", selectsort(tlist))
 ```
 
 # InsertionSort 
@@ -301,7 +301,7 @@ print(mergesort(alist))
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU4Mjg3ODAsLTE0MTQ1MzUwNzEsNj
+eyJoaXN0b3J5IjpbLTIwNzM1OTk5NjIsLTE0MTQ1MzUwNzEsNj
 I1MTQ5OTYyLDg1MDY2NDkwNiwtOTEwMzc5MzgyLDE2MTE1NzUw
 MTAsLTEwMjExMjYxMzEsLTg2MzcwNDU3MiwtMjEzMDI5MzEzOC
 wtMTU2ODEzMDcyNSwtMzUwOTQ1NTM3LDIwOTQ0NzMzNzAsLTMy
