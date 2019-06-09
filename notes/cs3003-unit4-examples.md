@@ -70,6 +70,10 @@ print("unsorted", tlist)
 print("sorted:", selectsort(tlist))
 ```
 
+### Bonus 
+Can you improve on the **basic selection sort**? How about grabbing the maximum value during every iteration and using it? 
+
+
 # InsertionSort 
 
 ## Pre-requisites
@@ -445,11 +449,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNj
-A1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1
-NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMT
-M4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4
-NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLD
-YyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1
-MDEwXX0=
+eyJoaXN0b3J5IjpbLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OT
+c3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQz
+OTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLD
+IwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQy
+MjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC
+0xNDE0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3
+OTM4Ml19
 -->
