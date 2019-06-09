@@ -94,15 +94,15 @@
 </ul>
 <h2 id="algorithm">Algorithm</h2>
 <ul>
-<li>
-<p>In <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</p>
-<pre><code>  repeat (numOfElements - 1) times
-  	for each of the unsorted elements
-  	select the minimum value among them
-  	swap minimum with first unsorted position
-</code></pre>
-</li>
+<li>In <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
 </ul>
+<p>Here’s an example:<br>
+<img src="http://bit.ly/selectionSortPNG" alt="select"></p>
+<pre><code>	repeat (numOfElements - 1) times
+		for each of the unsorted elements
+		select the minimum value among them
+		swap minimum with first unsorted position
+</code></pre>
 <h2 id="source-code">Source code</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
     n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
