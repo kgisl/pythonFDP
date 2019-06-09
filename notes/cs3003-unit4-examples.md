@@ -31,7 +31,7 @@
 - In `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
 
 Here's an example: 
-![select](http://bit.ly/selectPNG)
+![select](http://bit.ly/select2PNG)
 
 		repeat (numOfElements - 1) times
 			for each of the unsorted elements
@@ -445,11 +445,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMyODE2NTcsODk3NzQyNTg3LC0xMT
-YwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2NDc0Mzk2NSwxOTQ3NTE3
-NTY4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3OTQzMjUzLD
-EzODM5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4NTk3
-ODUyLDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQxNDUzNTA3MS
-w2MjUxNDk5NjIsODUwNjY0OTA2LC05MTAzNzkzODIsMTYxMTU3
-NTAxMF19
+eyJoaXN0b3J5IjpbLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNj
+A1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1
+NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMT
+M4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4
+NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLD
+YyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3OTM4MiwxNjExNTc1
+MDEwXX0=
 -->
