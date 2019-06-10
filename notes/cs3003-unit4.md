@@ -206,12 +206,104 @@ adict['Victor'] = 900-2222
 2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.
 
 
+## Slice Exercises
+
+```python
+0. [35, 67, 41, 25, 31, 100, 97, 80][1:7]
+slice(1,7,2) or [1:7:2]
+
+2. [37, 17, 24, 82, 10, 52, 62, 36, 77, 88, 30, 13][-9:]
+slice(-9,None,-3) or [-9::-3]
+
+3. [37, 52, 52, 54, 97, 88, 76, 28, 45][10:11]
+slice(10,11,0) or [10:11:0]
+
+4. [40, 21, 54][2:]
+slice(2,None,1) or [2::1]
+
+5. [69, 34, 94, 55, 41, 10, 83, 43][-2:]
+slice(-2,None,-2) or [-2::-2]
+
+6. [50, 86, 76, 10, 37, 74, 71, 99, 87, 73, 13, 17, 45]
+slice(-12,None,6) or [-12::6]
+
+7. [42, 13, 79, 33, 45, 72, 51, 26, 34][7:]
+slice(7,None,-2) or [7::-2]
+
+8. [70, 26, 33, 35, 67][-7:]
+slice(-7,None,1) or [-7::1]
+
+9. [98, 88, 96, 32, 27, 66, 65, 79, 99]
+slice(-9,None,-1) or [-9::-1]
+
+15. [58, 77]
+slice(-1,-5,-1) or [-1:-5:-1]
+
+20. [31, 83, 70, 44, 16, 29, 100, 88, 10, 96, 37, 53, 58][-2:]
+slice(-2,None,3) or [-2::3]
+
+23. [10, 71][1:]
+slice(1,None,-1) or [1::-1]
+
+25. [80, 39, 71, 29, 38, 98, 47, 63, 89, 38, 90, 91, 20][-16:]
+
+29. [76, 26, 14, 45][3:]
+slice(3,None,-3) or [3::-3]
+
+32. [25, 71, 15, 78, 53]
+slice(-1,-5,-1) or [-1:-5:-1]
+
+34. [94, 21, 69, 25, 20, 69, 75, 13, 55, 83, 44][-14:]
+
+42. [83, 43, 21, 70, 18, 52, 53, 89][7:]
+
+43. [56, 34, 23, 18, 96, 29, 49, 82, 12][6:]
+slice(6,None,-3) or [6::-3]
+
+46. [71, 80, 86, 31, 91, 86][4:]
+slice(4,None,-1) or [4::-1]
+
+48. [38, 19, 98, 20, 29, 63, 24, 60, 53, 80][-3:]
+slice(-3,None,-2) or [-3::-2]
+
+49. [49, 77, 55, 58, 75, 66, 97, 12, 77, 80, 44, 54][-5:]
+slice(-5,None,2) or [-5::2]
+
+50. [94, 86, 51, 95, 87, 70][-1:]
+
+51. [56, 82, 13, 61, 79, 99, 62, 48, 66, 61, 40][-9:]
+slice(-9,None,-2) or [-9::-2]
+
+54. [16, 86, 42, 47, 75, 88, 17, 66, 60, 95, 97, 48][7:11]
+slice(7,11,-1) or [7:11:-1]
+
+56. [81, 95, 99, 26, 85, 91, 25, 97, 69, 53, 92, 51]
+slice(-3,-14,-3) or [-3:-14:-3]
+
+60. [91, 96, 35, 18, 63, 83][1:]
+
+63. [37, 99, 31][-2:]
+
+65. [22, 48, 80, 72, 28, 16, 60, 21, 54, 24, 57][-9:]
+slice(-9,None,2) or [-9::2]
+
+67. [84, 80, 38, 51, 44, 57, 25, 56, 82, 14, 37][1:4]
+slice(1,4,0) or [1:4:0]
+
+68. [70, 90, 71, 67, 78, 99, 18, 44][5:]
+slice(5,None,-2) or [5::-2]
+
+
+```
+
+## Slice Keys
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA5MTc3MzQsLTE2MzA1MjU5MjYsMT
-YzNTUyNTgyMywtMjEzMjEwOTY1LC0xMjYzODAzNTQ2LC0xNDUz
-NjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4MD
-IzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2MzA0Miwx
-NDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAsLTQ5Nj
-A1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3MTEsLTE5MzE3NDY1
-MzEsLTc0ODQ2MTE1MF19
+eyJoaXN0b3J5IjpbLTE5MDQwNTc4OTIsLTE1MTA5MTc3MzQsLT
+E2MzA1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEwOTY1LC0xMjYz
+ODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMj
+k4OSwtMTQxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0
+NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1Mz
+M0NjAzMzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0LC0zNzU3NTQ3
+MTEsLTE5MzE3NDY1MzFdfQ==
 -->
