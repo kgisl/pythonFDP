@@ -25,6 +25,8 @@
 <li><a href="#dictionary">Dictionary</a></li>
 <li><a href="#glossary">Glossary</a></li>
 <li><a href="#exercises-1">Exercises</a></li>
+<li><a href="#slice-exercises---part-0">Slice Exercises - Part 0</a></li>
+<li><a href="#slice-keys---part-0">Slice Keys - Part 0</a></li>
 <li><a href="#slice-exercises---part-1">Slice Exercises - Part 1</a></li>
 <li><a href="#slice-keys---part-1">Slice Keys - Part 1</a></li>
 <li><a href="#slice-exercises---part-2">Slice Exercises - Part 2</a></li>
@@ -232,6 +234,12 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 (C) 10  
 (D) [10]
 </code></pre>
+<h3 id="three-ways-to-copy-a-list">Three Ways to copy a list?</h3>
+<ol>
+<li>Use slicing - <code>bl = al[:]</code></li>
+<li>Use the <code>.copy</code> method - <code>bl = al.copy()</code></li>
+<li>Use list comprehension <code>bl = [elem for elem in al ]</code></li>
+</ol>
 <h2 id="list-parameters">List Parameters</h2>
 <p><a href="http://j.mp/parameterThis">j.mp/parameterThis</a></p>
 <p><a href="https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------">Python has no pass by value</a></p>
@@ -283,6 +291,17 @@ adict['Victor'] = 900-2222
 <h2 id="exercises-1">Exercises</h2>
 <p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a><br>
 2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
+<h2 id="slice-exercises---part-0">Slice Exercises - Part 0</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token number">0</span><span class="token punctuation">.</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span> 
+
+<span class="token number">1</span><span class="token punctuation">.</span> al <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
+al<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span> <span class="token operator">+</span> a<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">]</span>? 
+
+
+</code></pre>
+<h2 id="slice-keys---part-0">Slice Keys - Part 0</h2>
+<pre class=" language-python"><code class="prism  language-python">
+</code></pre>
 <h2 id="slice-exercises---part-1">Slice Exercises - Part 1</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token number">0</span><span class="token punctuation">.</span> <span class="token punctuation">[</span><span class="token number">35</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span> <span class="token number">41</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">31</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">97</span><span class="token punctuation">,</span> <span class="token number">80</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">]</span>
 <span class="token builtin">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">or</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">:</span><span class="token number">2</span><span class="token punctuation">]</span>
@@ -367,8 +386,6 @@ adict['Victor'] = 900-2222
 
 <span class="token number">68</span><span class="token punctuation">.</span> <span class="token punctuation">[</span><span class="token number">70</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">71</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span> <span class="token number">78</span><span class="token punctuation">,</span> <span class="token number">99</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">,</span> <span class="token number">44</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">:</span><span class="token punctuation">]</span>
 <span class="token builtin">slice</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token boolean">None</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">or</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span>
-
-
 
 </code></pre>
 <h2 id="slice-keys---part-1">Slice Keys - Part 1</h2>
