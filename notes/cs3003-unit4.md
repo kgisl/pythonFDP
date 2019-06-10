@@ -218,8 +218,9 @@ adict['Victor'] = 900-2222
 
 1. al = [1, 2, 3, 4]
 al[1:] + a[:1]? 
+```
 
-2. 
+2. Write a function to rotate a list as many as there are elements in in it. 
 
 ```
 ## Slice Keys - Part 0 
@@ -737,7 +738,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTY0NjE4MiwtMTY4OTc4NzEwNiwzMj
+eyJoaXN0b3J5IjpbLTE2NDA5NTI2NCwtMTY4OTc4NzEwNiwzMj
 U2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0Nzcx
 OCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC
 0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMTk3
