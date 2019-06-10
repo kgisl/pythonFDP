@@ -134,7 +134,8 @@ print(blist)
 ### Three Ways to copy a list? 
 
 1. Use slicing - `bl = al[:]` 
-2. Use the `.copy`
+2. Use the `.copy` method - `bl = al.copy()` 
+3. Use list comprehension `bl = [elem for elem in al ]` 
 
 ## List Parameters 
 
@@ -722,11 +723,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjI2NTAwMCwxMDc5NTg0MDA4LC02MT
-gyOTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMwNTI1
-OTI2LDE2MzU1MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMzU0Ni
-wtMTQ1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0
-MTg1ODAyMzAsLTEwOTQ3OTE0ODUsLTEwNTczMjY1NDQsMjQ3Nj
-MwNDIsMTQzMTkyODY0NiwtMTk5NzQyODExOSwxNTMzNDYwMzMw
-LC00OTYwNTc0MDldfQ==
+eyJoaXN0b3J5IjpbMzI1NjM3MzEyLDEwNzk1ODQwMDgsLTYxOD
+I5NjY4Myw0MDc5NDc3MTgsLTE1MTA5MTc3MzQsLTE2MzA1MjU5
+MjYsMTYzNTUyNTgyMywtMjEzMjEwOTY1LC0xMjYzODAzNTQ2LC
+0xNDUzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OSwtMTQx
+ODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwyNDc2Mz
+A0MiwxNDMxOTI4NjQ2LC0xOTk3NDI4MTE5LDE1MzM0NjAzMzAs
+LTQ5NjA1NzQwOV19
 -->
