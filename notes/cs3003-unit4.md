@@ -72,6 +72,7 @@ It would be incorrect to say that "mutable objects can change and immutable ones
 |`values[:2]`   | Start through index 2.
 |`values[2:]`   | Index 2 through end.
 |`values[::2]`  | Start through end, skipping ahead 2 places each time.
+|`values[:]`	| Returns a copy of the list with all elements
 
 ```python
 rlist = [88, 44, 65, 68, 78, \
@@ -717,11 +718,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1MT
-A5MTc3MzQsLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEw
-OTY1LC0xMjYzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMj
-QsMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MTQ4NSwt
-MTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0xOTk3ND
-I4MTE5LDE1MzM0NjAzMzAsLTQ5NjA1NzQwOSwxODA3NzMzODQ0
-LC0zNzU3NTQ3MTFdfQ==
+eyJoaXN0b3J5IjpbMTY4Mjg2MzExMiwtNjE4Mjk2NjgzLDQwNz
+k0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1
+ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MC
+wtMTk3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0x
+MDk0NzkxNDg1LC0xMDU3MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mj
+g2NDYsLTE5OTc0MjgxMTksMTUzMzQ2MDMzMCwtNDk2MDU3NDA5
+LDE4MDc3MzM4NDRdfQ==
 -->
