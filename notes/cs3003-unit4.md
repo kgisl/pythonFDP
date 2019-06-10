@@ -218,6 +218,7 @@ adict['Victor'] = 900-2222
 
 1. al = [1, 2, 3, 4]
 al[1:] + a[:1]? 
+al[1:] + a[1]? # how is this different from previous?
 ```
 
 2. Write a function to rotate a list as many as there are elements in in it. 
@@ -738,11 +739,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA5NTI2NCwtMTY4OTc4NzEwNiwzMj
-U2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0Nzcx
-OCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC
-0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMTk3
-MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0Nz
-kxNDg1LC0xMDU3MzI2NTQ0LDI0NzYzMDQyLDE0MzE5Mjg2NDYs
-LTE5OTc0MjgxMTldfQ==
+eyJoaXN0b3J5IjpbNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1Nj
+M3MzEyLDEwNzk1ODQwMDgsLTYxODI5NjY4Myw0MDc5NDc3MTgs
+LTE1MTA5MTc3MzQsLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMj
+EzMjEwOTY1LC0xMjYzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMx
+NDQxMjQsMTk2NjUxMjk4OSwtMTQxODU4MDIzMCwtMTA5NDc5MT
+Q4NSwtMTA1NzMyNjU0NCwyNDc2MzA0MiwxNDMxOTI4NjQ2LC0x
+OTk3NDI4MTE5XX0=
 -->
