@@ -2,11 +2,12 @@
 
 ## Important Takeaways
 
-1. 
-2. Tip #6 - **"Activity breaks,"** as they are often called, do not simply break up the monotony of a lecture; when done effectively, they provide participants with formal opportunities to process, review, and apply the material.  
-3. Tip #9 - ***the only thing more contagious than enthusiasm "is the lack of it."***  
-  
-4. Tip #10 - Don't ask the question - "Do you have any questions?"
+
+0. Tip #6 - **"Activity breaks,"** as they are often called, do not simply break up the monotony of a lecture; when done effectively, they provide participants with formal opportunities to process, review, and apply the material.  
+1. Tip #9 - ***the only thing more contagious than enthusiasm "is the lack of it."***  
+2. Tip #10 - **Don't ask** the question - "Do you have any questions?"
+
+---
 
 *"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- **Mark Twain*** 
  
@@ -194,6 +195,6 @@ There is always room for improvement, and it is important to make reflection a f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQxMzk3ODMsLTg0Nzk1NTI5OSwtMT
-Y5ODU3NTE4NF19
+eyJoaXN0b3J5IjpbLTQyNTIwNjksLTg0Nzk1NTI5OSwtMTY5OD
+U3NTE4NF19
 -->
