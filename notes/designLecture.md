@@ -1,5 +1,13 @@
 # Designing and Delivering Effective Lectures  
 
+## Important Takeaways
+
+1. 
+2. Tip #6 - **"Activity breaks,"** as they are often called, do not simply break up the monotony of a lecture; when done effectively, they provide participants with formal opportunities to process, review, and apply the material.  
+3. Tip #9 - ***the only thing more contagious than enthusiasm "is the lack of it."***  
+  
+4. Tip #10 - Don't ask the question - "Do you have any questions?"
+
 *"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- **Mark Twain*** 
  
 *"Some people talk in their sleep. Lecturers talk while other people sleep." - **Albert Camus*** 
@@ -183,12 +191,9 @@ There is always room for improvement, and it is important to make reflection a f
 • Lowman, J. 1998. "What Constitutes Masterful Teaching?" In K. A. Feldman and M. B. Paulsen, eds., Teaching and Learning in the College Classroom, 503-14. Boston, MA: Pearson Custom Publishing.  
 • Woodring, B. and Woodring, R. 2007. "Lecture Is Not a Four-letter Word." In M. Bradshaw and A. Lowenstein, eds., Innovative Teaching Strategies in Nursing and Health Related Professions. Sudbury, MA: Jones & Bartlett.
 
-## Important Takeaways
 
-1. 
-2. 
-3. Tip #10 - Don't ask the question - "Do you have any questions?"
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzA4NTYzLC04NDc5NTUyOTksLTE2OT
-g1NzUxODRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzQxMzk3ODMsLTg0Nzk1NTI5OSwtMT
+Y5ODU3NTE4NF19
 -->
