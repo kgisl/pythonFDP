@@ -135,7 +135,7 @@ print(blist)
 
 1. Use slicing - `bl = al[:]`  (apparently, the fastest technique)
 2. Use `list()` function
-3. Use 
+3. Use `.extend` method
 4. Use the `.copy` method - `bl = al.copy()` 
 5. Use list comprehension `bl = [elem for elem in al ]` 
 6. 
@@ -742,7 +742,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTkwNDc2Myw3NjgwOTE3MCwtMTY4OT
+eyJoaXN0b3J5IjpbMjEzNjg2NDAwNCw3NjgwOTE3MCwtMTY4OT
 c4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2Njgz
 LDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNj
 M1NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2
