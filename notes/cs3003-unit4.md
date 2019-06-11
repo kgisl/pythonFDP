@@ -14,7 +14,7 @@ _A picture is worth a 1000 words_
 ![mutableList](https://files.gitter.im/kgashok/advik/TYg6/mutableLists.png)
 
 
-## Sequences and their main attributes 
+## Sequences and attributes 
 
 Here are some important methods that are associated with `tuple`, `list` and `dictionary` - all types that are covered in Unit 4. 
 
@@ -750,11 +750,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3Nj
-gwOTE3MCwtMTY4OTc4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAw
-OCwtNjE4Mjk2NjgzLDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMT
-YzMDUyNTkyNiwxNjM1NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4
-MDM1NDYsLTE0NTM2MTA4MCwtMTk3MzE0NDEyNCwxOTY2NTEyOT
-g5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1LC0xMDU3MzI2NTQ0
-LDI0NzYzMDQyXX0=
+eyJoaXN0b3J5IjpbLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMDAsMT
+U4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2Mzcz
+MTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOCwtMT
+UxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC0yMTMy
+MTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMTk3MzE0ND
+EyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1
+LC0xMDU3MzI2NTQ0XX0=
 -->
