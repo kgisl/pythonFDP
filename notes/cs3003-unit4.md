@@ -160,7 +160,7 @@ _Using modules_
 
 ## List Parameters 
 
-j.mp/parameterThis 
+http://j.mp/parameterThis - what is the difference between parameters and arguments?
 
 [Python has no pass by value](https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------)
 
@@ -760,11 +760,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOT
-g3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4
-ODU3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLD
-EwNzk1ODQwMDgsLTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1MTA5
-MTc3MzQsLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEwOT
-Y1LC0xMjYzODAzNTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMjQs
-MTk2NjUxMjk4OV19
+eyJoaXN0b3J5IjpbMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNT
+I0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0
+ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNi
+wzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0
+NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1OD
+IzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwt
+MTk3MzE0NDEyNF19
 -->
