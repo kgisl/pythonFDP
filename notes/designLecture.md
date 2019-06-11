@@ -80,7 +80,7 @@ Developing lecture notes also provides you with a practical advantage. More like
   
 ## Tip #6: Audience Engagement and Interactivity  
   
-The audience's attention span tends to wane as a lecture moves on; for most people, attention tends to decrease considerably after 15-20 minutes (Bligh 2000). Therefore, when you design a lecture it is important to create formal breaks to help people stay better engaged with the material. "Activity breaks," as they are often called, do not simply break up the monotony of a lecture; when done effectively, they provide participants with formal opportunities to process, review, and apply the material.  
+The audience's attention span tends to wane as a lecture moves on; for most people, attention tends to decrease considerably after 15-20 minutes (Bligh 2000). Therefore, when you design a lecture it is important to create formal breaks to help people stay better engaged with the material. **"Activity breaks,"** as they are often called, do not simply break up the monotony of a lecture; when done effectively, they provide participants with formal opportunities to process, review, and apply the material.  
   
 Some common practices include:  
   
@@ -184,6 +184,5 @@ There is always room for improvement, and it is important to make reflection a f
 • Woodring, B. and Woodring, R. 2007. "Lecture Is Not a Four-letter Word." In M. Bradshaw and A. Lowenstein, eds., Innovative Teaching Strategies in Nursing and Health Related Professions. Sudbury, MA: Jones & Bartlett.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM1NjM0MDAsLTE2OTg1NzUxODRdfQ
-==
+eyJoaXN0b3J5IjpbLTMwNjg5ODg4OCwtMTY5ODU3NTE4NF19
 -->
