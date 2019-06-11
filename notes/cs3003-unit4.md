@@ -149,6 +149,10 @@ _Using modules_
 
 [https://www.geeksforgeeks.org/python-cloning-copying-list/](https://www.geeksforgeeks.org/python-cloning-copying-list/)
 
+## Three ways to reverse a list
+
+1. Use slice  `al = al[::-1]`
+
 ## List Parameters 
 
 j.mp/parameterThis 
@@ -751,11 +755,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMj
-A3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3
-MTA2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC02MTgyOTY2ODMsND
-A3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMwNTI1OTI2LDE2MzU1
-MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMzU0NiwtMTQ1MzYxMD
-gwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1ODAyMzAs
-LTEwOTQ3OTE0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE0OTkxODQ1MjYsMTk4NzI3NTA4NywtMT
+M3NTY4NDk5MywtMjA3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5
+MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC
+02MTgyOTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMw
+NTI1OTI2LDE2MzU1MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMz
+U0NiwtMTQ1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODks
+LTE0MTg1ODAyMzBdfQ==
 -->
