@@ -89,10 +89,21 @@ The Python code to implement the pseudo code above:
 	  unsorted = alist[i:] 
 	  smallest =  min(unsorted) 
 	  min_i = alist.index(smallest, i)
-	  if i != min_i: 
-	    alist[i],alist[min_i]  = alist[min_i], alist[i]  
+	  alist[i],alist[min_i]  = alist[min_i], alist[i]  
 	  print("intermediary", alist)  return alist
 ```
+
+## Part 1.5 
+
+Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour. 
+	- if you know how to code it, write down the code in Python as well 
+	- Go back and improve the pseudo code as well 
+
+
+
+
+
+
 
 ## Part 2 
    - OPTIONAL - generate a list containing tuples, where each tuple contains both the element and the index of the element in the list 
@@ -137,5 +148,6 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTY1NDU1Mzg5MiwtMTUxMDIzMzM3MSwxMD
+k2NTQ1MzQ0XX0=
 -->
