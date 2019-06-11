@@ -19,7 +19,15 @@
 	  - If you cannot use `min`, write the code for finding the minimum value in a list
    - What is the method of a list that returns the index for an element in the list? 
 	   - What is the difference between `find` and `index`? 
-   - Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple. 
+ - how do you iterate over all the elements in a list, except the last one? Write the python code to do this 
+  - What is the value of `[1, 2, 3, 4][0:]` and `[1, 2, 3, 4][1:]` and `[1, 2, 3, 4][2:]`?
+  - What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.
+  - What is the list method to find out the index of a value in a list? 
+	  - How many arguments does the method accept? 
+	  - What is the second argument for? 
+  - What are the ways you can swap the value in two variables? 
+	  - What is the most pythonic way to do this? 
+  - Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple. 
    - Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement. 
 
 
@@ -449,11 +457,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OT
-c3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQz
-OTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLD
-IwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQy
-MjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1NjQ0NjkwLC
-0xNDE0NTM1MDcxLDYyNTE0OTk2Miw4NTA2NjQ5MDYsLTkxMDM3
-OTM4Ml19
+eyJoaXN0b3J5IjpbLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLT
+U0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0
+NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMS
+wtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5
+NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NC
+wtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLDYyNTE0OTk2Miw4NTA2
+NjQ5MDZdfQ==
 -->
