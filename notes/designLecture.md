@@ -113,7 +113,7 @@ Take a few minutes before each lecture to conduct a "quality control check."
   
 Many faculty members like to describe their teaching style in the following way: "I teach content." That is, they characterize their role in the classroom almost exclusively in terms of information dissemination, where it is their job to present the material, and the students' job is to learn it. While this is certainly one of the key features of our work in the classroom, how the material is presented plays an important role in how it is received and understood.  
   
-Expressing enthusiasm for a topic, and for one's field in general, can have a positive impact on student engagement with the material. Alternatively, if you appear bored with a topic or with the questions that arise concerning the topic your audience will quickly lose interest. As Bligh (2000) notes, the best way to generate interest in a subject "is to display interest oneself," and the only thing more contagious than enthusiasm "is the lack of it."  
+Expressing enthusiasm for a topic, and for one's field in general, can have a positive impact on student engagement with the material. Alternatively, if you appear bored with a topic or with the questions that arise concerning the topic your audience will quickly lose interest. As Bligh (2000) notes, the best way to generate interest in a subject "is to display interest oneself," and ***the only thing more contagious than enthusiasm "is the lack of it."***  
   
 Suggesting that you should show enthusiasm for a topic or field should not be misconstrued as a call for diminishing the topic's seriousness or importance. In other words, enthusiasm should not be understood as "wackiness" or "silliness" or unnecessary "frivolity." Rather, it should be understood as a call for demonstrating the relevance and significance of the material and for answering the question, "Why are we talking about this?"  
   
@@ -134,7 +134,7 @@ Asking provocative or open-ended questions is a helpful way to engage the audien
   
 Some typical conversation stoppers:  
   
-• "Are there any questions?" is probably the least provocative question you can ask your audience. Students have been conditioned through years of schooling to recognize this question as a specific type of marker or signal, i.e., as a signal that you are finished, or ready to move on to another topic. In some cases, the students will not answer this question because they, too, would like to move on, while in other cases, students will be reluctant to pose a question because they do not want to "bother" you (since you have indicated that you are ready to move on) or "bother" their classmates (by "interrupting" their instructional time).  
+• ***"Are there any questions?" is probably the least provocative question*** you can ask your audience. Students have been conditioned through years of schooling to recognize this question as a specific type of marker or signal, i.e., as a signal that you are finished, or ready to move on to another topic. In some cases, the students will not answer this question because they, too, would like to move on, while in other cases, students will be reluctant to pose a question because they do not want to "bother" you (since you have indicated that you are ready to move on) or "bother" their classmates (by "interrupting" their instructional time).  
 • Questions that are too vague or general and lack (or are perceived to lack) a direct connection to what is being discussed.  
 • Questions that are too detailed or complex and require the students to piece together the notes they have just taken.  
   
@@ -183,6 +183,11 @@ There is always room for improvement, and it is important to make reflection a f
 • Lowman, J. 1998. "What Constitutes Masterful Teaching?" In K. A. Feldman and M. B. Paulsen, eds., Teaching and Learning in the College Classroom, 503-14. Boston, MA: Pearson Custom Publishing.  
 • Woodring, B. and Woodring, R. 2007. "Lecture Is Not a Four-letter Word." In M. Bradshaw and A. Lowenstein, eds., Innovative Teaching Strategies in Nursing and Health Related Professions. Sudbury, MA: Jones & Bartlett.
 
+## Important Takeaways
+
+1. 
+2. 
+3. Don't ask the question - "Do you have any questions?"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjg5ODg4OCwtMTY5ODU3NTE4NF19
+eyJoaXN0b3J5IjpbLTg0Nzk1NTI5OSwtMTY5ODU3NTE4NF19
 -->
