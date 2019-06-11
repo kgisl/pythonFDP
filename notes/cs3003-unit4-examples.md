@@ -81,6 +81,8 @@ print("sorted:", selectsort(tlist))
 ### Bonus 
 Can you improve on the **basic selection sort**? How about grabbing the maximum value during every iteration and using it? 
 
+Practice selec at http://j.mp/selectionSortCC 
+
 
 # InsertionSort 
 
@@ -187,6 +189,9 @@ print("Sorted", insertsort(alist))
 ![insert1](http://j.mp/insert1PNG)
 ![insert2](http://j.mp/insert2PNG)
 ![insert3](http://j.mp/insert3PNG)
+
+Practice insertionsort at http://j.mp/insertionSortCC 
+
 
 # MergeSort
 
@@ -457,11 +462,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLT
-U0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0
-NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMS
-wtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5
-NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NC
-wtMTM1NjQ0NjkwLC0xNDE0NTM1MDcxLDYyNTE0OTk2Miw4NTA2
-NjQ5MDZdfQ==
+eyJoaXN0b3J5IjpbMTMzOTA2Nzc2OSwtMTQ1ODk3MDE4NywtMj
+EwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4NywtMTE2MDUz
+MjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0NzUxNzU2OC
+wxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1MywxMzgz
+OTI4OTEsMjE0NDk2MDcwNiwtOTA2NDIyMTAsLTQwODU5Nzg1Mi
+wxMDc3OTE1Mjc0LC0xMzU2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1
+MTQ5OTYyXX0=
 -->
