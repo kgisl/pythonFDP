@@ -91,6 +91,7 @@ The Python code to implement the pseudo code above:
 	  min_i = alist.index(smallest, i)
 	  alist[i],alist[min_i]  = alist[min_i], alist[i]  
 	  print("intermediary", alist)  return alist
+	return alist 
 ```
 
 ## Part 1.5 
@@ -99,9 +100,18 @@ Can you improve on the above logic? How can you do it? Please discuss with your 
 	- if you know how to code it, write down the code in Python as well 
 	- Go back and improve the pseudo code as well 
 
-
-
-
+```python 
+  def  selectsort(alist): 
+    n =  len(alist)
+	for i in  range(n-1):
+	  unsorted = alist[i:] 
+	  smallest =  min(unsorted) 
+	  min_i = alist.index(smallest, i)
+	  if min_i != i: 
+	    alist[i],alist[min_i]  = alist[min_i], alist[i]  
+	    print("intermediary", alist)  return alist
+	return alist 
+```
 
 
 
@@ -148,6 +158,6 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDU1Mzg5MiwtMTUxMDIzMzM3MSwxMD
-k2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMT
+A5NjU0NTM0NF19
 -->
