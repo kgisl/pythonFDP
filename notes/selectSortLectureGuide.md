@@ -110,7 +110,7 @@ Can you improve on the above logic? How can you do it? Please discuss with your 
 	  if min_i != i: 
 	    alist[i],alist[min_i]  = alist[min_i], alist[i]  
 	    print("intermediary", alist)  return alist
-	return alist 
+    return alist 
 ```
 
 
@@ -158,6 +158,6 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzcwOTI3LC0xOTMwMDYwNzgzLC0xNT
-EwMjMzMzcxLDEwOTY1NDUzNDRdfQ==
+eyJoaXN0b3J5IjpbMjkxNjc3NywtMTkzMDA2MDc4MywtMTUxMD
+IzMzM3MSwxMDk2NTQ1MzQ0XX0=
 -->
