@@ -85,7 +85,7 @@ The Python code to implement the pseudo code above:
 ```python 
   def  selectsort(alist): 
     n =  len(alist)
-	for i in  range(n-1):
+    for i in  range(n-1):
 	  unsorted = alist[i:] 
 	  smallest =  min(unsorted) 
 	  min_i = alist.index(smallest, i)
@@ -103,7 +103,7 @@ Can you improve on the above logic? How can you do it? Please discuss with your 
 ```python 
   def  selectsort(alist): 
     n =  len(alist)
-	for i in  range(n-1):
+    for i in  range(n-1):
 	  unsorted = alist[i:] 
 	  smallest =  min(unsorted) 
 	  min_i = alist.index(smallest, i)
@@ -158,6 +158,6 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMT
-A5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTUxMzcwOTI3LC0xOTMwMDYwNzgzLC0xNT
+EwMjMzMzcxLDEwOTY1NDUzNDRdfQ==
 -->
