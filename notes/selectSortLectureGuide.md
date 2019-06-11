@@ -6,8 +6,8 @@
 Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
   - It is very important to use a data type in a real-world case, to understand its true value and benefit. 
   - We are covering three types of sorts 
-	 - **Comparison** Type - Insertion Sort and Selection Sort 
-	 - **Divide and Conquer** Type - Merge Sort
+	 - **Comparison** Algorithms - Insertion Sort and Selection Sort 
+	 - **Divide and Conquer** Algorithms - Merge Sort, Quick Sort
   
  - We have already seen the power of Lists when we covered  **InsertionSort** 
 	 - Select a `value` from the unsorted sub-list
@@ -137,5 +137,5 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
 -->
