@@ -81,7 +81,7 @@ print("sorted:", selectsort(tlist))
 ### Bonus 
 Can you improve on the **basic selection sort**? How about grabbing the maximum value during every iteration and using it? 
 
-Practice selec at http://j.mp/selectionSortCC 
+Practice selection sort at http://j.mp/selectionSortCC 
 
 
 # InsertionSort 
@@ -462,7 +462,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTA2Nzc2OSwtMTQ1ODk3MDE4NywtMj
+eyJoaXN0b3J5IjpbLTE1OTAwMDI2MSwtMTQ1ODk3MDE4NywtMj
 EwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4NywtMTE2MDUz
 MjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0NzUxNzU2OC
 wxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1MywxMzgz
