@@ -147,6 +147,7 @@ _Using modules_
 7. Use the `copy.copy` function 
 8. Use the `copy.deepcopy` function 
 
+[https://www.geeksforgeeks.org/python-cloning-copying-list/](https://www.geeksforgeeks.org/python-cloning-copying-list/)
 
 ## List Parameters 
 
@@ -750,11 +751,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwOTg2MTYsLTEzNzU2ODQ5OTMsLT
-IwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4
-NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLD
-QwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1
-NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MT
-A4MCwtMTk3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMw
-LC0xMDk0NzkxNDg1XX0=
+eyJoaXN0b3J5IjpbMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMj
+A3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3
+MTA2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC02MTgyOTY2ODMsND
+A3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMwNTI1OTI2LDE2MzU1
+MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMzU0NiwtMTQ1MzYxMD
+gwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODksLTE0MTg1ODAyMzAs
+LTEwOTQ3OTE0ODVdfQ==
 -->
