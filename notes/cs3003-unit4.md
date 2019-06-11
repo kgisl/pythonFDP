@@ -131,7 +131,7 @@ print(blist)
 	(C) 10  
 	(D) [10]
 
-### Eight Ways to copy/clone a list? 
+## Eight Ways to copy/clone a list? 
 
 _Using functions/operations_
 1. Use slicing - `bl = al[:]`  (apparently, the fastest technique)
@@ -750,11 +750,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMDAsMT
-U4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2Mzcz
-MTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOCwtMT
-UxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC0yMTMy
-MTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwtMTk3MzE0ND
-EyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMwLC0xMDk0NzkxNDg1
-LC0xMDU3MzI2NTQ0XX0=
+eyJoaXN0b3J5IjpbLTIwODAwOTg2MTYsLTEzNzU2ODQ5OTMsLT
+IwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4
+NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLD
+QwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1
+NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MT
+A4MCwtMTk3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMjMw
+LC0xMDk0NzkxNDg1XX0=
 -->
