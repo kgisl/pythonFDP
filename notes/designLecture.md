@@ -1,8 +1,8 @@
 # Designing and Delivering Effective Lectures  
-  
-_"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- Mark Twain _   
-  
-_"Some people talk in their sleep. Lecturers talk while other people sleep." - Albert Camus _ 
+
+*"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- **Mark Twain*** 
+ 
+*"Some people talk in their sleep. Lecturers talk while other people sleep." - **Albert Camus*** 
   
 Lectures are often derided as ineffective, outmoded, and anathema to what we know about cognition, engagement, and student learning. As Woodring and Woodring (2001) note, "it has become trendy to 'lecture bash,' to describe colleagues who openly espouse the use of lecture techniques as old fashioned and out of step with educational trends" (109). In educational theory, the research literature is bursting with suggestions on how to "move beyond the lecture" by employing methods that are more active, cooperative, and learner-centered (Bonwell and Eison 1991; Brockbank and McGill 2007; Felder and Brent 2009; Lambert and McCombs 1998).  
   
@@ -184,5 +184,6 @@ There is always room for improvement, and it is important to make reflection a f
 • Woodring, B. and Woodring, R. 2007. "Lecture Is Not a Four-letter Word." In M. Bradshaw and A. Lowenstein, eds., Innovative Teaching Strategies in Nursing and Health Related Professions. Sudbury, MA: Jones & Bartlett.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODI2MjI4OCwtMTY5ODU3NTE4NF19
+eyJoaXN0b3J5IjpbLTIxNDM1NjM0MDAsLTE2OTg1NzUxODRdfQ
+==
 -->
