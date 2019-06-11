@@ -134,12 +134,12 @@ print(blist)
 ### Eight Ways to copy/clone a list? 
 
 1. Use slicing - `bl = al[:]`  (apparently, the fastest technique)
-2. Use `list()` function
 3. Use list comprehension `bl = [elem for elem in al ]` 
-4. Use `.extend` method 
-5. Use the `.copy` method - `bl = al.copy()` 
-6. Use the `copy.copy` function 
-7. Use the `copy.deepcopy` function 
+2. Use `list()` function
+7. Use the `copy.copy` function 
+6. Use the `.copy` method - `bl = al.copy()` 
+. Using `.extend` method 
+5. Using `.append` method 
 
 
 ## List Parameters 
@@ -744,11 +744,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OT
-c4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2Njgz
-LDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNj
-M1NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2
-MTA4MCwtMTk3MzE0NDEyNCwxOTY2NTEyOTg5LC0xNDE4NTgwMj
-MwLC0xMDk0NzkxNDg1LC0xMDU3MzI2NTQ0LDI0NzYzMDQyLDE0
-MzE5Mjg2NDZdfQ==
+eyJoaXN0b3J5IjpbODExMTI3NjkxLDE1ODk4ODU3NjUsNzY4MD
+kxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEwNzk1ODQwMDgs
+LTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1MTA5MTc3MzQsLTE2Mz
+A1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEwOTY1LC0xMjYzODAz
+NTQ2LC0xNDUzNjEwODAsLTE5NzMxNDQxMjQsMTk2NjUxMjk4OS
+wtMTQxODU4MDIzMCwtMTA5NDc5MTQ4NSwtMTA1NzMyNjU0NCwy
+NDc2MzA0Ml19
 -->
