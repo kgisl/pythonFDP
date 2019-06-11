@@ -153,11 +153,13 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 	 - review the relevant Question Paper snippets
 	 - Ask 1 or more students questions from Pre-requisites
   
+  - http://j.mp/selectionSortCC
   - Ask them to review http://j.mp/mergeVisual for the coming class 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Nzc5NjE5MywtMTEzMzU1OTg3MSwtMT
-kzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbOTc2NzY5NzAsLTg4Nzc5NjE5MywtMTEzMz
+U1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1
+MzQ0XX0=
 -->
