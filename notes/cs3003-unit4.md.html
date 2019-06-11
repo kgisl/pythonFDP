@@ -234,16 +234,19 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 (D) [10]
 </code></pre>
 <h3 id="eight-ways-to-copyclone-a-list">Eight Ways to copy/clone a list?</h3>
+<p><em>Using functions/operations</em></p>
 <ol>
 <li>Use slicing - <code>bl = al[:]</code>  (apparently, the fastest technique)</li>
 <li>Use list comprehension <code>bl = [elem for elem in al ]</code></li>
 <li>Use <code>list()</code> function</li>
-<li>Use the <code>copy.copy</code> function</li>
-<li>Use the <code>copy.deepcopy</code> function</li>
-<li>Use the <code>.copy</code> method - <code>bl = al.copy()</code></li>
-<li>Using <code>.extend</code> method</li>
-<li>Using <code>.append</code> method</li>
 </ol>
+<p><em>Using methods</em><br>
+4. Use the <code>.copy</code> method - <code>bl = al.copy()</code><br>
+5. Using <code>.extend</code> method<br>
+6. Using <code>.append</code> method</p>
+<p><em>Using modules</em><br>
+7. Use the <code>copy.copy</code> function<br>
+8. Use the <code>copy.deepcopy</code> function</p>
 <h2 id="list-parameters">List Parameters</h2>
 <p><a href="http://j.mp/parameterThis">j.mp/parameterThis</a></p>
 <p><a href="https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------">Python has no pass by value</a></p>
