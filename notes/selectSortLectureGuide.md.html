@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>selectSortLectureGuide</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#selectsort">SelectSort</a></li>
+<li><a href="#context-setting">Context setting</a></li>
+<li><a href="#agenda">Agenda</a></li>
+<li><a href="#pre-req-quiz">Pre-req quiz</a>
+<ul>
+<li><a href="#interactive-coding">Interactive Coding</a></li>
+<li><a href="#stage---1">Stage - 1</a></li>
+<li><a href="#stage-2">Stage 2</a></li>
+<li><a href="#selection-sort-description">Selection Sort Description</a></li>
+<li><a href="#pseudo-code">Pseudo Code</a></li>
+<li><a href="#part-2">Part 2</a></li>
+<li><a href="#a-more-efficient-selection-sort">A more efficient Selection Sort</a></li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#last-2-minute">Last 2 Minute</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="selectsort">SelectSort</h1>
+<h1 id="context-setting">Context setting</h1>
+<p>Unit 4 -&gt; Lists, Tuples and Dictionaries -&gt; Illustrative Programs</p>
+<ul>
+<li>
+<p>It is very important to use a data type in a real-world case, to understand its true value and benefit.</p>
+</li>
+<li>
+<p>We are covering three types of sorts</p>
+<ul>
+<li><strong>Comparison</strong> Type - Insertion Sort and Selection Sort</li>
+<li><strong>Divide and Conquer</strong> Type - Merge Sort</li>
+</ul>
+</li>
+<li>
+<p>We have already seen the power of Lists when we covered  <strong>InsertionSort</strong></p>
+<ul>
+<li>Select a <code>value</code> from the unsorted sub-list</li>
+<li>Decide where to <strong>insert</strong> it in the already_sorted sub-list</li>
+<li>Right shift all the values and then insert the <code>value</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="agenda">Agenda</h1>
+<ul>
+<li>
+<p>Over the next 20 minutes, we shall see how lists can be used to implement <strong>SelectionSort</strong></p>
+</li>
+<li>
+<p><strong>SHOW and TELL</strong>  - Show Example, And Tell Theory</p>
+<ul>
+<li>versus Tell Theory, Show Example</li>
+<li>a more effective style to create engagement
+<ul>
+<li>VERY VERY effective when you students participate</li>
+<li>Even more effective when students KNOW something already</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="pre-req-quiz">Pre-req quiz</h1>
+<pre><code>- Are you ready?
+	- Do you know something already 
+	- Known to Unknown
+</code></pre>
+<ul>
+<li>how do you iterate over all the elements in a list, except the last one? Write the python code to do this</li>
+<li>What is the value of <code>[1, 2, 3, 4][0:]</code> and <code>[1, 2, 3, 4][1:]</code> and <code>[1, 2, 3, 4][2:]</code>?</li>
+<li>What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.</li>
+<li>What is the list method to find out the index of a value in a list?
+<ul>
+<li>How many arguments does the method accept?</li>
+<li>What is the second argument for?</li>
+</ul>
+</li>
+<li>What are the ways you can swap the value in two variables?
+<ul>
+<li>What is the most pythonic way to do this?
+<ul>
+<li>Word count - Python beats Java, like crazy!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Show of hands as to many of you students reviewed all the above questions and have answers written down in your notebooks?<br>
+- best practice of a engineering student is to come prepared for the class. You must spend at least 2 hours reviewing the material taught in class, and preparing for the class</p>
+<h2 id="interactive-coding">Interactive Coding</h2>
+<h2 id="stage---1">Stage - 1</h2>
+<ol>
+<li>
+<p>Example of list containing <code>[1, 2, 3, 5, 6, 4]</code></p>
+<ol start="2">
+<li>Already sorted list, except the number 4</li>
+</ol>
+</li>
+<li>
+<p><strong>Select</strong> the minimum value in all of the unsorted list</p>
+<ol start="3">
+<li><code>1</code> is the minimum - place it in index <code>0</code></li>
+<li><code>2</code> is the minimum - place it in index <code>1</code></li>
+<li><code>3</code> is the minimum - place it in index <code>2</code></li>
+<li><code>4</code> is the minimum - prepare to swap with 5
+<ol start="7">
+<li><code>[1, 2, 3, 4, 6, 5]</code></li>
+</ol>
+</li>
+<li><code>5</code> is the minimum - prepare to swap with 6
+<ol start="8">
+<li><code>[1, 2, 3, 4, 5, 6]</code></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>If necessary (<code>i != min_i</code>) swap the minimum value from the unsorted sublist with the element in the sorted sub-list</p>
+</li>
+</ol>
+<hr>
+<h2 id="stage-2">Stage 2</h2>
+<ol start="4">
+<li>Define an iteration through the list, and do this for every element in the list</li>
+<li>Initialize the right variables and execute the code</li>
+<li>Place the entire code inside inside a function definition and call it <code>selectionsort</code></li>
+</ol>
+<p><img src="http://bit.ly/select2PNG" alt="select"></p>
+<h2 id="selection-sort-description">Selection Sort Description</h2>
+<ul>
+<li>In  <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go  <strong>select</strong>  the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
+</ul>
+<h2 id="pseudo-code">Pseudo Code</h2>
+<p>Have seen the example, it becomes very easy to define the pseudo code for SelectionSort</p>
+<pre><code>repeat (numOfElements - 1) times 
+	for each of the unsorted elements 
+	select the minimum value among them
+	swap minimum with first unsorted position
+</code></pre>
+<p>The Python code to implement the pseudo code above:</p>
+<pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span>  <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+    n <span class="token operator">=</span>  <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+	<span class="token keyword">for</span> i <span class="token keyword">in</span>  <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	  unsorted <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span> 
+	  smallest <span class="token operator">=</span>  <span class="token builtin">min</span><span class="token punctuation">(</span>unsorted<span class="token punctuation">)</span> 
+	  min_i <span class="token operator">=</span> alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+	  <span class="token keyword">if</span> i <span class="token operator">!=</span> min_i<span class="token punctuation">:</span> 
+	    alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span>  <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>  
+	  <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>  <span class="token keyword">return</span> alist
+</code></pre>
+<h2 id="part-2">Part 2</h2>
+<ul>
+<li>OPTIONAL - generate a list containing tuples, where each tuple contains both the element and the index of the element in the list</li>
+<li>OPTIONAL - use a built-in function to find out the tuple containing the least value in the list</li>
+</ul>
+<h2 id="a-more-efficient-selection-sort">A more efficient Selection Sort</h2>
+<ul>
+<li>uses  <code>tuples</code>  and  <code>list comprehension</code>  to make the code very efficient and eminently readable.</li>
+</ul>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        unsorted <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span>
+        <span class="token punctuation">(</span>minval<span class="token punctuation">,</span> min_idx<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span> i<span class="token punctuation">)</span> \
+            <span class="token keyword">for</span> i<span class="token punctuation">,</span> v <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>unsorted<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
+
+tlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">85</span><span class="token punctuation">,</span> <span class="token number">69</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">54</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">45</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"unsorted"</span><span class="token punctuation">,</span> tlist<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"sorted:"</span><span class="token punctuation">,</span> selectsort<span class="token punctuation">(</span>tlist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="summary">Summary</h2>
+<ol>
+<li>We reviewed SelectionSort in a “manual mode”</li>
+<li>We arrived at the pseudo code</li>
+<li>We wrote the equivalent code for SelectionSort</li>
+</ol>
+<p>In reflection, <strong>SelectionSort</strong> is just the opposite of <strong>InsertionSort</strong>. The worst case complexity of this SelectionSort is <code>O(n^2)</code></p>
+<h2 id="last-2-minute">Last 2 Minute</h2>
+<ul>
+<li>
+<p>respond to Questions from Students</p>
+<ul>
+<li>review the relevant Question Paper snippets</li>
+<li>Ask 1 or more students questions from Pre-requisites</li>
+</ul>
+</li>
+<li>
+<p>Ask them to review <a href="http://j.mp/mergeVisual">http://j.mp/mergeVisual</a> for the coming class</p>
+</li>
+</ul>
+
+    </div>
+  </div>
+</body>
+
+</html>
