@@ -1,6 +1,6 @@
 # Designing and Delivering Effective Lectures  
   
-_"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- Mark Twain _ 
+_"College is a place where the professor's lecture notes go straight to the students' lecture notes, without passing through the brains of either."- Mark Twain _   
   
 _"Some people talk in their sleep. Lecturers talk while other people sleep." - Albert Camus _ 
   
@@ -184,5 +184,5 @@ There is always room for improvement, and it is important to make reflection a f
 • Woodring, B. and Woodring, R. 2007. "Lecture Is Not a Four-letter Word." In M. Bradshaw and A. Lowenstein, eds., Innovative Teaching Strategies in Nursing and Health Related Professions. Sudbury, MA: Jones & Bartlett.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg1NzUxODRdfQ==
+eyJoaXN0b3J5IjpbLTU5ODI2MjI4OCwtMTY5ODU3NTE4NF19
 -->
