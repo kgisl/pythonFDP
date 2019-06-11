@@ -152,6 +152,7 @@ _Using modules_
 ## Four ways to reverse a list
 
 1. Use slice  `al = al[::-1]`
+	- Can you  use`slice` to reverse the list, in place? 
 2. Use `reverse`method  
 3. Use `reversed` function 
 4. Write your own `reverseList` function using a loop
@@ -759,11 +760,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzQ3ODI1LDE5ODcyNzUwODcsLTEzNz
-U2ODQ5OTMsLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3
-MCwtMTY4OTc4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNj
-E4Mjk2NjgzLDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUy
-NTkyNiwxNjM1NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1ND
-YsLTE0NTM2MTA4MCwtMTk3MzE0NDEyNCwxOTY2NTEyOTg5LC0x
-NDE4NTgwMjMwXX0=
+eyJoaXN0b3J5IjpbLTE1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMT
+M3NTY4NDk5MywtMjA3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5
+MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC
+02MTgyOTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMw
+NTI1OTI2LDE2MzU1MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMz
+U0NiwtMTQ1MzYxMDgwLC0xOTczMTQ0MTI0LDE5NjY1MTI5ODks
+LTE0MTg1ODAyMzBdfQ==
 -->
