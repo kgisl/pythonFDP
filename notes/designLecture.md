@@ -19,7 +19,6 @@ In spite of all the criticism, the lecture method remains the most common instru
   
 • Setting the context of a topic or field for novice learners.  
 • Disseminating a common set of material to a broad audience.
-
 -   Providing a synthesis of information from various sources.
 
 • Clarifying complex information.  
@@ -195,6 +194,6 @@ There is always room for improvement, and it is important to make reflection a f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTIwNjksLTg0Nzk1NTI5OSwtMTY5OD
-U3NTE4NF19
+eyJoaXN0b3J5IjpbLTEyNjcxNDA2MjcsLTQyNTIwNjksLTg0Nz
+k1NTI5OSwtMTY5ODU3NTE4NF19
 -->
