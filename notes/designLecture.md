@@ -187,7 +187,8 @@ There is always room for improvement, and it is important to make reflection a f
 
 1. 
 2. 
-3. Don't ask the question - "Do you have any questions?"
+3. Tip #10 - Don't ask the question - "Do you have any questions?"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Nzk1NTI5OSwtMTY5ODU3NTE4NF19
+eyJoaXN0b3J5IjpbODk4NzA4NTYzLC04NDc5NTUyOTksLTE2OT
+g1NzUxODRdfQ==
 -->
