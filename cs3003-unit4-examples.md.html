@@ -147,6 +147,7 @@ tlist <span class="token operator">=</span> <span class="token punctuation">[</s
 </code></pre>
 <h3 id="bonus">Bonus</h3>
 <p>Can you improve on the <strong>basic selection sort</strong>? How about grabbing the maximum value during every iteration and using it?</p>
+<p>Practice selection sort at <a href="http://j.mp/selectionSortCC">http://j.mp/selectionSortCC</a></p>
 <h1 id="insertionsort">InsertionSort</h1>
 <h2 id="pre-requisites-2">Pre-requisites</h2>
 <ul>
@@ -246,6 +247,7 @@ shuffle<span class="token punctuation">(</span>alist<span class="token punctuati
 <p><img src="http://j.mp/insert1PNG" alt="insert1"><br>
 <img src="http://j.mp/insert2PNG" alt="insert2"><br>
 <img src="http://j.mp/insert3PNG" alt="insert3"></p>
+<p>Practice insertionsort at <a href="http://j.mp/insertionSortCC">http://j.mp/insertionSortCC</a></p>
 <h1 id="mergesort">MergeSort</h1>
 <h2 id="pre-requisites-3">Pre-requisites</h2>
 <ul>
@@ -341,8 +343,7 @@ shuffle<span class="token punctuation">(</span>alist<span class="token punctuati
     C<span class="token punctuation">.</span>append<span class="token punctuation">(</span>candidate<span class="token punctuation">)</span>
 
   <span class="token comment"># pick up the residual elements in A or B	</span>
-  C <span class="token operator">+=</span> A <span class="token operator">+</span> B
-  <span class="token keyword">return</span> C
+  <span class="token keyword">return</span> C <span class="token operator">+</span> A <span class="token operator">+</span> B
 
 <span class="token keyword">def</span> <span class="token function">mergesort</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
   <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span> 
