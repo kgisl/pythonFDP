@@ -276,8 +276,7 @@ def merge(A, B):
     C.append(candidate)
 
   # pick up the residual elements in A or B	
-  C += A + B
-  return C
+  return C + A + B
 
 def mergesort(ulist): 
   if len(ulist) <= 1: 
@@ -462,11 +461,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAwMDI2MSwtMTQ1ODk3MDE4NywtMj
-EwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4NywtMTE2MDUz
-MjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0NzUxNzU2OC
-wxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1MywxMzgz
-OTI4OTEsMjE0NDk2MDcwNiwtOTA2NDIyMTAsLTQwODU5Nzg1Mi
-wxMDc3OTE1Mjc0LC0xMzU2NDQ2OTAsLTE0MTQ1MzUwNzEsNjI1
-MTQ5OTYyXX0=
+eyJoaXN0b3J5IjpbMTU1MzMwMzkyMSwtMTU5MDAwMjYxLC0xND
+U4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4NDksODk3NzQy
+NTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2NDc0Mzk2NS
+wxOTQ3NTE3NTY4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3
+OTQzMjUzLDEzODM5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMC
+wtNDA4NTk3ODUyLDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQx
+NDUzNTA3MV19
 -->
