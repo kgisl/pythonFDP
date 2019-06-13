@@ -161,10 +161,11 @@ Here's an example:
 ```python
 def selectsort(alist):
     n = len(alist) 
-    # STEP 0 - iterate through every 
+    # STEP 0 - iterate through every element
     for i in range(n-1):
         # STEP 1 - find the index of the minimum
-        smallest = min(alist[i:])
+        unsorted = alist[i:]
+        smallest = min(unsorted)
         min_i = alist.index(smallest, i)
         # STEP 2 - swap if required 
         if min_i != i:
@@ -181,8 +182,9 @@ def selectsort(alist):
 def selectsort(alist):
     n = len(alist)
     for i in range(n-1):
+        unsorted = alist[i:]
         (minval, min_idx) = min((v, i) \
-            for i, v in enumerate(alist[i:]))
+            for i, v in enumerate(unsorted))
         alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
         print("intermediary", alist)
     return alist
@@ -466,7 +468,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjcwNjY2Niw0OTU0NDc5NDYsMTY0MD
+eyJoaXN0b3J5IjpbLTk5ODAzMjY5MCw0OTU0NDc5NDYsMTY0MD
 E5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAx
 ODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLT
 ExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1
