@@ -161,10 +161,12 @@ Here's an example:
 ```python
 def selectsort(alist):
     n = len(alist) 
+    # STEP 0 - iterate through every 
     for i in range(n-1):
-    
+        # STEP 1 - find the index of the minimum
         smallest = min(alist[i:])
         min_i = alist.index(smallest, i)
+        # STEP 2 - swap if required 
         if min_i != i:
             alist[i],alist[min_i] = alist[min_i], alist[i]
             print("intermediary", alist)
@@ -464,11 +466,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NzIyMTA0LDQ5NTQ0Nzk0NiwxNjQwMT
-kxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3MDE4
-NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4NywtMT
-E2MDUzMjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0NzUx
-NzU2OCwxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1My
-wxMzgzOTI4OTEsMjE0NDk2MDcwNiwtOTA2NDIyMTAsLTQwODU5
-Nzg1Ml19
+eyJoaXN0b3J5IjpbMTM3MjcwNjY2Niw0OTU0NDc5NDYsMTY0MD
+E5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAx
+ODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLT
+ExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1
+MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNT
+MsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1
+OTc4NTJdfQ==
 -->
