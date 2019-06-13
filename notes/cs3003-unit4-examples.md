@@ -9,82 +9,6 @@
 - [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
    
-# SelectionSort 
-
-## Pre-requisites
- - http://j.mp/selectVisual 
- - http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
-  - Which built-in function helps find the minimum element in a list? 
-	  - What happens when the built-in function is provided with a null list?
-	  - If you cannot use `min`, write the code for finding the minimum value in a list
-   - What is the method of a list that returns the index for an element in the list? 
-	   - What is the difference between `find` and `index`? 
- - how do you iterate over all the elements in a list, except the last one? Write the python code to do this 
-  - What is the value of `[1, 2, 3, 4][0:]` and `[1, 2, 3, 4][1:]` and `[1, 2, 3, 4][2:]`?
-  - What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.
-  - What is the list method to find out the index of a value in a list? 
-	  - How many arguments does the method accept? 
-	  - What is the second argument for? 
-  - What are the ways you can swap the value in two variables? 
-	  - What is the most pythonic way to do this? 
-  - Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple. 
-   - Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement. 
-
-
-## In-class Demo
-- [http://j.mp/compareSort](http://j.mp/compareSort)
-
-## Algorithm
-
-- In `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
-
-Here's an example: 
-![select](http://bit.ly/select2PNG)
-
-		repeat (numOfElements - 1) times
-			for each of the unsorted elements
-			select the minimum value among them
-			swap minimum with first unsorted position
-
-## Source code
-
-```python
-def selectsort(alist):
-    n = len(alist) 
-    for i in range(n-1):
-        smallest = min(alist[i:])
-        min_i = alist.index(smallest, i)
-        if min_i != i:
-            alist[i],alist[min_i] = alist[min_i], alist[i]
-            print("intermediary", alist)
-    return alist
-
-```
-
-## Version 2
- - uses  `slicing`,  `tuples` and `list comprehension` to make the code very efficient and eminently readable.  
-
-```python
-def selectsort(alist):
-    n = len(alist)
-    for i in range(n-1):
-        (minval, min_idx) = min((v, i) \
-            for i, v in enumerate(alist[i:]))
-        alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
-        print("intermediary", alist)
-    return alist
-
-tlist = [85, 69, 12, 12, 54, 36, 45, 5]
-print("unsorted", tlist)
-print("sorted:", selectsort(tlist))
-```
-
-### Bonus 
-Can you improve on the **basic selection sort**? How about grabbing the maximum value during every iteration and using it? 
-
-Practice selection sort at http://j.mp/selectionSortCC 
-
-
 # InsertionSort 
 
 ## Pre-requisites
@@ -192,6 +116,81 @@ print("Sorted", insertsort(alist))
 ![insert3](http://j.mp/insert3PNG)
 
 Practice insertionsort at http://j.mp/insertionSortCC 
+
+# SelectionSort 
+
+## Pre-requisites
+ - http://j.mp/selectVisual 
+ - http://j.mp/interactSelect using `[10, 3, 2, 4, 0, 30, 1, 5, 15]`
+  - Which built-in function helps find the minimum element in a list? 
+	  - What happens when the built-in function is provided with a null list?
+	  - If you cannot use `min`, write the code for finding the minimum value in a list
+   - What is the method of a list that returns the index for an element in the list? 
+	   - What is the difference between `find` and `index`? 
+ - how do you iterate over all the elements in a list, except the last one? Write the python code to do this 
+  - What is the value of `[1, 2, 3, 4][0:]` and `[1, 2, 3, 4][1:]` and `[1, 2, 3, 4][2:]`?
+  - What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.
+  - What is the list method to find out the index of a value in a list? 
+	  - How many arguments does the method accept? 
+	  - What is the second argument for? 
+  - What are the ways you can swap the value in two variables? 
+	  - What is the most pythonic way to do this? 
+  - Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple. 
+   - Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement. 
+
+
+## In-class Demo
+- [http://j.mp/compareSort](http://j.mp/compareSort)
+
+## Algorithm
+
+- In `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go **select** the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
+
+Here's an example: 
+![select](http://bit.ly/select2PNG)
+
+		repeat (numOfElements - 1) times
+			for each of the unsorted elements
+			select the minimum value among them
+			swap minimum with first unsorted position
+
+## Source code
+
+```python
+def selectsort(alist):
+    n = len(alist) 
+    for i in range(n-1):
+        smallest = min(alist[i:])
+        min_i = alist.index(smallest, i)
+        if min_i != i:
+            alist[i],alist[min_i] = alist[min_i], alist[i]
+            print("intermediary", alist)
+    return alist
+
+```
+
+## Version 2
+ - uses  `slicing`,  `tuples` and `list comprehension` to make the code very efficient and eminently readable.  
+
+```python
+def selectsort(alist):
+    n = len(alist)
+    for i in range(n-1):
+        (minval, min_idx) = min((v, i) \
+            for i, v in enumerate(alist[i:]))
+        alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
+        print("intermediary", alist)
+    return alist
+
+tlist = [85, 69, 12, 12, 54, 36, 45, 5]
+print("unsorted", tlist)
+print("sorted:", selectsort(tlist))
+```
+
+### Bonus 
+Can you improve on the **basic selection sort**? How about grabbing the maximum value during every iteration and using it? 
+
+Practice selection sort at http://j.mp/selectionSortCC 
 
 
 # MergeSort
@@ -462,11 +461,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNT
-kwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1
-Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OC
-wxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5
-MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MD
-YsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1
-NjQ0NjkwXX0=
+eyJoaXN0b3J5IjpbLTE5NzE0OTczOTEsMTY0MDE5MTQ5MywxNT
+UzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2
+OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNz
+IsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQx
+ODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyOD
+kxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3
+NzkxNTI3NF19
 -->
