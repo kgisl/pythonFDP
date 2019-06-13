@@ -169,16 +169,19 @@
 <p>Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour.<br>
 - if you know how to code it, write down the code in Python as well<br>
 - Go back and improve the pseudo code as well</p>
-<pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span>  <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
-    n <span class="token operator">=</span>  <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span>  <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-	  unsorted <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span> 
-	  smallest <span class="token operator">=</span>  <span class="token builtin">min</span><span class="token punctuation">(</span>unsorted<span class="token punctuation">)</span> 
-	  min_i <span class="token operator">=</span> alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
-	  <span class="token keyword">if</span> min_i <span class="token operator">!=</span> i<span class="token punctuation">:</span> 
-	    alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span>  <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>  
-	    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> alist 
+<pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
+    <span class="token comment"># STEP 0 - iterate through the list</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># STEP 1 - find the index of the minimum</span>
+        unsorted <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span>
+        smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>unsorted<span class="token punctuation">)</span>
+        min_i <span class="token operator">=</span> alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+        <span class="token comment"># STEP 2 - swap if required </span>
+        <span class="token keyword">if</span> min_i <span class="token operator">!=</span> i<span class="token punctuation">:</span>
+            alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
 </code></pre>
 <h2 id="part-2">Part 2</h2>
 <ul>
@@ -218,6 +221,9 @@ tlist <span class="token operator">=</span> <span class="token punctuation">[</s
 <li>review the relevant Question Paper snippets</li>
 <li>Ask 1 or more students questions from Pre-requisites</li>
 </ul>
+</li>
+<li>
+<p><a href="http://j.mp/selectionSortCC">http://j.mp/selectionSortCC</a></p>
 </li>
 <li>
 <p>Ask them to review <a href="http://j.mp/mergeVisual">http://j.mp/mergeVisual</a> for the coming class</p>
