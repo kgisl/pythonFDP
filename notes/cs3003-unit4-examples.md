@@ -56,7 +56,7 @@ def selectsort(alist):
         min_i = alist.index(smallest, i)
         if min_i != i:
             alist[i],alist[min_i] = alist[min_i], alist[i]
-        print("intermediary", alist)
+            print("intermediary", alist)
     return alist
 
 ```
@@ -462,11 +462,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg3OTE4MDMsMTU1MzMwMzkyMSwtMT
-U5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcy
-NTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NT
-gsMTI2NDc0Mzk2NSwxOTQ3NTE3NTY4LDE0MTgxNjc1MzEsLTQx
-OTI2NDQ1MywyMDU3OTQzMjUzLDEzODM5Mjg5MSwyMTQ0OTYwNz
-A2LC05MDY0MjIxMCwtNDA4NTk3ODUyLDEwNzc5MTUyNzQsLTEz
-NTY0NDY5MF19
+eyJoaXN0b3J5IjpbMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNT
+kwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1
+Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OC
+wxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5
+MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MD
+YsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3NzkxNTI3NCwtMTM1
+NjQ0NjkwXX0=
 -->
