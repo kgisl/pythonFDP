@@ -13,7 +13,7 @@
     <div class="stackedit__toc">
       
 <ul>
-<li><a href="#selectsort">SelectSort</a></li>
+<li><a href="#selection-sort-lecture-guideline">Selection Sort Lecture Guideline</a></li>
 <li><a href="#context-setting">Context setting</a></li>
 <li><a href="#agenda">Agenda</a></li>
 <li><a href="#pre-req-quiz">Pre-req quiz</a>
@@ -25,7 +25,7 @@
 <li><a href="#pseudo-code">Pseudo Code</a></li>
 <li><a href="#part-1.5">Part 1.5</a></li>
 <li><a href="#part-2">Part 2</a></li>
-<li><a href="#a-more-efficient-selection-sort">A more efficient Selection Sort</a></li>
+<li><a href="#a-more-efficient-selection-sort">A More Efficient Selection Sort</a></li>
 <li><a href="#summary">Summary</a></li>
 <li><a href="#last-2-minute">Last 2 Minute</a></li>
 </ul>
@@ -36,7 +36,7 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <h1 id="selectsort">SelectSort</h1>
+      <h1 id="selection-sort-lecture-guideline">Selection Sort Lecture Guideline</h1>
 <h1 id="context-setting">Context setting</h1>
 <p>Unit 4 -&gt; Lists, Tuples and Dictionaries -&gt; Illustrative Programs</p>
 <ul>
@@ -166,9 +166,15 @@
     <span class="token keyword">return</span> alist 
 </code></pre>
 <h2 id="part-1.5">Part 1.5</h2>
-<p>Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour.<br>
-- if you know how to code it, write down the code in Python as well<br>
-- Go back and improve the pseudo code as well</p>
+<p><em>Break Activity for the 20th min</em> which also helps students review what was covered until now.</p>
+<ul>
+<li>Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour.
+<ul>
+<li>if you know how to code it, write down the code in Python as well</li>
+<li>Go back and improve the pseudo code as well</li>
+</ul>
+</li>
+</ul>
 <pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
     n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
     <span class="token comment"># STEP 0 - iterate through the list</span>
@@ -188,7 +194,7 @@
 <li>OPTIONAL - generate a list containing tuples, where each tuple contains both the element and the index of the element in the list</li>
 <li>OPTIONAL - use a built-in function to find out the tuple containing the least value in the list</li>
 </ul>
-<h2 id="a-more-efficient-selection-sort">A more efficient Selection Sort</h2>
+<h2 id="a-more-efficient-selection-sort">A More Efficient Selection Sort</h2>
 <ul>
 <li>uses  <code>tuples</code>  and  <code>list comprehension</code>  to make the code very efficient and eminently readable.</li>
 </ul>
@@ -208,7 +214,7 @@ tlist <span class="token operator">=</span> <span class="token punctuation">[</s
 </code></pre>
 <h2 id="summary">Summary</h2>
 <ol>
-<li>We reviewed SelectionSort in a “manual mode”</li>
+<li>We incrementally developed SelectionSort in a “manual mode”</li>
 <li>We arrived at the pseudo code</li>
 <li>We wrote the equivalent code for SelectionSort</li>
 </ol>
