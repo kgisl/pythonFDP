@@ -1,6 +1,6 @@
 
 
-# SelectSort 
+# Selection Sort Lecture Guideline
 
 # Context setting 
 Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
@@ -144,7 +144,7 @@ print("sorted:", selectsort(tlist))
 
 
 ## Summary
-1. We reviewed SelectionSort in a "manual mode" 
+1. We incrementally developed SelectionSort in a "manual mode" 
 2. We arrived at the pseudo code 
 3. We wrote the equivalent code for SelectionSort 
 
@@ -162,7 +162,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQxODUzNDYsMTU1NjMxMjkwMCw5Nz
-Y3Njk3MCwtODg3Nzk2MTkzLC0xMTMzNTU5ODcxLC0xOTMwMDYw
-NzgzLC0xNTEwMjMzMzcxLDEwOTY1NDUzNDRdfQ==
+eyJoaXN0b3J5IjpbMjk5MzkzNjc0LC0xOTI0MTg1MzQ2LDE1NT
+YzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5NjE5MywtMTEzMzU1OTg3
+MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1MzQ0XX
+0=
 -->
