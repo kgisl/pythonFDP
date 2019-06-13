@@ -95,8 +95,8 @@ The Python code to implement the pseudo code above:
 ```
 
 ## Part 1.5 
-
-Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour. 
+_Break Activity for the 20th min_ which also helps students review what was covered until now. 
+- Can you improve on the above logic? How can you do it? Please discuss with your immediate neighbour. 
 	- if you know how to code it, write down the code in Python as well 
 	- Go back and improve the pseudo code as well 
 
@@ -162,8 +162,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MzkzNjc0LC0xOTI0MTg1MzQ2LDE1NT
-YzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5NjE5MywtMTEzMzU1OTg3
-MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1MzQ0XX
-0=
+eyJoaXN0b3J5IjpbLTk3MzY2MjMwMCwtMTkyNDE4NTM0NiwxNT
+U2MzEyOTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4
+NzEsLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF
+19
 -->
