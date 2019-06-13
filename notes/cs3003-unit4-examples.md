@@ -83,6 +83,7 @@ More detailed pseudo-code:
 ```python
 def insertsort(alist):
     n = len(alist)
+    # STEP 0 - iterate through the list
     for idx in range(1, n):
         # STEP 1 - element to insert 
         # j, value = idx, alist.pop(idx)
@@ -161,7 +162,7 @@ Here's an example:
 ```python
 def selectsort(alist):
     n = len(alist) 
-    # STEP 0 - iterate through every element
+    # STEP 0 - iterate through the list
     for i in range(n-1):
         # STEP 1 - find the index of the minimum
         unsorted = alist[i:]
@@ -468,7 +469,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODAzMjY5MCw0OTU0NDc5NDYsMTY0MD
+eyJoaXN0b3J5IjpbLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MD
 E5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAx
 ODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLT
 ExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1
