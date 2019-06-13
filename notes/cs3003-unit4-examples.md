@@ -8,6 +8,7 @@
 - http://bit.ly/histogramVisual    
 - [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
+
    
 # InsertionSort 
 
@@ -461,7 +462,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE0OTczOTEsMTY0MDE5MTQ5MywxNT
+eyJoaXN0b3J5IjpbLTEwNDExOTAxNzMsMTY0MDE5MTQ5MywxNT
 UzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2
 OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNz
 IsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQx
