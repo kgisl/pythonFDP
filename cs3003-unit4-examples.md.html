@@ -16,22 +16,23 @@
 <li><a href="#illustrative-programs-of-tuples-lists-and-dictionaries">Illustrative programs of Tuples, Lists and Dictionaries</a>
 <ul>
 <li><a href="#pre-requisites">Pre-requisites</a></li>
-</ul>
-</li>
-<li><a href="#selectionsort">SelectionSort</a>
-<ul>
-<li><a href="#pre-requisites-1">Pre-requisites</a></li>
-<li><a href="#in-class-demo">In-class Demo</a></li>
-<li><a href="#algorithm">Algorithm</a></li>
-<li><a href="#source-code">Source code</a></li>
-<li><a href="#version-2">Version 2</a></li>
+<li><a href="#recommended-sequence">Recommended sequence</a></li>
 </ul>
 </li>
 <li><a href="#insertionsort">InsertionSort</a>
 <ul>
+<li><a href="#pre-requisites-1">Pre-requisites</a></li>
+<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#source-code">Source code</a></li>
+</ul>
+</li>
+<li><a href="#selectionsort">SelectionSort</a>
+<ul>
 <li><a href="#pre-requisites-2">Pre-requisites</a></li>
+<li><a href="#in-class-demo">In-class Demo</a></li>
 <li><a href="#algorithm-1">Algorithm</a></li>
 <li><a href="#source-code-1">Source code</a></li>
+<li><a href="#version-2">Version 2</a></li>
 </ul>
 </li>
 <li><a href="#mergesort">MergeSort</a>
@@ -69,88 +70,12 @@
 <li><a href="http://bit.ly/histogramVisual">http://bit.ly/histogramVisual</a></li>
 <li><a href="https://www.toptal.com/developers/sorting-algorithms">https://www.toptal.com/developers/sorting-algorithms</a></li>
 </ul>
-<h1 id="selectionsort">SelectionSort</h1>
-<h2 id="pre-requisites-1">Pre-requisites</h2>
+<h2 id="recommended-sequence">Recommended sequence</h2>
 <ul>
-<li><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a></li>
-<li><a href="http://j.mp/interactSelect">http://j.mp/interactSelect</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
-<li>Which built-in function helps find the minimum element in a list?
-<ul>
-<li>What happens when the built-in function is provided with a null list?</li>
-<li>If you cannot use <code>min</code>, write the code for finding the minimum value in a list</li>
+<li>InsertSort -&gt; SelectionSort -&gt; MergeSort -&gt; Histogram</li>
 </ul>
-</li>
-<li>What is the method of a list that returns the index for an element in the list?
-<ul>
-<li>What is the difference between <code>find</code> and <code>index</code>?</li>
-</ul>
-</li>
-<li>how do you iterate over all the elements in a list, except the last one? Write the python code to do this</li>
-<li>What is the value of <code>[1, 2, 3, 4][0:]</code> and <code>[1, 2, 3, 4][1:]</code> and <code>[1, 2, 3, 4][2:]</code>?</li>
-<li>What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.</li>
-<li>What is the list method to find out the index of a value in a list?
-<ul>
-<li>How many arguments does the method accept?</li>
-<li>What is the second argument for?</li>
-</ul>
-</li>
-<li>What are the ways you can swap the value in two variables?
-<ul>
-<li>What is the most pythonic way to do this?</li>
-</ul>
-</li>
-<li>Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple.</li>
-<li>Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement.</li>
-</ul>
-<h2 id="in-class-demo">In-class Demo</h2>
-<ul>
-<li><a href="http://j.mp/compareSort">http://j.mp/compareSort</a></li>
-</ul>
-<h2 id="algorithm">Algorithm</h2>
-<ul>
-<li>In <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
-</ul>
-<p>Here’s an example:<br>
-<img src="http://bit.ly/select2PNG" alt="select"></p>
-<pre><code>	repeat (numOfElements - 1) times
-		for each of the unsorted elements
-		select the minimum value among them
-		swap minimum with first unsorted position
-</code></pre>
-<h2 id="source-code">Source code</h2>
-<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-        smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-        min_i <span class="token operator">=</span> alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
-        <span class="token keyword">if</span> min_i <span class="token operator">!=</span> i<span class="token punctuation">:</span>
-            alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
-            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> alist
-
-</code></pre>
-<h2 id="version-2">Version 2</h2>
-<ul>
-<li>uses  <code>slicing</code>,  <code>tuples</code> and <code>list comprehension</code> to make the code very efficient and eminently readable.</li>
-</ul>
-<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-        <span class="token punctuation">(</span>minval<span class="token punctuation">,</span> min_idx<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span> i<span class="token punctuation">)</span> \
-            <span class="token keyword">for</span> i<span class="token punctuation">,</span> v <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-        alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
-        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> alist
-
-tlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">85</span><span class="token punctuation">,</span> <span class="token number">69</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">54</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">45</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"unsorted"</span><span class="token punctuation">,</span> tlist<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"sorted:"</span><span class="token punctuation">,</span> selectsort<span class="token punctuation">(</span>tlist<span class="token punctuation">)</span><span class="token punctuation">)</span>
-</code></pre>
-<h3 id="bonus">Bonus</h3>
-<p>Can you improve on the <strong>basic selection sort</strong>? How about grabbing the maximum value during every iteration and using it?</p>
-<p>Practice selection sort at <a href="http://j.mp/selectionSortCC">http://j.mp/selectionSortCC</a></p>
 <h1 id="insertionsort">InsertionSort</h1>
-<h2 id="pre-requisites-2">Pre-requisites</h2>
+<h2 id="pre-requisites-1">Pre-requisites</h2>
 <ul>
 <li><a href="http://j.mp/insertVisual">http://j.mp/insertVisual</a></li>
 <li><a href="http://j.mp/interactInsert">http://j.mp/interactInsert</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
@@ -193,7 +118,7 @@ tlist <span class="token operator">=</span> <span class="token punctuation">[</s
 	<span class="token keyword">print</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> end <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">)</span>
 
 </code></pre>
-<h2 id="algorithm-1">Algorithm</h2>
+<h2 id="algorithm">Algorithm</h2>
 <ul>
 <li>
 <p>In <code>insertsort</code>, given a key, a copy of a pre-determined element in the list, we  <strong>insert</strong> it at the appropriate location after comparing it with the unsorted elements of the list.</p>
@@ -215,7 +140,7 @@ for each unsorted element X
     else break loop and insert X here
 return sorted list
 </code></pre>
-<h2 id="source-code-1">Source code</h2>
+<h2 id="source-code">Source code</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">insertsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
     n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
     <span class="token keyword">for</span> idx <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>
@@ -249,6 +174,86 @@ shuffle<span class="token punctuation">(</span>alist<span class="token punctuati
 <img src="http://j.mp/insert2PNG" alt="insert2"><br>
 <img src="http://j.mp/insert3PNG" alt="insert3"></p>
 <p>Practice insertionsort at <a href="http://j.mp/insertionSortCC">http://j.mp/insertionSortCC</a></p>
+<h1 id="selectionsort">SelectionSort</h1>
+<h2 id="pre-requisites-2">Pre-requisites</h2>
+<ul>
+<li><a href="http://j.mp/selectVisual">http://j.mp/selectVisual</a></li>
+<li><a href="http://j.mp/interactSelect">http://j.mp/interactSelect</a> using <code>[10, 3, 2, 4, 0, 30, 1, 5, 15]</code></li>
+<li>Which built-in function helps find the minimum element in a list?
+<ul>
+<li>What happens when the built-in function is provided with a null list?</li>
+<li>If you cannot use <code>min</code>, write the code for finding the minimum value in a list</li>
+</ul>
+</li>
+<li>What is the method of a list that returns the index for an element in the list?
+<ul>
+<li>What is the difference between <code>find</code> and <code>index</code>?</li>
+</ul>
+</li>
+<li>how do you iterate over all the elements in a list, except the last one? Write the python code to do this</li>
+<li>What is the value of <code>[1, 2, 3, 4][0:]</code> and <code>[1, 2, 3, 4][1:]</code> and <code>[1, 2, 3, 4][2:]</code>?</li>
+<li>What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.</li>
+<li>What is the list method to find out the index of a value in a list?
+<ul>
+<li>How many arguments does the method accept?</li>
+<li>What is the second argument for?</li>
+</ul>
+</li>
+<li>What are the ways you can swap the value in two variables?
+<ul>
+<li>What is the most pythonic way to do this?</li>
+</ul>
+</li>
+<li>Find the minimum value in a list and the index of the minimum value. Write a list comprehension as part of the code that returns both values in a tuple.</li>
+<li>Write code for swapping two variables without using a temporary variable. If it is not a one line statement, try refactoring whatever you have into one single statement.</li>
+</ul>
+<h2 id="in-class-demo">In-class Demo</h2>
+<ul>
+<li><a href="http://j.mp/compareSort">http://j.mp/compareSort</a></li>
+</ul>
+<h2 id="algorithm-1">Algorithm</h2>
+<ul>
+<li>In <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go <strong>select</strong> the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
+</ul>
+<p>Here’s an example:<br>
+<img src="http://bit.ly/select2PNG" alt="select"></p>
+<pre><code>	repeat (numOfElements - 1) times
+		for each of the unsorted elements
+		select the minimum value among them
+		swap minimum with first unsorted position
+</code></pre>
+<h2 id="source-code-1">Source code</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        smallest <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        min_i <span class="token operator">=</span> alist<span class="token punctuation">.</span>index<span class="token punctuation">(</span>smallest<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> min_i <span class="token operator">!=</span> i<span class="token punctuation">:</span>
+            alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
+
+</code></pre>
+<h2 id="version-2">Version 2</h2>
+<ul>
+<li>uses  <code>slicing</code>,  <code>tuples</code> and <code>list comprehension</code> to make the code very efficient and eminently readable.</li>
+</ul>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token punctuation">(</span>minval<span class="token punctuation">,</span> min_idx<span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span> i<span class="token punctuation">)</span> \
+            <span class="token keyword">for</span> i<span class="token punctuation">,</span> v <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_idx<span class="token operator">+</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"intermediary"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> alist
+
+tlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">85</span><span class="token punctuation">,</span> <span class="token number">69</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">54</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">45</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"unsorted"</span><span class="token punctuation">,</span> tlist<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"sorted:"</span><span class="token punctuation">,</span> selectsort<span class="token punctuation">(</span>tlist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="bonus">Bonus</h3>
+<p>Can you improve on the <strong>basic selection sort</strong>? How about grabbing the maximum value during every iteration and using it?</p>
+<p>Practice selection sort at <a href="http://j.mp/selectionSortCC">http://j.mp/selectionSortCC</a></p>
 <h1 id="mergesort">MergeSort</h1>
 <h2 id="pre-requisites-3">Pre-requisites</h2>
 <ul>
