@@ -53,8 +53,9 @@ def selectsort(alist):
     n = len(alist) 
     for i in range(n-1):
         smallest = min(alist[i:])
-        min_idx = alist.index(smallest, i)
-        alist[i],alist[min_idx] = alist[min_idx], alist[i]
+        min_i = alist.index(smallest, i)
+        if min_i != i:
+            alist[i],alist[min_i] = alist[min_i], alist[i]
         print("intermediary", alist)
     return alist
 
@@ -461,11 +462,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzMwMzkyMSwtMTU5MDAwMjYxLC0xND
-U4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4NDksODk3NzQy
-NTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2NDc0Mzk2NS
-wxOTQ3NTE3NTY4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3
-OTQzMjUzLDEzODM5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMC
-wtNDA4NTk3ODUyLDEwNzc5MTUyNzQsLTEzNTY0NDY5MCwtMTQx
-NDUzNTA3MV19
+eyJoaXN0b3J5IjpbLTEzNjg3OTE4MDMsMTU1MzMwMzkyMSwtMT
+U5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcy
+NTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NT
+gsMTI2NDc0Mzk2NSwxOTQ3NTE3NTY4LDE0MTgxNjc1MzEsLTQx
+OTI2NDQ1MywyMDU3OTQzMjUzLDEzODM5Mjg5MSwyMTQ0OTYwNz
+A2LC05MDY0MjIxMCwtNDA4NTk3ODUyLDEwNzc5MTUyNzQsLTEz
+NTY0NDY5MF19
 -->
