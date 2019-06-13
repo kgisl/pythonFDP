@@ -131,9 +131,9 @@ def selectsort(alist):
     n = len(alist)
     for i in range(n-1):
         unsorted = alist[i:]
-        (minval, min_idx) = min((v, i) \
+        (minval, min_i) = min((v, i) \
             for i, v in enumerate(unsorted))
-        alist[i], alist[min_idx+i] = alist[min_idx+i], alist[i]
+        alist[i], alist[min_i+i] = alist[min_i+i], alist[i]
         print("intermediary", alist)
     return alist
 
@@ -162,7 +162,7 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1NDk5NjgsOTc2NzY5NzAsLTg4Nz
-c5NjE5MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIz
-MzM3MSwxMDk2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbMTU1NjMxMjkwMCw5NzY3Njk3MCwtODg3Nz
+k2MTkzLC0xMTMzNTU5ODcxLC0xOTMwMDYwNzgzLC0xNTEwMjMz
+MzcxLDEwOTY1NDUzNDRdfQ==
 -->
