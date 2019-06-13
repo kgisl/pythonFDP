@@ -83,7 +83,6 @@ More detailed pseudo-code:
 ```python
 def insertsort(alist):
     n = len(alist)
-    # STEP 0 - iterate through every element
     for idx in range(1, n):
         # STEP 1 - element to insert 
         # j, value = idx, alist.pop(idx)
@@ -469,11 +468,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA1OTc5ODQsNDk1NDQ3OTQ2LDE2ND
-AxOTE0OTMsMTU1MzMwMzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcw
-MTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4NDksODk3NzQyNTg3LC
-0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2NDc0Mzk2NSwxOTQ3
-NTE3NTY4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3OTQzMj
-UzLDEzODM5Mjg5MSwyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4
-NTk3ODUyXX0=
+eyJoaXN0b3J5IjpbLTk5ODAzMjY5MCw0OTU0NDc5NDYsMTY0MD
+E5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAx
+ODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLT
+ExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1
+MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNT
+MsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1
+OTc4NTJdfQ==
 -->
