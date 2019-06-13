@@ -8,7 +8,8 @@
 - http://bit.ly/histogramVisual    
 - [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
 
-
+## Recommended sequence
+  - InsertSort -> SelectionSort -> MergeSort -> Histogram
    
 # InsertionSort 
 
@@ -462,11 +463,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDExOTAxNzMsMTY0MDE5MTQ5MywxNT
-UzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2
-OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNz
-IsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQx
-ODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyOD
-kxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1OTc4NTIsMTA3
-NzkxNTI3NF19
+eyJoaXN0b3J5IjpbNDk1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1Mz
+MwMzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2Njkz
+MjQwLC01NDcyNTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLD
+IwODQ3NDQ4NTgsMTI2NDc0Mzk2NSwxOTQ3NTE3NTY4LDE0MTgx
+Njc1MzEsLTQxOTI2NDQ1MywyMDU3OTQzMjUzLDEzODM5Mjg5MS
+wyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4NTk3ODUyLDEwNzc5
+MTUyNzRdfQ==
 -->
