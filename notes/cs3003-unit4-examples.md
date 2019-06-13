@@ -98,8 +98,7 @@ def insertsort(alist):
         if j != idx: 
             alist[j+1:idx+1] = alist[j:idx]
             alist[j] = value
-
-        print('intermediary:', alist)
+	        print('intermediary:', alist)
         return alist
 ```
 
@@ -469,11 +468,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MD
-E5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAx
-ODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLT
-ExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1
-MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNT
-MsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkwNjQyMjEwLC00MDg1
-OTc4NTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OT
+U0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAy
+NjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OS
+w4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0
+NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0ND
+UzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkw
+NjQyMjEwXX0=
 -->
