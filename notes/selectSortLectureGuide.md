@@ -101,16 +101,19 @@ Can you improve on the above logic? How can you do it? Please discuss with your 
 	- Go back and improve the pseudo code as well 
 
 ```python 
-  def  selectsort(alist): 
-    n =  len(alist)
-    for i in  range(n-1):
-	  unsorted = alist[i:] 
-	  smallest =  min(unsorted) 
-	  min_i = alist.index(smallest, i)
-	  if min_i != i: 
-	    alist[i],alist[min_i]  = alist[min_i], alist[i]  
-	    print("intermediary", alist)
-    return alist 
+  def selectsort(alist):
+    n = len(alist) 
+    # STEP 0 - iterate through the list
+    for i in range(n-1):
+        # STEP 1 - find the index of the minimum
+        unsorted = alist[i:]
+        smallest = min(unsorted)
+        min_i = alist.index(smallest, i)
+        # STEP 2 - swap if required 
+        if min_i != i:
+            alist[i],alist[min_i] = alist[min_i], alist[i]
+            print("intermediary", alist)
+    return alist
 ```
 
 
@@ -159,7 +162,7 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NzY5NzAsLTg4Nzc5NjE5MywtMTEzMz
-U1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1
-MzQ0XX0=
+eyJoaXN0b3J5IjpbLTEwNjM1NDk5NjgsOTc2NzY5NzAsLTg4Nz
+c5NjE5MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIz
+MzM3MSwxMDk2NTQ1MzQ0XX0=
 -->
