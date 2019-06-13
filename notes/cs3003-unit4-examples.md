@@ -162,6 +162,7 @@ Here's an example:
 def selectsort(alist):
     n = len(alist) 
     for i in range(n-1):
+    
         smallest = min(alist[i:])
         min_i = alist.index(smallest, i)
         if min_i != i:
@@ -463,11 +464,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1Mz
-MwMzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2Njkz
-MjQwLC01NDcyNTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLD
-IwODQ3NDQ4NTgsMTI2NDc0Mzk2NSwxOTQ3NTE3NTY4LDE0MTgx
-Njc1MzEsLTQxOTI2NDQ1MywyMDU3OTQzMjUzLDEzODM5Mjg5MS
-wyMTQ0OTYwNzA2LC05MDY0MjIxMCwtNDA4NTk3ODUyLDEwNzc5
-MTUyNzRdfQ==
+eyJoaXN0b3J5IjpbNzk3NzIyMTA0LDQ5NTQ0Nzk0NiwxNjQwMT
+kxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3MDE4
+NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4NywtMT
+E2MDUzMjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0NzUx
+NzU2OCwxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1Nzk0MzI1My
+wxMzgzOTI4OTEsMjE0NDk2MDcwNiwtOTA2NDIyMTAsLTQwODU5
+Nzg1Ml19
 -->
