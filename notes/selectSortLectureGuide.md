@@ -122,7 +122,7 @@ _Break Activity for the 20th min_ which also helps students review what was cove
    - OPTIONAL - generate a list containing tuples, where each tuple contains both the element and the index of the element in the list 
    - OPTIONAL - use a built-in function to find out the tuple containing the least value in the list
 
-## A more efficient Selection Sort 
+## A More Efficient Selection Sort 
 
 -   uses  `tuples`  and  `list comprehension`  to make the code very efficient and eminently readable.
 
@@ -162,8 +162,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzY2MjMwMCwtMTkyNDE4NTM0NiwxNT
-U2MzEyOTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4
-NzEsLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF
-19
+eyJoaXN0b3J5IjpbLTEzODA4NjUxMTYsLTE5MjQxODUzNDYsMT
+U1NjMxMjkwMCw5NzY3Njk3MCwtODg3Nzk2MTkzLC0xMTMzNTU5
+ODcxLC0xOTMwMDYwNzgzLC0xNTEwMjMzMzcxLDEwOTY1NDUzND
+RdfQ==
 -->
