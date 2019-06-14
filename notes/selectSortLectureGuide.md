@@ -1,5 +1,3 @@
-
-
 # Selection Sort Lecture Guideline
 
 # Context setting 
@@ -162,8 +160,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjAxOTUzNDEsLTE5MjQxODUzNDYsMT
-U1NjMxMjkwMCw5NzY3Njk3MCwtODg3Nzk2MTkzLC0xMTMzNTU5
-ODcxLC0xOTMwMDYwNzgzLC0xNTEwMjMzMzcxLDEwOTY1NDUzND
-RdfQ==
+eyJoaXN0b3J5IjpbMzQ3MjM0ODM5LC0xMjYwMTk1MzQxLC0xOT
+I0MTg1MzQ2LDE1NTYzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5NjE5
+MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MS
+wxMDk2NTQ1MzQ0XX0=
 -->
