@@ -269,7 +269,7 @@ The basic steps in the recursive MergeSort Algorithm is as follows:
 	- Merge the sorted left and sorted right sublists to form one sorted list 
 	- Return the sorted list (`slist`) 
 
-## MergeSort implementation in Python
+## Source code
 
 Visualize at http://tinyurl.com/visualMerge 
 
@@ -468,11 +468,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OT
-U0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAy
-NjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OS
-w4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0
-NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5MjY0ND
-UzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIxNDQ5NjA3MDYsLTkw
-NjQyMjEwXX0=
+eyJoaXN0b3J5IjpbLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLT
+MwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAz
+OTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyND
+AsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4
+NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2Nz
+UzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIx
+NDQ5NjA3MDZdfQ==
 -->
