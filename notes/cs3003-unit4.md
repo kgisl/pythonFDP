@@ -163,7 +163,7 @@ _Using modules_
 	> temp = a 
 	> a = b 
 	> b = temp 
-2. Use subtraction 
+2. Use addition and subtraction 
 	> a = a + b
 	> b = a - b  
 	> a = a - b 
@@ -781,11 +781,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNz
-cwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2
-NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMD
-AsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2
-MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOC
-wtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC0y
-MTMyMTA5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE2MTIyNDY1MzEsMTE3NzI5MzA0NiwxNj
+YxMTcyNzk3LDIwNzcwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5
+MTMwLC0xNTI0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OT
+MsLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4
+OTc4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2Nj
+gzLDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwx
+NjM1NTI1ODIzXX0=
 -->
