@@ -131,12 +131,12 @@ The beauty of MergeSort is that regardless of the list and how badly it is sorte
 
 ## Program File for Demo
 
-Modify this file as you deem fit to demonstrate on PythonAnywhere.com 
+Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
   - http://j.mp/mergePAW
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjc1NjkyMywxMTcwNjE4NDc5LDg1OT
-czOTIxOSwtMTM1ODYzNzM2NSwxMTExODU2NDE2LDE0ODMxMjYz
-NzFdfQ==
+eyJoaXN0b3J5IjpbMjMwNTE5MDg1LDExNzA2MTg0NzksODU5Nz
+M5MjE5LC0xMzU4NjM3MzY1LDExMTE4NTY0MTYsMTQ4MzEyNjM3
+MV19
 -->
