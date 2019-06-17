@@ -202,7 +202,9 @@ Practice selection sort at http://j.mp/selectionSortCC
 
 # MergeSort
 
-![tldr](http://j.mp/tldr
+tl; dr: 
+![tldr](http://bit.ly/tldrMergeSort)
+
 ## Pre-requisites
 
    - List functions
@@ -468,11 +470,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMyMDUzMTUsLTExOTA0MzA2NTEsLT
-EzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5
-MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxOD
-csLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTEx
-NjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MT
-c1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMs
-MTM4MzkyODkxXX0=
+eyJoaXN0b3J5IjpbMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC0xMz
+U5MTczNDEwLC0zMDY4NDk4MzIsNDk1NDQ3OTQ2LDE2NDAxOTE0
+OTMsMTU1MzMwMzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcwMTg3LC
+0yMTA2NjkzMjQwLC01NDcyNTM4NDksODk3NzQyNTg3LC0xMTYw
+NTMyMjcyLDIwODQ3NDQ4NTgsMTI2NDc0Mzk2NSwxOTQ3NTE3NT
+Y4LDE0MTgxNjc1MzEsLTQxOTI2NDQ1MywyMDU3OTQzMjUzLDEz
+ODM5Mjg5MV19
 -->
