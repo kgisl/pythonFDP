@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cs3003mergeSortLectureGuideLine</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#merge-sort-lecture-guideline">Merge Sort Lecture Guideline</a></li>
+<li><a href="#context-setting">Context setting</a></li>
+<li><a href="#agenda">Agenda</a></li>
+<li><a href="#pre-req-quiz">Pre-req quiz</a>
+<ul>
+<li><a href="#interactive-coding">Interactive Coding</a></li>
+<li><a href="#stage---1">Stage - 1</a></li>
+<li><a href="#stage-2">Stage 2</a></li>
+<li><a href="#merge-sort-description">Merge Sort Description</a></li>
+<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#source-code">Source code</a></li>
+<li><a href="#part-2">Part 2</a></li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#last-2-minute">Last 2 Minute</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="merge-sort-lecture-guideline">Merge Sort Lecture Guideline</h1>
+<h1 id="context-setting">Context setting</h1>
+<p>Unit 4 -&gt; Lists, Tuples and Dictionaries -&gt; Illustrative Programs</p>
+<ul>
+<li>It is very important to use a data type in a real-world case, to understand its true value and benefit.</li>
+<li>We are covering three types of sorts
+<ul>
+<li><strong>Comparison</strong> Algorithms - Insertion Sort and Selection Sort</li>
+<li><strong>Divide and Conquer</strong> Algorithms - Merge Sort, Quick Sort</li>
+</ul>
+</li>
+</ul>
+<h1 id="agenda">Agenda</h1>
+<ul>
+<li>Over the next 20 minutes, we shall see how lists can be used to implement <strong>Merge Sort</strong></li>
+</ul>
+<h1 id="pre-req-quiz">Pre-req quiz</h1>
+<ul>
+<li>Are you ready?
+<ul>
+<li>Known to Unknown</li>
+</ul>
+</li>
+<li>Best practice of a engineering student is to come prepared for the class.
+<ul>
+<li>You must spend at least 2 hours reviewing the material taught in class, and preparing for the class</li>
+</ul>
+</li>
+<li>Quiz
+<ul>
+<li>44+ MCQ in Online Socrative portal
+<ul>
+<li>Immediate feedback</li>
+</ul>
+</li>
+<li>Paper based<br>
+- Show of hands? How many completed it? Attempted it?</li>
+</ul>
+</li>
+</ul>
+<h2 id="interactive-coding">Interactive Coding</h2>
+<h2 id="stage---1">Stage - 1</h2>
+<ul>
+<li>How to divide a sorted list into equal halves?</li>
+<li>How to mere the list back into original form?</li>
+<li>How to form odd and even lists and then merge them together to get sorted numbers from 1 to 8?</li>
+</ul>
+<hr>
+<h2 id="stage-2">Stage 2</h2>
+<ul>
+<li>How to merge (combine) sorted list?</li>
+<li>How to merge odd number list and even number list?</li>
+<li>Use <a href="http://PythonAnywhere.com">PythonAnywhere.com</a> to zoom in and out of a <code>mergesort</code> verbose run</li>
+</ul>
+<p>Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide  portion of the divide and conquer  method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer  portion of divide and conquer.</p>
+<p><img src="http://bit.ly/mergeVerbose" alt="merge"></p>
+<h2 id="merge-sort-description">Merge Sort Description</h2>
+<p>tl;dr<img src="http://bit.ly/tamilMerge" alt="tldr"></p>
+<ul>
+<li>
+<p>InsertSort and SelectionSort are examples of <strong>comparison</strong> sorts</p>
+</li>
+<li>
+<p>However, MergeSort, is an example of the <strong>Divide-and-Conquer</strong> algorithm sorts</p>
+<ul>
+<li><strong>Divide</strong> means portioning the n-element array to be sorted into two sub-arrays of n/2 elements. If A is an array containing zero or one element, then it is already sorted. However, if there are more elements in the array, divide A into two sub-arrays, A1 and A2, each containing about half of the elements of A.</li>
+<li><strong>Conquer</strong> means sorting the two sub-arrays recursively using merge sort. Combine means merging the two sorted sub-arrays of size n/2 to produce the sorted array of n elements.</li>
+</ul>
+</li>
+</ul>
+<h2 id="algorithm">Algorithm</h2>
+<ul>
+<li>In <code>mergesort</code>, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The <code>merge()</code> function is used for merging two halves.</li>
+</ul>
+<p>The basic steps in the recursive MergeSort Algorithm is as follows:</p>
+<pre><code>Func MERGESORT: 
+    input (unsorted list of elements)  `ulist` 
+    output (sorted list of elements)   `slist`
+
+- TERMINAL CASE: 
+	- if size of list is 0 or 1, return (since it is sorted)
+- Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist 
+- Recursively call MergeSort on the left sublist (`leftA`) 
+- Recursively call MergeSort on the right sublist (`leftB`) 
+- Merge the sorted left and sorted right sublists to form one sorted list 
+- Return the sorted list (`slist`) 
+</code></pre>
+<h2 id="source-code">Source code</h2>
+<p>Visualize at <a href="http://tinyurl.com/visualMerge">http://tinyurl.com/visualMerge</a></p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token comment"># a helper function for the mergesort function</span>
+<span class="token comment"># function to merge already sorted lists</span>
+<span class="token keyword">def</span> <span class="token function">merge</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span> B<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+  C <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token keyword">while</span> A <span class="token operator">and</span> B<span class="token punctuation">:</span>
+    candidate <span class="token operator">=</span> <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+    C<span class="token punctuation">.</span>append<span class="token punctuation">(</span>candidate<span class="token punctuation">)</span>
+
+  <span class="token comment"># pick up the residual elements in A or B	</span>
+  <span class="token keyword">return</span> C <span class="token operator">+</span> A <span class="token operator">+</span> B
+
+<span class="token keyword">def</span> <span class="token function">mergesort</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+  <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span> 
+    <span class="token keyword">return</span> ulist
+
+  mid <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>ulist<span class="token punctuation">)</span><span class="token operator">//</span><span class="token number">2</span>
+
+  leftA    <span class="token operator">=</span> ulist<span class="token punctuation">[</span><span class="token punctuation">:</span>mid<span class="token punctuation">]</span>
+  rightB   <span class="token operator">=</span> ulist<span class="token punctuation">[</span>mid<span class="token punctuation">:</span><span class="token punctuation">]</span>
+
+  sortedA  <span class="token operator">=</span> mergesort<span class="token punctuation">(</span>leftA<span class="token punctuation">)</span> 
+  sortedB  <span class="token operator">=</span> mergesort<span class="token punctuation">(</span>rightB<span class="token punctuation">)</span>
+	
+  slist <span class="token operator">=</span> merge<span class="token punctuation">(</span>sortedA<span class="token punctuation">,</span> sortedB<span class="token punctuation">)</span>
+  <span class="token keyword">return</span> slist
+
+<span class="token comment"># test cases</span>
+<span class="token keyword">assert</span> <span class="token punctuation">(</span>merge<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mergesort<span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># [1, 2, 3, 4, 5, 6, 7, 8]</span>
+</code></pre>
+<h2 id="part-2">Part 2</h2>
+<p><em>Break Activity for the 20th min</em> which also helps students review what was covered until now.</p>
+<ul>
+<li>Lead with the question: <strong>Can you improve on the above logic?</strong> How can you do it? Please discuss with your immediate neighbour.
+<ul>
+<li>Refer to the last question of the Pre-requisite Quiz
+<ul>
+<li>Ask your faculty for more clues</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<ol>
+<li>We incrementally developed MergeSort in a “demo mode”</li>
+<li>We arrived at the pseudo code</li>
+<li>We wrote the equivalent code for SelectionSort</li>
+</ol>
+<p>The beauty of MergeSort is that regardless of the list and how badly it is sorted, O(n) is <code>nlog(n)</code> which is favourable among almost most sorting algorithms.</p>
+<h2 id="last-2-minute">Last 2 Minute</h2>
+<ul>
+<li>
+<p>respond to Questions from Students</p>
+<ul>
+<li>review the relevant Question Paper snippets</li>
+<li>Ask 1 or more students questions from Pre-requisites</li>
+</ul>
+</li>
+<li>
+<p>Review Pre-requisites for Histogram (next class)</p>
+</li>
+</ul>
+
+    </div>
+  </div>
+</body>
+
+</html>
