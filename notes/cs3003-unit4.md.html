@@ -285,10 +285,16 @@ b ^= a<br>
 a ^= b</p>
 </blockquote>
 </li>
-<li>Using list unpacking
+<li>Using tuple unpacking
+<blockquote>
+<p>a, b, = (b, a)</p>
+</blockquote>
+</li>
+<li>Using list methods
 <blockquote>
 <p>al = [a, b]<br>
-a, b = al</p>
+a = al.pop()<br>
+b = al.pop()</p>
 </blockquote>
 </li>
 </ol>
