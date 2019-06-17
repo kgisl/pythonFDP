@@ -157,6 +157,14 @@ _Using modules_
 3. Use `reversed` function - `list (reversed(al))`
 4. Write your own `reverseList` function using a loop
 
+## Four ways to swap 2 values
+
+1. Use a temp variable 
+	> temp = a 
+	> a = b 
+	> b = temp 
+2. Use subtraction 
+	> a = 
 
 ## List Parameters 
 
@@ -760,11 +768,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNT
-I0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0
-ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNi
-wzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0
-NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1OD
-IzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYsLTE0NTM2MTA4MCwt
-MTk3MzE0NDEyNF19
+eyJoaXN0b3J5IjpbLTE2MjY5NTk5NDAsMTM3MDg3ODE4NSwxOT
+Y0OTQ5MTMwLC0xNTI0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2
+ODQ5OTMsLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MC
+wtMTY4OTc4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4
+Mjk2NjgzLDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNT
+kyNiwxNjM1NTI1ODIzLC0yMTMyMTA5NjUsLTEyNjM4MDM1NDYs
+LTE0NTM2MTA4MF19
 -->
