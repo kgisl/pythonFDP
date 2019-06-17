@@ -133,10 +133,11 @@ The beauty of MergeSort is that regardless of the list and how badly it is sorte
 
 Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
   - http://j.mp/mergePAW
+  - This is the script I use in my sample video https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNTE5MDg1LDExNzA2MTg0NzksODU5Nz
-M5MjE5LC0xMzU4NjM3MzY1LDExMTE4NTY0MTYsMTQ4MzEyNjM3
-MV19
+eyJoaXN0b3J5IjpbLTg0Nzc2Njc1OSwyMzA1MTkwODUsMTE3MD
+YxODQ3OSw4NTk3MzkyMTksLTEzNTg2MzczNjUsMTExMTg1NjQx
+NiwxNDgzMTI2MzcxXX0=
 -->
