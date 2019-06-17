@@ -171,9 +171,9 @@ _Using modules_
 	> a ^= b 
 	> b ^= a
 	> a ^= b 
-4. Using list unpacking
-	 > al = [a, b]
-	> a, b = al
+4. Using tuple unpacking
+	 > a, b, = (b, a)
+5. Using list methods
 
 ## List Parameters 
 
@@ -777,11 +777,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNz
-A4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1
-MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4ODU3Nj
-UsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEwNzk1
-ODQwMDgsLTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1MTA5MTc3Mz
-QsLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEwOTY1LC0x
-MjYzODAzNTQ2XX0=
+eyJoaXN0b3J5IjpbMTYzMzk0MzAxNiwxNjYxMTcyNzk3LDIwNz
+cwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2
+NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMD
+AsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2
+MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOC
+wtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwxNjM1NTI1ODIzLC0y
+MTMyMTA5NjVdfQ==
 -->
