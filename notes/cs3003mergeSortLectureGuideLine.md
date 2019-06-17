@@ -135,9 +135,19 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
   - http://j.mp/mergePAW
   - This is the script I use in my sample video http://bit.ly/mergeVideo
 
+## Solve the Million Element Merge Sort
+
+Use  [http://ras.am](http://ras.am/)  (yes, RASAM!) to get to the CyberDojo server.
+
+Use **elzm6m** as the session ID.
+
+  
+
+Use KG.id file to claim the Avatar that is assigned to you.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDA4NDgxMCwyMzA1MTkwODUsMTE3MD
-YxODQ3OSw4NTk3MzkyMTksLTEzNTg2MzczNjUsMTExMTg1NjQx
-NiwxNDgzMTI2MzcxXX0=
+eyJoaXN0b3J5IjpbNTI4MjIxOTM5LC05ODQwODQ4MTAsMjMwNT
+E5MDg1LDExNzA2MTg0NzksODU5NzM5MjE5LC0xMzU4NjM3MzY1
+LDExMTE4NTY0MTYsMTQ4MzEyNjM3MV19
 -->
