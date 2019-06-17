@@ -1,5 +1,5 @@
-# Merge Sort Lecture Guideline
-
+# Merge Sort 
+_Lecture Guidelines_
 # Context setting 
 Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
   - It is very important to use a data type in a real-world case, to understand its true value and benefit. 
@@ -132,5 +132,6 @@ The beauty of MergeSort is that regardless of the list and how badly it is sorte
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTg1NjQxNiwxNDgzMTI2MzcxXX0=
+eyJoaXN0b3J5IjpbLTEzNTg2MzczNjUsMTExMTg1NjQxNiwxND
+gzMTI2MzcxXX0=
 -->
