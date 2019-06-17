@@ -141,9 +141,17 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 	- Use **elzm6m** as the session ID.
 	- Use KG.id file to claim the Avatar that is assigned to you.
 
-
+```python
+def test_a_million_mostly_sorted_elements(): 
+  '''1_000_000 number of elements, mostly sorted''' 
+  alist = list(range(950_000)) 
+  sublist = list(range(950_000, 1_000_000)) 
+  random.shuffle(sublist) 
+  alist += sublist 
+  assert mergesort(alist, True) == list(range(1_000_000))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTM2NTI1MCwtOTg0MDg0ODEwLDIzMD
-UxOTA4NSwxMTcwNjE4NDc5LDg1OTczOTIxOSwtMTM1ODYzNzM2
-NSwxMTExODU2NDE2LDE0ODMxMjYzNzFdfQ==
+eyJoaXN0b3J5IjpbMzM4NjE0NDg5LC05ODQwODQ4MTAsMjMwNT
+E5MDg1LDExNzA2MTg0NzksODU5NzM5MjE5LC0xMzU4NjM3MzY1
+LDExMTE4NTY0MTYsMTQ4MzEyNjM3MV19
 -->
