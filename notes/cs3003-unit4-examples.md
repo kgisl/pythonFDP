@@ -202,6 +202,7 @@ Practice selection sort at http://j.mp/selectionSortCC
 
 # MergeSort
 
+![tldr](http://j.mp/tldr
 ## Pre-requisites
 
    - List functions
@@ -221,7 +222,6 @@ Practice selection sort at http://j.mp/selectionSortCC
     - Misc 
         - Provide an example for using the ternary operator in Python
         - What is the most critical thing that is to be specified in a recursive call so that the program does not run forever? 
-        - How do you swap two variables in the same statement? 
     - Ultimate challenge 
       - http://j.mp/sortApply 
 
@@ -468,11 +468,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLT
-MwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAz
-OTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyND
-AsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4
-NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2Nz
-UzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMsMTM4MzkyODkxLDIx
-NDQ5NjA3MDZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDMyMDUzMTUsLTExOTA0MzA2NTEsLT
+EzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5
+MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxOD
+csLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTEx
+NjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MT
+c1NjgsMTQxODE2NzUzMSwtNDE5MjY0NDUzLDIwNTc5NDMyNTMs
+MTM4MzkyODkxXX0=
 -->
