@@ -1,4 +1,8 @@
-
+'''
+File that is used on PythonAnywhere iPython console to do
+a demo of the Divide and Conquer concepts that make
+up the Merge Sort algorithm
+'''
 from colorama import Fore, Back, Style
 '''
 print(Fore.RED + 'some red text')
@@ -9,15 +13,20 @@ print('back to normal now')
 '''
 
 from inspect import getsource, getsourcelines
+
 def fprint(fname):
+    '''
+    My own function source code inspection function
+    Filters out any print statements and input statements
+    '''
     lines, count = getsourcelines(fname)
     print("----source code for", fname.__name__)
-    clines = "" 
-    for line in lines: 
+    clines = ""
+    for line in lines:
         if fname.__name__ == "fprint" or \
             ("print" not in line and \
-            "input()" not in line): 
-            clines = clines + line 
+            "input()" not in line):
+            clines = clines + line
     print(clines)
 
 
@@ -34,7 +43,7 @@ def divideTwo(al):
 
 def merge(A, B):
   '''
-  merge generates a new sorted list containing 
+  merge generates a new sorted list containing
   all elements contained in both sorted lists
   '''
   print('     {0} and {1} merged into '.format(A,B))
