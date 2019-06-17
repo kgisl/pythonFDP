@@ -173,7 +173,11 @@ _Using modules_
 	> a ^= b 
 4. Using tuple unpacking
 	 > a, b, = (b, a)
-5. Using list methods
+5. Using list methods 
+     > al = [a, b]
+     > a = al.pop()
+     > b = al.pop()
+   
 
 ## List Parameters 
 
@@ -777,7 +781,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzk0MzAxNiwxNjYxMTcyNzk3LDIwNz
+eyJoaXN0b3J5IjpbMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNz
 cwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2
 NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMD
 AsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2
