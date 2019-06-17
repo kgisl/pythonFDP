@@ -164,9 +164,11 @@ _Using modules_
 	> a = b 
 	> b = temp 
 2. Use subtraction 
+	> a = a + b
+	> b = a - b  
 	> a = a - b 
-	> b = b - a 
-	> a = a - b 
+	Using XOR 
+	> a 
 
 ## List Parameters 
 
@@ -770,11 +772,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5Nj
-Q5NDkxMzAsLTE1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4
-NDk5MywtMjA3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC
-0xNjg5Nzg3MTA2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC02MTgy
-OTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0xNjMwNTI1OT
-I2LDE2MzU1MjU4MjMsLTIxMzIxMDk2NSwtMTI2MzgwMzU0Niwt
-MTQ1MzYxMDgwXX0=
+eyJoaXN0b3J5IjpbMTc2NjE2ODIxMSwyMDc3MDAxODczLDEzNz
+A4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1
+MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4ODU3Nj
+UsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEwNzk1
+ODQwMDgsLTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1MTA5MTc3Mz
+QsLTE2MzA1MjU5MjYsMTYzNTUyNTgyMywtMjEzMjEwOTY1LC0x
+MjYzODAzNTQ2XX0=
 -->
