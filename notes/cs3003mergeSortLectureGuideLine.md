@@ -25,9 +25,7 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 
 ## Stage - 1
  - How to divide a sorted list into equal halves? 
- - How to mere the list back into original form? 
- - How to form odd and even lists?
-	 -  And then merge them together to get sorted numbers from 1 to 8? 
+ - How to merge the list back into original form? 
 
 ---
 
@@ -134,5 +132,5 @@ The beauty of MergeSort is that regardless of the list and how badly it is sorte
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0ODUyMDc3LDE0ODMxMjYzNzFdfQ==
+eyJoaXN0b3J5IjpbMTExMTg1NjQxNiwxNDgzMTI2MzcxXX0=
 -->
