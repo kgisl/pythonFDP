@@ -28,6 +28,7 @@
 <li><a href="#summary">Summary</a></li>
 <li><a href="#last-2-minute">Last 2 Minute</a></li>
 <li><a href="#program-file-for-demo">Program File for Demo</a></li>
+<li><a href="#solve-the-million-element-merge-sort">Solve the Million Element Merge Sort</a></li>
 </ul>
 </li>
 </ul>
@@ -196,6 +197,23 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <li><a href="http://j.mp/mergePAW">http://j.mp/mergePAW</a></li>
 <li>This is the script I use in my sample video <a href="http://bit.ly/mergeVideo">http://bit.ly/mergeVideo</a></li>
 </ul>
+<h2 id="solve-the-million-element-merge-sort">Solve the Million Element Merge Sort</h2>
+<ul>
+<li>Use  <a href="http://ras.am/">http://ras.am</a>  (yes, RASAM!) to get to the CyberDojo server.
+<ul>
+<li>Use <strong>elzm6m</strong> as the session ID.</li>
+<li>Use <a href="http://KG.id">KG.id</a> file to claim the Avatar that is assigned to you.</li>
+</ul>
+</li>
+</ul>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">test_a_million_mostly_sorted_elements</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> 
+  <span class="token triple-quoted-string string">'''1_000_000 number of elements, mostly sorted'''</span> 
+  alist <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span>950_000<span class="token punctuation">)</span><span class="token punctuation">)</span> 
+  sublist <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span>950_000<span class="token punctuation">,</span> 1_000_000<span class="token punctuation">)</span><span class="token punctuation">)</span> 
+  random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span>sublist<span class="token punctuation">)</span> 
+  alist <span class="token operator">+=</span> sublist 
+  <span class="token keyword">assert</span> mergesort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> <span class="token boolean">True</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span>1_000_000<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
 
     </div>
   </div>
