@@ -23,6 +23,7 @@
 <li><a href="#list-comprehension">List Comprehension</a></li>
 <li><a href="#eight-ways-to-copyclone-a-list">Eight Ways to copy/clone a list?</a></li>
 <li><a href="#four-ways-to-reverse-a-list">Four ways to reverse a list</a></li>
+<li><a href="#four-ways-to-swap-2-values">Four ways to swap 2 values</a></li>
 <li><a href="#list-parameters">List Parameters</a></li>
 <li><a href="#dictionary">Dictionary</a></li>
 <li><a href="#glossary">Glossary</a></li>
@@ -260,6 +261,36 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 </li>
 <li>Use <code>reversed</code> function - <code>list (reversed(al))</code></li>
 <li>Write your own <code>reverseList</code> function using a loop</li>
+</ol>
+<h2 id="four-ways-to-swap-2-values">Four ways to swap 2 values</h2>
+<ol>
+<li>Use a temp variable
+<blockquote>
+<p>temp = a<br>
+a = b<br>
+b = temp</p>
+</blockquote>
+</li>
+<li>Use subtraction
+<blockquote>
+<p>a = a + b<br>
+b = a - b<br>
+a = a - b</p>
+</blockquote>
+</li>
+<li>Using XOR
+<blockquote>
+<p>a ^= b<br>
+b ^= a<br>
+a ^= b</p>
+</blockquote>
+</li>
+<li>Using list unpacking
+<blockquote>
+<p>al = [a, b]<br>
+a, b = al</p>
+</blockquote>
+</li>
 </ol>
 <h2 id="list-parameters">List Parameters</h2>
 <p><a href="http://j.mp/parameterThis">http://j.mp/parameterThis</a> - what is the difference between parameters and arguments?</p>
