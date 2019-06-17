@@ -202,8 +202,8 @@ Practice selection sort at http://j.mp/selectionSortCC
 
 # MergeSort
 
-tl; dr: 
-![tldr](http://bit.ly/tamilMerge)
+tl;dr![tldr](http://bit.ly/tamilMerge)
+The key thing is to slice into almost two equal halves. That's the **crux**!
 
 ## Pre-requisites
 
@@ -470,11 +470,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MD
-QzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0
-NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMT
-Q1ODk3MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0
-MjU4NywtMTE2MDUzMjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5Nj
-UsMTk0NzUxNzU2OCwxNDE4MTY3NTMxLC00MTkyNjQ0NTMsMjA1
-Nzk0MzI1M119
+eyJoaXN0b3J5IjpbNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwND
+g3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgz
+Miw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNT
+kwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1
+Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OC
+wxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5
+MjY0NDUzXX0=
 -->
