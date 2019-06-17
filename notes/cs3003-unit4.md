@@ -167,8 +167,13 @@ _Using modules_
 	> a = a + b
 	> b = a - b  
 	> a = a - b 
-	Using XOR 
-	> a 
+3. Using XOR 
+	> a ^= b 
+	> b ^= a
+	> a ^= b 
+4. Using list unpacking
+	 > al = [a, b]
+	> a, b = al
 
 ## List Parameters 
 
@@ -772,7 +777,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjE2ODIxMSwyMDc3MDAxODczLDEzNz
+eyJoaXN0b3J5IjpbMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNz
 A4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1
 MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4ODU3Nj
 UsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEwNzk1
