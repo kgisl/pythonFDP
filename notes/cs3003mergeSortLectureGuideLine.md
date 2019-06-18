@@ -117,7 +117,7 @@ _Break Activity for the 20th min_ which also helps students review what was cove
 ## Summary
 1. We incrementally developed MergeSort in a "demo mode" 
 2. We arrived at the pseudo code 
-3. We wrote the equivalent code for SelectionSort 
+3. We wrote the equivalent code for MergeSort 
 
 The beauty of MergeSort is that regardless of the list and how badly it is sorted, O(n) is `nlog(n)` which is favourable among almost most sorting algorithms.  
 
@@ -151,7 +151,7 @@ def test_a_million_mostly_sorted_elements():
   assert mergesort(alist, True) == list(range(1_000_000))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NjE0NDg5LC05ODQwODQ4MTAsMjMwNT
-E5MDg1LDExNzA2MTg0NzksODU5NzM5MjE5LC0xMzU4NjM3MzY1
-LDExMTE4NTY0MTYsMTQ4MzEyNjM3MV19
+eyJoaXN0b3J5IjpbMTU0NTI0MTAwNSwzMzg2MTQ0ODksLTk4ND
+A4NDgxMCwyMzA1MTkwODUsMTE3MDYxODQ3OSw4NTk3MzkyMTks
+LTEzNTg2MzczNjUsMTExMTg1NjQxNiwxNDgzMTI2MzcxXX0=
 -->
