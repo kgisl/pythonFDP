@@ -46,6 +46,8 @@ The following table has been created by **_clustering_** multiple items based on
 
 ## List Mutability 
 
+http://bit.ly/immutableThis  - explanation of Immutability in Python 
+
 Pre-requisite: http://j.mp/immutablePython
 
 From [https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/](https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/)
@@ -781,11 +783,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIyNDY1MzEsMTE3NzI5MzA0NiwxNj
-YxMTcyNzk3LDIwNzcwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5
-MTMwLC0xNTI0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OT
-MsLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4
-OTc4NzEwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2Nj
-gzLDQwNzk0NzcxOCwtMTUxMDkxNzczNCwtMTYzMDUyNTkyNiwx
-NjM1NTI1ODIzXX0=
+eyJoaXN0b3J5IjpbMTAzMTA4MDQyMCwtMTYxMjI0NjUzMSwxMT
+c3MjkzMDQ2LDE2NjExNzI3OTcsMjA3NzAwMTg3MywxMzcwODc4
+MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0NjY0MDEsMTk4NzI3NTA4Ny
+wtMTM3NTY4NDk5MywtMjA3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2
+ODA5MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNzMxMiwxMDc5NTg0MD
+A4LC02MTgyOTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0x
+NjMwNTI1OTI2XX0=
 -->
