@@ -166,9 +166,8 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
   - This is the script I use in my sample video http://bit.ly/selectVideo
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY1NjYwNjEsLTE0MTU1NDc3MTIsNj
+eyJoaXN0b3J5IjpbLTExODg0MDQyNTEsLTE0MTU1NDc3MTIsNj
 gxMDE2NTA1LDM0NzIzNDgzOSwtMTI2MDE5NTM0MSwtMTkyNDE4
 NTM0NiwxNTU2MzEyOTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLT
 ExMzM1NTk4NzEsLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5
