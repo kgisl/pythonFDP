@@ -1,3 +1,8 @@
+'''
+File that is used on PythonAnywhere iPython console to do
+a demo of the Comparison Sorting algorithm that makes
+up the Selection Sort algorithm
+'''
 try:
     from colorama import Back, Fore, Style
 except:
