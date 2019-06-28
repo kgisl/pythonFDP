@@ -1,4 +1,5 @@
-# Selection Sort Lecture Guideline
+# Selection Sort 
+_Lecture outline_
 
 # Context setting 
 Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
@@ -160,8 +161,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3MjM0ODM5LC0xMjYwMTk1MzQxLC0xOT
-I0MTg1MzQ2LDE1NTYzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5NjE5
-MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MS
-wxMDk2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbNjgxMDE2NTA1LDM0NzIzNDgzOSwtMTI2MD
+E5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEyOTAwLDk3Njc2OTcw
+LC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLTE5MzAwNjA3ODMsLT
+E1MTAyMzMzNzEsMTA5NjU0NTM0NF19
 -->
