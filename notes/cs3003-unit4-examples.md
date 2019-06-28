@@ -158,6 +158,25 @@ Here's an example:
 
 ## Source code
 
+### Version 1
+```python
+def selectionsort(alist):
+    n = len(alist)
+    # STEP 0 - iterate through the list
+    for i in range(n-1):
+        min_i = i 
+        # STEP 1 - update mini_i with index 
+        # of min value in unsorted alist[i+1:]
+        for j in range(i+1, n): 
+            if alist[j] < alist[min_i]: 
+                min_i = j
+        # STEP 2 - swap it with element at index 'i'
+        if min_i != i:
+            alist[i], alist[min_i] = alist[min_i], alist[i]
+    return alist
+```
+
+### Version 2 
 ```python
 def selectsort(alist):
     n = len(alist) 
@@ -470,11 +489,11 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwND
-g3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgz
-Miw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNT
-kwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1
-Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OC
-wxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQxODE2NzUzMSwtNDE5
-MjY0NDUzXX0=
+eyJoaXN0b3J5IjpbLTIwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3Nj
+MwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0
+MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNT
+UzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2
+OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTExNjA1MzIyNz
+IsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5NDc1MTc1NjgsMTQx
+ODE2NzUzMV19
 -->
