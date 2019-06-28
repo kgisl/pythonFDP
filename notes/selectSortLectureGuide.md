@@ -159,11 +159,18 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
   - http://j.mp/selectionSortCC
   - Review http://j.mp/mergeVisual for the next class 
 
+## Program File for Demo
+
+Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
+  - http://j.mp/selectPAW
+  - This is the script I use in my sample video http://bit.ly/selectVideo
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU1NDc3MTIsNjgxMDE2NTA1LDM0Nz
-IzNDgzOSwtMTI2MDE5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEy
-OTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLT
-E5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTE4NTY1NjYwNjEsLTE0MTU1NDc3MTIsNj
+gxMDE2NTA1LDM0NzIzNDgzOSwtMTI2MDE5NTM0MSwtMTkyNDE4
+NTM0NiwxNTU2MzEyOTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLT
+ExMzM1NTk4NzEsLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5
+NjU0NTM0NF19
 -->
