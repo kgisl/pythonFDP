@@ -99,19 +99,20 @@ _Break Activity for the 20th min_ which also helps students review what was cove
 	- if you know how to code it, write down the code in Python as well 
 	- Go back and improve the pseudo code as well 
 
-```python 
-  def selectsort(alist):
-    n = len(alist) 
+```python
+def selectionsort(alist):
+    n = len(alist)
     # STEP 0 - iterate through the list
     for i in range(n-1):
-        # STEP 1 - find the index of the minimum
-        unsorted = alist[i:]
-        smallest = min(unsorted)
-        min_i = alist.index(smallest, i)
-        # STEP 2 - swap if required 
+        min_i = i 
+        # STEP 1 - update mini_i with index 
+        # of min value in unsorted alist[i+1:]
+        for j in range(i+1, n): 
+            if alist[j] < alist[min_i]: 
+                min_i = j
+        # STEP 2 - swap it with element at index 'i'
         if min_i != i:
-            alist[i],alist[min_i] = alist[min_i], alist[i]
-            print("intermediary", alist)
+            alist[i], alist[min_i] = alist[min_i], alist[i]
     return alist
 ```
 
@@ -161,8 +162,8 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMDE2NTA1LDM0NzIzNDgzOSwtMTI2MD
-E5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEyOTAwLDk3Njc2OTcw
-LC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLTE5MzAwNjA3ODMsLT
-E1MTAyMzMzNzEsMTA5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTE0MTU1NDc3MTIsNjgxMDE2NTA1LDM0Nz
+IzNDgzOSwtMTI2MDE5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEy
+OTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLT
+E5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
 -->
