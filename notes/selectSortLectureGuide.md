@@ -68,7 +68,7 @@ Show of hands as to many of you students reviewed all the above questions and ha
 
 ## Selection Sort Description 
 
--   In  `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go  **select**  the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
+-   In  `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go  **select**  the minimum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
 
 ## Pseudo Code 
 
@@ -82,7 +82,7 @@ Have seen the example, it becomes very easy to define the pseudo code for Select
 The Python code to implement the pseudo code above:
 
 ```python 
-  def  selectsort(alist): 
+  def  selectionsort(alist): 
     n =  len(alist)
     for i in  range(n-1):
 	  unsorted = alist[i:] 
@@ -167,9 +167,9 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg0MDQyNTEsLTE0MTU1NDc3MTIsNj
-gxMDE2NTA1LDM0NzIzNDgzOSwtMTI2MDE5NTM0MSwtMTkyNDE4
-NTM0NiwxNTU2MzEyOTAwLDk3Njc2OTcwLC04ODc3OTYxOTMsLT
-ExMzM1NTk4NzEsLTE5MzAwNjA3ODMsLTE1MTAyMzMzNzEsMTA5
-NjU0NTM0NF19
+eyJoaXN0b3J5IjpbMTQxMTEzNTUxNSwtMTE4ODQwNDI1MSwtMT
+QxNTU0NzcxMiw2ODEwMTY1MDUsMzQ3MjM0ODM5LC0xMjYwMTk1
+MzQxLC0xOTI0MTg1MzQ2LDE1NTYzMTI5MDAsOTc2NzY5NzAsLT
+g4Nzc5NjE5MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUx
+MDIzMzM3MSwxMDk2NTQ1MzQ0XX0=
 -->
