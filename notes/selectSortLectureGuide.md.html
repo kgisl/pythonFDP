@@ -147,7 +147,7 @@
 <p><img src="http://bit.ly/select2PNG" alt="select"></p>
 <h2 id="selection-sort-description">Selection Sort Description</h2>
 <ul>
-<li>In  <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go  <strong>select</strong>  the maximum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
+<li>In  <code>selectsort</code>, the position of the update is pre-determined, starting from the beginning of the list. We then go  <strong>select</strong>  the minimum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.</li>
 </ul>
 <h2 id="pseudo-code">Pseudo Code</h2>
 <p>Have seen the example, it becomes very easy to define the pseudo code for SelectionSort</p>
@@ -157,7 +157,7 @@
 	swap minimum with first unsorted position
 </code></pre>
 <p>The Python code to implement the pseudo code above:</p>
-<pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span>  <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+<pre class=" language-python"><code class="prism  language-python">  <span class="token keyword">def</span>  <span class="token function">selectionsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
     n <span class="token operator">=</span>  <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
     <span class="token keyword">for</span> i <span class="token keyword">in</span>  <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 	  unsorted <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">:</span><span class="token punctuation">]</span> 
