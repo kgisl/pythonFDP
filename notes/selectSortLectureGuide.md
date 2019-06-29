@@ -68,7 +68,7 @@ Show of hands as to many of you students reviewed all the above questions and ha
 
 ## Selection Sort Description 
 
--   In  `selectsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go  **select**  the minimum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
+-   In  `selectionsort`, the position of the update is pre-determined, starting from the beginning of the list. We then go  **select**  the minimum value among the unsorted elements of the list, and swap it with the element in the pre-determined location.
 
 ## Pseudo Code 
 
@@ -167,9 +167,9 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTEzNTUxNSwtMTE4ODQwNDI1MSwtMT
-QxNTU0NzcxMiw2ODEwMTY1MDUsMzQ3MjM0ODM5LC0xMjYwMTk1
-MzQxLC0xOTI0MTg1MzQ2LDE1NTYzMTI5MDAsOTc2NzY5NzAsLT
-g4Nzc5NjE5MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUx
-MDIzMzM3MSwxMDk2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbODc3MTA2MjM3LDE0MTExMzU1MTUsLTExOD
+g0MDQyNTEsLTE0MTU1NDc3MTIsNjgxMDE2NTA1LDM0NzIzNDgz
+OSwtMTI2MDE5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEyOTAwLD
+k3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLTE5MzAw
+NjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
 -->
