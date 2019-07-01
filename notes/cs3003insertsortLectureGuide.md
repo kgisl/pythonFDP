@@ -32,7 +32,7 @@ Show of hands as to many of you students reviewed all the above questions and ha
 	- best practice of a engineering student is to come prepared for the class. You must spend at least 2 hours reviewing the material taught in class, and preparing for the class 
 
 ## Use a Pack of Cards
-http://j.mp/compareSort
+http://j.mp/compareSort - the first 35 seconds of the video 
 
 ## Interactive Coding
 
@@ -141,6 +141,6 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTU0OTA0OSwxOTEzOTUwNywtMTMyMz
+eyJoaXN0b3J5IjpbLTU0MzY4NTg3MSwxOTEzOTUwNywtMTMyMz
 I4Njg2N119
 -->
