@@ -92,7 +92,7 @@ def insertionsort(alist):
     for i in range(1, len(alist)): 
         key = alist[i]
         insort(alist, key, i)
-        return alist
+    return alist
 
 def insort(alist, key, j): 
     '''insort inserts 'key' into the 
@@ -139,5 +139,6 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4MzQ4MDY1LC0xMzIzMjg2ODY3XX0=
+eyJoaXN0b3J5IjpbLTEzMzYxMTkwMDcsLTEzMjMyODY4NjddfQ
+==
 -->
