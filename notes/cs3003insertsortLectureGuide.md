@@ -111,7 +111,6 @@ The following code can be used to test the above code:
 from random import shuffle 
 alist = list(range(11, 19))
 shuffle(alist)
-
 print("Unsorted", alist)
 print("Sorted", insertionsort(alist))
 ```
@@ -139,6 +138,5 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYxMTkwMDcsLTEzMjMyODY4NjddfQ
-==
+eyJoaXN0b3J5IjpbMTkxMzk1MDcsLTEzMjMyODY4NjddfQ==
 -->
