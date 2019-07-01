@@ -33,7 +33,7 @@ Show of hands as to many of you students reviewed all the above questions and ha
 
 ## Interactive Coding
 
-## Stage - 1
+## Stage 1
   - Manual sorting, like you were to sort a list of cards
 	  - use a custom built `insort` function
 
@@ -138,5 +138,5 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMyODY4NjddfQ==
+eyJoaXN0b3J5IjpbOTI5NzA2NTAsLTEzMjMyODY4NjddfQ==
 -->
