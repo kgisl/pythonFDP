@@ -24,7 +24,7 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 		- Do you know something already 
 		- Known to Unknown
 
-
+![index](http://j.mp/indexList)
 
  - What is the code to iterate over all the elements in a list?
  - What is the code to iterate over all the elements in a list, starting from the 2nd element in the list? 
@@ -145,7 +145,7 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NDU2NTU5LC0zMTA2MzI3NDksMTM1MD
-g2MjIxOSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3
-XX0=
+eyJoaXN0b3J5IjpbMjMzNzY0MzU3LDQ2OTQ1NjU1OSwtMzEwNj
+MyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3MSwxOTEzOTUwNywt
+MTMyMzI4Njg2N119
 -->
