@@ -26,11 +26,11 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 
 ![index](http://j.mp/indexList)
 
- - Finish the http://bit.ly/insortCC
  - What is the code to iterate over all the elements in a list?
  - What is the code to iterate over all the elements in a list, starting from the 2nd element in the list? 
  - If `al= [11, 12, 13, 14, 15]`, and `al[2] = 15` are executed, what will be `al` contain? 
  - If you have more time, http://j.mp/insertTDD
+ - Finish the http://bit.ly/insortCC
 
 Show of hands as to many of you students reviewed all the above questions and have answers written down in your notebooks? 
 	- best practice of a engineering student is to come prepared for the class. You must spend at least 2 hours reviewing the material taught in class, and preparing for the class 
@@ -146,7 +146,7 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzA1OTA0OCwyMzM3NjQzNTcsNDY5ND
-U2NTU5LC0zMTA2MzI3NDksMTM1MDg2MjIxOSwtNTQzNjg1ODcx
-LDE5MTM5NTA3LC0xMzIzMjg2ODY3XX0=
+eyJoaXN0b3J5IjpbLTEzMDkwOTU3OTAsMjMzNzY0MzU3LDQ2OT
+Q1NjU1OSwtMzEwNjMyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3
+MSwxOTEzOTUwNywtMTMyMzI4Njg2N119
 -->
