@@ -84,7 +84,7 @@ More detailed pseudo-code:
     return sorted list
    
 	
-# Source Code
+## Source Code
 The Python code to implement the pseudo code above:
 
 
@@ -96,6 +96,7 @@ def insertionsort(alist):
     for i in range(1, len(alist)): 
         key = alist[i]
         insort(alist, key, i)
+        print("inter", alist)
     return alist
 
 def insort(alist, key, j): 
@@ -142,6 +143,6 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDg2MjIxOSwtNTQzNjg1ODcxLDE5MT
-M5NTA3LC0xMzIzMjg2ODY3XX0=
+eyJoaXN0b3J5IjpbLTMxMDYzMjc0OSwxMzUwODYyMjE5LC01ND
+M2ODU4NzEsMTkxMzk1MDcsLTEzMjMyODY4NjddfQ==
 -->
