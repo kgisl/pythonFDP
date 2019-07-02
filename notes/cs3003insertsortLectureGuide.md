@@ -24,6 +24,8 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 		- Do you know something already 
 		- Known to Unknown
 
+
+
  - What is the code to iterate over all the elements in a list?
  - What is the code to iterate over all the elements in a list, starting from the 2nd element in the list? 
  - If `al= [11, 12, 13, 14, 15]`, and `al[2] = 15` are executed, what will be `al` contain? 
@@ -143,6 +145,7 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDYzMjc0OSwxMzUwODYyMjE5LC01ND
-M2ODU4NzEsMTkxMzk1MDcsLTEzMjMyODY4NjddfQ==
+eyJoaXN0b3J5IjpbNDY5NDU2NTU5LC0zMTA2MzI3NDksMTM1MD
+g2MjIxOSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3
+XX0=
 -->
