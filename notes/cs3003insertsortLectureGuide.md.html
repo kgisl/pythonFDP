@@ -24,10 +24,7 @@
 <li><a href="#stage-2">Stage 2</a></li>
 <li><a href="#insertion-sort-description">Insertion Sort Description</a></li>
 <li><a href="#pseudo-code">Pseudo Code</a></li>
-</ul>
-</li>
-<li><a href="#source-code">Source Code</a>
-<ul>
+<li><a href="#source-code">Source Code</a></li>
 <li><a href="#summary">Summary</a></li>
 <li><a href="#last-2-minute">Last 2 Minute</a></li>
 <li><a href="#program-file-for-demo">Program File for Demo</a></li>
@@ -75,10 +72,12 @@
 	- Do you know something already 
 	- Known to Unknown
 </code></pre>
+<p><img src="http://j.mp/indexList" alt="index"></p>
 <ul>
 <li>What is the code to iterate over all the elements in a list?</li>
 <li>What is the code to iterate over all the elements in a list, starting from the 2nd element in the list?</li>
 <li>If <code>al= [11, 12, 13, 14, 15]</code>, and <code>al[2] = 15</code> are executed, what will be <code>al</code> contain?</li>
+<li>If you have more time, <a href="http://j.mp/insertTDD">http://j.mp/insertTDD</a></li>
 </ul>
 <p>Show of hands as to many of you students reviewed all the above questions and have answers written down in your notebooks?<br>
 - best practice of a engineering student is to come prepared for the class. You must spend at least 2 hours reviewing the material taught in class, and preparing for the class</p>
@@ -126,7 +125,7 @@ for each unsorted element X
     else break loop and insert X here
 return sorted list
 </code></pre>
-<h1 id="source-code">Source Code</h1>
+<h2 id="source-code">Source Code</h2>
 <p>The Python code to implement the pseudo code above:</p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">insertionsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span> 
     <span class="token triple-quoted-string string">'''insertionsort algorithm implemented 
@@ -135,6 +134,7 @@ return sorted list
     <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span> 
         key <span class="token operator">=</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
         insort<span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"inter"</span><span class="token punctuation">,</span> alist<span class="token punctuation">)</span>
     <span class="token keyword">return</span> alist
 
 <span class="token keyword">def</span> <span class="token function">insort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">:</span> 
