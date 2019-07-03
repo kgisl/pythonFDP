@@ -147,12 +147,13 @@ print("Sorted", insertionsort(alist))
 
 Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
   - http://j.mp/insertPAW
-  - This is the script I use in my sample video http://bit.ly/insertVideo
+  - This is the script I use in my sample video http://bit.ly/insertVideo2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQxMzM5MzYsLTY3NDQ5MjQ2NCwtMj
-YwMjc1MjkwLDE3NjA4MTMzNzAsLTEzMDkwOTU3OTAsMjMzNzY0
-MzU3LDQ2OTQ1NjU1OSwtMzEwNjMyNzQ5LDEzNTA4NjIyMTksLT
-U0MzY4NTg3MSwxOTEzOTUwNywtMTMyMzI4Njg2N119
+eyJoaXN0b3J5IjpbLTEzMTM5MTkxNTgsLTEyMTQxMzM5MzYsLT
+Y3NDQ5MjQ2NCwtMjYwMjc1MjkwLDE3NjA4MTMzNzAsLTEzMDkw
+OTU3OTAsMjMzNzY0MzU3LDQ2OTQ1NjU1OSwtMzEwNjMyNzQ5LD
+EzNTA4NjIyMTksLTU0MzY4NTg3MSwxOTEzOTUwNywtMTMyMzI4
+Njg2N119
 -->
