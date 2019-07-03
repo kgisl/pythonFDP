@@ -163,13 +163,14 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 
 Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
   - http://j.mp/selectPAW
-  - This is the script I use in my sample video http://bit.ly/selectVideo
+  - This is the script I use in my sample video http://bit.ly/selectVideo2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MTA2MjM3LDE0MTExMzU1MTUsLTExOD
-g0MDQyNTEsLTE0MTU1NDc3MTIsNjgxMDE2NTA1LDM0NzIzNDgz
-OSwtMTI2MDE5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEyOTAwLD
-k3Njc2OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLTE5MzAw
-NjA3ODMsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
+eyJoaXN0b3J5IjpbLTkwOTk4MzIzNSw4NzcxMDYyMzcsMTQxMT
+EzNTUxNSwtMTE4ODQwNDI1MSwtMTQxNTU0NzcxMiw2ODEwMTY1
+MDUsMzQ3MjM0ODM5LC0xMjYwMTk1MzQxLC0xOTI0MTg1MzQ2LD
+E1NTYzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5NjE5MywtMTEzMzU1
+OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMzM3MSwxMDk2NTQ1Mz
+Q0XX0=
 -->
