@@ -31,6 +31,7 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
  - If `al= [11, 12, 13, 14, 15]`, and `al[2] = 15` are executed, what will be `al` contain? 
  - If you have more time, http://j.mp/insertTDD
  - Finish the http://bit.ly/insortCC
+	 - http://bit.ly/insortVideoKey
 
 Show of hands as to many of you students reviewed all the above questions and have answers written down in your notebooks? 
 	- best practice of a engineering student is to come prepared for the class. You must spend at least 2 hours reviewing the material taught in class, and preparing for the class 
@@ -150,7 +151,8 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDgxMzM3MCwtMTMwOTA5NTc5MCwyMz
-M3NjQzNTcsNDY5NDU2NTU5LC0zMTA2MzI3NDksMTM1MDg2MjIx
-OSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3XX0=
+eyJoaXN0b3J5IjpbLTEyNDY5MTk0MjMsMTc2MDgxMzM3MCwtMT
+MwOTA5NTc5MCwyMzM3NjQzNTcsNDY5NDU2NTU5LC0zMTA2MzI3
+NDksMTM1MDg2MjIxOSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMz
+IzMjg2ODY3XX0=
 -->
