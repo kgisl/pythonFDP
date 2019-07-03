@@ -4,7 +4,10 @@ Define a function **insort(_list_, _item_, _hi_)** which takes three arguments.
 
 It should locate the proper insertion point for _item_ in _list_ to maintain sorted order and place _item_ at that location. The parameter _hi_ is the current index of _item_ in _list_. 
 
-1. Avoid using list methods in your solution. 
+Implement a solution that does not have any  
+
+### OPTIONAL 
+- Implement a solution using list methods
 
 ## Example 
 
@@ -13,6 +16,6 @@ It should locate the proper insertion point for _item_ in _list_ to maintain sor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzU3Njc0MCwtMTM0MTM1NzI2NCwxMz
-Q1MjM3OTQzLDEyNzcyMjkzOTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDk3NTg2MTQsLTEzNDEzNTcyNjQsMT
+M0NTIzNzk0MywxMjc3MjI5Mzk2XX0=
 -->
