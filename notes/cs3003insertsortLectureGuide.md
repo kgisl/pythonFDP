@@ -40,9 +40,12 @@ http://j.mp/compareSort - the first 35 seconds of the video
 
 ## Interactive Coding
 
-## Stage 1
+## Stage 0
   - Manual sorting, like you were to sort a list of cards
 	  - use a custom built `insort` function
+
+## Stage 1 
+  - 
 
 ---
 
@@ -146,7 +149,7 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkwOTU3OTAsMjMzNzY0MzU3LDQ2OT
-Q1NjU1OSwtMzEwNjMyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3
-MSwxOTEzOTUwNywtMTMyMzI4Njg2N119
+eyJoaXN0b3J5IjpbLTM5OTk5ODIxOSwtMTMwOTA5NTc5MCwyMz
+M3NjQzNTcsNDY5NDU2NTU5LC0zMTA2MzI3NDksMTM1MDg2MjIx
+OSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3XX0=
 -->
