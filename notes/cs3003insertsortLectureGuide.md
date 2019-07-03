@@ -57,6 +57,8 @@ http://j.mp/compareSort - the first 35 seconds of the video
 ## Stage 2 
 Understanding how to write the `insort` function which is used in `insertionsort` 
 
+Use http://j.mp/insortCC 
+
 
 ## Insertion Sort Description 
 
@@ -151,8 +153,8 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDI3NTI5MCwxNzYwODEzMzcwLC0xMz
-A5MDk1NzkwLDIzMzc2NDM1Nyw0Njk0NTY1NTksLTMxMDYzMjc0
-OSwxMzUwODYyMjE5LC01NDM2ODU4NzEsMTkxMzk1MDcsLTEzMj
-MyODY4NjddfQ==
+eyJoaXN0b3J5IjpbLTY3NDQ5MjQ2NCwtMjYwMjc1MjkwLDE3Nj
+A4MTMzNzAsLTEzMDkwOTU3OTAsMjMzNzY0MzU3LDQ2OTQ1NjU1
+OSwtMzEwNjMyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3MSwxOT
+EzOTUwNywtMTMyMzI4Njg2N119
 -->
