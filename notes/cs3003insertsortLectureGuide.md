@@ -44,17 +44,18 @@ http://j.mp/compareSort - the first 35 seconds of the video
   - Manual sorting, like you were to sort a list of cards
 	  - use a custom built `insort` function
 
-## Stage 1 
-  - 
-
 ---
 
-## Stage 2
+## Stage 1
 4. Define an iteration through the list, and do this for every element in the list 
 5. Initialize the right variables and execute the code
 6. Place the entire code inside inside a function definition and call it `insertionsort` 
 
 ![insert](http://bit.ly/insertionSortPNG)
+
+## Stage 2 
+Understanding how to write the `insort` function which is used in `insertionsort` 
+
 
 ## Insertion Sort Description 
 
@@ -149,7 +150,7 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTk5ODIxOSwtMTMwOTA5NTc5MCwyMz
+eyJoaXN0b3J5IjpbMTc2MDgxMzM3MCwtMTMwOTA5NTc5MCwyMz
 M3NjQzNTcsNDY5NDU2NTU5LC0zMTA2MzI3NDksMTM1MDg2MjIx
 OSwtNTQzNjg1ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3XX0=
 -->
