@@ -15,9 +15,14 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="insort">insort</h1>
+  <div class="stackedit__html"><h2 id="insort">insort</h2>
 <p>Define a function <strong>insort(<em>list</em>, <em>item</em>, <em>hi</em>)</strong> which takes three arguments.</p>
-<p>It should locate the proper insertion point for <em>item</em> in <em>list</em> to maintain sorted order and place <em>item</em> at that location. The parameter <em>ki</em> (the current index of <em>item</em> in <em>list</em>) may be used to specify a subset of the list which should be considered. This assumes that the subset of <em>list</em> is already sorted.</p>
+<p>It should locate the proper insertion point for <em>item</em> in <em>list</em> to maintain sorted order and place <em>item</em> at that location. The parameter <em>hi</em> is the current index of <em>item</em> in <em>list</em>.</p>
+<p>Implement a solution that does not have any list methods.</p>
+<h3 id="optional">OPTIONAL</h3>
+<ul>
+<li>Implement a solution using list methods</li>
+</ul>
 <h2 id="example">Example</h2>
 <pre><code>insort([1, 2, 3, -1], -1, 3) =&gt; [-1, 1, 2, 3]
 insort([3, 5, 4], 4, 2) =&gt; [3, 4, 5]
