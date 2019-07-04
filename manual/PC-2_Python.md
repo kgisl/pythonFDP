@@ -26,7 +26,8 @@
 - http://j.mp/selfConverge - first iteration mode, and then recursion mode - because it will require default argument values. 
 - http://j.mp/spyPlaneCD - come with the most elegant code for this 
 - http://j.mp/permutePython and/or on CyberDojo
-- http://j.mp/friendsCC
+- http://j.mp/friendsCC - friends of friends
+- http://j.mp/unionListCC - merge two lists into one, remove duplicates
 
 
 ## Further Steps 
@@ -49,13 +50,16 @@ The "Thala-Ajith" movie ticketing challenge. Pick an avatar at http://j.mp/ticke
 - find whether a string has duplicates 
 	- determine whether a string is an isogram 
 
+
 ## Misc 2  
   - partial pangrams 
   - higher order isograms 
 
+
 ## Misc 3   
    - codify  the substring search algorithm [Knuth-Morris-Pratt](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 		- https://j.mp/kmpAlgorithmVideo by NPTEL 
+
 
 ## Motivations 
  - PC2 is all about learning a threshold concept (**pointers** in C, **problem solving using TDD** in Python, **patterns** like MVC in C++/Java, **promises** in JavaScript) 
