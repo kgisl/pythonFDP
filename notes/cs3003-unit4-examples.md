@@ -492,15 +492,15 @@ http://bit.ly/complexThis
 ## Prologue 
 _A separate introductory section of a literary, dramatic, or musical work._
 
-InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive  and at the same time very effective in engaging students of diverse learning capabilities. 
+InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
 
-A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The curious student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
+A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The ***curious*** student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
 ![verbose](http://bit.ly/sortVerbose)
 
 
 ## Helper functions
-Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. These methods also help quickly differentiate the sorts from each other. 
+Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. These methods help in presenting the algorithm in an incremental fashion, reducing the cognitive load on the student. 
 
 ```python
 def  insort(alist, key, j):  
@@ -535,11 +535,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk5NTEwNzIsLTE2NDA2ODAxMDUsLT
-IwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3
-MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMi
-w0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkw
-MDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1Mz
-g0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwx
-MjY0NzQzOTY1XX0=
+eyJoaXN0b3J5IjpbOTQ5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMD
+AzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAw
+LC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0zMDY4NDk4MzIsND
+k1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1MzMwMzkyMSwtMTU5MDAw
+MjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4ND
+ksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2
+NDc0Mzk2NV19
 -->
