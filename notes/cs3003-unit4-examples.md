@@ -517,6 +517,7 @@ def  insort(alist, key, j):
         j -=  1 
     alist[j]  = key
 ```
+http://j.mp/insortCC 
 
 ```python
 def min_index(alist, i):
@@ -530,6 +531,7 @@ def min_index(alist, i):
             min_i = j
     return min_i
 ```
+Refactor the above function to a one line function.
 
 ```python
 def  merge(A, B): 
@@ -544,15 +546,15 @@ def  merge(A, B):
     # pick up the residual elements in A or B 
     return C + A + B
 ```
-http://j.mp/union
+http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzOTA5NTcsNjY5NzIyMTE4LC0zNTIxMT
-E2NDIsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwt
-MTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUsLTIwMD
-M1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAs
-LTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OT
-U0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAy
-NjFdfQ==
+eyJoaXN0b3J5IjpbMjA5NjE0MTQzNCw2Njk3MjIxMTgsLTM1Mj
+ExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0
+LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMj
+AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
+MCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLD
+Q5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAw
+MDI2MV19
 -->
