@@ -511,8 +511,31 @@ def  insort(alist, key, j):
 		j -=  1 
 	alist[j]  = key
 ```
+
+```python
+def  insort(alist, key, j):  
+	'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
+	'''  
+	while j >  0  and alist[j-1]  > key: 
+		alist[j]  = alist[j-1] 
+		j -=  1 
+	alist[j]  = key
+```
+
+```python
+def  merge(A, B): 
+	C =  []  
+	while A and B: 
+		candidate =  (A if A[0]  < B[0]  else B).pop(0)
+		C.append(candidate)  
+	# pick up the residual elements in A or B 
+	return C + A + B
+```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU2NzcwMSwtMTY0MDY4MDEwNSwtMj
+eyJoaXN0b3J5IjpbLTM5ODY5ODM4MSwtMTY0MDY4MDEwNSwtMj
 AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
 MCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLD
 Q5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAw
