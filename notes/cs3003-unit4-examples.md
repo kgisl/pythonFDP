@@ -505,7 +505,9 @@ Three helper functions (`insort`, `min_index` and `merge`) were written and used
 
 ```python
 def  insort(alist, key, j):  
-	'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
+	'''insort inserts 'key' into the sorted alist[:j]
+	so that it remains sorted 
+	'j' is the current index of 'key' in alist 
 	'''  
 	while j >  0  and alist[j-1]  > key: 
 		alist[j]  = alist[j-1] 
@@ -532,22 +534,22 @@ def  merge(A, B):
     merge generates a new sorted list containing
     all elements contained in both sorted lists
     '''
-	C =  []  
-	while A and B: 
-		candidate =  (A if A[0]  < B[0]  else B).pop(0)
-		C.append(candidate)  
-	# pick up the residual elements in A or B 
-	return C + A + B
+    C =  []
+    while A and B:
+        candidate =  (A if A[0]  < B[0]  else B).pop(0)
+        C.append(candidate)  
+    # pick up the residual elements in A or B 
+    return C + A + B
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOT
-E0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMjAwMzU0
-MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMT
-E5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0
-Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MS
-wtMTQ1ODk3MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5
-Nzc0MjU4N119
+eyJoaXN0b3J5IjpbNjI4MzU2NjQzLC0zMTc0MjMxNzMsLTE3Nz
+g0NjYyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAx
+MDUsLTIwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNj
+cwNDg3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0
+OTgzMiw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC
+0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0
+NzI1Mzg0OV19
 -->
