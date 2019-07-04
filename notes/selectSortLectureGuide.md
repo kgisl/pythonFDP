@@ -27,6 +27,7 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 		- Do you know something already 
 		- Known to Unknown
 
+ 
   - how do you iterate over all the elements in a list, except the last one? Write the python code to do this 
   - What is the value of `[1, 2, 3, 4][0:]` and `[1, 2, 3, 4][1:]` and `[1, 2, 3, 4][2:]`?
   - What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.
@@ -156,7 +157,7 @@ In reflection, **SelectionSort** is just the opposite of **InsertionSort**. The 
 	 - review the relevant Question Paper snippets
 	 - Ask 1 or more students questions from Pre-requisites
   
-  - http://j.mp/selectionSortCC
+  - http://j.mp/selectionSortCC and http://j.mp/indexMinCC
   - Review http://j.mp/mergeVisual for the next class 
 
 ## Program File for Demo
@@ -167,10 +168,10 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAyODY1MDMsLTkwOTk4MzIzNSw4Nz
-cxMDYyMzcsMTQxMTEzNTUxNSwtMTE4ODQwNDI1MSwtMTQxNTU0
-NzcxMiw2ODEwMTY1MDUsMzQ3MjM0ODM5LC0xMjYwMTk1MzQxLC
-0xOTI0MTg1MzQ2LDE1NTYzMTI5MDAsOTc2NzY5NzAsLTg4Nzc5
-NjE5MywtMTEzMzU1OTg3MSwtMTkzMDA2MDc4MywtMTUxMDIzMz
-M3MSwxMDk2NTQ1MzQ0XX0=
+eyJoaXN0b3J5IjpbMTM1Nzk2NTMzNCwtMTgwMDI4NjUwMywtOT
+A5OTgzMjM1LDg3NzEwNjIzNywxNDExMTM1NTE1LC0xMTg4NDA0
+MjUxLC0xNDE1NTQ3NzEyLDY4MTAxNjUwNSwzNDcyMzQ4MzksLT
+EyNjAxOTUzNDEsLTE5MjQxODUzNDYsMTU1NjMxMjkwMCw5NzY3
+Njk3MCwtODg3Nzk2MTkzLC0xMTMzNTU5ODcxLC0xOTMwMDYwNz
+gzLC0xNTEwMjMzMzcxLDEwOTY1NDUzNDRdfQ==
 -->
