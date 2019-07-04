@@ -531,7 +531,8 @@ def min_index(alist, i):
             min_i = j
     return min_i
 ```
-Refactor the above function to a one line function.
+- If `i` is not provided, default it to an appropriate value. 
+- *Can you refactor the above function to a one line function?*
 
 ```python
 def  merge(A, B): 
@@ -550,7 +551,7 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjE0MTQzNCw2Njk3MjIxMTgsLTM1Mj
+eyJoaXN0b3J5IjpbLTI1MTk5OTIzMiw2Njk3MjIxMTgsLTM1Mj
 ExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0
 LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMj
 AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
