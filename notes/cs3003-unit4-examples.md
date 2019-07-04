@@ -494,13 +494,16 @@ _A separate introductory section of a literary, dramatic, or musical work._
 
 InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive  and at the same time very effective in engaging students of diverse learning capabilities. 
 
-A comparison screenshot is presented below, which again serves to differentiates the three sorting algorithms. The same unsorted list has been used as the test case, and the curious student will want to trace how the unsorted list becomes so
+A comparison screenshot is presented below, which again serves to differentiates the three sorting algorithms. The same unsorted list has been used as the test case, and the curious student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
+
+## Helper functions
+Three helper functions (`insort`, `min_index` and `merge`) were presented as incremental st
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTA3NTkwNCwtMjAwMzU0MjM5MSw1ND
-kyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1
-MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNj
-QwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3
-MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5Nzc0MjU4Ny
-wtMTE2MDUzMjI3MiwyMDg0NzQ0ODU4LDEyNjQ3NDM5NjUsMTk0
-NzUxNzU2OF19
+eyJoaXN0b3J5IjpbLTIxMDQzNjg0NTksLTIwMDM1NDIzOTEsNT
+Q5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2
+NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMT
+Y0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5
+NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1OD
+csLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwxMjY0NzQzOTY1LDE5
+NDc1MTc1NjhdfQ==
 -->
