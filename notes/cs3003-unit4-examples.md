@@ -497,9 +497,11 @@ InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, pr
 A comparison screenshot is presented below, which again serves to differentiates the three sorting algorithms. The same unsorted list has been used as the test case, and the curious student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
 ## Helper functions
-Three helper functions (`insort`, `min_index` and `merge`) were presented as incremental st
+Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. These methods also help quickly differentiate the sorts from each other. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQzNjg0NTksLTIwMDM1NDIzOTEsNT
+eyJoaXN0b3J5IjpbLTE2NDA2ODAxMDUsLTIwMDM1NDIzOTEsNT
 Q5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2
 NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMT
 Y0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5
