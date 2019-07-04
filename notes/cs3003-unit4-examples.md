@@ -490,7 +490,7 @@ for bin in o_histogram:
 
 http://bit.ly/complexThis
 
-## Prologue 
+## Epilogue 
 _A section or speech at the end of a book or play that serves as a comment on or a conclusion to what has happened._
 
 **InsertionSort**, **SelectionSort** and **MergeSort** algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
@@ -545,11 +545,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nz
-g0NjYyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAx
-MDUsLTIwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNj
-cwNDg3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0
-OTgzMiw0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC
-0xNTkwMDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0
-NzI1Mzg0OV19
+eyJoaXN0b3J5IjpbLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNz
+QyMzE3MywtMTc3ODQ2NjI0LC0xOTE0ODM4ODM4LDk0OTY1ODI0
+OSwtMTY0MDY4MDEwNSwtMjAwMzU0MjM5MSw1NDkyNzkyODAsMj
+c2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1MSwtMTM1OTE3
+MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNjQwMTkxNDkzLD
+E1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3MDE4NywtMjEw
+NjY5MzI0MF19
 -->
