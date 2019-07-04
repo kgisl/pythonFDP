@@ -15,13 +15,11 @@ The function should return the index of the minimum value in the sublist  of `al
 If `i` is not provided, default it to an appropriate value and the function should still work properly. 
 
 ## Challenge 1
-
 Refactor the code to only one line. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIwNDkzNDQsLTE0NzIyMTkzMzFdfQ
-==
+eyJoaXN0b3J5IjpbMTg0NTkxMjc4NiwtMTQ3MjIxOTMzMV19
 -->
