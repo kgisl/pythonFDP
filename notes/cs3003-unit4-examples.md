@@ -492,9 +492,9 @@ http://bit.ly/complexThis
 ## Prologue 
 _A separate introductory section of a literary, dramatic, or musical work._
 
-
+InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive for students of all learning capabilities to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTk3NzI2NiwtMjAwMzU0MjM5MSw1ND
+eyJoaXN0b3J5IjpbLTgwODYzMjQyNywtMjAwMzU0MjM5MSw1ND
 kyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1
 MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNj
 QwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3
