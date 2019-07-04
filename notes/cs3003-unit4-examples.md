@@ -501,7 +501,10 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
 
 ## Helper functions
-Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. These methods help in presenting the algorithm in an incremental fashion, reducing the cognitive load on the student. 
+Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. 
+
+These helper functions have to be used, they are very effective in capturing the core of each of the algorithm. These methods help in presenting the algorithm in an incremental fashion, reducing the cognitive load on the student. 
+
 
 ```python
 def  insort(alist, key, j):  
@@ -545,11 +548,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNz
-QyMzE3MywtMTc3ODQ2NjI0LC0xOTE0ODM4ODM4LDk0OTY1ODI0
-OSwtMTY0MDY4MDEwNSwtMjAwMzU0MjM5MSw1NDkyNzkyODAsMj
-c2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1MSwtMTM1OTE3
-MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNjQwMTkxNDkzLD
-E1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3MDE4NywtMjEw
-NjY5MzI0MF19
+eyJoaXN0b3J5IjpbLTE4MDE4OTUzNjUsLTM1MjExMTY0MiwzNz
+g5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOTE0ODM4
+ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMjAwMzU0MjM5MS
+w1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQz
+MDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0Ni
+wxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1
+ODk3MDE4N119
 -->
