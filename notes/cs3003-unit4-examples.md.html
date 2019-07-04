@@ -32,7 +32,7 @@
 <li><a href="#in-class-demo">In-class Demo</a></li>
 <li><a href="#algorithm-1">Algorithm</a></li>
 <li><a href="#source-code-1">Source code</a></li>
-<li><a href="#version-2">Version 2</a></li>
+<li><a href="#version-2-1">Version 2</a></li>
 </ul>
 </li>
 <li><a href="#mergesort">MergeSort</a>
@@ -50,9 +50,11 @@
 <li><a href="#pre-requisites-4">Pre-requisites</a></li>
 <li><a href="#algorithm-3">Algorithm</a></li>
 <li><a href="#source-code-3">Source Code</a></li>
-<li><a href="#version-1">Version 1</a></li>
-<li><a href="#version-2-1">Version 2</a></li>
+<li><a href="#version-1-1">Version 1</a></li>
+<li><a href="#version-2-2">Version 2</a></li>
 <li><a href="#complexity-analysis">Complexity Analysis</a></li>
+<li><a href="#prologue">Prologue</a></li>
+<li><a href="#helper-functions">Helper functions</a></li>
 </ul>
 </li>
 </ul>
@@ -223,6 +225,23 @@ shuffle<span class="token punctuation">(</span>alist<span class="token punctuati
 		swap minimum with first unsorted position
 </code></pre>
 <h2 id="source-code-1">Source code</h2>
+<h3 id="version-1">Version 1</h3>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectionsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token comment"># STEP 0 - iterate through the list</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        min_i <span class="token operator">=</span> i 
+        <span class="token comment"># STEP 1 - update mini_i with index </span>
+        <span class="token comment"># of min value in unsorted alist[i+1:]</span>
+        <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+            <span class="token keyword">if</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&lt;</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">:</span> 
+                min_i <span class="token operator">=</span> j
+        <span class="token comment"># STEP 2 - swap it with element at index 'i'</span>
+        <span class="token keyword">if</span> min_i <span class="token operator">!=</span> i<span class="token punctuation">:</span>
+            alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">,</span> alist<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    <span class="token keyword">return</span> alist
+</code></pre>
+<h3 id="version-2">Version 2</h3>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">selectsort</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
     n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
     <span class="token comment"># STEP 0 - iterate through the list</span>
@@ -238,7 +257,7 @@ shuffle<span class="token punctuation">(</span>alist<span class="token punctuati
     <span class="token keyword">return</span> alist
 
 </code></pre>
-<h2 id="version-2">Version 2</h2>
+<h2 id="version-2-1">Version 2</h2>
 <ul>
 <li>uses  <code>slicing</code>,  <code>tuples</code> and <code>list comprehension</code> to make the code very efficient and eminently readable.</li>
 </ul>
@@ -433,7 +452,7 @@ alist <span class="token operator">=</span> <span class="token punctuation">[</s
 <li>Iterate through the characters of the string, one character at a time.</li>
 </ol>
 <h2 id="source-code-3">Source Code</h2>
-<h2 id="version-1">Version 1</h2>
+<h2 id="version-1-1">Version 1</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token comment">################################</span>
 <span class="token comment"># Program No 1</span>
 <span class="token comment"># using dictionary to build the histogram</span>
@@ -478,7 +497,7 @@ histo <span class="token operator">=</span> generate_histogram<span class="token
   <span class="token keyword">print</span> <span class="token punctuation">(</span>f<span class="token string">'{histo[i][0]:2}'</span><span class="token punctuation">,</span> <span class="token string">'@'</span><span class="token operator">*</span>histo<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 
 </code></pre>
-<h2 id="version-2-1">Version 2</h2>
+<h2 id="version-2-2">Version 2</h2>
 <p>A histogram contains bins (lower bound, upper bound), and statistical values are dropped into these bins. Eventually, the histogram is visualized based on the bin counts. This type of histogram is what is used in more statistical analysis.</p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token comment">################################</span>
 <span class="token comment"># Program No 5</span>
@@ -549,6 +568,44 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
 </code></pre>
 <h2 id="complexity-analysis">Complexity Analysis</h2>
 <p><a href="http://bit.ly/complexThis">http://bit.ly/complexThis</a></p>
+<h2 id="prologue">Prologue</h2>
+<p><em>A separate introductory section of a literary, dramatic, or musical work.</em></p>
+<p>InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities.</p>
+<p>A comparison screenshot of the three sorts in action in “verbose” mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The <em><strong>curious</strong></em> student will want to trace how the unsorted list becomes a sorted one in each of the three cases.</p>
+<p><img src="http://bit.ly/sortVerbose" alt="verbose"></p>
+<h2 id="helper-functions">Helper functions</h2>
+<p>Three helper functions (<code>insort</code>, <code>min_index</code> and <code>merge</code>) were written and used in the respective sorting implementation. These methods help in presenting the algorithm in an incremental fashion, reducing the cognitive load on the student.</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span>  <span class="token function">insort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">:</span>  
+	<span class="token triple-quoted-string string">'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
+	'''</span>  
+	<span class="token keyword">while</span> j <span class="token operator">&gt;</span>  <span class="token number">0</span>  <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span>  <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+		alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span>  <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> 
+		j <span class="token operator">-=</span>  <span class="token number">1</span> 
+	alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span>  <span class="token operator">=</span> key
+</code></pre>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">min_index</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">'''function returns the index of the
+    minimum value in the sublist alist[i:] 
+    '''</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span> 
+    min_i <span class="token operator">=</span> i 
+    <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+        <span class="token keyword">if</span> alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&lt;</span> alist<span class="token punctuation">[</span>min_i<span class="token punctuation">]</span><span class="token punctuation">:</span> 
+            min_i <span class="token operator">=</span> j
+    <span class="token keyword">return</span> min_i
+</code></pre>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span>  <span class="token function">merge</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span> B<span class="token punctuation">)</span><span class="token punctuation">:</span> 
+    <span class="token triple-quoted-string string">'''
+    merge generates a new sorted list containing
+    all elements contained in both sorted lists
+    '''</span>
+	C <span class="token operator">=</span>  <span class="token punctuation">[</span><span class="token punctuation">]</span>  
+	<span class="token keyword">while</span> A <span class="token operator">and</span> B<span class="token punctuation">:</span> 
+		candidate <span class="token operator">=</span>  <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+		C<span class="token punctuation">.</span>append<span class="token punctuation">(</span>candidate<span class="token punctuation">)</span>  
+	<span class="token comment"># pick up the residual elements in A or B </span>
+	<span class="token keyword">return</span> C <span class="token operator">+</span> A <span class="token operator">+</span> B
+</code></pre>
 
     </div>
   </div>
