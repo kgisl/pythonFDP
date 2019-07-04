@@ -194,7 +194,7 @@ def selectsort(alist):
 
 ```
 
-## Version 2
+### Version 3
  - uses  `slicing`,  `tuples` and `list comprehension` to make the code very efficient and eminently readable.  
 
 ```python
@@ -545,7 +545,7 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxOTE2NjI3LC0zMTc0MjMxNzMsLTE3Nz
+eyJoaXN0b3J5IjpbMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nz
 g0NjYyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAx
 MDUsLTIwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNj
 cwNDg3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0
