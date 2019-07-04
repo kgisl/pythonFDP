@@ -1,12 +1,12 @@
 
 ## index_min
 
-Write a function `index_min` which returns the index of the minimum value in the sublist  of `alist` starting from index `i`. 
+Write a function `index_min` which takes two arguments. The first argument is a list. The second argument is a valid index returns the index of the minimum value in the sublist  of `alist` starting from index `i`. 
 
 ### Example 
 
 `[1, 2, 3], 0` => `0` 
-`[1, 2, 3] 1` => `1` 
+`[1, 2, 3], 1` => `1` 
 `[1, 10, 1000, 100], 2` => `3` 
 
 ## Challenge 1 
@@ -18,5 +18,5 @@ If `i` is not provided, default it to an appropriate value and the function shou
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIyMTkzMzFdfQ==
+eyJoaXN0b3J5IjpbMTQ2NjAwNzM4NywtMTQ3MjIxOTMzMV19
 -->
