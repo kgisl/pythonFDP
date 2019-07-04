@@ -513,17 +513,24 @@ def  insort(alist, key, j):
 ```
 
 ```python
-def  insort(alist, key, j):  
-	'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
-	'''  
-	while j >  0  and alist[j-1]  > key: 
-		alist[j]  = alist[j-1] 
-		j -=  1 
-	alist[j]  = key
+def min_index(alist, i):
+    '''function returns the index of the
+    minimum value in the sublist alist[i:] 
+    '''
+    n = len(alist) 
+    min_i = i 
+    for j in range(i+1, n): 
+        if alist[j] < alist[min_i]: 
+            min_i = j
+    return min_i
 ```
 
 ```python
 def  merge(A, B): 
+    '''
+    merge generates a new sorted list containing
+    all elements contained in both sorted lists
+    '''
 	C =  []  
 	while A and B: 
 		candidate =  (A if A[0]  < B[0]  else B).pop(0)
@@ -535,11 +542,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMD
-AzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAw
-LC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0zMDY4NDk4MzIsND
-k1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1MzMwMzkyMSwtMTU5MDAw
-MjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4ND
-ksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2
-NDc0Mzk2NV19
+eyJoaXN0b3J5IjpbLTE5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNj
+QwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1
+NzEsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC
+0zMDY4NDk4MzIsNDk1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1MzMw
+MzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMj
+QwLC01NDcyNTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIw
+ODQ3NDQ4NThdfQ==
 -->
