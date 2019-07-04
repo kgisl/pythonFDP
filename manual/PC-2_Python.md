@@ -8,7 +8,8 @@
 # Learn TDD the fun way
 
 ## Step 1 
-- Sequence practice http://j.mp/twoPoints  
+
+- Sequence practice http://j.mp/indexMinCC and http://j.mp/twoPoints  
 	- How to calculate total route distance over multiple points?
 	- Which taxi to dispatch? 
 - String practice http://j.mp/rotateCC 
