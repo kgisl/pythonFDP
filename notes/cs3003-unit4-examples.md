@@ -492,9 +492,11 @@ http://bit.ly/complexThis
 ## Prologue 
 _A separate introductory section of a literary, dramatic, or musical work._
 
-InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive for students of all learning capabilities to 
+InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive  and at the same time very effective in engaging students of diverse learning capabilities. 
+
+A comparison screenshot is presented below, which again serves to differentiates the three sorting algorithms. The same unsorted list has been used as the test case, and the curious student will want to trace how the unsorted list becomes so
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODYzMjQyNywtMjAwMzU0MjM5MSw1ND
+eyJoaXN0b3J5IjpbMTMxNTA3NTkwNCwtMjAwMzU0MjM5MSw1ND
 kyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1
 MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNj
 QwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MSwtMTQ1ODk3
