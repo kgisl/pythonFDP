@@ -1,7 +1,9 @@
 
 ## index_min
 
-Write a function `index_min` which takes two arguments. The first argument is a list. The second argument is a valid index returns the index of the minimum value in the sublist  of `alist` starting from index `i`. 
+Write a function `index_min` which takes two arguments. The first argument is a list, say `alist`. The second argument is a valid index value, `i`. 
+
+The function should return the index of the minimum value in the sublist  of `alist` starting from index `i`. 
 
 ### Example 
 
@@ -18,5 +20,6 @@ If `i` is not provided, default it to an appropriate value and the function shou
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjAwNzM4NywtMTQ3MjIxOTMzMV19
+eyJoaXN0b3J5IjpbLTIwOTMyODYxMzQsLTE0NzIyMTkzMzFdfQ
+==
 -->
