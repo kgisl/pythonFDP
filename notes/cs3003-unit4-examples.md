@@ -493,7 +493,7 @@ http://bit.ly/complexThis
 # Epilogue 
 _A speech at the end of a play that serves as a comment on or a conclusion to what has happened._
 
-**InsertionSort**, **SelectionSort** and **MergeSort** algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
+**InsertionSort**, **SelectionSort** and **MergeSort** algorithms were covered in detail, primarily using a **Show-And-Tell** approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
 
 A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The ***curious*** student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
@@ -554,11 +554,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDEyMTM0MSwyMDMwMjI0NzM1LC0xOD
-Y0OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2
-NDIsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMT
-kxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1
-NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLT
-ExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0
-NDc5NDZdfQ==
+eyJoaXN0b3J5IjpbLTEyNzcxNDI1ODksMjAzMDIyNDczNSwtMT
+g2NDk2Mzc1MywtMzQxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTEx
+NjQyLDM3ODk3Mzc0OSwtMzE3NDIzMTczLC0xNzc4NDY2MjQsLT
+E5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMDAz
+NTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAwLC
+0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0zMDY4NDk4MzIsNDk1
+NDQ3OTQ2XX0=
 -->
