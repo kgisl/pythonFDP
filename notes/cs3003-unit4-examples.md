@@ -491,9 +491,9 @@ for bin in o_histogram:
 http://bit.ly/complexThis
 
 ## Prologue 
-_A separate introductory section of a literary, dramatic, or musical work._
+_A section or speech at the end of a book or play that serves as a comment on or a conclusion to what has happened._
 
-InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
+**InsertionSort**, **SelectionSort** and **MergeSort** algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
 
 A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The ***curious*** student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
@@ -543,11 +543,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg0NjYyNCwtMTkxNDgzODgzOCw5ND
-k2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1NDIzOTEsNTQ5Mjc5
-MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2NTEsLT
-EzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5
-MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxOD
-csLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTEx
-NjA1MzIyNzJdfQ==
+eyJoaXN0b3J5IjpbLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOT
+E0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMjAwMzU0
+MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMT
+E5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0
+Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAwMDI2MS
+wtMTQ1ODk3MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzODQ5LDg5
+Nzc0MjU4N119
 -->
