@@ -501,13 +501,22 @@ A comparison screenshot is presented below, which again serves to differentiates
 
 ## Helper functions
 Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. These methods also help quickly differentiate the sorts from each other. 
- 
+
+```python
+def  insort(alist, key, j):  
+	'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
+	'''  
+	while j >  0  and alist[j-1]  > key: 
+		alist[j]  = alist[j-1] 
+		j -=  1 
+	alist[j]  = key
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNTgxMjA0LC0xNjQwNjgwMTA1LC0yMD
-AzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAw
-LC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0zMDY4NDk4MzIsND
-k1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1MzMwMzkyMSwtMTU5MDAw
-MjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMjQwLC01NDcyNTM4ND
-ksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIwODQ3NDQ4NTgsMTI2
-NDc0Mzk2NV19
+eyJoaXN0b3J5IjpbLTE2NzU2NzcwMSwtMTY0MDY4MDEwNSwtMj
+AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
+MCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLD
+Q5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAw
+MDI2MSwtMTQ1ODk3MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzOD
+Q5LDg5Nzc0MjU4NywtMTE2MDUzMjI3MiwyMDg0NzQ0ODU4LDEy
+NjQ3NDM5NjVdfQ==
 -->
