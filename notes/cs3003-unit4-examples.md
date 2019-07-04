@@ -505,14 +505,14 @@ Three helper functions (`insort`, `min_index` and `merge`) were written and used
 
 ```python
 def  insort(alist, key, j):  
-	'''insort inserts 'key' into the sorted alist[:j]
-	so that it remains sorted 
-	'j' is the current index of 'key' in alist 
-	'''  
-	while j >  0  and alist[j-1]  > key: 
-		alist[j]  = alist[j-1] 
-		j -=  1 
-	alist[j]  = key
+    '''insort inserts 'key' into the sorted alist[:j]
+    so that it remains sorted 
+    'j' is the current index of 'key' in alist 
+    '''  
+    while j >  0  and alist[j-1]  > key: 
+        alist[j]  = alist[j-1] 
+        j -=  1 
+    alist[j]  = key
 ```
 
 ```python
@@ -545,7 +545,7 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MzU2NjQzLC0zMTc0MjMxNzMsLTE3Nz
+eyJoaXN0b3J5IjpbNDIxOTE2NjI3LC0zMTc0MjMxNzMsLTE3Nz
 g0NjYyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAx
 MDUsLTIwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNj
 cwNDg3MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0
