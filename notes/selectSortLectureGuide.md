@@ -27,7 +27,7 @@ Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
 		- Do you know something already 
 		- Known to Unknown
 
- 
+ -  http://j.mp/indexMinCC  - is the best way to be prepared for SelectionSort
   - how do you iterate over all the elements in a list, except the last one? Write the python code to do this 
   - What is the value of `[1, 2, 3, 4][0:]` and `[1, 2, 3, 4][1:]` and `[1, 2, 3, 4][2:]`?
   - What is the built-in function which is used to find the minimum value of a list of numbers? Create a list containing 10 random numbers. Write the python code to find the minimum value in the list.
@@ -168,10 +168,10 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzk2NTMzNCwtMTgwMDI4NjUwMywtOT
-A5OTgzMjM1LDg3NzEwNjIzNywxNDExMTM1NTE1LC0xMTg4NDA0
-MjUxLC0xNDE1NTQ3NzEyLDY4MTAxNjUwNSwzNDcyMzQ4MzksLT
-EyNjAxOTUzNDEsLTE5MjQxODUzNDYsMTU1NjMxMjkwMCw5NzY3
-Njk3MCwtODg3Nzk2MTkzLC0xMTMzNTU5ODcxLC0xOTMwMDYwNz
-gzLC0xNTEwMjMzMzcxLDEwOTY1NDUzNDRdfQ==
+eyJoaXN0b3J5IjpbNzQxMDEwMzU2LC0xODAwMjg2NTAzLC05MD
+k5ODMyMzUsODc3MTA2MjM3LDE0MTExMzU1MTUsLTExODg0MDQy
+NTEsLTE0MTU1NDc3MTIsNjgxMDE2NTA1LDM0NzIzNDgzOSwtMT
+I2MDE5NTM0MSwtMTkyNDE4NTM0NiwxNTU2MzEyOTAwLDk3Njc2
+OTcwLC04ODc3OTYxOTMsLTExMzM1NTk4NzEsLTE5MzAwNjA3OD
+MsLTE1MTAyMzMzNzEsMTA5NjU0NTM0NF19
 -->
