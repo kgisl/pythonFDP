@@ -491,7 +491,7 @@ for bin in o_histogram:
 http://bit.ly/complexThis
 
 # Epilogue 
-_A section or speech at the end of a book or play that serves as a comment on or a conclusion to what has happened._
+_A speech at the end of a play that serves as a comment on or a conclusion to what has happened._
 
 **InsertionSort**, **SelectionSort** and **MergeSort** algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive.  Also, the approach is very effective in engaging students of diverse learning capabilities. 
 
@@ -554,11 +554,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMz
-QxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0
-OSwtMzE3NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOT
-Q5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3
-OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC
-0xMzU5MTczNDEwLC0zMDY4NDk4MzIsNDk1NDQ3OTQ2LDE2NDAx
-OTE0OTNdfQ==
+eyJoaXN0b3J5IjpbLTE2NDEyMTM0MSwyMDMwMjI0NzM1LC0xOD
+Y0OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2
+NDIsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMT
+kxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1
+NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLT
+ExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0
+NDc5NDZdfQ==
 -->
