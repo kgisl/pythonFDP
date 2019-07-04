@@ -534,6 +534,8 @@ def min_index(alist, i):
 - *How can you refactor the above function to have only one line of code?*
 - *If `i` is not provided, how will you default it to an appropriate value?* 
 
+http://j.mp/indexMinCC
+
 ```python
 def  merge(A, B): 
     '''
@@ -551,11 +553,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1Mj
-ExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0
-LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMj
-AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
-MCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLD
-Q5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAw
-MDI2MV19
+eyJoaXN0b3J5IjpbLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Nj
+k3MjIxMTgsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3
+MywtMTc3ODQ2NjI0LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMT
+Y0MDY4MDEwNSwtMjAwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAy
+NTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMC
+wtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMz
+MDM5MjFdfQ==
 -->
