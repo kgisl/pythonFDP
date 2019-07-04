@@ -577,7 +577,9 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
 <h2 id="helper-functions">Helper functions</h2>
 <p>Three helper functions (<code>insort</code>, <code>min_index</code> and <code>merge</code>) were written and used in the respective sorting implementation. These methods help in presenting the algorithm in an incremental fashion, reducing the cognitive load on the student.</p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span>  <span class="token function">insort</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> key<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">:</span>  
-	<span class="token triple-quoted-string string">'''insort inserts 'key' into the sorted alist[:j] so that it remains sorted 'j' is the current index of 'key' in alist 
+	<span class="token triple-quoted-string string">'''insort inserts 'key' into the sorted alist[:j]
+	so that it remains sorted 
+	'j' is the current index of 'key' in alist 
 	'''</span>  
 	<span class="token keyword">while</span> j <span class="token operator">&gt;</span>  <span class="token number">0</span>  <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span>  <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
 		alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span>  <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> 
@@ -600,12 +602,12 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
     merge generates a new sorted list containing
     all elements contained in both sorted lists
     '''</span>
-	C <span class="token operator">=</span>  <span class="token punctuation">[</span><span class="token punctuation">]</span>  
-	<span class="token keyword">while</span> A <span class="token operator">and</span> B<span class="token punctuation">:</span> 
-		candidate <span class="token operator">=</span>  <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
-		C<span class="token punctuation">.</span>append<span class="token punctuation">(</span>candidate<span class="token punctuation">)</span>  
-	<span class="token comment"># pick up the residual elements in A or B </span>
-	<span class="token keyword">return</span> C <span class="token operator">+</span> A <span class="token operator">+</span> B
+    C <span class="token operator">=</span>  <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">while</span> A <span class="token operator">and</span> B<span class="token punctuation">:</span>
+        candidate <span class="token operator">=</span>  <span class="token punctuation">(</span>A <span class="token keyword">if</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token operator">&lt;</span> B<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token keyword">else</span> B<span class="token punctuation">)</span><span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+        C<span class="token punctuation">.</span>append<span class="token punctuation">(</span>candidate<span class="token punctuation">)</span>  
+    <span class="token comment"># pick up the residual elements in A or B </span>
+    <span class="token keyword">return</span> C <span class="token operator">+</span> A <span class="token operator">+</span> B
 </code></pre>
 
     </div>
