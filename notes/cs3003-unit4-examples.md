@@ -322,7 +322,8 @@ def mergesort(ulist):
   return slist
 
 # test cases
-assert (merge([1, 2, 3], [4, 5, 10]) == [1, 2, 3, 4, 5, 10])
+assert (merge([1, 2, 3], [4, 5, 10]) == \
+	[1, 2, 3, 4, 5, 10])
 alist = [6, 2, 1, 5, 8, 7, 4, 3]
 print(mergesort(alist))
 # [1, 2, 3, 4, 5, 6, 7, 8]
@@ -542,11 +543,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNj
-QwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1
-NzEsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC
-0zMDY4NDk4MzIsNDk1NDQ3OTQ2LDE2NDAxOTE0OTMsMTU1MzMw
-MzkyMSwtMTU5MDAwMjYxLC0xNDU4OTcwMTg3LC0yMTA2NjkzMj
-QwLC01NDcyNTM4NDksODk3NzQyNTg3LC0xMTYwNTMyMjcyLDIw
-ODQ3NDQ4NThdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzg0NjYyNCwtMTkxNDgzODgzOCw5ND
+k2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1NDIzOTEsNTQ5Mjc5
+MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2NTEsLT
+EzNTkxNzM0MTAsLTMwNjg0OTgzMiw0OTU0NDc5NDYsMTY0MDE5
+MTQ5MywxNTUzMzAzOTIxLC0xNTkwMDAyNjEsLTE0NTg5NzAxOD
+csLTIxMDY2OTMyNDAsLTU0NzI1Mzg0OSw4OTc3NDI1ODcsLTEx
+NjA1MzIyNzJdfQ==
 -->
