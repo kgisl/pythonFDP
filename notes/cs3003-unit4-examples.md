@@ -494,7 +494,7 @@ _A separate introductory section of a literary, dramatic, or musical work._
 
 InsertionSort, SelectionSort and MergeSort algorithms were covered in detail, primarily using a Show-And-Tell approach which is most intuitive  and at the same time very effective in engaging students of diverse learning capabilities. 
 
-A comparison screenshot is presented below, which again serves to differentiates the three sorting algorithms. The same unsorted list has been used as the test case, and the curious student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
+A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The curious student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
 ![verbose](http://bit.ly/sortVerbose)
 
@@ -535,11 +535,11 @@ def  merge(A, B):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODY5ODM4MSwtMTY0MDY4MDEwNSwtMj
-AwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcw
-MCwtMTE5MDQzMDY1MSwtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLD
-Q5NTQ0Nzk0NiwxNjQwMTkxNDkzLDE1NTMzMDM5MjEsLTE1OTAw
-MDI2MSwtMTQ1ODk3MDE4NywtMjEwNjY5MzI0MCwtNTQ3MjUzOD
-Q5LDg5Nzc0MjU4NywtMTE2MDUzMjI3MiwyMDg0NzQ0ODU4LDEy
-NjQ3NDM5NjVdfQ==
+eyJoaXN0b3J5IjpbLTEyMjk5NTEwNzIsLTE2NDA2ODAxMDUsLT
+IwMDM1NDIzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3
+MDAsLTExOTA0MzA2NTEsLTEzNTkxNzM0MTAsLTMwNjg0OTgzMi
+w0OTU0NDc5NDYsMTY0MDE5MTQ5MywxNTUzMzAzOTIxLC0xNTkw
+MDAyNjEsLTE0NTg5NzAxODcsLTIxMDY2OTMyNDAsLTU0NzI1Mz
+g0OSw4OTc3NDI1ODcsLTExNjA1MzIyNzIsMjA4NDc0NDg1OCwx
+MjY0NzQzOTY1XX0=
 -->
