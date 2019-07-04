@@ -497,6 +497,7 @@ _A section or speech at the end of a book or play that serves as a comment on or
 
 A comparison screenshot of the three sorts in action in "verbose" mode is presented below. The screenshot helps differentiate the three sorting algorithms when they process the same unsorted list as a test case. The ***curious*** student will want to trace how the unsorted list becomes a sorted one in each of the three cases. 
 
+## Verbose Compare
 ![verbose](http://bit.ly/sortVerbose)
 
 
@@ -553,11 +554,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAyMjE5MjgsLTE4NjQ5NjM3NTMsLT
-M0MTUzMzE1NSw2Njk3MjIxMTgsLTM1MjExMTY0MiwzNzg5NzM3
-NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOTE0ODM4ODM4LD
-k0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMjAwMzU0MjM5MSw1NDky
-NzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5MDQzMDY1MS
-wtMTM1OTE3MzQxMCwtMzA2ODQ5ODMyLDQ5NTQ0Nzk0NiwxNjQw
-MTkxNDkzXX0=
+eyJoaXN0b3J5IjpbMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMz
+QxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0
+OSwtMzE3NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOT
+Q5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3
+OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC
+0xMzU5MTczNDEwLC0zMDY4NDk4MzIsNDk1NDQ3OTQ2LDE2NDAx
+OTE0OTNdfQ==
 -->
