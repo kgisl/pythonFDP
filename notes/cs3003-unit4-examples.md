@@ -500,6 +500,8 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 ## Verbose Compare
 ![verbose](http://bit.ly/sortVerbose)
 
+## Code Compare
+![sortCode](http://bit.ly/codeSort)
 
 ## Helper functions
 Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. 
@@ -554,11 +556,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzcxNDI1ODksMjAzMDIyNDczNSwtMT
-g2NDk2Mzc1MywtMzQxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTEx
-NjQyLDM3ODk3Mzc0OSwtMzE3NDIzMTczLC0xNzc4NDY2MjQsLT
-E5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMDAz
-NTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1NzEsMjY3MDQ4NzAwLC
-0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0zMDY4NDk4MzIsNDk1
-NDQ3OTQ2XX0=
+eyJoaXN0b3J5IjpbLTEzODQyNTA0ODAsLTEyNzcxNDI1ODksMj
+AzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMTU1LDY2OTcy
+MjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OSwtMzE3NDIzMTczLC
+0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNjQw
+NjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1Nz
+EsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0z
+MDY4NDk4MzJdfQ==
 -->
