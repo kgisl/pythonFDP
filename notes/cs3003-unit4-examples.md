@@ -501,6 +501,11 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 ![verbose](http://bit.ly/sortVerbose)
 
 ## Python Pseudo Code Compare
+
+The below collage is useful to convey how  
+  - insertion sort is getting a key and inserting into sorted sublist
+  - selection sort is about selecting minimum value and swapping into sorted sublist 
+  - merge sort is about divide and merge (conquer) of sublists
 ![sortCode](http://bit.ly/codeSort)
 
 ## Helper functions
@@ -556,11 +561,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMT
-I3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0OTYzNzUzLC0zNDE1
-MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2NDIsMzc4OTczNzQ5LC
-0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkxNDgzODgzOCw5NDk2
-NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1NDIzOTEsNTQ5Mjc5Mj
-gwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2NTEsLTEz
-NTkxNzM0MTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDIwMzE3OTcsLTE5MzM3MDMxOCwtMT
+M4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0
+OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2ND
+IsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkx
+NDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1ND
+IzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTEx
+OTA0MzA2NTFdfQ==
 -->
