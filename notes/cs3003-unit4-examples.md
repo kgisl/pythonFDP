@@ -502,9 +502,9 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
 ## Python Pseudo Code Compare
 
-  - **insertion** : get a key and insert it into sorted sublist
-  - **selectionsort** : select minimum value and swap it into sorted sublist 
-  - **merge** sort:  divide and merge (_conquer_) of sublists
+  - **insertionsort** : get a key and **insert** it into sorted sublist
+  - **selectionsort** : **select** minimum value and swap it into sorted sublist 
+  - **mergesort** :  divide and **merge** (_conquer_) of sublists
 
 ![sortCode](http://bit.ly/codeSort)
 
@@ -561,11 +561,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjM5Njg2OSwtMTkzMzcwMzE4LC0xMz
-g0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5
-NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1MjExMTY0Mi
-wzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOTE0
-ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwtMjAwMzU0Mj
-M5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2NzA0ODcwMCwtMTE5
-MDQzMDY1MV19
+eyJoaXN0b3J5IjpbLTIwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMT
+M4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0
+OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2ND
+IsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkx
+NDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1ND
+IzOTEsNTQ5Mjc5MjgwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTEx
+OTA0MzA2NTFdfQ==
 -->
