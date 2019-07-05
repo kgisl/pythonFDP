@@ -561,16 +561,17 @@ http://j.mp/unionListCC
 
 ## Other related exercises
 
+- http://j.mp/iterate1CC and http://j.mp/iterate2CC 
 - http://j.mp/enumListCC  - manually code out the enumerate function 
-- http://bit.ly/2XLKhuy
+- http://j.mp/divideTwo
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQyODk0NzEsMTc2NDcxNzY1OSwxNj
-QzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLTE5MzM3
-MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0Nz
-M1LC0xODY0OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0z
-NTIxMTE2NDIsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0Nj
-YyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2NDA2ODAxMDUs
-LTIwMDM1NDIzOTFdfQ==
+eyJoaXN0b3J5IjpbLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2ND
+MxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcw
+MzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3Mz
+UsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1
+MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2Nj
+I0LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MDEwNSwt
+MjAwMzU0MjM5MV19
 -->
