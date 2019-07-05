@@ -28,6 +28,7 @@
 <li><a href="#dictionary">Dictionary</a></li>
 <li><a href="#glossary">Glossary</a></li>
 <li><a href="#exercises-1">Exercises</a></li>
+<li><a href="#exercises-for-illustrative-programs">Exercises for Illustrative Programs</a></li>
 <li><a href="#slice-exercises---part-0">Slice Exercises - Part 0</a></li>
 <li><a href="#slice-exercises---part-1">Slice Exercises - Part 1</a></li>
 <li><a href="#slice-keys---part-1">Slice Keys - Part 1</a></li>
@@ -139,6 +140,7 @@
 </tr>
 </tbody>
 </table><h2 id="list-mutability">List Mutability</h2>
+<p><a href="http://bit.ly/immutableThis">http://bit.ly/immutableThis</a>  - explanation of Immutability in Python</p>
 <p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
 <p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
@@ -349,21 +351,31 @@ adict['Victor'] = 900-2222
 <h2 id="exercises-1">Exercises</h2>
 <p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a><br>
 2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
+<h2 id="exercises-for-illustrative-programs">Exercises for Illustrative Programs</h2>
+<ul>
+<li><a href="http://j.mp/butFirstCC">http://j.mp/butFirstCC</a> and <a href="http://j.mp/butLastCC">http://j.mp/butLastCC</a> - iterate over a list</li>
+<li><a href="http://j.mp/rightShiftCC">http://j.mp/rightShiftCC</a> - right shift exactly by one position</li>
+<li></li>
+<li><a href="http://j.mp/swapListCC">http://j.mp/swapListCC</a> - swap elements in a list</li>
+<li><a href="http://j.mp/enumListCC">http://j.mp/enumListCC</a>  - manually code out the enumerate function</li>
+<li><a href="http://j.mp/divideTwo">http://j.mp/divideTwo</a> - divide a list into two halves</li>
+</ul>
 <h2 id="slice-exercises---part-0">Slice Exercises - Part 0</h2>
-<pre class=" language-python"><code class="prism  language-python"><span class="token number">0</span><span class="token punctuation">.</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span> 
-
-<span class="token number">1</span><span class="token punctuation">.</span> al <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
-al<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span> <span class="token operator">+</span> a<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">]</span>? 
-al<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span> <span class="token operator">+</span> a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>? <span class="token comment"># how is this different from previous?</span>
-</code></pre>
+<ol start="0">
+<li>
+<p><code>[1, 2, 3, 4][:]</code></p>
+</li>
+<li>
+<p><code>al = [1, 2, 3, 4]</code></p>
+</li>
+</ol>
+<ul>
+<li>al[1:] + a[:1] ?</li>
+<li>al[1:] + a[1] ? # how is this different from previous?</li>
+</ul>
 <ol start="2">
 <li>Write a function to rotate a list as many as there are elements in in it.</li>
 </ol>
-<pre><code>## Slice Keys - Part 0 
-
-```python
-
-</code></pre>
 <h2 id="slice-exercises---part-1">Slice Exercises - Part 1</h2>
 <pre class=" language-python"><code class="prism  language-python"><span class="token number">0</span><span class="token punctuation">.</span> <span class="token punctuation">[</span><span class="token number">35</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span> <span class="token number">41</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">31</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">97</span><span class="token punctuation">,</span> <span class="token number">80</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">]</span>
 <span class="token builtin">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">or</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">:</span><span class="token number">2</span><span class="token punctuation">]</span>
