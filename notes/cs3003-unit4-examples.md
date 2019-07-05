@@ -506,7 +506,7 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
   - selectionsort : **select** minimum value and swap into sorted sublist 
   - mergesort :  divide and **merge** (_conquer_) of sublists
 
-![sortCode](http://bit.ly/codeSort)
+![sortCode](http://bit.ly/sortCompared2)
 
 ## Helper functions
 Three helper functions (`insort`, `min_index` and `merge`) were written and used in the respective sorting implementation. 
@@ -561,11 +561,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMT
-kzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAy
-MjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMT
-gsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3
-ODQ2NjI0LC0xOTE0ODM4ODM4LDk0OTY1ODI0OSwtMTY0MDY4MD
-EwNSwtMjAwMzU0MjM5MSw1NDkyNzkyODAsMjc2MzAyNTcxLDI2
-NzA0ODcwMF19
+eyJoaXN0b3J5IjpbMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMD
+MwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQyNTA0ODAsLTEyNzcx
+NDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMT
+U1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OSwtMzE3
+NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5NjU4Mj
+Q5LC0xNjQwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwy
+NzYzMDI1NzFdfQ==
 -->
