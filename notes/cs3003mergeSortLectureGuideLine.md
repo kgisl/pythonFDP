@@ -126,6 +126,7 @@ The beauty of MergeSort is that regardless of the list and how badly it is sorte
  - respond to Questions from Students 
 	 - review the relevant Question Paper snippets
 	 - Ask 1 or more students questions from Pre-requisites
+	 - Practice your MergeSort code on http://j.mp/mergeSortCC
   
  - Review Pre-requisites for Histogram (next class) 
 
@@ -151,7 +152,8 @@ def test_a_million_mostly_sorted_elements():
   assert mergesort(alist, True) == list(range(1_000_000))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTI0MTAwNSwzMzg2MTQ0ODksLTk4ND
-A4NDgxMCwyMzA1MTkwODUsMTE3MDYxODQ3OSw4NTk3MzkyMTks
-LTEzNTg2MzczNjUsMTExMTg1NjQxNiwxNDgzMTI2MzcxXX0=
+eyJoaXN0b3J5IjpbLTYxODc4NTI0LDE1NDUyNDEwMDUsMzM4Nj
+E0NDg5LC05ODQwODQ4MTAsMjMwNTE5MDg1LDExNzA2MTg0Nzks
+ODU5NzM5MjE5LC0xMzU4NjM3MzY1LDExMTE4NTY0MTYsMTQ4Mz
+EyNjM3MV19
 -->
