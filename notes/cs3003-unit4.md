@@ -257,13 +257,12 @@ adict['Victor'] = 900-2222
 
 
 ## Slice Exercises - Part 0 
-```python
-0. [1, 2, 3, 4][:] 
 
-1. al = [1, 2, 3, 4]
-al[1:] + a[:1]? 
-al[1:] + a[1]? # how is this different from previous?
-```
+0. `[1, 2, 3, 4][:]`
+
+1. `al = [1, 2, 3, 4]`
+ - al[1:] + a[:1] ? 
+ - al[1:] + a[1] ? # how is this different from previous?
 
 2. Write a function to rotate a list as many as there are elements in in it. 
 
@@ -783,11 +782,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTA4MDQyMCwtMTYxMjI0NjUzMSwxMT
-c3MjkzMDQ2LDE2NjExNzI3OTcsMjA3NzAwMTg3MywxMzcwODc4
-MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0NjY0MDEsMTk4NzI3NTA4Ny
-wtMTM3NTY4NDk5MywtMjA3NjQ4NjMwMCwxNTg5ODg1NzY1LDc2
-ODA5MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNzMxMiwxMDc5NTg0MD
-A4LC02MTgyOTY2ODMsNDA3OTQ3NzE4LC0xNTEwOTE3NzM0LC0x
-NjMwNTI1OTI2XX0=
+eyJoaXN0b3J5IjpbLTIxMDY2NDAzODIsMTAzMTA4MDQyMCwtMT
+YxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3OTcsMjA3NzAw
+MTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0NjY0MD
+EsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3NjQ4NjMwMCwx
+NTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNz
+MxMiwxMDc5NTg0MDA4LC02MTgyOTY2ODMsNDA3OTQ3NzE4LC0x
+NTEwOTE3NzM0XX0=
 -->
