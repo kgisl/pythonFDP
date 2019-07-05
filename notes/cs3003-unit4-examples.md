@@ -502,10 +502,10 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
 ## Python Pseudo Code Compare
 
-The below collage is useful to convey how  
-  - insertion sort is get a key and insert it into sorted sublist
-  - selection sort is to select minimum value and swap it into sorted sublist 
-  - merge sort is to divide and merge (conquer) of sublists
+  - **insertion** sort: get a key and insert it into sorted sublist
+  - **selection** sort: select minimum value and swap it into sorted sublist 
+  - **merge** sort:  divide and merge (_conquer_) of sublists
+
 ![sortCode](http://bit.ly/codeSort)
 
 ## Helper functions
@@ -561,7 +561,7 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDg5ODEwMSwtMTkzMzcwMzE4LC0xMz
+eyJoaXN0b3J5IjpbMjAwMDM4MzA3OSwtMTkzMzcwMzE4LC0xMz
 g0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5
 NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1MjExMTY0Mi
 wzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3ODQ2NjI0LC0xOTE0
