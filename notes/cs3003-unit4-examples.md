@@ -543,7 +543,6 @@ def min_index(alist, i):
 - *If `i` is not provided, how will you default it to an appropriate value?* 
 
 http://j.mp/indexMinCC
-http://j.mp/enumListCC
 
 ```python
 def  merge(A, B): 
@@ -560,9 +559,14 @@ def  merge(A, B):
 ```
 http://j.mp/unionListCC
 
+## Other related exercises
+
+- http://j.mp/enumListCC  - manually code out the enumerate function 
+- http://bit.ly/2XLKhuy
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI3NDkwODYsMTc2NDcxNzY1OSwxNj
+eyJoaXN0b3J5IjpbLTEzNzQyODk0NzEsMTc2NDcxNzY1OSwxNj
 QzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLTE5MzM3
 MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0Nz
 M1LC0xODY0OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0z
