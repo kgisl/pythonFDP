@@ -256,6 +256,8 @@ adict['Victor'] = 900-2222
 2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.
 
 
+
+
 ## Slice Exercises - Part 0 
 
 0. `[1, 2, 3, 4][:]`
@@ -266,12 +268,6 @@ adict['Victor'] = 900-2222
 
 2. Write a function to rotate a list as many as there are elements in in it. 
 
-```
-## Slice Keys - Part 0 
-
-```python
-
-```
 
 ## Slice Exercises - Part 1
 
@@ -782,11 +778,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY2NDAzODIsMTAzMTA4MDQyMCwtMT
-YxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3OTcsMjA3NzAw
-MTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0NjY0MD
-EsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3NjQ4NjMwMCwx
-NTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3MTA2LDMyNTYzNz
-MxMiwxMDc5NTg0MDA4LC02MTgyOTY2ODMsNDA3OTQ3NzE4LC0x
-NTEwOTE3NzM0XX0=
+eyJoaXN0b3J5IjpbMjI0MTA2NDc4LDEwMzEwODA0MjAsLTE2MT
+IyNDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNzcwMDE4
+NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2NDAxLD
+E5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMDAsMTU4
+OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2MzczMT
+IsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOCwtMTUx
+MDkxNzczNF19
 -->
