@@ -561,7 +561,7 @@ http://j.mp/unionListCC
 
 ## Other related exercises
 
-- http://j.mp/iterate1CC and http://j.mp/iterate2CC 
+- http://j.mp/butFirstCC and http://j.mp/butLastCC
 - http://j.mp/rightShiftCC
 -  
 - http://j.mp/swapListCC
@@ -570,11 +570,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTY3NTMwMiwtNjcyMjkxMDA3LDE3Nj
-Q3MTc2NTksMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMDMwOTI4
-NDY5LC0xOTMzNzAzMTgsLTEzODQyNTA0ODAsLTEyNzcxNDI1OD
-ksMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMTU1LDY2
-OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OSwtMzE3NDIzMT
-czLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0x
-NjQwNjgwMTA1XX0=
+eyJoaXN0b3J5IjpbODcxNzg2MDk5LC02NzIyOTEwMDcsMTc2ND
+cxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0
+NjksLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OS
+wyMDMwMjI0NzM1LC0xODY0OTYzNzUzLC0zNDE1MzMxNTUsNjY5
+NzIyMTE4LC0zNTIxMTE2NDIsMzc4OTczNzQ5LC0zMTc0MjMxNz
+MsLTE3Nzg0NjYyNCwtMTkxNDgzODgzOCw5NDk2NTgyNDksLTE2
+NDA2ODAxMDVdfQ==
 -->
