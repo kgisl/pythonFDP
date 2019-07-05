@@ -120,18 +120,21 @@ print(yourlist)
 ```
 
 ### Quiz
-What is printed by the following statements? Or, what is the output of the following statements? 
+1. What is printed by the following statements? Or, what is the output of the following statements? 
 
-```python
-alist = [4,2,8,6,5]
-blist = [num*2 for num in alist if num%2==1]
-print(blist)
-```
+	```python
+	alist = [4,2,8,6,5]
+	blist = [num*2 for num in alist if num%2==1]
+	print(blist)
+	```
 
-	(A) [4,2,8,6,5]  
-	(B) [8,4,16,12,10]  
-	(C) 10  
-	(D) [10]
+		(A) [4,2,8,6,5]  
+		(B) [8,4,16,12,10]  
+		(C) 10  
+		(D) [10]
+
+2. http://j.mp/enumListCC  - manually code out the enumerate function 
+
 
 ## Eight Ways to copy/clone a list? 
 
@@ -267,8 +270,9 @@ adict['Victor'] = 900-2222
 
 
 
-
 ## Slice Exercises - Part 0 
+
+- http://j.mp/divideTwo - divide a list into two halves
 
 
 ## Slice Exercises - Part 1
@@ -780,11 +784,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTkzMzYxOCwxNzI4NTM0Mjg1LDEwMz
-EwODA0MjAsLTE2MTIyNDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcy
-Nzk3LDIwNzcwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC
-0xNTI0NDY2NDAxLDE5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIw
-NzY0ODYzMDAsMTU4OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4Nz
-EwNiwzMjU2MzczMTIsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQw
-Nzk0NzcxOF19
+eyJoaXN0b3J5IjpbMzIwMzA1MDY0LDE3Mjg1MzQyODUsMTAzMT
+A4MDQyMCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3
+OTcsMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLT
+E1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3
+NjQ4NjMwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3MT
+A2LDMyNTYzNzMxMiwxMDc5NTg0MDA4LC02MTgyOTY2ODMsNDA3
+OTQ3NzE4XX0=
 -->
