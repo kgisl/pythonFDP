@@ -255,6 +255,15 @@ adict['Victor'] = 900-2222
 1 [Runestone exercises](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)
 2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.
 
+## Exercises for Illustrative Programs
+
+- http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
+- http://j.mp/rightShiftCC - right shift exactly by one position
+-  
+- http://j.mp/swapListCC - swap elements in a list
+- http://j.mp/enumListCC  - manually code out the enumerate function 
+- http://j.mp/divideTwo - divide a list into two halves
+
 
 
 
@@ -778,11 +787,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MTA2NDc4LDEwMzEwODA0MjAsLTE2MT
-IyNDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNzcwMDE4
-NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2NDAxLD
-E5ODcyNzUwODcsLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMDAsMTU4
-OTg4NTc2NSw3NjgwOTE3MCwtMTY4OTc4NzEwNiwzMjU2MzczMT
-IsMTA3OTU4NDAwOCwtNjE4Mjk2NjgzLDQwNzk0NzcxOCwtMTUx
-MDkxNzczNF19
+eyJoaXN0b3J5IjpbMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNj
+EyMjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAx
+ODczLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMS
+wxOTg3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1
+ODk4ODU3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3Mz
+EyLDEwNzk1ODQwMDgsLTYxODI5NjY4Myw0MDc5NDc3MTgsLTE1
+MTA5MTc3MzRdfQ==
 -->
