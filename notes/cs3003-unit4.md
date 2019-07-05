@@ -42,6 +42,8 @@ The following table has been created by **_clustering_** multiple items based on
 |**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
 |  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with (_index_, _element_) tuple  
 
+## List indexing 
+- http://j.mp/swapListCC - swap elements in a list
 
 
 ## List Mutability 
@@ -784,7 +786,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjE5MjUxNSw1MzU4NDgyMTcsMTcyOD
+eyJoaXN0b3J5IjpbMTg5OTMxMTY4Niw1MzU4NDgyMTcsMTcyOD
 UzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMw
 NDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4NzgxODUsMT
 k2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1
