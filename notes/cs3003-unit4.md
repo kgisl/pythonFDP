@@ -263,7 +263,6 @@ adict['Victor'] = 900-2222
 
 - http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
 - http://j.mp/rightShiftCC - right shift exactly by one position
--  
 - http://j.mp/swapListCC - swap elements in a list
 - http://j.mp/enumListCC  - manually code out the enumerate function 
 - http://j.mp/divideTwo - divide a list into two halves
@@ -784,7 +783,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwMzA1MDY0LDE3Mjg1MzQyODUsMTAzMT
+eyJoaXN0b3J5IjpbNTM1ODQ4MjE3LDE3Mjg1MzQyODUsMTAzMT
 A4MDQyMCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3
 OTcsMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLT
 E1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3
