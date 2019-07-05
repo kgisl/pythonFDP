@@ -504,7 +504,7 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
   - insertionsort : get a key and **insert** it into sorted sublist
   - selectionsort : **select** minimum value and swap into sorted sublist 
-  - mergesort :  divide and **merge** (_conquer_) of sublists
+  - mergesort :  divide and **merge** (_conquer_) of *sorted* sublists
 
 ![sortCode](http://bit.ly/sortCompared2)
 
@@ -561,11 +561,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMD
-MwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQyNTA0ODAsLTEyNzcx
-NDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMT
-U1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OSwtMzE3
-NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5NjU4Mj
-Q5LC0xNjQwNjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwy
-NzYzMDI1NzFdfQ==
+eyJoaXN0b3J5IjpbLTIwNjMyNTc2MzcsMTY0MzE5NzM5OCwxNT
+g1NDY2NTIwLC0yMDMwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQy
+NTA0ODAsLTEyNzcxNDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mz
+c1MywtMzQxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3
+ODk3Mzc0OSwtMzE3NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mz
+g4MzgsOTQ5NjU4MjQ5LC0xNjQwNjgwMTA1LC0yMDAzNTQyMzkx
+LDU0OTI3OTI4MF19
 -->
