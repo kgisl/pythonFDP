@@ -500,7 +500,7 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 ## Verbose Compare
 ![verbose](http://bit.ly/sortVerbose)
 
-## Code Compare
+## Python Pseudo Code Compare
 ![sortCode](http://bit.ly/codeSort)
 
 ## Helper functions
@@ -556,11 +556,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQyNTA0ODAsLTEyNzcxNDI1ODksMj
-AzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMTU1LDY2OTcy
-MjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OSwtMzE3NDIzMTczLC
-0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5NjU4MjQ5LC0xNjQw
-NjgwMTA1LC0yMDAzNTQyMzkxLDU0OTI3OTI4MCwyNzYzMDI1Nz
-EsMjY3MDQ4NzAwLC0xMTkwNDMwNjUxLC0xMzU5MTczNDEwLC0z
-MDY4NDk4MzJdfQ==
+eyJoaXN0b3J5IjpbLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMT
+I3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0OTYzNzUzLC0zNDE1
+MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2NDIsMzc4OTczNzQ5LC
+0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkxNDgzODgzOCw5NDk2
+NTgyNDksLTE2NDA2ODAxMDUsLTIwMDM1NDIzOTEsNTQ5Mjc5Mj
+gwLDI3NjMwMjU3MSwyNjcwNDg3MDAsLTExOTA0MzA2NTEsLTEz
+NTkxNzM0MTBdfQ==
 -->
