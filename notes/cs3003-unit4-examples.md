@@ -561,8 +561,8 @@ http://j.mp/unionListCC
 
 ## Other related exercises
 
-- http://j.mp/butFirstCC and http://j.mp/butLastCC
-- http://j.mp/rightShiftCC
+- http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
+- http://j.mp/rightShiftCC - right shift exactly by one position
 -  
 - http://j.mp/swapListCC - swap elements in a list
 - http://j.mp/enumListCC  - manually code out the enumerate function 
@@ -570,7 +570,7 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTE5MjA2LC02NzIyOTEwMDcsMTc2ND
+eyJoaXN0b3J5IjpbOTU1Njk0MzgxLC02NzIyOTEwMDcsMTc2ND
 cxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0
 NjksLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OS
 wyMDMwMjI0NzM1LC0xODY0OTYzNzUzLC0zNDE1MzMxNTUsNjY5
