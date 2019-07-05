@@ -503,7 +503,7 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 ## Python Pseudo Code Compare
 
   - insertionsort : get a key and **insert** it into sorted sublist
-  - selectionsort : **select** minimum value and swap it into sorted sublist 
+  - selectionsort : **select** minimum value and swap into sorted sublist 
   - mergesort :  divide and **merge** (_conquer_) of sublists
 
 ![sortCode](http://bit.ly/codeSort)
@@ -561,7 +561,7 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDI3OTY1OSwtMjAzMDkyODQ2OSwtMT
+eyJoaXN0b3J5IjpbMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMT
 kzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAy
 MjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMT
 gsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3
