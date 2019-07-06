@@ -118,6 +118,8 @@ print("Sorted", insertsort(alist))
 ![insert3](http://j.mp/insert3PNG)
 
 Practice insertionsort at http://j.mp/insertionSortCC 
+ - The million insert challenge http://j.mp/millionInsert 
+
 
 # SelectionSort 
 
@@ -569,11 +571,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3OTE3Mjk0LDk1NTY5NDM4MSwtNjcyMj
-kxMDA3LDE3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNTg1NDY2NTIw
-LC0yMDMwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQyNTA0ODAsLT
-EyNzcxNDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQx
-NTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3ODk3Mzc0OS
-wtMzE3NDIzMTczLC0xNzc4NDY2MjQsLTE5MTQ4Mzg4MzgsOTQ5
-NjU4MjQ5XX0=
+eyJoaXN0b3J5IjpbLTM5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Nj
+k0MzgxLC02NzIyOTEwMDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4
+LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMT
+M4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0
+OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2ND
+IsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkx
+NDgzODgzOF19
 -->
