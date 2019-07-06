@@ -141,6 +141,8 @@ print("Sorted", insertionsort(alist))
 	 - Ask 1 or more students questions from Pre-requisites
   
  - Practice insertionsort at http://j.mp/insertionSortCC   
+	 -  The million insert challenge http://j.mp/millionInsert 
+
  - Review http://j.mp/selectVisual for the next class 
 
 ## Program File for Demo
@@ -151,9 +153,9 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NDA5NzQwLC0xMjE0MTMzOTM2LC02Nz
-Q0OTI0NjQsLTI2MDI3NTI5MCwxNzYwODEzMzcwLC0xMzA5MDk1
-NzkwLDIzMzc2NDM1Nyw0Njk0NTY1NTksLTMxMDYzMjc0OSwxMz
-UwODYyMjE5LC01NDM2ODU4NzEsMTkxMzk1MDcsLTEzMjMyODY4
-NjddfQ==
+eyJoaXN0b3J5IjpbLTkyNDY5Mjc4Nyw4MDc0MDk3NDAsLTEyMT
+QxMzM5MzYsLTY3NDQ5MjQ2NCwtMjYwMjc1MjkwLDE3NjA4MTMz
+NzAsLTEzMDkwOTU3OTAsMjMzNzY0MzU3LDQ2OTQ1NjU1OSwtMz
+EwNjMyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3MSwxOTEzOTUw
+NywtMTMyMzI4Njg2N119
 -->
