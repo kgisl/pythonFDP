@@ -223,7 +223,7 @@ Practice selection sort at http://j.mp/selectionSortCC
 
 # MergeSort
 
-tl;dr![tldr](http://bit.ly/tamilMerge)
+## tl;dr![tldr](http://bit.ly/tamilMerge)
 The key thing is to slice into almost two equal halves. That's the **crux**!
 
 ## Pre-requisites
@@ -571,7 +571,7 @@ http://j.mp/mergeListCC and http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjk1MDY3NiwtMzk5NzE4MTk3LDkyNz
+eyJoaXN0b3J5IjpbLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNz
 kxNzI5NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5
 LDE2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMT
 kzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAy
