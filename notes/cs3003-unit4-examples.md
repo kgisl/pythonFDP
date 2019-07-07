@@ -559,7 +559,7 @@ def  merge(A, B):
     # pick up the residual elements in A or B 
     return C + A + B
 ```
-http://j.mp/unionListCC
+http://j.mp/mergeListCC and http://j.mp/unionListCC
 
 ## Other related exercises
 
@@ -571,11 +571,11 @@ http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Nj
-k0MzgxLC02NzIyOTEwMDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4
-LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMT
-M4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMwMjI0NzM1LC0xODY0
-OTYzNzUzLC0zNDE1MzMxNTUsNjY5NzIyMTE4LC0zNTIxMTE2ND
-IsMzc4OTczNzQ5LC0zMTc0MjMxNzMsLTE3Nzg0NjYyNCwtMTkx
-NDgzODgzOF19
+eyJoaXN0b3J5IjpbMTcwMjk1MDY3NiwtMzk5NzE4MTk3LDkyNz
+kxNzI5NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5
+LDE2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMT
+kzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAy
+MjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMT
+gsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3
+ODQ2NjI0XX0=
 -->
