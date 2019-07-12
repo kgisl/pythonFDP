@@ -274,7 +274,10 @@ Notice that at each level we divide the array into two halves until we get bunch
   - **Divide** means portioning the n-element array to be sorted into two sub-arrays of n/2 elements. If A is an array containing zero or one element, then it is already sorted. However, if there are more elements in the array, divide A into two sub-arrays, A1 and A2, each containing about half of the elements of A. 
   - **Conquer** means sorting the two sub-arrays recursively using merge sort. Combine means merging the two sorted sub-arrays of size n/2 to produce the sorted array of n elements.
 
+
 ## Algorithm
+
+Means what it sounds like. A divide and conquer algorithm breaks up a problem into smaller sub-problems and solves those, putting the solutions to the sub-problems together to come up with the solution to the total problem.
 
 - In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
 
@@ -571,11 +574,11 @@ http://j.mp/mergeListCC and http://j.mp/unionListCC
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNz
-kxNzI5NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5
-LDE2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMT
-kzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAy
-MjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMT
-gsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMxNzQyMzE3MywtMTc3
-ODQ2NjI0XX0=
+eyJoaXN0b3J5IjpbLTEzOTMyNjEzNjEsLTQyOTcxMzU3NiwtMz
+k5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQzODEsLTY3MjI5MTAw
+NywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMj
+AzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3
+MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMz
+E1NSw2Njk3MjIxMTgsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMx
+NzQyMzE3M119
 -->
