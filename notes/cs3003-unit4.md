@@ -247,11 +247,7 @@ adict['Victor'] = 900-2222
 
 **object** A thing to which a variable can refer.
 
-**pure function** A function which has no side effects. Pure functions only make changes to the calling program through their return values.
-
 **sequence** Any of the data types that consist of an ordered collection of elements, with each element identified by an index.
-
-**side effect** A change in the state of a program made by calling a function that is not a result of reading the return value from the function. Side effects can only be produced by modifiers.
 
 **tuple** A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.
 
@@ -786,11 +782,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTMxMTY4Niw1MzU4NDgyMTcsMTcyOD
-UzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMw
-NDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4NzgxODUsMT
-k2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1
-Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4ODU3NjUsNzY4MDkxNz
-AsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEwNzk1ODQwMDgsLTYx
-ODI5NjY4M119
+eyJoaXN0b3J5IjpbLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1Mz
+U4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2
+NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLD
+EzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3
+Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4OD
+U3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEw
+Nzk1ODQwMDhdfQ==
 -->
