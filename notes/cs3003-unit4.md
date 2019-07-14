@@ -275,7 +275,8 @@ adict['Victor'] = 900-2222
 	- and http://j.mp/rotateCC 
 - http://j.mp/divideTwo - divide a list into two halves
 - j.mp/slicingCC - from repl course for Python
-- 
+
+Given a string, cut it into two equal parts. If the length of the string is odd, leave the middle character within the first chunk, so that the first string contains one more character than the second. Now print a new string on a single row with the first and second halves swapped: second half first and the first half last.
 
 ## Slice Exercises - Part 1
 
@@ -786,11 +787,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDQwNDIyNCw4MDM4NDQ1MjYsLTIwNz
-E2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4
-NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMT
-Y2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4NzgxODUsMTk2NDk0
-OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OT
-kzLC0yMDc2NDg2MzAwLDE1ODk4ODU3NjUsNzY4MDkxNzAsLTE2
-ODk3ODcxMDZdfQ==
+eyJoaXN0b3J5IjpbLTkwNTc1NjYxOCwtNTkwNDA0MjI0LDgwMz
+g0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LDUzNTg0ODIx
+NywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIyNDY1MzEsMT
+E3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNzcwMDE4NzMsMTM3MDg3
+ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2NDAxLDE5ODcyNzUwOD
+csLTEzNzU2ODQ5OTMsLTIwNzY0ODYzMDAsMTU4OTg4NTc2NSw3
+NjgwOTE3MF19
 -->
