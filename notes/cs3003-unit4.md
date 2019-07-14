@@ -260,6 +260,7 @@ adict['Victor'] = 900-2222
 ## Exercises for Illustrative Programs
 
 - http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
+	- http://bit.ly/sumSquareCC - traverse and do a summation
 - http://j.mp/rightShiftCC - right shift exactly by one position
 - http://j.mp/swapListCC - swap elements in a list
 - http://j.mp/enumListCC  - manually code out the enumerate function 
@@ -782,11 +783,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1Mz
-U4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2
-NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLD
-EzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3
-Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4OD
-U3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYsMzI1NjM3MzEyLDEw
-Nzk1ODQwMDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDg3MDM4NDAsLTIwNzE2ODE3NzEsMT
+g5OTMxMTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgw
+NDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5Ny
+wyMDc3MDAxODczLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUy
+NDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2ND
+g2MzAwLDE1ODk4ODU3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYs
+MzI1NjM3MzEyXX0=
 -->
