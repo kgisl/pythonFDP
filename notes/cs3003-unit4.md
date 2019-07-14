@@ -178,8 +178,11 @@ _Using modules_
 	> a ^= b 
 	> b ^= a
 	> a ^= b 
-4. Using tuple unpacking
-	 > a, b, = (b, a)
+4. Using tuple assignments 
+	>tuple assignment
+
+	> An assignment to all of the elements in a tuple using a single assignment statement. Tuple assignment occurs  _simultaneously_  rather than in sequence, making it useful for swapping values.
+	> a, b, = (b, a)
 5. Using list methods 
      > al = [a, b]
      > a = al.pop()
@@ -788,11 +791,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU0ODIwNjMsLTU5MDQwNDIyNCw4MD
-M4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgy
-MTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLD
-ExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4
-NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MD
-g3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAwLDE1ODk4ODU3NjUs
-NzY4MDkxNzBdfQ==
+eyJoaXN0b3J5IjpbLTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLT
+U5MDQwNDIyNCw4MDM4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMx
+MTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC
+0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3
+MDAxODczLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2Nj
+QwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAw
+LDE1ODk4ODU3NjVdfQ==
 -->
