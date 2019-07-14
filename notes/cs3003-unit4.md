@@ -272,8 +272,10 @@ adict['Victor'] = 900-2222
 ## Slice Exercises - Part 0 
 
 - http://j.mp/rightShiftCC - right shift exactly by one position
+	- and http://j.mp/rotateCC 
 - http://j.mp/divideTwo - divide a list into two halves
-
+- j.mp/slicingCC - from repl course for Python
+- 
 
 ## Slice Exercises - Part 1
 
@@ -784,11 +786,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzODQ0NTI2LC0yMDcxNjgxNzcxLDE4OT
-kzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1MzQyODUsMTAzMTA4MDQy
-MCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3OTcsMj
-A3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0
-NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3NjQ4Nj
-MwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3MTA2LDMy
-NTYzNzMxMl19
+eyJoaXN0b3J5IjpbLTU5MDQwNDIyNCw4MDM4NDQ1MjYsLTIwNz
+E2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4
+NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMT
+Y2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4NzgxODUsMTk2NDk0
+OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OT
+kzLC0yMDc2NDg2MzAwLDE1ODk4ODU3NjUsNzY4MDkxNzAsLTE2
+ODk3ODcxMDZdfQ==
 -->
