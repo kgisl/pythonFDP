@@ -262,6 +262,7 @@ adict['Victor'] = 900-2222
 - http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
 	- http://bit.ly/sumSquareCC - traverse and do a summation
 - http://j.mp/rightShiftCC - right shift exactly by one position
+	- http://j.mp/rotateCC
 - http://j.mp/swapListCC - swap elements in a list
 - http://j.mp/enumListCC  - manually code out the enumerate function 
 - http://j.mp/divideTwo - divide a list into two halves
@@ -783,11 +784,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg3MDM4NDAsLTIwNzE2ODE3NzEsMT
-g5OTMxMTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgw
-NDIwLC0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5Ny
-wyMDc3MDAxODczLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUy
-NDQ2NjQwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2ND
-g2MzAwLDE1ODk4ODU3NjUsNzY4MDkxNzAsLTE2ODk3ODcxMDYs
-MzI1NjM3MzEyXX0=
+eyJoaXN0b3J5IjpbODAzODQ0NTI2LC0yMDcxNjgxNzcxLDE4OT
+kzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1MzQyODUsMTAzMTA4MDQy
+MCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjExNzI3OTcsMj
+A3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMzAsLTE1MjQ0
+NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5MywtMjA3NjQ4Nj
+MwMCwxNTg5ODg1NzY1LDc2ODA5MTcwLC0xNjg5Nzg3MTA2LDMy
+NTYzNzMxMl19
 -->
