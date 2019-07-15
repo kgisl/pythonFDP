@@ -39,7 +39,7 @@ The following table has been created by **_clustering_** multiple items based on
 | | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
-|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
+|**Allocate** | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
 |  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with (_index_, _element_) tuple  
 
 ## List indexing 
@@ -791,11 +791,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLT
-U5MDQwNDIyNCw4MDM4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMx
-MTY4Niw1MzU4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC
-0xNjEyMjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3
-MDAxODczLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2Nj
-QwMSwxOTg3Mjc1MDg3LC0xMzc1Njg0OTkzLC0yMDc2NDg2MzAw
-LDE1ODk4ODU3NjVdfQ==
+eyJoaXN0b3J5IjpbODEyNjQ2MjYxLC0xODk4ODcxNTUxLC0xNj
+Y1NDgyMDYzLC01OTA0MDQyMjQsODAzODQ0NTI2LC0yMDcxNjgx
+NzcxLDE4OTkzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1MzQyODUsMT
+AzMTA4MDQyMCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjEx
+NzI3OTcsMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMz
+AsLTE1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5Mywt
+MjA3NjQ4NjMwMF19
 -->
