@@ -278,33 +278,42 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 </ol>
 <h2 id="four-ways-to-swap-2-values">Four ways to swap 2 values</h2>
 <ol>
-<li>Use a temp variable
+<li>
+<p>Use a temp variable</p>
 <blockquote>
 <p>temp = a<br>
 a = b<br>
 b = temp</p>
 </blockquote>
 </li>
-<li>Use addition and subtraction
+<li>
+<p>Use addition and subtraction</p>
 <blockquote>
 <p>a = a + b<br>
 b = a - b<br>
 a = a - b</p>
 </blockquote>
 </li>
-<li>Using XOR
+<li>
+<p>Using XOR</p>
 <blockquote>
 <p>a ^= b<br>
 b ^= a<br>
 a ^= b</p>
 </blockquote>
 </li>
-<li>Using tuple unpacking
+<li>
+<p>Using tuple assignments</p>
 <blockquote>
-<p>a, b, = (b, a)</p>
+<p>tuple assignment</p>
+</blockquote>
+<blockquote>
+<p>An assignment to all of the elements in a tuple using a single assignment statement. Tuple assignment occurs  <em>simultaneously</em>  rather than in sequence, making it useful for swapping values.<br>
+a, b, = (b, a)</p>
 </blockquote>
 </li>
-<li>Using list methods
+<li>
+<p>Using list methods</p>
 <blockquote>
 <p>al = [a, b]<br>
 a = al.pop()<br>
