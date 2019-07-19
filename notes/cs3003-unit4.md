@@ -53,9 +53,9 @@ Pre-requisite: http://j.mp/immutablePython
 
 From [https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/](https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/)
 
-This brings us to an important point: there are actually two kinds of objects in Python. A  _mutable_  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python's lists are an example of mutable objects. An  _immutable_  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  _can_  be used to compute the values of  **new**  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number '2' throughout my program.
+This brings us to an important point: there are actually two kinds of objects in Python. A  _mutable_  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python's lists are an example of mutable objects. An  _immutable_  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  _can_  be used to compute the values of  **new**  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the **number '2'** throughout my program.
 
-It would be incorrect to say that "mutable objects can change and immutable ones can't", however. Consider the following:
+It would be incorrect to say that *"mutable objects can change and immutable ones can't"*, however.
 
 
 ## Slicing
@@ -802,11 +802,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjExNDU1Myw0MDMzNTc3MSwxNTE4MT
-cyNzgyLDE1NTQyMTQxNTEsODEyNjQ2MjYxLC0xODk4ODcxNTUx
-LC0xNjY1NDgyMDYzLC01OTA0MDQyMjQsODAzODQ0NTI2LC0yMD
-cxNjgxNzcxLDE4OTkzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1MzQy
-ODUsMTAzMTA4MDQyMCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LD
-E2NjExNzI3OTcsMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5
-NDkxMzBdfQ==
+eyJoaXN0b3J5IjpbMTMwMjE3MDg4NiwtOTMyMTE0NTUzLDQwMz
+M1NzcxLDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYyNjEs
+LTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNCw4MD
+M4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgy
+MTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLD
+ExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4
+NzgxODVdfQ==
 -->
