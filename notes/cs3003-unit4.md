@@ -2,7 +2,6 @@
 
 Pre-requisite: http://j.mp/pythonREPLcourse
 
-
 _Refer to the glossary below to become familiar with the terms relevant to this unit_
 
 - Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; 
@@ -791,11 +790,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNjQ2MjYxLC0xODk4ODcxNTUxLC0xNj
-Y1NDgyMDYzLC01OTA0MDQyMjQsODAzODQ0NTI2LC0yMDcxNjgx
-NzcxLDE4OTkzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1MzQyODUsMT
-AzMTA4MDQyMCwtMTYxMjI0NjUzMSwxMTc3MjkzMDQ2LDE2NjEx
-NzI3OTcsMjA3NzAwMTg3MywxMzcwODc4MTg1LDE5NjQ5NDkxMz
-AsLTE1MjQ0NjY0MDEsMTk4NzI3NTA4NywtMTM3NTY4NDk5Mywt
-MjA3NjQ4NjMwMF19
+eyJoaXN0b3J5IjpbMTU1NDIxNDE1MSw4MTI2NDYyNjEsLTE4OT
+g4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNCw4MDM4NDQ1
+MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgyMTcsMT
+cyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcy
+OTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxODczLDEzNzA4NzgxOD
+UsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwxOTg3Mjc1MDg3LC0x
+Mzc1Njg0OTkzXX0=
 -->
