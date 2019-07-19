@@ -140,13 +140,7 @@ print(yourlist)
 
 ![compre](http://j.mp/compreThis)
 
-4. Complete the code snippet to loop through the list in reverse and then print it out. Write the equivalent of this using list comprehension as well. 
 
-```python
-pylist = ['n', 'o', 'h', 't']
-for w in ???(???):
-    ???(w)   
-```
 	
 
 ## Eight Ways to copy/clone a list? 
@@ -802,11 +796,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcwNDQwNDksMTU1NDIxNDE1MSw4MT
-I2NDYyNjEsLTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQw
-NDIyNCw4MDM4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Ni
-w1MzU4NDgyMTcsMTcyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEy
-MjQ2NTMxLDExNzcyOTMwNDYsMTY2MTE3Mjc5NywyMDc3MDAxOD
-czLDEzNzA4NzgxODUsMTk2NDk0OTEzMCwtMTUyNDQ2NjQwMSwx
-OTg3Mjc1MDg3XX0=
+eyJoaXN0b3J5IjpbMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
+Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
+MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LD
+UzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIy
+NDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNzcwMDE4Nz
+MsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2NDAxLDE5
+ODcyNzUwODddfQ==
 -->
