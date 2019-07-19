@@ -140,6 +140,12 @@ print(yourlist)
 
 ![compre](http://j.mp/compreThis)
 
+4. Complete the code snippet to loop through the list in reverse and then print it out. 
+```python
+pylist = ['n', 'o', 'h', 't', 'y', 'p']
+for c in ???(???):
+    ???(w)   
+```
 
 	
 
@@ -796,11 +802,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
-Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
-MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LD
-UzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIy
-NDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcyNzk3LDIwNzcwMDE4Nz
-MsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0NDY2NDAxLDE5
-ODcyNzUwODddfQ==
+eyJoaXN0b3J5IjpbNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0Mj
+E0MTUxLDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2
+MywtNTkwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxOD
+k5MzExNjg2LDUzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0
+MjAsLTE2MTIyNDY1MzEsMTE3NzI5MzA0NiwxNjYxMTcyNzk3LD
+IwNzcwMDE4NzMsMTM3MDg3ODE4NSwxOTY0OTQ5MTMwLC0xNTI0
+NDY2NDAxXX0=
 -->
