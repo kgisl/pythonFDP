@@ -225,9 +225,10 @@ adict['Victor'] = 900-2222
 ```
 
 ### Exercises
-- http://j.mp/reverseDictionary
+- Tackle a Cloudcoder exercise http://j.mp/fromlistCC  - generate a dictionary or a list of tuples.
+- http://j.mp/reverseDictionary 
 - http://j.mp/friendsCC 
-
+	
 
 ## Glossary
 
@@ -801,7 +802,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI1MDEyOCwxMzAyMTcwODg2LC05Mz
+eyJoaXN0b3J5IjpbLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05Mz
 IxMTQ1NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUx
 LDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNT
 kwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzEx
