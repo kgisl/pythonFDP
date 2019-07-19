@@ -149,8 +149,8 @@
 <p><a href="http://bit.ly/immutableThis">http://bit.ly/immutableThis</a>  - explanation of Immutability in Python</p>
 <p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
 <p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
-<p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the number ‘2’ throughout my program.</p>
-<p>It would be incorrect to say that “mutable objects can change and immutable ones can’t”, however. Consider the following:</p>
+<p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the <strong>number ‘2’</strong> throughout my program.</p>
+<p>It would be incorrect to say that <em>“mutable objects can change and immutable ones can’t”</em>, however.</p>
 <h2 id="slicing">Slicing</h2>
 <ul>
 <li><strong>A Python slice</strong> extracts elements from an <code>iterable</code> based on a start and stop.  It returns a <code>iterable</code> (or sequence) containing the extracted elements.</li>
@@ -255,6 +255,13 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 </li>
 </ol>
 <p><img src="http://j.mp/compreThis" alt="compre"></p>
+<ol start="4">
+<li>Complete the code snippet to loop through the list in reverse and then print it out.</li>
+</ol>
+<pre class=" language-python"><code class="prism  language-python">pylist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'n'</span><span class="token punctuation">,</span> <span class="token string">'o'</span><span class="token punctuation">,</span> <span class="token string">'h'</span><span class="token punctuation">,</span> <span class="token string">'t'</span><span class="token punctuation">,</span> <span class="token string">'y'</span><span class="token punctuation">,</span> <span class="token string">'p'</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> c <span class="token keyword">in</span> ???<span class="token punctuation">(</span>???<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    ???<span class="token punctuation">(</span>c<span class="token punctuation">)</span>   
+</code></pre>
 <h2 id="eight-ways-to-copyclone-a-list">Eight Ways to copy/clone a list?</h2>
 <p><em>Using functions/operations</em></p>
 <ol>
