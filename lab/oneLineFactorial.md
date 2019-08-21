@@ -8,9 +8,9 @@ _November 3, 2006_
 
 ## 7 Comments
 
--   **1.**  [Peter Hosey](https://web.archive.org/web/20100327214000/http://boredzo.org/)  | December 25, 2006 at 7:24 pm
+**1.**  [Peter Hosey](https://web.archive.org/web/20100327214000/http://boredzo.org/)  | December 25, 2006 at 7:24 pm
     
-    Here’s an alternate solution, unless you count the import operator statement…
+Here’s an alternate solution, unless you count the import operator statement…
     
 ```python
 def fact(x): 
