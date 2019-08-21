@@ -71,11 +71,10 @@ it will output the time. Built-in time function for all *nix systems.
     SyntaxError: invalid syntax  
     >>>`
     
--   **4.**  Jameson  | June 26, 2008 at 7:50 am
+**4.**  Jameson  | June 26, 2008 at 7:50 am
     
-    python needs a carriage returns followed by an indentation after defining a function… do it like this:
-    
-      
+python needs a carriage returns followed by an indentation after defining a function… do it like this:
+          
     >>> def fact(x):  
     … return (1 if x==0 else x * fact(x-1))  
     …  
