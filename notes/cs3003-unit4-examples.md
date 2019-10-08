@@ -565,7 +565,10 @@ def  merge(A, B):
 http://j.mp/mergeListCC and http://j.mp/unionListCC
 
 ```python
-def divideTwo(
+def divideTwo(alist):
+    mid = len(alist)//2
+    return alist[:mid], alist[mid:]
+    
 ```
 
 ## Other related exercises
@@ -578,11 +581,11 @@ def divideTwo(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQyMzUzMzEsLTEzOTMyNjEzNjEsLT
-QyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQz
-ODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMT
-U4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0
-MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5Nj
-M3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1MjExMTY0Miwz
-Nzg5NzM3NDldfQ==
+eyJoaXN0b3J5IjpbLTU2MDgyNDQ4MywtMTM5MzI2MTM2MSwtND
+I5NzEzNTc2LC0zOTk3MTgxOTcsOTI3OTE3Mjk0LDk1NTY5NDM4
+MSwtNjcyMjkxMDA3LDE3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNT
+g1NDY2NTIwLC0yMDMwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQy
+NTA0ODAsLTEyNzcxNDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mz
+c1MywtMzQxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3
+ODk3Mzc0OV19
 -->
