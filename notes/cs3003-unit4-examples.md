@@ -564,21 +564,25 @@ def  merge(A, B):
 ```
 http://j.mp/mergeListCC and http://j.mp/unionListCC
 
+```python
+def divideTwo(
+```
+
 ## Other related exercises
 
+- http://j.mp/divideTwo - divide a list into two halves
 - http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
 - http://j.mp/rightShiftCC - right shift exactly by one position
 - http://j.mp/swapListCC - swap elements in a list
 - http://j.mp/enumListCC  - manually code out the enumerate function 
-- http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyNjEzNjEsLTQyOTcxMzU3NiwtMz
-k5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQzODEsLTY3MjI5MTAw
-NywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMj
-AzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0MjUwNDgwLC0xMjc3
-MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5NjM3NTMsLTM0MTUzMz
-E1NSw2Njk3MjIxMTgsLTM1MjExMTY0MiwzNzg5NzM3NDksLTMx
-NzQyMzE3M119
+eyJoaXN0b3J5IjpbLTE2OTQyMzUzMzEsLTEzOTMyNjEzNjEsLT
+QyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQz
+ODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMT
+U4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0
+MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5Nj
+M3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1MjExMTY0Miwz
+Nzg5NzM3NDldfQ==
 -->
