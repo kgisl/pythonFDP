@@ -570,10 +570,12 @@ def divideTwo(alist):
     return alist[:mid], alist[mid:]
     
 ```
+http://j.mp/divideTwo - divide a list into two halves
+
 
 ## Other related exercises
 
-- http://j.mp/divideTwo - divide a list into two halves
+
 - http://j.mp/butFirstCC and http://j.mp/butLastCC - iterate over a list
 - http://j.mp/rightShiftCC - right shift exactly by one position
 - http://j.mp/swapListCC - swap elements in a list
@@ -581,7 +583,7 @@ def divideTwo(alist):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDgyNDQ4MywtMTM5MzI2MTM2MSwtND
+eyJoaXN0b3J5IjpbLTExOTUxMjMwOCwtMTM5MzI2MTM2MSwtND
 I5NzEzNTc2LC0zOTk3MTgxOTcsOTI3OTE3Mjk0LDk1NTY5NDM4
 MSwtNjcyMjkxMDA3LDE3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNT
 g1NDY2NTIwLC0yMDMwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQy
