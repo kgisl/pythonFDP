@@ -35,7 +35,7 @@ The following table has been created by **_clustering_** multiple items based on
  | _operation_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
 |**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
-|**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
+|**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
@@ -803,11 +803,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY1NzA3MjUsLTY3MDc0ODAyOSwxMz
-AyMTcwODg2LC05MzIxMTQ1NTMsNDAzMzU3NzEsMTUxODE3Mjc4
-MiwxNTU0MjE0MTUxLDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMT
-Y2NTQ4MjA2MywtNTkwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4
-MTc3MSwxODk5MzExNjg2LDUzNTg0ODIxNywxNzI4NTM0Mjg1LD
-EwMzEwODA0MjAsLTE2MTIyNDY1MzEsMTE3NzI5MzA0NiwxNjYx
-MTcyNzk3XX0=
+eyJoaXN0b3J5IjpbMjY5NzYzMTcwLC0yMTM2NTcwNzI1LC02Nz
+A3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLDQwMzM1Nzcx
+LDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYyNjEsLTE4OT
+g4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNCw4MDM4NDQ1
+MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgyMTcsMT
+cyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcy
+OTMwNDZdfQ==
 -->
