@@ -29,6 +29,8 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be _better_ chance of overall engagement.
 
+  - What is a list **method**? What is a list **operation**? What is the difference? Ensure this is 
+
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
 |**Initialize** methods |  | initialize an empty list, using a tuple, using another list | 
@@ -803,11 +805,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTkwNDYxMCwyNjk3NjMxNzAsLTIxMz
-Y1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1
-NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
-Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
-MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LD
-UzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIy
-NDY1MzFdfQ==
+eyJoaXN0b3J5IjpbNDk3MzIwMDAyLDI2OTc2MzE3MCwtMjEzNj
+U3MDcyNSwtNjcwNzQ4MDI5LDEzMDIxNzA4ODYsLTkzMjExNDU1
+Myw0MDMzNTc3MSwxNTE4MTcyNzgyLDE1NTQyMTQxNTEsODEyNj
+Q2MjYxLC0xODk4ODcxNTUxLC0xNjY1NDgyMDYzLC01OTA0MDQy
+MjQsODAzODQ0NTI2LC0yMDcxNjgxNzcxLDE4OTkzMTE2ODYsNT
+M1ODQ4MjE3LDE3Mjg1MzQyODUsMTAzMTA4MDQyMCwtMTYxMjI0
+NjUzMV19
 -->
