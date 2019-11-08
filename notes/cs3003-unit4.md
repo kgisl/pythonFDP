@@ -31,10 +31,10 @@ The following table has been created by **_clustering_** multiple items based on
 
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
-|**Initialize** |  | initialize an empty list, using a tuple, using another list | 
- | _operation_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
-|**Access** | [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
-|   _operation_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
+|**Initialize** methods |  | initialize an empty list, using a tuple, using another list | 
+ | _operations_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
+|**Access** methods| [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
+|   _operations_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
 |**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
@@ -803,11 +803,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NzYzMTcwLC0yMTM2NTcwNzI1LC02Nz
-A3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLDQwMzM1Nzcx
-LDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYyNjEsLTE4OT
-g4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNCw4MDM4NDQ1
-MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4NDgyMTcsMT
-cyODUzNDI4NSwxMDMxMDgwNDIwLC0xNjEyMjQ2NTMxLDExNzcy
-OTMwNDZdfQ==
+eyJoaXN0b3J5IjpbMTU0MjA4NTYzNiwyNjk3NjMxNzAsLTIxMz
+Y1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1
+NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
+Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
+MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LD
+UzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIy
+NDY1MzFdfQ==
 -->
