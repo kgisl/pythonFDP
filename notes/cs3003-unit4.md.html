@@ -80,6 +80,9 @@
 </tbody>
 </table><h2 id="list-methods-and-operations">List Methods and Operations</h2>
 <p>The following table has been created by <strong><em>clustering</em></strong> multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be <em>better</em> chance of overall engagement.</p>
+<ul>
+<li>What is a list <strong>method</strong>? What is a list <strong>operation</strong>? What is the difference? Get this clarified <em>first</em>!</li>
+</ul>
 
 <table>
 <thead>
@@ -91,27 +94,27 @@
 </thead>
 <tbody>
 <tr>
-<td align="left"><strong>Initialize</strong></td>
+<td align="left"><strong>Initialize</strong> methods</td>
 <td align="left"></td>
 <td align="left">initialize an empty list, using a tuple, using another list</td>
 </tr>
 <tr>
-<td align="left"><em>operation</em></td>
+<td align="left"><em>operations</em></td>
 <td align="left"><code>[]</code>, <code>list()</code> or <code>list(sequence)</code>, the <code>=</code> operator</td>
 <td align="left"><code>bl = al</code> initializes <code>bl</code> as an <strong>alias</strong> for the<code>al</code> list object</td>
 </tr>
 <tr>
-<td align="left"><strong>Access</strong></td>
+<td align="left"><strong>Access</strong> methods</td>
 <td align="left">[<em>idx</em>], <code>.find(elem)</code>, <code>.index(elem)</code> <code>.count()</code></td>
 <td align="left"><code>find</code> returns <code>-1</code>, <code>index</code> throws an exception if not present</td>
 </tr>
 <tr>
-<td align="left"><em>operation</em></td>
+<td align="left"><em>operations</em></td>
 <td align="left"><code>in</code> and <code>not in</code>, <code>any</code> and <code>all</code>, <code>max</code>, <code>min</code>, <code>len</code>, <code>sum</code></td>
 <td align="left">membership <code>in</code> list, <code>all</code> or <code>any</code> if element(s) is <code>True</code></td>
 </tr>
 <tr>
-<td align="left"><strong>Modify</strong></td>
+<td align="left"><strong>Modify</strong> methods</td>
 <td align="left"><em>addition</em> <code>.append(val)</code>, <code>.insert(loc, val)</code>, <code>.extend(lst)</code></td>
 <td align="left">add elements to the list at specific locations; <code>extend</code> adds multiple elements from sequence</td>
 </tr>
@@ -126,17 +129,17 @@
 <td align="left">rearrange elements in the list</td>
 </tr>
 <tr>
-<td align="left"><em>operation</em></td>
+<td align="left"><em>operations</em></td>
 <td align="left"><code>del</code>, <code>sorted</code></td>
 <td align="left">same effect as the methods with better performance?</td>
 </tr>
 <tr>
-<td align="left"><strong>Allocate</strong></td>
+<td align="left"><strong>Allocate</strong> methods</td>
 <td align="left"><code>.copy()</code>,<code>[:]</code>, [<em>s</em>:<em>s</em>:<em>s</em>], repetition (using <code>*</code>) and concatenation (using <code>+</code>)</td>
 <td align="left">Create distinct list objects by duplicating existing ones</td>
 </tr>
 <tr>
-<td align="left"><em>operation</em></td>
+<td align="left"><em>operations</em></td>
 <td align="left">slice(<em>start</em>, <em>stop</em>, <em>step</em>), <code>zip</code>, <code>enumerate</code>, <strong>cloning</strong> (<em>copy.copy and deepcopy</em>) and <strong>list comprehension</strong></td>
 <td align="left">same as slice operator <code>[]</code>, <code>zip</code> creates a new list with tuples from two lists<code>,</code>enumerate` provides list with (<em>index</em>, <em>element</em>) tuple</td>
 </tr>
