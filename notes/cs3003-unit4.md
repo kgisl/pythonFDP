@@ -35,12 +35,12 @@ The following table has been created by **_clustering_** multiple items based on
  | _operations_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
 |**Access** methods| [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operations_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
-|**Modify** | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
+|**Modify** methods| _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
 | | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
-| _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
-|**Allocate** | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
-|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with (_index_, _element_) tuple  
+| _operations_|  `del`, `sorted`| same effect as the methods with better performance?|
+|**Allocate** methods | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
+|  _operations_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with (_index_, _element_) tuple  
 
 ## List indexing 
 - http://j.mp/swapListCC - swap elements in a list
@@ -803,7 +803,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjA4NTYzNiwyNjk3NjMxNzAsLTIxMz
+eyJoaXN0b3J5IjpbLTkxOTkwNDYxMCwyNjk3NjMxNzAsLTIxMz
 Y1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1
 NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
 Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
