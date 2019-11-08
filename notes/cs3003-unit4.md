@@ -29,7 +29,7 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be _better_ chance of overall engagement.
 
-  - What is a list **method**? What is a list **operation**? What is the difference? Get this clarified *first*! 
+  - What is a list **method** (an attribute of a variable)? What is a list **operation** (a stand-alone function)? What is the difference? Get this clarified *first*! 
 
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
@@ -805,11 +805,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM1ODI0MiwyNjk3NjMxNzAsLTIxMz
-Y1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1
-NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMj
-Y0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0
-MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5MzExNjg2LD
-UzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEwODA0MjAsLTE2MTIy
-NDY1MzFdfQ==
+eyJoaXN0b3J5IjpbLTE4NzU5Mjg1NDIsLTEzMzM1ODI0MiwyNj
+k3NjMxNzAsLTIxMzY1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcw
+ODg2LC05MzIxMTQ1NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNT
+U0MjE0MTUxLDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4
+MjA2MywtNTkwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MS
+wxODk5MzExNjg2LDUzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEw
+ODA0MjBdfQ==
 -->
