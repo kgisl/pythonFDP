@@ -33,7 +33,7 @@ The following table has been created by **_clustering_** multiple items based on
 
 |Intent | Method / Operation | Description |
 |:-------|:--------------|:----------------|
-|**Initialize** methods |  | initialize an empty list, using a tuple, using another list | 
+|**Initialize** methods | _none_ | initialize an empty list, using a tuple, using another list | 
  | _operations_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
 |**Access** methods| [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
 |   _operations_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
@@ -805,11 +805,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU5Mjg1NDIsLTEzMzM1ODI0MiwyNj
-k3NjMxNzAsLTIxMzY1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcw
-ODg2LC05MzIxMTQ1NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNT
-U0MjE0MTUxLDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4
-MjA2MywtNTkwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MS
-wxODk5MzExNjg2LDUzNTg0ODIxNywxNzI4NTM0Mjg1LDEwMzEw
-ODA0MjBdfQ==
+eyJoaXN0b3J5IjpbMTYwMjk5NDEwNiwtMTg3NTkyODU0MiwtMT
+MzMzU4MjQyLDI2OTc2MzE3MCwtMjEzNjU3MDcyNSwtNjcwNzQ4
+MDI5LDEzMDIxNzA4ODYsLTkzMjExNDU1Myw0MDMzNTc3MSwxNT
+E4MTcyNzgyLDE1NTQyMTQxNTEsODEyNjQ2MjYxLC0xODk4ODcx
+NTUxLC0xNjY1NDgyMDYzLC01OTA0MDQyMjQsODAzODQ0NTI2LC
+0yMDcxNjgxNzcxLDE4OTkzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1
+MzQyODVdfQ==
 -->
