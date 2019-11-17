@@ -98,7 +98,7 @@ def insertsort(alist):
         if j != idx: 
             alist[j+1:idx+1] = alist[j:idx]
             alist[j] = value
-	        print('intermediary:', alist)
+            print('intermediary:', alist)
         return alist
 ```
 
@@ -583,11 +583,11 @@ http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUxMjMwOCwtMTM5MzI2MTM2MSwtND
-I5NzEzNTc2LC0zOTk3MTgxOTcsOTI3OTE3Mjk0LDk1NTY5NDM4
-MSwtNjcyMjkxMDA3LDE3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNT
-g1NDY2NTIwLC0yMDMwOTI4NDY5LC0xOTMzNzAzMTgsLTEzODQy
-NTA0ODAsLTEyNzcxNDI1ODksMjAzMDIyNDczNSwtMTg2NDk2Mz
-c1MywtMzQxNTMzMTU1LDY2OTcyMjExOCwtMzUyMTExNjQyLDM3
-ODk3Mzc0OV19
+eyJoaXN0b3J5IjpbNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLTEzOT
+MyNjEzNjEsLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5
+NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2ND
+MxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcw
+MzE4LC0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3Mz
+UsLTE4NjQ5NjM3NTMsLTM0MTUzMzE1NSw2Njk3MjIxMTgsLTM1
+MjExMTY0Ml19
 -->
