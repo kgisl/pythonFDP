@@ -557,7 +557,7 @@ def  merge(A, B):
     '''
     C =  []
     while A and B:
-        smaller =  (A if A[0]  < B[0]  else B).pop(0)
+        smaller = (A if A[0]  < B[0]  else B).pop(0)
         C.append(smaller)  
     # pick up the residual elements in A or B 
     return C + A + B
@@ -583,11 +583,11 @@ http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUyNDk3NCw3MjkzMTYxNDgsLTExOT
-UxMjMwOCwtMTM5MzI2MTM2MSwtNDI5NzEzNTc2LC0zOTk3MTgx
-OTcsOTI3OTE3Mjk0LDk1NTY5NDM4MSwtNjcyMjkxMDA3LDE3Nj
-Q3MTc2NTksMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMDMwOTI4
-NDY5LC0xOTMzNzAzMTgsLTEzODQyNTA0ODAsLTEyNzcxNDI1OD
-ksMjAzMDIyNDczNSwtMTg2NDk2Mzc1MywtMzQxNTMzMTU1LDY2
-OTcyMjExOF19
+eyJoaXN0b3J5IjpbMTA1OTIwNjc0LC0xNjM1MjQ5NzQsNzI5Mz
+E2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEzNjEsLTQyOTcxMzU3
+NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQzODEsLTY3Mj
+I5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMTU4NTQ2NjUy
+MCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0MjUwNDgwLC
+0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5NjM3NTMsLTM0
+MTUzMzE1NV19
 -->
