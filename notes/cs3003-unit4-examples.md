@@ -489,8 +489,6 @@ for bin in o_histogram:
   print (f'{str(bin[1]):>10}', '@'*bin[0])
 ```
 
-
-
 ## Complexity Analysis
 
 This needs to be expanded - or even required? 
@@ -586,11 +584,11 @@ http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU5MDcyMTcsMTA1OTIwNjc0LC0xNj
-M1MjQ5NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEz
-NjEsLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NT
-U2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTcz
-OTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC
-0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4
-NjQ5NjM3NTNdfQ==
+eyJoaXN0b3J5IjpbLTk2OTgzMDkzLC0xOTU1OTA3MjE3LDEwNT
+kyMDY3NCwtMTYzNTI0OTc0LDcyOTMxNjE0OCwtMTE5NTEyMzA4
+LC0xMzkzMjYxMzYxLC00Mjk3MTM1NzYsLTM5OTcxODE5Nyw5Mj
+c5MTcyOTQsOTU1Njk0MzgxLC02NzIyOTEwMDcsMTc2NDcxNzY1
+OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLT
+E5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMw
+MjI0NzM1XX0=
 -->
