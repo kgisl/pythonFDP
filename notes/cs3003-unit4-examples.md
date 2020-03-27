@@ -493,6 +493,9 @@ for bin in o_histogram:
 
 ## Complexity Analysis
 
+This needs to be expanded - or even required? 
+	- Rajasekaran to discuss 
+
 http://bit.ly/complexThis
 
 # Epilogue 
@@ -583,11 +586,11 @@ http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTIwNjc0LC0xNjM1MjQ5NzQsNzI5Mz
-E2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEzNjEsLTQyOTcxMzU3
-NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQzODEsLTY3Mj
-I5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMTU4NTQ2NjUy
-MCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0MjUwNDgwLC
-0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4NjQ5NjM3NTMsLTM0
-MTUzMzE1NV19
+eyJoaXN0b3J5IjpbLTE5NTU5MDcyMTcsMTA1OTIwNjc0LC0xNj
+M1MjQ5NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEz
+NjEsLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NT
+U2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTcz
+OTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC
+0xMzg0MjUwNDgwLC0xMjc3MTQyNTg5LDIwMzAyMjQ3MzUsLTE4
+NjQ5NjM3NTNdfQ==
 -->
