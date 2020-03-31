@@ -1,9 +1,7 @@
 
 For a video demo go to 
 
-[](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
-
-![Check out this Video](https://cdn.vidyard.com/thumbnails/7758610/q9t52c__ib6bPwmbMJdNZA_play_button_small.jpg)
+https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?
 
 Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
 
