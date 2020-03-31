@@ -16,4 +16,5 @@ Now visit a HTML file in the Github repository
 5. Click on the bookmarklet “preview” in your bookmark bar.  
 6. The HTML file will be rendered in your browser in a new tab. Viola!
 
-## ENJOY! 
+### Enjoy! 
+ 
