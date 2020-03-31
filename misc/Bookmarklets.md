@@ -1,5 +1,7 @@
 ### HTML Previewer 
 
+<a href="javascript:(function()%7Balert('hello%20world')%3B%7D)()%3B">bookmarklet</a>
+
 <html>
 <body>
 <a href="javascript:alert('Hello World!');">Execute JavaScript</a>
