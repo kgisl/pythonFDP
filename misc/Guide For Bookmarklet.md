@@ -1,7 +1,5 @@
 
-For a video demo go to 
 
-https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?
 
 Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
 
