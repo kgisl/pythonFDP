@@ -6,8 +6,8 @@ Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](
 
 1. First go to http://j.mp/bookmarkKG 
 2. Cut and paste the entire code into a new file and name it with a .html extension
-3. .  Display the file in the browser
-4.  Drag the link “preview” to your bookmark bar
+3. Display the file in the browser
+4. Drag the link “preview” to your bookmark bar
 
 You are done! 
 
