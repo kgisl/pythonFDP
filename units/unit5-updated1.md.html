@@ -1,76 +1,197 @@
-# Unit 5
-## FILES, MODULES, PACKAGES
-
-A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.
-
-### Types of Files
-
-* Text files
-* Data files
-* Directory files
-* Binary files
-* Graphic files
-
-### Basic File Operations
-
-1. Creation of a new file
-2. Modification of data or file attributes
-3. Reading of data from the file
-4. Opening the file in order to make the contents available to other programs
-5. Writing data to the file
-6. Closing or terminating a file operation
-
-## How to read a file in python
-*Code example*
-```python
-datafile = open("data.txt","r");
-dataFromFile = datafile.read();
-print(dataFromFile)
-```
-*File contents*
-```file
-Apple Orange Mango
-```
-*Output*
-```console
-Datafile Contents: Apple Orange Mango
-```
-
-![](/img/fileintro.JPG)
-
-### Types of File Modes
-
-| S.No | File Mode | Description |
-|--- |:---:|--- |
-| 1 | `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
-| 2 | `rb` | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
-| 3 | `r+` | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
-|4|`rb+`|Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.|
-|5|`w`|Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
-|6|`wb`|Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
-|7|`w+`|Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
-|8|`wb+`|Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
-|9|`a`|Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
-|10|`ab`|Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
-|11|`a+`|Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
-|12|`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
-
-### File Methods
-|S.No|File Methods|Description|
-|----|------------|-----------|
-|1   |close()	 |Closes the file|
-|2   |detach()	 |Returns the separated raw stream from the buffer|
-|3   |fileno()	 |Returns a number that represents the stream, from the operating system's perspective|
-|4   |flush()	 |Flushes the internal buffer|
-|5   |isatty()	 |Returns whether the file stream is interactive or not|
-|6   |read()	     |Returns the file content|
-|7   |readable()	 |Returns whether the file stream can be read or not|
-|8   |readline()	 |Returns one line from the file|
-|9   |readlines() |Returns a list of lines from the file|
-|10  |seek()	     |Change the file position|
-|11  |seekable()	 |Returns whether the file allows us to change the file position|
-|12  |tell()	     |Returns the current file position|
-|13  |truncate()	 |Resizes the file to a specified size|
-|14  |writeable() |Returns whether the file can be written to or not|
-|15  |write()	 |Writes the specified string to the file|
-|16  |writelines()|Writes a list of strings to the file|
+<h1 id="unit-5">Unit 5</h1>
+<h2 id="files-modules-packages">FILES, MODULES, PACKAGES</h2>
+<p>A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.</p>
+<h3 id="types-of-files">Types of Files</h3>
+<ul>
+<li>Text files</li>
+<li>Data files</li>
+<li>Directory files</li>
+<li>Binary files</li>
+<li>Graphic files</li>
+</ul>
+<h3 id="basic-file-operations">Basic File Operations</h3>
+<ol>
+<li>Creation of a new file</li>
+<li>Modification of data or file attributes</li>
+<li>Reading of data from the file</li>
+<li>Opening the file in order to make the contents available to other programs</li>
+<li>Writing data to the file</li>
+<li>Closing or terminating a file operation</li>
+</ol>
+<h2 id="how-to-read-a-file-in-python">How to read a file in python</h2>
+<p><em>Code example</em></p>
+<pre><code class="lang-python">datafile = <span class="hljs-built_in">open</span>(<span class="hljs-string">"data.txt"</span>,<span class="hljs-string">"r"</span>);
+dataFromFile = datafile.<span class="hljs-built_in">read</span>();
+<span class="hljs-built_in">print</span>(dataFromFile)
+</code></pre>
+<p><em>File contents</em></p>
+<pre><code class="lang-file"><span class="hljs-attribute">Apple Orange Mango</span>
+</code></pre>
+<p><em>Output</em></p>
+<pre><code class="lang-console">Datafile <span class="hljs-string">Contents:</span> Apple Orange Mango
+</code></pre>
+<p><img src="/img/fileintro.JPG" alt=""></p>
+<h3 id="types-of-file-modes">Types of File Modes</h3>
+<table>
+<thead>
+<tr>
+<th>S.No</th>
+<th style="text-align:center">File Mode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center"><code>r</code></td>
+<td>Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align:center"><code>rb</code></td>
+<td>Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align:center"><code>r+</code></td>
+<td>Opens a file for both reading and writing. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align:center"><code>rb+</code></td>
+<td>Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align:center"><code>w</code></td>
+<td>Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td>6</td>
+<td style="text-align:center"><code>wb</code></td>
+<td>Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td>7</td>
+<td style="text-align:center"><code>w+</code></td>
+<td>Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>8</td>
+<td style="text-align:center"><code>wb+</code></td>
+<td>Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>9</td>
+<td style="text-align:center"><code>a</code></td>
+<td>Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td>10</td>
+<td style="text-align:center"><code>ab</code></td>
+<td>Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td>11</td>
+<td style="text-align:center"><code>a+</code></td>
+<td>Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>12</td>
+<td style="text-align:center"><code>ab+</code></td>
+<td>Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="file-methods">File Methods</h3>
+<table>
+<thead>
+<tr>
+<th>S.No</th>
+<th>File Methods</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>close()</td>
+<td>Closes the file</td>
+</tr>
+<tr>
+<td>2</td>
+<td>detach()</td>
+<td>Returns the separated raw stream from the buffer</td>
+</tr>
+<tr>
+<td>3</td>
+<td>fileno()</td>
+<td>Returns a number that represents the stream, from the operating system&#39;s perspective</td>
+</tr>
+<tr>
+<td>4</td>
+<td>flush()</td>
+<td>Flushes the internal buffer</td>
+</tr>
+<tr>
+<td>5</td>
+<td>isatty()</td>
+<td>Returns whether the file stream is interactive or not</td>
+</tr>
+<tr>
+<td>6</td>
+<td>read()</td>
+<td>Returns the file content</td>
+</tr>
+<tr>
+<td>7</td>
+<td>readable()</td>
+<td>Returns whether the file stream can be read or not</td>
+</tr>
+<tr>
+<td>8</td>
+<td>readline()</td>
+<td>Returns one line from the file</td>
+</tr>
+<tr>
+<td>9</td>
+<td>readlines()</td>
+<td>Returns a list of lines from the file</td>
+</tr>
+<tr>
+<td>10</td>
+<td>seek()</td>
+<td>Change the file position</td>
+</tr>
+<tr>
+<td>11</td>
+<td>seekable()</td>
+<td>Returns whether the file allows us to change the file position</td>
+</tr>
+<tr>
+<td>12</td>
+<td>tell()</td>
+<td>Returns the current file position</td>
+</tr>
+<tr>
+<td>13</td>
+<td>truncate()</td>
+<td>Resizes the file to a specified size</td>
+</tr>
+<tr>
+<td>14</td>
+<td>writeable()</td>
+<td>Returns whether the file can be written to or not</td>
+</tr>
+<tr>
+<td>15</td>
+<td>write()</td>
+<td>Writes the specified string to the file</td>
+</tr>
+<tr>
+<td>16</td>
+<td>writelines()</td>
+<td>Writes a list of strings to the file</td>
+</tr>
+</tbody>
+</table>
