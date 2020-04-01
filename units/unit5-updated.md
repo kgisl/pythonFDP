@@ -41,8 +41,8 @@ Datafile Contents: Apple Orange Mango
 ### Types of File Modes
 
 | S.No | File Mode | Description |
-|--- | --- | --- |
-| 1 | `r | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
+|--- |:---:|--- |
+| 1 | `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
 | 2 | `rb` | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
 | 3 | `r+` | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
 |4|`rb+`|Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.|
