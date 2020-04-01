@@ -24,8 +24,8 @@ A file is a container in a computer system for storing information. Files used i
 *Code example*
 ```python
 datafile = open("data.txt","r");
-data = datafile.read();
-print(data)
+dataFromFile = datafile.read();
+print(dataFromFile)
 ```
 *File contents*
 ```file
@@ -35,3 +35,4 @@ Apple Orange Mango
 ```console
 Datafile Contents: Apple Orange Mango
 ```
+
