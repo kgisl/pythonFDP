@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#unit-5">Unit 5</a>
+<ul>
+<li><a href="#files-modules-packages">FILES, MODULES, PACKAGES</a></li>
+<li><a href="#how-to-read-a-file-in-python">How to read a file in python</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="unit-5">Unit 5</h1>
+<h2 id="files-modules-packages">FILES, MODULES, PACKAGES</h2>
+<h3 id="file">File</h3>
+<p>A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.</p>
+<h3 id="types-of-files">Types of Files</h3>
+<ul>
+<li>Text files</li>
+<li>Data files</li>
+<li>Directory files</li>
+<li>Binary files</li>
+<li>Graphic files</li>
+</ul>
+<h3 id="basic-file-operations">Basic File Operations</h3>
+<ol>
+<li>Creation of a new file</li>
+<li>Modification of data or file attributes</li>
+<li>Reading of data from the file</li>
+<li>Opening the file in order to make the contents available to other programs</li>
+<li>Writing data to the file</li>
+<li>Closing or terminating a file operation</li>
+</ol>
+<h2 id="how-to-read-a-file-in-python">How to read a file in python</h2>
+<p><em>Code example</em></p>
+<pre class=" language-python"><code class="prism  language-python">datafile <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"data.txt"</span><span class="token punctuation">,</span><span class="token string">"r"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dataFromFile <span class="token operator">=</span> datafile<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"File Contents:"</span><span class="token punctuation">,</span>dataFromFile<span class="token punctuation">)</span>
+</code></pre>
+<p><em>File contents</em></p>
+<pre class=" language-file"><code class="prism  language-file">Apple Orange Mango
+</code></pre>
+<p><em>Output</em></p>
+<pre class=" language-console"><code class="prism  language-console">File Contents: Apple Orange Mango
+</code></pre>
+<p><img src="/img/fileintro.JPG" alt=""></p>
+<h3 id="types-of-file-modes">Types of File Modes</h3>
+
+<table>
+<thead>
+<tr>
+<th><a href="http://S.No">S.No</a></th>
+<th>File Mode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>r</code></td>
+<td>Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>rb</code></td>
+<td>Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>r+</code></td>
+<td>Opens a file for both reading and writing. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>rb+</code></td>
+<td>Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>w</code></td>
+<td>Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>wb</code></td>
+<td>Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>w+</code></td>
+<td>Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>wb+</code></td>
+<td>Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>a</code></td>
+<td>Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>ab</code></td>
+<td>Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>a+</code></td>
+<td>Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>ab+</code></td>
+<td>Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+</tbody>
+</table><h3 id="file-methods">File Methods</h3>
+
+<table>
+<thead>
+<tr>
+<th><a href="http://S.No">S.No</a></th>
+<th>File Methods</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>close()</td>
+<td>Closes the file</td>
+</tr>
+<tr>
+<td>2</td>
+<td>detach()</td>
+<td>Returns the separated raw stream from the buffer</td>
+</tr>
+<tr>
+<td>3</td>
+<td>fileno()</td>
+<td>Returns a number that represents the stream, from the operating system’s perspective</td>
+</tr>
+<tr>
+<td>4</td>
+<td>flush()</td>
+<td>Flushes the internal buffer</td>
+</tr>
+<tr>
+<td>5</td>
+<td>isatty()</td>
+<td>Returns whether the file stream is interactive or not</td>
+</tr>
+<tr>
+<td>6</td>
+<td>read()</td>
+<td>Returns the file content</td>
+</tr>
+<tr>
+<td>7</td>
+<td>readable()</td>
+<td>Returns whether the file stream can be read or not</td>
+</tr>
+<tr>
+<td>8</td>
+<td>readline()</td>
+<td>Returns one line from the file</td>
+</tr>
+<tr>
+<td>9</td>
+<td>readlines()</td>
+<td>Returns a list of lines from the file</td>
+</tr>
+<tr>
+<td>10</td>
+<td>seek()</td>
+<td>Change the file position</td>
+</tr>
+<tr>
+<td>11</td>
+<td>seekable()</td>
+<td>Returns whether the file allows us to change the file position</td>
+</tr>
+<tr>
+<td>12</td>
+<td>tell()</td>
+<td>Returns the current file position</td>
+</tr>
+<tr>
+<td>13</td>
+<td>truncate()</td>
+<td>Resizes the file to a specified size</td>
+</tr>
+<tr>
+<td>14</td>
+<td>writeable()</td>
+<td>Returns whether the file can be written to or not</td>
+</tr>
+<tr>
+<td>15</td>
+<td>write()</td>
+<td>Writes the specified string to the file</td>
+</tr>
+<tr>
+<td>16</td>
+<td>writelines()</td>
+<td>Writes a list of strings to the file</td>
+</tr>
+</tbody>
+</table>
+    </div>
+  </div>
+</body>
+
+</html>
