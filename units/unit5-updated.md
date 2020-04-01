@@ -54,3 +54,23 @@ Datafile Contents: Apple Orange Mango
 |10|`ab`|Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
 |11|`a+`|Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
 |12|`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
+
+### File Methods
+|S.No|File Methods|Description|
+|----|------------|-----------|
+|1   |close()	 |Closes the file|
+|2   |detach()	 |Returns the separated raw stream from the buffer|
+|3   |fileno()	 |Returns a number that represents the stream, from the operating system's perspective|
+|4   |flush()	 |Flushes the internal buffer|
+|5   |isatty()	 |Returns whether the file stream is interactive or not|
+|6   |read()	     |Returns the file content|
+|7   |readable()	 |Returns whether the file stream can be read or not|
+|8   |readline()	 |Returns one line from the file|
+|9   |readlines() |Returns a list of lines from the file|
+|10  |seek()	     |Change the file position|
+|11  |seekable()	 |Returns whether the file allows us to change the file position|
+|12  |tell()	     |Returns the current file position|
+|13  |truncate()	 |Resizes the file to a specified size|
+|14  |writeable() |Returns whether the file can be written to or not|
+|15  |write()	 |Writes the specified string to the file|
+|16  |writelines()|Writes a list of strings to the file|
