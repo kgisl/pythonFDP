@@ -36,3 +36,4 @@ Apple Orange Mango
 Datafile Contents: Apple Orange Mango
 ```
 
+![](/img/fileintro.JPG)
