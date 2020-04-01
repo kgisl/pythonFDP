@@ -7,7 +7,7 @@
 1. Cut and paste the entire code into a new file and name it with a .html extension 
 2. Display the file in the browser
 3. Drag the link "preview" to your bookmark bar
-
+4. Test Change
 You are all done! 
 
 Now visit a HTML file in the Github repository
