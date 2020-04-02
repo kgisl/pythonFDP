@@ -74,3 +74,26 @@ Datafile Contents: Apple Orange Mango
 |14  |writeable() |Returns whether the file can be written to or not|
 |15  |write()	 |Writes the specified string to the file|
 |16  |writelines()|Writes a list of strings to the file|
+
+# File Writing
+### code
+```python
+fileToWrite = open("destination.txt","w")
+data = "Hello Python";
+fileToWrite.write(data)
+fileToWrite.close();
+print("done with file writing")
+```
+### output
+```
+done with file writing
+```
+### destination.txt
+|Before Writing|After Writing |
+|--|--|
+|```   ```  | ``` Hello Python``` |
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc1NTQyOTQ0MywtMjA3MDk2NjU1NCwtND
+E4OTgwMDkyXX0=
+-->
