@@ -1,3 +1,5 @@
+from heapq import merge
+import random
 from itertools import zip_longest
 
 # http://j.mp/zipLongest
@@ -22,14 +24,11 @@ def mergesort(alist, verbose=False):
     return series[0]
 
 
-import random
 array = [random.randrange(-40, 40)
          for _ in range(1111)
          ]
 print("input", array)
 print(mergesort(array))
-
-from heapq import merge
 
 
 def mergesort2(w):

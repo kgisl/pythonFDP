@@ -38,8 +38,8 @@ def printURLs(url, anchors, f=None):
     if 'f'ilename is valid, write extracted URLs to file as well
     '''
     outBoundURLs = getOutBoundURLs(anchors)
-    hhrefs       = getOutBoundHttpURLs(outBoundURLs)
-    
+    hhrefs = getOutBoundHttpURLs(outBoundURLs)
+
     banner = generateBanner(url, len(anchors), len(outBoundURLs), len(hhrefs))
     print(banner)
     if f:
@@ -51,17 +51,10 @@ def printURLs(url, anchors, f=None):
             f.write(url + " -> " + linkaddress + "\n")
 
 
-urls = [ "http://www.python.org"
-       , "http://www.facebook.com"
-       , "http://www.kct.ac.in"
-       , "http://www.psgtech.edu"
-       , "http://www.kgkite.ac.in"
-       #, "http://www.kghospital.com"
-       #, "http://www.kgisl.com"
-       , "http://www.sece.ac.in"
-       , "http://www.siet.ac.in"
-       , "http://www.bennett.edu.in"
-       ]
+urls = ["http://www.python.org", "http://www.facebook.com", "http://www.kct.ac.in", "http://www.psgtech.edu", "http://www.kgkite.ac.in"        # , "http://www.kghospital.com"
+        # , "http://www.kgisl.com"
+        , "http://www.sece.ac.in", "http://www.siet.ac.in", "http://www.bennett.edu.in"
+        ]
 
 dataFile = open("data.txt", "w")
 

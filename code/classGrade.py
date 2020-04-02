@@ -1,5 +1,6 @@
 # run pep8 on this code
 
+import bisect
 gradeChart = [
     (97, 100, 'A+'),
     (93, 96, 'A'),
@@ -15,9 +16,6 @@ gradeChart = [
     (60, 62, 'D-'),
     (0, 60, 'F')
 ]
-
-
-import bisect
 
 
 def calculateGrade(score, gradeChart):

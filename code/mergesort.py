@@ -2,6 +2,7 @@ import itertools
 
 # http://j.mp/zipLongest
 
+
 def mergesort(series):
     def merge(A, B):
         merged = [
