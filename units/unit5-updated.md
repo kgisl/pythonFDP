@@ -112,10 +112,30 @@ Write (w) mode and Append (a) mode, while opening a file are almost the same. Bo
 
 The only difference they have is, when you open a file in the write mode, the file is reset, resulting in deletion of any data already present in the file. While in append mode this will not happen. Append mode is used to append or add data to the existing data of file (if any). Hence, when you open a file in Append(a) mode, the cursor is positioned at the end of the present data in the file.
 
+## Reading binary files in python
+*Code example*
+```python
+binfile = open("bindata.PNG","rb")
+data = binfile.read()
+print("source contents:",data)
+```
+*File contents*
+```file
+
+```
+*Output*
+```console
+Source contents: Apple Orange Mango
+```
+
+![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
+
+Demo
+[https://repl.it/@kiteit/ReadFromFile](https://repl.it/@kiteit/ReadFromFile)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwNDQ4NzM1LDEyMDk2NDQ3NDIsLTE3Nz
-MyMDI3MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMTk3MzAwNzcy
-LC0xODM2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMT
-UyODA3MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5
-ODAwOTJdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTU0ODE3Nyw1NzA0NDg3MzUsMTIwOT
+Y0NDc0MiwtMTc3MzIwMjcyMiwtNzA3MjkwMTIsLTY2NTk0ODQ0
+LDExOTczMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5MDEyOCwtNz
+U1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5
+NjY1NTQsLTQxODk4MDA5Ml19
 -->
