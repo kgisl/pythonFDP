@@ -93,9 +93,9 @@ done with file writing
 |--|--|
 |```   ```  | ``` Hello Python``` |
 
-!.[].([[https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG))
+![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTgyMjc4MiwtNzU1NDI5NDQzLC0xNT
-I4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4
-MDA5Ml19
+eyJoaXN0b3J5IjpbODE3NzYzNDczLC03NTU0Mjk0NDMsLTE1Mj
+gwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgw
+MDkyXX0=
 -->
