@@ -1,4 +1,6 @@
 
+This is a broken link to the [Plone website](https://plonee.org "Example of a broken link").
+
 ## Install your HTML bookmarklet
 
 Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
