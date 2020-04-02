@@ -1059,8 +1059,7 @@ None</p>
 <p>The return value is the final status of thelsprocess;Nonemeans that it ended normally<br>
 (with no errors).</p>
 <p>For example, most Unix systems provide a command calledmd5sumthat reads the contents<br>
-of a file and computes a “checksum.” You can read about MD5 athttp://en.wikipedia.<br>
-org/wiki/Md5. This command provides an efficient way to check whether two files have<br>
+of a file and computes a “checksum.” You can read about MD5 at <a href="http://en.wikipedia.org/wiki/Md5">http://en.wikipedia.org/wiki/Md5</a> . This command provides an efficient way to check whether two files have<br>
 the same contents. The probability that different contents yield the same checksum is very<br>
 small (that is, unlikely to happen before the universe collapses).</p>
 <p>You can use a pipe to runmd5sumfrom Python and get the result:</p>
@@ -1181,8 +1180,7 @@ indicate the end of a line. Some systems use a newline, represented\n. Others us
 character, represented\r. Some use both. If you move files between different systems,<br>
 these inconsistencies might cause problems.</p>
 <p>For most systems, there are applications to convert from one format to another. You can<br>
-find them (and read more about this issue) athttp://en.wikipedia.org/wiki/Newline.<br>
-Or, of course, you could write one yourself.</p>
+find them (and read more about this issue) at <a href="http://en.wikipedia.org/wiki/Newline">http://en.wikipedia.org/wiki/Newline</a> . Or, of course, you could write one yourself.</p>
 <h3 id="glossary-1">14.11 Glossary</h3>
 <p><strong>persistent:</strong> Pertaining to a program that runs indefinitely and keeps at least some of its<br>
 data in permanent storage.</p>
@@ -1842,14 +1840,9 @@ complicated—since it deals with many special cases—and unreliable—since it
 know if you have found all the errors.</p>
 <p>An alternative is <strong>planned development</strong> , in which high-level insight into the problem can<br>
 make the programming much easier. In this case, the insight is that a Time object is really<br>
-a three-digit number in base 60 (seehttp://en.wikipedia.org/wiki/Sexagesimal.)! The<br>
-secondattribute is the “ones column,” theminuteattribute is the “sixties column,” and the<br>
-hourattribute is the “thirty-six hundreds column.”</p>
-<p>When we wroteadd_timeandincrement, we were effectively doing addition in base 60,<br>
-which is why we had to carry from one column to the next.</p>
-<p>This observation suggests another approach to the whole problem—we can convert Time<br>
-objects to integers and take advantage of the fact that the computer knows how to do<br>
-integer arithmetic.</p>
+a three-digit number in base 60 (see <a href="http://en.wikipedia.org/wiki/Sexagesimal">http://en.wikipedia.org/wiki/Sexagesimal</a> )! The second attribute is the “ones column,” the minute attribute is the “sixties column,” and the hour attribute is the “thirty-six hundreds column.”</p>
+<p>When we wroteadd_timeandincrement, we were effectively doing addition in base 60, which is why we had to carry from one column to the next.</p>
+<p>This observation suggests another approach to the whole problem—we can convert Time objects to integers and take advantage of the fact that the computer knows how to do integer arithmetic.</p>
 <p>Here is a function that converts Times to integers:</p>
 <p>def time_to_int(time):<br>
 minutes = time.hour * 60 + time.minute<br>
@@ -2395,13 +2388,11 @@ changing the interface, which means that other parts of the program don’t have
 <p>Keeping the interface separate from the implementation means that you have to hide the<br>
 attributes. Code in other parts of the program (outside the class definition) should use<br>
 methods to read and modify the state of the object. They should not access the attributes di-<br>
-rectly. This principle is called <strong>information hiding</strong> ; seehttp://en.wikipedia.org/wiki/<br>
-Information_hiding.<br>
-<strong>Exercise 17.6.</strong> Download the code from this chapter (http: // thinkpython. com/ code/<br>
-Time2. py). Change the attributes ofTimeto be a single integer representing seconds since mid-<br>
+rectly. This principle is called <strong>information hiding</strong> ; see <a href="http://en.wikipedia.org/wiki/Information_hiding">http://en.wikipedia.org/wiki/Information_hiding</a>.</p>
+<p><strong>Exercise 17.6.</strong> Download the code from this chapter ( <a href="http://thinkpython.com/code/Time2">http://thinkpython.com/code/Time2</a>. py ). Change the attributes ofTimeto be a single integer representing seconds since mid-<br>
 night. Then modify the methods (and the functionint_to_time) to work with the new implemen-<br>
 tation. You should not have to modify the test code inmain. When you are done, the output should<br>
-be the same as before. Solution:http: // thinkpython. com/ code/ Time2_ soln. py</p>
+be the same as before. Solution: <a href="http://thinkpython.com/code/Time2_soln.py">http://thinkpython.com/code/Time2_soln.py</a></p>
 <h3 id="glossary-4">17.12 Glossary</h3>
 <p><strong>object-oriented language:</strong> A language that provides features, such as user-defined classes<br>
 and method syntax, that facilitate object-oriented programming.</p>
@@ -2469,7 +2460,7 @@ values. For each named color draw a sphere in the position that corresponds to i
 <h2 id="chapter-18">Chapter 18</h2>
 <h1 id="inheritance">Inheritance</h1>
 <p>In this chapter I present classes to represent playing cards, decks of cards, and poker hands.<br>
-If you don’t play poker, you can read about it athttp://en.wikipedia.org/wiki/Poker,<br>
+If you don’t play poker, you can read about it at <a href="http://en.wikipedia.org/wiki/Poker">http://en.wikipedia.org/wiki/Poker</a>,<br>
 but you don’t have to; I’ll tell you what you need to know for the exercises. Code examples<br>
 from this chapter are available fromhttp://thinkpython.com/code/Card.py.</p>
 <p>If you are not familiar with Anglo-American playing cards, you can read about them at <a href="http://en.wikipedia.org/wiki/Playing_cards.">http://en.wikipedia.org/wiki/Playing_cards</a>.</p>
@@ -3837,20 +3828,16 @@ also published by O’Reilly Media (2011). When you are done with this book,
 you might want to move on to that one.
 </code></pre>
 <p><strong>Analysis of algorithms</strong> is a branch of computer science that studies the performance of<br>
-algorithms, especially their run time and space requirements. Seehttp://en.wikipedia.<br>
-org/wiki/Analysis_of_algorithms.</p>
-<p>The practical goal of algorithm analysis is to predict the performance of different algo-<br>
-rithms in order to guide design decisions.</p>
+algorithms, especially their run time and space requirements. See <a href="http://en.wikipedia.org/wiki/Analysis_of_algorithms">http://en.wikipedia.org/wiki/Analysis_of_algorithms</a> .</p>
+<p>The practical goal of algorithm analysis is to predict the performance of different algorithms in order to guide design decisions.</p>
 <p>During the 2008 United States Presidential Campaign, candidate Barack Obama was asked<br>
 to perform an impromptu analysis when he visited Google. Chief executive Eric Schmidt<br>
 jokingly asked him for “the most efficient way to sort a million 32-bit integers.” Obama<br>
 had apparently been tipped off, because he quickly replied, “I think the bubble sort would<br>
 be the wrong way to go.” Seehttp://www.youtube.com/watch?v=k4RRi_ntQc8.</p>
 <p>This is true: bubble sort is conceptually simple but slow for large datasets. The an-<br>
-swer Schmidt was probably looking for is “radix sort” (<a href="http://en.wikipedia.org/wiki/">http://en.wikipedia.org/wiki/</a><br>
-Radix_sort)^1.</p>
-<p>The goal of algorithm analysis is to make meaningful comparisons between algorithms,<br>
-but there are some problems:</p>
+swer Schmidt was probably looking for is “radix sort” (<a href="http://en.wikipedia.org/wiki/Radix_sort">http://en.wikipedia.org/wiki/Radix_sort</a>) .</p>
+<p>The goal of algorithm analysis is to make meaningful comparisons between algorithms, but there are some problems:</p>
 <ul>
 <li>The relative performance of the algorithms might depend on characteristics of the<br>
 hardware, so one algorithm might be faster on Machine A, another on Machine B.<br>
@@ -4091,9 +4078,7 @@ value; otherwise it raises aKeyError. Sogetis linear.</p>
 <p>An alternative is to keep the list sorted by key. Thengetcould use a bisection search,<br>
 which isO(logn). But inserting a new item in the middle of a list is linear, so this might</p>
 <p><strong>B.4. Hashtables 207</strong></p>
-<p>not be the best option. There are other data structures (seehttp://en.wikipedia.org/<br>
-wiki/Red- black_tree) that can implementaddandgetin log time, but that’s still not as<br>
-good as constant time, so let’s move on.</p>
+<p>not be the best option. There are other data structures (see <a href="http://en.wikipedia.org/wiki/Red-">http://en.wikipedia.org/wiki/Red-</a> black_tree) that can implement add and getin log time, but that’s still not as good as constant time, so let’s move on.</p>
 <p>One way to improveLinearMapis to break the list of key-value pairs into smaller lists.<br>
 Here’s an implementation calledBetterMap, which is a list of 100 LinearMaps. As we’ll<br>
 see in a second, the order of growth forgetis still linear, butBetterMapis a step on the<br>
