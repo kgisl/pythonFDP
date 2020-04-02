@@ -106,10 +106,16 @@ done with file writing
 Demo
 [https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
+**Difference between Append and Write Mode**
+
+Write (w) mode and Append (a) mode, while opening a file are almost the same. Both are used to write in a file. In both the modes, new file is created if it doesn’t exists already.
+
+The only difference they have is, when you open a file in the write mode, the file is reset, resulting in deletion of any data already present in the file. While in append mode this will not happen. Append mode is used to append or add data to the existing data of file (if any). Hence, when you open a file in Append(a) mode, the cursor is positioned at the end of the present data in the file.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTY0NDc0MiwtMTc3MzIwMjcyMiwtNz
-A3MjkwMTIsLTY2NTk0ODQ0LDExOTczMDA3NzIsLTE4MzY5MTE2
-MDIsMTY2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC
-03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbNTcwNDQ4NzM1LDEyMDk2NDQ3NDIsLTE3Nz
+MyMDI3MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMTk3MzAwNzcy
+LC0xODM2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMT
+UyODA3MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5
+ODAwOTJdfQ==
 -->
