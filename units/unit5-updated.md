@@ -77,6 +77,16 @@ Datafile Contents: Apple Orange Mango
 
 # File Writing
 
+    fileToWrite = open("destination.txt","w")
+    
+    data = "Hello Python";
+    
+    fileToWrite.write(data)
+    
+    fileToWrite.close();
+    
+    print("done with file writing")
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbLTE1NzMxNTEzOTUsLTQxODk4MDA5Ml19
 -->
