@@ -84,7 +84,12 @@ fileToWrite.write(data)
 fileToWrite.close();
 print("done with file writing")
 ```
+### output
+```
+done with file writing
+```
+### destination 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMjIzNDczLC00MTg5ODAwOTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
 -->
