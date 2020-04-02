@@ -1,7 +1,8 @@
 # Unit 5 
 ## FILES, MODULES, PACKAGES
 ### Object
-* Files and exception: text files, reading and writing files, format operator; command line arguments, errors and exceptions, handling exceptions, modules, packages; Illustrative programs: word count, copy file.
+*Files and exception: text files, reading and writing files, format operator; command line arguments, errors and exceptions, handling exceptions, modules, packages; Illustrative programs: word count, copy file.*
+
 ### File
 A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.
 
@@ -97,7 +98,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU0NjY1NzQsLTE4MzY5MTE2MDIsMT
-Y2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0
-Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbMjEyMTI5ODM4OCwtMTgzNjkxMTYwMiwxNj
+YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
+OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
