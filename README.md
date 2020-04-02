@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/kgisl/pythonFDP](https://badges.gitter.im/kgisl/pythonFDP.svg)](https://gitter.im/kgisl/pythonFDP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Format python code](https://github.com/kgisl/pythonFDP/workflows/Format%20python%20code/badge.svg)
-![Testing linkcheck](https://github.com/kgisl/pythonFDP/workflows/Testing%20linkcheck/badge.svg)
+![Check Markdown links](https://github.com/kgisl/pythonFDP/workflows/Check%20Markdown%20links/badge.svg)
 
 Python FDP for KITE faculty
 
