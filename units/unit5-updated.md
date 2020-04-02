@@ -74,3 +74,9 @@ Datafile Contents: Apple Orange Mango
 |14  |writeable() |Returns whether the file can be written to or not|
 |15  |write()	 |Writes the specified string to the file|
 |16  |writelines()|Writes a list of strings to the file|
+
+# File Writing
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQxODk4MDA5Ml19
+-->
