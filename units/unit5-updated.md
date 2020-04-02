@@ -138,11 +138,61 @@ xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4
 Demo
 [https://repl.it/@kiteit/BinaryFile](https://repl.it/@kiteit/BinaryFile)
 
+# Files
+
+**What are files?**  A file is sequential stream of bytes ending with an end-of-file marker.
+
+As we know, at the time of execution, every program is executed in the main memory. Main memory is volatile and the data would be lost once the program is terminated. If we need the same data again, we have to store the data in a file on the disk. A file is sequential stream of bytes ending with an end-of-file marker.
+
+Storage of data in variables and arrays is temporary—such data is lost when a program terminates. Files are used for permanent retention of data. Computers store files on secondary storage devices, such as hard drives, CDs, DVDs and flash drives. In this chapter, we explain how data files are created, updated and processed by C programs. We consider both sequential-access and random-access file processing.
+
+### File Extensions
+
+File extensions  
+We can usually tell if a file is binary or text based on its file extension. This is because by convention the extension reflects the file format, but  _ultimately_  it is the file format that dictates whether the file data is binary or text.
+
+Common extensions that are binary file formats:
+
+```
+Images: jpg, png, gif, bmp, tiff, psd, ...
+Videos: mp4, mkv, avi, mov, mpg, vob, ...
+Audio: mp3, aac, wav, flac, ogg, mka, wma, ...
+Documents: pdf, doc, xls, ppt, docx, odt, ...
+Archive: zip, rar, 7z, tar, iso, ...
+Database: mdb, accde, frm, sqlite, ...
+Executable: exe, dll, so, class, ...
+
+```
+
+Common extensions that are text file formats:
+
+```
+Web standards: html, xml, css, svg, json, ...
+Source code: c, cpp, h, cs, js, py, java, rb, pl, php, sh, ...
+Documents: txt, tex, markdown, asciidoc, rtf, ps, ...
+Configuration: ini, cfg, rc, reg, ...
+Tabular data: csv, tsv, ...
+
+```
+
+### Text File Characteristics
+
+By convention, the data in every text file obeys a number of rules:
+
+-   The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.
+-   The data format is usually line-oriented. Each line could be a separate command, or a list of values could put each item on a different line, etc. The maximum number of characters in each line is usually a reasonable value like 100, not like 1000.
+-   The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.
+
+## Binary File Characteristics
+
+-   For most software that people use in their daily lives, the software consumes and produces binary files. Examples of such software include Microsoft Office, Adobe Photoshop, and various audio/video/media players. A typical computer user works with mostly binary files and very few text files.
+-   A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.
+-   Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjAwODcxMCwtNjI0ODkxMjQyLC00Nz
-E1NDgxNzcsNTcwNDQ4NzM1LDEyMDk2NDQ3NDIsLTE3NzMyMDI3
-MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMTk3MzAwNzcyLC0xOD
-M2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3
-MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOT
-JdfQ==
+eyJoaXN0b3J5IjpbLTE5OTk5MjM4OTAsMjAwNjAwODcxMCwtNj
+I0ODkxMjQyLC00NzE1NDgxNzcsNTcwNDQ4NzM1LDEyMDk2NDQ3
+NDIsLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMT
+k3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQy
+OTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NT
+U0LC00MTg5ODAwOTJdfQ==
 -->
