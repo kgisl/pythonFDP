@@ -89,7 +89,11 @@ print("done with file writing")
 done with file writing
 ```
 ### destination 
+|Before Writing|After Writing |
+|--|--|
+|``` ```  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbLTE2NTE3ODMwMDUsLTIwNzA5NjY1NTQsLT
+QxODk4MDA5Ml19
 -->
