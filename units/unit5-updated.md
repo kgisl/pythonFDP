@@ -54,17 +54,17 @@ Source contents: Apple Orange Mango
 File Mode | Description |
 |:---:|--- |
 | `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
-| 2 | `rb` | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
-| 3 | `r+` | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
-|4|`rb+`|Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.|
-|5|`w`|Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
-|6|`wb`|Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
-|7|`w+`|Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
-|8|`wb+`|Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
-|9|`a`|Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
-|10|`ab`|Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
-|11|`a+`|Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
-|12|`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
+| `rb` | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
+|`r+` | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
+`rb+`|Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.|
+`w`|Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
+`wb`|Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.|
+`w+`|Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
+`wb+`|Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.|
+`a`|Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
+`ab`|Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.|
+`a+`|Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
+`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
 
 ### File Methods
 |File Methods|Description|Prototype|
@@ -104,8 +104,8 @@ Demo
 [https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDUwNjQ3LC0xNzczMjAyNzIyLC03MD
-cyOTAxMiwtNjY1OTQ4NDQsMTE5NzMwMDc3MiwtMTgzNjkxMTYw
-MiwxNjYzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLT
-c1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
+eyJoaXN0b3J5IjpbMTAxOTU5Mzk5NywtMTc3MzIwMjcyMiwtNz
+A3MjkwMTIsLTY2NTk0ODQ0LDExOTczMDA3NzIsLTE4MzY5MTE2
+MDIsMTY2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC
+03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
 -->
