@@ -73,8 +73,8 @@ Datafile Contents: Apple Orange Mango
 |4   |flush()	 |Flushes the internal buffer|``` fileobject.flush()```|
 |6   |read()	     |Returns the file content|``` data = fileobject.read()```|
 |7   |readable()	 |Returns whether the file stream can be read or not|```boolean = fileobject.flush()```|
-|8   |readline()	 |Returns one line from the file|
-|9   |readlines() |Returns a list of lines from the file|
+|8   |readline()	 |Returns one line from the file|``` data = fileobject.readline()```|
+|9   |readlines() |Returns a list of lines from the file|``` filelines = fileobject.read()```|
 |10  |seek()	     |Change the file position|
 |11  |seekable()	 |Returns whether the file allows us to change the file position|
 |12  |tell()	     |Returns the current file position|
@@ -103,8 +103,8 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODIxMTY0MSwxMTk3MzAwNzcyLC0xOD
-M2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3
-MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOT
-JdfQ==
+eyJoaXN0b3J5IjpbLTY2NTk0ODQ0LDExOTczMDA3NzIsLTE4Mz
+Y5MTE2MDIsMTY2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcx
+MTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml
+19
 -->
