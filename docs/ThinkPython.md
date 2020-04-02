@@ -2211,7 +2211,8 @@ do_twice(print_spam)
     function four times, passing the value as a parameter. There should be only two statements in
     the body of this function, not four.
 
-Solution:http: // thinkpython. com/ code/ do_ four. py.
+Solution: http://thinkpython.com/code/do_four.py
+
 **Exercise 3.5.** This exercise can be done using only the statements and other features we have learned
 so far.
 
@@ -2258,12 +2259,12 @@ print '-'
 ```
 ```
 The output of these statements is'+ -'.
-Aprintstatement all by itself ends the current line and goes to the next line.
+
+A printstatement all by itself ends the current line and goes to the next line.
 ```
 2. Write a function that draws a similar grid with four rows and four columns.
 
-Solution: [http:](http:) // thinkpython. com/ code/ grid. py. Credit: This exercise is based on an
-exercise in Oualline,Practical C Programming, Third Edition, O’Reilly Media, 1997.
+Solution: http://www.thinkpython.com/code/grid.py. Credit: This exercise is based on an exercise in Oualline, Practical C Programming, Third Edition, O’Reilly Media, 1997.
 
 
 ## Chapter 4
@@ -7356,4 +7357,4 @@ that can be spelled with those letters. The question is, how can you represent t
 in a way that can be used as a key?
 ```
 2. Modify the previous program so that it prints the largest set of anagrams first, followed by the
-    second larg
+    second lar
