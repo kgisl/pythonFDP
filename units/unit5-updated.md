@@ -136,11 +136,13 @@ xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4
 ![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
 
 Demo
-[https://repl.it/@kiteit/ReadFromFile](https://repl.it/@kiteit/ReadFromFile)
+[https://repl.it/@kiteit/BinaryFile](https://repl.it/@kiteit/BinaryFile)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDg5MTI0MiwtNDcxNTQ4MTc3LDU3MD
-Q0ODczNSwxMjA5NjQ0NzQyLC0xNzczMjAyNzIyLC03MDcyOTAx
-MiwtNjY1OTQ4NDQsMTE5NzMwMDc3MiwtMTgzNjkxMTYwMiwxNj
-YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
-OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
+eyJoaXN0b3J5IjpbMjAwNjAwODcxMCwtNjI0ODkxMjQyLC00Nz
+E1NDgxNzcsNTcwNDQ4NzM1LDEyMDk2NDQ3NDIsLTE3NzMyMDI3
+MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMTk3MzAwNzcyLC0xOD
+M2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3
+MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOT
+JdfQ==
 -->
