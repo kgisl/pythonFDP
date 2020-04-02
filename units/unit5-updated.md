@@ -36,7 +36,7 @@
 ```python
 fileToRead = open("source.txt","r")
 data = fileToRead.read()
-print("source contents:",data)
+print("Source contents:",data)
 ```
 *File contents*
 ```file
@@ -44,16 +44,16 @@ Apple Orange Mango
 ```
 *Output*
 ```console
-Datafile Contents: Apple Orange Mango
+Source contents: Apple Orange Mango
 ```
 
 ![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
 
 ### Types of File Modes
 
-| S.No | File Mode | Description |
-|--- |:---:|--- |
-| 1 | `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
+File Mode | Description |
+|:---:|--- |
+| `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
 | 2 | `rb` | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
 | 3 | `r+` | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
 |4|`rb+`|Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.|
@@ -104,7 +104,7 @@ Demo
 [https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2ODAxNzcwLC0xNzczMjAyNzIyLC03MD
+eyJoaXN0b3J5IjpbLTQyMDUwNjQ3LC0xNzczMjAyNzIyLC03MD
 cyOTAxMiwtNjY1OTQ4NDQsMTE5NzMwMDc3MiwtMTgzNjkxMTYw
 MiwxNjYzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLT
 c1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
