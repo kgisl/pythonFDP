@@ -12,11 +12,3 @@ jobs:
         use-quiet-mode: 'yes'
         folder-path: 'docs'
 
-  markdown-link-check-units:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@0.6.0
-      with:
-        use-quiet-mode: 'yes'
-        folder-path: 'units' 
