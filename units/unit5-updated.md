@@ -100,11 +100,12 @@ done with file writing
 |Before Writing|After Writing |
 |--|--|
 |![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG)|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)|
-
+Demo
+[https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzI5MDEyLC02NjU5NDg0NCwxMTk3Mz
-AwNzcyLC0xODM2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0
-MywtMTUyODA3MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC
-00MTg5ODAwOTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC02Nj
+U5NDg0NCwxMTk3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMyOTAx
+MjgsLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5NDQzLC
+0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
 -->
