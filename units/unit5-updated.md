@@ -47,7 +47,7 @@ Apple Orange Mango
 Datafile Contents: Apple Orange Mango
 ```
 
-[https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG](https://github.com/rajasekaranap/pythonFDP/img/fileintro.JPG)
+![](https://github.com/rajasekaranap/pythonFDP/img/fileintro.JPG)
 
 ### Types of File Modes
 
@@ -103,7 +103,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzIzOTcwOCwtNjY1OTQ4NDQsMTE5Nz
+eyJoaXN0b3J5IjpbMTg1OTQ1NjYyNSwtNjY1OTQ4NDQsMTE5Nz
 MwMDc3MiwtMTgzNjkxMTYwMiwxNjYzMjkwMTI4LC03NTU0Mjk0
 NDMsLTE1MjgwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NC
 wtNDE4OTgwMDkyXX0=
