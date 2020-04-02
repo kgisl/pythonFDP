@@ -1,7 +1,4 @@
 
-# Failed link
-http://now.zer
-
 ## Install your HTML bookmarklet
 
 Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
