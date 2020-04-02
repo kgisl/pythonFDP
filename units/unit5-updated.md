@@ -34,9 +34,9 @@
 ## How to read a file in python
 *Code example*
 ```python
-datafile = open("data.txt","r");
-dataFromFile = datafile.read();
-print(dataFromFile)
+fileToRead = open("source.txt","r")
+data = fileToRead.read()
+print("source contents:",data)
 ```
 *File contents*
 ```file
@@ -104,8 +104,8 @@ Demo
 [https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC02Nj
-U5NDg0NCwxMTk3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMyOTAx
-MjgsLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5NDQzLC
-0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
+eyJoaXN0b3J5IjpbNDc2ODAxNzcwLC0xNzczMjAyNzIyLC03MD
+cyOTAxMiwtNjY1OTQ4NDQsMTE5NzMwMDc3MiwtMTgzNjkxMTYw
+MiwxNjYzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLT
+c1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
