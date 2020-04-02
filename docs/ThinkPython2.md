@@ -985,8 +985,7 @@ The return value is the final status of thelsprocess;Nonemeans that it ended nor
 (with no errors).
 
 For example, most Unix systems provide a command calledmd5sumthat reads the contents
-of a file and computes a “checksum.” You can read about MD5 athttp://en.wikipedia.
-org/wiki/Md5. This command provides an efficient way to check whether two files have
+of a file and computes a “checksum.” You can read about MD5 at http://en.wikipedia.org/wiki/Md5 . This command provides an efficient way to check whether two files have
 the same contents. The probability that different contents yield the same checksum is very
 small (that is, unlikely to happen before the universe collapses).
 
@@ -1098,8 +1097,7 @@ character, represented\r. Some use both. If you move files between different sys
 these inconsistencies might cause problems.
 
 For most systems, there are applications to convert from one format to another. You can
-find them (and read more about this issue) athttp://en.wikipedia.org/wiki/Newline.
-Or, of course, you could write one yourself.
+find them (and read more about this issue) at http://en.wikipedia.org/wiki/Newline . Or, of course, you could write one yourself.
 
 ### 14.11 Glossary
 
@@ -1820,16 +1818,11 @@ know if you have found all the errors.
 
 An alternative is **planned development** , in which high-level insight into the problem can
 make the programming much easier. In this case, the insight is that a Time object is really
-a three-digit number in base 60 (seehttp://en.wikipedia.org/wiki/Sexagesimal.)! The
-secondattribute is the “ones column,” theminuteattribute is the “sixties column,” and the
-hourattribute is the “thirty-six hundreds column.”
+a three-digit number in base 60 (see http://en.wikipedia.org/wiki/Sexagesimal )! The second attribute is the “ones column,” the minute attribute is the “sixties column,” and the hour attribute is the “thirty-six hundreds column.”
 
-When we wroteadd_timeandincrement, we were effectively doing addition in base 60,
-which is why we had to carry from one column to the next.
+When we wroteadd_timeandincrement, we were effectively doing addition in base 60, which is why we had to carry from one column to the next.
 
-This observation suggests another approach to the whole problem—we can convert Time
-objects to integers and take advantage of the fact that the computer knows how to do
-integer arithmetic.
+This observation suggests another approach to the whole problem—we can convert Time objects to integers and take advantage of the fact that the computer knows how to do integer arithmetic.
 
 Here is a function that converts Times to integers:
 
@@ -2439,13 +2432,13 @@ changing the interface, which means that other parts of the program don’t have
 Keeping the interface separate from the implementation means that you have to hide the
 attributes. Code in other parts of the program (outside the class definition) should use
 methods to read and modify the state of the object. They should not access the attributes di-
-rectly. This principle is called **information hiding** ; seehttp://en.wikipedia.org/wiki/
-Information_hiding.
-**Exercise 17.6.** Download the code from this chapter (http: // thinkpython. com/ code/
-Time2. py). Change the attributes ofTimeto be a single integer representing seconds since mid-
+rectly. This principle is called **information hiding** ; see http://en.wikipedia.org/wiki/Information_hiding.
+
+
+**Exercise 17.6.** Download the code from this chapter ( http://thinkpython.com/code/Time2. py ). Change the attributes ofTimeto be a single integer representing seconds since mid-
 night. Then modify the methods (and the functionint_to_time) to work with the new implemen-
 tation. You should not have to modify the test code inmain. When you are done, the output should
-be the same as before. Solution:http: // thinkpython. com/ code/ Time2_ soln. py
+be the same as before. Solution: http://thinkpython.com/code/Time2_soln.py
 
 ### 17.12 Glossary
 
@@ -2540,7 +2533,7 @@ You can see my solution athttp: // thinkpython. com/ code/ color_ space. py.
 # Inheritance
 
 In this chapter I present classes to represent playing cards, decks of cards, and poker hands.
-If you don’t play poker, you can read about it athttp://en.wikipedia.org/wiki/Poker,
+If you don’t play poker, you can read about it at http://en.wikipedia.org/wiki/Poker,
 but you don’t have to; I’ll tell you what you need to know for the exercises. Code examples
 from this chapter are available fromhttp://thinkpython.com/code/Card.py.
 
@@ -4372,11 +4365,9 @@ also published by O’Reilly Media (2011). When you are done with this book,
 you might want to move on to that one.
 ```
 **Analysis of algorithms** is a branch of computer science that studies the performance of
-algorithms, especially their run time and space requirements. Seehttp://en.wikipedia.
-org/wiki/Analysis_of_algorithms.
+algorithms, especially their run time and space requirements. See http://en.wikipedia.org/wiki/Analysis_of_algorithms .
 
-The practical goal of algorithm analysis is to predict the performance of different algo-
-rithms in order to guide design decisions.
+The practical goal of algorithm analysis is to predict the performance of different algorithms in order to guide design decisions.
 
 During the 2008 United States Presidential Campaign, candidate Barack Obama was asked
 to perform an impromptu analysis when he visited Google. Chief executive Eric Schmidt
@@ -4385,11 +4376,9 @@ had apparently been tipped off, because he quickly replied, “I think the bubbl
 be the wrong way to go.” Seehttp://www.youtube.com/watch?v=k4RRi_ntQc8.
 
 This is true: bubble sort is conceptually simple but slow for large datasets. The an-
-swer Schmidt was probably looking for is “radix sort” (http://en.wikipedia.org/wiki/
-Radix_sort)^1.
+swer Schmidt was probably looking for is “radix sort” (http://en.wikipedia.org/wiki/Radix_sort) .
 
-The goal of algorithm analysis is to make meaningful comparisons between algorithms,
-but there are some problems:
+The goal of algorithm analysis is to make meaningful comparisons between algorithms, but there are some problems:
 
 - The relative performance of the algorithms might depend on characteristics of the
     hardware, so one algorithm might be faster on Machine A, another on Machine B.
@@ -4695,9 +4684,7 @@ which isO(logn). But inserting a new item in the middle of a list is linear, so 
 
 **B.4. Hashtables 207**
 
-not be the best option. There are other data structures (seehttp://en.wikipedia.org/
-wiki/Red- black_tree) that can implementaddandgetin log time, but that’s still not as
-good as constant time, so let’s move on.
+not be the best option. There are other data structures (see http://en.wikipedia.org/wiki/Red- black_tree) that can implement add and getin log time, but that’s still not as good as constant time, so let’s move on.
 
 One way to improveLinearMapis to break the list of key-value pairs into smaller lists.
 Here’s an implementation calledBetterMap, which is a list of 100 LinearMaps. As we’ll
