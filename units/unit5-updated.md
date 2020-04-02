@@ -52,8 +52,28 @@ Source contents: Apple Orange Mango
 Demo
 [https://repl.it/@kiteit/ReadFromFile](https://repl.it/@kiteit/ReadFromFile)
 
-### Types of File Modes
 
+# Writing Text Files
+### code
+```python
+fileToWrite = open("destination.txt","w")
+data = "Hello Python";
+fileToWrite.write(data)
+fileToWrite.close();
+print("done with file writing")
+```
+### output
+```console
+done with file writing
+```
+### destination
+|Before Writing|After Writing |
+|--|--|
+|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG)|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)|
+Demo
+[https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
+
+### Types of File Modes
 File Mode | Description |
 |:---:|--- |
 | `r` | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
@@ -86,25 +106,6 @@ File Mode | Description |
 |write()	 |Writes the specified string to the file|``` fileobject.write(data)```|
 |writelines()|Writes a list of strings to the file|``` fileobject.writelines(listofstrings[])```|
 
-# File Writing
-### code
-```python
-fileToWrite = open("destination.txt","w")
-data = "Hello Python";
-fileToWrite.write(data)
-fileToWrite.close();
-print("done with file writing")
-```
-### output
-```console
-done with file writing
-```
-### destination
-|Before Writing|After Writing |
-|--|--|
-|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG)|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)|
-Demo
-[https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
 **Difference between Append and Write Mode**
 
@@ -189,10 +190,10 @@ By convention, the data in every text file obeys a number of rules:
 -   A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.
 -   Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc2Njc4NywtMTk5OTkyMzg5MCwyMD
-A2MDA4NzEwLC02MjQ4OTEyNDIsLTQ3MTU0ODE3Nyw1NzA0NDg3
-MzUsMTIwOTY0NDc0MiwtMTc3MzIwMjcyMiwtNzA3MjkwMTIsLT
-Y2NTk0ODQ0LDExOTczMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5
-MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0ND
-MsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbLTEwNjIxOTEwNjksLTE5OTk5MjM4OTAsMj
+AwNjAwODcxMCwtNjI0ODkxMjQyLC00NzE1NDgxNzcsNTcwNDQ4
+NzM1LDEyMDk2NDQ3NDIsLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC
+02NjU5NDg0NCwxMTk3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMy
+OTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5ND
+QzLC0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
 -->
