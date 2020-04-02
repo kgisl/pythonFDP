@@ -1,2 +1,13 @@
-- name: md-linkcheck
-  uses: ocular-d/md-linkcheck-action@1.0.2
+on:
+  push:
+    paths:
+    - '*.md'
+    - '/docs/*'
+name: Testing linkcheck
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: md-linkcheck
+      uses: ./
