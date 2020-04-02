@@ -76,9 +76,9 @@ Datafile Contents: Apple Orange Mango
 |8   |readline()	 |Returns one line from the file|``` data = fileobject.readline()```|
 |9   |readlines() |Returns a list of lines from the file|``` filelines = fileobject.read()```|
 |10  |seek()	     |Change the file position|``` filelines = fileobject.seek(offset)```|
-|11  |seekable()	 |Returns whether the file allows us to change the file position|
-|12  |tell()	     |Returns the current file position|
-|13  |truncate()	 |Resizes the file to a specified size|
+|11  |seekable()	 |Returns whether the file allows us to change the file position|``` bool = fileobject.seekable()```|
+|12  |tell()	     |Returns the current file position|``` position = fileobject.tell()```|
+|13  |truncate()	 |Resizes the file to a specified size|``` filelines = fileobject.truncate(offset)```|
 |14  |writeable() |Returns whether the file can be written to or not|
 |15  |write()	 |Writes the specified string to the file|
 |16  |writelines()|Writes a list of strings to the file|
@@ -103,7 +103,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjE2NDgwNywtNjY1OTQ4NDQsMTE5Nz
+eyJoaXN0b3J5IjpbMTg0MzA5MzA2MiwtNjY1OTQ4NDQsMTE5Nz
 MwMDc3MiwtMTgzNjkxMTYwMiwxNjYzMjkwMTI4LC03NTU0Mjk0
 NDMsLTE1MjgwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NC
 wtNDE4OTgwMDkyXX0=
