@@ -31,7 +31,7 @@
 5. Writing data to the file
 6. Closing or terminating a file operation
 
-## How to read a file in python
+## Reading Text Files
 *Code example*
 ```python
 fileToRead = open("source.txt","r")
@@ -189,10 +189,10 @@ By convention, the data in every text file obeys a number of rules:
 -   A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.
 -   Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk5MjM4OTAsMjAwNjAwODcxMCwtNj
-I0ODkxMjQyLC00NzE1NDgxNzcsNTcwNDQ4NzM1LDEyMDk2NDQ3
-NDIsLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC02NjU5NDg0NCwxMT
-k3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQy
-OTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NT
-U0LC00MTg5ODAwOTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MDc2Njc4NywtMTk5OTkyMzg5MCwyMD
+A2MDA4NzEwLC02MjQ4OTEyNDIsLTQ3MTU0ODE3Nyw1NzA0NDg3
+MzUsMTIwOTY0NDc0MiwtMTc3MzIwMjcyMiwtNzA3MjkwMTIsLT
+Y2NTk0ODQ0LDExOTczMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5
+MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0ND
+MsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
 -->
