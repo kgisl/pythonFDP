@@ -3,8 +3,18 @@
 ### Object
 *Files and exception: text files, reading and writing files, format operator; command line arguments, errors and exceptions, handling exceptions, modules, packages; Illustrative programs: word count, copy file.*
 
+# Key Terms
+-   **File**  : Binary file is a collection of bytes or a character stream. The data that is written into and read from binary file remain unchanged, with no separation between lines and no use of end-of-line characters and the interpretation of the file is left to the programmer.
+-   **Binary file**  : Binary file is a collection of bytes or a character stream. The data that is written into and read from binary file remain unchanged, with no separation between lines and no use of end-of-line characters and the interpretation of the file is left to the programmer.
+-   **Text file**  : A text file is a stream of characters that can be processed sequentially and logically in the forward direction. The maximum number of characters in each line is limited to 255 characters.
+-   **Sequential file access**: In case of sequential file access, data is read from or written to a file in a sequential manner while the  `position indicator`  automatically gets adjusted by the stream I/O functions.
+-   **Random file access**: Random access means reading from or writing to any position in a file without reading or writing all the preceding data by controlling the  `position indicator`
+-   **Record**: A record consist of a collection of data fields that conforms to a previously defined structure that can be stored on or retrieved from a file.
+-   **Stream**: The stream is a common, logical interface to the various devices that comprise the computer and is a logical interface to a file. Although files differ in form and capabilities, all streams are the same.
+-   **File management**: It basically means all operations related to creating, renaming, deleting, merging, reading, writing, etc. of any type of files.
+-   **Path**: The path specifies the drive and/or directory (or folder) where the file is located. On PCs, the backslash character is used to separate directory names in a path. Some systems like Unix use the forward slash (/) as the directory separator.
 ### File
-A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.
+
 
 ### Types of Files
 
@@ -98,7 +108,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTI5ODM4OCwtMTgzNjkxMTYwMiwxNj
-YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
-OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
+eyJoaXN0b3J5IjpbNDA5ODg0MzA4LC0xODM2OTExNjAyLDE2Nj
+MyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5
+NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
 -->
