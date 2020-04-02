@@ -146,10 +146,9 @@
       <h3 id="exercises">12.11 Exercises</h3>
 <p><strong>Exercise 12.3.</strong> Write a function calledmost_frequentthat takes a string and prints the let-<br>
 ters in decreasing order of frequency. Find text samples from several different languages and see<br>
-how letter frequency varies between languages. Compare your results with the tables athttp: //<br>
-en. wikipedia. org/ wiki/ Letter_ frequencies. Solution:http: // thinkpython. com/<br>
-code/ most_ frequent. py.<br>
-<strong>Exercise 12.4.</strong> More anagrams!</p>
+how letter frequency varies between languages. Compare your results with the tables at <a href="http://en.wikipedia.org/wiki/Letter_frequencies">http://en.wikipedia.org/wiki/Letter_frequencies</a><br>
+Solution: <a href="http://thinkpython.com/code/most_frequent.py">http://thinkpython.com/code/most_frequent.py</a> .</p>
+<p><strong>Exercise 12.4.</strong> More anagrams!</p>
 <ol>
 <li>Write a program that reads a word list from a file (see Section 9.1) and prints all the sets of<br>
 words that are anagrams.<br>
@@ -1204,14 +1203,14 @@ ments.</p>
 to values.</p>
 <h3 id="exercises-2">14.12 Exercises</h3>
 <p><strong>Exercise 14.6.</strong> Theurllibmodule provides methods for manipulating URLs and downloading<br>
-information from the web. The following example downloads and prints a secret message from<br>
-<a href="http://thinkpython.com">thinkpython.com</a>:</p>
-<p>import urllib</p>
-<p>conn = urllib.urlopen(‘<a href="http://thinkpython.com/secret.html">http://thinkpython.com/secret.html</a>’)<br>
-for line in conn:<br>
-print line.strip()</p>
-<p>Run this code and follow the instructions you see there. Solution:http: // thinkpython. com/<br>
-code/ zip_ code. py.</p>
+information from the web. The following example downloads and prints a secret message from <a href="http://thinkpython.com">http://thinkpython.com</a> :</p>
+<pre><code>import urllib
+conn = urllib.urlopen('http://thinkpython.com/secret.html')
+for line in conn:
+	print line.strip()
+</code></pre>
+<p>Run this code and follow the instructions you see there.<br>
+Solution: <a href="http://thinkpython.com/code/zip_code.py">http://thinkpython.com/code/zip_code.py</a></p>
 <p><strong>142 Chapter 14. Files</strong></p>
 <h2 id="chapter-15">Chapter 15</h2>
 <h1 id="classes-and-objects">Classes and objects</h1>
@@ -2473,8 +2472,7 @@ values. For each named color draw a sphere in the position that corresponds to i
 If you don’t play poker, you can read about it athttp://en.wikipedia.org/wiki/Poker,<br>
 but you don’t have to; I’ll tell you what you need to know for the exercises. Code examples<br>
 from this chapter are available fromhttp://thinkpython.com/code/Card.py.</p>
-<p>If you are not familiar with Anglo-American playing cards, you can read about them at<br>
-<a href="http://en.wikipedia.org/wiki/Playing_cards.">http://en.wikipedia.org/wiki/Playing_cards.</a></p>
+<p>If you are not familiar with Anglo-American playing cards, you can read about them at <a href="http://en.wikipedia.org/wiki/Playing_cards.">http://en.wikipedia.org/wiki/Playing_cards</a>.</p>
 <h3 id="card-objects">18.1 Card objects</h3>
 <p>There are fifty-two cards in a deck, each of which belongs to one of four suits and one of<br>
 thirteen ranks. The suits are Spades, Hearts, Diamonds, and Clubs (in descending order in<br>
@@ -4205,10 +4203,8 @@ over all adds, you can see graphically that the total cost afternadds is 2n−2.
 <p>An important feature of this algorithm is that when we resize the HashTable it grows<br>
 geometrically; that is, we multiply the size by a constant. If you increase the size<br>
 arithmetically—adding a fixed number each time—the average time peraddis linear.</p>
-<p>You can download my implementation of HashMap fromhttp://thinkpython/code/<br>
-<a href="http://Map.py">Map.py</a>, but remember that there is no reason to use it; if you want a map, just use a Python<br>
-dictionary.</p>
-<p><strong>210 Appendix B. Analysis of Algorithms</strong></p>
+<p>You can download my implementation of HashMap from <a href="http://thinkpython/code/Map.py">http://thinkpython/code/Map.py</a>, but remember that there is no reason to use it; if you want a map, just use a Python dictionary.</p>
+<p><strong>210  Appendix B. Analysis of Algorithms</strong></p>
 <h2 id="appendix-c">Appendix C</h2>
 <h1 id="lumpy">Lumpy</h1>
 <p>Throughout the book, I have used diagrams to represent the state of running programs.</p>
@@ -4277,8 +4273,7 @@ level variables, also known as global.</p>
 <p>You can download this example fromhttp://thinkpython.com/code/lumpy_demo1.py.<br>
 Try adding some additional assignments and see what the diagram looks like.</p>
 <h3 id="c.2-stack-diagram">C.2 Stack diagram</h3>
-<p>Here’s an example that uses Lumpy to generate a stack diagram. You can download it from<br>
-<a href="http://thinkpython.com/code/lumpy_demo2.py.">http://thinkpython.com/code/lumpy_demo2.py.</a></p>
+<p>Here’s an example that uses <strong>Lumpy</strong> to generate a stack diagram. You can download it from <a href="http://thinkpython.com/code/lumpy_demo2.py">http://thinkpython.com/code/lumpy_demo2.py</a></p>
 <p><strong>C.3. Object diagrams 213</strong></p>
 <pre><code>cheeses 0 'Cheddar'
 </code></pre>
@@ -4300,33 +4295,32 @@ Try adding some additional assignments and see what the diagram looks like.</p>
 </code></pre>
 <pre><code>Figure C.3: Object diagram.
 </code></pre>
-<p>from swampy.Lumpy import Lumpy</p>
-<p>def countdown(n):<br>
-if n &lt;= 0:<br>
-print ‘Blastoff!’<br>
-lumpy.object_diagram()<br>
-else:<br>
-print n<br>
-countdown(n-1)</p>
-<p>lumpy = Lumpy()<br>
-lumpy.make_reference()<br>
-countdown(3)</p>
-<p>Figure C.2 shows the result. Each frame is represented with a box that has the function’s<br>
-name outside and variables inside. Since this function is recursive, there is one frame for<br>
-each level of recursion.</p>
-<p>Remember that a stack diagram shows the state of the program at a particular point in<br>
-its execution. To get the diagram you want, sometimes you have to think about where to<br>
-invokeobject_diagram.</p>
-<p>In this case I invokeobject_diagramafter executing the base case of the recursion; that<br>
-way the stack diagram shows each level of the recursion. You can callobject_diagram<br>
-more than once to get a series of snapshots of the program’s execution.</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> swampy<span class="token punctuation">.</span>Lumpy <span class="token keyword">import</span> Lumpy
+
+<span class="token keyword">def</span> <span class="token function">countdown</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+<span class="token keyword">if</span> n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+<span class="token keyword">print</span> <span class="token string">'Blastoff!'</span>
+lumpy<span class="token punctuation">.</span>object_diagram<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>
+<span class="token keyword">print</span> n
+countdown<span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span>
+
+lumpy <span class="token operator">=</span> Lumpy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+lumpy<span class="token punctuation">.</span>make_reference<span class="token punctuation">(</span><span class="token punctuation">)</span>
+countdown<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Figure C.2 shows the result. Each frame is represented with a box that has the function’s name outside and variables inside. Since this function is recursive, there is one frame for each level of recursion.</p>
+<p>Remember that a stack diagram shows the state of the program at a particular point in its execution. To get the diagram you want, sometimes you have to think about where to invoke object_diagram.</p>
+<p>In this case I invokeobject_diagramafter executing the base case of the recursion; that way the stack diagram shows each level of the recursion. You can call <code>object_diagram</code>  more than once to get a series of snapshots of the program’s execution.</p>
 <h3 id="c.3-object-diagrams">C.3 Object diagrams</h3>
-<p>This example generates an object diagram showing the lists from Section 10.1. You can<br>
-download it fromhttp://thinkpython.com/code/lumpy_demo3.py.</p>
-<p>from swampy.Lumpy import Lumpy</p>
-<p>lumpy = Lumpy()<br>
-lumpy.make_reference()</p>
-<p>cheeses = [‘Cheddar’, ‘Edam’,‘Gouda’]</p>
+<p>This example generates an object diagram showing the lists from Section 10.1. You can download it from <a href="http://thinkpython.com/code/lumpy_demo3.py">http://thinkpython.com/code/lumpy_demo3.py</a>.</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> swampy<span class="token punctuation">.</span>Lumpy <span class="token keyword">import</span> Lumpy
+
+lumpy <span class="token operator">=</span> Lumpy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+lumpy<span class="token punctuation">.</span>make_reference<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+cheeses <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Cheddar'</span><span class="token punctuation">,</span> <span class="token string">'Edam'</span><span class="token punctuation">,</span><span class="token string">'Gouda'</span><span class="token punctuation">]</span>
+</code></pre>
 <p><strong>214 Appendix C. Lumpy</strong></p>
 <pre><code>inverse 1 0 'a'
 </code></pre>
