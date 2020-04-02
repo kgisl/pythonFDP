@@ -22,12 +22,11 @@ def has_duplicates(t):
     returns: bool
     """
     # make a copy of t to avoid modifying the parameter
-    s = t[:]
-    s.sort()
+    s = sorted(t[:])
 
     # check for adjacent elements that are equal
-    for i in range(len(s)-1):
-        if s[i] == s[i+1]:
+    for i in range(len(s) - 1):
+        if s[i] == s[i + 1]:
             return True
     return False
 

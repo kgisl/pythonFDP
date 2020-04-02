@@ -50,7 +50,7 @@ def check_word(word, word_dict, phonetic):
     word_dict: dictionary with words as keys
     phonetic: map from words to pronunciation codes
     """
-    word1 = word[1:] 
+    word1 = word[1:]
     if word1 not in word_dict:
         return False
     if not homophones(word, word1, phonetic):

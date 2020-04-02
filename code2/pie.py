@@ -24,10 +24,10 @@ def draw_pie(t, n, r):
     """
     polypie(t, n, r)
     t.pu()
-    t.fd(r*2 + 10)
+    t.fd(r * 2 + 10)
     t.pd()
 
-    
+
 def polypie(t, n, r):
     """Draws a pie divided into radial segments.
 
@@ -37,7 +37,7 @@ def polypie(t, n, r):
     """
     angle = 360.0 / n
     for i in range(n):
-        isosceles(t, r, angle/2)
+        isosceles(t, r, angle / 2)
         t.lt(angle)
 
 
@@ -54,11 +54,11 @@ def isosceles(t, r, angle):
 
     t.rt(angle)
     t.fd(r)
-    t.lt(90+angle)
-    t.fd(2*y)
-    t.lt(90+angle)
+    t.lt(90 + angle)
+    t.fd(2 * y)
+    t.lt(90 + angle)
     t.fd(r)
-    t.lt(180-angle)
+    t.lt(180 - angle)
 
 
 bob = turtle.Turtle()
@@ -76,4 +76,3 @@ draw_pie(bob, 8, size)
 
 bob.hideturtle()
 turtle.mainloop()
-

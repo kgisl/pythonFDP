@@ -55,4 +55,3 @@ def main(script, command='make_db'):
 
 if __name__ == '__main__':
     main(*sys.argv)
-    

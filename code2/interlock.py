@@ -22,8 +22,8 @@ def interlock(word_list, word):
     """
     evens = word[::2]
     odds = word[1::2]
-    return in_bisect(word_list, evens) and in_bisect(word_list, odds) 
-        
+    return in_bisect(word_list, evens) and in_bisect(word_list, odds)
+
 
 def interlock_general(word_list, word, n=3):
     """Checks whether a word contains n interleaved words.
@@ -37,11 +37,11 @@ def interlock_general(word_list, word, n=3):
         if not in_bisect(word_list, inter):
             return False
     return True
-        
+
 
 if __name__ == '__main__':
     word_list = make_word_list()
-    
+
     for word in word_list:
         if interlock(word_list, word):
             print(word, word[::2], word[1::2])
@@ -49,5 +49,3 @@ if __name__ == '__main__':
     for word in word_list:
         if interlock_general(word_list, word, 3):
             print(word, word[0::3], word[1::3], word[2::3])
-
-

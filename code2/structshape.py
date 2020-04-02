@@ -18,6 +18,7 @@ an object of any type and returns a string that summarizes the
 composition.
 """
 
+
 def structshape(ds):
     """Returns a string that describes the shape of a data structure.
 
@@ -43,7 +44,7 @@ def structshape(ds):
         for k, v in ds.items():
             keys.add(structshape(k))
             vals.add(structshape(v))
-        rep = '%s of %d %s->%s' % (typename, len(ds), 
+        rep = '%s of %d %s->%s' % (typename, len(ds),
                                    setrep(keys), setrep(vals))
         return rep
 
@@ -88,7 +89,7 @@ def setrep(s):
         return rep
     else:
         return '(' + rep + ')'
-    return 
+    return
 
 
 def append(res, typestr, count):
@@ -132,7 +133,7 @@ if __name__ == '__main__':
     lt = zip(t, s)
     print(structshape(lt))
 
-    d = dict(lt)        
+    d = dict(lt)
     print(structshape(d))
 
     it = iter('abc')

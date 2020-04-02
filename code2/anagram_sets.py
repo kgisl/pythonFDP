@@ -20,8 +20,7 @@ def signature(s):
     s: string
     """
     # TODO: rewrite using sorted()
-    t = list(s)
-    t.sort()
+    t = sorted(s)
     t = ''.join(t)
     return t
 
@@ -96,4 +95,3 @@ if __name__ == '__main__':
 
     eight_letters = filter_length(anagram_map, 8)
     print_anagram_sets_in_order(eight_letters)
-    

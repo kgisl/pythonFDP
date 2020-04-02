@@ -17,6 +17,7 @@ class Point:
 
     attributes: x, y
     """
+
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
@@ -43,7 +44,6 @@ class Point:
         return Point(self.x + other[0], self.y + other[1])
 
 
-
 def main():
     p1 = Point(1, 2)
     p2 = Point(3, 4)
@@ -52,6 +52,6 @@ def main():
     print(p1 + p2)
     print(p1 + (3, 4))
 
+
 if __name__ == '__main__':
     main()
-

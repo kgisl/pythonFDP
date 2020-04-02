@@ -14,9 +14,10 @@ from __future__ import print_function, division
 
 class Time:
     """Represents the time of day.
-       
+
     attributes: hour, minute, second
     """
+
     def __init__(self, hour=0, minute=0, second=0):
         """Initializes a time object.
 

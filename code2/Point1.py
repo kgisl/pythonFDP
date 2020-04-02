@@ -25,7 +25,7 @@ def print_point(p):
 
 
 class Rectangle:
-    """Represents a rectangle. 
+    """Represents a rectangle.
 
     attributes: width, height, corner.
     """
@@ -39,8 +39,8 @@ def find_center(rect):
     returns: new Point
     """
     p = Point()
-    p.x = rect.corner.x + rect.width/2.0
-    p.y = rect.corner.y + rect.height/2.0
+    p.x = rect.corner.x + rect.width / 2.0
+    p.y = rect.corner.y + rect.height / 2.0
     return p
 
 
@@ -83,4 +83,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

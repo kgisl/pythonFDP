@@ -19,7 +19,7 @@ def koch(t, n):
     if n < 10:
         t.fd(n)
         return
-    m = n/3
+    m = n / 3
     koch(t, m)
     t.lt(60)
     koch(t, m)
@@ -44,4 +44,3 @@ bob.pd()
 snowflake(bob, 300)
 
 turtle.mainloop()
-

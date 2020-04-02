@@ -39,7 +39,7 @@ def random_word(hist):
         freqs.append(total_freq)
 
     # choose a random value and find its location in the cumulative list
-    x = random.randint(0, total_freq-1)
+    x = random.randint(0, total_freq - 1)
     index = bisect(freqs, x)
     return words[index]
 
@@ -54,4 +54,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

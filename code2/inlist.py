@@ -47,7 +47,7 @@ def in_bisect(word_list, word):
         return in_bisect(word_list[:i], word)
     else:
         # search the second half
-        return in_bisect(word_list[i+1:], word)
+        return in_bisect(word_list[i + 1:], word)
 
 
 def in_bisect_cheat(word_list, word):
@@ -67,11 +67,9 @@ def in_bisect_cheat(word_list, word):
 
 if __name__ == '__main__':
     word_list = make_word_list()
-    
+
     for word in ['aa', 'alien', 'allen', 'zymurgy']:
         print(word, 'in list', in_bisect(word_list, word))
 
     for word in ['aa', 'alien', 'allen', 'zymurgy']:
         print(word, 'in list', in_bisect_cheat(word_list, word))
-
-

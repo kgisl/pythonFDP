@@ -50,7 +50,11 @@ def num_instances(diff, flag=False):
 
         # assuming that mother and daughter don't have the same birthday,
         # they have two chances per year to have palindromic ages.
-        if are_reversed(daughter, mother) or are_reversed(daughter, mother+1):
+        if are_reversed(
+                daughter,
+                mother) or are_reversed(
+                daughter,
+                mother + 1):
             count = count + 1
             if flag:
                 print(daughter, mother)
@@ -58,7 +62,7 @@ def num_instances(diff, flag=False):
             break
         daughter = daughter + 1
     return count
-    
+
 
 def check_diffs():
     """Finds age differences that satisfy the problem.
@@ -74,6 +78,7 @@ def check_diffs():
         if n > 0:
             print(diff, n)
         diff = diff + 1
+
 
 print('diff  #instances')
 check_diffs()

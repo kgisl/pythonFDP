@@ -49,4 +49,3 @@ elapsed_time = time.time() - start_time
 print(len(t))
 print(t[:10])
 print(elapsed_time, 'seconds')
-

@@ -71,4 +71,3 @@ for filename in filenames.split():
 
     res, stat = pipe('python ' + filename)
     print(stat)
-

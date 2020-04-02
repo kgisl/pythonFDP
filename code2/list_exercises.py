@@ -16,7 +16,7 @@ import random
 
 def nested_sum(t):
     """Computes the total of all numbers in a list of lists.
-   
+
     t: list of list of numbers
 
     returns: number
@@ -92,12 +92,11 @@ def has_duplicates(s):
     returns: bool
     """
     # make a copy of t to avoid modifying the parameter
-    t = list(s)
-    t.sort()
+    t = sorted(s)
 
     # check for adjacent elements that are equal
-    for i in range(len(t)-1):
-        if t[i] == t[i+1]:
+    for i in range(len(t) - 1):
+        if t[i] == t[i + 1]:
             return True
     return False
 

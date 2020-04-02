@@ -16,15 +16,15 @@ import random
 
 class Card:
     """Represents a standard playing card.
-    
+
     Attributes:
       suit: integer 0-3
       rank: integer 1-13
     """
 
     suit_names = ["Clubs", "Diamonds", "Hearts", "Spades"]
-    rank_names = [None, "Ace", "2", "3", "4", "5", "6", "7", 
-              "8", "9", "10", "Jack", "Queen", "King"]
+    rank_names = [None, "Ace", "2", "3", "4", "5", "6", "7",
+                  "8", "9", "10", "Jack", "Queen", "King"]
 
     def __init__(self, suit=0, rank=2):
         self.suit = suit
@@ -58,7 +58,7 @@ class Deck:
     Attributes:
       cards: list of Card objects.
     """
-    
+
     def __init__(self):
         """Initializes the Deck with 52 cards.
         """
@@ -85,7 +85,7 @@ class Deck:
 
     def remove_card(self, card):
         """Removes a card from the deck or raises exception if it is not there.
-        
+
         card: Card
         """
         self.cards.remove(card)
@@ -117,14 +117,14 @@ class Deck:
 
 class Hand(Deck):
     """Represents a hand of playing cards."""
-    
+
     def __init__(self, label=''):
         self.cards = []
         self.label = label
 
 
 def find_defining_class(obj, method_name):
-    """Finds and returns the class object that will provide 
+    """Finds and returns the class object that will provide
     the definition of method_name (as a string) if it is
     invoked on obj.
 
