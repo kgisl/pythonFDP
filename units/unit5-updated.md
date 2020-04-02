@@ -88,13 +88,12 @@ print("done with file writing")
 ```
 done with file writing
 ```
-[]: [https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG)
 ### destination.txt
 |Before Writing|After Writing |
 |--|--|
-|[]: [https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG) |[]: [https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)|
+|```   ```  | ``` Hello Python``` |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjI0MTQ5MCwtMTUyODA3MTE5MCwtNz
+eyJoaXN0b3J5IjpbLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNz
 U1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
 -->
