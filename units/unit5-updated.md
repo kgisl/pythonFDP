@@ -76,17 +76,15 @@ Datafile Contents: Apple Orange Mango
 |16  |writelines()|Writes a list of strings to the file|
 
 # File Writing
-
-    fileToWrite = open("destination.txt","w")
-    
-    data = "Hello Python";
-    
-    fileToWrite.write(data)
-    
-    fileToWrite.close();
-    
-    print("done with file writing")
+### code
+```python
+fileToWrite = open("destination.txt","w")
+data = "Hello Python";
+fileToWrite.write(data)
+fileToWrite.close();
+print("done with file writing")
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxNTEzOTUsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbNzAzMjIzNDczLC00MTg5ODAwOTJdfQ==
 -->
