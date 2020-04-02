@@ -37,7 +37,7 @@ The original form of this book is LATEX source code. Compiling this LATEX source
 erating a device-independent representation of a textbook, which can be converted to other formats
 and printed.
 
-The LATEX source for this book is available fromhttp://www.thinkpython.com
+The LATEX source for this book is available from http://www.thinkpython.com
 
 
 # Preface
@@ -2271,8 +2271,7 @@ Solution: http://www.thinkpython.com/code/grid.py. Credit: This exercise is base
 
 # Case study: interface design
 
-Code examples from this chapter are available fromhttp://thinkpython.com/code/
-polygon.py.
+Code examples from this chapter are available from http://thinkpython.com/code/polygon.py.
 
 ### 4.1 TurtleWorld
 
@@ -2737,24 +2736,18 @@ Solution: [http:](http:) // thinkpython. com/ code/ flower. py, also requires [h
 // thinkpython. com/ code/ polygon. py.
 **Exercise 4.3.** Write an appropriately general set of functions that can draw shapes as in Figure 4.2.
 
-Solution:http: // thinkpython. com/ code/ pie. py.
+Solution: http://thinkpython.com/code/pie.py 
 
 
 **40 Chapter 4. Case study: interface design**
 
-**Exercise 4.4.** The letters of the alphabet can be constructed from a moderate number of basic ele-
-ments, like vertical and horizontal lines and a few curves. Design a font that can be drawn with a
-minimal number of basic elements and then write functions that draw letters of the alphabet.
+**Exercise 4.4.** The letters of the alphabet can be constructed from a moderate number of basic elements, like vertical and horizontal lines and a few curves. Design a font that can be drawn with a minimal number of basic elements and then write functions that draw letters of the alphabet.
 
-You should write one function for each letter, with namesdraw_a,draw_b, etc., and put your
-functions in a file namedletters.py. You can download a “turtle typewriter” fromhttp: //
-thinkpython. com/ code/ typewriter. pyto help you test your code.
+You should write one function for each letter, with namesdraw_a,draw_b, etc., and put your functions in a file namedletters.py. You can download a “turtle typewriter” from http: //thinkpython. com/code/typewriter. py to help you test your code.
 
-Solution: [http:](http:) // thinkpython. com/ code/ letters. py, also requires [http:](http:)
-// thinkpython. com/ code/ polygon. py.
+Solution: http://thinkpython.com/code/letters. py, also requires http://thinkpython.com/code/polygon.py .
 **Exercise 4.5.** Read about spirals athttp: // en. wikipedia. org/ wiki/ Spiral; then write
-a program that draws an Archimedian spiral (or one of the other kinds). Solution: [http:](http:)
-// thinkpython. com/ code/ spiral. py.
+a program that draws an Archimedian spiral (or one of the other kinds). Solution: http://thinkpython.com/code/spiral.py .
 
 
 ## Chapter 5
@@ -5282,8 +5275,7 @@ rectly).
 
 ### 9.7 Exercises
 
-**Exercise 9.7.** This question is based on a Puzzler that was broadcast on the radio programCar
-Talk(http: // [http://www.](http://www.) cartalk. com/ content/ puzzlers):
+**Exercise 9.7.** This question is based on a Puzzler that was broadcast on the radio programCarTalk (http://www.cartalk.comcontent/ puzzlers):
 
 ```
 Give me a word with three consecutive double letters. I’ll give you a couple of words
@@ -5293,9 +5285,9 @@ p-p-i. If you could take out those i’s it would work. But there is a word that
 consecutive pairs of letters and to the best of my knowledge this may be the only word.
 Of course there are probably 500 more but I can only think of one. What is the word?
 ```
-Write a program to find it. Solution:http: // thinkpython. com/ code/ cartalk1. py.
-**Exercise 9.8.** Here’s another Car Talk Puzzler (http: // [http://www.](http://www.) cartalk. com/ content/
-puzzlers):
+Write a program to find it. Solution: http://thinkpython.com/code/cartalk1. py.
+
+**Exercise 9.8.** Here’s another Car Talk Puzzler http://www.cartalk.com/content/puzzlers :
 
 ```
 “I was driving on the highway the other day and I happened to notice my odometer.
@@ -5311,8 +5303,7 @@ you ready for this? One mile later, all 6 were palindromic!
 ```
 Write a Python program that tests all the six-digit numbers and prints any numbers that satisfy
 these requirements. Solution:http: // thinkpython. com/ code/ cartalk2. py.
-**Exercise 9.9.** Here’s anotherCar TalkPuzzler you can solve with a search (http: // [http://www.](http://www.)
-cartalk. com/ content/ puzzlers):
+**Exercise 9.9.** Here’s anotherCar TalkPuzzler you can solve with a search http://www.cartalk.com/content/puzzlers :
 
 ```
 “Recently I had a visit with my mom and we realized that the two digits that make
@@ -6765,15 +6756,14 @@ from any function.
 takes a list as a parameter and returnsTrueif there is any object that appears more than once in the
 list.
 
-Use a dictionary to write a faster, simpler version ofhas_duplicates. Solution: [http:](http:) //
-thinkpython. com/ code/ has_ duplicates. py.
+Use a dictionary to write a faster, simpler version of has_duplicates. Solution: http://thinkpython.com/code/has_ duplicates. py.
+
 **Exercise 11.10.** Two words are “rotate pairs” if you can rotate one of them and get the other (see
 rotate_wordin Exercise 8.12).
 
-Write a program that reads a wordlist and finds all the rotate pairs. Solution: [http:](http:) //
-thinkpython. com/ code/ rotate_ pairs. py.
-**Exercise 11.11.** Here’s another Puzzler fromCar Talk(http: // [http://www.](http://www.) cartalk. com/ content/
-puzzlers):
+Write a program that reads a wordlist and finds all the rotate pairs. Solution: 
+http://thinkpython.com/code/rotate_pairs.py .
+**Exercise 11.11.** Here’s another Puzzler fromCar Talk ( http://www.cartalk.com/content/puzzlers:
 
 ```
 This was sent in by a fellow named Dan O’Leary. He came upon a common one-syllable,
@@ -6795,14 +6785,10 @@ words. The question is, what’s the word?
 You can use the dictionary from Exercise 11.1 to check whether a string is in the word list.
 
 To check whether two words are homophones, you can use the CMU Pronouncing Dictionary.
-You can download it fromhttp: // [http://www.](http://www.) speech. cs. cmu. edu/ cgi- bin/ cmudict or from
-[http:](http:) // thinkpython. com/ code/ c06dand you can also downloadhttp: // thinkpython.
-com/ code/ pronounce. py, which provides a function namedread_dictionarythat reads the
-pronouncing dictionary and returns a Python dictionary that maps from each word to a string that
-describes its primary pronunciation.
+You can download it from http://www.speech.cs.cmu.edu/cgi-bin/cmudict or from
+ http:// thinkpython. com/code/c06d and you can also download http:// thinkpython.com/code/pronounce. py, which provides a function named read_dictionary that reads the  pronouncing dictionary and returns a Python dictionary that maps from each word to a string that describes its primary pronunciation.
 
-Write a program that lists all the words that solve the Puzzler. Solution:http: // thinkpython.
-com/ code/ homophone. py.
+Write a program that lists all the words that solve the Puzzler. Solution: http://thinkpython.com/code/homophone.py.
 
 
 **112 Chapter 11. Dictionaries**
