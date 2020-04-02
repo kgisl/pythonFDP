@@ -1263,12 +1263,11 @@ variable names and you don’t know why, see if it is on this list.
 **Operators** are special symbols that represent computations like addition and multiplica-
 tion. The values the operator is applied to are called **operands**.
 
-The operators+,-,*,/and**perform addition, subtraction, multiplication, division and
-exponentiation, as in the following examples:
+The operators `+,-,*,/` and `**`* perform addition, subtraction, multiplication, division and exponentiation, as in the following examples:
 
-20+32 hour-1 hour*60+minute minute/60 5**2 (5+9)*(15-7)
+```20 + 32 hour - 1 hour* 60 + minute minute/60 5**2 (5+9)*(15-7)```
 
-In some other languages,^is used for exponentiation, but in Python it is a bitwise operator called XOR. I won’t cover bitwise operators in this book, but you can read about them at
+In some other languages, `^`is used for exponentiation, but in Python it is a bitwise operator called `XOR`. I won’t cover bitwise operators in this book, but you can read about them at
 [http://wiki.python.org/moin/BitwiseOperators](http://wiki.python.org/moin/BitwiseOperators)
 
 In Python 2, the division operator might not do what you expect:
@@ -1277,10 +1276,7 @@ In Python 2, the division operator might not do what you expect:
 >>> minute/60
 0
 
-The value ofminuteis 59, and in conventional arithmetic 59 divided by 60 is 0.98333, not 0.
-The reason for the discrepancy is that Python is performing **floor division**. When both of
-the operands are integers, the result is also an integer; floor division chops off the fraction
-part, so in this example it rounds down to zero.
+The value ofminuteis 59, and in conventional arithmetic 59 divided by 60 is 0.98333, not 0. The reason for the discrepancy is that Python is performing **floor division**. When both of the operands are integers, the result is also an integer; floor division chops off the fraction part, so in this example it rounds down to zero.
 
 
 **14 Chapter 2. Variables, expressions and statements**
@@ -7360,5 +7356,4 @@ that can be spelled with those letters. The question is, how can you represent t
 in a way that can be used as a key?
 ```
 2. Modify the previous program so that it prints the largest set of anagrams first, followed by the
-    second largest set, and so on.
-3. I
+    second larg
