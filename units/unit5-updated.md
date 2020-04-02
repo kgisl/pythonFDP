@@ -91,11 +91,11 @@ done with file writing
 ### destination.txt
 |Before Writing|After Writing |
 |--|--|
-|```   ```  | ``` Hello Python``` |
+|![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)| ``` Hello Python``` |
 
-![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3NzYzNDczLC03NTU0Mjk0NDMsLTE1Mj
-gwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgw
-MDkyXX0=
+eyJoaXN0b3J5IjpbLTM2MjMzOTM4OSwtNzU1NDI5NDQzLC0xNT
+I4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4
+MDA5Ml19
 -->
