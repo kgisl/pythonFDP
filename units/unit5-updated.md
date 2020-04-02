@@ -78,9 +78,9 @@ Datafile Contents: Apple Orange Mango
 |10  |seek()	     |Change the file position|``` filelines = fileobject.seek(offset)```|
 |11  |seekable()	 |Returns whether the file allows us to change the file position|``` bool = fileobject.seekable()```|
 |12  |tell()	     |Returns the current file position|``` position = fileobject.tell()```|
-|13  |truncate()	 |Resizes the file to a specified size|``` filelines = fileobject.truncate(offset)```|
-|14  |writeable() |Returns whether the file can be written to or not|
-|15  |write()	 |Writes the specified string to the file|
+|13  |truncate()	 |Resizes the file to a specified size|``` fileobject.truncate(size)```|
+|14  |writeable() |Returns whether the file can be written to or not|```bool = fileobject.writeable()```|
+|15  |write()	 |Writes the specified string to the file|``` fileobject.write()```|
 |16  |writelines()|Writes a list of strings to the file|
 
 # File Writing
@@ -103,8 +103,8 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzA5MzA2MiwtNjY1OTQ4NDQsMTE5Nz
-MwMDc3MiwtMTgzNjkxMTYwMiwxNjYzMjkwMTI4LC03NTU0Mjk0
-NDMsLTE1MjgwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NC
-wtNDE4OTgwMDkyXX0=
+eyJoaXN0b3J5IjpbLTE1NDY4NjcyMjcsLTY2NTk0ODQ0LDExOT
+czMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5MDEyOCwtNzU1NDI5
+NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NT
+QsLTQxODk4MDA5Ml19
 -->
