@@ -30,6 +30,12 @@
 <li><a href="#reading-binary-files-in-python">Reading binary files in python</a></li>
 </ul>
 </li>
+<li><a href="#files">Files</a>
+<ul>
+<li></li>
+<li><a href="#binary-file-characteristics">Binary File Characteristics</a></li>
+</ul>
+</li>
 </ul>
 
     </div>
@@ -272,6 +278,44 @@ xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4
 <p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
 <p>Demo<br>
 <a href="https://repl.it/@kiteit/BinaryFile">https://repl.it/@kiteit/BinaryFile</a></p>
+<h1 id="files">Files</h1>
+<p><strong>What are files?</strong>  A file is sequential stream of bytes ending with an end-of-file marker.</p>
+<p>As we know, at the time of execution, every program is executed in the main memory. Main memory is volatile and the data would be lost once the program is terminated. If we need the same data again, we have to store the data in a file on the disk. A file is sequential stream of bytes ending with an end-of-file marker.</p>
+<p>Storage of data in variables and arrays is temporary—such data is lost when a program terminates. Files are used for permanent retention of data. Computers store files on secondary storage devices, such as hard drives, CDs, DVDs and flash drives. In this chapter, we explain how data files are created, updated and processed by C programs. We consider both sequential-access and random-access file processing.</p>
+<h3 id="file-extensions">File Extensions</h3>
+<p>File extensions<br>
+We can usually tell if a file is binary or text based on its file extension. This is because by convention the extension reflects the file format, but  <em>ultimately</em>  it is the file format that dictates whether the file data is binary or text.</p>
+<p>Common extensions that are binary file formats:</p>
+<pre><code>Images: jpg, png, gif, bmp, tiff, psd, ...
+Videos: mp4, mkv, avi, mov, mpg, vob, ...
+Audio: mp3, aac, wav, flac, ogg, mka, wma, ...
+Documents: pdf, doc, xls, ppt, docx, odt, ...
+Archive: zip, rar, 7z, tar, iso, ...
+Database: mdb, accde, frm, sqlite, ...
+Executable: exe, dll, so, class, ...
+
+</code></pre>
+<p>Common extensions that are text file formats:</p>
+<pre><code>Web standards: html, xml, css, svg, json, ...
+Source code: c, cpp, h, cs, js, py, java, rb, pl, php, sh, ...
+Documents: txt, tex, markdown, asciidoc, rtf, ps, ...
+Configuration: ini, cfg, rc, reg, ...
+Tabular data: csv, tsv, ...
+
+</code></pre>
+<h3 id="text-file-characteristics">Text File Characteristics</h3>
+<p>By convention, the data in every text file obeys a number of rules:</p>
+<ul>
+<li>The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.</li>
+<li>The data format is usually line-oriented. Each line could be a separate command, or a list of values could put each item on a different line, etc. The maximum number of characters in each line is usually a reasonable value like 100, not like 1000.</li>
+<li>The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.</li>
+</ul>
+<h2 id="binary-file-characteristics">Binary File Characteristics</h2>
+<ul>
+<li>For most software that people use in their daily lives, the software consumes and produces binary files. Examples of such software include Microsoft Office, Adobe Photoshop, and various audio/video/media players. A typical computer user works with mostly binary files and very few text files.</li>
+<li>A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.</li>
+<li>Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).</li>
+</ul>
 
     </div>
   </div>
