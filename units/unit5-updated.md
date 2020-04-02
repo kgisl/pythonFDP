@@ -49,6 +49,9 @@ Source contents: Apple Orange Mango
 
 ![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
 
+Demo
+[https://repl.it/@kiteit/ReadFromFile](https://repl.it/@kiteit/ReadFromFile)
+
 ### Types of File Modes
 
 File Mode | Description |
@@ -103,9 +106,10 @@ done with file writing
 Demo
 [https://repl.it/@kiteit/WritingToFile](https://repl.it/@kiteit/WritingToFile)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTU5Mzk5NywtMTc3MzIwMjcyMiwtNz
-A3MjkwMTIsLTY2NTk0ODQ0LDExOTczMDA3NzIsLTE4MzY5MTE2
-MDIsMTY2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC
-03NTU0Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbODA0MTU5NzIxLC0xNzczMjAyNzIyLC03MD
+cyOTAxMiwtNjY1OTQ4NDQsMTE5NzMwMDc3MiwtMTgzNjkxMTYw
+MiwxNjYzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLT
+c1NTQyOTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
