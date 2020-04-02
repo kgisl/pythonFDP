@@ -12,8 +12,7 @@ jobs:
         use-quiet-mode: 'yes'
         folder-path: 'docs'
 
-jobs:
-  markdown-link-check:
+  markdown-link-check-units:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
