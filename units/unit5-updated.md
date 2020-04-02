@@ -47,7 +47,7 @@ Apple Orange Mango
 Datafile Contents: Apple Orange Mango
 ```
 
-[https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
+[https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG](https://github.com/rajasekaranap/pythonFDP/img/fileintro.JPG)
 
 ### Types of File Modes
 
@@ -80,8 +80,8 @@ Datafile Contents: Apple Orange Mango
 |tell()	     |Returns the current file position|``` position = fileobject.tell()```|
 |truncate()	 |Resizes the file to a specified size|``` fileobject.truncate(size)```|
 |writeable() |Returns whether the file can be written to or not|```bool = fileobject.writeable()```|
- |write()	 |Writes the specified string to the file|``` fileobject.write(data)```|
-|16  |writelines()|Writes a list of strings to the file|``` fileobject.writelines(listofstrings[])```|
+|write()	 |Writes the specified string to the file|``` fileobject.write(data)```|
+|writelines()|Writes a list of strings to the file|``` fileobject.writelines(listofstrings[])```|
 
 # File Writing
 ### code
@@ -93,7 +93,7 @@ fileToWrite.close();
 print("done with file writing")
 ```
 ### output
-```
+```cmd
 done with file writing
 ```
 ### destination
@@ -103,8 +103,8 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIzNzk4MDYsLTY2NTk0ODQ0LDExOT
-czMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5MDEyOCwtNzU1NDI5
-NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NT
-QsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbMTgyMzIzOTcwOCwtNjY1OTQ4NDQsMTE5Nz
+MwMDc3MiwtMTgzNjkxMTYwMiwxNjYzMjkwMTI4LC03NTU0Mjk0
+NDMsLTE1MjgwNzExOTAsLTc1NTQyOTQ0MywtMjA3MDk2NjU1NC
+wtNDE4OTgwMDkyXX0=
 -->
