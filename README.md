@@ -1,6 +1,7 @@
 # PythonFDP
 
 [![Join the chat at https://gitter.im/kgisl/pythonFDP](https://badges.gitter.im/kgisl/pythonFDP.svg)](https://gitter.im/kgisl/pythonFDP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![Format python code](https://github.com/kgisl/pythonFDP/workflows/Format%20python%20code/badge.svg)
 
 Python FDP for KITE faculty
 
