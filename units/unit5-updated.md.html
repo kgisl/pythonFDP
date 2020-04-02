@@ -21,10 +21,10 @@
 <li><a href="#key-terms">Key Terms</a>
 <ul>
 <li></li>
-<li><a href="#how-to-read-a-file-in-python">How to read a file in python</a></li>
+<li><a href="#reading-text-files">Reading Text Files</a></li>
 </ul>
 </li>
-<li><a href="#file-writing">File Writing</a>
+<li><a href="#writing-text-files">Writing Text Files</a>
 <ul>
 <li></li>
 <li><a href="#reading-binary-files-in-python">Reading binary files in python</a></li>
@@ -75,7 +75,7 @@
 <li>Writing data to the file</li>
 <li>Closing or terminating a file operation</li>
 </ol>
-<h2 id="how-to-read-a-file-in-python">How to read a file in python</h2>
+<h2 id="reading-text-files">Reading Text Files</h2>
 <p><em>Code example</em></p>
 <pre class=" language-python"><code class="prism  language-python">fileToRead <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"source.txt"</span><span class="token punctuation">,</span><span class="token string">"r"</span><span class="token punctuation">)</span>
 data <span class="token operator">=</span> fileToRead<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -90,6 +90,34 @@ data <span class="token operator">=</span> fileToRead<span class="token punctuat
 <p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
 <p>Demo<br>
 <a href="https://repl.it/@kiteit/ReadFromFile">https://repl.it/@kiteit/ReadFromFile</a></p>
+<h1 id="writing-text-files">Writing Text Files</h1>
+<h3 id="code">code</h3>
+<pre class=" language-python"><code class="prism  language-python">fileToWrite <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"destination.txt"</span><span class="token punctuation">,</span><span class="token string">"w"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> <span class="token string">"Hello Python"</span><span class="token punctuation">;</span>
+fileToWrite<span class="token punctuation">.</span>write<span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+fileToWrite<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"done with file writing"</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="output">output</h3>
+<pre class=" language-console"><code class="prism  language-console">done with file writing
+</code></pre>
+<h3 id="destination">destination</h3>
+
+<table>
+<thead>
+<tr>
+<th>Before Writing</th>
+<th>After Writing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG" alt=""></td>
+<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG" alt=""></td>
+</tr>
+</tbody>
+</table><p>Demo<br>
+<a href="https://repl.it/@kiteit/WritingToFile">https://repl.it/@kiteit/WritingToFile</a></p>
 <h3 id="types-of-file-modes">Types of File Modes</h3>
 
 <table>
@@ -226,35 +254,7 @@ data <span class="token operator">=</span> fileToRead<span class="token punctuat
 <td><code>fileobject.writelines(listofstrings[])</code></td>
 </tr>
 </tbody>
-</table><h1 id="file-writing">File Writing</h1>
-<h3 id="code">code</h3>
-<pre class=" language-python"><code class="prism  language-python">fileToWrite <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"destination.txt"</span><span class="token punctuation">,</span><span class="token string">"w"</span><span class="token punctuation">)</span>
-data <span class="token operator">=</span> <span class="token string">"Hello Python"</span><span class="token punctuation">;</span>
-fileToWrite<span class="token punctuation">.</span>write<span class="token punctuation">(</span>data<span class="token punctuation">)</span>
-fileToWrite<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"done with file writing"</span><span class="token punctuation">)</span>
-</code></pre>
-<h3 id="output">output</h3>
-<pre class=" language-console"><code class="prism  language-console">done with file writing
-</code></pre>
-<h3 id="destination">destination</h3>
-
-<table>
-<thead>
-<tr>
-<th>Before Writing</th>
-<th>After Writing</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG" alt=""></td>
-<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG" alt=""></td>
-</tr>
-</tbody>
-</table><p>Demo<br>
-<a href="https://repl.it/@kiteit/WritingToFile">https://repl.it/@kiteit/WritingToFile</a></p>
-<p><strong>Difference between Append and Write Mode</strong></p>
+</table><p><strong>Difference between Append and Write Mode</strong></p>
 <p>Write (w) mode and Append (a) mode, while opening a file are almost the same. Both are used to write in a file. In both the modes, new file is created if it doesn’t exists already.</p>
 <p>The only difference they have is, when you open a file in the write mode, the file is reset, resulting in deletion of any data already present in the file. While in append mode this will not happen. Append mode is used to append or add data to the existing data of file (if any). Hence, when you open a file in Append(a) mode, the cursor is positioned at the end of the present data in the file.</p>
 <h2 id="reading-binary-files-in-python">Reading binary files in python</h2>
