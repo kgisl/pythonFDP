@@ -9,11 +9,13 @@ from bs4 import BeautifulSoup
     that start with 'https:'
 '''
 # http://j.mp/linktagPythonCode - borrowed code from this example
-def getOutBoundURLs (a_tags):
+
+
+def getOutBoundURLs(a_tags):
     urls = []
-    for x in a_tags: 
+    for x in a_tags:
         if x.has_attr('href'):
-            href = x.get('href').strip("/");
+            href = x.get('href').strip("/")
             if href.startswith("http:") or href.startswith("https:"):
                 if href not in urls:
                     urls.append(href)
@@ -27,6 +29,7 @@ def generateBanner(url, anchorCount, linkCount):
 #############################
 '''.format(url, str(anchorCount), str(linkCount))
 
+
 def printURLs(url, anchors, f=None):
     # outBoundURLs = getOutBoundURLs(anchors)
     # hhrefs       = getOutBoundHttpURLs(outBoundURLs)
@@ -38,22 +41,22 @@ def printURLs(url, anchors, f=None):
         f.write(banner)
 
     for linkaddress in hhrefs:
-        print("  -",linkaddress)
+        print("  -", linkaddress)
         if f:
             f.write(url + " -> " + linkaddress + "\n")
 
-urls = [ "https://www.reddit.com/r/learnprogramming/comments/6tvjsw/stepbystep_guide_from_beginner_to_worthy_of_a_job/"
-       , "https://gitter.im/kgisl/campsite?utm_source=share-link&utm_medium=link&utm_campaign=share-link"
-       # , "http://sijinjoseph.com/programmer-competency-matrix/"
-       # , "http://pydanny.blogspot.in/2011/08/github-is-my-resume.html"
-       #, "http://www.python.org", "http://www.facebook.com", "http://www.kct.ac.in"
-       #, "http://www.psgtech.edu", "http://www.kgkite.ac.in", "http://www.sece.ac.in"
-       #, "http://www.siet.ac.in", "http://www.bennett.edu.in" ]
-       ]
+
+urls = ["https://www.reddit.com/r/learnprogramming/comments/6tvjsw/stepbystep_guide_from_beginner_to_worthy_of_a_job/", "https://gitter.im/kgisl/campsite?utm_source=share-link&utm_medium=link&utm_campaign=share-link"
+        # , "http://sijinjoseph.com/programmer-competency-matrix/"
+        # , "http://pydanny.blogspot.in/2011/08/github-is-my-resume.html"
+        # , "http://www.python.org", "http://www.facebook.com", "http://www.kct.ac.in"
+        # , "http://www.psgtech.edu", "http://www.kgkite.ac.in", "http://www.sece.ac.in"
+        # , "http://www.siet.ac.in", "http://www.bennett.edu.in" ]
+        ]
 
 dataFile = open("data.txt", "w")
 for url in urls:
-    html = requests.get(url, headers = {'User-agent': 'your bot 0.1'}) 
+    html = requests.get(url, headers={'User-agent': 'your bot 0.1'})
     print(html)
     soup = BeautifulSoup(html.text)
     anchors = soup.find_all("a")
@@ -71,5 +74,7 @@ def getOutBoundURLs2(anchors):
         except BaseException:
             print("Ignoring", anchor)
     return addressList
+
+
 def getOutBoundHttpURLs(alist):
     return [address for address in alist if address.startswith("https:")]
