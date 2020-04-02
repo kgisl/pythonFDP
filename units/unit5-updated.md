@@ -47,7 +47,7 @@ Apple Orange Mango
 Datafile Contents: Apple Orange Mango
 ```
 
-![](/img/fileintro.JPG)
+![](
 
 ### Types of File Modes
 
@@ -106,7 +106,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTI3NTQyNCwtMTgzNjkxMTYwMiwxNj
+eyJoaXN0b3J5IjpbLTI4Njc5ODQ5NywtMTgzNjkxMTYwMiwxNj
 YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
 OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
