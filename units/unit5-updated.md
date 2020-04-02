@@ -88,12 +88,12 @@ print("done with file writing")
 ```
 done with file writing
 ```
-### destination 
+### destination.
 |Before Writing|After Writing |
 |--|--|
-|``` ```  |  |
+|```   ```  | ``` Hello Python``` |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE3ODMwMDUsLTIwNzA5NjY1NTQsLT
-QxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbMTk3NDM1MzQyMSwtMjA3MDk2NjU1NCwtND
+E4OTgwMDkyXX0=
 -->
