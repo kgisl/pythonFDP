@@ -1,5 +1,3 @@
-### Test md-linkcheck
+# README.md 
 
-[failed link](http://now.zer)
-
-link failure
+ThinkPython in Markdown Format
