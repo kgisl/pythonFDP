@@ -69,9 +69,8 @@ Datafile Contents: Apple Orange Mango
 ### File Methods
 |S.No|File Methods|Description|Prototype|
 |----|------------|-----------|---------|
-|1   |close()	 |Closes the file|``` fileobject.close()```
-|3   |fileno()	 |Returns a number that represents the stream, from the operating system's perspective|
-|4   |flush()	 |Flushes the internal buffer|
+|1   |close()	 |Closes the file|``` fileobject.close()```|
+|4   |flush()	 |Flushes the internal buffer|``` fileobject.flush```|
 |5   |isatty()	 |Returns whether the file stream is interactive or not|
 |6   |read()	     |Returns the file content|
 |7   |readable()	 |Returns whether the file stream can be read or not|
@@ -105,7 +104,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjI1OTIzNCwxMTk3MzAwNzcyLC0xOD
+eyJoaXN0b3J5IjpbLTIyMzQ0NTIwMywxMTk3MzAwNzcyLC0xOD
 M2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3
 MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOT
 JdfQ==
