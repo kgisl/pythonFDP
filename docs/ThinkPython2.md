@@ -3,9 +3,9 @@
 
 **Exercise 12.3.** Write a function calledmost_frequentthat takes a string and prints the let-
 ters in decreasing order of frequency. Find text samples from several different languages and see
-how letter frequency varies between languages. Compare your results with the tables athttp: //
-en. wikipedia. org/ wiki/ Letter_ frequencies. Solution:http: // thinkpython. com/
-code/ most_ frequent. py.
+how letter frequency varies between languages. Compare your results with the tables at http://en.wikipedia.org/wiki/Letter_frequencies
+Solution: http://thinkpython.com/code/most_frequent.py .
+
 **Exercise 12.4.** More anagrams!
 
 1. Write a program that reads a word list from a file (see Section 9.1) and prints all the sets of
@@ -1134,17 +1134,17 @@ to values.
 ### 14.12 Exercises
 
 **Exercise 14.6.** Theurllibmodule provides methods for manipulating URLs and downloading
-information from the web. The following example downloads and prints a secret message from
-thinkpython.com:
+information from the web. The following example downloads and prints a secret message from http://thinkpython.com : 
 
+```
 import urllib
-
 conn = urllib.urlopen('http://thinkpython.com/secret.html')
 for line in conn:
-print line.strip()
+	print line.strip()
+```
 
-Run this code and follow the instructions you see there. Solution:http: // thinkpython. com/
-code/ zip_ code. py.
+Run this code and follow the instructions you see there. 
+Solution: http://thinkpython.com/code/zip_code.py
 
 
 **142 Chapter 14. Files**
@@ -2544,8 +2544,7 @@ If you don’t play poker, you can read about it athttp://en.wikipedia.org/wiki/
 but you don’t have to; I’ll tell you what you need to know for the exercises. Code examples
 from this chapter are available fromhttp://thinkpython.com/code/Card.py.
 
-If you are not familiar with Anglo-American playing cards, you can read about them at
-[http://en.wikipedia.org/wiki/Playing_cards.](http://en.wikipedia.org/wiki/Playing_cards.)
+If you are not familiar with Anglo-American playing cards, you can read about them at [http://en.wikipedia.org/wiki/Playing_cards](http://en.wikipedia.org/wiki/Playing_cards.).
 
 ### 18.1 Card objects
 
@@ -4848,12 +4847,10 @@ An important feature of this algorithm is that when we resize the HashTable it g
 geometrically; that is, we multiply the size by a constant. If you increase the size
 arithmetically—adding a fixed number each time—the average time peraddis linear.
 
-You can download my implementation of HashMap fromhttp://thinkpython/code/
-Map.py, but remember that there is no reason to use it; if you want a map, just use a Python
-dictionary.
+You can download my implementation of HashMap from http://thinkpython/code/Map.py, but remember that there is no reason to use it; if you want a map, just use a Python dictionary.
 
 
-**210 Appendix B. Analysis of Algorithms**
+**210  Appendix B. Analysis of Algorithms**
 
 
 ## Appendix C
@@ -4958,8 +4955,7 @@ Try adding some additional assignments and see what the diagram looks like.
 
 ### C.2 Stack diagram
 
-Here’s an example that uses Lumpy to generate a stack diagram. You can download it from
-[http://thinkpython.com/code/lumpy_demo2.py.](http://thinkpython.com/code/lumpy_demo2.py.)
+Here’s an example that uses **Lumpy** to generate a stack diagram. You can download it from [http://thinkpython.com/code/lumpy_demo2.py](http://thinkpython.com/code/lumpy_demo2.py)
 
 
 **C.3. Object diagrams 213**
@@ -4994,6 +4990,8 @@ empty list
 ```
 Figure C.3: Object diagram.
 ```
+
+```python
 from swampy.Lumpy import Lumpy
 
 def countdown(n):
@@ -5007,31 +5005,25 @@ countdown(n-1)
 lumpy = Lumpy()
 lumpy.make_reference()
 countdown(3)
+```
+Figure C.2 shows the result. Each frame is represented with a box that has the function’s name outside and variables inside. Since this function is recursive, there is one frame for each level of recursion.
 
-Figure C.2 shows the result. Each frame is represented with a box that has the function’s
-name outside and variables inside. Since this function is recursive, there is one frame for
-each level of recursion.
+Remember that a stack diagram shows the state of the program at a particular point in its execution. To get the diagram you want, sometimes you have to think about where to invoke object_diagram.
 
-Remember that a stack diagram shows the state of the program at a particular point in
-its execution. To get the diagram you want, sometimes you have to think about where to
-invokeobject_diagram.
-
-In this case I invokeobject_diagramafter executing the base case of the recursion; that
-way the stack diagram shows each level of the recursion. You can callobject_diagram
-more than once to get a series of snapshots of the program’s execution.
+In this case I invokeobject_diagramafter executing the base case of the recursion; that way the stack diagram shows each level of the recursion. You can call `object_diagram`  more than once to get a series of snapshots of the program’s execution.
 
 ### C.3 Object diagrams
 
-This example generates an object diagram showing the lists from Section 10.1. You can
-download it fromhttp://thinkpython.com/code/lumpy_demo3.py.
+This example generates an object diagram showing the lists from Section 10.1. You can download it from http://thinkpython.com/code/lumpy_demo3.py.
 
+```python
 from swampy.Lumpy import Lumpy
 
 lumpy = Lumpy()
 lumpy.make_reference()
 
 cheeses = ['Cheddar', 'Edam','Gouda']
-
+```
 
 **214 Appendix C. Lumpy**
 
