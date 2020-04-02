@@ -19,9 +19,10 @@ you DO NOT want to emulate this example!
 
 """
 
+
 class Kangaroo:
     """A Kangaroo is a marsupial."""
-    
+
     def __init__(self, name, contents=[]):
         """Initialize the pouch contents.
 
@@ -63,14 +64,14 @@ class Kangaroo:
         # object as a default value, unless you really know
         # what you are doing.
         self.name = name
-        if contents == None:
+        if contents is None:
             contents = []
         self.pouch_contents = contents
 
     def __str__(self):
         """Return a string representaion of this Kangaroo.
         """
-        t = [ self.name + ' has pouch contents:' ]
+        t = [self.name + ' has pouch contents:']
         for obj in self.pouch_contents:
             s = '    ' + object.__str__(obj)
             t.append(s)

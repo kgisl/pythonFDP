@@ -46,7 +46,7 @@ class Markov:
         word: string
         order: integer
 
-        During the first few iterations, all we do is store up the words; 
+        During the first few iterations, all we do is store up the words;
         after that we start adding entries to the dictionary.
         """
         if len(self.prefix) < order:
@@ -59,7 +59,7 @@ class Markov:
             # if there is no entry for this prefix, make one
             self.suffix_map[self.prefix] = [word]
 
-        self.prefix = shift(self.prefix, word)        
+        self.prefix = shift(self.prefix, word)
 
     def random_text(self, n=100):
         """Generates random wordsfrom the analyzed text.
@@ -73,10 +73,10 @@ class Markov:
 
         for i in range(n):
             suffixes = self.suffix_map.get(start, None)
-            if suffixes == None:
+            if suffixes is None:
                 # if the prefix isn't in map, we got to the end of the
                 # original text, so we have to start again.
-                self.random_text(n-i)
+                self.random_text(n - i)
                 return
 
             # choose a random suffix
@@ -91,7 +91,7 @@ def main(script, filename='emma.txt', n=100, order=2):
         order = int(order)
     except ValueError:
         print('Usage: %d filename [# of words] [prefix length]' % script)
-    else: 
+    else:
         markov = Markov()
         markov.process_file(filename, order)
         markov.random_text(n)
@@ -99,4 +99,3 @@ def main(script, filename='emma.txt', n=100, order=2):
 
 if __name__ == '__main__':
     main(*sys.argv)
-

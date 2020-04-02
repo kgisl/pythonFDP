@@ -45,4 +45,3 @@ def walk2(dirname):
 if __name__ == '__main__':
     walk('.')
     walk2('.')
-    

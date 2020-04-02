@@ -35,4 +35,3 @@ if __name__ == '__main__':
     for val in inverse:
         keys = inverse[val]
         print(val, keys)
-

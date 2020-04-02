@@ -52,7 +52,7 @@ def process_word(word, order=2):
     word: string
     order: integer
 
-    During the first few iterations, all we do is store up the words; 
+    During the first few iterations, all we do is store up the words;
     after that we start adding entries to the dictionary.
     """
     global prefix
@@ -78,13 +78,13 @@ def random_text(n=100):
     """
     # choose a random prefix (not weighted by frequency)
     start = random.choice(list(suffix_map.keys()))
-    
+
     for i in range(n):
         suffixes = suffix_map.get(start, None)
-        if suffixes == None:
+        if suffixes is None:
             # if the start isn't in map, we got to the end of the
             # original text, so we have to start again.
-            random_text(n-i)
+            random_text(n - i)
             return
 
         # choose a random suffix
@@ -110,7 +110,7 @@ def main(script, filename='emma.txt', n=100, order=2):
         order = int(order)
     except ValueError:
         print('Usage: %d filename [# of words] [prefix length]' % script)
-    else: 
+    else:
         process_file(filename, order)
         random_text(n)
         print()

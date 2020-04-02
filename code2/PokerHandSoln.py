@@ -46,18 +46,18 @@ class PokerHand(Hand):
         """
         self.suits = Hist()
         self.ranks = Hist()
-        
+
         for c in self.cards:
             self.suits.count(c.suit)
             self.ranks.count(c.rank)
 
         self.sets = list(self.ranks.values())
         self.sets.sort(reverse=True)
- 
+
     def has_highcard(self):
         """Returns True if this hand has a high card."""
         return len(self.cards)
-        
+
     def check_sets(self, *t):
         """Checks whether self.sets contains sets that are
         at least as big as the requirements in t.
@@ -72,15 +72,15 @@ class PokerHand(Hand):
     def has_pair(self):
         """Checks whether this hand has a pair."""
         return self.check_sets(2)
-        
+
     def has_twopair(self):
         """Checks whether this hand has two pair."""
         return self.check_sets(2, 2)
-        
+
     def has_threekind(self):
         """Checks whether this hand has three of a kind."""
         return self.check_sets(3)
-        
+
     def has_fourkind(self):
         """Checks whether this hand has four of a kind."""
         return self.check_sets(4)
@@ -120,7 +120,7 @@ class PokerHand(Hand):
             else:
                 count = 0
         return False
-    
+
     def has_straightflush(self):
         """Checks whether this hand has a straight flush.
 
@@ -145,7 +145,7 @@ class PokerHand(Hand):
                 else:
                     count = 0
         return False
-                
+
     def has_straightflush(self):
         """Checks whether this hand has a straight flush.
 
@@ -161,7 +161,7 @@ class PokerHand(Hand):
         # see if any of the partitioned hands has a straight
         for hand in d.values():
             if len(hand.cards) < 5:
-                continue            
+                continue
             hand.make_histograms()
             if hand.has_straight():
                 return True
@@ -194,7 +194,7 @@ class PokerDeck(Deck):
         returns: list of Hands
         """
         hands = []
-        for i in range(num_hands):        
+        for i in range(num_hands):
             hand = PokerHand()
             self.move_cards(hand, num_cards)
             hand.classify()
@@ -211,7 +211,7 @@ def main():
     for i in range(n):
         if i % 1000 == 0:
             print(i)
-            
+
         deck = PokerDeck()
         deck.shuffle()
 
@@ -219,19 +219,18 @@ def main():
         for hand in hands:
             for label in hand.labels:
                 lhist.count(label)
-            
+
     # print the results
     total = 7.0 * n
     print(total, 'hands dealt:')
 
     for label in PokerHand.all_labels:
         freq = lhist.get(label, 0)
-        if freq == 0: 
+        if freq == 0:
             continue
         p = total / freq
         print('%s happens one time in %.2f' % (label, p))
 
-        
+
 if __name__ == '__main__':
     main()
-

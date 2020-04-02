@@ -25,7 +25,7 @@ try:
 except ImportError as e:
     message = e.args[0]
     if message.startswith('No module'):
-        raise ImportError(message + 
+        raise ImportError(message +
                           '\nYou have to provide a module named letters.py')
 
 
@@ -68,14 +68,14 @@ def keypress(char):
 
     func(bob, size)
 
-    letters.skip(bob, size/2)
+    letters.skip(bob, size / 2)
     bob.busy = False
 
 
 def carriage_return():
     """Moves to the beginning of the next line.
     """
-    teleport(bob, -180, bob.ycor() - size*3)
+    teleport(bob, -180, bob.ycor() - size * 3)
     bob.busy = False
 
 

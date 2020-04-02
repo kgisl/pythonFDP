@@ -32,7 +32,7 @@ def most_frequent(s):
         res.append(x)
 
     return res
-    
+
 
 def make_histogram(s):
     """Make a map from letters to number of times they appear in s.

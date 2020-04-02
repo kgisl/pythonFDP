@@ -27,14 +27,14 @@ def main():
 
     next_bday = bday.replace(year=today.year)
     if next_bday < today:
-        next_bday = next_bday.replace(year=today.year+1)
+        next_bday = next_bday.replace(year=today.year + 1)
     print(next_bday)
 
     until_next_bday = next_bday - today
     print(until_next_bday)
 
     print("Your current age:")
-    last_bday = next_bday.replace(year=next_bday.year-1)
+    last_bday = next_bday.replace(year=next_bday.year - 1)
     age = last_bday.year - bday.year
     print(age)
 
