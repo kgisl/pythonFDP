@@ -47,7 +47,7 @@ Apple Orange Mango
 Datafile Contents: Apple Orange Mango
 ```
 
-![https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
+[https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
 
 ### Types of File Modes
 
@@ -69,7 +69,7 @@ Datafile Contents: Apple Orange Mango
 ### File Methods
 |S.No|File Methods|Description|
 |----|------------|-----------|
-|1   |close()	 |Closes the file|
+|1   |close()	 |Closes the file|file
 |2   |detach()	 |Returns the separated raw stream from the buffer|
 |3   |fileno()	 |Returns a number that represents the stream, from the operating system's perspective|
 |4   |flush()	 |Flushes the internal buffer|
@@ -106,7 +106,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjQ0NDk4MCwtMTgzNjkxMTYwMiwxNj
+eyJoaXN0b3J5IjpbMTUwNjAzOTc4MSwtMTgzNjkxMTYwMiwxNj
 YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
 OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
