@@ -70,10 +70,9 @@ Datafile Contents: Apple Orange Mango
 |S.No|File Methods|Description|Prototype|
 |----|------------|-----------|---------|
 |1   |close()	 |Closes the file|``` fileobject.close()```|
-|4   |flush()	 |Flushes the internal buffer|``` fileobject.flush```|
-|5   |isatty()	 |Returns whether the file stream is interactive or not|
-|6   |read()	     |Returns the file content|
-|7   |readable()	 |Returns whether the file stream can be read or not|
+|4   |flush()	 |Flushes the internal buffer|``` fileobject.flush()```|
+|6   |read()	     |Returns the file content|``` data = fileobject.read()```|
+|7   |readable()	 |Returns whether the file stream can be read or not|```boolean = fileobject.flush()```|
 |8   |readline()	 |Returns one line from the file|
 |9   |readlines() |Returns a list of lines from the file|
 |10  |seek()	     |Change the file position|
@@ -104,7 +103,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzQ0NTIwMywxMTk3MzAwNzcyLC0xOD
+eyJoaXN0b3J5IjpbMjEwODIxMTY0MSwxMTk3MzAwNzcyLC0xOD
 M2OTExNjAyLDE2NjMyOTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3
 MTE5MCwtNzU1NDI5NDQzLC0yMDcwOTY2NTU0LC00MTg5ODAwOT
 JdfQ==
