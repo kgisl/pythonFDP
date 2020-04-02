@@ -67,21 +67,21 @@ Datafile Contents: Apple Orange Mango
 |12|`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
 
 ### File Methods
-|S.No|File Methods|Description|Prototype|
-|----|------------|-----------|---------|
-|1   |close()	 |Closes the file|``` fileobject.close()```|
-|4   |flush()	 |Flushes the internal buffer|``` fileobject.flush()```|
-|6   |read()	     |Returns the file content|``` data = fileobject.read()```|
-|7   |readable()	 |Returns whether the file stream can be read or not|```boolean = fileobject.flush()```|
-|8   |readline()	 |Returns one line from the file|``` data = fileobject.readline()```|
-|9   |readlines() |Returns a list of lines from the file|``` filelines = fileobject.read()```|
-|10  |seek()	     |Change the file position|``` filelines = fileobject.seek(offset)```|
-|11  |seekable()	 |Returns whether the file allows us to change the file position|``` bool = fileobject.seekable()```|
-|12  |tell()	     |Returns the current file position|``` position = fileobject.tell()```|
-|13  |truncate()	 |Resizes the file to a specified size|``` fileobject.truncate(size)```|
-|14  |writeable() |Returns whether the file can be written to or not|```bool = fileobject.writeable()```|
-|15  |write()	 |Writes the specified string to the file|``` fileobject.write()```|
-|16  |writelines()|Writes a list of strings to the file|
+|File Methods|Description|Prototype|
+|------------|-----------|---------|
+|close()	 |Closes the file|``` fileobject.close()```|
+|flush()	 |Flushes the internal buffer|``` fileobject.flush()```|
+|read()	     |Returns the file content|``` data = fileobject.read()```|
+|readable()	 |Returns whether the file stream can be read or not|```boolean = fileobject.flush()```|
+|readline()	 |Returns one line from the file|``` data = fileobject.readline()```|
+|readlines() |Returns a list of lines from the file|``` filelines = fileobject.read()```|
+|seek()	     |Change the file position|``` filelines = fileobject.seek(offset)```|
+|seekable()	 |Returns whether the file allows us to change the file position|``` bool = fileobject.seekable()```|
+|tell()	     |Returns the current file position|``` position = fileobject.tell()```|
+|truncate()	 |Resizes the file to a specified size|``` fileobject.truncate(size)```|
+|writeable() |Returns whether the file can be written to or not|```bool = fileobject.writeable()```|
+ |write()	 |Writes the specified string to the file|``` fileobject.write(data)```|
+|16  |writelines()|Writes a list of strings to the file|``` fileobject.writelines(listofstrings[])```|
 
 # File Writing
 ### code
@@ -103,7 +103,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY4NjcyMjcsLTY2NTk0ODQ0LDExOT
+eyJoaXN0b3J5IjpbLTE0NDIzNzk4MDYsLTY2NTk0ODQ0LDExOT
 czMDA3NzIsLTE4MzY5MTE2MDIsMTY2MzI5MDEyOCwtNzU1NDI5
 NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5NjY1NT
 QsLTQxODk4MDA5Ml19
