@@ -67,9 +67,9 @@ Datafile Contents: Apple Orange Mango
 |12|`ab+`|Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.|
 
 ### File Methods
-|S.No|File Methods|Description|
-|----|------------|-----------|
-|1   |close()	 |Closes the file|file
+|S.No|File Methods|Description|Prototype|
+|----|------------|-----------|---------|
+|1   |close()	 |Closes the file|``` fileobject.close()```
 |2   |detach()	 |Returns the separated raw stream from the buffer|
 |3   |fileno()	 |Returns a number that represents the stream, from the operating system's perspective|
 |4   |flush()	 |Flushes the internal buffer|
@@ -106,7 +106,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjAzOTc4MSwtMTgzNjkxMTYwMiwxNj
+eyJoaXN0b3J5IjpbMTE5NzMwMDc3MiwtMTgzNjkxMTYwMiwxNj
 YzMjkwMTI4LC03NTU0Mjk0NDMsLTE1MjgwNzExOTAsLTc1NTQy
 OTQ0MywtMjA3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
