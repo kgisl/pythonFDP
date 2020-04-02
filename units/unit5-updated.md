@@ -1,6 +1,6 @@
-# Unit 5
+# Unit 5 
 ## FILES, MODULES, PACKAGES
-
+##
 A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.
 
 ### Types of Files
@@ -95,7 +95,7 @@ done with file writing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY5MTE2MDIsMTY2MzI5MDEyOCwtNz
-U1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0Mjk0NDMsLTIwNzA5
-NjY1NTQsLTQxODk4MDA5Ml19
+eyJoaXN0b3J5IjpbLTEwNTY2NjA1MDYsLTE4MzY5MTE2MDIsMT
+Y2MzI5MDEyOCwtNzU1NDI5NDQzLC0xNTI4MDcxMTkwLC03NTU0
+Mjk0NDMsLTIwNzA5NjY1NTQsLTQxODk4MDA5Ml19
 -->
