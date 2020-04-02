@@ -27,6 +27,7 @@
 <li><a href="#file-writing">File Writing</a>
 <ul>
 <li></li>
+<li><a href="#reading-binary-files-in-python">Reading binary files in python</a></li>
 </ul>
 </li>
 </ul>
@@ -70,85 +71,74 @@
 </ol>
 <h2 id="how-to-read-a-file-in-python">How to read a file in python</h2>
 <p><em>Code example</em></p>
-<pre class=" language-python"><code class="prism  language-python">datafile <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"data.txt"</span><span class="token punctuation">,</span><span class="token string">"r"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-dataFromFile <span class="token operator">=</span> datafile<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>dataFromFile<span class="token punctuation">)</span>
+<pre class=" language-python"><code class="prism  language-python">fileToRead <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"source.txt"</span><span class="token punctuation">,</span><span class="token string">"r"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> fileToRead<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Source contents:"</span><span class="token punctuation">,</span>data<span class="token punctuation">)</span>
 </code></pre>
 <p><em>File contents</em></p>
 <pre class=" language-file"><code class="prism  language-file">Apple Orange Mango
 </code></pre>
 <p><em>Output</em></p>
-<pre class=" language-console"><code class="prism  language-console">Datafile Contents: Apple Orange Mango
+<pre class=" language-console"><code class="prism  language-console">Source contents: Apple Orange Mango
 </code></pre>
 <p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
+<p>Demo<br>
+<a href="https://repl.it/@kiteit/ReadFromFile">https://repl.it/@kiteit/ReadFromFile</a></p>
 <h3 id="types-of-file-modes">Types of File Modes</h3>
 
 <table>
 <thead>
 <tr>
-<th><a href="http://S.No">S.No</a></th>
 <th align="center">File Mode</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
 <td align="center"><code>r</code></td>
 <td>Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.</td>
 </tr>
 <tr>
-<td>2</td>
 <td align="center"><code>rb</code></td>
 <td>Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.</td>
 </tr>
 <tr>
-<td>3</td>
 <td align="center"><code>r+</code></td>
 <td>Opens a file for both reading and writing. The file pointer placed at the beginning of the file.</td>
 </tr>
 <tr>
-<td>4</td>
 <td align="center"><code>rb+</code></td>
 <td>Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.</td>
 </tr>
 <tr>
-<td>5</td>
 <td align="center"><code>w</code></td>
 <td>Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
 </tr>
 <tr>
-<td>6</td>
 <td align="center"><code>wb</code></td>
 <td>Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
 </tr>
 <tr>
-<td>7</td>
 <td align="center"><code>w+</code></td>
 <td>Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
 </tr>
 <tr>
-<td>8</td>
 <td align="center"><code>wb+</code></td>
 <td>Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
 </tr>
 <tr>
-<td>9</td>
 <td align="center"><code>a</code></td>
 <td>Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
 </tr>
 <tr>
-<td>10</td>
 <td align="center"><code>ab</code></td>
 <td>Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
 </tr>
 <tr>
-<td>11</td>
 <td align="center"><code>a+</code></td>
 <td>Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
 </tr>
 <tr>
-<td>12</td>
 <td align="center"><code>ab+</code></td>
 <td>Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
 </tr>
@@ -239,7 +229,7 @@ fileToWrite<span class="token punctuation">.</span>close<span class="token punct
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"done with file writing"</span><span class="token punctuation">)</span>
 </code></pre>
 <h3 id="output">output</h3>
-<pre class=" language-cmd"><code class="prism  language-cmd">done with file writing
+<pre class=" language-console"><code class="prism  language-console">done with file writing
 </code></pre>
 <h3 id="destination">destination</h3>
 
@@ -256,7 +246,33 @@ fileToWrite<span class="token punctuation">.</span>close<span class="token punct
 <td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG" alt=""></td>
 </tr>
 </tbody>
-</table>
+</table><p>Demo<br>
+<a href="https://repl.it/@kiteit/WritingToFile">https://repl.it/@kiteit/WritingToFile</a></p>
+<p><strong>Difference between Append and Write Mode</strong></p>
+<p>Write (w) mode and Append (a) mode, while opening a file are almost the same. Both are used to write in a file. In both the modes, new file is created if it doesn’t exists already.</p>
+<p>The only difference they have is, when you open a file in the write mode, the file is reset, resulting in deletion of any data already present in the file. While in append mode this will not happen. Append mode is used to append or add data to the existing data of file (if any). Hence, when you open a file in Append(a) mode, the cursor is positioned at the end of the present data in the file.</p>
+<h2 id="reading-binary-files-in-python">Reading binary files in python</h2>
+<p><em>Code example</em></p>
+<pre class=" language-python"><code class="prism  language-python">binfile <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"bindata.PNG"</span><span class="token punctuation">,</span><span class="token string">"rb"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> binfile<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"source contents:"</span><span class="token punctuation">,</span>data<span class="token punctuation">)</span>
+</code></pre>
+<p><em>File contents</em><br>
+<img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/pythonlogo.jpg" alt=""><br>
+<em>Output</em></p>
+<pre class=" language-console"><code class="prism  language-console">Source contents:b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00C\x00\x06\x04\x05\x06\x05\x04\x06\x
+06\x05\x06\x07\x07\x06\x08\n\x10\n\n\t\t\n\x14\x0e\x0f\x0c\x10\x17\x14\x18\x18\x17\x14\x16\x16\x1a\x1d%\x1f\x1a\x1b#\x1c\x16\x16 , #&amp;\
+')*)\x19\x1f-0-(0%()(\xff\xdb\x00C\x01\x07\x07\x07\n\x08\n\x13\n\n\x13(\x1a\x16\x1a((((((((((((((((((((((((((((((((((((((((((((((((((\
+xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1b\x00\x01\x00\x02\x03\x01\x01\x00\x00\x00\x00\x
+00\x00\x00\x00\x00\x00\x00\x01\x04\x02\x03\x05\x06\x07\xff\xc4\x00\x1a\x01\x01\x00\x03\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00
+\x00\x00\x01\x02\x03\x04\x05\x06\xff\xda\x00\x0c\x03\x01\x00\x02\x10\x03\x10\x00\x00\x01\xfa\xa0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x
+00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+\x00\x00\x00\x00\x00\x009&gt;n\xd5\xf7X\xfc\x9f\x89z}
+</code></pre>
+<p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
+<p>Demo<br>
+<a href="https://repl.it/@kiteit/BinaryFile">https://repl.it/@kiteit/BinaryFile</a></p>
+
     </div>
   </div>
 </body>
