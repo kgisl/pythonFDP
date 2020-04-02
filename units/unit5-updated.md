@@ -91,9 +91,9 @@ done with file writing
 ### destination.txt
 |Before Writing|After Writing |
 |--|--|
-|```   ```  | ``` Hello Python``` |
+|[]: [https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG) |[]: [https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG](https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG)|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTQyOTQ0MywtMjA3MDk2NjU1NCwtND
-E4OTgwMDkyXX0=
+eyJoaXN0b3J5IjpbLTE1MjgwNzExOTAsLTc1NTQyOTQ0MywtMj
+A3MDk2NjU1NCwtNDE4OTgwMDkyXX0=
 -->
