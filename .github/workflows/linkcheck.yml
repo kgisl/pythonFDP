@@ -1,9 +1,10 @@
-name: Testing linkcheck
+name: Check Markdown links
+
 on: push
+
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: ocular-d/md-linkcheck-action@1.0.2
-      - name: md-linkcheck
-    
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@0.6.0
