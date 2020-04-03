@@ -3830,7 +3830,7 @@ series |  |
 
 
 
-### calculateGrade
+### calculate_grade
 Authors: **kgashok**
 
 Computes the distance between two Point objects.   
