@@ -29,4 +29,6 @@ pointA = int(input("Enter xcordinate for PointA ")), \
 pointB = int(input("Enter xcordinate for PointB ")), \
     int(input("Enter ycordinate for PointB "))
 
-print(distance_between(pointA, pointB))
+print("distance between points", 
+      distance_between(pointA, pointB)
+     )
