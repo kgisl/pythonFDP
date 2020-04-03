@@ -41,4 +41,4 @@ def classAverage(scores, gc):
     average = sum(scores) * 1.0 / len(scores)
     # print(average)
 
-    return calculateGrade(average, gc)
+    return calculate_grade(average, gc)
