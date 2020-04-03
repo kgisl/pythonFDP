@@ -18,14 +18,13 @@ gradeChart = [
 ]
 
 
-def calculateGrade(score, gradeChart):
+def calculate_grade(score, gradeChart):
     """Computes the distance between two Point objects.
 
     @author kgashok
 
     @param score individual student's score
     @param gradeChart list of tuples
-
     @return a grade char 'A'-'F'
     """
     gradeChart.sort(key=lambda r: r[1])
