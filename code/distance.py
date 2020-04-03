@@ -3,7 +3,7 @@ from math import sqrt
 
 def distance_between(pointA, pointB):
     """calculate distance between two points
-    
+
     Arguments:
     pointA -- first point
     pointB -- second point
