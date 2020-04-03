@@ -4,10 +4,10 @@ from math import sqrt
 def distance_between(pointA, pointB):
     """Computes the distance between two Point objects.
 
-    pointA: tuple
-    pointB: tuple
+    @param pointA is a tuple
+    @param PointB is a tuple
 
-    returns: float
+    @return: distance, in floating point value
     """
     x1, y1 = pointA
     x2, y2 = pointB
