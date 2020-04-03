@@ -5,11 +5,11 @@ def distance_between(pointA, pointB):
     """Computes the distance between two Point objects.
 
     @author kgashok
-    
-    @param pointA is a tuple  
-    @param pointB is a tuple  
-    
-    @return distance in float 
+
+    @param pointA is a tuple
+    @param pointB is a tuple
+
+    @return distance in float
     """
     x1, y1 = pointA
     x2, y2 = pointB
@@ -29,6 +29,6 @@ pointA = int(input("Enter xcordinate for PointA ")), \
 pointB = int(input("Enter xcordinate for PointB ")), \
     int(input("Enter ycordinate for PointB "))
 
-print("distance between points", 
+print("distance between points",
       distance_between(pointA, pointB)
-     )
+      )
