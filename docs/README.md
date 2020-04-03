@@ -4,11 +4,13 @@
 
 **[PokerHand](PokerHand.md)**: Represents a poker hand. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
 
@@ -18,7 +20,8 @@ attributes: x, y
 **[Rectangle](Rectangle.md)**: Represents a rectangle.   
 attributes: width, height, corner. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Card](Card.md)**: Represents a standard playing card.   
 Attributes: suit: integer 0-3 rank: integer 1-13 
