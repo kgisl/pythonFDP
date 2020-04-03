@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>unit5-updated</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#unit-5">Unit 5</a>
+<ul>
+<li><a href="#files-modules-packages">FILES, MODULES, PACKAGES</a></li>
+</ul>
+</li>
+<li><a href="#key-terms">Key Terms</a>
+<ul>
+<li></li>
+<li><a href="#reading-text-files">Reading Text Files</a></li>
+</ul>
+</li>
+<li><a href="#writing-text-files">Writing Text Files</a>
+<ul>
+<li></li>
+<li><a href="#reading-binary-files-in-python">Reading binary files in python</a></li>
+</ul>
+</li>
+<li><a href="#files">Files</a>
+<ul>
+<li></li>
+<li><a href="#binary-file-characteristics">Binary File Characteristics</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="unit-5">Unit 5</h1>
+<h2 id="files-modules-packages">FILES, MODULES, PACKAGES</h2>
+<h3 id="object">Object</h3>
+<p><em>Files and exception: text files, reading and writing files, format operator; command line arguments, errors and exceptions, handling exceptions, modules, packages; Illustrative programs: word count, copy file.</em></p>
+<h1 id="key-terms">Key Terms</h1>
+<ul>
+<li><strong>File</strong>  : A file is a container in a computer system for storing information. Files used in computers are similar in features to that of paper documents used in library and office files. In a computer operating system, files can be stored on optical drives, hard drives or other types of storage devices.</li>
+<li><strong>Binary file</strong>  : Binary file is a collection of bytes or a character stream. The data that is written into and read from binary file remain unchanged, with no separation between lines and no use of end-of-line characters and the interpretation of the file is left to the programmer.</li>
+<li><strong>Text file</strong>  : A text file is a stream of characters that can be processed sequentially and logically in the forward direction. The maximum number of characters in each line is limited to 255 characters.</li>
+<li><strong>Sequential file access</strong>: In case of sequential file access, data is read from or written to a file in a sequential manner while the  <code>position indicator</code>  automatically gets adjusted by the stream I/O functions.</li>
+<li><strong>Random file access</strong>: Random access means reading from or writing to any position in a file without reading or writing all the preceding data by controlling the  <code>position indicator</code></li>
+<li><strong>Record</strong>: A record consist of a collection of data fields that conforms to a previously defined structure that can be stored on or retrieved from a file.</li>
+<li><strong>Stream</strong>: The stream is a common, logical interface to the various devices that comprise the computer and is a logical interface to a file. Although files differ in form and capabilities, all streams are the same.</li>
+<li><strong>File management</strong>: It basically means all operations related to creating, renaming, deleting, merging, reading, writing, etc. of any type of files.</li>
+<li><strong>Path</strong>: The path specifies the drive and/or directory (or folder) where the file is located. On PCs, the backslash character is used to separate directory names in a path. Some systems like Unix use the forward slash (/) as the directory separator.</li>
+</ul>
+<h3 id="types-of-files">Types of Files</h3>
+<ul>
+<li>Text files</li>
+<li>Data files</li>
+<li>Directory files</li>
+<li>Binary files</li>
+<li>Graphic files</li>
+</ul>
+<h3 id="basic-file-operations">Basic File Operations</h3>
+<ol>
+<li>Creation of a new file</li>
+<li>Modification of data or file attributes</li>
+<li>Reading of data from the file</li>
+<li>Opening the file in order to make the contents available to other programs</li>
+<li>Writing data to the file</li>
+<li>Closing or terminating a file operation</li>
+</ol>
+<h2 id="reading-text-files">Reading Text Files</h2>
+<p><em>Code example</em></p>
+<pre class=" language-python"><code class="prism  language-python">fileToRead <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"source.txt"</span><span class="token punctuation">,</span><span class="token string">"r"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> fileToRead<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Source contents:"</span><span class="token punctuation">,</span>data<span class="token punctuation">)</span>
+</code></pre>
+<p><em>File contents</em></p>
+<pre class=" language-file"><code class="prism  language-file">Apple Orange Mango
+</code></pre>
+<p><em>Output</em></p>
+<pre class=" language-console"><code class="prism  language-console">Source contents: Apple Orange Mango
+</code></pre>
+<p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
+<p>Demo<br>
+<a href="https://repl.it/@kiteit/ReadFromFile">https://repl.it/@kiteit/ReadFromFile</a></p>
+<h1 id="writing-text-files">Writing Text Files</h1>
+<h3 id="code">code</h3>
+<pre class=" language-python"><code class="prism  language-python">fileToWrite <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"destination.txt"</span><span class="token punctuation">,</span><span class="token string">"w"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> <span class="token string">"Hello Python"</span><span class="token punctuation">;</span>
+fileToWrite<span class="token punctuation">.</span>write<span class="token punctuation">(</span>data<span class="token punctuation">)</span>
+fileToWrite<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"done with file writing"</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="output">output</h3>
+<pre class=" language-console"><code class="prism  language-console">done with file writing
+</code></pre>
+<h3 id="destination">destination</h3>
+
+<table>
+<thead>
+<tr>
+<th>Before Writing</th>
+<th>After Writing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/bfw.JPG" alt=""></td>
+<td><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/afw.JPG" alt=""></td>
+</tr>
+</tbody>
+</table><p>Demo<br>
+<a href="https://repl.it/@kiteit/WritingToFile">https://repl.it/@kiteit/WritingToFile</a></p>
+<h3 id="types-of-file-modes">Types of File Modes</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">File Mode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>r</code></td>
+<td>Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td align="center"><code>rb</code></td>
+<td>Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode.</td>
+</tr>
+<tr>
+<td align="center"><code>r+</code></td>
+<td>Opens a file for both reading and writing. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td align="center"><code>rb+</code></td>
+<td>Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file.</td>
+</tr>
+<tr>
+<td align="center"><code>w</code></td>
+<td>Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td align="center"><code>wb</code></td>
+<td>Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.</td>
+</tr>
+<tr>
+<td align="center"><code>w+</code></td>
+<td>Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td align="center"><code>wb+</code></td>
+<td>Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td align="center"><code>a</code></td>
+<td>Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td align="center"><code>ab</code></td>
+<td>Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing.</td>
+</tr>
+<tr>
+<td align="center"><code>a+</code></td>
+<td>Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+<tr>
+<td align="center"><code>ab+</code></td>
+<td>Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.</td>
+</tr>
+</tbody>
+</table><h3 id="file-methods">File Methods</h3>
+
+<table>
+<thead>
+<tr>
+<th>File Methods</th>
+<th>Description</th>
+<th>Prototype</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>close()</td>
+<td>Closes the file</td>
+<td><code>fileobject.close()</code></td>
+</tr>
+<tr>
+<td>flush()</td>
+<td>Flushes the internal buffer</td>
+<td><code>fileobject.flush()</code></td>
+</tr>
+<tr>
+<td>read()</td>
+<td>Returns the file content</td>
+<td><code>data = fileobject.read()</code></td>
+</tr>
+<tr>
+<td>readable()</td>
+<td>Returns whether the file stream can be read or not</td>
+<td><code>boolean = fileobject.flush()</code></td>
+</tr>
+<tr>
+<td>readline()</td>
+<td>Returns one line from the file</td>
+<td><code>data = fileobject.readline()</code></td>
+</tr>
+<tr>
+<td>readlines()</td>
+<td>Returns a list of lines from the file</td>
+<td><code>filelines = fileobject.read()</code></td>
+</tr>
+<tr>
+<td>seek()</td>
+<td>Change the file position</td>
+<td><code>filelines = fileobject.seek(offset)</code></td>
+</tr>
+<tr>
+<td>seekable()</td>
+<td>Returns whether the file allows us to change the file position</td>
+<td><code>bool = fileobject.seekable()</code></td>
+</tr>
+<tr>
+<td>tell()</td>
+<td>Returns the current file position</td>
+<td><code>position = fileobject.tell()</code></td>
+</tr>
+<tr>
+<td>truncate()</td>
+<td>Resizes the file to a specified size</td>
+<td><code>fileobject.truncate(size)</code></td>
+</tr>
+<tr>
+<td>writeable()</td>
+<td>Returns whether the file can be written to or not</td>
+<td><code>bool = fileobject.writeable()</code></td>
+</tr>
+<tr>
+<td>write()</td>
+<td>Writes the specified string to the file</td>
+<td><code>fileobject.write(data)</code></td>
+</tr>
+<tr>
+<td>writelines()</td>
+<td>Writes a list of strings to the file</td>
+<td><code>fileobject.writelines(listofstrings[])</code></td>
+</tr>
+</tbody>
+</table><p><strong>Difference between Append and Write Mode</strong></p>
+<p>Write (w) mode and Append (a) mode, while opening a file are almost the same. Both are used to write in a file. In both the modes, new file is created if it doesn’t exists already.</p>
+<p>The only difference they have is, when you open a file in the write mode, the file is reset, resulting in deletion of any data already present in the file. While in append mode this will not happen. Append mode is used to append or add data to the existing data of file (if any). Hence, when you open a file in Append(a) mode, the cursor is positioned at the end of the present data in the file.</p>
+<h2 id="reading-binary-files-in-python">Reading binary files in python</h2>
+<p><em>Code example</em></p>
+<pre class=" language-python"><code class="prism  language-python">binfile <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"bindata.PNG"</span><span class="token punctuation">,</span><span class="token string">"rb"</span><span class="token punctuation">)</span>
+data <span class="token operator">=</span> binfile<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"source contents:"</span><span class="token punctuation">,</span>data<span class="token punctuation">)</span>
+</code></pre>
+<p><em>File contents</em><br>
+<img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/pythonlogo.jpg" alt=""><br>
+<em>Output</em></p>
+<pre class=" language-console"><code class="prism  language-console">Source contents:b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00C\x00\x06\x04\x05\x06\x05\x04\x06\x
+06\x05\x06\x07\x07\x06\x08\n\x10\n\n\t\t\n\x14\x0e\x0f\x0c\x10\x17\x14\x18\x18\x17\x14\x16\x16\x1a\x1d%\x1f\x1a\x1b#\x1c\x16\x16 , #&amp;\
+')*)\x19\x1f-0-(0%()(\xff\xdb\x00C\x01\x07\x07\x07\n\x08\n\x13\n\n\x13(\x1a\x16\x1a((((((((((((((((((((((((((((((((((((((((((((((((((\
+xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1b\x00\x01\x00\x02\x03\x01\x01\x00\x00\x00\x00\x
+00\x00\x00\x00\x00\x00\x00\x01\x04\x02\x03\x05\x06\x07\xff\xc4\x00\x1a\x01\x01\x00\x03\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00
+\x00\x00\x01\x02\x03\x04\x05\x06\xff\xda\x00\x0c\x03\x01\x00\x02\x10\x03\x10\x00\x00\x01\xfa\xa0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x
+00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+\x00\x00\x00\x00\x00\x009&gt;n\xd5\xf7X\xfc\x9f\x89z}
+</code></pre>
+<p><img src="https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG" alt=""></p>
+<p>Demo<br>
+<a href="https://repl.it/@kiteit/BinaryFile">https://repl.it/@kiteit/BinaryFile</a></p>
+<h1 id="files">Files</h1>
+<p><strong>What are files?</strong>  A file is sequential stream of bytes ending with an end-of-file marker.</p>
+<p>As we know, at the time of execution, every program is executed in the main memory. Main memory is volatile and the data would be lost once the program is terminated. If we need the same data again, we have to store the data in a file on the disk. A file is sequential stream of bytes ending with an end-of-file marker.</p>
+<p>Storage of data in variables and arrays is temporary—such data is lost when a program terminates. Files are used for permanent retention of data. Computers store files on secondary storage devices, such as hard drives, CDs, DVDs and flash drives. In this chapter, we explain how data files are created, updated and processed by C programs. We consider both sequential-access and random-access file processing.</p>
+<h3 id="file-extensions">File Extensions</h3>
+<p>File extensions<br>
+We can usually tell if a file is binary or text based on its file extension. This is because by convention the extension reflects the file format, but  <em>ultimately</em>  it is the file format that dictates whether the file data is binary or text.</p>
+<p>Common extensions that are binary file formats:</p>
+<pre><code>Images: jpg, png, gif, bmp, tiff, psd, ...
+Videos: mp4, mkv, avi, mov, mpg, vob, ...
+Audio: mp3, aac, wav, flac, ogg, mka, wma, ...
+Documents: pdf, doc, xls, ppt, docx, odt, ...
+Archive: zip, rar, 7z, tar, iso, ...
+Database: mdb, accde, frm, sqlite, ...
+Executable: exe, dll, so, class, ...
+
+</code></pre>
+<p>Common extensions that are text file formats:</p>
+<pre><code>Web standards: html, xml, css, svg, json, ...
+Source code: c, cpp, h, cs, js, py, java, rb, pl, php, sh, ...
+Documents: txt, tex, markdown, asciidoc, rtf, ps, ...
+Configuration: ini, cfg, rc, reg, ...
+Tabular data: csv, tsv, ...
+
+</code></pre>
+<h3 id="text-file-characteristics">Text File Characteristics</h3>
+<p>By convention, the data in every text file obeys a number of rules:</p>
+<ul>
+<li>The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.</li>
+<li>The data format is usually line-oriented. Each line could be a separate command, or a list of values could put each item on a different line, etc. The maximum number of characters in each line is usually a reasonable value like 100, not like 1000.</li>
+<li>The text looks readable to a human or at least moderately sane. Even if it contains a heavy proportion of punctuation symbols (like HTML, RTF, and other markup formats), there is some visible structure and it’s not seemingly random garbage.</li>
+</ul>
+<h2 id="binary-file-characteristics">Binary File Characteristics</h2>
+<ul>
+<li>For most software that people use in their daily lives, the software consumes and produces binary files. Examples of such software include Microsoft Office, Adobe Photoshop, and various audio/video/media players. A typical computer user works with mostly binary files and very few text files.</li>
+<li>A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.</li>
+<li>Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).</li>
+</ul>
+
+    </div>
+  </div>
+</body>
+
+</html>
