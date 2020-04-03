@@ -3774,6 +3774,20 @@ a simple example to start you off
 
 
 
+### distance_between
+
+
+distance_between is a function which calculates the distance between two points Input : Two tuples (x,y) representing two cartesian points Output: Distance between the two points 
+#### Parameters
+name | description | default
+--- | --- | ---
+pointA |  | 
+pointB |  | 
+
+
+
+
+
 ### calculateGrade
 
 
