@@ -51,7 +51,7 @@ Source contents: Apple Orange Mango
 ![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
 
 Demo
-[https://repl.it/@kiteit/ReadFromFile](https://repl.it/@kiteit/ReadFromFile)
+[https://repl.it/@kiteit/ReadFromFileIntro](https://repl.it/@kiteit/ReadFromFileIntro)
 
 
 # Writing Text Files
@@ -191,11 +191,59 @@ By convention, the data in every text file obeys a number of rules:
 
 # Reading a File (Extended ....)
 There are three methods will help us to do this. 
-  ```
-  read() - (reads entier file contents and returns as string) - Ref : Demo 1
-  readline()
-  readlines()
-  ```
+* read()
+* readline()
+* readlines()
+
+## read
+
+* It reads entire content from the file and returns data as a string in text mode and byte object in binary mode.
+* If we want to read desired no of characters from the file we can pass size (any positive value) as parameter
+  
+**Example**
+
+*SOURCE FILE*
+```
+Line 1
+Line 2
+Line 3
+```
+
+*CODE*
+```python
+fileToRead = open("source.txt","r")
+data = fileToRead.read()
+print(data)
+```
+*OUTPUT*
+```console
+Line 1
+Line 2
+Line 3
+```
+Demo: [https://repl.it/@kiteit/ReadFromFile]
+
+**With Size Parameter**
+
+*CODE*
+```python
+fileToRead = open("source.txt","r")
+data = fileToRead.read(3)
+print(data)
+```
+*OUTPUT*
+```console
+Lin
+```
+> •	here size is 3 so 3 characters returned.
+
+Demo: [https://repl.it/@kiteit/ReadFromFileWithSize]
+
+**To Think:**
+* What if we pass negative value as size?
+* What if we pass size that is greater than file size?
+
+
 ## readline
 It reads a line from a file each time it is called.
 
@@ -205,7 +253,7 @@ It reads a line from a file each time it is called.
 
 Demo: [https://repl.it/@kiteit/ReadLineFromFile]
 
-**Block to Think:**
+**To Think:**
 
 * We need to perform readline operation for every line of that the sources file has.
 * What if no of readline operations is lower than no of lines in the source file?
@@ -215,9 +263,6 @@ Demo: [https://repl.it/@kiteit/ReadLineFromFile]
 * What about the idea of using loops?
 
 **Controlled Readline**
-*From official python docs*
-> readline() reads a single line from the file; a newline character (\n) is left at the end of the string, and is only omitted on the last line of the file if the file doesn’t end in a newline. This makes the return value unambiguous; if readline() returns an empty string, the end of the file has been reached, while a blank line is represented by '\n', a string containing only a single newline.
-
 
 *CODE*
 
@@ -234,4 +279,39 @@ Line 1
 Line 2
 Line 3
 ```
+> while loop stops when readline returns an empty string.
 
+## readlines
+
+* It returns list of strings each string is a line from file.
+* If we want to read desired no of bytes from the file we can pass size (any positive value) as parameter
+
+*CODE*
+```python
+fileToRead = open("source.txt","r")
+data = fileToRead.readlines()
+print(data)
+```
+*OUTPUT*
+```console
+['Line 1\n', 'Line 2\n', 'Line 3']
+```
+> It returns list of lines
+
+Demo:[https://repl.it/@kiteit/ReadLinesFromFile]
+
+**With Size Parameter**
+
+*CODE*
+```python
+fileToRead = open("source.txt","r")
+data = fileToRead.readlines(7)
+print(data)
+```
+*OUTPUT*
+```console
+['Line 1\n', 'Line 2\n']
+```
+> •	here size in bytes is 7
+
+Demo:[ https://repl.it/@kiteit/ReadLinesFromFileWithSize]
