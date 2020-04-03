@@ -3775,7 +3775,7 @@ a simple example to start you off
 
 
 ### distance_between
-
+Authors: **kgashok**
 
 Computes the distance between two Point objects.   
 
