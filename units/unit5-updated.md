@@ -256,7 +256,7 @@ Demo: [https://repl.it/@kiteit/ReadLineFromFile]
 **To Think:**
 
 * We need to perform readline operation for every line of that the sources file has.
-* What if no of readline operations is lower than no of lines in the source file?
+* What if number of readline operations is lower than number of lines in the source file?
 * What if we over run it? no of readline operations > no of lines in source file.
 * How do we know the no of lines in the file?
 * how do we stop readline operation after reaching the end of file?
