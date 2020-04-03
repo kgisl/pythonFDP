@@ -3,11 +3,11 @@ from math import sqrt
 
 def distance_between(pointA, pointB):
     """Computes the distance between two Point objects.
-    
+
     pointA: tuple
     pointB: tuple
-    
-    returns: float    
+
+    returns: float
     """
     x1, y1 = pointA
     x2, y2 = pointB
