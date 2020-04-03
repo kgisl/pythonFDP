@@ -3783,8 +3783,7 @@ Computes the distance between two Point objects.
 name | description | default
 --- | --- | ---
 pointA | is a tuple | 
-PointB | is a tuple | 
-pointB |  | 
+pointB | is a tuple | 
 
 
 
