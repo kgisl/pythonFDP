@@ -2,10 +2,11 @@ from math import sqrt
 
 
 def distance_between(pointA, pointB):
-    """distance_between is a function which
-    calculates the distance between two points
-    Input : Two tuples (x,y) representing two cartesian points
-    Output: Distance between the two points
+    """calculate distance between two points
+    
+    Arguments:
+    pointA -- first point
+    pointB -- second point
     """
     x1, y1 = pointA
     x2, y2 = pointB
