@@ -134,9 +134,7 @@ xff\xc2\x00\x11\x08\x03\x00\x03\x00\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4
 00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 \x00\x00\x00\x00\x00\x009>n\xd5\xf7X\xfc\x9f\x89z}
 ```
-
-![](https://github.com/rajasekaranap/pythonFDP/blob/master/img/fileintro.JPG)
-
+*This is not a text file so we need a spcial program like image viewer to interpret this*
 Demo
 [https://repl.it/@kiteit/BinaryFile](https://repl.it/@kiteit/BinaryFile)
 
@@ -230,7 +228,7 @@ while data!="":
   print(data)
   data = fileToRead.readline()
 ```
-*OUPUT*
+*OUTPUT*
 ```console
 Line 1
 Line 2
