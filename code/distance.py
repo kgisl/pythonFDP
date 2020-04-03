@@ -8,7 +8,8 @@ def distance_between(pointA, pointB):
     
     @param pointA is a tuple
     @param PointB is a tuple
-    @return distance between points, in float
+    
+    returns distance in float 
     """
     x1, y1 = pointA
     x2, y2 = pointB
