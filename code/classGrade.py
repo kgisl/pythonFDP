@@ -1,4 +1,4 @@
-# run pep8 on this code
+
 
 import bisect
 gradeChart = [
@@ -19,6 +19,15 @@ gradeChart = [
 
 
 def calculateGrade(score, gradeChart):
+    """Computes the distance between two Point objects.
+
+    @author kgashok
+
+    @param score individual student's score
+    @param gradeChart list of tuples
+
+    @return a grade char 'A'-'F'
+    """
     gradeChart.sort(key=lambda r: r[1])
     grade_range = [g[1] for g in gradeChart]
     print(grade_range)
