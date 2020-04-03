@@ -3831,14 +3831,15 @@ series |  |
 
 
 ### calculateGrade
+Authors: **kgashok**
 
-
+Computes the distance between two Point objects.   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-score |  | 
-gradeChart |  | 
+score | individual student's score | 
+gradeChart | list of tuples | 
 
 
 
