@@ -3777,12 +3777,13 @@ a simple example to start you off
 ### distance_between
 
 
-calculate distance between two points   
-Arguments: pointA -- first point pointB -- second point 
+Computes the distance between two Point objects.   
+
 #### Parameters
 name | description | default
 --- | --- | ---
-pointA |  | 
+pointA | is a tuple | 
+PointB | is a tuple | 
 pointB |  | 
 
 
