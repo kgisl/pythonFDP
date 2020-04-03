@@ -32,6 +32,7 @@
 6. Closing or terminating a file operation
 
 ## Reading Text Files
+### Demo 1: 
 *Code example*
 ```python
 fileToRead = open("source.txt","r")
@@ -189,11 +190,50 @@ By convention, the data in every text file obeys a number of rules:
 -   For most software that people use in their daily lives, the software consumes and produces binary files. Examples of such software include Microsoft Office, Adobe Photoshop, and various audio/video/media players. A typical computer user works with mostly binary files and very few text files.
 -   A binary file always needs a matching software to read or write it. For example, an MP3 file can be produced by a sound recorder or audio editor, and it can be played in a music player or audio editor. But an MP3 file cannot be played in an image viewer or a database software.
 -   Some binary formats are popular enough that a wide variety of programs can produce or consume it. Image formats like JPEG are the best example – not only can they be used in image viewers and editors, they can be viewed in web browsers, audio players (for album art), and document software (such as adding a picture into a Word doc).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIxOTEwNjksLTE5OTk5MjM4OTAsMj
-AwNjAwODcxMCwtNjI0ODkxMjQyLC00NzE1NDgxNzcsNTcwNDQ4
-NzM1LDEyMDk2NDQ3NDIsLTE3NzMyMDI3MjIsLTcwNzI5MDEyLC
-02NjU5NDg0NCwxMTk3MzAwNzcyLC0xODM2OTExNjAyLDE2NjMy
-OTAxMjgsLTc1NTQyOTQ0MywtMTUyODA3MTE5MCwtNzU1NDI5ND
-QzLC0yMDcwOTY2NTU0LC00MTg5ODAwOTJdfQ==
--->
+
+# Reading a File (Extended ....)
+There are three methods will help us to do this. 
+  ```
+  read() - (reads entier file contents and returns as string) - Ref : Demo 1
+  readline()
+  readlines()
+  ```
+## readline
+It reads a line from a file each time it is called.
+
+**Example**
+
+![](/img/readline-demo.jpg)
+
+Demo: [https://repl.it/@kiteit/ReadLineFromFile]
+
+**Block to Think:**
+
+* We need to perform readline operation for every line of that the sources file has.
+* What if no of readline operations is lower than no of lines in the source file?
+* What if we over run it? no of readline operations > no of lines in source file.
+* How do we know the no of lines in the file?
+* how do we stop readline operation after reaching the end of file?
+* What about the idea of using loops?
+
+**Controlled Readline**
+*From official python docs*
+> readline() reads a single line from the file; a newline character (\n) is left at the end of the string, and is only omitted on the last line of the file if the file doesn’t end in a newline. This makes the return value unambiguous; if readline() returns an empty string, the end of the file has been reached, while a blank line is represented by '\n', a string containing only a single newline.
+
+
+*CODE*
+
+```python
+fileToRead = open("source.txt","r")
+data = fileToRead.readline()
+while data!="":
+  print(data)
+  data = fileToRead.readline()
+```
+*OUPUT*
+```console
+Line 1
+Line 2
+Line 3
+```
+
