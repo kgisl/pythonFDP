@@ -9,33 +9,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> math <span class="token keyword">import</span> sqrt
-<span class="token keyword">def</span> <span class="token function">distance_between</span><span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token triple-quoted-string string">"""distance_between is a function which 
-    calculates the distance between two points
-    Input : Two tuples (x,y) representing two cartesian points
-    Output: Distance between the two points 
-    """</span>
-    x1<span class="token punctuation">,</span> y1 <span class="token operator">=</span> pointA
-    x2<span class="token punctuation">,</span> y2 <span class="token operator">=</span> pointB
-    
-    distx <span class="token operator">=</span> x1 <span class="token operator">-</span> x2
-    disty <span class="token operator">=</span> y1 <span class="token operator">-</span> y2
-    
-    <span class="token keyword">return</span> sqrt<span class="token punctuation">(</span>distx<span class="token operator">**</span><span class="token number">2</span> <span class="token operator">+</span> disty<span class="token operator">**</span><span class="token number">2</span><span class="token punctuation">)</span>
-<span class="token comment"># main program </span>
-<span class="token comment"># tuple packing allows for assigning </span>
-<span class="token comment"># multiple inputs in one statement</span>
-pointA <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter xcordinate for PointA "</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> \
-         <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter ycordinate for PointA "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-         
-pointB <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter xcordinate for PointB "</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> \
-         <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter ycordinate for PointB "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-         
-<span class="token keyword">print</span><span class="token punctuation">(</span>distance_between<span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-
-</code></pre>
+  <div class="stackedit__html"><h2 id="notes-for-unit-2---illustrative-programs">Notes for Unit 2 - Illustrative programs</h2>
 
 <table>
 <thead>
@@ -94,7 +68,42 @@ pointB <span class="token operator">=</span> <span class="token builtin">int</sp
 <td><p>Test yourself at <a href="http://j.mp/twoPoints" rel="noopener noreferrer" target="_blank">http://j.mp/twoPointsCC</a></p></td>
 </tr>
 </tbody>
-</table></div>
+</table><h2 id="program-listing">Program Listing</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> math <span class="token keyword">import</span> sqrt
+
+
+<span class="token keyword">def</span> <span class="token function">distance_between</span><span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""Computes the distance between two Point objects.
+    
+    """</span>
+    x1<span class="token punctuation">,</span> y1 <span class="token operator">=</span> pointA
+    x2<span class="token punctuation">,</span> y2 <span class="token operator">=</span> pointB
+
+    distx <span class="token operator">=</span> x1 <span class="token operator">-</span> x2
+    disty <span class="token operator">=</span> y1 <span class="token operator">-</span> y2
+
+    <span class="token keyword">return</span> sqrt<span class="token punctuation">(</span>distx<span class="token operator">**</span><span class="token number">2</span> <span class="token operator">+</span> disty<span class="token operator">**</span><span class="token number">2</span><span class="token punctuation">)</span>
+
+
+<span class="token comment"># main program</span>
+
+<span class="token comment"># tuple packing allows for assigning</span>
+<span class="token comment"># multiple inputs in one statement</span>
+
+pointA <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter xcordinate for PointA "</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> \
+    <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter ycordinate for PointA "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+pointB <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter xcordinate for PointB "</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> \
+    <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter ycordinate for PointB "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>distance_between<span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="documentation">Documentation</h2>
+<p><a href="https://github.com/kgisl/pythonFDP/blob/master/docs/README.md#distance_between">distance_between</a></p>
+<h2 id="cyberdojo-link">CyberDojo link</h2>
+<p><a href="http://cyberdojo1.kgfsl.com/kata/edit/Tx2Vqt">http://cyberdojo1.kgfsl.com/kata/edit/Tx2Vqt</a></p>
+<h2 id="ppt-presentation">PPT presentation</h2>
+</div>
 </body>
 
 </html>
