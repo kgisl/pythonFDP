@@ -3863,13 +3863,14 @@ b | is global |
 
 
 ### mergesort
+Authors: **kgashok**
 
-
+mergesort implementation in an iterative fashion   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-series |  | 
+series | is a sequence of unsorted elements | 
 
 
 
