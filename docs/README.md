@@ -3777,7 +3777,7 @@ a simple example to start you off
 ### circulate
 Authors: **kgashok**
 
-circulate between three variables   
+circulate between three variables, three times   
 
 #### Parameters
 name | description | default
@@ -3793,7 +3793,7 @@ c | is a integer |
 ### circulate_list
 Authors: **kgashok**
 
-circulate 'n' elements in a list   
+circulate 'n' elements in a list, n times   
 
 #### Parameters
 name | description | default
@@ -3842,6 +3842,21 @@ name | description | default
 --- | --- | ---
 scores |  | 
 gc |  | 
+
+
+
+
+
+### swap_func
+Authors: **kgashok**
+
+swap the contents of a and b   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is global | 
+b | is global | 
 
 
 
