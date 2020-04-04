@@ -1,5 +1,5 @@
 def circulate(a, b, c):
-    """circulate between three variables
+    """circulate between three variables, three times
 
     @author kgashok
     @param a is a integer
@@ -23,7 +23,7 @@ circulate(a, b, c)
 
 
 def circulate_list(alist):
-    """circulate 'n' elements in a list
+    """circulate 'n' elements in a list, n times
 
     @author kgashok
     @param alist contains the 'n' elements
