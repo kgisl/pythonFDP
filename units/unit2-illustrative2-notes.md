@@ -31,7 +31,8 @@ print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 
 ## Demo 
-run `python3 swap.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+run  `python3 swap.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+
 
 ## Program2
 
@@ -69,8 +70,10 @@ circulate_list(alist)
 
 ![out2](https://i.imgur.com/iSSVEUi.jpg)
 
+
 ## Demo 
-run `python3 circulate.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+run  `python3 circulate.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+
 
 
 ## Program 3 
@@ -126,9 +129,10 @@ print("distance between {0} and {1} is {2}"
 
 ![out3](https://i.imgur.com/jGNMaNN.jpg)
 
-## Demo Program
 
-run `python3 distance.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+## Demo 
+run  `python3 distance.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+
 
 ## Teaching Assets
 
