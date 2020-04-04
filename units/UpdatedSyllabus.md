@@ -11,7 +11,7 @@
 - To use Python data structures –- lists, tuples, dictionaries.
 - To do input/output with files in Python.
 
-# UNIT I ALGORITHMIC PROBLEM SOLVING 9**
+# UNIT I ALGORITHMIC PROBLEM SOLVING 9
 
 Algorithms, building blocks of algorithms (statements, state, control
 flow, functions), notation (pseudo code, flow chart, programming
@@ -21,7 +21,7 @@ find [minimum in a list](http://j.mp/matrixMultiplyCC), insert a card in a list 
 an integer number in a range, Towers of Hanoi.
 
 
-# UNIT II DATA, EXPRESSIONS, STATEMENTS 9**
+# UNIT II DATA, EXPRESSIONS, STATEMENTS 9
 
 Python interpreter and interactive mode; values and types: int, float,
 boolean, string, and list; variables, expressions, statements, tuple
@@ -31,7 +31,7 @@ arguments; Illustrative programs: exchange the values of two
 variables, circulate the values of n variables, [distance between two
 points](http://j.mp/twoPoints).
 
-# UNIT III CONTROL FLOW, FUNCTIONS 9**
+# UNIT III CONTROL FLOW, FUNCTIONS 9
 
 Conditionals: Boolean values and operators, conditional (if),
 alternative (if-else), chained conditional (if-elif-else); Iteration:
@@ -42,7 +42,7 @@ methods, string module; Lists as arrays. Illustrative programs: square
 root, gcd, exponentiation, sum an array of numbers, linear search,
 binary search.
 
-# UNIT IV LISTS, TUPLES, DICTIONARIES 9**
+# UNIT IV LISTS, TUPLES, DICTIONARIES 9
 
 Lists: list operations, list slices, list methods, list loop,
 mutability, aliasing, cloning lists, list parameters; Tuples: tuple
@@ -50,7 +50,7 @@ assignment, tuple as return value; Dictionaries: operations and
 methods; advanced list processing - list comprehension; Illustrative
 programs: selection sort, insertion sort, mergesort, histogram.
 
-# UNIT V FILES, MODULES, PACKAGES 9**
+# UNIT V FILES, MODULES, PACKAGES 9
 
 Files and exception: text files, reading and writing files, format
 operator; command line arguments, errors and exceptions, handling
