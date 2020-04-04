@@ -43,20 +43,20 @@ def distance_between(pointA, pointB):
 # tuple packing allows for assigning
 # multiple inputs in one statement
 
-pointA = int(input("Enter xcordinate for PointA ")), \
-    int(input("Enter ycordinate for PointA "))
+print("Enter coordinates for Point A")
+pointA = int(input()), int(input())
 
-pointB = int(input("Enter xcordinate for PointB ")), \
-    int(input("Enter ycordinate for PointB "))
+print("Enter coordinates for Point B")
+pointB = int(input()), int(input())
 
-print("distance between points", 
-	distance_between(pointA, pointB)
-	)
+print("distance between points",
+      distance_between(pointA, pointB)
+      )
 ```
 
 ## Sample Output
 
-![out](https://i.imgur.com/H5xRUay.jpg)
+![out](https://i.imgur.com/4drjmkk.jpg)
 
 ## Demo Program
 
