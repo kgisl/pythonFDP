@@ -10,7 +10,7 @@ b = t
 print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 
-def swap():
+def swap_func():
     '''swap the contents of a and b
 
     @author kgashok
@@ -23,6 +23,6 @@ def swap():
     a, b = b, a
 
 
-swap()  # go back to their original values
+swap_func()  # go back to their original values
 print("Did swap work?")
 print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
