@@ -22,12 +22,22 @@ b <span class="token operator">=</span> t
 
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
-<span class="token keyword">def</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+<span class="token keyword">def</span> <span class="token function">swap_func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">'''swap the contents of a and b
+
+    @author kgashok
+    @param a is global
+    @param b is global
+    @returns None
+    '''</span>
     <span class="token keyword">global</span> a<span class="token punctuation">,</span> b
     <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Swap function called"</span><span class="token punctuation">)</span>
     a<span class="token punctuation">,</span> b <span class="token operator">=</span> b<span class="token punctuation">,</span> a
-    
-swap<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># go back to their original values</span>
+
+
+swap_func<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># go back to their original values</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Did swap work?"</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
 </code></pre>
