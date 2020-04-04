@@ -3774,6 +3774,36 @@ a simple example to start you off
 
 
 
+### circulate
+Authors: **kgashok**
+
+circulate between three variables   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is a integer | 
+b | is a integer | 
+c | is a integer | 
+
+
+
+
+
+### circulate_list
+Authors: **kgashok**
+
+circulate 'n' elements in a list   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist | contains the 'n' elements | 
+
+
+
+
+
 ### distance_between
 Authors: **kgashok**
 
