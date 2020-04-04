@@ -11,6 +11,8 @@ def mergesort(series):
 
     @returns a list containing sorted elements
 
+    Testable docstring? https://docs.python.org/2/library/doctest.html
+
     >>> mergesort([5, 4, 2, 8, 1, 3, 7, 6])
     [[5], [4], [2], [8], [1], [3], [7], [6]]
     [[4, 5], [2, 8], [1, 3], [6, 7]]
