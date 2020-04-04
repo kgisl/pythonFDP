@@ -26,9 +26,6 @@ from math import sqrt
 
 
 def distance_between(pointA, pointB):
-    """Computes the distance between two Point objects.
-    
-    """
     x1, y1 = pointA
     x2, y2 = pointB
 
@@ -39,24 +36,22 @@ def distance_between(pointA, pointB):
 
 
 # main program
-
 # tuple packing allows for assigning
 # multiple inputs in one statement
-
 print("Enter coordinates for Point A")
 pointA = int(input()), int(input())
 
 print("Enter coordinates for Point B")
 pointB = int(input()), int(input())
 
-print("distance between points",
-      distance_between(pointA, pointB)
-      )
+print("distance between {0} and {1} is {2}"
+    .format(pointA, pointB, distance_between(pointA, pointB))
+)
 ```
 
 ## Sample Output
 
-![output](https://i.imgur.com/4drjmkk.jpg)
+![out](https://i.imgur.com/jGNMaNN.jpg)
 
 ## Demo Program
 
