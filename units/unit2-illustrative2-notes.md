@@ -1,6 +1,79 @@
 
 
-## Notes for Unit 2 - Illustrative programs
+# Notes for Unit 2 - Illustrative programs
+
+
+# Program 1
+
+```python
+print("Enter two values to swap")
+a = int(input())
+b = int(input())
+
+# using a temporary variable
+t = a
+a = b
+b = t
+
+print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
+
+def swap():
+    global a, b
+    print("Swap function called")
+    a, b = b, a
+    
+swap()  # go back to their original values
+print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
+
+```
+## Sample Output
+![out2](https://i.imgur.com/jOTVwC3.jpg)
+
+
+## Demo 
+run `python3 swap.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+
+## Program2
+
+```python
+def circulate(a, b, c):
+    i = 3
+    while i:
+        t = a
+        a = b
+        b = c
+        c = t
+        print(a, b, c)
+        i -= 1
+
+print("Enter 3 values")
+a, b, c = input().split()
+print()
+circulate(a, b, c)
+
+def circulate_list(alist):
+    i = len(alist)
+    while i:
+        first = alist.pop(0)
+        alist.append(first)
+        print(*alist, sep=", ")
+        i -= 1
+
+alist = input("enter multiple values\n").split()
+print()
+circulate_list(alist)
+
+```
+
+## Sample Output
+
+![out2](https://i.imgur.com/iSSVEUi.jpg)
+
+## Demo 
+run `python3 circulate.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+
+
+## Program 3 
 
 
 |Question                                                                                                                                                                                                                                                                                                                  |Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -51,11 +124,11 @@ print("distance between {0} and {1} is {2}"
 
 ## Sample Output
 
-![out](https://i.imgur.com/jGNMaNN.jpg)
+![out3](https://i.imgur.com/jGNMaNN.jpg)
 
 ## Demo Program
 
-[https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
+run `python3 distance.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs](https://repl.it/@ashokb/unit-2-illustrative-programs)
 
 ## Teaching Assets
 
