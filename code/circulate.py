@@ -21,6 +21,7 @@ def circulate(a, b, c):
 a, b, c = input("enter 3 values ").split()
 circulate(a, b, c)
 
+
 def circulate_list(alist):
     """circulate 'n' elements in a list
 
@@ -39,4 +40,3 @@ def circulate_list(alist):
 
 alist = input("enter multiple values ").split()
 circulate_list(alist)
-

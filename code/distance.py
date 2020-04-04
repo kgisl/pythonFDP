@@ -30,7 +30,5 @@ print("Enter coordinates for Point B")
 pointB = int(input()), int(input())
 
 print("distance between {0} and {1} is {2}"
-    .format(pointA, pointB, distance_between(pointA, pointB))
-)
-
-    
+      .format(pointA, pointB, distance_between(pointA, pointB))
+      )
