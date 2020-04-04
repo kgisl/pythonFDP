@@ -9,7 +9,66 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h2 id="notes-for-unit-2---illustrative-programs">Notes for Unit 2 - Illustrative programs</h2>
+  <div class="stackedit__html"><h1 id="notes-for-unit-2---illustrative-programs">Notes for Unit 2 - Illustrative programs</h1>
+<h1 id="program-1">Program 1</h1>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Enter two values to swap"</span><span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+b <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># using a temporary variable</span>
+t <span class="token operator">=</span> a
+a <span class="token operator">=</span> b
+b <span class="token operator">=</span> t
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">global</span> a<span class="token punctuation">,</span> b
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Swap function called"</span><span class="token punctuation">)</span>
+    a<span class="token punctuation">,</span> b <span class="token operator">=</span> b<span class="token punctuation">,</span> a
+    
+swap<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># go back to their original values</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+</code></pre>
+<h2 id="sample-output">Sample Output</h2>
+<p><img src="https://i.imgur.com/jOTVwC3.jpg" alt="out2"></p>
+<h2 id="demo">Demo</h2>
+<p>run <code>python3 swap.py</code> in <a href="https://repl.it/@ashokb/unit-2-illustrative-programs">https://repl.it/@ashokb/unit-2-illustrative-programs</a></p>
+<h2 id="program2">Program2</h2>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">circulate</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    i <span class="token operator">=</span> <span class="token number">3</span>
+    <span class="token keyword">while</span> i<span class="token punctuation">:</span>
+        t <span class="token operator">=</span> a
+        a <span class="token operator">=</span> b
+        b <span class="token operator">=</span> c
+        c <span class="token operator">=</span> t
+        <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">)</span>
+        i <span class="token operator">-=</span> <span class="token number">1</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Enter 3 values"</span><span class="token punctuation">)</span>
+a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+circulate<span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">circulate_list</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    i <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+    <span class="token keyword">while</span> i<span class="token punctuation">:</span>
+        first <span class="token operator">=</span> alist<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+        alist<span class="token punctuation">.</span>append<span class="token punctuation">(</span>first<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token operator">*</span>alist<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">", "</span><span class="token punctuation">)</span>
+        i <span class="token operator">-=</span> <span class="token number">1</span>
+
+alist <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"enter multiple values\n"</span><span class="token punctuation">)</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+circulate_list<span class="token punctuation">(</span>alist<span class="token punctuation">)</span>
+
+</code></pre>
+<h2 id="sample-output-1">Sample Output</h2>
+<p><img src="https://i.imgur.com/iSSVEUi.jpg" alt="out2"></p>
+<h2 id="demo-1">Demo</h2>
+<p>run <code>python3 circulate.py</code> in <a href="https://repl.it/@ashokb/unit-2-illustrative-programs">https://repl.it/@ashokb/unit-2-illustrative-programs</a></p>
+<h2 id="program-3">Program 3</h2>
 
 <table>
 <thead>
@@ -95,10 +154,10 @@ pointB <span class="token operator">=</span> <span class="token builtin">int</sp
     <span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">,</span> distance_between<span class="token punctuation">(</span>pointA<span class="token punctuation">,</span> pointB<span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token punctuation">)</span>
 </code></pre>
-<h2 id="sample-output">Sample Output</h2>
-<p><img src="https://i.imgur.com/jGNMaNN.jpg" alt="out"></p>
+<h2 id="sample-output-2">Sample Output</h2>
+<p><img src="https://i.imgur.com/jGNMaNN.jpg" alt="out3"></p>
 <h2 id="demo-program">Demo Program</h2>
-<p><a href="https://repl.it/@ashokb/unit-2-illustrative-programs">https://repl.it/@ashokb/unit-2-illustrative-programs</a></p>
+<p>run <code>python3 distance.py</code> in <a href="https://repl.it/@ashokb/unit-2-illustrative-programs">https://repl.it/@ashokb/unit-2-illustrative-programs</a></p>
 <h2 id="teaching-assets">Teaching Assets</h2>
 
 <table>
