@@ -3,7 +3,10 @@
 # Notes for Unit 2 - Illustrative programs
 
 
-# Program 1
+## Program 1
+
+
+## Source Code 
 
 ```python
 print("Enter two values to swap")
@@ -45,6 +48,9 @@ run  `python3 swap.py` in [https://repl.it/@ashokb/unit-2-illustrative-programs]
 
 
 ## Program2
+
+
+## Source Code 
 
 ```python
 def circulate(a, b, c):
@@ -105,7 +111,7 @@ run  `python3 circulate.py` in [https://repl.it/@ashokb/unit-2-illustrative-prog
 |<p>Are you confident of writing the code for <strong>Distance between Two Points? </strong></p><p><br></p><p><strong><span class="ql-cursor">﻿</span></strong></p>                                                                                                                                                        |<p>Test yourself at <a href="http://j.mp/twoPoints" rel="noopener noreferrer" target="_blank">http://j.mp/twoPointsCC</a></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
-## Program Listing 
+## Source Code 
 
 ```python
 from math import sqrt
