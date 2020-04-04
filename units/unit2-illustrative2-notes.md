@@ -56,7 +56,7 @@ print("distance between points",
 
 ## Sample Output
 
-![out](https://i.imgur.com/4drjmkk.jpg)
+![output](https://i.imgur.com/4drjmkk.jpg)
 
 ## Demo Program
 
