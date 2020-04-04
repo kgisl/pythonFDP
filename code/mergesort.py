@@ -7,7 +7,7 @@ def mergesort(series):
     '''mergesort implementation in an iterative fashion
 
     @author kgashok
-    @param series is a sequence of unsorted elements 
+    @param series is a sequence of unsorted elements
 
     @returns a list containing sorted elements
     '''
