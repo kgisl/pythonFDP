@@ -4,6 +4,13 @@ import itertools
 
 
 def mergesort(series):
+    '''mergesort implementation in an iterative fashion
+
+    @author kgashok
+    @param series is a sequence of unsorted elements 
+
+    @returns a list containing sorted elements
+    '''
     def merge(A, B):
         merged = [
             (A if A[0] < B[0] else B).pop(0)
