@@ -4,7 +4,7 @@ import itertools
 
 
 def mergesort(series):
-    '''mergesort implementation in an iterative fashion
+    '''iterative mergesort implementation
 
     @author kgashok
     @param series is a sequence of unsorted elements
