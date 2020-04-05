@@ -31,13 +31,6 @@ print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 
 def swap_func():
-    '''swap the contents of a and b
-
-    @author kgashok
-    @param a is global
-    @param b is global
-    @returns None
-    '''
     global a, b
     print("swap_func function called")
     a, b = b, a
