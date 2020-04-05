@@ -41,7 +41,7 @@ print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 ```
 ## Sample Output
-![out2](https://i.imgur.com/jOTVwC3.jpg)
+![out1](https://i.imgur.com/LNV3850.jpg)
 
 
 ## Demo 
