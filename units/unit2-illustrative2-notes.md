@@ -20,6 +20,13 @@ b = t
 
 print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
+# using XOR operator, eliminating the need for 3rd variable
+a = a ^ b
+b = a ^ b
+a = a ^ b
+
+
+print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 def swap_func():
     '''swap the contents of a and b
@@ -161,5 +168,13 @@ run  `python3 distance.py` in [https://repl.it/@ashokb/unit-2-illustrative-progr
 | Auto-generated documentation | [distance_between](https://github.com/kgisl/pythonFDP/blob/master/docs/README.md#distance_between) doctstring documentation | consolidates all docstrings in one place (docs/README.md) in the repo 
 
 
+
+
+## Bonus Material
+
+### Swap
+
+There are actually 4 ways to do it. Please find all of them. 
+[https://www.geeksforgeeks.org/python-program-to-swap-two-variables/](https://www.geeksforgeeks.org/python-program-to-swap-two-variables/)
 
 
