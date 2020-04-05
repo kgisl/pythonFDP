@@ -28,6 +28,7 @@
 <li><a href="#sample-output-2">Sample Output</a></li>
 <li><a href="#demo-2">Demo</a></li>
 <li><a href="#teaching-assets">Teaching Assets</a></li>
+<li><a href="#bonus-material">Bonus Material</a></li>
 </ul>
 </li>
 </ul>
@@ -50,6 +51,13 @@ b <span class="token operator">=</span> t
 
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
+<span class="token comment"># using XOR operator, eliminating the need for 3rd variable</span>
+a <span class="token operator">=</span> a <span class="token operator">^</span> b
+b <span class="token operator">=</span> a <span class="token operator">^</span> b
+a <span class="token operator">=</span> a <span class="token operator">^</span> b
+
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
 <span class="token keyword">def</span> <span class="token function">swap_func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token triple-quoted-string string">'''swap the contents of a and b
@@ -234,7 +242,11 @@ pointB <span class="token operator">=</span> <span class="token builtin">int</sp
 <td>consolidates all docstrings in one place (docs/README.md) in the repo</td>
 </tr>
 </tbody>
-</table>
+</table><h2 id="bonus-material">Bonus Material</h2>
+<h3 id="swap">Swap</h3>
+<p>There are actually 4 ways to do it. Please find all of them.<br>
+<a href="https://www.geeksforgeeks.org/python-program-to-swap-two-variables/">https://www.geeksforgeeks.org/python-program-to-swap-two-variables/</a></p>
+
     </div>
   </div>
 </body>
