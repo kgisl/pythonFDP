@@ -28,6 +28,7 @@
 <li><a href="#sample-output-2">Sample Output</a></li>
 <li><a href="#demo-2">Demo</a></li>
 <li><a href="#teaching-assets">Teaching Assets</a></li>
+<li><a href="#bonus-material">Bonus Material</a></li>
 </ul>
 </li>
 </ul>
@@ -44,28 +45,29 @@ a <span class="token operator">=</span> <span class="token builtin">int</span><s
 b <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 
 <span class="token comment"># using a temporary variable</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Swapping using temporary variable..."</span><span class="token punctuation">)</span>
 t <span class="token operator">=</span> a
 a <span class="token operator">=</span> b
 b <span class="token operator">=</span> t
 
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
+<span class="token comment"># using XOR operator, eliminating the need for 3rd variable</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Swapping using XOR operator..."</span><span class="token punctuation">)</span>
+a <span class="token operator">=</span> a <span class="token operator">^</span> b
+b <span class="token operator">=</span> a <span class="token operator">^</span> b
+a <span class="token operator">=</span> a <span class="token operator">^</span> b
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
 
 <span class="token keyword">def</span> <span class="token function">swap_func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token triple-quoted-string string">'''swap the contents of a and b
-
-    @author kgashok
-    @param a is global
-    @param b is global
-    @returns None
-    '''</span>
     <span class="token keyword">global</span> a<span class="token punctuation">,</span> b
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Swap function called"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"swap_func function called"</span><span class="token punctuation">)</span>
     a<span class="token punctuation">,</span> b <span class="token operator">=</span> b<span class="token punctuation">,</span> a
 
 
 swap_func<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># go back to their original values</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Did swap work?"</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Value of a is {a} and\nValue of b is {b}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>a<span class="token operator">=</span>a<span class="token punctuation">,</span> b<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span>
 
 </code></pre>
@@ -234,7 +236,11 @@ pointB <span class="token operator">=</span> <span class="token builtin">int</sp
 <td>consolidates all docstrings in one place (docs/README.md) in the repo</td>
 </tr>
 </tbody>
-</table>
+</table><h2 id="bonus-material">Bonus Material</h2>
+<h3 id="swap">Swap</h3>
+<p>There are actually 4 ways to do it. Please find all of them.<br>
+<a href="https://www.geeksforgeeks.org/python-program-to-swap-two-variables/">https://www.geeksforgeeks.org/python-program-to-swap-two-variables/</a></p>
+
     </div>
   </div>
 </body>
