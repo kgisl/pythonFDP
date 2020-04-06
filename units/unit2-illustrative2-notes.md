@@ -36,7 +36,7 @@ def swap_func():
     a, b = b, a
 
 
-swap_func()  # go back to their original values
+swap_func()  # a and b values get swapped again
 print("Value of a is {a} and\nValue of b is {b}".format(a=a, b=b))
 
 ```
