@@ -3572,14 +3572,15 @@ alist |  |
 
 
 
-### qsort
+### qsort_one_liner
+Authors: **kgashok**
 
-
+function implements qsort algorithm in recursive mode   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-array |  | 
+array | is list of numbers to be sorted | 
 
 
 
@@ -3865,7 +3866,7 @@ b | is global |
 ### mergesort
 Authors: **kgashok**
 
-mergesort implementation in an iterative fashion   
+iterative mergesort implementation   
 
 #### Parameters
 name | description | default
