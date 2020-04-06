@@ -75,8 +75,7 @@ file.
 1. Allen B. Downey, \`\`Think Python: How to Think Like a Computer
 Scientist‘‘, 2nd edition, Updated for Python 3, Shroff/O‘Reilly
 Publishers, 2016
-([http://greenteapress.com/wp/think-](http://greenteapress.com/wp/think-python/)[
-python/)](http://greenteapress.com/wp/think-python/)
+(Think Python V2 HTML](http://greenteapress.com/thinkpython2/html/index.html)
 
 2. Guido van Rossum and Fred L. Drake Jr, ―An Introduction to Python –
 Revised and updated for Python 3.2, Network Theory Ltd., 2011.
