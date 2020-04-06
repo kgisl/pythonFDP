@@ -159,7 +159,7 @@ run  `python3 distance.py` in [https://repl.it/@ashokb/unit-2-illustrative-progr
 | Memcode cards | [https://www.memcode.com/courses/2288/](https://www.memcode.com/courses/2288/review) | useful for classroom and personal review |
 | CyberDojo link | [http://cyberdojo1.kgfsl.com/kata/edit/Tx2Vqt](http://cyberdojo1.kgfsl.com/kata/edit/Tx2Vqt) | The super simple testing framework for capturing incremental coding sessions
 | Google Slides | [PDF version](https://github.com/kgisl/pythonFDP/blob/master/units/Unit%202%20-%20illustrative%20programs.pdf) | Or PPTx file is better?
-| Auto-generated documentation | [distance_between](https://github.com/kgisl/pythonFDP/blob/master/docs/README.md#distance_between) doctstring documentation | consolidates all docstrings in one place (docs/README.md) in the repo 
+| Auto-generated documentation | [distance_between](https://github.com/kgisl/pythonFDP/blob/master/docs/README.md#distance_between) doctstring documentation | consolidates all docstrings in one place ([docs/README.md](https://github.com/kgisl/pythonFDP/blob/master/docs/README.md)) in the repo 
 
 
 
