@@ -57,7 +57,7 @@ operator; command line arguments, errors and exceptions, handling
 exceptions, modules, packages; Illustrative programs: word count, copy
 file.
 
-# OUTCOMES:**
+# OUTCOMES:
 
 **Upon completion of the course, students will be able to**
 
