@@ -87,7 +87,7 @@ lines and performing computations.
 In the above diagram a python program is the source code and the interpreter
 translates and executes the statement.
 
-Fig 2.0. B
+![alt text](Unit2-img/2.1.png)
 
 In the above figure, notice that interpreter provide us a flexibility to
 translate every individual line separately. In case if any changes are made in
@@ -100,7 +100,8 @@ source code, and the translated program is called the object code or the
 executable. Once a program is compiled, you can execute it repeatedly without
 further translation.
 
-**Fig 2.0.3**
+
+![alt text](Unit2-img/Compiler.png)
 
 **2.1 Python Interpreter and its mode:**
 
@@ -122,6 +123,8 @@ statements execute.
 
 For example, the script executes and produces the output one by one.
 
+![alt text](Unit2-img/2.1.1.png)
+
 **2.1.2 Interactive Mode**
 
 To start python interactive mode follows the steps
@@ -132,11 +135,16 @@ To start python interactive mode follows the steps
 
 When it starts, you should see output like this:
 
+![alt text](Unit2-img/interpreter 2.png)
+
 The first three lines contain information about the interpreter and the
 operating system it's running on. The last line is a prompt that indicates that
 the interpreter is ready for you to enter code.
 
 If you type a line of code and hit Enter, the interpreter displays the result:
+                
+                >>> 1 + 1
+                    2
 
 The basic method for working with interactive mode is simply this:
 
@@ -146,7 +154,12 @@ The basic method for working with interactive mode is simply this:
 
 Let try to increment a value in the interactive mode
 
+![alt text](Unit2-img/2.1.4.png)
+
 Let's try it with a variable
+
+![alt text](Unit2-img/2.1.5.png)
+
 
 As you can observe the interactive interpreter automatically prints the results
 of expressions, you do not need to type complete print statements interactively.
