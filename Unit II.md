@@ -1,6 +1,11 @@
 **UNIT II**
 
+___
+
+
 **DATA, EXPRESSIONS, STATEMENTS**
+
+___
 
 Python interpreter and interactive mode - values and types: int, float, boolean,
 string, and list- variables, expressions, statements-tuple assignment-
@@ -8,6 +13,8 @@ precedence of operators - comments; Modules and functions - function definition
 and use - flow of execution - Parameters and arguments - Illustrative programs:
 exchange the values of two variables, circulate the values of n variables,
 [distance between two points](http://j.mp/twoPoints).
+
+___
 
 **TABLE OF CONTENTS**
 
