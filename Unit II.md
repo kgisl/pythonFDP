@@ -1,10 +1,6 @@
 **UNIT II**
 
-**\________________________________________________________________________________________________________\_**
-
 **DATA, EXPRESSIONS, STATEMENTS**
-
-**\________________________________________________________________________________________________________\_**
 
 Python interpreter and interactive mode - values and types: int, float, boolean,
 string, and list- variables, expressions, statements-tuple assignment-
@@ -13,11 +9,9 @@ and use - flow of execution - Parameters and arguments - Illustrative programs:
 exchange the values of two variables, circulate the values of n variables,
 [distance between two points](http://j.mp/twoPoints).
 
-**\________________________________________________________________________________________________________\_**
+**TABLE OF CONTENTS**
 
-**Table of Contents**
-
--   Unit II – Data, Expressions and Statements
+-   Unit II -- Data, Expressions and Statements
 
     -   The Python Programming language
 
@@ -46,6 +40,22 @@ exchange the values of two variables, circulate the values of n variables,
     -   Operators and Precedence
 
         -   Operators
+
+        -   Precedence of Operator
+
+    -   Comments
+
+    -   Modules and Functions
+
+        -   Function Definition
+
+        -   Function Call
+
+        -   Flow of Execution
+
+        -   Parameter and Arguments
+
+        -   Modules
 
 **2.0 The Python programming language**
 
@@ -103,13 +113,7 @@ the Python interpreter. A script usually contains a sequence of statements. If
 there is more than one statement, the results appear one at a time as the
 statements execute.
 
-For example, the script
-
-Produces the output
-
-1
-
-2
+For example, the script executes and produces the output one by one.
 
 **2.1.2 Interactive Mode**
 
@@ -122,12 +126,12 @@ To start python interactive mode follows the steps
 When it starts, you should see output like this:
 
 The first three lines contain information about the interpreter and the
-operating system it’s running on. The last line is a prompt that indicates that
+operating system it's running on. The last line is a prompt that indicates that
 the interpreter is ready for you to enter code.
 
 If you type a line of code and hit Enter, the interpreter displays the result:
 
-The basic method for working with interactive mode is simply this :
+The basic method for working with interactive mode is simply this:
 
 -   Type a Statement or Expression
 
@@ -135,7 +139,7 @@ The basic method for working with interactive mode is simply this :
 
 Let try to increment a value in the interactive mode
 
-Let’s try it with a variable
+Let's try it with a variable
 
 As you can observe the interactive interpreter automatically prints the results
 of expressions, you do not need to type complete print statements interactively.
@@ -164,9 +168,10 @@ determine the value type.
 
 **Integers**
 
-In Python, there is no limit to how long an integer value can be. Of course, it
-is constrained by the amount of memory your system has but beyond that an
-integer can be as long as you need it to be:
+An integer is a number without decimal point. In Python, there is no limit to
+how long an integer value can be. Of course, it is constrained by the amount of
+memory your system has but beyond that an integer can be as long as you need it
+to be:
 
 Python interprets a sequence of decimal digits without any prefix to be a
 decimal number:
@@ -174,11 +179,11 @@ decimal number:
 The following strings can be prepended to an integer value to indicate a base
 other than base 10 numbers.
 
-0b or 0B – Binary
+0b or 0B -- Binary
 
-0o or 0O– Octal
+0o or 0O-- Octal
 
-0x or 0X – Hexadecimal
+0x or 0X -- Hexadecimal
 
 **Floating-Point Numbers**
 
@@ -221,20 +226,20 @@ Let briefly discuss about variables, expression and statements.
 
 1.  **Variables**
 
--   Variables refer to a value. Every variable has a name associated with it.
-    There are rules usually programmers follow in naming a variable.
+Variables refer to a value. Every variable has a name associated with it. There
+are rules usually programmers follow in naming a variable.
 
 -   A variable name can contain both letter and numbers but they can\`t begin
     with a number.
 
--   Ex., **number1** is legal, but **1drivelink** is illegal.
+Ex., **number1** is legal, but **1drivelink** is illegal.
 
 -   It is legal to use uppercase letters, but it is conventional to use only
     lowercase for variables names.
 
 -   The underscore character, \_ , can appear in a name.
 
--   Ex., your_name or airspeed_of_unladen_swallow.
+Ex., your_name or airspeed_of_unladen_swallow.
 
 -   A variable name cannot be a keyword.
 
@@ -399,23 +404,23 @@ operators in python also follow the same rule.
 -   Parentheses have the highest precedence and can be used to force an
     expression to evaluate in the order you want.
 
--   **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
+**Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
 
 -   Exponentiation has the next highest precedence.
 
--   **Example:** 1 + 2\*\*3 is 9, not 27
+**Example:** 1 + 2\*\*3 is 9, not 27
 
 -   Multiplication and Division have higher precedence than Addition and
     Subtraction.
 
--   **Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
+**Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
 
 -   Operators with the same precedence are evaluated from left to right
 
--   **Example:** degrees / 2 \* pi, here division is performed first and then
-    multiplication happens.
+**Example:** degrees / 2 \* pi, here division is performed first and then
+multiplication happens.
 
--   More details on this are in the bonus section. Please refer to it.
+More details on this are in the bonus section. Please refer to it.
 
 **2.6 COMMENTS**
 
@@ -488,16 +493,16 @@ is given below,
 
 **FLOW OF EXECUTION**
 
-The order in which statements are executed in a program is called flow of
+The order in which statements are **executed in a program is called flow of
 execution. Execution always begins at the first statement of the program.
-Statements are executed one at a time, in order from top to bottom.
+Statements are executed one at a time, in order from top to bottom.**
 
 A function is defined before its first use. Function definitions do not alter
-the flow of execution of the program as functions don’t run until they are
+the flow of execution of the program as functions don't run until they are
 called. A function call is like a detour in the flow of execution. Instead of
 going to the next statement, the flow jumps to the body of the function, runs
 the statements there, and then comes back to pick up where it left off. To put
-it together, when you read a program, you don’t always want to read from top to
+it together, when you read a program, you don't always want to read from top to
 bottom. Sometimes it makes more sense if you follow the flow of execution.
 
 **PARAMETERS AND ARGUMENTS**
@@ -510,7 +515,7 @@ invoked.
 
 Some of the functions we have seen require arguments. For example, when you call
 **Display_Greetings** you pass a name as an argument. Some functions take more
-than one argument
+than one argument.
 
 Here is a definition for a function that takes an argument:
 
@@ -520,7 +525,7 @@ function is called, it prints the value of the parameter (whatever it is) twice.
 We can also use any kind of expression as an argument for **print_twice:**
 
 The argument is evaluated before the function is called, so in the examples the
-expressions “john” \*2 is only evaluated once.
+expressions "john" \*2 is only evaluated once.
 
 Another important point to note here is that parameter that we use in a function
 only exists inside the function. In the above example, the parameter **name**
