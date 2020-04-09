@@ -224,7 +224,7 @@ statements.
 
 Let briefly discuss about variables, expression and statements.
 
-1.  **Variables**
+**2.3.1 Variables**
 
 Variables refer to a value. Every variable has a name associated with it. There
 are rules usually programmers follow in naming a variable.
