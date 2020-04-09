@@ -75,7 +75,7 @@ languages:
 An **interpreter** processes the program a little at a time, alternately reading
 lines and performing computations.
 
-Fig.2.0A
+![alt text](Unit2-img/interpreter.png)
 
 In the above diagram a python program is the source code and the interpreter
 translates and executes the statement.
