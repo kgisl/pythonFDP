@@ -186,12 +186,16 @@ belong to str, and floating point numbers belong to float.
 If you are not sure what type a value has, then using type method we can
 determine the value type.
 
+![alt text](Unit2-img/2.2.1.png)
+
 **Integers**
 
 An integer is a number without decimal point. In Python, there is no limit to
 how long an integer value can be. Of course, it is constrained by the amount of
 memory your system has but beyond that an integer can be as long as you need it
 to be:
+
+![alt text](Unit2-img/2.2.1.png)
 
 Python interprets a sequence of decimal digits without any prefix to be a
 decimal number:
@@ -205,11 +209,16 @@ other than base 10 numbers.
 
 0x or 0X -- Hexadecimal
 
+
+![alt text](Unit2-img/2.2.3.png)
+
 **Floating-Point Numbers**
 
 The float type in Python designates a floating-point number. Float values are
 specified with a decimal point. Optionally, the character e or E followed by a
 positive or negative integer may be appended to specify scientific notation.
+
+![alt text](Unit2-img/2.2.4.png)
 
 **Strings:**
 
@@ -218,11 +227,15 @@ str. String literals may be delimited using either single or double quotes. All
 the characters between the opening delimiter and matching closing delimiter are
 part of the string.
 
+![alt text](Unit2-img/2.2.5.png)
+
 **Boolean Type**
 
 Python provides a Boolean data type. Objects of Boolean type may have one of two
 values, True or False. Expressions in Python are often evaluated in Boolean
 context, meaning they are interpreted to represent truth or falsehood.
+
+![alt text](Unit2-img/boolean.png)
 
 **List:**
 
@@ -231,6 +244,8 @@ written with square brackets.
 
 A list can contain different types of data\`s in it. The example above shows
 integer, float and string data being present in it.
+
+![alt text](Unit2-img/2.2.6.png)
 
 **2.3 VARIABLES, EXPRESSION AND STATEMENT**
 
@@ -263,6 +278,8 @@ Ex., your_name or airspeed_of_unladen_swallow.
 
 -   A variable name cannot be a keyword.
 
+![alt text](Unit2-img/2.3.1.png)
+
 As you can observe the when the variable name 1drivelink is used, which is an
 illegal naming convention, the interpreter throws a syntax error. Also by using
 the variable class also throws an error, as it is a keyword.
@@ -270,6 +287,8 @@ the variable class also throws an error, as it is a keyword.
 Keywords are reserved words which are used by the interpreter to recognize the
 structure of the program, and they cannot be used as variable names. Python has
 the following keywords:
+
+![alt text](Unit2-img/2.3.2.png)
 
 **2.3.2 Expressions and Statements**
 
@@ -287,15 +306,17 @@ A **statement** is a unit of code that the Python interpreter can execute.
 
 **Example:**
 
-\>\>\> n = 17
+            >>> n = 17
 
-\>\>\> print (n)
+            >>> print (n)
 
 In the above example. The first line is an assignment statement and the second
 line is a print statement.
 
 A python program contains a sequence of statements. If there is more than one
 statement, the results appear one at a time as the statements execute.
+
+![alt text](Unit2-img/2.3.3.png)
 
 **2.4 Tuple Assignment**
 
@@ -304,9 +325,13 @@ are, the tuples cannot be changed unlike lists and tuples use parentheses,
 whereas lists use square brackets. Creating a tuple is as simple as putting
 different comma-separated values.
 
+![alt text](Unit2-img/tuple1.png)
+
 Tuple Assignment is a powerful feature in python that allows a tuple of
 variables on the left of an assignment to be assigned values from a tuple on the
 right of the assignment.
+
+![alt text](Unit2-img/tuple2.png)
 
 As you observe the above example dayorder is a tuple that is assigned to a tuple
 of variables. This is like assigning six variables in one stretch. Now if you
@@ -330,6 +355,10 @@ There are various types of operators,
 -   Comparison Operator
 
 -   Logical Operator
+
+-   Identity Operator
+
+-   Membership Operator
 
 **Arithmetic operators**
 
@@ -457,6 +486,8 @@ section of code.
 
 percentage = (minute \* 100) / 60
 
+![alt text](Unit2-img/comments.png)
+
 In the above example the first line starts with a comment, during execution the
 interpreter ignores executing the line. Comments are merely used to help
 developer understand verbally what each section of code is dedicated to achieve.
@@ -500,6 +531,8 @@ called the body.
 
 7.  An optional return statement to return a value from the function.
 
+![alt text](Unit2-img/function.png)
+
 The above example defines a function named Display_Greetings. The function
 accepts a person name as argument and displays a welcome message to him.
 
@@ -510,6 +543,10 @@ or even the Python prompt. To call a function we simply type the function name
 followed by parenthesis with appropriate parameters. The above example calls the
 function by its name Display_Greetings along with a parameter. Another example
 is given below,
+
+![alt text](Unit2-img/function2.png)
+
+![alt text](Unit2-img/function3.png)
 
 **FLOW OF EXECUTION**
 
@@ -539,10 +576,16 @@ than one argument.
 
 Here is a definition for a function that takes an argument:
 
+![alt text](Unit2-img/parameter 1.png)
+
+![alt text](Unit2-img/parameter2.png)
+
 This function assigns the argument to a parameter named **name.** When the
 function is called, it prints the value of the parameter (whatever it is) twice.
 
 We can also use any kind of expression as an argument for **print_twice:**
+
+![alt text](Unit2-img/parameter3.png)
 
 The argument is evaluated before the function is called, so in the examples the
 expressions "john" \*2 is only evaluated once.
@@ -551,6 +594,8 @@ Another important point to note here is that parameter that we use in a function
 only exists inside the function. In the above example, the parameter **name**
 only exist in the function print_twice, if we try to print it outside the
 function then it will pop an error.
+
+![alt text](Unit2-img/parameter4.png)
 
 **MODULE:**
 
@@ -567,10 +612,16 @@ the functions and variables defined in the module. To access one of the
 functions, you have to specify the name of the module and the name of the
 function, separated by a. This format is called dot notation.
 
+![alt text](Unit2-img/parameter 1.png)
+
 In the above figure two math functions were called, one find the square root of
 a number and the other prints the power of a number.
 
+___
+
 **Bonus Section:**
+
+___
 
 **Bitwise Operators**
 
