@@ -1,6 +1,10 @@
-**PROBLEM SOLVING AND PYTHON PROGRAMMING**
+**UNIT II**
 
-**UNIT II - DATA, EXPRESSIONS, STATEMENTS**
+**\___________________________________________________\_**
+
+**DATA, EXPRESSIONS, STATEMENTS**
+
+**\___________________________________________________\_**
 
 Python interpreter and interactive mode - values and types: int, float, boolean,
 string, and list- variables, expressions, statements-tuple assignment-
@@ -8,6 +12,8 @@ precedence of operators - comments; Modules and functions - function definition
 and use - flow of execution - Parameters and arguments - Illustrative programs:
 exchange the values of two variables, circulate the values of n variables,
 [distance between two points](http://j.mp/twoPoints).
+
+**\___________________________________________________\_**
 
 **Table of Contents**
 
@@ -59,14 +65,10 @@ languages:
 An **interpreter** processes the program a little at a time, alternately reading
 lines and performing computations.
 
-![](media/9c0bb803c94c0d29dab48895d649bb91.png)
-
 Fig.2.0A
 
 In the above diagram a python program is the source code and the interpreter
 translates and executes the statement.
-
-![](media/fcece5b1afe1029991c26fbee7b6233b.png)
 
 Fig 2.0. B
 
@@ -80,8 +82,6 @@ before the program starts running. Here the high-level program is called the
 source code, and the translated program is called the object code or the
 executable. Once a program is compiled, you can execute it repeatedly without
 further translation.
-
-![](media/cfbbeaab47a1c59de6140214042377b3.png)
 
 **Fig 2.0.3**
 
@@ -105,8 +105,6 @@ statements execute.
 
 For example, the script
 
-![](media/d6bc0d9576fd2049ed245f89642b56e0.png)
-
 Produces the output
 
 1
@@ -123,15 +121,11 @@ To start python interactive mode follows the steps
 
 When it starts, you should see output like this:
 
-![](media/931654be5f34e2ae982a1539ff7affbf.png)
-
 The first three lines contain information about the interpreter and the
 operating system it’s running on. The last line is a prompt that indicates that
 the interpreter is ready for you to enter code.
 
 If you type a line of code and hit Enter, the interpreter displays the result:
-
-![](media/c23da24312767654f73d09f8bbbc1f63.png)
 
 The basic method for working with interactive mode is simply this :
 
@@ -141,11 +135,7 @@ The basic method for working with interactive mode is simply this :
 
 Let try to increment a value in the interactive mode
 
-![](media/231ddd838c8f9691d858dc8432f7435a.png)
-
 Let’s try it with a variable
-
-![](media/c936712592677234a2ab277f1594aae1.png)
 
 As you can observe the interactive interpreter automatically prints the results
 of expressions, you do not need to type complete print statements interactively.
@@ -172,15 +162,11 @@ belong to str, and floating point numbers belong to float.
 If you are not sure what type a value has, then using type method we can
 determine the value type.
 
-![](media/bd1a5ddcccce00cd7bc30f4f42341d83.png)
-
 **Integers**
 
 In Python, there is no limit to how long an integer value can be. Of course, it
 is constrained by the amount of memory your system has but beyond that an
 integer can be as long as you need it to be:
-
-![](media/180d240932600016a16ff937eb5628d2.png)
 
 Python interprets a sequence of decimal digits without any prefix to be a
 decimal number:
@@ -194,15 +180,11 @@ other than base 10 numbers.
 
 0x or 0X – Hexadecimal
 
-![](media/32a2e7eb4cb930ba9fdc92eb20a67d67.png)
-
 **Floating-Point Numbers**
 
 The float type in Python designates a floating-point number. Float values are
 specified with a decimal point. Optionally, the character e or E followed by a
 positive or negative integer may be appended to specify scientific notation.
-
-![](media/0ed3a2a1ac80f61c4702e78bfd75f2ee.png)
 
 **Strings:**
 
@@ -211,22 +193,16 @@ str. String literals may be delimited using either single or double quotes. All
 the characters between the opening delimiter and matching closing delimiter are
 part of the string.
 
-![](media/25495947e3746e0fcca92f6fa994436a.png)
-
 **Boolean Type**
 
 Python provides a Boolean data type. Objects of Boolean type may have one of two
 values, True or False. Expressions in Python are often evaluated in Boolean
 context, meaning they are interpreted to represent truth or falsehood.
 
-![](media/28c9d08e9c45ab5aee19ac68c42db8ba.png)
-
 **List:**
 
 A list is a collection which is ordered and changeable. In Python lists are
 written with square brackets.
-
-![](media/e7469dcc8264c692fafed293fb8cbd73.png)
 
 A list can contain different types of data\`s in it. The example above shows
 integer, float and string data being present in it.
@@ -262,8 +238,6 @@ Let briefly discuss about variables, expression and statements.
 
 -   A variable name cannot be a keyword.
 
-![](media/9ee737a258a8920cbf6131fba5aaa944.png)
-
 As you can observe the when the variable name 1drivelink is used, which is an
 illegal naming convention, the interpreter throws a syntax error. Also by using
 the variable class also throws an error, as it is a keyword.
@@ -271,8 +245,6 @@ the variable class also throws an error, as it is a keyword.
 Keywords are reserved words which are used by the interpreter to recognize the
 structure of the program, and they cannot be used as variable names. Python has
 the following keywords:
-
-![](media/0e28099f8e85c8de98208f0bbc93b6bf.png)
 
 **2.3.2 Expressions and Statements**
 
@@ -300,8 +272,6 @@ line is a print statement.
 A python program contains a sequence of statements. If there is more than one
 statement, the results appear one at a time as the statements execute.
 
-![](media/014a79080e2fe45400e917346d84e247.png)
-
 **2.4 Tuple Assignment**
 
 Tuples are sequences, just like lists. The differences between tuples and lists
@@ -309,13 +279,9 @@ are, the tuples cannot be changed unlike lists and tuples use parentheses,
 whereas lists use square brackets. Creating a tuple is as simple as putting
 different comma-separated values.
 
-![](media/948a632343c9ac57659780b17344bc18.png)
-
 Tuple Assignment is a powerful feature in python that allows a tuple of
 variables on the left of an assignment to be assigned values from a tuple on the
 right of the assignment.
-
-![](media/b36e0bc419f0c5efb639fe1c2bfa7e45.png)
 
 As you observe the above example dayorder is a tuple that is assigned to a tuple
 of variables. This is like assigning six variables in one stretch. Now if you
@@ -449,7 +415,7 @@ operators in python also follow the same rule.
 -   **Example:** degrees / 2 \* pi, here division is performed first and then
     multiplication happens.
 
-    More details on this are in the bonus section. Please refer to it.
+-   More details on this are in the bonus section. Please refer to it.
 
 **2.6 COMMENTS**
 
@@ -465,8 +431,6 @@ section of code.
 \#computes the percentage of the hour that has elapsed
 
 percentage = (minute \* 100) / 60
-
-![](media/6813e501503f5b4a633f1876df94ed15.png)
 
 In the above example the first line starts with a comment, during execution the
 interpreter ignores executing the line. Comments are merely used to help
@@ -511,8 +475,6 @@ called the body.
 
 7.  An optional return statement to return a value from the function.
 
-![](media/cda9294bb9ce9618eb28d9d93bb05ba6.png)
-
 The above example defines a function named Display_Greetings. The function
 accepts a person name as argument and displays a welcome message to him.
 
@@ -523,10 +485,6 @@ or even the Python prompt. To call a function we simply type the function name
 followed by parenthesis with appropriate parameters. The above example calls the
 function by its name Display_Greetings along with a parameter. Another example
 is given below,
-
-![](media/6ebd5c8e56ff7efd0e2133e61e5bd1e2.png)
-
-![](media/9a9f6524732b871886773eae5ba9b10c.png)
 
 **FLOW OF EXECUTION**
 
@@ -556,16 +514,10 @@ than one argument
 
 Here is a definition for a function that takes an argument:
 
-![](media/3808b285f4cdb3eb25cad49ae6bc22fe.png)
-
-![](media/bd4ac37f35d4df2aea85bf3efeaa5c9b.png)
-
 This function assigns the argument to a parameter named **name.** When the
 function is called, it prints the value of the parameter (whatever it is) twice.
 
 We can also use any kind of expression as an argument for **print_twice:**
-
-![](media/728e76d7b78ce9ec204fbf946632b007.png)
 
 The argument is evaluated before the function is called, so in the examples the
 expressions “john” \*2 is only evaluated once.
@@ -574,8 +526,6 @@ Another important point to note here is that parameter that we use in a function
 only exists inside the function. In the above example, the parameter **name**
 only exist in the function print_twice, if we try to print it outside the
 function then it will pop an error.
-
-![](media/3189c6ff463265807599aba2861e854f.png)
 
 **MODULE:**
 
@@ -591,8 +541,6 @@ This statement creates a module object named math. The module object contains
 the functions and variables defined in the module. To access one of the
 functions, you have to specify the name of the module and the name of the
 function, separated by a. This format is called dot notation.
-
-![](media/be34d5192c739029c5ad124d5b6ea04b.png)
 
 In the above figure two math functions were called, one find the square root of
 a number and the other prints the power of a number.
