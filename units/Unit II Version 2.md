@@ -378,7 +378,7 @@ subtraction, multiplication etc.
 | //           | Floor division - division that results into whole number adjusted to the left in the number line | x // y                    |
 | \*\*         | Exponent - left operand raised to the power of right                                             | x\*\*y (x to the power y) |
 
-![alt text](units/Unit2-img/Arithmetic.PNG)
+![arithmetic](units/Unit2-img/Arithmetic.png)
 
 **Comparison operators:**
 
@@ -407,7 +407,7 @@ provides a resultant truth value.
 | or           | True if either of the operands is true             | x or y      |
 | not          | True if operand is false (complements the operand) | not x       |
 
-![alt text](units/Unit2-img/Logical.PNG)
+![logical](units/Unit2-img/Logical.png)
 
 **Assignment operators**
 
@@ -430,7 +430,7 @@ variable and later assigns the same. It is equivalent to a = a + 5.
 | //=          | x //= 5     | x = x // 5        |
 | \*\*=        | x \*\*= 5   | x = x \*\* 5      |
 
-![alt text](units/Unit2-img/AssignmentOP.PNG)
+![operators](units/Unit2-img/AssignmentOP.png)
 
 **Identity operators**
 
