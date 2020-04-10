@@ -1,9 +1,9 @@
-**UNIT II**
+##**UNIT II**
 
 ___
 
 
-**DATA, EXPRESSIONS, STATEMENTS**
+##**DATA, EXPRESSIONS, STATEMENTS**
 
 ___
 
@@ -544,15 +544,15 @@ followed by parenthesis with appropriate parameters. The above example calls the
 function by its name Display_Greetings along with a parameter. Another example
 is given below,
 
-![alt text](Unit2-img/function2.png)
+![alt text](Unit2-img/funct2.png)
 
-![alt text](Unit2-img/function3.png)
+![alt text](Unit2-img/function 3.png)
 
-**FLOW OF EXECUTION**
+2.7.2 **FLOW OF EXECUTION**
 
-The order in which statements are **executed in a program is called flow of
+The order in which statements are executed in a program is called flow of
 execution. Execution always begins at the first statement of the program.
-Statements are executed one at a time, in order from top to bottom.**
+Statements are executed one at a time, in order from top to bottom.
 
 A function is defined before its first use. Function definitions do not alter
 the flow of execution of the program as functions don't run until they are
@@ -562,7 +562,7 @@ the statements there, and then comes back to pick up where it left off. To put
 it together, when you read a program, you don't always want to read from top to
 bottom. Sometimes it makes more sense if you follow the flow of execution.
 
-**PARAMETERS AND ARGUMENTS**
+2.7.3 **PARAMETERS AND ARGUMENTS**
 
 Parameter is a variable defined by a function that receives a value when the
 function is called.
@@ -585,7 +585,7 @@ function is called, it prints the value of the parameter (whatever it is) twice.
 
 We can also use any kind of expression as an argument for **print_twice:**
 
-![alt text](Unit2-img/parameter3.png)
+![alt text](Unit2-img/Parameter3.png)
 
 The argument is evaluated before the function is called, so in the examples the
 expressions "john" \*2 is only evaluated once.
@@ -612,14 +612,14 @@ the functions and variables defined in the module. To access one of the
 functions, you have to specify the name of the module and the name of the
 function, separated by a. This format is called dot notation.
 
-![alt text](Unit2-img/parameter 1.png)
+![alt text](Unit2-img/module.png)
 
 In the above figure two math functions were called, one find the square root of
 a number and the other prints the power of a number.
 
 ___
 
-**Bonus Section:**
+##**Bonus Section:**
 
 ___
 
