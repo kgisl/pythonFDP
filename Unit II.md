@@ -12,7 +12,7 @@ string, and list- variables, expressions, statements-tuple assignment-
 precedence of operators - comments; Modules and functions - function definition
 and use - flow of execution - Parameters and arguments - Illustrative programs:
 exchange the values of two variables, circulate the values of n variables,
-[distance between two points](http://j.mp/twoPoints).
+distance between two points.
 
 ___
 
@@ -152,7 +152,7 @@ The basic method for working with interactive mode is simply this:
 
 -   Press the Enter Key
 
-Let try to increment a value in the interactive mode
+Let's try to increment a value in the interactive mode
 
 ![alt text](Unit2-img/2.1.4.png)
 
@@ -203,11 +203,11 @@ decimal number:
 The following strings can be prepended to an integer value to indicate a base
 other than base 10 numbers.
 
-0b or 0B -- Binary
+        0b or 0B -- Binary
 
-0o or 0O-- Octal
+        0o or 0O-- Octal
 
-0x or 0X -- Hexadecimal
+        0x or 0X -- Hexadecimal
 
 
 ![alt text](Unit2-img/2.2.3.png)
@@ -453,21 +453,21 @@ operators in python also follow the same rule.
 -   Parentheses have the highest precedence and can be used to force an
     expression to evaluate in the order you want.
 
-**Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
+        **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
 
 -   Exponentiation has the next highest precedence.
 
-**Example:** 1 + 2\*\*3 is 9, not 27
+        **Example:** 1 + 2\*\*3 is 9, not 27
 
 -   Multiplication and Division have higher precedence than Addition and
     Subtraction.
 
-**Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
+        **Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
 
 -   Operators with the same precedence are evaluated from left to right
 
-**Example:** degrees / 2 \* pi, here division is performed first and then
-multiplication happens.
+        **Example:** degrees / 2 \* pi, here division is performed first and then
+          multiplication happens.
 
 More details on this are in the bonus section. Please refer to it.
 
@@ -585,7 +585,7 @@ function is called, it prints the value of the parameter (whatever it is) twice.
 
 We can also use any kind of expression as an argument for **print_twice:**
 
-![alt text](Unit2-img/parameter3.png)
+![alt text](Unit2-img/Parameter3.png)
 
 The argument is evaluated before the function is called, so in the examples the
 expressions "john" \*2 is only evaluated once.
