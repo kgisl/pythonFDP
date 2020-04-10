@@ -242,10 +242,12 @@ context, meaning they are interpreted to represent truth or falsehood.
 A list is a collection which is ordered and changeable. In Python lists are
 written with square brackets.
 
+![alt text](Unit2-img/2.2.6.png)
+
 A list can contain different types of data\`s in it. The example above shows
 integer, float and string data being present in it.
 
-![alt text](Unit2-img/2.2.6.png)
+
 
 **2.3 VARIABLES, EXPRESSION AND STATEMENT**
 
@@ -548,7 +550,7 @@ is given below,
 
 ![alt text](Unit2-img/function3.png)
 
-2.7.2 **FLOW OF EXECUTION**
+**2.7.2 FLOW OF EXECUTION**
 
 The order in which statements are executed in a program is called flow of
 execution. Execution always begins at the first statement of the program.
@@ -562,7 +564,7 @@ the statements there, and then comes back to pick up where it left off. To put
 it together, when you read a program, you don't always want to read from top to
 bottom. Sometimes it makes more sense if you follow the flow of execution.
 
-2.7.3 **PARAMETERS AND ARGUMENTS**
+**2.7.3 PARAMETERS AND ARGUMENTS**
 
 Parameter is a variable defined by a function that receives a value when the
 function is called.
