@@ -378,7 +378,7 @@ subtraction, multiplication etc.
 | //           | Floor division - division that results into whole number adjusted to the left in the number line | x // y                    |
 | \*\*         | Exponent - left operand raised to the power of right                                             | x\*\*y (x to the power y) |
 
-![alt text](units/Unit2-img/Arithmetic.PNG)
+![alt text](units/Unit2-img/Arithmetic.png)
 
 **Comparison operators:**
 
@@ -394,7 +394,7 @@ according to the condition.
 | \>=          | Greater than or equal to - True if left operand is greater than or equal to the right. | x \>= y     |
 | \<=          | Less than or equal to - True if left operand is less than or equal to the right        | x \<= y     |
 
-![alt text](units/Unit2-img/comparision.PNG)
+![alt text](units/Unit2-img/comparision.png)
 
 **Logical operators:**
 
@@ -407,7 +407,7 @@ provides a resultant truth value.
 | or           | True if either of the operands is true             | x or y      |
 | not          | True if operand is false (complements the operand) | not x       |
 
-![alt text](units/Unit2-img/Logical.PNG)
+![alt text](units/Unit2-img/Logical.png)
 
 **Assignment operators**
 
@@ -430,7 +430,7 @@ variable and later assigns the same. It is equivalent to a = a + 5.
 | //=          | x //= 5     | x = x // 5        |
 | \*\*=        | x \*\*= 5   | x = x \*\* 5      |
 
-![alt text](units/Unit2-img/AssignmentOP.PNG)
+![alt text](units/Unit2-img/AssignmentOP.png)
 
 **Identity operators**
 
@@ -442,7 +442,7 @@ location or not.
 | is           | True if the operands are identical (refer to the same object)            | x is True     |
 | is not       | True if the operands are not identical (do not refer to the same object) | x is not True |
 
-![alt text](units/Unit2-img/identity.PNG)
+![alt text](units/Unit2-img/identity.png)
 
 **Membership Operators**
 
@@ -456,7 +456,7 @@ string or list.
 | not in       | True if value/variable is not found in the sequence | 5 not in x  |
 
 
-![alt text](units/Unit2-img/membershipopr.PNG)
+![alt text](units/Unit2-img/membershipopr.png)
 
 **2.5.2 Operator Precedence**
 
