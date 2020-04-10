@@ -84,6 +84,7 @@ lines and performing computations.
 
 ![alt text](Unit2-img/interpreter.png)
 
+
 In the above diagram a python program is the source code and the interpreter
 translates and executes the statement.
 
