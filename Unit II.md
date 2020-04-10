@@ -1,9 +1,9 @@
-##**UNIT II**
+## **UNIT II**
 
 ___
 
 
-##**DATA, EXPRESSIONS, STATEMENTS**
+## **DATA, EXPRESSIONS, STATEMENTS**
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
         -   Function Definition
 
-        -   Function Call
+            -   Function Call
 
         -   Flow of Execution
 
@@ -135,7 +135,7 @@ To start python interactive mode follows the steps
 
 When it starts, you should see output like this:
 
-![alt text](Unit2-img/interpreter 2.png)
+![alt text](Unit2-img/interpreter2.png)
 
 The first three lines contain information about the interpreter and the
 operating system it's running on. The last line is a prompt that indicates that
@@ -267,14 +267,14 @@ are rules usually programmers follow in naming a variable.
 -   A variable name can contain both letter and numbers but they can\`t begin
     with a number.
 
-Ex., **number1** is legal, but **1drivelink** is illegal.
+        Ex., **number1** is legal, but **1drivelink** is illegal.
 
 -   It is legal to use uppercase letters, but it is conventional to use only
     lowercase for variables names.
 
 -   The underscore character, \_ , can appear in a name.
 
-Ex., your_name or airspeed_of_unladen_swallow.
+        Ex., your_name or airspeed_of_unladen_swallow.
 
 -   A variable name cannot be a keyword.
 
@@ -350,11 +350,11 @@ There are various types of operators,
 
 -   Arithmetic Operator
 
--   Assignment Operator
-
 -   Comparison Operator
 
 -   Logical Operator
+
+-   Assignment Operator
 
 -   Identity Operator
 
@@ -473,7 +473,7 @@ More details on this are in the bonus section. Please refer to it.
 
 **2.6 COMMENTS**
 
-A **comment** is text that doesn't affect the outcome of a code. It is just a
+A **comment** is a text that doesn't affect the outcome of a code. It is just a
 piece of text to let someone know what you have done in a program or what is
 being done in a block of code.
 
@@ -504,11 +504,11 @@ function, it has to be defined first.
 
 Syntax for function definition:
 
-def function_name (parameters):
+    def function_name (parameters):
 
-"""docstring"""
-
-statement(s)
+        """docstring"""
+    
+        statement(s)
 
 The first line of the function definition is called the header. The rest is
 called the body.
@@ -546,7 +546,7 @@ is given below,
 
 ![alt text](Unit2-img/funct2.png)
 
-![alt text](Unit2-img/function 3.png)
+![alt text](Unit2-img/function3.png)
 
 2.7.2 **FLOW OF EXECUTION**
 
@@ -576,7 +576,7 @@ than one argument.
 
 Here is a definition for a function that takes an argument:
 
-![alt text](Unit2-img/parameter 1.png)
+![alt text](Unit2-img/parameter1.png)
 
 ![alt text](Unit2-img/parameter2.png)
 
@@ -585,7 +585,7 @@ function is called, it prints the value of the parameter (whatever it is) twice.
 
 We can also use any kind of expression as an argument for **print_twice:**
 
-![alt text](Unit2-img/Parameter3.png)
+![alt text](Unit2-img/parameter3.png)
 
 The argument is evaluated before the function is called, so in the examples the
 expressions "john" \*2 is only evaluated once.
@@ -619,7 +619,7 @@ a number and the other prints the power of a number.
 
 ___
 
-##**Bonus Section:**
+## **Bonus Section:**
 
 ___
 
@@ -669,6 +669,8 @@ group has higher precedence than the lower ones.
 | Not                                              | Logical NOT                                       |
 | And                                              | Logical AND                                       |
 | Or                                               | Logical OR                                        |
+
+## **MODULE**
 
 **What is math module in Python?**
 
