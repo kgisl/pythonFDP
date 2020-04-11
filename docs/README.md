@@ -4,11 +4,13 @@
 
 **[PokerHand](PokerHand.md)**: Represents a poker hand. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
 
@@ -18,7 +20,8 @@ attributes: x, y
 **[Rectangle](Rectangle.md)**: Represents a rectangle.   
 attributes: width, height, corner. 
 
-**[Time](Time.md)**: Represents the time of day.  attributes: hour, minute, second 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
 
 **[Card](Card.md)**: Represents a standard playing card.   
 Attributes: suit: integer 0-3 rank: integer 1-13 
@@ -3569,14 +3572,15 @@ alist |  |
 
 
 
-### qsort
+### qsort_one_liner
+Authors: **kgashok**
 
-
+function implements qsort algorithm in recursive mode   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-array |  | 
+array | is list of numbers to be sorted | 
 
 
 
@@ -3771,6 +3775,51 @@ a simple example to start you off
 
 
 
+### circulate
+Authors: **kgashok**
+
+circulate between three variables, three times   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is a integer | 
+b | is a integer | 
+c | is a integer | 
+
+
+
+
+
+### circulate_list
+Authors: **kgashok**
+
+circulate 'n' elements in a list, n times   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist | contains the 'n' elements | 
+
+
+
+
+
+### distance_between
+Authors: **kgashok**
+
+Computes the distance between two Point objects.   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+pointA | is a tuple | 
+pointB | is a tuple | 
+
+
+
+
+
 ### calculateGrade
 
 
@@ -3799,28 +3848,45 @@ gc |  |
 
 
 
+### swap_func
+Authors: **kgashok**
+
+swap the contents of a and b   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is global | 
+b | is global | 
+
+
+
+
+
 ### mergesort
+Authors: **kgashok**
 
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-series |  | 
-
-
-
-
-
-### calculateGrade
-
-
+iterative mergesort implementation   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-score |  | 
-gradeChart |  | 
+series | is a sequence of unsorted elements | 
+
+
+
+
+
+### calculate_grade
+Authors: **kgashok**
+
+Computes the distance between two Point objects.   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+score | individual student's score | 
+gradeChart | list of tuples | 
 
 
 

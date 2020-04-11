@@ -2,7 +2,7 @@
 # One-line factorial function in Python
 _November 3, 2006_
 
-	def fact(x): return (1 if x==0 else x * fact(x-1))
+def fact(x): return (1 if x==0 else x * fact(x-1))
 
 
 
