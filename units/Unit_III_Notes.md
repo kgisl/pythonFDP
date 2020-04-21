@@ -59,7 +59,7 @@
 				else:
 					print ("invalid input")
 
-![enter image description here](https://github.com/KAMALATHANGARAJAN/pythonFDP/blob/new-branch1/img/and_operator.PNG)
+![enter image description here](C:%5CProgram%20Files%5CpythonFDP%5Cimg%5Cand_operator.PNG)
 ### Example 1: “or” operator
 
     Number of days in a month varies from 30 to 31 days. 
