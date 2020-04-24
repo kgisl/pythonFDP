@@ -74,6 +74,7 @@
 			 print ("30")
 		else:
 			 print ("invalid")`
+![](https://github.com/KAMALATHANGARAJAN/pythonFDP/blob/new-branch1/img/or_operator.PNG)
 	   
 ### 3.1.2. OPERATORS
 
