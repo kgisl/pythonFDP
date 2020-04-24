@@ -47,7 +47,8 @@ For example:
    October 2-Gandhi Jayanthi*
 If user input is other than the given condition,Error will be displayed as “Invalid input”.
 
-Program:
+**Program:**
+				
 			print("Enter Month and Day")
 			month=input()
 			day=int(input())
@@ -60,7 +61,7 @@ Program:
 			else:
 				print ("invalid input")
 
-Output
+**Output**
 		
 			Enter Month and Day
 			august
