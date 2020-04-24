@@ -217,6 +217,7 @@ Available conditional statements in python are
 **Example**
 												
 Python program to check whether a person is eligible for vote.
+
 **Program:**
 	
 				print("Enter Your age")
@@ -243,6 +244,7 @@ Python program to check whether a person is eligible for vote.
 					statement(s)
  
 **Example 1**
+
 Python program to checks if the number is positive or negative
 
 **Program**
@@ -259,6 +261,7 @@ Python program to checks if the number is positive or negative
 					
 
 **Example 2:**
+
 **Program**
 
 				print("Enter a number")
@@ -285,15 +288,20 @@ Python program to checks if the number is positive or negative
   
 **Syntax of if...elif...else**
 
+**Program**
+
 				if (test expression/condition):
 					Body of if
 				elif (test expression/condition):
 					Body of elif
 				else:
 					Body of else
+ 
  **Example 1:**
+ 
  Python program to check if the number is positive or negative or zero
- **Program**
+
+**Program**
 	
 				num = 3.4 
 				if num > 0:
@@ -303,13 +311,15 @@ Python program to checks if the number is positive or negative
 				else: 
 					print("Negative number")
 					
+
 **Output**
 
 				Negative number
 				
 				
  **Example 2:**
- **Program**
+
+**Program**
  
 				n=int(input("Enter a number between seven and ten"))
 				if(n==7):
@@ -323,6 +333,7 @@ Python program to checks if the number is positive or negative
 				else:
 				    print("input should be from 7 to 10")
 				    
+
 **Output**
 
 				Enter a number between seven and ten
@@ -338,7 +349,11 @@ Python program to checks if the number is positive or negative
 •	Similarly,  alternative and chained conditionals can also be nested
 
 **Example 1**
+
 Python program to check if the number is positive or negative or zero using nested if.
+
+**Program**
+
 
 				num = float(input("Enter a number: ")) 
 				if num >= 0:
@@ -371,10 +386,11 @@ objects.
 
 **Syntax of for Loop**
 
-	for val in sequence:
-		Body of for
+				for val in sequence:
+					Body of for
 
 **Example**
+
 Python Program to find the sum of all numbers stored in a list
 
 **Program**
@@ -405,6 +421,7 @@ Python Program to find the sum of all numbers stored in a list
 					Body of while
 
 **Example:**
+
 Python program using while Loop to add natural numbers upto n 
 
 **Program**
@@ -431,6 +448,7 @@ In the above program, the test expression will be True as long as our counter va
 •	The while loop can be terminated with a break statement.
 
 **Example:**
+
 Python program to illustrate the use of else statement with the while loop
 
 **Program**
@@ -480,7 +498,9 @@ Python program to illustrate the use of else statement with the while loop
 				break
 
 **Example 1:**
+
 Python program to illustrate break statement inside loop
+
 **Program**
 
 				for val in "string":
@@ -498,7 +518,9 @@ Python program to illustrate break statement inside loop
 
 
 **Example 2:**
+
 Python program to demonstrate break
+
 **Program**
 
 				i=1
@@ -528,6 +550,7 @@ Python program to demonstrate break
 				continue
 				
 **Example 1:**
+
 Python Program to show the use of continue statement inside loops
 
 **Program**
@@ -551,6 +574,7 @@ Python Program to show the use of continue statement inside loops
 •	continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
 
 **Example 2:**
+
 Python Program to show the use of continue statement inside loops
 
 **Program**
@@ -582,25 +606,39 @@ Python Program to show the use of continue statement inside loops
 
 Syntax of pass
 
-	pass
+			pass
+
 **Example 1:**
 
-	Python program to illustrate pass
+Python program to illustrate pass
 
-	Code:
-	for letter in 'Python': 
-		if letter == 'h': 
-			pass
-			print 'This is pass block' 
-	    print 'Current Letter :',letter 
-	print "Good bye!"
+**Program**
+
+				sequence = {'p', 'a', 's', 's'}
+				for val in sequence:
+				    pass
+				print("pass is just a placeholder for functionality to be added later.")
+				
+**Output**
+
+				pass is just a placeholder for functionality to be added later.
+
 **Example 2:**
 
-	for num in [20, 11, 9, 66, 4, 89, 44]:
-	    if num%2 == 0:
-	        pass
-	    else:
-	        print(num)
+**Program**
+
+				for num in [20, 11, 9, 66, 4, 89, 44]:
+					if num%2 == 0:
+						pass
+					else:
+						print(num)
+						
+**Output**
+
+				11
+				9
+				89
+						
 
 ## 3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION
 ### 3.3.1. Functions
@@ -616,23 +654,30 @@ Simple rules to define a function in Python.
 
 **Syntax**
 
-	def functionname( parameters ): 
-		"function_docstring"
-		function body
-		return [expression]
+				def functionname( parameters ): 
+					"function_docstring"
+					function body
+					return [expression]
 **Creating a function**
 
-	def my_function(): 
-		print("Hello from a function")
+				def my_function(): 
+					print("Hello from a function")
 
 **Calling a Function**
-To call a function, use the function name followed by parenthesis.
+	To call a function, use the function name followed by parenthesis.
 
 **Example:**
 
-	def my_function(): 
-		print("Hello from a function") 
-	my_function()
+**Program**
+
+				def my_function(): 
+					print("Hello from a function") 
+				my_function()
+
+**Output**
+
+				Hello from a function
+				
 
 **Parameters**
 
@@ -642,13 +687,21 @@ To call a function, use the function name followed by parenthesis.
 
 **Example:**
 
-	def my_function(fname): 
-		print(fname + " Refsnes")
-	
-	#main function
-	my_function("Emil") 
-	my_function("Tobias") 
-	my_function("Linus")
+**Program**
+
+				def my_function(fname): 
+					print(fname + " Refsnes")
+
+				#main function
+				my_function("Emil") 
+				my_function("Tobias") 
+				my_function("Linus")
+				
+**Output**
+
+				Emil Refsnes
+				Tobias Refsnes
+				Linus Refsnes
 
 **Default Parameter Value**
 
@@ -657,38 +710,57 @@ To call a function, use the function name followed by parenthesis.
 
 **Example:**
 
-	def my_function(country = "Norway"): 
-		print("I am from " + country)
+**Program**
 
-	#main function
-	my_function("Sweden") 
-	my_function("India") 
-	my_function() 
-	my_function("Brazil")
+				def my_function(country = "Norway"): 
+					print("I am from " + country)
 
+				#main function
+				my_function("Sweden") 
+				my_function("India") 
+				my_function() 
+				my_function("Brazil")
+
+**Output**
+
+				I am from Sweden
+				I am from India
+				I am from Norway
+				I am from Brazil
+				
 ### 3.3.2	Return Values
 •	The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
 •	All the above examples are not returning any value. You can return a value from a function as follows
 
-	# Function definition is here 
-	def sum( arg1, arg2 ):
-		# Add both the parameters and return them." 
-		total = arg1 + arg2
-		print("Inside the function : ", total)
-		return total;
-	
-	# Now you can call sum function 
-	total = sum( 10, 20 );
-	print("Outside the function : ", total)
+# Function definition is here 
+				def sum( arg1, arg2 ):
+					# Add both the parameters and return them." 
+					total = arg1 + arg2
+					print("Inside the function : ", total)
+					return total;
 
+# Now you can call sum function 
+				
+				total = sum( 10, 20 );
+				print("Outside the function : ", total)
+				
 **Example 2:**
 
-	def my_function(x):
-		return 5 * x
-	#function calling statements
-	print(my_function(3)) 
-	print(my_function(5)) 
-	print(my_function(9))
+**Program**
+
+				def my_function(x):
+					return 5 * x
+				
+				#function calling statements
+				print(my_function(3)) 
+				print(my_function(5)) 
+				print(my_function(9))
+				
+**Output**
+
+				15
+				25
+				45
 
 ### 3.3.3 Function Arguments
 The following types of formal arguments:
@@ -704,13 +776,20 @@ The following types of formal arguments:
 
 **Example**
 
-	#Function definition where str is the required argument
-	def display(str): 
-		print str
-	
-	#main script
-	str=”hello”
-	display(str)
+**Program**
+
+				#Function definition where str is the required argument
+				def display(str): 
+				    print(str)
+
+				#main script
+				str="hello"
+				display(str)
+				
+**Output**
+
+				hello		
+				
 
 **Keyword arguments**
 •	Keyword arguments are related to the function calls.
@@ -719,27 +798,49 @@ The following types of formal arguments:
 
 **Example**
 
-	def display(str,integer,float1):
-		print(“The string is:”,str) 
-		print(“The integer is:”,integer) 
-		print(“The float is:”,float1)
-	
-	#Main script-Fucntion calling with keyword arguments
-	display(float=58.62,str=”hello”,int=28)
+**Program**
+
+				def display(name,number,fraction):
+				    print("The string is:",name) 
+				    print("The integer is:",number) 
+				    print("The float is:",fraction)
+
+				#Main script-Fucntion calling with keyword arguments
+				display(fraction=58.62,name="hello",number=28)
+				
+**Output**
+
+				The string is: hello
+				The integer is: 28
+				The float is: 58.62
+				
 
 **Default arguments**
 •	A default argument is an argument that assumes a default value if a value is not provided in
 the function call for that argument.
 •	The following example gives an idea on default arguments, it prints default age if it is not passed 
 
-	def printinfo( name, age = 35 ):
-		"This prints a passed info into this function"
-		print("Name: ",name)
-		print("Age ",age)
-		return
-	#Calling printinfo function 
-	printinfo(age=50, name="miki" )
-	printinfo(name="miki")
+**Example**
+
+**Program**
+
+				def printinfo( name, age = 35 ):
+					'''This prints a passed info into this function'''
+					print("Name: ",name)
+					print("Age ",age)
+					return
+
+					#Calling printinfo function 
+					printinfo(age=50, name="miki" )
+					printinfo(name="miki")
+					
+**Output**
+
+				Name:  miki
+				Age  50
+				Name:  miki
+				Age  35
+
 
 **Variable-length arguments**
 •	Variable length argument make function calls with many(arbitary).
@@ -747,25 +848,38 @@ the function call for that argument.
 
 **Syntax:**
 
-	def functionname([formal_args,] *var_args_tuple ):
-		"function_docstring"
-		function body
-		return [expression]
+				def functionname([formal_args,] *var_args_tuple ):
+					"function_docstring"
+					function body
+					return [expression]
 
 An asterisk (*) is placed before the variable name that holds the values of all non keyword variable arguments. This tuple remains empty if no additional arguments are specified during the function call.
 
 **Example 1**
 
-		def printinfo( arg1, *vartuple ):
-		    "This prints a variable passed arguments" 
-		    print("Output is:")
-		    print(arg1)
-		    for var in vartuple: 
-		        print(var)
-		    return
+**Program**
 
-		printinfo( 10 )
-		printinfo( 70, 60, 50 )
+				def printinfo( arg1, *vartuple ):
+					'''This prints a variable passed arguments'''
+					print("Output is:")
+					print(arg1)
+					for var in vartuple: 
+						print(var)
+					return
+
+				#Calling printinfo function
+				printinfo( 10 )
+				printinfo( 70, 60, 50 )
+
+**Output**
+
+				Output is:
+				10
+				Output is:
+				70
+				60
+				50
+
 ### 3.3.4. Scope of Variables
 •	All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
 •	The scope of a variable determines the portion of the program where you can access a particular identifier.
@@ -781,31 +895,47 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 
 **Example 1** 
 
-		total = 0; # This is global variable. 
-		def sum( arg1, arg2 ):
-		# Add both the parameters and return them."
-			total = arg1 + arg2; # Here total is local variable. 
-			print("Inside the function local total : ", total)
-			return total;
-		# Calling sum function 
-		sum( 10, 20 );
-		print("Outside the function global total : ", total)
+**Program**
+
+				total = 0; # This is global variable. 
+				def sum(arg1, arg2):
+				# Add both the parameters and return them."
+				    total = arg1 + arg2; # Here total is local variable. 
+				    print("Inside the function local total : ", total)
+				    return total;
+
+				#Calling sum function 
+				sum( 10, 20 );
+				print("Outside the function global total : ", total)
+				
+**Output**
+
+				Inside the function local total :  30
+				Outside the function global total : 0
 
 ### 3.3.5. Function composition or Anonymous Functions
 •	Function composition is the way of combining the functions
 •	These functions are called anonymous because they are not declared in the standard manner by using the def keyword. You can use the lambda keyword to create small anonymous functions.
 •	Lambda forms can take any number of arguments but return just one value in the form of an expression. They cannot contain commands or multiple expressions.
 •	An anonymous function cannot be a direct call to print because lambda requires an expression
-Syntax
 
-	lambda [arg1 [,arg2,.....argn]]:expression
+**Syntax**
+
+				lambda [arg1 [,arg2,.....argn]]:expression
 **Example 1:**
 
-	# Function definition is here
-	sum = lambda arg1, arg2: arg1 + arg2;
-	# Now you can call sum as a function 
-	print("Value of total : ", sum( 10, 20 ))
-	print("Value of total : ", sum( 20, 20 ))
+**Program**
+
+				# Function definition is here
+				sum = lambda arg1, arg2: arg1 + arg2;
+				# Now you can call sum as a function 
+				print("Value of total : ", sum( 10, 20 ))
+				print("Value of total : ", sum( 20, 20 ))
+				
+**Output**
+
+				Value of total :  30
+				Value of total :  40
 
 ### 3.3.6. Recursive Function:
 
@@ -816,19 +946,24 @@ Syntax
  Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
 
 **Example 1:**
+
+**Program**	
 	
-	
-	def calc_factorial(x):
-	"""This is a recursive function
-	to find the factorial of an integer""" 
-		if x == 1:
-			return 1 
-		else:
-			return (x * calc_factorial(x-1)) 
-	
-	#Main Script
-	num = 4
-	print("The factorial of", num, "is",calc_factorial(num))
+				def calc_factorial(x):
+					'''This is a recursive function
+					to find the factorial of an integer''' 
+					if(x == 1):
+						return 1 
+					else:
+						return (x * calc_factorial(x-1)) 
+
+				#Main Script
+				num = 4
+				print("The factorial of", num, "is",calc_factorial(num))
+				
+**Output**
+
+				The factorial of 4 is 24
 
 •	In the above example, calc_factorial() is a recursive functions as it calls itself.
 •	This function with a positive integer, it will recursively call itself by decreasing the number.
@@ -861,30 +996,73 @@ calc_factorial(4)	# 1st call with 4
 ## 3.4. STRINGS
 A string is a sequence of characters. You can access the characters one at a time with the bracket operator:
 
-	fruit = 'banana'
-	letter = fruit[1]
-The second statement selects character number 1 from fruit and assigns it to letter. The expression in brackets is called an index. The index indicates which character in the sequence you want (hence the name). Always index starts from 0. The value of the index has to be an integer. Otherwise you get:
-	
-	letter = fruit[1.5]
-	TypeError: string indices must be integers, not float
-### 3.4.1. len()
-len is a built-in function that returns the number of characters in a string:
+**Example**
 
-	fruit = 'banana'
-	print(len(fruit)) #Output is 6
+**Program**
+
+				fruit = 'banana'
+				letter = fruit[1]
+				print("The letter present at index 1 is:",letter)
+				
+**Output**
+	
+				The letter present at index 1 is: a
+				
+				
+The second statement selects character number 1 from fruit and assigns it to letter. The expression in brackets is called an index. The index indicates which character in the sequence you want (hence the name). Always index starts from 0. The value of the index has to be an integer. Otherwise you get:
+
+**Example**
+
+**Program**
+	
+				fruit = 'banana'
+				letter = fruit[1.5]
+				print("The letter present at index 1 is:",letter)
+				
+**Output**
+				
+				Traceback (most recent call last):
+				  File "c:\users\administrator\mu_code\or_op.py", line 2, in <module>
+				    letter = fruit[1.5]
+				TypeError: string indices must be integers
+
+
+### 3.4.1. len()
+len is a built-in function that returns the number of characters in a string.
+
+**Example**
+
+**Program**
+
+				fruit = 'banana'
+				length = len(fruit)
+				print("The length of the strength is:",str(length))
+
+**Output**
+
+				The length of the strength is: 6				
+	
 To get the last letter of a string, you might be tempted to try something like this:
 
-	length = len(fruit)
-	last = fruit[length]
-	print(last)
-	
-	# Causes following output
-	IndexError: string index out of range	
+**Example**
+
+**Program**
+				fruit = "banana"
+				length = len(fruit)
+				last = fruit[length]
+				print("The last letter in fruit is:",last)
+				
+**Output**
+
+				Traceback (most recent call last):
+				  File "c:\users\administrator\mu_code\or_op.py", line 3, in <module>
+				    last = fruit[length]
+				IndexError: string index out of range
 
 The reason for the IndexError is that there is no letter in 'banana' with the index 6. Since we started counting at zero, the six letters are numbered 0 to 5. To get the last character, you have to subtract 1 from length:
 
-	last = fruit[length-1]
-	print(last)  #dispalys a
+				last = fruit[length-1]
+				print(last)  #dispalys a
 
 Alternatively, you can use negative indices, which count backward from the end of the string. The expression fruit[-1] yields the last letter, fruit[-2] yields the second to last,
 and so on.
@@ -892,84 +1070,86 @@ and so on.
 ### 3.4.2. String slices
 A segment of a string is called a slice. Selecting a slice is similar to selecting a character:
 
-	str = 'Monty Python'
-	print(str[0:5])      #Prints Monty
-	print(str[6:12]      #Prints Python
+				str = 'Monty Python'
+				print(str[0:5])      #Prints Monty
+				print(str[6:12]      #Prints Python
 
 The operator [n:m] returns the part of the string from the “n-eth” character to the “m-eth” character, including the first but excluding the last. 
 If you omit the first index (before the colon), the slice starts at the beginning of the string. If you omit the second index, the slice goes to the end of the string:
 	
-	fruit = 'banana'
-	print(fruit[:3])  #Prints 'ban'
-	print(fruit[3:]   #Prints 'ana'
+				fruit = 'banana'
+				print(fruit[:3])  #Prints 'ban'
+				print(fruit[3:]   #Prints 'ana'
+				
 If the first index is greater than or equal to the second the result is an empty string, represented by two quotation marks:
 
-	fruit = 'banana'
-	print(fruit[3:3]) #Prints ' '
+				fruit = 'banana'
+				print(fruit[3:3]) #Prints ' '
+				
 An empty string contains no characters and has length 0, but other than that, it is the same as any other string.
 ### 3.4.3. Strings are immutable
 It is tempting to use the [] operator on the left side of an assignment, with the intention of changing a character in a string. For example:
 
-	greeting = 'Hello, world!'
-	greeting[0] = 'J'
-	#Causes following output
+				greeting = 'Hello, world!'
+				greeting[0] = 'J'
+				#Causes following output
 	TypeError: 'str' object does not support item assignment
 The “object” in this case is the string and the “item” is the character you tried to assign. For now, an object is the same thing as a value, but we will refine that definition later. An item is one of the values in a sequence.
 The reason for the error is that strings are immutable, which means you can’t change an existing string. The best you can do is create a new string that is a variation on the original:
 
 
-	greeting = 'Hello, world!'
-	new_greeting = 'J' + greeting[1:]
-	print(new_greeting)       #Prints Jello, world!
+				greeting = 'Hello, world!'
+				new_greeting = 'J' + greeting[1:]
+				print(new_greeting)       #Prints Jello, world!
 This example concatenates a new first letter onto a slice of greeting. It has no effect on the original string.
 
 ###  3.4.4. String methods
 A method is similar to a function—it takes arguments and returns a value—but the syntax is different. For example, the method upper takes a string and returns a new string with all uppercase letters:
 Instead of the function syntax upper(word), it uses the method syntax word.upper().
 	
-	word = 'banana'
-	new_word = word.upper()
-	print(new_word)    #Prints BANANA
+				word = 'banana'
+				new_word = word.upper()
+				print(new_word)    #Prints BANANA
  
 This form of dot notation specifies the name of the method, upper, and the name of the string to apply the method to, word. The empty parentheses indicate that this method
 takes no argument.
 A method call is called an invocation; in this case, we would say that we are invoking upper on the word.
 As it turns out, there is a string method named find that is remarkably similar to the function we wrote:
 
-	 word = 'banana'
-	 index = word.find('a')
-	 print(index)    #Prints 1
+				 word = 'banana'
+				 index = word.find('a')
+				 print(index)    #Prints 1
 In this example, we invoke find on word and pass the letter we are looking for as a parameter.
 #### (i) find method
 Actually, the find method is more general than our function; it can find substrings, not just characters:
 	
-	word = 'banana'
-	print(word.find('na'))    #Prints 2
+				word = 'banana'
+				print(word.find('na'))    #Prints 2
 
 It can take as a second argument the index where it should start:
 		
-	word = 'banana'
-	print(word.find('na', 3))   # Prints 4
+				word = 'banana'
+				print(word.find('na', 3))   # Prints 4
 
 And as a third argument the index where it should stop:
 
-	name = 'bob'
-	print(name.find('b', 1, 2))   #Prints -1
+				name = 'bob'
+				print(name.find('b', 1, 2))   #Prints -1
 	
 This search fails because b does not appear in the index range from 1 to 2 (not including 2).
 #### (ii) String comparison
 The relational operators work on strings. To see if two strings are equal: 
 	
-	if(word == 'banana'):
-		print('All right, bananas.')
+				if(word == 'banana'):
+					print('All right, bananas.')
 Other relational operations are useful for putting words in alphabetical order:
 
-	if(word < 'banana'):
-		print('Your word,' + word + ', comes before banana.')
-	elif(word > 'banana'):
-		print('Your word,' + word + ', comes after banana.')
-	else:
-		print('All right, bananas.')
+				if(word < 'banana'):
+					print('Your word,' + word + ', comes before banana.')
+				elif(word > 'banana'):
+					print('Your word,' + word + ', comes after banana.')
+				else:
+					print('All right, bananas.')
 	
 Python does not handle uppercase and lowercase letters the same way that people do. All the uppercase letters come before all the lowercase letters, so:Your word, Pineapple, comes before banana.
 A common way to address this problem is to convert strings to a standard format, such as all lowercase, before performing the comparison. Keep that in mind in case you have to defend yourself against a man armed with a Pineapple.
@@ -1003,80 +1183,155 @@ Output: HelloworldHaiAjay
 **Example:**
 Program that use different string methods
 
-	str=”welcome to the world of python”
-	print(“uppercase=”,str.upper( )) 
-	print(“lowercase=”,str.lower( )) 
-	print(“split=”,str.split( )) 
-	print(“join=”,’-‘.join(str.split( )))
-	print(“replace=”,str.replace(“python”,”java” )) 
-	print(“count of o=”,str.count(‘o’ ))
-	print(“find of =”,str.find(“of”))
+**Program**
+
+				str="welcome to the world of python"
+				print("uppercase=",str.upper( )) 
+				print("lowercase=",str.lower( )) 
+				print("split=",str.split( )) 
+				print("join=",'-'.join(str.split( )))
+				print("replace=",str.replace("python","java" )) 
+				print("count of o=",str.count('o' ))
+				print("find of =",str.find("of"))
+				
+**Output**
+
+				uppercase= WELCOME TO THE WORLD OF PYTHON
+				lowercase= welcome to the world of python
+				split= ['welcome', 'to', 'the', 'world', 'of', 'python']
+				join= welcome-to-the-world-of-python
+				replace= welcome to the world of java
+				count of o= 5
+				find of = 21
+				
 
 ### 3.4.5. Example Programs:**
 **1.	Traversing a string **
+
+**Program**
 	
-	message=”hello!” 
-	index=0
-	for i in message:
-		print(“message[“,/index,”]=”,i) index+=1
+				message="hello!"
+				index=0
+				for i in message:
+					print("message[",index,"]=",i) 
+					index+=1
+					
+**Output**
+
+				message[ 0 ]= h
+				message[ 1 ]= e
+				message[ 2 ]= l
+				message[ 3 ]= l
+				message[ 4 ]= o
+				message[ 5 ]= !
 
 **2.	String operations**
 
-	str=”Hello This is python” 
-	i=2
-	print(str[i]) 
-	print(str[i*3+1]) 
+**Program**
+
+				str="Hello This is python"
+				i=2
+				print("Character at index 2: ",str[i]) 
+				print("Character at index i*3+1: ",str[i*3+1])
+				
+**Output**				
+
+				Character at index 2:  l
+				Character at index i*3+1:  h
+
 
 **3.	Concatenate two strings**
 
-	str1=”hello” str2=”world” 
-	str3=str1+str2
-	print(“the string is:”,str3)
+**Program**
+
+				str1="hello" 
+				str2="world" 
+				str3=str1+str2
+				print("The string is:",str3)
+				
+**Output**
+
+				The string is: helloworld
+				
 **4.	Append a string**
 
-	Str=”Hello” 
-	N=raw_input() 
-	Str+=n;
-	print(str)
+**Program**
+
+				Greet="Hello"
+				n=input("Enter the String to Concatenate:") 
+				Greet+=n;
+				print(Greet))
+				
+**Output**
+				Enter the String to Concatenate:World
+				HelloWorld
+				
 **5.String slices**
 
 •	A substring of a string is called a slice
 •	A slice operation is used to refer the subpart of strings
 •	The subset of a string can be taken from string by using [ ] operator
 **Example 1: Positive Indexing/Slicing**
-	
-	str=”python” 
-	print(“str[1:5]=”,str[1:5])
-	print(“str[:6]=”,str[:6])
-	print(“str[1:]=”,str[1:])
-	print(“str[:]=”,str[:])
-	print(“str[1:20]=”,str[1:20])
+
+**Program**
+
+				str="python"
+				print("str[1:5]=",str[1:5])
+				print("str[:6]=",str[:6])
+				print("str[1:]=",str[1:])
+				print("str[:]=",str[:])
+				print("str[1:20]=",str[1:20])
+				
+**Output**
+
+				str[1:5]= ytho
+				str[:6]= python
+				str[1:]= ython
+				str[:]= python
+				str[1:20]= ython
 
 **Example 2: Negative Indexing/Slicing**
+
+**Program**
 	
-	str=”python” print(“str[-1]=”,str[-1])
-	print(“str[-6]=”,str[-6])
-	print(“str[-2:]=”,str[-2:])
-	print(“str[:-2]=”,str[:-2])
-	print(“str[-5:-2]=”,str[-5:-2])
+				str="python"
+				print("str[-1]=",str[-1])
+				print("str[-6]=",str[-6])
+				print("str[-2:]=",str[-2:])
+				print("str[:-2]=",str[:-2])
+				print("str[-5:-2]=",str[-5:-2])
+				
+**Output**
+
+				str[-1]= n
+				str[-6]= p
+				str[-2:]= on
+				str[:-2]= pyth
+				str[-5:-2]= yth
 
 **Example:3**
 	
-	str=”welcome to the world of python”
-	print(“str[2:10]=”,str[2:10])
-	print(“str[2:10:1]=”,str[2:10:1])
-	print(“str[2:10:2]=”,str[2:10:2])
-	print(“str[2:13:4]=”,str[2:13:4])
-	print(“str[::3]=”,str[::3])
-	print(“str[::-1]=”,str[::-1])
-	print(“str[::-3]=”,str[::-3])
+**Program**
 
-**6.String Immutability**
-•	Python strings are immutable
-•	Once the strings are created it cannot be modified
-•	To modify an existing string variable, a new string is created
-•	The id() returns the memory address of that object
-•	Str1 and str2 have the same object, then both point to same object
+				str="welcome to the world of python"
+				print("str[2:10]=",str[2:10])
+				print("str[2:10:1]=",str[2:10:1])
+				print("str[2:10:2]=",str[2:10:2])
+				print("str[2:13:4]=",str[2:13:4])
+				print("str[::3]=",str[::3])
+				print("str[::-1]=",str[::-1])
+				print("str[::-3]=",str[::-3])
+				
+**Output**
+
+				str[2:10]= lcome to
+				str[2:10:1]= lcome to
+				str[2:10:2]= loet
+				str[2:13:4]= le 
+				str[::3]= wceohwloph
+				str[::-1]= nohtyp fo dlrow eht ot emoclew
+				str[::-3]= nt  r ttml
+
 
 **6.String Immutability**
 •	Python strings are immutable
