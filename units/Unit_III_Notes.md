@@ -211,8 +211,8 @@ Available conditional statements in python are
 							
  **Syntax**
 
-> 	   if (test expression/condition):
-		statement(s)
+				if (test expression/condition):
+					statement(s)
 		
 **Example**
 												
@@ -237,25 +237,43 @@ Python program to check whether a person is eligible for vote.
 
 **Syntax of if...else**
 
-	if (test expression/condition) : 
-		Body of if
+				if (test expression/condition) : 
+					statement(s)
+				else:
+					statement(s)
  
 **Example 1**
+Python program to checks if the number is positive or negative
 
-     Python program to checks if the number is positive or negative
-	num = 3
-	if num >= 0: 
-		print("Positive or Zero")
-	else:
-		print("Negative number")
+**Program**
+				
+				num = 3
+				if num >= 0: 
+					print("Positive or Zero")
+				else:
+					print("Negative number")
+					
+**Output**
+		
+				Positive or Zero
+					
+
 **Example 2:**
+**Program**
 
-	print("Enter a number")
-	num=int(input())
-	if(num%2)==0: 
-	   print("Even Number")
-	else:
-	    print("Odd Number")
+				print("Enter a number")
+				num=int(input())
+				if(num%2)==0: 
+				   print("Even Number")
+				else:
+				    print("Odd Number")
+				    
+**Output**
+
+				Enter a number
+				10
+				Even Number
+				
 
 ### 3. ‘if...elif...else’(CHAINED CONDITIONAL STATEMENT)
 
@@ -267,36 +285,51 @@ Python program to check whether a person is eligible for vote.
   
 **Syntax of if...elif...else**
 
-	if (test expression/condition):
-		Body of if
-	elif (test expression/condition):
-		Body of elif
-	else:
-		Body of else
+				if (test expression/condition):
+					Body of if
+				elif (test expression/condition):
+					Body of elif
+				else:
+					Body of else
  **Example 1:**
- 
-		Python program to check if the number is positive or negative or zero
+ Python program to check if the number is positive or negative or zero
+ **Program**
 	
-		num = 3.4 
-		if num > 0:
-			print("Positive number") 
-		elif num == 0:
-			print("Zero") 
-		else: 
-			print("Negative number")
+				num = 3.4 
+				if num > 0:
+					print("Positive number") 
+				elif num == 0:
+					print("Zero") 
+				else: 
+					print("Negative number")
+					
+**Output**
+
+				Negative number
+				
+				
  **Example 2:**
+ **Program**
  
-	 n=int(input("Enter a number between seven and ten"))
-	if(n==7):
-	    print("heptagon") 
-	elif(n==8):
-	    print("octogon") 
-	elif(n==9):
-	    print("nanogon") 
-	elif(n==10):
-	    print("decagon")
-	else:
-	    print("input should be from 7 to 10")
+				n=int(input("Enter a number between seven and ten"))
+				if(n==7):
+				    print("heptagon") 
+				elif(n==8):
+				    print("octogon") 
+				elif(n==9):
+				    print("nanogon") 
+				elif(n==10):
+				    print("decagon")
+				else:
+				    print("input should be from 7 to 10")
+				    
+**Output**
+
+				Enter a number between seven and ten
+				8
+				octogon
+				
+							    
 ### 4. NESTED CONDITIONAL
 
 •	A conditional statement defined inside another conditional statement is called nested conditional statement.
@@ -305,21 +338,26 @@ Python program to check whether a person is eligible for vote.
 •	Similarly,  alternative and chained conditionals can also be nested
 
 **Example 1**
+Python program to check if the number is positive or negative or zero using nested if.
 
-	Python program to check if the number is positive or negative or zero using nested if.
+				num = float(input("Enter a number: ")) 
+				if num >= 0:
+				    if num == 0:
+					print("Zero")
+				    else:
+					print("Positive number") 
+				else:
+				    print("Negative number")
 
-	num = float(input("Enter a number: ")) 
-	if num >= 0:
-	    if num == 0:
-	        print("Zero")
-	    else:
-	        print("Positive number") 
-	else:
-	    print("Negative number")
+**Output**
 
+				Enter a number: 10
+				Positive number
+				
+				
 ## 3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS
 
-•	‘for ‘ Statement
+•	‘for‘ Statement
 •	‘while’ Statement 
 
 
@@ -335,16 +373,23 @@ objects.
 
 	for val in sequence:
 		Body of for
-Example: Python for Loop
-     Python Program to find the sum of all numbers stored in a list
 
-	Code:
-	#number list
-	numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
-	sum = 0
-	for val in numbers:
-	    sum = sum+val 
-	print("The sum is", sum)
+**Example**
+Python Program to find the sum of all numbers stored in a list
+
+**Program**
+	
+				#number list
+				numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+				sum = 0
+				for val in numbers:
+				    sum = sum+val 
+				print("The sum is", sum)
+				
+**Output**
+	
+				The sum is 48
+				
 
 ### 3.2.2. ‘while’ LOOP:
 
@@ -356,20 +401,27 @@ Example: Python for Loop
 
 **Syntax**
 
-		while test_expression:
-			Body of while
+				while test_expression:
+					Body of while
 
 **Example:**
+Python program using while Loop to add natural numbers upto n 
 
-	 Python program using while Loop to add natural numbers upto n 
-	Code:
-		n = int(input("Enter a number: "))
-		sum = 0
-		i= 1
-		while i <= n:
-		    sum = sum + i 
-		    i = i+1
-		print("The sum is", sum)
+**Program**
+
+				n = int(input("Enter a number: "))
+				sum = 0
+				i= 1
+				while i <= n:
+				    sum = sum + i 
+				    i = i+1
+				print("The sum is", sum)
+				
+**Output**
+
+				Enter a number: 10
+				The sum is 55
+
 
 In the above program, the test expression will be True as long as our counter variable i is less than or equal to n (10 in our program).
 
@@ -379,16 +431,23 @@ In the above program, the test expression will be True as long as our counter va
 •	The while loop can be terminated with a break statement.
 
 **Example:**
-	
-	Python program to illustrate the use of else statement with the while loop
+Python program to illustrate the use of else statement with the while loop
 
-	Code:
-	counter = 0
-	while counter < 3: 
-		print("Inside loop")
-		counter = counter + 1 
-	else:
-		print("Inside else")
+**Program**
+
+				counter = 0
+				while counter < 3: 
+					print("Inside loop")
+					counter = counter + 1 
+				else:
+					print("Inside else")
+**Output**
+
+				Inside loop
+				Inside loop
+				Inside loop
+				Inside else
+
 •	A counter variable to print the string inside loop three times.
 •	On the forth iteration, the condition in while becomes False. Hence, the else part is executed.
 
@@ -416,32 +475,48 @@ In the above program, the test expression will be True as long as our counter va
 •	Control of the program flows to the statement immediately after the body of the loop.
 •	If break statement is inside a nested loop (loop inside another loop), break will terminate the innermost loop.
 
-Syntax of break
+**Syntax of break**
 
-	break
+				break
 
 **Example 1:**
+Python program to illustrate break statement inside loop
+**Program**
 
-		Python program to illustrate break statement inside loop
-	Code:
-	
-	for val in "string":
-		if val == "i":
-			 	break
-		print(val)  
-	print("The end")
+				for val in "string":
+					if val == "i":
+							break
+					print(val)  
+				print("The end")
+
+**Output**
+
+				s
+				t
+				r
+				The end
+
 
 **Example 2:**
+Python program to demonstrate break
+**Program**
 
-	Python program to demonstrate break
-	Code:
-	
-	i=1
-	while i<=10:
-		print(i)
-		if(i==5):
-			break
-	print(“completed”)
+				i=1
+				while i<=10:
+				    if(i==5):
+					break
+				    print(i)
+				    i = i + 1
+				print("completed")
+
+**Output**
+
+				1
+				2
+				3
+				4
+				completed
+				
 
 **(ii)	Python continue statement**
 
@@ -450,28 +525,56 @@ Syntax of break
 
 **Syntax of Continue**
 
-	continue
+				continue
+				
 **Example 1:**
+Python Program to show the use of continue statement inside loops
 
-	Python Program to show the use of continue statement inside loops
-	Code:
-	for val in "string": 
-		if val == "i":
-			continue 
-			print(val)
-	print("The end")
+**Program**
+
+				for val in "string": 
+					if val == "i":
+						continue 
+					print(val)
+				print("The end")
+				
+**Output**
+
+				s
+				t
+				r
+				n
+				g
+				The end
+				
 •	This program is same as the above example except the break statement has been replaced with continue.
 •	continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
 
 **Example 2:**
-	
-	Python Program to show the use of continue statement inside loops
-	Code:
-	n=int(input())
-	for i in range(0,n):
-		a=int(input()) 
-		if(a<0):
-			continue
+Python Program to show the use of continue statement inside loops
+
+**Program**
+
+				n=int(input("Enter total number of numbers\n"))
+				for i in range(0,n):
+					a=int(input("Enter the number:")) 
+					if(a<0):
+						continue
+					print("Number is "+str(a))
+			
+**Output**
+
+				Enter total number of numbers
+				5
+				Enter the number:12
+				Number is 12
+				Enter the number:14
+				Number is 14
+				Enter the number:16
+				Number is 16
+				Enter the number:-1
+				Enter the number:23
+				Number is 23
 
 **(iii)	Pass STATEMENT**
 •	It is used when a statement is required syntactically but you do not want any command or code to execute.
