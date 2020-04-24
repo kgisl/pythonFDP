@@ -40,12 +40,12 @@
 |FALSE	|FALSE	|FALSE
 
 ### Example 1: “and” operator
-       A python program to display the National holidays.
-       For example:
-           January 26-Republic day
-           August 15-Indepependance day 
-           October 2-Gandhi Jayanthi*
-       If user input is other than the given condition,Error will be displayed as “Invalid input”.
+A python program to display the National holidays.
+For example:
+   January 26-Republic day
+   August 15-Indepependance day 
+   October 2-Gandhi Jayanthi*
+If user input is other than the given condition,Error will be displayed as “Invalid input”.
     
 			    print("Enter Month and Day")
 				month=input()
@@ -58,6 +58,12 @@
 					print ("Gandhi Jayanthi")
 				else:
 					print ("invalid input")
+					
+		
+		Enter Month and Day
+		august
+		15
+		independence day
 ![](https://github.com/KAMALATHANGARAJAN/pythonFDP/blob/new-branch1/img/and_operator.PNG)
 
 ### Example 1: “or” operator
