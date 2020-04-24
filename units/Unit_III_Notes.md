@@ -143,6 +143,7 @@ If he input is other than the given month, then display error message as “Inva
 - [ ]	Used to assign values to variables
 - [ ]	Compound operator performs arithmetic operation and then assigns the value
 - [ ]	Assume variable a holds 10 and variable b holds 20, then 
+
 | Operator	|Description	|Example
 |--|--|--|
 | = Assignment	|Assigns values from right side operands to left side operand   |c = a + b assigns value of a + b into c
