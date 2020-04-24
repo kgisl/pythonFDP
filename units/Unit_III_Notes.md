@@ -58,6 +58,7 @@
 					print ("Gandhi Jayanthi")
 				else:
 					print ("invalid input")
+![]https://github.com/KAMALATHANGARAJAN/pythonFDP/blob/new-branch1/img/and_operator.PNG
 
 ### Example 1: “or” operator
 
