@@ -148,10 +148,10 @@ If he input is other than the given month, then display error message as “Inva
 | = Assignment	|Assigns values from right side operands to left side operand   |c = a + b assigns value of a + b into c
 |+= Add & Assign|It adds right operand to the left operand and assign the result to left operand |c += a is equivalent to c = c + a
 |-= Subtract & Assign	|It subtracts right operand from the left operand and assign the result to left operand	|c -= a is equivalent to c = c - a
-| *= Multiply and Assign	| It multiplies right operand with the left operand and assign the result to left operand |c *= a is equivalent to c = c * a
 | /= Divide and Assign	|It divides left operand with the right operand and assign the result to left operand	|c /= a is equivalent to c = c / ac /= a is equivalent to c = c / a
 |%= Modulus & Assign	|It takes modulus using two operands and assign the result to left operand	|c %= a is equivalent to c = c % a
 |**= Exponent & Assign	|Performs exponential (power) calculation on operators and assign value to the left operand |c ** = a is equivalent to c = c ** a
+| * = Multiply and Assign	| It multiplies right operand with the left operand and assign the result to left operand |c * = a is equivalent to c = c * a  
 
 ### iv) Logical Operators
 - [ ]	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
@@ -165,8 +165,8 @@ If he input is other than the given month, then display error message as “Inva
 |*not* Logical NOT	| Used to reverse the logical state of its operand.	|Not(a and b) is false.
 
 ### v) Membership Operators
-•	Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples.
-•	There are two membership operators as explained below –
+- [ ]	Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples.
+- [ ]	There are two membership operators as explained below –
 
 
 | Operator |Descrription  |Example 
@@ -233,8 +233,8 @@ Python program to check whether a person is eligible for vote.
 		    
 ### 2. ‘if...else’ STATEMENT(ALTERNATIVE CONDITIONAL STATEMENT)
 
-•	The if..else statement evaluates test expression and will execute body of if only when test condition is True.
-•	If the condition is False, body of else is executed. Indentation is used to separate the blocks.
+- [ ]	The if..else statement evaluates test expression and will execute body of if only when test condition is True.
+- [ ]	If the condition is False, body of else is executed. Indentation is used to separate the blocks.
 
 **Syntax of if...else**
 
@@ -280,11 +280,11 @@ Python program to checks if the number is positive or negative
 
 ### 3. ‘if...elif...else’(CHAINED CONDITIONAL STATEMENT)
 
-•	The elif is short for else if. It allows us to check for multiple expressions.
-•	If the condition for if is False, it checks the condition of the next elif block and so on.
-•	If all the conditions are False, body of else is executed.
-•	Only one block among the several if...elif...else blocks is executed according to the condition.
-•	The if block can have only one else block. But it can have multiple elif blocks.
+- [ ]  The elif is short for else if. It allows us to check for multiple expressions.
+- [ ]   If the condition for if is False, it checks the condition of the next elif block and so on.
+- [ ]	If all the conditions are False, body of else is executed.
+- [ ]	Only one block among the several if...elif...else blocks is executed according to the condition.
+- [ ]	The if block can have only one else block. But it can have multiple elif blocks.
   
 **Syntax of if...elif...else**
 
@@ -343,10 +343,10 @@ Python program to checks if the number is positive or negative
 							    
 ### 4. NESTED CONDITIONAL
 
-•	A conditional statement defined inside another conditional statement is called nested conditional statement.
-•	Any number of these statements can be nested inside one another.
-•	Indentation is the only way to figure out the level of nesting.
-•	Similarly,  alternative and chained conditionals can also be nested
+- [ ]	A conditional statement defined inside another conditional statement is called nested conditional statement.
+- [ ]	Any number of these statements can be nested inside one another.
+- [ ]	Indentation is the only way to figure out the level of nesting.
+- [ ]	Similarly,  alternative and chained conditionals can also be nested
 
 **Example 1**
 
@@ -372,17 +372,17 @@ Python program to check if the number is positive or negative or zero using nest
 				
 ## 3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS
 
-•	‘for‘ Statement
-•	‘while’ Statement 
+- [ ]	‘for‘ Statement
+- [ ]	‘while’ Statement 
 
 
 ### 3.2.1. ‘for’ LOOP
-•	The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable
+- [ ]	The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable
 objects.
-•	Iterating over a sequence is called traversal.
-•	val is the variable that takes the value of the item inside the sequence on each iteration.
-•	Loop continues until we reach the last item in the sequence. 
-•	The body of for loop is separated from the rest of the code using indentation.
+- [ ]	Iterating over a sequence is called traversal.
+- [ ]	val is the variable that takes the value of the item inside the sequence on each iteration.
+- [ ]	Loop continues until we reach the last item in the sequence. 
+- [ ]	The body of for loop is separated from the rest of the code using indentation.
 
 **Syntax of for Loop**
 
@@ -443,9 +443,9 @@ Python program using while Loop to add natural numbers upto n
 In the above program, the test expression will be True as long as our counter variable i is less than or equal to n (10 in our program).
 
 **while loop with else**
-•	An optional else block with while loop can also be used.
-•	The else part is executed if the condition in the while loop evaluates to False.
-•	The while loop can be terminated with a break statement.
+- [ ]	An optional else block with while loop can also be used.
+- [ ]	The else part is executed if the condition in the while loop evaluates to False.
+- [ ]	The while loop can be terminated with a break statement.
 
 **Example:**
 
@@ -466,8 +466,8 @@ Python program to illustrate the use of else statement with the while loop
 				Inside loop
 				Inside else
 
-•	A counter variable to print the string inside loop three times.
-•	On the forth iteration, the condition in while becomes False. Hence, the else part is executed.
+- [ ]	A counter variable to print the string inside loop three times.
+- [ ]	On the forth iteration, the condition in while becomes False. Hence, the else part is executed.
 
 **Difference between while and for loop **
 |while loop|for loop  |
@@ -477,21 +477,21 @@ Python program to illustrate the use of else statement with the while loop
 
 ### 3.2.3. UNCONDITIONAL STATEMENTS
 
-•	Unconditional statements are used in the situations, there is a need to exit the loop completely when an external condition is triggered or there may be a situation to skip a part of the code and start the next execution.
-•	Python provide the following statements
+- [ ]	Unconditional statements are used in the situations, there is a need to exit the loop completely when an external condition is triggered or there may be a situation to skip a part of the code and start the next execution.
+- [ ]	Python provide the following statements
 >          i.   Break
 >          ii.  Continue
 >          iii. Pass
 			
-•	In Python, break and continue statements can alter the flow of a normal loop.
-•	Loops iterate over a block of code until test expression is false, to terminate the current iteration or even the whole loop without checking test expression.
-•	The break and continue statements are used in these cases.
+- [ ]	In Python, break and continue statements can alter the flow of a normal loop.
+- [ ]	Loops iterate over a block of code until test expression is false, to terminate the current iteration or even the whole loop without checking test expression.
+- [ ]	The break and continue statements are used in these cases.
 
 **(i) Python break statement**
 
-•	The break statement terminates the loop containing it.
-•	Control of the program flows to the statement immediately after the body of the loop.
-•	If break statement is inside a nested loop (loop inside another loop), break will terminate the innermost loop.
+- [ ]	The break statement terminates the loop containing it.
+- [ ]	Control of the program flows to the statement immediately after the body of the loop.
+- [ ]	If break statement is inside a nested loop (loop inside another loop), break will terminate the innermost loop.
 
 **Syntax of break**
 
