@@ -71,19 +71,29 @@ If user input is other than the given condition,Error will be displayed as “In
 
 ### Example 1: “or” operator
 
-    Number of days in a month varies from 30 to 31 days. 
-    Write a python program to read the name of the month and display corresponding days. 
-    If he input is other than the given month, then display error message as “Invalid”.
-   
-	    import sys
-		month=input()
-		if(month=="may" or month=="july" or month=="august"):
-			 print ("31")
-		elif(month=="jun"):
-			 print ("30")
-		else:
-			 print ("invalid")`
-![](https://github.com/KAMALATHANGARAJAN/pythonFDP/blob/new-branch1/img/or_operator.PNG)
+Number of days in a month varies from 30 to 31 days. 
+Write a python program to read the name of the month and display corresponding days. 
+If he input is other than the given month, then display error message as “Invalid”.
+
+**Program:**
+	    	
+			import sys
+			month=input("Enter the name of the month")
+			if(month=="may" or month=="july" or month=="august"):
+				 print ("31")
+			elif(month=="jun"):
+				 print ("30")
+			else:
+				 print ("invalid")
+
+**Output**
+		
+			Enter name of the month
+			may
+			31
+			
+			 
+
 	   
 ### 3.1.2. OPERATORS
 
