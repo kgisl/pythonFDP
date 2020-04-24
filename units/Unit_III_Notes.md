@@ -116,7 +116,7 @@ If he input is other than the given month, then display error message as “Inva
  
  
 |Operator|Description |	Example|
-|--|--|--|--|
+|--|--|--|
 |+ Addition	|Adds values on either side of the operator.	|a + b = 30
 |-Subtraction	|Subtracts right hand operand from left hand operand.	|a – b = -10
 |* Multiplication	|Multiplies values on either side of the operator	|a * b = 200
@@ -212,7 +212,8 @@ Available conditional statements in python are
  **Syntax**
 
 > 	   if (test expression/condition):
-		 statement(s)
+		statement(s)
+		
 **Example**
 												
 Python program to check whether a person is eligible for vote.
