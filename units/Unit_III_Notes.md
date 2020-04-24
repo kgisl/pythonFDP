@@ -213,14 +213,20 @@ Available conditional statements in python are
 
 > 	   if (test expression/condition):
 	> 			 statement(s)
-> **Example**
-																																						Python program to check whether a person is eligible for vote.
-
+**Example**
+												
+Python program to check whether a person is eligible for vote.
+**Program:**
 	
-		print("Enter Your age")
-		n=int(input()) 
-		if(n>=18):
-			print("Eligible for voting") 
+				print("Enter Your age")
+				n=int(input()) 
+				if(n>=18):
+					print("Eligible for voting") 
+					
+**Output**
+				Enter Your age
+				21
+				Eligible for voting
 		    
 ### 2. ‘if...else’ STATEMENT(ALTERNATIVE CONDITIONAL STATEMENT)
 
