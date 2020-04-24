@@ -148,7 +148,7 @@ If he input is other than the given month, then display error message as “Inva
 | = Assignment	|Assigns values from right side operands to left side operand   |c = a + b assigns value of a + b into c
 |+= Add & Assign|It adds right operand to the left operand and assign the result to left operand |c += a is equivalent to c = c + a
 |-= Subtract & Assign	|It subtracts right operand from the left operand and assign the result to left operand	|c -= a is equivalent to c = c - a
-|*= Multiply and Assign	|It multiplies right operand with the left operand and assign the result to left operand |c *= a is equivalent to c = c * a
+| *= Multiply and Assign	| It multiplies right operand with the left operand and assign the result to left operand |c *= a is equivalent to c = c * a
 | /= Divide and Assign	|It divides left operand with the right operand and assign the result to left operand	|c /= a is equivalent to c = c / ac /= a is equivalent to c = c / a
 |%= Modulus & Assign	|It takes modulus using two operands and assign the result to left operand	|c %= a is equivalent to c = c % a
 |**= Exponent & Assign	|Performs exponential (power) calculation on operators and assign value to the left operand |c ** = a is equivalent to c = c ** a
