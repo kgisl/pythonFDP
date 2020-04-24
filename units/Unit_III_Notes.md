@@ -97,11 +97,11 @@ If he input is other than the given month, then display error message as “Inva
 	   
 ### 3.1.2. OPERATORS
 
- - Each built-in data types come with its set of operators.
- - Operators are the constructs which can manipulate the value of  operands.
- - They are generally classified into binary and unary operators based on the number of arguments.
- - Binary operators require two operands
- - Python language supports the following types of  operators.
+- [ ] Each built-in data types come with its set of operators.
+- [ ] Operators are the constructs which can manipulate the value of  operands.
+- [ ] They are generally classified into binary and unary operators based on the number of arguments.
+- [ ] Binary operators require two operands
+- [ ] Python language supports the following types of  operators.
 
 	 1. Arithmetic  Operators
 	 2. Comparison (Relational) Operators
