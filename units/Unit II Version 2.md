@@ -482,19 +482,21 @@ string or list.
 ![alt text](Unit2-img/membershipopr.png)
 >>>>>>> upstream/master
 
-**2.5.2 Operator Precedence**
+**2.5.2 Operator Precedence and Associativity**
+
+**Operator Precedence :**
 
 The order of evaluation of operators in an expression is called precedence of an
-operator. In In Mathematics traditionally we have used certain operator
-evaluation order, called PEDMAS rule, which is an acronym for Parenthesis,
-Exponentiation, Division, Multiplication, Addition and Subtraction. Mathematical
-operators in python also follow the same rule.
+operator. In Mathematics traditionally we have used certain operator
+evaluation order, called PEMDAS rule, which is an acronym for Parenthesis,
+Exponentiation, Multiplication, Division, Addition and Subtraction. Mathematical
+operators in python also follow the same rule. We call these rules as operator Precedence.
 
 -   Parentheses have the highest precedence and can be used to force an
     expression to evaluate in the order you want.
 
         **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
-
+        
 -   Exponentiation has the next highest precedence.
 
         **Example:** 1 + 2\*\*3 is 9, not 27
@@ -508,6 +510,20 @@ operators in python also follow the same rule.
 
         **Example:** degrees / 2 \* pi, here division is performed first and then
           multiplication happens.
+
+![Operator_Precedence](Unit2-img/Operator_Precedence)
+
+**Associativity :**
+
+Associativity is the order in which Python evaluates an expression containing multiple operators of the same precedence. 
+Almost all operators except the exponent (**) support the left-to-right associativity.
+
+For example, the product (*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
+
+The only operator which has right-to-left associativity in Python is the exponent (**) operator.
+
+
+
 
 More details on this are in the bonus section. Please refer to it.
 
