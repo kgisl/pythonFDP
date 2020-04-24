@@ -212,7 +212,7 @@ Available conditional statements in python are
  **Syntax**
 
 > 	   if (test expression/condition):
-	> 			 statement(s)
+		 statement(s)
 **Example**
 												
 Python program to check whether a person is eligible for vote.
@@ -224,6 +224,7 @@ Python program to check whether a person is eligible for vote.
 					print("Eligible for voting") 
 					
 **Output**
+				
 				Enter Your age
 				21
 				Eligible for voting
