@@ -111,8 +111,8 @@ If he input is other than the given month, then display error message as “Inva
 	 6. Identity  Operators
 ### i) Arithmetic operators
 
- - Arithmetic  operators  are  used  to  perform  mathematical  operations  like  addition,  subtraction,  Multiplication
- - Assume variable ‘_a’_ holds 10 and variable ‘_b_’ holds 20  then the following table shows the result of arithmetic operators.
+- [ ] Arithmetic  operators  are  used  to  perform  mathematical  operations  like  addition,  subtraction,  Multiplication
+- [ ] Assume variable ‘_a’_ holds 10 and variable ‘_b_’ holds 20  then the following table shows the result of arithmetic operators.
  
  
 |Operator|Description |	Example|
@@ -140,9 +140,9 @@ If he input is other than the given month, then display error message as “Inva
 |<=	|If the value of left operand is less than or equal to the value of right operand, then condition becomes true.	|(a <= b) is true.
 
 ### (iii)	Assignment  and Compound Operators
-•	Used to assign values to variables
-•	Compound operator performs arithmetic operation and then assigns the value
-•	Assume variable a holds 10 and variable b holds 20, then 
+- [ ]	Used to assign values to variables
+- [ ]	Compound operator performs arithmetic operation and then assigns the value
+- [ ]	Assume variable a holds 10 and variable b holds 20, then 
 | Operator	|Description	|Example
 |--|--|--|
 | = Assignment	|Assigns values from right side operands to left side operand   |c = a + b assigns value of a + b into c
@@ -154,9 +154,9 @@ If he input is other than the given month, then display error message as “Inva
 |**= Exponent & Assign	|Performs exponential (power) calculation on operators and assign value to the left operand |c ** = a is equivalent to c = c ** a
 
 ### iv) Logical Operators
-•	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
-•	Used to reverse the logical state of its operand.
-•	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then –
+- [ ]	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
+- [ ]	Used to reverse the logical state of its operand.
+- [ ]	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then –
 
 |Operator  |Description	  |Example
 |--|--|--|
@@ -175,8 +175,8 @@ If he input is other than the given month, then display error message as “Inva
 |not in	|True if value/variable is not found in the sequence	|5 in numlist, returns false if 5 is not in the numlist.
 
 ### vi) Identity Opertors
-•	‘is’ operator – Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
-•	‘is not’ operator – Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
+- [ ]	‘is’ operator – Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+- [ ]	‘is not’ operator – Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
 
 
 |Operator|Description |Example
@@ -186,9 +186,9 @@ If he input is other than the given month, then display error message as “Inva
 
 
 ### 3.1.3	CONDITIONAL STATEMENTS
-•	In programming language conditional statements are used to perform different computations or actions depending on whether a condition evaluates to true or false
-•	The conditions use comparisons and arithmetic expressions with variables
-•	The expressions are evaluated to Boolean values True or False
+- [ ]	In programming language conditional statements are used to perform different computations or actions depending on whether a condition evaluates to true or false
+- [ ]	The conditions use comparisons and arithmetic expressions with variables
+- [ ]	The expressions are evaluated to Boolean values True or False
 
 Available conditional statements in python are
 
@@ -198,16 +198,16 @@ Available conditional statements in python are
  4. Nested if statement
 
 **Rules for conditional statements:**
-•	The colon(:) is required at the end of the condition
-•	The body of the if statement is indicated by the indentation(four spces are used for indentation)
-•	Python interprets non-zero values as true and 0 as false
+- [ ]	The colon(:) is required at the end of the condition
+- [ ]	The body of the if statement is indicated by the indentation(four spces are used for indentation)
+- [ ]	Python interprets non-zero values as true and 0 as false
 
 ### 1. ‘if’  STATEMENT (CONDITIONAL STATEMENT)
-•	Sometimes we want to execute a code or a block of code only if a certain condition is satisfied.
-•	the program evaluates the condition and will execute statement(s) only if the condition is True.
-•	If the condition is False, the statement(s) is not executed.
-•	In Python, the body of the if statement is indented. 
-•	Python interprets non-zero values as True. None and 0 are interpreted as False.
+- [ ]	Sometimes we want to execute a code or a block of code only if a certain condition is satisfied.
+- [ ]	the program evaluates the condition and will execute statement(s) only if the condition is True.
+- [ ]	If the condition is False, the statement(s) is not executed.
+- [ ]	In Python, the body of the if statement is indented. 
+- [ ]	Python interprets non-zero values as True. None and 0 are interpreted as False.
 							
  **Syntax**
 
