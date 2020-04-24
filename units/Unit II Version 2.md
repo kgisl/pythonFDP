@@ -475,12 +475,7 @@ string or list.
 | in           | True if value/variable is found in the sequence     | 5 in x      |
 | not in       | True if value/variable is not found in the sequence | 5 not in x  |
 
-
-<<<<<<< HEAD
-![alt text](units/Unit2-img/membershipopr.png)
-=======
 ![alt text](Unit2-img/membershipopr.png)
->>>>>>> upstream/master
 
 **2.5.2 Operator Precedence and Associativity**
 
@@ -511,7 +506,7 @@ operators in python also follow the same rule. We call these rules as operator P
     **Example:** degrees / 2 * pi, here division is performed first and then
       multiplication happens.
 
-
+![alt text](Unit2-img/Operator_Precedence.png)
 
 **Associativity :**
 
@@ -520,7 +515,11 @@ Almost all operators except the exponent (**) support the left-to-right associat
 
 For example, the product (*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
 
+![alt text](Unit2-img/LRAssociativity.png)
+
 The only operator which has right-to-left associativity in Python is the exponent (**) operator.
+
+![alt text](Unit2-img/RLAssociativity.png)
 
 More details on this are in the bonus section. Please refer to it.
 
