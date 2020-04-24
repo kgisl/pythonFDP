@@ -495,23 +495,23 @@ operators in python also follow the same rule. We call these rules as operator P
 -   Parentheses have the highest precedence and can be used to force an
     expression to evaluate in the order you want.
 
-        **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
+    **Example:** 2 * (3-1) is 4, and (1+1) ** (5-2) is 8.
         
 -   Exponentiation has the next highest precedence.
 
-        **Example:** 1 + 2\*\*3 is 9, not 27
+    **Example:** 1 + 2**3 is 9, not 27
 
 -   Multiplication and Division have higher precedence than Addition and
     Subtraction.
 
-        **Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
+    **Example:** 2*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
 
 -   Operators with the same precedence are evaluated from left to right
 
-        **Example:** degrees / 2 \* pi, here division is performed first and then
-          multiplication happens.
+    **Example:** degrees / 2 * pi, here division is performed first and then
+      multiplication happens.
 
-![Operator_Precedence](Unit2-img/Operator_Precedence)
+
 
 **Associativity :**
 
@@ -521,9 +521,6 @@ Almost all operators except the exponent (**) support the left-to-right associat
 For example, the product (*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
 
 The only operator which has right-to-left associativity in Python is the exponent (**) operator.
-
-
-
 
 More details on this are in the bonus section. Please refer to it.
 
