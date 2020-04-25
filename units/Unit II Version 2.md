@@ -48,7 +48,7 @@ ___
 
         -   Operators
 
-        -   Precedence of Operator
+        -   Operator Precedence and Associativity
 
     -   Comments
 
@@ -499,7 +499,7 @@ For example, the product (*) and the modulus (%) have the same precedence. So, i
 
 ![alt text](Unit2-img/LRAssociativity.png)
 
-The only operator which has right-to-left associativity in Python is the exponent (**) operator.
+The only operator which has right-to-left associativity in Python is the exponent (**) operator. In the example below you may notice that the expression is evaluated from the right side  and the result is passed to the other operator.
 
 ![alt text](Unit2-img/RLAssociativity.png)
 
@@ -528,7 +528,7 @@ developer understand verbally what each section of code is dedicated to achieve.
 
 **2.7 MODULES AND FUNCTIONS**
 
-**2.7.1 FUNCTIONS DEFINITION**
+**2.7.1 FUNCTION DEFINITION**
 
 A function is a group of related statements that perform a specific task.
 Functions help break our program into smaller and modular chunks. As our program
