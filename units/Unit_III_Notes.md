@@ -103,13 +103,19 @@ If he input is other than the given month, then display error message as “Inva
 - [ ] Binary operators require two operands
 - [ ] Python language supports the following types of  operators.
 
-	 1. Arithmetic  Operators
-	 2. Comparison (Relational) Operators
-	 3. Assignment  Operators
-	 4. Logical  Operators
-	 5. Membership  Operators
-	 6. Identity  Operators
-### i) Arithmetic operators
+	 i.  Arithmetic  Operators
+	 
+	 ii. Comparison (Relational) Operators
+	 
+	 iii.Assignment  Operators
+	 
+	 iv. Logical  Operators
+	 
+	 v.  Membership  Operators
+	 
+	 vi. Identity  Operators
+	 
+### i. Arithmetic operators
 
 - [ ] Arithmetic  operators  are  used  to  perform  mathematical  operations  like  addition,  subtraction,  Multiplication
 - [ ] Assume variable ‘_a’_ holds 10 and variable ‘_b_’ holds 20  then the following table shows the result of arithmetic operators.
@@ -125,7 +131,7 @@ If he input is other than the given month, then display error message as “Inva
 |** Exponent	|Performs exponential (power) calculation on operators	|a**b =10 to the power 20
 |// Floor Division	|The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity) −	|9//2 = 4 and 9.0//2.0 = 4.0, -11//3 = -4, -11.0//3 = -4.0
 
-### (ii)	Comparison Operators
+### ii.	Comparison Operators
 •	These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators.
 •	The result of these operators is a Boolean value (True / False)
 •	Assume variable a holds 10 and variable b holds 20, then
@@ -139,7 +145,7 @@ If he input is other than the given month, then display error message as “Inva
 |>=	|If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.	|(a >= b) is not true.
 |<=	|If the value of left operand is less than or equal to the value of right operand, then condition becomes true.	|(a <= b) is true.
 
-### (iii)	Assignment  and Compound Operators
+### iii. Assignment  and Compound Operators
 - [ ]	Used to assign values to variables
 - [ ]	Compound operator performs arithmetic operation and then assigns the value
 - [ ]	Assume variable a holds 10 and variable b holds 20, then 
@@ -154,7 +160,7 @@ If he input is other than the given month, then display error message as “Inva
 |%= Modulus & Assign	|It takes modulus using two operands and assign the result to left operand	|c %= a is equivalent to c = c % a
 | ** = Exponent & Assign	|Performs exponential (power) calculation on operators and assign value to the left operand |c ** = a is equivalent to c = c ** a
 
-### iv) Logical Operators
+### iv. Logical Operators
 - [ ]	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
 - [ ]	Used to reverse the logical state of its operand.
 - [ ]	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then –
@@ -165,7 +171,7 @@ If he input is other than the given month, then display error message as “Inva
 |*or* Logical OR	|If any of the two operands are non-zero then condition becomes true.|(a or b) is true.
 |*not* Logical NOT	| Used to reverse the logical state of its operand.	|Not(a and b) is false.
 
-### v) Membership Operators
+### v. Membership Operators
 - [ ]	Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples.
 - [ ]	There are two membership operators as explained below –
 
@@ -175,7 +181,7 @@ If he input is other than the given month, then display error message as “Inva
 | in | True if value/variable is found in the sequence|5 in numlist, returns true if 5 is in the numlist.
 |not in	|True if value/variable is not found in the sequence	|5 in numlist, returns false if 5 is not in the numlist.
 
-### vi) Identity Opertors
+### vi. Identity Opertors
 - [ ]	‘is’ operator – Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
 - [ ]	‘is not’ operator – Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
 
@@ -186,24 +192,27 @@ If he input is other than the given month, then display error message as “Inva
 |is not	|Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.|x is not y, here is not results in 1 if id(x) is not equal to id(y).
 
 
-### 3.1.3	CONDITIONAL STATEMENTS
+### 3.1.3. CONDITIONAL STATEMENTS
 - [ ]	In programming language conditional statements are used to perform different computations or actions depending on whether a condition evaluates to true or false
 - [ ]	The conditions use comparisons and arithmetic expressions with variables
 - [ ]	The expressions are evaluated to Boolean values True or False
 
 Available conditional statements in python are
 
- 1. if statement
- 2. If..else statement
- 3. If..elif..else statement 
- 4. Nested if statement
+ 	i.   if statement
+ 
+ 	ii.  if..else statement
+ 
+ 	iii. if..elif..else statement
+ 
+	 iv.  Nested if statement
 
 **Rules for conditional statements:**
 - [ ]	The colon(:) is required at the end of the condition
 - [ ]	The body of the if statement is indicated by the indentation(four spces are used for indentation)
 - [ ]	Python interprets non-zero values as true and 0 as false
 
-### 1. ‘if’  STATEMENT (CONDITIONAL STATEMENT)
+### 3.1.3.1. ‘if’  STATEMENT (CONDITIONAL STATEMENT)
 - [ ]	Sometimes we want to execute a code or a block of code only if a certain condition is satisfied.
 - [ ]	the program evaluates the condition and will execute statement(s) only if the condition is True.
 - [ ]	If the condition is False, the statement(s) is not executed.
@@ -231,8 +240,8 @@ Python program to check whether a person is eligible for vote.
 				Enter Your age
 				21
 				Eligible for voting
-		    
-### 2. ‘if...else’ STATEMENT(ALTERNATIVE CONDITIONAL STATEMENT)
+	   
+### 3.1.3.2. ‘if...else’ STATEMENT(ALTERNATIVE CONDITIONAL STATEMENT)
 
 - [ ]	The if..else statement evaluates test expression and will execute body of if only when test condition is True.
 - [ ]	If the condition is False, body of else is executed. Indentation is used to separate the blocks.
@@ -256,6 +265,7 @@ Python program to checks if the number is positive or negative
 				else:
 					print("Negative number")
 					
+
 **Output**
 		
 				Positive or Zero
@@ -279,7 +289,7 @@ Python program to checks if the number is positive or negative
 				Even Number
 				
 
-### 3. ‘if...elif...else’(CHAINED CONDITIONAL STATEMENT)
+### 3.1.3.3. ‘if...elif...else’(CHAINED CONDITIONAL STATEMENT)
 
 - [ ]  The elif is short for else if. It allows us to check for multiple expressions.
 - [ ]   If the condition for if is False, it checks the condition of the next elif block and so on.
@@ -289,7 +299,6 @@ Python program to checks if the number is positive or negative
   
 **Syntax of if...elif...else**
 
-**Program**
 
 				if (test expression/condition):
 					Body of if
@@ -342,7 +351,7 @@ Python program to checks if the number is positive or negative
 				octogon
 				
 							    
-### 4. NESTED CONDITIONAL
+### 3.1.3.4. NESTED CONDITIONAL
 
 - [ ]	A conditional statement defined inside another conditional statement is called nested conditional statement.
 - [ ]	Any number of these statements can be nested inside one another.
@@ -373,8 +382,9 @@ Python program to check if the number is positive or negative or zero using nest
 				
 ## 3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS
 
-- [ ]	‘for‘ Statement
-- [ ]	‘while’ Statement 
+	i.  ‘for‘ Statement
+	
+	ii. ‘while’ Statement 
 
 
 ### 3.2.1. ‘for’ LOOP
@@ -410,11 +420,11 @@ Python Program to find the sum of all numbers stored in a list
 
 ### 3.2.2. ‘while’ LOOP:
 
-•	In while loop, test expression is checked first.
-•	The body of the loop is entered only if the test expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.
-•	In Python, the body of the while loop is determined through indentation.
-•	Body starts with indentation and the first unintended line marks the end.
-•	Python interprets any non-zero value as True. None and 0 are interpreted as False.
+- [ ] In while loop, test expression is checked first.
+- [ ] The body of the loop is entered only if the test expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.
+- [ ] In Python, the body of the while loop is determined through indentation.
+- [ ] Body starts with indentation and the first unintended line marks the end.
+- [ ] Python interprets any non-zero value as True. None and 0 are interpreted as False.
 
 **Syntax**
 
@@ -470,7 +480,7 @@ Python program to illustrate the use of else statement with the while loop
 - [ ]	A counter variable to print the string inside loop three times.
 - [ ]	On the forth iteration, the condition in while becomes False. Hence, the else part is executed.
 
-**Difference between while and for loop **
+**Difference between while and for loop**
 |while loop|for loop  |
 |--|--|
 |Indefinite loop |Definite loop  |
@@ -480,15 +490,19 @@ Python program to illustrate the use of else statement with the while loop
 
 - [ ]	Unconditional statements are used in the situations, there is a need to exit the loop completely when an external condition is triggered or there may be a situation to skip a part of the code and start the next execution.
 - [ ]	Python provide the following statements
->          i.   Break
->          ii.  Continue
->          iii. Pass
+       
+       i.  Break
+      
+      ii.  Continue
+     
+     iii.  Pass
+     
 			
 - [ ]	In Python, break and continue statements can alter the flow of a normal loop.
 - [ ]	Loops iterate over a block of code until test expression is false, to terminate the current iteration or even the whole loop without checking test expression.
 - [ ]	The break and continue statements are used in these cases.
 
-**(i) Python break statement**
+** i. Python break statement**
 
 - [ ]	The break statement terminates the loop containing it.
 - [ ]	Control of the program flows to the statement immediately after the body of the loop.
@@ -541,10 +555,10 @@ Python program to demonstrate break
 				completed
 				
 
-**(ii)	Python continue statement**
+** ii.	Python continue statement**
 
-•	The continue statement is used to skip the rest of the code inside a loop for the current iteration only.
-•	Loop does not terminate but continues on with the next iteration.
+-[] The continue statement is used to skip the rest of the code inside a loop for the current iteration only.
+-[] Loop does not terminate but continues on with the next iteration.
 
 **Syntax of Continue**
 
@@ -571,8 +585,8 @@ Python Program to show the use of continue statement inside loops
 				g
 				The end
 				
-•	This program is same as the above example except the break statement has been replaced with continue.
-•	continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
+- [ ] This program is same as the above example except the break statement has been replaced with continue.
+- [ ] continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
 
 **Example 2:**
 
@@ -601,9 +615,9 @@ Python Program to show the use of continue statement inside loops
 				Enter the number:23
 				Number is 23
 
-**(iii)	Pass STATEMENT**
-•	It is used when a statement is required syntactically but you do not want any command or code to execute.
-•	The pass statement is a null operation; nothing happens when it executes. The pass is also useful in places where your code will eventually go, but has not been written yet.
+**iii.	Pass STATEMENT**
+- [ ] It is used when a statement is required syntactically but you do not want any command or code to execute.
+- [ ] The pass statement is a null operation; nothing happens when it executes. The pass is also useful in places where your code will eventually go, but has not been written yet.
 
 Syntax of pass
 
@@ -643,15 +657,15 @@ Python program to illustrate pass
 
 ## 3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION
 ### 3.3.1. Functions
-•	Function is a group of statements that together perform a task.
-•	A function is a block of organized, reusable code that is used to perform a single, related action.
-Defining a Function
+- [ ] Function is a group of statements that together perform a task.
+- [ ] A function is a block of organized, reusable code that is used to perform a single, related action.
+**i. Defining a Function**
 Simple rules to define a function in Python.
-•	Function blocks begin with the keyword def followed by the function name and parentheses ( ).
-•	Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
-•	The first statement of a function can be an optional statement - the documentation string of the function or docstring.
-•	The code block within every function starts with a colon (:) and is indented.
-•	The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return none.
+- [ ] Function blocks begin with the keyword **def** followed by the function name and parentheses ( ).
+- [ ] Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+- [ ] The first statement of a function can be an optional statement - the documentation string of the function or docstring.
+- [ ] The code block within every function starts with a colon (:) and is indented.
+- [ ] The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return none.
 
 **Syntax**
 
@@ -659,12 +673,12 @@ Simple rules to define a function in Python.
 					"function_docstring"
 					function body
 					return [expression]
-**Creating a function**
+**Example**
 
 				def my_function(): 
 					print("Hello from a function")
 
-**Calling a Function**
+**ii. Calling a Function**
 	To call a function, use the function name followed by parenthesis.
 
 **Example:**
@@ -680,11 +694,11 @@ Simple rules to define a function in Python.
 				Hello from a function
 				
 
-**Parameters**
+**iii. Parameters**
 
-•	Information can be passed to functions as parameter.
-•	Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.
-•	The following example has a function with one parameter (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+- [ ] Information can be passed to functions as parameter.
+- [ ] Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.
+- [ ] The following example has a function with one parameter (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
 
 **Example:**
 
@@ -704,10 +718,10 @@ Simple rules to define a function in Python.
 				Tobias Refsnes
 				Linus Refsnes
 
-**Default Parameter Value**
+**iv. Default Parameter Value**
 
-•	The following example shows how to use a default parameter value.
-•	If we call the function without parameter, it uses the default value:
+- [ ] The following example shows how to use a default parameter value.
+- [ ] If we call the function without parameter, it uses the default value:
 
 **Example:**
 
@@ -729,19 +743,18 @@ Simple rules to define a function in Python.
 				I am from Norway
 				I am from Brazil
 				
-### 3.3.2	Return Values
-•	The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
-•	All the above examples are not returning any value. You can return a value from a function as follows
+### 3.3.2 Return Values
+- [ ] The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+- [ ] All the above examples are not returning any value. You can return a value from a function as follows:
 
-# Function definition is here 
+				#Function definition is here 
 				def sum( arg1, arg2 ):
 					# Add both the parameters and return them." 
 					total = arg1 + arg2
 					print("Inside the function : ", total)
 					return total;
 
-# Now you can call sum function 
-				
+				# Now you can call sum function 
 				total = sum( 10, 20 );
 				print("Outside the function : ", total)
 				
@@ -764,16 +777,19 @@ Simple rules to define a function in Python.
 				45
 
 ### 3.3.3 Function Arguments
-The following types of formal arguments:
+The types of formal arguments are:
 
-•	Required arguments
-•	Keyword arguments
-•	Default arguments
-•	Variable-length arguments
+	  i.	Required arguments
+	  
+	 ii.	Keyword arguments
+	 
+	iii.	Default arguments
+	
+	 iv.	Variable-length arguments
 
-**Required arguments**
-•	Required arguments are the arguments passed to a function in correct positional order.
-•	The number of arguments in the function call should match exactly with the function definition.
+**i. Required arguments**
+- [ ] Required arguments are the arguments passed to a function in correct positional order.
+- [ ] The number of arguments in the function call should match exactly with the function definition.
 
 **Example**
 
@@ -792,10 +808,10 @@ The following types of formal arguments:
 				hello		
 				
 
-**Keyword arguments**
-•	Keyword arguments are related to the function calls.
-•	When keyword arguments in a function call, the caller identifies the arguments by the parameter name.
-•	This allows you to skip arguments or place them out of order because the Python interpreter is able to use the keywords provided to match the values with parameters.
+**ii. Keyword arguments**
+- [ ] Keyword arguments are related to the function calls.
+- [ ] When keyword arguments in a function call, the caller identifies the arguments by the parameter name.
+- [ ] This allows you to skip arguments or place them out of order because the Python interpreter is able to use the keywords provided to match the values with parameters.
 
 **Example**
 
@@ -816,10 +832,10 @@ The following types of formal arguments:
 				The float is: 58.62
 				
 
-**Default arguments**
-•	A default argument is an argument that assumes a default value if a value is not provided in
+**iii. Default arguments**
+- [ ] A default argument is an argument that assumes a default value if a value is not provided in
 the function call for that argument.
-•	The following example gives an idea on default arguments, it prints default age if it is not passed 
+- [ ] The following example gives an idea on default arguments, it prints default age if it is not passed 
 
 **Example**
 
@@ -843,9 +859,9 @@ the function call for that argument.
 				Age  35
 
 
-**Variable-length arguments**
-•	Variable length argument make function calls with many(arbitary).
-•	These arguments are called variable-length arguments and are not named in the function definition, unlike required and default arguments.
+**iv. Variable-length arguments**
+- [ ] Variable length argument make function calls with many(arbitary).
+- [ ] These arguments are called variable-length arguments and are not named in the function definition, unlike required and default arguments.
 
 **Syntax:**
 
@@ -854,7 +870,7 @@ the function call for that argument.
 					function body
 					return [expression]
 
-An asterisk (*) is placed before the variable name that holds the values of all non keyword variable arguments. This tuple remains empty if no additional arguments are specified during the function call.
+An asterisk is placed before the variable name that holds the values of all non keyword variable arguments. This tuple remains empty if no additional arguments are specified during the function call.
 
 **Example 1**
 
@@ -882,17 +898,17 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 				50
 
 ### 3.3.4. Scope of Variables
-•	All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
-•	The scope of a variable determines the portion of the program where you can access a particular identifier.
-•	There are two basic scopes of variables in Python −
-•	Global variables
-•	Local variables
+- [ ] All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
+- [ ] The scope of a variable determines the portion of the program where you can access a particular identifier.
+- [ ] There are two basic scopes of variables in Python −
+	- [ ] Global variables
+	- [ ]	Local variables
 
 **Global vs. Local variables**
 
-•	Variables that are defined inside a function body have a local scope, and those defined outside have a global scope.
-•	This means that local variables can be accessed only inside the function in which they are declared, whereas global variables can be accessed throughout the program body by all functions.
-•	When you call a function, the variables declared inside it are brought into scope.
+- [ ] Variables that are defined inside a function body have a local scope, and those defined outside have a global scope.
+- [ ] This means that local variables can be accessed only inside the function in which they are declared, whereas global variables can be accessed throughout the program body by all functions.
+- [ ] When you call a function, the variables declared inside it are brought into scope.
 
 **Example 1** 
 
@@ -915,10 +931,10 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 				Outside the function global total : 0
 
 ### 3.3.5. Function composition or Anonymous Functions
-•	Function composition is the way of combining the functions
-•	These functions are called anonymous because they are not declared in the standard manner by using the def keyword. You can use the lambda keyword to create small anonymous functions.
-•	Lambda forms can take any number of arguments but return just one value in the form of an expression. They cannot contain commands or multiple expressions.
-•	An anonymous function cannot be a direct call to print because lambda requires an expression
+- [ ] Function composition is the way of combining the functions
+- [ ] These functions are called anonymous because they are not declared in the standard manner by using the def keyword. You can use the lambda keyword to create small anonymous functions.
+- [ ] Lambda forms can take any number of arguments but return just one value in the form of an expression. They cannot contain commands or multiple expressions.
+- [ ] An anonymous function cannot be a direct call to print because lambda requires an expression
 
 **Syntax**
 
@@ -940,9 +956,9 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 
 ### 3.3.6. Recursive Function:
 
-•	Recursion is the process of the function call by itself.
-•	In Python, a function can call other functions. It is even possible for the function to call itself. These type of construct are termed as recursive functions.
-•	Example - recursive function to find the factorial of an integer.
+- [ ] Recursion is the process of the function call by itself.
+- [ ] In Python, a function can call other functions. It is even possible for the function to call itself. These type of construct are termed as recursive functions.
+- [ ] Example - recursive function to find the factorial of an integer.
 
  Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
 
@@ -966,9 +982,9 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 
 				The factorial of 4 is 24
 
-•	In the above example, calc_factorial() is a recursive functions as it calls itself.
-•	This function with a positive integer, it will recursively call itself by decreasing the number.
-•	Each function call multiples the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in the following steps.
+- [ ] In the above example, calc_factorial() is a recursive functions as it calls itself.
+- [ ] This function with a positive integer, it will recursively call itself by decreasing the number.
+- [ ] Each function call multiples the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in the following steps.
 
 
 
@@ -981,18 +997,18 @@ calc_factorial(4)	# 1st call with 4
 * 6			# return from 2nd call
 			# return from 1st call
 
-•	Our recursion ends when the number reduces to 1. This is called the base condition.
-•	Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
+- [ ] Our recursion ends when the number reduces to 1. This is called the base condition.
+- [ ] Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
 
 **Advantages of recursion**
-1.	Recursive functions make the code look clean and elegant.
-2.	A complex task can be broken down into simpler sub-problems using recursion.
-3.	Sequence generation is easier with recursion than using some nested iteration.
++ Recursive functions make the code look clean and elegant.
++ A complex task can be broken down into simpler sub-problems using recursion.
++ Sequence generation is easier with recursion than using some nested iteration.
 
 **Disadvantages of recursion**
-1.	Sometimes the logic behind recursion is hard to follow through.
-2.	Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
-3.	Recursive functions are hard to debug.
++ Sometimes the logic behind recursion is hard to follow through.
++ Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
++ Recursive functions are hard to debug.
 
 ## 3.4. STRINGS
 A string is a sequence of characters. You can access the characters one at a time with the bracket operator:
