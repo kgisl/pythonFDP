@@ -36,7 +36,7 @@
 |FALSE	|TRUE	|TRUE
 |FALSE	|FALSE	|FALSE
 
-**Example 3.1: “and” operator**
+**Example 3.1:**
 
 A python program to display the National holidays.
 For example:
@@ -67,7 +67,7 @@ If user input is other than the given condition,Error will be displayed as “In
 			independence day
 
 
-**Example 3.2: “or” operator**
+**Example 3.2:**
 
 Number of days in a month varies from 30 to 31 days. 
 Write a python program to read the name of the month and display corresponding days. 
