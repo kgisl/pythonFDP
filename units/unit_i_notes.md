@@ -61,11 +61,8 @@ Three reasons for using algorithms are efficiency, abstraction and reusability.
 **Building Blocks of Algorithms are,**
 		 Computer is not smart as we humans. It requires a much more than single instruction to do any task. We can express our needs to computer using the algorithms. Algorithms includes basic building blocks, That is used to express any kind of the task to the computer
 		 **_1. Instructions/ Statements_**
-		 
 		 **_2. State_**
-		 
 		 **_3. Control Flow_**
-		 
 		 **_4. Functions_**
 
 **_1. Instructions/ Statements_**
@@ -110,19 +107,19 @@ It is a set of statements, that used to perform a sequence of operations repeate
 ● **_if-statement_**: if A > 3 then WRITELN(A) else WRITELN("NOT YET"); end
 >Normally it contains two sets of statements. State or value is compared with a conditions if it is satisfied the “if” block will be executed otherwise else part will be executed.>
 
-●**_switch-statement_**: switch (c) { case 'a': alert(); break; case 'q': quit(); break; }
+● **_switch-statement_**: switch (c) { case 'a': alert(); break; case 'q': quit(); break; }
 >It contains more than two blocks of statement each one has the conditions. When a program reaches a state with a value.  First hit of matching conditions block will be executed. If nothing matches then default block of statements will be executed
 >
 ● **_while-loop_**: while NOT EOF DO begin READLN end
 >Looping a set of statements repeatedly until some condition is satisfied. We can’t predict when the condition become satisfiable. This is loop is entry controlled. Control will enter into the loop only if condition is satisfiable.>
 
-**State:**
+**2 State:**
 
 In information technology and computer science, a program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system.
 
 If a program gets sufficient datas processed then it moves to another state. A successful execution of program include the reaching the  final state of the program.
 
-**Control Flow**
+**3 Control Flow:**
 
 In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
@@ -170,7 +167,7 @@ In structured programming, the ordered sequencing of successive commands is cons
 - Condition-controlled loops
 - Collection-controlled loops
 
-**Functions**
+**4 Functions:**
 
 module - A small component of a computer program that may contain several routines. parameter In computer programming, a parameter is a value that is passed into a function or procedure. procedure A section of computer code that performs a specific task.
 
@@ -184,8 +181,6 @@ When a function is "called" the program "leaves" the current section of code and
  4. The program leaves the function and goes back to where it started from.
  5. Any data computed and RETURNED by the function is used in place of the function in the original line of code.
  
- <![endif]-->
-
 **_Why do we Write Functions?_**
 
 1. They allow us to conceive of our program as a bunch of sub-steps. (Each sub-step can be its own function. When any program seems too hard, just break the overall program into sub-steps!)
@@ -214,10 +209,10 @@ Algorithms are basically a set of instructions that, if correct and if followed 
 
 Algorithms can be thought of as the recipe for taking the general solution for a class of problem and applying it to a specific instance of a problem covered by that class. For instance, the class of problem might be to find the surface area of a sphere given its radius. Through some problem solving means - perhaps by performing the fundamental calculus computation or perhaps simply by looking up the equation in a math book - we determine that the general solution to the problem is that the area is four times pi times the square of the radius. We can then use this general solution and create an algorithm that permits use to compute the surface area of a specific sphere:
 
->TASK: Compute the surface area of a sphere
-GET: radius
-SET: area = 4pi*radius*radius
->
+>TASK: Compute the surface area of a sphere <br>
+GET: radius<br>
+SET: area = 4pi*radius*radius >
+<br>
 
 **_Pseudocode_**
 
@@ -235,14 +230,13 @@ The rules of Pseudocode are reasonably straightforward. All statements showing "
 
 **_For finding the given number is odd or even:_**
 
-_Input any number_
-_Compute modulo for that  number_
-_If modulo value equals to zero_
-_ Print “The number is Even”_
-_Else_
-_Print “The number is Odd”_
-_End_
-
+_Input any number_<br>
+_Compute modulo for that  number_<br>
+_If modulo value equals to zero_<br>
+_ Print “The number is Even”_<br>
+_Else_<br>
+_Print “The number is Odd”_<br>
+_End_<br>
 
 
 #### **Documentation Keywords**
@@ -250,7 +244,7 @@ _End_
 Documentation keywords describe what needs to be done or provides information about why something is being done. You will quickly discover that, if you have done a decent job of writing your pseudocode, that these lines make very useful comment lines in your final code.
 
 ● TASK:
->A TASK statement is something that the program must perform but that is described at a level more abstract than what can be coded directly. One way to think of it is that you break a problem down into a set of TASKs. Each TASK can, in turn, be broken down into more narrowly defined TASKs. At some point, the TASK can be described in terms of steps that can be directly implemented. From one perspective, anytime a TASK: keyword is used, it means that there should (or at least could) be a subordinate level of the hierarchy which is the pseudocode for that TASK. In practice, that pseudocode need not be present if the TASK is sufficiently narrow that the person implementing it can go directly from the TASK description to the actual code without the benefit of the detailed steps.>
+>A TASK statement is something that the program must perform but that is described at a level more abstract than what can be coded directly. One way to think of it is that you break a problem down into a set of TASKs. Each TASK can, in turn, be broken down into more narrowly defined TASKs. At some point, the TASK can be described in terms of steps that can be directly implemented. From one perspective, anytime a TASK: keyword is used, it means that there should (or at least could) be a subordinate level of the hierarchy which is the pseudocode for that TASK. In practice, that pseudocode need not be present if the TASK is sufficiently narrow that the person implementing it can go directly from the TASK description to the actual code without the benefit of the detailed steps.
 
 ● REM:
 >A REM statement is merely a remark or comment. They are useful if the TASK statement proves to be insufficient to convey all the desired information or if the reason that something is done or why it works is not obvious..
@@ -351,15 +345,15 @@ Streamlining the other two is more difficult because, since the test comes at th
 As you code loops, you will discover that it is frequently the case that there are steps that are logically associated with the loop but which must reside outside of the loop code. The most common by far is the need to initialize certain variables, especially counters, prior to entering the loop. Much less frequently, it is necessary to perform some cleanup tasks immediately after the loop is exited. A pseudocode construct that gathers all of these together so that their association is obvious is the following:
 
 Repetition - Case 7
-● REP:
-○ PRE:
-■ Statement(s) to be executed prior to entering loop
-○ WHILE: (test condition)
-■ Statement(s) to be executed if test condition is TRUE
-○ LOOP:
-○ POST:
-	■ Statement(s) to be executed prior after the loop is finished
-
+● REP:<br>
+○ PRE:<br>
+■ Statement(s) to be executed prior to entering loop<br>
+○ WHILE: (test condition)<br>
+■ Statement(s) to be executed if test condition is TRUE<br>
+○ LOOP:<br>
+○ POST:<br>
+	■ Statement(s) to be executed prior after the loop is finished<br>
+	
 The above can be easily altered so as to cover all four of the first four cases. As shown, it implements Case 1. By switching the WHILE: and LOOP: statements it implements Case 2. Similarly, Case 3 is obtained simply by changing the WHILE: to UNTIL: and swapping the UNTIL: with the LOOP: then generated Case 4.
 
 
@@ -368,43 +362,43 @@ The above can be easily altered so as to cover all four of the first four cases.
 
 ***Pseudo Code for Sum of two numbers:***
 
-TASK : Sum of two numbers
-READ num1
-READ num2
-Compute SUM:
-Sum = num1 + num2
-EndSUM
-DISPLAY Sum
-End
-EndTASK
+TASK : Sum of two numbers<br>
+READ num1<br>
+READ num2<br>
+Compute SUM:<br>
+Sum = num1 + num2<br>
+EndSUM<br>
+DISPLAY Sum<br>
+End<br>
+End TASK<br>
 
 ***Pseudocode to find given number is odd or even***
 
-TASK: Find Odd or Even:
-READ number
-Compute MODULO:
-Mod = number % 2;
-EndMODULO
-IF Mod = 0:
-PRINT “Number is Even”
-ELSE:
-PRINT “Number is Odd”
-EndTASK
+TASK: Find Odd or Even:<br>
+READ number<br>
+Compute MODULO:<br>
+Mod = number % 2;<br>
+End MODULO<br>
+IF Mod = 0:<br>
+PRINT “Number is Even”<br>
+ELSE:<br>
+PRINT “Number is Odd”<br>
+End TASK<br>
 
 ***Pseudocode to find factorial of given number***
-TASK: Finding Factorial of a number
-READ number
-Initialize Fact to 0 and CurrentVal to number
-WHILE CurrentVal is not 1:
-IF CurretVal >= 1:
-Fact = Fact * CurrentVal
-CurretVal = CurretVal - 1
-EndIF
-Else
-Print Fact
-EndWHILE
-End
-EndTASK.
+TASK: Finding Factorial of a number <br>
+READ number<br>
+Initialize Fact to 0 and CurrentVal to number<br>
+WHILE CurrentVal is not 1:<br>
+IF CurretVal >= 1:<br>
+Fact = Fact * CurrentVal<br>
+CurretVal = CurretVal - 1<br>
+EndIF<br>
+Else<br>
+Print Fact<br>
+End WHILE<br>
+End <br>
+End TASK <br>
 
 
 ## **Flowcharts**
@@ -511,20 +505,20 @@ Above that we have 3 styles of the programming with 3 different language but ach
 
 The programs different only by syntax and rules
 
-**Python**
-●It is dynamic type no declaration of variable needed.
-●Just do and display.
-● It is based on Dynamic OOPS .
+**Python**<br>
+●It is dynamic type no declaration of variable needed.<br>
+●Just do and display.<br>
+● It is based on Dynamic OOPS .<br>
 
-**C**
-● It is structure oriented we need to declare a variable before we use it.
-● Anything that represented as block of codes and do the work.
-● It is procedure oriented structured language.
+**C**<br><br>
+● It is structure oriented we need to declare a variable before we use it.<br>
+● Anything that represented as block of codes and do the work.<br>
+● It is procedure oriented structured language.<br>
 
-**JAVA**
-● It is object oriented derived from C and C++
-● Coding style is inherited from C and C++ for easy transformation.
-● Everything is considered as objects and depends on dynamic memory allocations.
+**JAVA**<br>
+● It is object oriented derived from C and C++<br>
+● Coding style is inherited from C and C++ for easy transformation.<br>
+● Everything is considered as objects and depends on dynamic memory allocations.<br>
 
 **_Problem solving with algorithms_**
 
@@ -534,29 +528,29 @@ Problem solving can be achieved so many ways, If you need to done with computers
 
 In computational mathematics, an iterative method is a mathematical procedure that generates a sequence of improving approximate solutions for a class of problems, in which the n-th approximation is derived from the previous ones. A specific implementation of an iterative method, including the termination criteria, is an algorithm of the iterative method. An iterative method is called convergent if the corresponding sequence converges for given initial approximations.
 
-For Example To find power of a number
+For Example To find power of a number<br>
 
-Step 1: Get a base number
-Step 2: Get a power
-Step 3: Initialize result value with number and pow with power
-Step 4: Start with pow as 1
-Step 5: Multiply result and number then increase pow by one
-Step 6: Repeat Step 5 Until pow reaches value of power
-Step 7: Break the loop and display the result
-Step 8: End
+Step 1: Get a base number<br>
+Step 2: Get a power<br>
+Step 3: Initialize result value with number and pow with power<br>
+Step 4: Start with pow as 1<br>
+Step 5: Multiply result and number then increase pow by one<br>
+Step 6: Repeat Step 5 Until pow reaches value of power<br>
+Step 7: Break the loop and display the result<br>
+Step 8: End<br>
 
 In pseudocode:
 
-TASK: To Find Power of a number
-READ number
-READ Power
-Initialize result with number and pow with Power
-WHILE pow < Power:
-result = result * number
-Increase pow by 1
-End Loop
-PRINT result
-End
+TASK: To Find Power of a number<br>
+READ number<br>
+READ Power<br>
+Initialize result with number and pow with Power<br>
+WHILE pow < Power:<br>
+result = result * number<br>
+Increase pow by 1<br>
+End Loop<br>
+PRINT result<br>
+End<br>
 
 
 
@@ -570,31 +564,31 @@ In general, recursive computer programs require more memory and computation comp
 
 For Example To find power of a number
 
-Step 1: Get a base number
-Step 2: Get a power
-Step 3: Send a number and power to routine
-Step 4: In routine Compare power with 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: If it is equal to 1 then return number
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 6: Else Compute the same routine (Step 4 and 5) with a same number and  reduced power by 1
-Step 7: display the result
-Step 8: End
+Step 1: Get a base number <br>
+Step 2: Get a power<br>
+Step 3: Send a number and power to routine<br>
+Step 4: In routine Compare power with 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: If it is equal to 1 then return number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 6: Else Compute the same routine (Step 4 and 5) with a same number and  reduced power by 1<br>
+Step 7: display the result<br>
+Step 8: End<br>
 
 In pseudocode:
 
-TASK: To Find Power of a number
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READ number
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READ Power
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND_POWER number and power
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND_POWER number and power:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF power = 1:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN number
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = FIND_POWER number and power -1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN result
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EndFIND_POWER
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT result
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End
-EndTASK
+TASK: To Find Power of a number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READ number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READ Power<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND_POWER number and power<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND_POWER number and power:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF power = 1:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = FIND_POWER number and power -1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN result<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End FIND_POWER<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT result<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End<br>
+End TASK<br>
 
 
 
