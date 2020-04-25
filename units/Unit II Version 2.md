@@ -378,11 +378,7 @@ subtraction, multiplication etc.
 | //           | Floor division - division that results into whole number adjusted to the left in the number line | x // y                    |
 | \*\*         | Exponent - left operand raised to the power of right                                             | x\*\*y (x to the power y) |
 
-<<<<<<< HEAD
-![alt text](units/Unit2-img/Arithmetic.png)
-=======
 ![arithmetic](Unit2-img/Arithmetic.png)
->>>>>>> upstream/master
 
 **Comparison operators:**
 
@@ -398,11 +394,7 @@ according to the condition.
 | \>=          | Greater than or equal to - True if left operand is greater than or equal to the right. | x \>= y     |
 | \<=          | Less than or equal to - True if left operand is less than or equal to the right        | x \<= y     |
 
-<<<<<<< HEAD
-![alt text](units/Unit2-img/comparision.png)
-=======
 ![alt text](Unit2-img/comparision.png)
->>>>>>> upstream/master
 
 **Logical operators:**
 
@@ -415,11 +407,7 @@ provides a resultant truth value.
 | or           | True if either of the operands is true             | x or y      |
 | not          | True if operand is false (complements the operand) | not x       |
 
-<<<<<<< HEAD
-![alt text](units/Unit2-img/Logical.png)
-=======
 ![logical](Unit2-img/Logical.png)
->>>>>>> upstream/master
 
 **Assignment operators**
 
@@ -442,11 +430,7 @@ variable and later assigns the same. It is equivalent to a = a + 5.
 | //=          | x //= 5     | x = x // 5        |
 | \*\*=        | x \*\*= 5   | x = x \*\* 5      |
 
-<<<<<<< HEAD
-![alt text](units/Unit2-img/AssignmentOP.png)
-=======
 ![operators](Unit2-img/AssignmentOP.png)
->>>>>>> upstream/master
 
 **Identity operators**
 
@@ -458,11 +442,9 @@ location or not.
 | is           | True if the operands are identical (refer to the same object)            | x is True     |
 | is not       | True if the operands are not identical (do not refer to the same object) | x is not True |
 
-<<<<<<< HEAD
-![alt text](units/Unit2-img/identity.png)
-=======
+
 ![alt text](Unit2-img/identity.png)
->>>>>>> upstream/master
+
 
 **Membership Operators**
 
@@ -475,12 +457,7 @@ string or list.
 | in           | True if value/variable is found in the sequence     | 5 in x      |
 | not in       | True if value/variable is not found in the sequence | 5 not in x  |
 
-
-<<<<<<< HEAD
-![alt text](units/Unit2-img/membershipopr.png)
-=======
 ![alt text](Unit2-img/membershipopr.png)
->>>>>>> upstream/master
 
 **2.5.2 Operator Precedence and Associativity**
 
@@ -495,23 +472,23 @@ operators in python also follow the same rule. We call these rules as operator P
 -   Parentheses have the highest precedence and can be used to force an
     expression to evaluate in the order you want.
 
-        **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
+    **Example:** 2 * (3-1) is 4, and (1+1) ** (5-2) is 8.
         
 -   Exponentiation has the next highest precedence.
 
-        **Example:** 1 + 2\*\*3 is 9, not 27
+    **Example:** 1 + 2**3 is 9, not 27
 
 -   Multiplication and Division have higher precedence than Addition and
     Subtraction.
 
-        **Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
+    **Example:** 2*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
 
 -   Operators with the same precedence are evaluated from left to right
 
-        **Example:** degrees / 2 \* pi, here division is performed first and then
-          multiplication happens.
+    **Example:** degrees / 2 * pi, here division is performed first and then
+      multiplication happens.
 
-![Operator_Precedence](Unit2-img/Operator_Precedence)
+![alt text](Unit2-img/Operator_Precedence.png)
 
 **Associativity :**
 
@@ -520,10 +497,11 @@ Almost all operators except the exponent (**) support the left-to-right associat
 
 For example, the product (*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
 
+![alt text](Unit2-img/LRAssociativity.png)
+
 The only operator which has right-to-left associativity in Python is the exponent (**) operator.
 
-
-
+![alt text](Unit2-img/RLAssociativity.png)
 
 More details on this are in the bonus section. Please refer to it.
 
