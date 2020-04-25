@@ -103,17 +103,18 @@ If he input is other than the given month, then display error message as “Inva
 - [ ] Binary operators require two operands
 - [ ] Python language supports the following types of  operators.
 
-	 i.  Arithmetic  Operators
+ 
+ i.  Arithmetic  Operators
+ 
+ ii. Comparison (Relational) Operators
 	 
-	 ii. Comparison (Relational) Operators
+iii. Assignment  Operators
 	 
-	 iii.Assignment  Operators
+ iv. Logical  Operators
 	 
-	 iv. Logical  Operators
+  v.  Membership  Operators
 	 
-	 v.  Membership  Operators
-	 
-	 vi. Identity  Operators
+ vi. Identity  Operators
 	 
 ### i. Arithmetic operators
 
@@ -132,9 +133,9 @@ If he input is other than the given month, then display error message as “Inva
 |// Floor Division	|The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity) −	|9//2 = 4 and 9.0//2.0 = 4.0, -11//3 = -4, -11.0//3 = -4.0
 
 ### ii.	Comparison Operators
-•	These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators.
-•	The result of these operators is a Boolean value (True / False)
-•	Assume variable a holds 10 and variable b holds 20, then
+- [ ]	These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators.
+- [ ]	The result of these operators is a Boolean value (True / False)
+- [ ]	Assume variable a holds 10 and variable b holds 20, then
 
 | Operator |Description  |Example
 |--|--|--|
@@ -199,13 +200,13 @@ If he input is other than the given month, then display error message as “Inva
 
 Available conditional statements in python are
 
- 	i.   if statement
+ i.   if statement
  
- 	ii.  if..else statement
+ ii.  if..else statement
  
- 	iii. if..elif..else statement
+ iii. if..elif..else statement
  
-	 iv.  Nested if statement
+  iv. Nested if statement
 
 **Rules for conditional statements:**
 - [ ]	The colon(:) is required at the end of the condition
@@ -491,11 +492,11 @@ Python program to illustrate the use of else statement with the while loop
 - [ ]	Unconditional statements are used in the situations, there is a need to exit the loop completely when an external condition is triggered or there may be a situation to skip a part of the code and start the next execution.
 - [ ]	Python provide the following statements
        
-       i.  Break
+i.   Break
       
-      ii.  Continue
+ii.  Continue
      
-     iii.  Pass
+iii. Pass
      
 			
 - [ ]	In Python, break and continue statements can alter the flow of a normal loop.
@@ -666,6 +667,8 @@ Simple rules to define a function in Python.
 - [ ] The first statement of a function can be an optional statement - the documentation string of the function or docstring.
 - [ ] The code block within every function starts with a colon (:) and is indented.
 - [ ] The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return none.
+
+**i. Creating a Function**
 
 **Syntax**
 
