@@ -36,7 +36,8 @@
 |FALSE	|TRUE	|TRUE
 |FALSE	|FALSE	|FALSE
 
-### Example 1: “and” operator
+**Example 3.1: “and” operator**
+
 A python program to display the National holidays.
 For example:
    January 26-Republic day
@@ -66,7 +67,7 @@ If user input is other than the given condition,Error will be displayed as “In
 			independence day
 
 
-### Example 1: “or” operator
+**Example 3.2: “or” operator**
 
 Number of days in a month varies from 30 to 31 days. 
 Write a python program to read the name of the month and display corresponding days. 
@@ -89,8 +90,7 @@ If he input is other than the given month, then display error message as “Inva
 			may
 			31
 			
-			 
-
+	
 	   
 ### 3.1.2. OPERATORS
 
@@ -222,7 +222,7 @@ Available conditional statements in python are
 				if (test expression/condition):
 					statement(s)
 		
-**Example**
+**Example 3.3:**
 												
 Python program to check whether a person is eligible for vote.
 
@@ -251,7 +251,7 @@ Python program to check whether a person is eligible for vote.
 				else:
 					statement(s)
  
-**Example 1**
+**Example 3.4:**
 
 Python program to checks if the number is positive or negative
 
@@ -269,7 +269,7 @@ Python program to checks if the number is positive or negative
 				Positive or Zero
 					
 
-**Example 2:**
+**Example 3.5:**
 
 **Program**
 
@@ -305,7 +305,7 @@ Python program to checks if the number is positive or negative
 				else:
 					Body of else
  
- **Example 1:**
+ **Example 3.6:**
  
  Python program to check if the number is positive or negative or zero
 
@@ -325,7 +325,7 @@ Python program to checks if the number is positive or negative
 				Negative number
 				
 				
- **Example 2:**
+ **Example 3.7:**
 
 **Program**
  
@@ -356,7 +356,7 @@ Python program to checks if the number is positive or negative
 - [ ]	Indentation is the only way to figure out the level of nesting.
 - [ ]	Similarly,  alternative and chained conditionals can also be nested
 
-**Example 1**
+**Example 3.8:**
 
 Python program to check if the number is positive or negative or zero using nested if.
 
@@ -398,7 +398,7 @@ objects.
 				for val in sequence:
 					Body of for
 
-**Example**
+**Example 3.9:**
 
 Python Program to find the sum of all numbers stored in a list
 
@@ -429,7 +429,7 @@ Python Program to find the sum of all numbers stored in a list
 				while test_expression:
 					Body of while
 
-**Example:**
+**Example 3.10:**
 
 Python program using while Loop to add natural numbers upto n 
 
@@ -456,7 +456,7 @@ In the above program, the test expression will be True as long as our counter va
 - [ ]	The else part is executed if the condition in the while loop evaluates to False.
 - [ ]	The while loop can be terminated with a break statement.
 
-**Example:**
+**Example 3.11:**
 
 Python program to illustrate the use of else statement with the while loop
 
@@ -510,7 +510,7 @@ iii. Pass
 
 				break
 
-**Example 1:**
+**Example 3.12:**
 
 Python program to illustrate break statement inside loop
 
@@ -530,7 +530,7 @@ Python program to illustrate break statement inside loop
 				The end
 
 
-**Example 2:**
+**Example 3.13:**
 
 Python program to demonstrate break
 
@@ -562,7 +562,7 @@ Python program to demonstrate break
 
 				continue
 				
-**Example 1:**
+**Example 3.14:**
 
 Python Program to show the use of continue statement inside loops
 
@@ -586,7 +586,7 @@ Python Program to show the use of continue statement inside loops
 - [ ] This program is same as the above example except the break statement has been replaced with continue.
 - [ ] continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
 
-**Example 2:**
+**Example 3.15:**
 
 Python Program to show the use of continue statement inside loops
 
@@ -621,7 +621,7 @@ Syntax of pass
 
 			pass
 
-**Example 1:**
+**Example 3.16:**
 
 Python program to illustrate pass
 
@@ -636,7 +636,7 @@ Python program to illustrate pass
 
 				pass is just a placeholder for functionality to be added later.
 
-**Example 2:**
+**Example 3.17:**
 
 **Program**
 
@@ -673,7 +673,7 @@ Simple rules to define a function in Python.
 					"function_docstring"
 					function body
 					return [expression]
-**Example**
+**Example 3.18:**
 
 				def my_function(): 
 					print("Hello from a function")
@@ -681,7 +681,7 @@ Simple rules to define a function in Python.
 **ii. Calling a Function**
 	To call a function, use the function name followed by parenthesis.
 
-**Example:**
+**Example 3.19:**
 
 **Program**
 
@@ -700,7 +700,7 @@ Simple rules to define a function in Python.
 - [ ] Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.
 - [ ] The following example has a function with one parameter (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
 
-**Example:**
+**Example 3.20:**
 
 **Program**
 
@@ -723,7 +723,7 @@ Simple rules to define a function in Python.
 - [ ] The following example shows how to use a default parameter value.
 - [ ] If we call the function without parameter, it uses the default value:
 
-**Example:**
+**Example 3.21:**
 
 **Program**
 
@@ -758,7 +758,7 @@ Simple rules to define a function in Python.
 				total = sum( 10, 20 );
 				print("Outside the function : ", total)
 				
-**Example 2:**
+**Example 3.22:**
 
 **Program**
 
@@ -791,7 +791,7 @@ The types of formal arguments are:
 - [ ] Required arguments are the arguments passed to a function in correct positional order.
 - [ ] The number of arguments in the function call should match exactly with the function definition.
 
-**Example**
+**Example 3.23:**
 
 **Program**
 
@@ -813,7 +813,7 @@ The types of formal arguments are:
 - [ ] When keyword arguments in a function call, the caller identifies the arguments by the parameter name.
 - [ ] This allows you to skip arguments or place them out of order because the Python interpreter is able to use the keywords provided to match the values with parameters.
 
-**Example**
+**Example 3.24:**
 
 **Program**
 
@@ -837,7 +837,7 @@ The types of formal arguments are:
 the function call for that argument.
 - [ ] The following example gives an idea on default arguments, it prints default age if it is not passed 
 
-**Example**
+**Example 3.25:**
 
 **Program**
 
@@ -872,7 +872,7 @@ the function call for that argument.
 
 An asterisk is placed before the variable name that holds the values of all non keyword variable arguments. This tuple remains empty if no additional arguments are specified during the function call.
 
-**Example 1**
+**Example 3.26:**
 
 **Program**
 
@@ -910,7 +910,7 @@ An asterisk is placed before the variable name that holds the values of all non 
 - [ ] This means that local variables can be accessed only inside the function in which they are declared, whereas global variables can be accessed throughout the program body by all functions.
 - [ ] When you call a function, the variables declared inside it are brought into scope.
 
-**Example 1** 
+**Example 3.27:** 
 
 **Program**
 
@@ -939,7 +939,7 @@ An asterisk is placed before the variable name that holds the values of all non 
 **Syntax**
 
 				lambda [arg1 [,arg2,.....argn]]:expression
-**Example 1:**
+**Example 3.28:**
 
 **Program**
 
@@ -962,7 +962,7 @@ An asterisk is placed before the variable name that holds the values of all non 
 
  Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
 
-**Example 1:**
+**Example 3.29:**
 
 **Program**	
 	
@@ -1013,7 +1013,7 @@ calc_factorial(4)	# 1st call with 4
 ## 3.4. STRINGS
 A string is a sequence of characters. You can access the characters one at a time with the bracket operator:
 
-**Example**
+**Example 3.30:**
 
 **Program**
 
@@ -1028,7 +1028,7 @@ A string is a sequence of characters. You can access the characters one at a tim
 				
 The second statement selects character number 1 from fruit and assigns it to letter. The expression in brackets is called an index. The index indicates which character in the sequence you want (hence the name). Always index starts from 0. The value of the index has to be an integer. Otherwise you get:
 
-**Example**
+**Example 3.31:**
 
 **Program**
 	
@@ -1047,7 +1047,7 @@ The second statement selects character number 1 from fruit and assigns it to let
 ### 3.4.1. String Lengths
 len() is a built-in function that returns the number of characters in a string.
 
-**Example**
+**Example 3.32:**
 
 **Program**
 
@@ -1061,7 +1061,7 @@ len() is a built-in function that returns the number of characters in a string.
 	
 To get the last letter of a string, you might be tempted to try something like this:
 
-**Example**
+**Example 3.33:**
 
 **Program**
 				fruit = "banana"
@@ -1195,7 +1195,7 @@ A string can be traversed by accessing characters from one index to another.
 Example: Hello world Hai Ajay
 Output: HelloworldHaiAjay
 
-**Example:**
+**Example 3.34:**
 Program that use different string methods
 
 **Program**
