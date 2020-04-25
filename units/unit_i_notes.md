@@ -43,27 +43,21 @@ Three reasons for using algorithms are efficiency, abstraction and reusability.
 **_Reusability_**: Algorithms are often reusable in many different situations. Since many well-known algorithms are the generalizations of more complicated ones, and since many complicated problems can be distilled into simpler ones, an efficient means of solving certain simpler problems potentially lets us solve many complicated problems.
 
 ### Characteristics of Algorithm
-•Precision: The instructions should be written in a precise manner. 
-
-•Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps. 
-
+• Precision: The instructions should be written in a precise manner. 
+• Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps.
 • Finiteness: Not even a single instruction must be repeated infinitely.
-
-•Effectiveness: The algorithm should designed in such a way that it should be the most effective among many different ways to solve a problem. 
-
+• Effectiveness: The algorithm should designed in such a way that it should be the most effective among many different ways to solve a problem. 
 • Input: The algorithm must receive an input. 
-
 • Output: After the algorithm gets terminated, the desired result must be obtained.
-
- • Generality: The algorithm can be applied to various set of inputs
+• Generality: The algorithm can be applied to various set of inputs
 
 ### BUILDING BLOCKS OF ALGORITHM (INSTRUCTIONS, STATE, CONTROL FLOW, FUNCTIONS)
 **Building Blocks of Algorithms are,**
 		 Computer is not smart as we humans. It requires a much more than single instruction to do any task. We can express our needs to computer using the algorithms. Algorithms includes basic building blocks, That is used to express any kind of the task to the computer
-**_1. Instructions/ Statements_**
-**_2. State_**
-**_3. Control Flow_**
-**_4. Functions_**
+		 **_1. Instructions/ Statements_**
+		 **_2. State_**
+		 **_3. Control Flow_**
+		 **_4. Functions_**
 
 **_1. Instructions/ Statements_**
 
@@ -128,7 +122,6 @@ In computer science, control flow (or flow of control) is the order in which ind
 Within an imperative programming language, a control flow statement is a statement which execution results in a choice being made as to which of two or more paths to follow.
 
 **Control Flow Statement Categories**
-
 ● Continuation at a different statement (*unconditional branch or jump*)
 ● Executing a set of statements only if some condition is met (choice - i.e., *conditional branch*)
 ● Executing a set of statements zero or more times, until some condition is met (i.e., loop - the same as conditional branch)
@@ -418,7 +411,7 @@ Now that we have looked as some of the pros and cons of flowcharts relative to p
 The shape of the block may convey additional information about what is happening. For instance, a rectangular block is frequently used to indicated that a computation is occurring while a slanted parallelogram is used to indicate some type of input or output operation. The diversity of shapes that can be used and what they mean is staggering - for instance a different shape can be used to indicated output to a tape drive versus to a hard disk or to indicate output in text format verses binary format. By using such highly specialized symbols, much of what is happening can be conveyed by the symbols themselves. But the power of using these distinctions is generally only useful to people that work with flowcharts continuously, professionally, and who are describing very large and complex systems. At our level, it is far better to restrict ourselves to a minimum number of shapes and explicitly indicate any information that otherwise might have been implied by using a different shape.
 
 
-![flowchart symbols](https://github.com/sdnandhu/simple/blob/master/flowchart_symbols.png)
+![flowchart symbols](unit_i_img/flowchart_symbols.png)
 
 **_Circle - Entry/Exit Point_**
 
@@ -446,15 +439,15 @@ The arrows simply show which symbol gets executed next. The rule is that once an
 
  ***Sum of two numbers flow chart***
  
-![sum of two nos](sum_of_two_numbers.png)
+![sum of two nos](unit_i_img/sum_of_two_numbers.png)
 
 ***Finding number is even or odd***
 
-![odd or even](odd_even.png)
+![odd or even](unit_i_img/odd_even.png)
 
 ***Program to Find a factorial of the given number***
 
-![factorial](factorial.png)
+![factorial](unit_i_img/factorial.png)
 
 
 **programming language notation**
