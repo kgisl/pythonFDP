@@ -1,6 +1,3 @@
-﻿
-
-
 # UNIT III CONTROL FLOW, FUNCTIONS
 **Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, local and global scope, function composition, recursion; Strings: string slices, immutability, string functions and methods, string module; Lists as arrays. Illustrative programs: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search**
 
@@ -383,9 +380,9 @@ Python program to check if the number is positive or negative or zero using nest
 				
 ## 3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS
 
-	i.  ‘for‘ Statement
+i.  ‘for‘ Statement
 	
-	ii. ‘while’ Statement 
+ii. ‘while’ Statement 
 
 
 ### 3.2.1. ‘for’ LOOP
@@ -503,7 +500,7 @@ iii. Pass
 - [ ]	Loops iterate over a block of code until test expression is false, to terminate the current iteration or even the whole loop without checking test expression.
 - [ ]	The break and continue statements are used in these cases.
 
-** i. Python break statement**
+**i. Python break statement**
 
 - [ ]	The break statement terminates the loop containing it.
 - [ ]	Control of the program flows to the statement immediately after the body of the loop.
@@ -556,7 +553,7 @@ Python program to demonstrate break
 				completed
 				
 
-** ii.	Python continue statement**
+**ii.	Python continue statement**
 
 -[] The continue statement is used to skip the rest of the code inside a loop for the current iteration only.
 -[] Loop does not terminate but continues on with the next iteration.
@@ -1047,8 +1044,8 @@ The second statement selects character number 1 from fruit and assigns it to let
 				TypeError: string indices must be integers
 
 
-### 3.4.1. len()
-len is a built-in function that returns the number of characters in a string.
+### 3.4.1. String Lengths
+len() is a built-in function that returns the number of characters in a string.
 
 **Example**
 
@@ -1140,7 +1137,7 @@ As it turns out, there is a string method named find that is remarkably similar 
 				 index = word.find('a')
 				 print(index)    #Prints 1
 In this example, we invoke find on word and pass the letter we are looking for as a parameter.
-#### (i) find method
+#### i. find method
 Actually, the find method is more general than our function; it can find substrings, not just characters:
 	
 				word = 'banana'
@@ -1157,7 +1154,7 @@ And as a third argument the index where it should stop:
 				print(name.find('b', 1, 2))   #Prints -1
 	
 This search fails because b does not appear in the index range from 1 to 2 (not including 2).
-#### (ii) String comparison
+#### ii. String comparison
 The relational operators work on strings. To see if two strings are equal: 
 	
 				if(word == 'banana'):
@@ -1174,10 +1171,10 @@ Other relational operations are useful for putting words in alphabetical order:
 Python does not handle uppercase and lowercase letters the same way that people do. All the uppercase letters come before all the lowercase letters, so:Your word, Pineapple, comes before banana.
 A common way to address this problem is to convert strings to a standard format, such as all lowercase, before performing the comparison. Keep that in mind in case you have to defend yourself against a man armed with a Pineapple.
 
-#### (iii) Indexing
+#### iii. Indexing
 
 Individual characters in a string can be accessed using subscript([ ]) operator. The expression in bracket is called as Index.
-#### (iv) Traversing a String
+#### iv. Traversing a String
 
 A string can be traversed by accessing characters from one index to another.
 |P | Y |T|H|O|N
@@ -1186,17 +1183,15 @@ A string can be traversed by accessing characters from one index to another.
 |-6|-5|-4|-3|-2|-1|
 
 ### 3.4.4 . String module
-•	The string module consists of number of useful constants,classes and functions
-•	These functions are used to manipulate strings
-•	Some constants are defined in string module are:
-1.	string.ascii_lowercase
-Refers all lower case letters. Example: a-z
-2.	string.ascii_uppercase
-Refers all upper case letters. Example: A-Z 3.string.digits
-Refer digits from 0-9 4.string.uppercase
-A string that has all the characters that are considered upper case letters Example: A-Z
-5.string.whitespace
-A string that has all characters that are considered white space like space,tab etc
+-[] The string module consists of number of useful constants,classes and functions
+-[] These functions are used to manipulate strings
+-[] Some constants are defined in string module are:
+	+ string.ascii_lowercase - Refers all lower case letters. Example: a-z
+	+ string.ascii_uppercase - Refers all upper case letters. Example: A-Z 
+	+ string.digits - Refer digits from 0-9 
+	+ string.uppercase - A string that has all the characters that are considered upper case letters Example: A-Z
+	+ string.whitespace - A string that has all characters that are considered white space like space,tab etc
+
 Example: Hello world Hai Ajay
 Output: HelloworldHaiAjay
 
@@ -1226,7 +1221,7 @@ Program that use different string methods
 				
 
 ### 3.4.5. Example Programs:**
-**1.	Traversing a string **
+**1. Traversing a string**
 
 **Program**
 	
@@ -1245,7 +1240,7 @@ Program that use different string methods
 				message[ 4 ]= o
 				message[ 5 ]= !
 
-**2.	String operations**
+**2. String operations**
 
 **Program**
 
@@ -1260,7 +1255,7 @@ Program that use different string methods
 				Character at index i*3+1:  h
 
 
-**3.	Concatenate two strings**
+**3. Concatenate two strings**
 
 **Program**
 
@@ -1273,7 +1268,7 @@ Program that use different string methods
 
 				The string is: helloworld
 				
-**4.	Append a string**
+**4. Append a string**
 
 **Program**
 
@@ -1286,11 +1281,12 @@ Program that use different string methods
 				Enter the String to Concatenate:World
 				HelloWorld
 				
-**5.String slices**
+**5. String slices**
 
-•	A substring of a string is called a slice
-•	A slice operation is used to refer the subpart of strings
-•	The subset of a string can be taken from string by using [ ] operator
+-[] A substring of a string is called a slice
+-[] A slice operation is used to refer the subpart of strings
+-[] The subset of a string can be taken from string by using [ ] operator
+
 **Example 1: Positive Indexing/Slicing**
 
 **Program**
@@ -1353,16 +1349,13 @@ Program that use different string methods
 				str[::-3]= nt  r ttml
 
 
-**6.String Immutability**
-•	Python strings are immutable
-•	Once the strings are created it cannot be modified
-•	To modify an existing string variable, a new string is created
-•	The id() returns the memory address of that object
-•	Str1 and str2 have the same object, then both point to same object
+
 
 ### 3.4.6. String functions and methods
-•	Python supports many build-in methods to manipulate strings
-•	A method is like a function
+
+-[] Python supports many build-in methods to manipulate strings
+-[] A method is like a function
+
 |SNo|Function| Descrition |Example
 |--|--|--|--|
 |1| capitalize() |Capitalizes first letter of string  |str=”hello” print(str.capitalize()) 
