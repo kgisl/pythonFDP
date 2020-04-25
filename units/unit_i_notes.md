@@ -44,19 +44,28 @@ Three reasons for using algorithms are efficiency, abstraction and reusability.
 
 ### Characteristics of Algorithm
 • Precision: The instructions should be written in a precise manner. 
-• Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps.
+
+•Uniqueness: The outputs of each step should be unambiguous, i.e., they should be unique and only depend on the input and the output of the preceding steps.
+
 • Finiteness: Not even a single instruction must be repeated infinitely.
+
 • Effectiveness: The algorithm should designed in such a way that it should be the most effective among many different ways to solve a problem. 
+
 • Input: The algorithm must receive an input. 
+
 • Output: After the algorithm gets terminated, the desired result must be obtained.
+
 • Generality: The algorithm can be applied to various set of inputs
 
 ### BUILDING BLOCKS OF ALGORITHM (INSTRUCTIONS, STATE, CONTROL FLOW, FUNCTIONS)
 **Building Blocks of Algorithms are,**
 		 Computer is not smart as we humans. It requires a much more than single instruction to do any task. We can express our needs to computer using the algorithms. Algorithms includes basic building blocks, That is used to express any kind of the task to the computer
 		 **_1. Instructions/ Statements_**
+		 
 		 **_2. State_**
+		 
 		 **_3. Control Flow_**
+		 
 		 **_4. Functions_**
 
 **_1. Instructions/ Statements_**
