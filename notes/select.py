@@ -34,9 +34,11 @@ def fprint(fname):
 
 def selection_sort(collection):
     """Pure implementation of the selection sort algorithm in Python
-    :param collection: some mutable ordered collection with heterogeneous
+    
+    @param collection: some mutable ordered collection with heterogeneous
     comparable items inside
-    :return: the same collection ordered by ascending
+    
+    @return: the same collection ordered by ascending
     Examples:
     >>> selection_sort([0, 5, 3, 2, 2])
     [0, 2, 2, 3, 5]
