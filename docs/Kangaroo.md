@@ -23,23 +23,6 @@ contents |  |
 
 
 
-### __init__
-
-
-Initialize the pouch contents.   
-name: string contents: initial pouch contents. 
-
-#### Parameters
-name | description | default
---- | --- | ---
-self |  | 
-name |  | 
-contents |  | None
-
-
-
-
-
 ### __str__
 
 
