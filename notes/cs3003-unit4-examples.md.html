@@ -578,6 +578,8 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
   <span class="token keyword">print</span> <span class="token punctuation">(</span>f<span class="token string">'{str(bin[1]):&gt;10}'</span><span class="token punctuation">,</span> <span class="token string">'@'</span><span class="token operator">*</span><span class="token builtin">bin</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 </code></pre>
 <h2 id="complexity-analysis">Complexity Analysis</h2>
+<p>This needs to be expanded - or even required?<br>
+- Rajasekaran to discuss</p>
 <p><a href="http://bit.ly/complexThis">http://bit.ly/complexThis</a></p>
 <h1 id="epilogue">Epilogue</h1>
 <p><em>A speech at the end of a play that serves as a comment on or a conclusion to what has happened.</em></p>
@@ -600,10 +602,10 @@ o_histogram <span class="token operator">=</span> <span class="token builtin">so
     so that it remains sorted 
     'j' is the current index of 'key' in alist 
     '''</span>  
-    <span class="token keyword">while</span> j <span class="token operator">&gt;</span>  <span class="token number">0</span>  <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span>  <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
-        alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span>  <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> 
-        j <span class="token operator">-=</span>  <span class="token number">1</span> 
-    alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span>  <span class="token operator">=</span> key
+    <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+        alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> alist<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> 
+        j <span class="token operator">-=</span> <span class="token number">1</span> 
+    alist<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> key
 </code></pre>
 <p><a href="http://j.mp/insortCC">http://j.mp/insortCC</a></p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">min_index</span><span class="token punctuation">(</span>alist<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">:</span>
