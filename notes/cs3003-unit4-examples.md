@@ -526,10 +526,10 @@ def  insort(alist, key, j):
     so that it remains sorted 
     'j' is the current index of 'key' in alist 
     '''  
-    while j >  0  and alist[j-1]  > key: 
-        alist[j]  = alist[j-1] 
-        j -=  1 
-    alist[j]  = key
+    while j > 0 and alist[j-1] > key: 
+        alist[j] = alist[j-1] 
+        j -= 1 
+    alist[j] = key
 ```
 http://j.mp/insortCC 
 
@@ -584,11 +584,11 @@ http://j.mp/divideTwo - divide a list into two halves
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTgzMDkzLC0xOTU1OTA3MjE3LDEwNT
-kyMDY3NCwtMTYzNTI0OTc0LDcyOTMxNjE0OCwtMTE5NTEyMzA4
-LC0xMzkzMjYxMzYxLC00Mjk3MTM1NzYsLTM5OTcxODE5Nyw5Mj
-c5MTcyOTQsOTU1Njk0MzgxLC02NzIyOTEwMDcsMTc2NDcxNzY1
-OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLT
-E5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3NzE0MjU4OSwyMDMw
-MjI0NzM1XX0=
+eyJoaXN0b3J5IjpbLTE4MzA3MzAyMjEsLTk2OTgzMDkzLC0xOT
+U1OTA3MjE3LDEwNTkyMDY3NCwtMTYzNTI0OTc0LDcyOTMxNjE0
+OCwtMTE5NTEyMzA4LC0xMzkzMjYxMzYxLC00Mjk3MTM1NzYsLT
+M5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Njk0MzgxLC02NzIyOTEw
+MDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLT
+IwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3
+NzE0MjU4OV19
 -->
