@@ -7,9 +7,9 @@ The function should return the index of the minimum value in the sublist  of `al
 
 ### Example 
 
-`[1, 2, 3], 0` => `0` 
-`[1, 2, 3], 1` => `1` 
-`[1, 10, 1000, 100], 2` => `3` 
+`[1, 2, 3], 0` => `0`  
+`[1, 2, 3], 1` => `1`  
+`[1, 10, 1000, 100], 2` => `3`  
 
 ## Challenge 0 
 If `i` is not provided, default it to an appropriate value and the function should still work properly. 
