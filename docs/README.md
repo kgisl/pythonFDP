@@ -2,8 +2,45 @@
 
 ## Classes
 
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
+
 **[Point](Point.md)**: Represents a point in 2-D space.   
 attributes: x, y 
+
+**[Rectangle](Rectangle.md)**: Represents a rectangle.   
+attributes: width, height, corner. 
+
+**[Point](Point.md)**: Represents a point in 2-D space.   
+attributes: x, y 
+
+**[Circle](Circle.md)**: Represents a circle.   
+Attributes: center, radius 
+
+**[Hist](Hist.md)**: A map from each item (x) to its frequency. 
+
+**[PokerHand](PokerHand.md)**: Represents a poker hand. 
+
+**[PokerDeck](PokerDeck.md)**: Represents a deck of cards that can deal poker hands. 
+
+**[PokerHand](PokerHand.md)**: Represents a poker hand. 
+
+**[Test](Test.md)**: 
+
+**[Time](Time.md)**: Represents the time of day.   
+attributes: hour, minute, second 
+
+**[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
+
+**[Markov](Markov.md)**: Encapsulates the statistical summary of a text. 
+
+**[Card](Card.md)**: Represents a standard playing card.   
+Attributes: suit: integer 0-3 rank: integer 1-13 
+
+**[Deck](Deck.md)**: Represents a deck of cards.   
+Attributes: cards: list of Card objects. 
+
+**[Hand](Hand.md)**: Represents a hand of playing cards. 
 
 **[LinearMap](LinearMap.md)**: A simple implementation of a map using a list of tuples where each tuple is a key-value pair. 
 
@@ -15,47 +52,426 @@ The amortized cost of add should be O(1) provided that the implementation of sum
 **[Time](Time.md)**: Represents the time of day.   
 attributes: hour, minute, second 
 
-**[Test](Test.md)**: 
-
-**[Card](Card.md)**: Represents a standard playing card.   
-Attributes: suit: integer 0-3 rank: integer 1-13 
-
-**[Deck](Deck.md)**: Represents a deck of cards.   
-Attributes: cards: list of Card objects. 
-
-**[Hand](Hand.md)**: Represents a hand of playing cards. 
-
-**[Markov](Markov.md)**: Encapsulates the statistical summary of a text. 
-
-**[PokerHand](PokerHand.md)**: Represents a poker hand. 
-
-**[Circle](Circle.md)**: Represents a circle.   
-Attributes: center, radius 
-
-**[Hist](Hist.md)**: A map from each item (x) to its frequency. 
-
-**[PokerHand](PokerHand.md)**: Represents a poker hand. 
-
-**[PokerDeck](PokerDeck.md)**: Represents a deck of cards that can deal poker hands. 
-
 **[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
-
-**[Point](Point.md)**: Represents a point in 2-D space.   
-attributes: x, y 
-
-**[Rectangle](Rectangle.md)**: Represents a rectangle.   
-attributes: width, height, corner. 
-
-**[Time](Time.md)**: Represents the time of day.   
-attributes: hour, minute, second 
-
-**[Kangaroo](Kangaroo.md)**: A Kangaroo is a marsupial. 
-
-**[Time](Time.md)**: Represents the time of day.   
-attributes: hour, minute, second 
 
 
 ## Functions
+
+### mergesort
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist |  | 
+verbose |  | False
+
+
+
+
+
+### mergesort2
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+w |  | 
+
+
+
+
+
+### circulate
+Authors: **kgashok**
+
+circulate between three variables, three times   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is a integer | 
+b | is a integer | 
+c | is a integer | 
+
+
+
+
+
+### circulate_list
+Authors: **kgashok**
+
+circulate 'n' elements in a list, n times   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist | contains the 'n' elements | 
+
+
+
+
+
+### calculateGrade
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+score |  | 
+gradeChart |  | 
+
+
+
+
+
+### classAverage
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+scores |  | 
+gc |  | 
+
+
+
+
+
+### printlist
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist |  | 
+
+
+
+
+
+### mergesort
+Authors: **kgashok**
+
+iterative mergesort implementation   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+series | is a sequence of unsorted elements | 
+
+
+
+
+
+### getOutBoundURLs
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a_tags |  | 
+
+
+
+
+
+### generateBanner
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+url |  | 
+anchorCount |  | 
+linkCount |  | 
+
+
+
+
+
+### printURLs
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+url |  | 
+anchors |  | 
+f |  | None
+
+
+
+
+
+### getOutBoundURLs2
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+anchors |  | 
+
+
+
+
+
+### getOutBoundHttpURLs
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist |  | 
+
+
+
+
+
+### qsort_one_liner
+Authors: **kgashok**
+
+function implements qsort algorithm in recursive mode   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+array | is list of numbers to be sorted | 
+
+
+
+
+
+### qsort
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+L |  | 
+
+
+
+
+
+### test_random_lists
+
+
+Generates 20 lists of random sizes within the range - 5, 10, inclusive.Modify these as per your choice 
+
+
+
+
+### missing_plane
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist |  | 
+
+
+
+
+
+### distance_between
+Authors: **kgashok**
+
+Computes the distance between two Point objects.   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+pointA | is a tuple | 
+pointB | is a tuple | 
+
+
+
+
+
+### get_addresses
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+anchors |  | 
+
+
+
+
+
+### printURLs
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+url |  | 
+anchors |  | 
+f |  | None
+
+
+
+
+
+### googleSearch
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+query |  | 
+
+
+
+
+
+### googlesearch
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+searchfor |  | 
+
+
+
+
+
+### swap_func
+Authors: **kgashok**
+
+swap the contents of a and b   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+a | is global | 
+b | is global | 
+
+
+
+
+
+### calculate_grade
+Authors: **kgashok**
+
+Computes the distance between two Point objects.   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+score | individual student's score | 
+gradeChart | list of tuples | 
+
+
+
+
+
+### classAverage
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+scores |  | 
+gc |  | 
+
+
+
+
+
+### test_life_the_universe_and_everything
+
+
+a simple example to start you off 
+
+
+
+
+### getOutBoundURLs
+
+
+http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element   
+anchors contains all <a> tag elements from the HTML content. Iterate through the list of anchors and build list containing the href addresses whenever it is available 
+#### Parameters
+name | description | default
+--- | --- | ---
+anchors |  | 
+
+
+
+
+
+### getOutBoundHttpURLs
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+alist |  | 
+
+
+
+
+
+### generateBanner
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+url |  | 
+anchorCount |  | 
+outBoundCount |  | 
+linkCount |  | 
+
+
+
+
+
+### printURLs
+
+
+Print only those addresses that start with 'https' from valid anchors if 'f'ilename is valid, write extracted URLs to file as well 
+#### Parameters
+name | description | default
+--- | --- | ---
+url |  | 
+anchors |  | 
+f |  | None
+
+
+
+
+
+### test_random_lists
+
+
+Generates 20 lists of random sizes within the range -5, 10, inclusive. Modify these as per your choice 
+
+
+
 
 ### fprint
 
@@ -247,73 +663,25 @@ alist |  |
 
 
 
-### sort_by_length
+### walk
 
 
-Sort a list of words in reverse order by length.   
-This is the version in the book; it is stable in the sense that words with the same length appear in the same order   
-words: list of strings   
-Returns: list of strings 
+Finds the names of all files in dirname and its subdirectories.   
+dirname: string name of directory 
 #### Parameters
 name | description | default
 --- | --- | ---
-words |  | 
+dirname |  | 
 
 
 
 
 
-### sort_by_length_random
+### compute_checksum
 
 
-Sort a list of words in reverse order by length.   
-This is the solution to the exercise.  It is unstable in the sense that if two words have the same length, their order in the output list is random.   
-It works by extending the list of tuples with a column of random numbers; when there is a tie in the first column, the random column determines the output order.   
-words: list of strings   
-Returns: list of strings 
-#### Parameters
-name | description | default
---- | --- | ---
-words |  | 
-
-
-
-
-
-### most_frequent
-
-
-Sorts the letters in s in reverse order of frequency.   
-s: string   
-Returns: list of letters 
-#### Parameters
-name | description | default
---- | --- | ---
-s |  | 
-
-
-
-
-
-### make_histogram
-
-
-Make a map from letters to number of times they appear in s.   
-s: string   
-Returns: map from letter to frequency 
-#### Parameters
-name | description | default
---- | --- | ---
-s |  | 
-
-
-
-
-
-### read_file
-
-
-Returns the contents of a file as a string. 
+Computes the MD5 checksum of the contents of a file.   
+filename: string 
 #### Parameters
 name | description | default
 --- | --- | ---
@@ -323,136 +691,76 @@ filename |  |
 
 
 
-### make_word_dict
+### check_diff
 
 
-Read. the words in words.txt and return a dictionary that contains the words as keys. 
-
-
-
-
-### homophones
-
-
-Checks if words two can be pronounced the same way.   
-If either word is not in the pronouncing dictionary, return False   
-a, b: strings phonetic: map from words to pronunciation codes 
+Computes the difference between the contents of two files.   
+name1, name2: string filenames 
 #### Parameters
 name | description | default
 --- | --- | ---
-a |  | 
-b |  | 
-phonetic |  | 
+name1 |  | 
+name2 |  | 
 
 
 
 
 
-### check_word
+### pipe
 
 
-Checks to see if the word has the following property: removing the first letter yields a word with the same pronunciation, and removing the second letter yields a word with the same pronunciation.   
-word: string word_dict: dictionary with words as keys phonetic: map from words to pronunciation codes 
+Runs a command in a subprocess.   
+cmd: string Unix command   
+Returns (res, stat), the output of the subprocess and the exit status. 
 #### Parameters
 name | description | default
 --- | --- | ---
-word |  | 
-word_dict |  | 
-phonetic |  | 
+cmd |  | 
 
 
 
 
 
-### main
+### compute_checksums
 
 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### ackermann
-
-
-Computes the Ackermann function A(m, n)   
-See http://en.wikipedia.org/wiki/Ackermann_function   
-n, m: non-negative integers 
+Computes checksums for all files with the given suffix.   
+dirname: string name of directory to search suffix: string suffix to match   
+Returns: map from checksum to list of files with that checksum 
 #### Parameters
 name | description | default
 --- | --- | ---
-m |  | 
-n |  | 
+dirname |  | 
+suffix |  | 
 
 
 
 
 
-### rotate_letter
+### check_pairs
 
 
-Rotates a letter by n places.  Does not change other chars.   
-letter: single-letter string n: int   
-Returns: single-letter string 
+Checks whether any in a list of files differs from the others.   
+names: list of string filenames 
 #### Parameters
 name | description | default
 --- | --- | ---
-letter |  | 
-n |  | 
+names |  | 
 
 
 
 
 
-### rotate_word
+### print_duplicates
 
 
-Rotates a word by n places.   
-word: string n: integer   
-Returns: string 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-n |  | 
-
-
-
-
-
-### metathesis_pairs
-
-
-Print all pairs of words that differ by swapping two letters.   
-d: map from word to list of anagrams 
+Checks for duplicate files.   
+Reports any files with the same checksum and checks whether they are, in fact, identical.   
+d: map from checksum to list of files with that checksum 
 #### Parameters
 name | description | default
 --- | --- | ---
 d |  | 
-
-
-
-
-
-### word_distance
-
-
-Computes the number of differences between two words.   
-word1, word2: strings   
-Returns: integer 
-#### Parameters
-name | description | default
---- | --- | ---
-word1 |  | 
-word2 |  | 
 
 
 
@@ -481,653 +789,6 @@ name | description | default
 --- | --- | ---
 t |  | 
 n |  | 
-
-
-
-
-
-### random_word
-
-
-Chooses a random word from a histogram.   
-The probability of each word is proportional to its frequency.   
-hist: map from word to frequency 
-#### Parameters
-name | description | default
---- | --- | ---
-hist |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### int_to_time
-
-
-Makes a new Time object.   
-seconds: int seconds since midnight. 
-#### Parameters
-name | description | default
---- | --- | ---
-seconds |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### teleport
-
-
-Moves the turtle without drawing a line.   
-Postcondition: pen is down   
-t: Turtle x: coordinate y: coordinate 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-x |  | 
-y |  | 
-
-
-
-
-
-### keypress
-
-
-Handles the event when a user presses a key.   
-Checks if there is a function with the right name; otherwise it prints an error message.   
-char: string, letter to draw 
-#### Parameters
-name | description | default
---- | --- | ---
-char |  | 
-
-
-
-
-
-### carriage_return
-
-
-Moves to the beginning of the next line.  
-
-
-
-
-### presser
-
-
-Returns a function object that executes keypress.   
-char: character to draw when the function is executed   
-returns: function with no arguments 
-#### Parameters
-name | description | default
---- | --- | ---
-char |  | 
-
-
-
-
-
-### draw_pie
-
-
-Draws a pie, then moves into position to the right.   
-t: Turtle n: number of segments r: length of the radial spokes 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-n |  | 
-r |  | 
-
-
-
-
-
-### polypie
-
-
-Draws a pie divided into radial segments.   
-t: Turtle n: number of segments r: length of the radial spokes 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-n |  | 
-r |  | 
-
-
-
-
-
-### isosceles
-
-
-Draws an icosceles triangle.   
-The turtle starts and ends at the peak, facing the middle of the base.   
-t: Turtle r: length of the equal legs angle: peak angle in degrees 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-r |  | 
-angle |  | 
-
-
-
-
-
-### has_duplicates
-
-
-Returns True if any element appears more than once in a sequence.   
-t: list   
-returns: bool 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-
-
-
-
-
-### random_bdays
-
-
-Returns a list of integers between 1 and 365, with length n.   
-n: int   
-returns: list of int 
-#### Parameters
-name | description | default
---- | --- | ---
-n |  | 
-
-
-
-
-
-### count_matches
-
-
-Generates a sample of birthdays and counts duplicates.   
-num_students: how many students in the group num_samples: how many groups to simulate   
-returns: int 
-#### Parameters
-name | description | default
---- | --- | ---
-num_students |  | 
-num_simulations |  | 
-
-
-
-
-
-### main
-
-
-Runs the birthday simulation and prints the number of matches. 
-
-
-
-
-### factorial
-
-
-Computes factorial of n recursively. 
-#### Parameters
-name | description | default
---- | --- | ---
-n |  | 
-
-
-
-
-
-### estimate_pi
-
-
-Computes an estimate of pi.   
-Algorithm due to Srinivasa Ramanujan, from http://en.wikipedia.org/wiki/Pi 
-
-
-
-
-### has_palindrome
-
-
-Checks if the string representation of i has a palindrome.   
-i: integer start: where in the string to start length: length of the palindrome to check for 
-#### Parameters
-name | description | default
---- | --- | ---
-i |  | 
-start |  | 
-length |  | 
-
-
-
-
-
-### check
-
-
-Checks if the integer (i) has the desired properties.   
-i: int 
-#### Parameters
-name | description | default
---- | --- | ---
-i |  | 
-
-
-
-
-
-### check_all
-
-
-Enumerate the six-digit numbers and print any winners.  
-
-
-
-
-### do_twice
-
-
-Runs a function twice.   
-func: function object arg: argument passed to the function 
-#### Parameters
-name | description | default
---- | --- | ---
-func |  | 
-arg |  | 
-
-
-
-
-
-### print_twice
-
-
-Prints the argument twice.   
-arg: anything printable 
-#### Parameters
-name | description | default
---- | --- | ---
-arg |  | 
-
-
-
-
-
-### do_four
-
-
-Runs a function four times.   
-func: function object arg: argument passed to the function 
-#### Parameters
-name | description | default
---- | --- | ---
-func |  | 
-arg |  | 
-
-
-
-
-
-### distance_between_points
-
-
-Computes the distance between two Point objects.   
-p1: Point p2: Point   
-returns: float 
-#### Parameters
-name | description | default
---- | --- | ---
-p1 |  | 
-p2 |  | 
-
-
-
-
-
-### move_rectangle
-
-
-Move the Rectangle by modifying its corner object.   
-rect: Rectangle object. dx: change in x coordinate (can be negative). dy: change in y coordinate (can be negative). 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-dx |  | 
-dy |  | 
-
-
-
-
-
-### move_rectangle_copy
-
-
-Move the Rectangle and return a new Rectangle object.   
-rect: Rectangle object. dx: change in x coordinate (can be negative). dy: change in y coordinate (can be negative).   
-returns: new Rectangle 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-dx |  | 
-dy |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### walk
-
-
-Finds the names of all files in dirname and its subdirectories.   
-dirname: string name of directory 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
-
-
-
-
-
-### compute_checksum
-
-
-Computes the MD5 checksum of the contents of a file.   
-filename: string 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | 
-
-
-
-
-
-### check_diff
-
-
-Computes the difference between the contents of two files.   
-name1, name2: string filenames 
-#### Parameters
-name | description | default
---- | --- | ---
-name1 |  | 
-name2 |  | 
-
-
-
-
-
-### pipe
-
-
-Runs a command in a subprocess.   
-cmd: string Unix command   
-Returns (res, stat), the output of the subprocess and the exit status. 
-#### Parameters
-name | description | default
---- | --- | ---
-cmd |  | 
-
-
-
-
-
-### compute_checksums
-
-
-Computes checksums for all files with the given suffix.   
-dirname: string name of directory to search suffix: string suffix to match   
-Returns: map from checksum to list of files with that checksum 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
-suffix |  | 
-
-
-
-
-
-### check_pairs
-
-
-Checks whether any in a list of files differs from the others.   
-names: list of string filenames 
-#### Parameters
-name | description | default
---- | --- | ---
-names |  | 
-
-
-
-
-
-### print_duplicates
-
-
-Checks for duplicate files.   
-Reports any files with the same checksum and checks whether they are, in fact, identical.   
-d: map from checksum to list of files with that checksum 
-#### Parameters
-name | description | default
---- | --- | ---
-d |  | 
-
-
-
-
-
-### walk
-
-
-Finds the names of all files in dirname and its subdirectories.   
-dirname: string name of directory 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
-
-
-
-
-
-### compute_checksum
-
-
-Computes the MD5 checksum of the contents of a file.   
-filename: string 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | 
-
-
-
-
-
-### check_diff
-
-
-Computes the difference between the contents of two files.   
-name1, name2: string filenames 
-#### Parameters
-name | description | default
---- | --- | ---
-name1 |  | 
-name2 |  | 
-
-
-
-
-
-### pipe
-
-
-Runs a command in a subprocess.   
-cmd: string Unix command   
-Returns (res, stat), the output of the subprocess and the exit status. 
-#### Parameters
-name | description | default
---- | --- | ---
-cmd |  | 
-
-
-
-
-
-### compute_checksums
-
-
-Computes checksums for all files with the given suffix.   
-dirname: string name of directory to search suffix: string suffix to match   
-Returns: map from checksum to list of files with that checksum 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
-suffix |  | 
-
-
-
-
-
-### check_pairs
-
-
-Checks whether any in a list of files differs from the others.   
-names: list of string filenames 
-#### Parameters
-name | description | default
---- | --- | ---
-names |  | 
-
-
-
-
-
-### print_duplicates
-
-
-Checks for duplicate files.   
-Reports any files with the same checksum and checks whether they are, in fact, identical.   
-d: map from checksum to list of files with that checksum 
-#### Parameters
-name | description | default
---- | --- | ---
-d |  | 
-
-
-
-
-
-### has_duplicates
-
-
-Checks whether any element appears more than once in a sequence.   
-Simple version using a for loop.   
-t: sequence 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-
-
-
-
-
-### has_duplicates2
-
-
-Checks whether any element appears more than once in a sequence.   
-Faster version using a set.   
-t: sequence 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-
-
-
-
-
-### invert_dict
-
-
-Inverts a dictionary, returning a map from val to a list of keys.   
-If the mapping key->val appears in d, then in the new dictionary val maps to a list that includes key.   
-d: dict   
-Returns: dict 
-#### Parameters
-name | description | default
---- | --- | ---
-d |  | 
-
-
-
-
-
-### subtract
-
-
-Returns a set of all keys that appear in d1 but not d2.   
-d1, d2: dictionaries 
-#### Parameters
-name | description | default
---- | --- | ---
-d1 |  | 
-d2 |  | 
-
-
-
-
-
-### main
-
-
 
 
 
@@ -1212,31 +873,563 @@ r |  |
 
 
 
-### draw_circle
+### walk
 
 
-Draws a circle.   
-t: Turtle circle: Circle 
+Prints the names of all files in dirname and its subdirectories.   
+This is the version in the book.   
+dirname: string name of directory 
+#### Parameters
+name | description | default
+--- | --- | ---
+dirname |  | 
+
+
+
+
+
+### walk2
+
+
+Prints the names of all files in dirname and its subdirectories.   
+This is the exercise solution, which uses os.walk.   
+dirname: string name of directory 
+#### Parameters
+name | description | default
+--- | --- | ---
+dirname |  | 
+
+
+
+
+
+### has_duplicates
+
+
+Returns True if any element appears more than once in a sequence.   
+t: list   
+returns: bool 
 #### Parameters
 name | description | default
 --- | --- | ---
 t |  | 
-circle |  | 
 
 
 
 
 
-### draw_rect
+### random_bdays
 
 
-Draws a rectangle.   
-t: Turtle rect: Rectangle 
+Returns a list of integers between 1 and 365, with length n.   
+n: int   
+returns: list of int 
+#### Parameters
+name | description | default
+--- | --- | ---
+n |  | 
+
+
+
+
+
+### count_matches
+
+
+Generates a sample of birthdays and counts duplicates.   
+num_students: how many students in the group num_samples: how many groups to simulate   
+returns: int 
+#### Parameters
+name | description | default
+--- | --- | ---
+num_students |  | 
+num_simulations |  | 
+
+
+
+
+
+### main
+
+
+Runs the birthday simulation and prints the number of matches. 
+
+
+
+
+### walk
+
+
+Finds the names of all files in dirname and its subdirectories.   
+dirname: string name of directory 
+#### Parameters
+name | description | default
+--- | --- | ---
+dirname |  | 
+
+
+
+
+
+### compute_checksum
+
+
+Computes the MD5 checksum of the contents of a file.   
+filename: string 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | 
+
+
+
+
+
+### check_diff
+
+
+Computes the difference between the contents of two files.   
+name1, name2: string filenames 
+#### Parameters
+name | description | default
+--- | --- | ---
+name1 |  | 
+name2 |  | 
+
+
+
+
+
+### pipe
+
+
+Runs a command in a subprocess.   
+cmd: string Unix command   
+Returns (res, stat), the output of the subprocess and the exit status. 
+#### Parameters
+name | description | default
+--- | --- | ---
+cmd |  | 
+
+
+
+
+
+### compute_checksums
+
+
+Computes checksums for all files with the given suffix.   
+dirname: string name of directory to search suffix: string suffix to match   
+Returns: map from checksum to list of files with that checksum 
+#### Parameters
+name | description | default
+--- | --- | ---
+dirname |  | 
+suffix |  | 
+
+
+
+
+
+### check_pairs
+
+
+Checks whether any in a list of files differs from the others.   
+names: list of string filenames 
+#### Parameters
+name | description | default
+--- | --- | ---
+names |  | 
+
+
+
+
+
+### print_duplicates
+
+
+Checks for duplicate files.   
+Reports any files with the same checksum and checks whether they are, in fact, identical.   
+d: map from checksum to list of files with that checksum 
+#### Parameters
+name | description | default
+--- | --- | ---
+d |  | 
+
+
+
+
+
+### structshape
+
+
+Returns a string that describes the shape of a data structure.   
+ds: any Python object   
+Returns: string 
+#### Parameters
+name | description | default
+--- | --- | ---
+ds |  | 
+
+
+
+
+
+### listrep
+
+
+Returns a string representation of a list of type strings.   
+t: list of strings   
+Returns: string 
 #### Parameters
 name | description | default
 --- | --- | ---
 t |  | 
+
+
+
+
+
+### setrep
+
+
+Returns a string representation of a set of type strings.   
+s: set of strings   
+Returns: string 
+#### Parameters
+name | description | default
+--- | --- | ---
+s |  | 
+
+
+
+
+
+### append
+
+
+Adds a new element to a list of type strings.   
+Modifies res.   
+res: list of type strings typestr: the new type string count: how many of the new type there are   
+Returns: None 
+#### Parameters
+name | description | default
+--- | --- | ---
+res |  | 
+typestr |  | 
+count |  | 
+
+
+
+
+
+### print_time
+
+
+Prints a string representation of the time.   
+t: Time object 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+
+
+
+
+
+### int_to_time
+
+
+Makes a new Time object.   
+seconds: int seconds since midnight. 
+#### Parameters
+name | description | default
+--- | --- | ---
+seconds |  | 
+
+
+
+
+
+### time_to_int
+
+
+Computes the number of seconds since midnight.   
+time: Time object. 
+#### Parameters
+name | description | default
+--- | --- | ---
+time |  | 
+
+
+
+
+
+### add_times
+
+
+Adds two time objects.   
+t1, t2: Time   
+returns: Time 
+#### Parameters
+name | description | default
+--- | --- | ---
+t1 |  | 
+t2 |  | 
+
+
+
+
+
+### valid_time
+
+
+Checks whether a Time object satisfies the invariants.   
+time: Time   
+returns: boolean 
+#### Parameters
+name | description | default
+--- | --- | ---
+time |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### print_point
+
+
+Print a Point object in human-readable format. 
+#### Parameters
+name | description | default
+--- | --- | ---
+p |  | 
+
+
+
+
+
+### find_center
+
+
+Returns a Point at the center of a Rectangle.   
+rect: Rectangle   
+returns: new Point 
+#### Parameters
+name | description | default
+--- | --- | ---
 rect |  | 
+
+
+
+
+
+### grow_rectangle
+
+
+Modifies the Rectangle by adding to its width and height.   
+rect: Rectangle object. dwidth: change in width (can be negative). dheight: change in height (can be negative). 
+#### Parameters
+name | description | default
+--- | --- | ---
+rect |  | 
+dwidth |  | 
+dheight |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### pipe
+
+
+Runs a command in a subprocess.   
+cmd: string Unix command   
+Returns (res, stat), the output of the subprocess and the exit status. 
+#### Parameters
+name | description | default
+--- | --- | ---
+cmd |  | 
+
+
+
+
+
+### distance_between_points
+
+
+Computes the distance between two Point objects.   
+p1: Point p2: Point   
+returns: float 
+#### Parameters
+name | description | default
+--- | --- | ---
+p1 |  | 
+p2 |  | 
+
+
+
+
+
+### move_rectangle
+
+
+Move the Rectangle by modifying its corner object.   
+rect: Rectangle object. dx: change in x coordinate (can be negative). dy: change in y coordinate (can be negative). 
+#### Parameters
+name | description | default
+--- | --- | ---
+rect |  | 
+dx |  | 
+dy |  | 
+
+
+
+
+
+### move_rectangle_copy
+
+
+Move the Rectangle and return a new Rectangle object.   
+rect: Rectangle object. dx: change in x coordinate (can be negative). dy: change in y coordinate (can be negative).   
+returns: new Rectangle 
+#### Parameters
+name | description | default
+--- | --- | ---
+rect |  | 
+dx |  | 
+dy |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### sort_by_length
+
+
+Sort a list of words in reverse order by length.   
+This is the version in the book; it is stable in the sense that words with the same length appear in the same order   
+words: list of strings   
+Returns: list of strings 
+#### Parameters
+name | description | default
+--- | --- | ---
+words |  | 
+
+
+
+
+
+### sort_by_length_random
+
+
+Sort a list of words in reverse order by length.   
+This is the solution to the exercise.  It is unstable in the sense that if two words have the same length, their order in the output list is random.   
+It works by extending the list of tuples with a column of random numbers; when there is a tie in the first column, the random column determines the output order.   
+words: list of strings   
+Returns: list of strings 
+#### Parameters
+name | description | default
+--- | --- | ---
+words |  | 
+
+
+
+
+
+### store_anagrams
+
+
+Stores the anagrams from a dictionary in a shelf.   
+filename: string file name of shelf anagram_map: dictionary that maps strings to list of anagrams 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | 
+anagram_map |  | 
+
+
+
+
+
+### read_anagrams
+
+
+Looks up a word in a shelf and returns a list of its anagrams.   
+filename: string file name of shelf word: word to look up 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | 
+word |  | 
+
+
+
+
+
+### main
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+script |  | 
+command |  | "make_db"
+
+
+
+
+
+### metathesis_pairs
+
+
+Print all pairs of words that differ by swapping two letters.   
+d: map from word to list of anagrams 
+#### Parameters
+name | description | default
+--- | --- | ---
+d |  | 
+
+
+
+
+
+### word_distance
+
+
+Computes the number of differences between two words.   
+word1, word2: strings   
+Returns: integer 
+#### Parameters
+name | description | default
+--- | --- | ---
+word1 |  | 
+word2 |  | 
 
 
 
@@ -1381,454 +1574,6 @@ hist |  |
 
 
 
-### petal
-
-
-Draws a petal using two arcs.   
-t: Turtle r: radius of the arcs angle: angle (degrees) that subtends the arcs 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-r |  | 
-angle |  | 
-
-
-
-
-
-### flower
-
-
-Draws a flower with n petals.   
-t: Turtle n: number of petals r: radius of the arcs angle: angle (degrees) that subtends the arcs 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-n |  | 
-r |  | 
-angle |  | 
-
-
-
-
-
-### move
-
-
-Move Turtle (t) forward (length) units without leaving a trail. Leaves the pen down. 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-length |  | 
-
-
-
-
-
-### find_defining_class
-
-
-Finds and returns the class object that will provide the definition of method_name (as a string) if it is invoked on obj.   
-obj: any python object method_name: string method name 
-#### Parameters
-name | description | default
---- | --- | ---
-obj |  | 
-method_name |  | 
-
-
-
-
-
-### store_anagrams
-
-
-Stores the anagrams from a dictionary in a shelf.   
-filename: string file name of shelf anagram_map: dictionary that maps strings to list of anagrams 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | 
-anagram_map |  | 
-
-
-
-
-
-### read_anagrams
-
-
-Looks up a word in a shelf and returns a list of its anagrams.   
-filename: string file name of shelf word: word to look up 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | 
-word |  | 
-
-
-
-
-
-### main
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-script |  | 
-command |  | "make_db"
-
-
-
-
-
-### structshape
-
-
-Returns a string that describes the shape of a data structure.   
-ds: any Python object   
-Returns: string 
-#### Parameters
-name | description | default
---- | --- | ---
-ds |  | 
-
-
-
-
-
-### listrep
-
-
-Returns a string representation of a list of type strings.   
-t: list of strings   
-Returns: string 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-
-
-
-
-
-### setrep
-
-
-Returns a string representation of a set of type strings.   
-s: set of strings   
-Returns: string 
-#### Parameters
-name | description | default
---- | --- | ---
-s |  | 
-
-
-
-
-
-### append
-
-
-Adds a new element to a list of type strings.   
-Modifies res.   
-res: list of type strings typestr: the new type string count: how many of the new type there are   
-Returns: None 
-#### Parameters
-name | description | default
---- | --- | ---
-res |  | 
-typestr |  | 
-count |  | 
-
-
-
-
-
-### main
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-script |  | 
-filename |  | "emma.txt"
-n |  | 100
-order |  | 2
-
-
-
-
-
-### make_word_list1
-
-
-Reads lines from a file and builds a list using append. 
-
-
-
-
-### make_word_list2
-
-
-Reads lines from a file and builds a list using list +. 
-
-
-
-
-### rank_freq
-
-
-Returns a list of (rank, freq) tuples.   
-hist: map from word to frequency   
-returns: list of (rank, freq) tuples 
-#### Parameters
-name | description | default
---- | --- | ---
-hist |  | 
-
-
-
-
-
-### print_ranks
-
-
-Prints the rank vs. frequency data.   
-hist: map from word to frequency 
-#### Parameters
-name | description | default
---- | --- | ---
-hist |  | 
-
-
-
-
-
-### plot_ranks
-
-
-Plots frequency vs. rank.   
-hist: map from word to frequency scale: string 'linear' or 'log' 
-#### Parameters
-name | description | default
---- | --- | ---
-hist |  | 
-scale |  | "log"
-
-
-
-
-
-### main
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-script |  | 
-filename |  | "emma.txt"
-flag |  | "plot"
-
-
-
-
-
-### is_after
-
-
-Returns True if t1 is after t2; false otherwise. 
-#### Parameters
-name | description | default
---- | --- | ---
-t1 |  | 
-t2 |  | 
-
-
-
-
-
-### increment
-
-
-Adds seconds to a Time object. 
-#### Parameters
-name | description | default
---- | --- | ---
-t1 |  | 
-seconds |  | 
-
-
-
-
-
-### mul_time
-
-
-Multiplies a Time object by a factor. 
-#### Parameters
-name | description | default
---- | --- | ---
-t1 |  | 
-factor |  | 
-
-
-
-
-
-### days_until_birthday
-
-
-How long until my next birthday? 
-#### Parameters
-name | description | default
---- | --- | ---
-birthday |  | 
-
-
-
-
-
-### double_day
-
-
-Compute the day when one person is twice as old as the other.   
-b1: datetime birthday of the younger person b2: datetime birthday of the older person 
-#### Parameters
-name | description | default
---- | --- | ---
-b1 |  | 
-b2 |  | 
-
-
-
-
-
-### datetime_exercises
-
-
-Exercise solutions. 
-
-
-
-
-### main
-
-
-
-
-
-
-
-### sed
-
-
-Reads a source file and writes the destination file.   
-In each line, replaces pattern with replace.   
-pattern: string replace: string source: string filename dest: string filename 
-#### Parameters
-name | description | default
---- | --- | ---
-pattern |  | 
-replace |  | 
-source |  | 
-dest |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### pipe
-
-
-Runs a command in a subprocess.   
-cmd: string Unix command   
-Returns (res, stat), the output of the subprocess and the exit status. 
-#### Parameters
-name | description | default
---- | --- | ---
-cmd |  | 
-
-
-
-
-
-### point_in_circle
-
-
-Checks whether a point lies inside a circle (or on the boundary).   
-point: Point object circle: Circle object 
-#### Parameters
-name | description | default
---- | --- | ---
-point |  | 
-circle |  | 
-
-
-
-
-
-### rect_in_circle
-
-
-Checks whether the corners of a rect fall in/on a circle.   
-rect: Rectangle object circle: Circle object 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-circle |  | 
-
-
-
-
-
-### rect_circle_overlap
-
-
-Checks whether any corners of a rect fall in/on a circle.   
-rect: Rectangle object circle: Circle object 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-circle |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### main
-
-
-
-
-
-
-
 ### draw_spiral
 
 
@@ -1843,6 +1588,69 @@ n |  |
 length |  | 3
 a |  | 0.1
 b |  | 0.0002
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### teleport
+
+
+Moves the turtle without drawing a line.   
+Postcondition: pen is down   
+t: Turtle x: coordinate y: coordinate 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+x |  | 
+y |  | 
+
+
+
+
+
+### keypress
+
+
+Handles the event when a user presses a key.   
+Checks if there is a function with the right name; otherwise it prints an error message.   
+char: string, letter to draw 
+#### Parameters
+name | description | default
+--- | --- | ---
+char |  | 
+
+
+
+
+
+### carriage_return
+
+
+Moves to the beginning of the next line.  
+
+
+
+
+### presser
+
+
+Returns a function object that executes keypress.   
+char: character to draw when the function is executed   
+returns: function with no arguments 
+#### Parameters
+name | description | default
+--- | --- | ---
+char |  | 
 
 
 
@@ -1889,109 +1697,216 @@ word |  |
 
 
 
-### process_file
+### do_twice
 
 
-Reads a file and performs Markov analysis.   
-filename: string order: integer number of words in the prefix   
-returns: map from prefix to list of possible suffixes. 
+
 #### Parameters
 name | description | default
 --- | --- | ---
-filename |  | 
-order |  | 2
+f |  | 
 
 
 
 
 
-### skip_gutenberg_header
+### do_four
 
 
-Reads from fp until it finds the line that ends the header.   
-fp: open file object 
+
 #### Parameters
 name | description | default
 --- | --- | ---
-fp |  | 
+f |  | 
 
 
 
 
 
-### process_word
+### print_beam
 
 
-Processes each word.   
-word: string order: integer   
-During the first few iterations, all we do is store up the words; after that we start adding entries to the dictionary. 
+
+
+
+
+
+### print_post
+
+
+
+
+
+
+
+### print_beams
+
+
+
+
+
+
+
+### print_posts
+
+
+
+
+
+
+
+### print_row
+
+
+
+
+
+
+
+### print_grid
+
+
+
+
+
+
+
+### one_four_one
+
+
+
 #### Parameters
 name | description | default
 --- | --- | ---
-word |  | 
-order |  | 2
+f |  | 
+g |  | 
+h |  | 
 
 
 
 
 
-### random_text
-
-
-Generates random wordsfrom the analyzed text.   
-Starts with a random prefix from the dictionary.   
-n: number of words to generate 
-#### Parameters
-name | description | default
---- | --- | ---
-n |  | 100
+### print_plus
 
 
 
 
 
-### shift
 
 
-Forms a new tuple by removing the head and adding word to the tail.   
-t: tuple of strings word: string   
-Returns: tuple of strings 
+### print_dash
+
+
+
+
+
+
+
+### print_bar
+
+
+
+
+
+
+
+### print_space
+
+
+
+
+
+
+
+### print_end
+
+
+
+
+
+
+
+### nothing
+
+
+do nothing 
+
+
+
+
+### print1beam
+
+
+
+
+
+
+
+### print1post
+
+
+
+
+
+
+
+### print4beams
+
+
+
+
+
+
+
+### print4posts
+
+
+
+
+
+
+
+### print_row
+
+
+
+
+
+
+
+### print_grid
+
+
+
+
+
+
+
+### draw_circle
+
+
+Draws a circle.   
+t: Turtle circle: Circle 
 #### Parameters
 name | description | default
 --- | --- | ---
 t |  | 
-word |  | 
+circle |  | 
 
 
 
 
 
-### main
+### draw_rect
 
 
-
+Draws a rectangle.   
+t: Turtle rect: Rectangle 
 #### Parameters
 name | description | default
 --- | --- | ---
-script |  | 
-filename |  | "emma.txt"
-n |  | 100
-order |  | 2
-
-
-
-
-
-### read_dictionary
-
-
-Reads from a file and builds a dictionary that maps from each word to a string that describes its primary pronunciation.   
-Secondary pronunciations are added to the dictionary with a number, in parentheses, at the end of the key, so the key for the second pronunciation of "abdominal" is "abdominal(2)".   
-filename: string returns: map from string to pronunciation 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | "c06d"
+t |  | 
+rect |  | 
 
 
 
@@ -2106,143 +2021,6 @@ s |  |
 ### main
 
 
-
-
-
-
-
-### is_triple_double
-
-
-Tests if a word contains three consecutive double letters.   
-word: string   
-returns: bool 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### find_triple_double
-
-
-Reads a word list and prints words with triple double letters. 
-
-
-
-
-### make_word_dict
-
-
-Reads a word list and returns a dictionary. 
-
-
-
-
-### is_reducible
-
-
-If word is reducible, returns a list of its reducible children.   
-Also adds an entry to the memo dictionary.   
-A string is reducible if it has at least one child that is reducible.  The empty string is also reducible.   
-word: string word_dict: dictionary with words as keys 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-word_dict |  | 
-
-
-
-
-
-### children
-
-
-Returns a list of all words that can be formed by removing one letter.   
-word: string   
-Returns: list of strings 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-word_dict |  | 
-
-
-
-
-
-### all_reducible
-
-
-Checks all words in the word_dict; returns a list reducible ones.   
-word_dict: dictionary with words as keys 
-#### Parameters
-name | description | default
---- | --- | ---
-word_dict |  | 
-
-
-
-
-
-### print_trail
-
-
-Prints the sequence of words that reduces this word to the empty string.   
-If there is more than one choice, it chooses the first.   
-word: string 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### print_longest_words
-
-
-Finds the longest reducible words and prints them.   
-word_dict: dictionary of valid words 
-#### Parameters
-name | description | default
---- | --- | ---
-word_dict |  | 
-
-
-
-
-
-### walk
-
-
-Prints the names of all files in dirname and its subdirectories.   
-This is the version in the book.   
-dirname: string name of directory 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
-
-
-
-
-
-### walk2
-
-
-Prints the names of all files in dirname and its subdirectories.   
-This is the exercise solution, which uses os.walk.   
-dirname: string name of directory 
-#### Parameters
-name | description | default
---- | --- | ---
-dirname |  | 
 
 
 
@@ -2897,6 +2675,251 @@ n |  |
 
 
 
+### sed
+
+
+Reads a source file and writes the destination file.   
+In each line, replaces pattern with replace.   
+pattern: string replace: string source: string filename dest: string filename 
+#### Parameters
+name | description | default
+--- | --- | ---
+pattern |  | 
+replace |  | 
+source |  | 
+dest |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### is_triple_double
+
+
+Tests if a word contains three consecutive double letters.   
+word: string   
+returns: bool 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### find_triple_double
+
+
+Reads a word list and prints words with triple double letters. 
+
+
+
+
+### petal
+
+
+Draws a petal using two arcs.   
+t: Turtle r: radius of the arcs angle: angle (degrees) that subtends the arcs 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+r |  | 
+angle |  | 
+
+
+
+
+
+### flower
+
+
+Draws a flower with n petals.   
+t: Turtle n: number of petals r: radius of the arcs angle: angle (degrees) that subtends the arcs 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+n |  | 
+r |  | 
+angle |  | 
+
+
+
+
+
+### move
+
+
+Move Turtle (t) forward (length) units without leaving a trail. Leaves the pen down. 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+length |  | 
+
+
+
+
+
+### most_frequent
+
+
+Sorts the letters in s in reverse order of frequency.   
+s: string   
+Returns: list of letters 
+#### Parameters
+name | description | default
+--- | --- | ---
+s |  | 
+
+
+
+
+
+### make_histogram
+
+
+Make a map from letters to number of times they appear in s.   
+s: string   
+Returns: map from letter to frequency 
+#### Parameters
+name | description | default
+--- | --- | ---
+s |  | 
+
+
+
+
+
+### read_file
+
+
+Returns the contents of a file as a string. 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | 
+
+
+
+
+
+### point_in_circle
+
+
+Checks whether a point lies inside a circle (or on the boundary).   
+point: Point object circle: Circle object 
+#### Parameters
+name | description | default
+--- | --- | ---
+point |  | 
+circle |  | 
+
+
+
+
+
+### rect_in_circle
+
+
+Checks whether the corners of a rect fall in/on a circle.   
+rect: Rectangle object circle: Circle object 
+#### Parameters
+name | description | default
+--- | --- | ---
+rect |  | 
+circle |  | 
+
+
+
+
+
+### rect_circle_overlap
+
+
+Checks whether any corners of a rect fall in/on a circle.   
+rect: Rectangle object circle: Circle object 
+#### Parameters
+name | description | default
+--- | --- | ---
+rect |  | 
+circle |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### read_dictionary
+
+
+Reads from a file and builds a dictionary that maps from each word to a string that describes its primary pronunciation.   
+Secondary pronunciations are added to the dictionary with a number, in parentheses, at the end of the key, so the key for the second pronunciation of "abdominal" is "abdominal(2)".   
+filename: string returns: map from string to pronunciation 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | "c06d"
+
+
+
+
+
+### has_duplicates
+
+
+Checks whether any element appears more than once in a sequence.   
+Simple version using a for loop.   
+t: sequence 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+
+
+
+
+
+### has_duplicates2
+
+
+Checks whether any element appears more than once in a sequence.   
+Faster version using a set.   
+t: sequence 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+
+
+
+
+
 ### interlock
 
 
@@ -2923,6 +2946,152 @@ name | description | default
 word_list |  | 
 word |  | 
 n |  | 3
+
+
+
+
+
+### make_word_list1
+
+
+Reads lines from a file and builds a list using append. 
+
+
+
+
+### make_word_list2
+
+
+Reads lines from a file and builds a list using list +. 
+
+
+
+
+### do_twice
+
+
+Runs a function twice.   
+func: function object arg: argument passed to the function 
+#### Parameters
+name | description | default
+--- | --- | ---
+func |  | 
+arg |  | 
+
+
+
+
+
+### print_twice
+
+
+Prints the argument twice.   
+arg: anything printable 
+#### Parameters
+name | description | default
+--- | --- | ---
+arg |  | 
+
+
+
+
+
+### do_four
+
+
+Runs a function four times.   
+func: function object arg: argument passed to the function 
+#### Parameters
+name | description | default
+--- | --- | ---
+func |  | 
+arg |  | 
+
+
+
+
+
+### reverse_pair
+
+
+Checks whether a reversed word appears in word_list.   
+word_list: list of strings word: string 
+#### Parameters
+name | description | default
+--- | --- | ---
+word_list |  | 
+word |  | 
+
+
+
+
+
+### factorial
+
+
+Computes factorial of n recursively. 
+#### Parameters
+name | description | default
+--- | --- | ---
+n |  | 
+
+
+
+
+
+### estimate_pi
+
+
+Computes an estimate of pi.   
+Algorithm due to Srinivasa Ramanujan, from http://en.wikipedia.org/wiki/Pi 
+
+
+
+
+### draw_pie
+
+
+Draws a pie, then moves into position to the right.   
+t: Turtle n: number of segments r: length of the radial spokes 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+n |  | 
+r |  | 
+
+
+
+
+
+### polypie
+
+
+Draws a pie divided into radial segments.   
+t: Turtle n: number of segments r: length of the radial spokes 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+n |  | 
+r |  | 
+
+
+
+
+
+### isosceles
+
+
+Draws an icosceles triangle.   
+The turtle starts and ends at the peak, facing the middle of the base.   
+t: Turtle r: length of the equal legs angle: peak angle in degrees 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+r |  | 
+angle |  | 
 
 
 
@@ -3002,6 +3171,92 @@ n |  |
 
 
 
+### is_after
+
+
+Returns True if t1 is after t2; false otherwise. 
+#### Parameters
+name | description | default
+--- | --- | ---
+t1 |  | 
+t2 |  | 
+
+
+
+
+
+### increment
+
+
+Adds seconds to a Time object. 
+#### Parameters
+name | description | default
+--- | --- | ---
+t1 |  | 
+seconds |  | 
+
+
+
+
+
+### mul_time
+
+
+Multiplies a Time object by a factor. 
+#### Parameters
+name | description | default
+--- | --- | ---
+t1 |  | 
+factor |  | 
+
+
+
+
+
+### days_until_birthday
+
+
+How long until my next birthday? 
+#### Parameters
+name | description | default
+--- | --- | ---
+birthday |  | 
+
+
+
+
+
+### double_day
+
+
+Compute the day when one person is twice as old as the other.   
+b1: datetime birthday of the younger person b2: datetime birthday of the older person 
+#### Parameters
+name | description | default
+--- | --- | ---
+b1 |  | 
+b2 |  | 
+
+
+
+
+
+### datetime_exercises
+
+
+Exercise solutions. 
+
+
+
+
+### main
+
+
+
+
+
+
+
 ### ackermann
 
 
@@ -3013,332 +3268,6 @@ name | description | default
 --- | --- | ---
 m |  | 
 n |  | 
-
-
-
-
-
-### do_twice
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-f |  | 
-
-
-
-
-
-### do_four
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-f |  | 
-
-
-
-
-
-### print_beam
-
-
-
-
-
-
-
-### print_post
-
-
-
-
-
-
-
-### print_beams
-
-
-
-
-
-
-
-### print_posts
-
-
-
-
-
-
-
-### print_row
-
-
-
-
-
-
-
-### print_grid
-
-
-
-
-
-
-
-### one_four_one
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-f |  | 
-g |  | 
-h |  | 
-
-
-
-
-
-### print_plus
-
-
-
-
-
-
-
-### print_dash
-
-
-
-
-
-
-
-### print_bar
-
-
-
-
-
-
-
-### print_space
-
-
-
-
-
-
-
-### print_end
-
-
-
-
-
-
-
-### nothing
-
-
-do nothing 
-
-
-
-
-### print1beam
-
-
-
-
-
-
-
-### print1post
-
-
-
-
-
-
-
-### print4beams
-
-
-
-
-
-
-
-### print4posts
-
-
-
-
-
-
-
-### print_row
-
-
-
-
-
-
-
-### print_grid
-
-
-
-
-
-
-
-### first
-
-
-Returns the first character of a string. 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### last
-
-
-Returns the last of a string. 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### middle
-
-
-Returns all but the first and last characters of a string. 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### is_palindrome
-
-
-Returns True if word is a palindrome. 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-
-
-
-
-
-### print_point
-
-
-Print a Point object in human-readable format. 
-#### Parameters
-name | description | default
---- | --- | ---
-p |  | 
-
-
-
-
-
-### find_center
-
-
-Returns a Point at the center of a Rectangle.   
-rect: Rectangle   
-returns: new Point 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-
-
-
-
-
-### grow_rectangle
-
-
-Modifies the Rectangle by adding to its width and height.   
-rect: Rectangle object. dwidth: change in width (can be negative). dheight: change in height (can be negative). 
-#### Parameters
-name | description | default
---- | --- | ---
-rect |  | 
-dwidth |  | 
-dheight |  | 
-
-
-
-
-
-### main
-
-
-
-
-
-
-
-### reverse_pair
-
-
-Checks whether a reversed word appears in word_list.   
-word_list: list of strings word: string 
-#### Parameters
-name | description | default
---- | --- | ---
-word_list |  | 
-word |  | 
-
-
-
-
-
-### int_to_time
-
-
-Makes a new Time object.   
-seconds: int seconds since midnight. 
-#### Parameters
-name | description | default
---- | --- | ---
-seconds |  | 
-
-
-
-
-
-### main
-
-
 
 
 
@@ -3424,15 +3353,40 @@ word_dict |  |
 
 
 
-### print_time
+### subtract
 
 
-Prints a string representation of the time.   
-t: Time object 
+Returns a set of all keys that appear in d1 but not d2.   
+d1, d2: dictionaries 
 #### Parameters
 name | description | default
 --- | --- | ---
-t |  | 
+d1 |  | 
+d2 |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### invert_dict
+
+
+Inverts a dictionary, returning a map from val to a list of keys.   
+If the mapping key->val appears in d, then in the new dictionary val maps to a list that includes key.   
+d: dict   
+Returns: dict 
+#### Parameters
+name | description | default
+--- | --- | ---
+d |  | 
 
 
 
@@ -3452,46 +3406,81 @@ seconds |  |
 
 
 
-### time_to_int
+### main
 
 
-Computes the number of seconds since midnight.   
-time: Time object. 
+
+
+
+
+
+### main
+
+
+
 #### Parameters
 name | description | default
 --- | --- | ---
-time |  | 
+script |  | 
+filename |  | "emma.txt"
+n |  | 100
+order |  | 2
 
 
 
 
 
-### add_times
+### make_word_dict
 
 
-Adds two time objects.   
-t1, t2: Time   
-returns: Time 
+Read. the words in words.txt and return a dictionary that contains the words as keys. 
+
+
+
+
+### homophones
+
+
+Checks if words two can be pronounced the same way.   
+If either word is not in the pronouncing dictionary, return False   
+a, b: strings phonetic: map from words to pronunciation codes 
 #### Parameters
 name | description | default
 --- | --- | ---
-t1 |  | 
-t2 |  | 
+a |  | 
+b |  | 
+phonetic |  | 
 
 
 
 
 
-### valid_time
+### check_word
 
 
-Checks whether a Time object satisfies the invariants.   
-time: Time   
-returns: boolean 
+Checks to see if the word has the following property: removing the first letter yields a word with the same pronunciation, and removing the second letter yields a word with the same pronunciation.   
+word: string word_dict: dictionary with words as keys phonetic: map from words to pronunciation codes 
 #### Parameters
 name | description | default
 --- | --- | ---
-time |  | 
+word |  | 
+word_dict |  | 
+phonetic |  | 
+
+
+
+
+
+### find_defining_class
+
+
+Finds and returns the class object that will provide the definition of method_name (as a string) if it is invoked on obj.   
+obj: any python object method_name: string method name 
+#### Parameters
+name | description | default
+--- | --- | ---
+obj |  | 
+method_name |  | 
 
 
 
@@ -3505,417 +3494,428 @@ time |  |
 
 
 
-### qsort_one_liner
-Authors: **kgashok**
+### random_word
 
-function implements qsort algorithm in recursive mode   
 
+Chooses a random word from a histogram.   
+The probability of each word is proportional to its frequency.   
+hist: map from word to frequency 
 #### Parameters
 name | description | default
 --- | --- | ---
-array | is list of numbers to be sorted | 
+hist |  | 
 
 
 
 
 
-### qsort
+### main
 
 
 
+
+
+
+
+### rotate_letter
+
+
+Rotates a letter by n places.  Does not change other chars.   
+letter: single-letter string n: int   
+Returns: single-letter string 
 #### Parameters
 name | description | default
 --- | --- | ---
-L |  | 
+letter |  | 
+n |  | 
 
 
 
 
 
-### mergesort
+### rotate_word
 
 
-
+Rotates a word by n places.   
+word: string n: integer   
+Returns: string 
 #### Parameters
 name | description | default
 --- | --- | ---
-alist |  | 
-verbose |  | False
+word |  | 
+n |  | 
 
 
 
 
 
-### mergesort2
+### ackermann
 
 
-
+Computes the Ackermann function A(m, n)   
+See http://en.wikipedia.org/wiki/Ackermann_function   
+n, m: non-negative integers 
 #### Parameters
 name | description | default
 --- | --- | ---
-w |  | 
+m |  | 
+n |  | 
 
 
 
 
 
-### getOutBoundURLs
+### rank_freq
 
 
-http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element   
-anchors contains all <a> tag elements from the HTML content. Iterate through the list of anchors and build list containing the href addresses whenever it is available 
+Returns a list of (rank, freq) tuples.   
+hist: map from word to frequency   
+returns: list of (rank, freq) tuples 
 #### Parameters
 name | description | default
 --- | --- | ---
-anchors |  | 
+hist |  | 
 
 
 
 
 
-### getOutBoundHttpURLs
+### print_ranks
 
 
-
+Prints the rank vs. frequency data.   
+hist: map from word to frequency 
 #### Parameters
 name | description | default
 --- | --- | ---
-alist |  | 
+hist |  | 
 
 
 
 
 
-### generateBanner
+### plot_ranks
 
 
-
+Plots frequency vs. rank.   
+hist: map from word to frequency scale: string 'linear' or 'log' 
 #### Parameters
 name | description | default
 --- | --- | ---
-url |  | 
-anchorCount |  | 
-outBoundCount |  | 
-linkCount |  | 
+hist |  | 
+scale |  | "log"
 
 
 
 
 
-### printURLs
-
-
-Print only those addresses that start with 'https' from valid anchors if 'f'ilename is valid, write extracted URLs to file as well 
-#### Parameters
-name | description | default
---- | --- | ---
-url |  | 
-anchors |  | 
-f |  | None
-
-
-
-
-
-### calculateGrade
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-score |  | 
-gradeChart |  | 
-
-
-
-
-
-### classAverage
+### main
 
 
 
 #### Parameters
 name | description | default
 --- | --- | ---
-scores |  | 
-gc |  | 
+script |  | 
+filename |  | "emma.txt"
+flag |  | "plot"
 
 
 
 
 
-### mergesort
-Authors: **kgashok**
+### int_to_time
 
-iterative mergesort implementation   
+
+Makes a new Time object.   
+seconds: int seconds since midnight. 
+#### Parameters
+name | description | default
+--- | --- | ---
+seconds |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### has_palindrome
+
+
+Checks if the string representation of i has a palindrome.   
+i: integer start: where in the string to start length: length of the palindrome to check for 
+#### Parameters
+name | description | default
+--- | --- | ---
+i |  | 
+start |  | 
+length |  | 
+
+
+
+
+
+### check
+
+
+Checks if the integer (i) has the desired properties.   
+i: int 
+#### Parameters
+name | description | default
+--- | --- | ---
+i |  | 
+
+
+
+
+
+### check_all
+
+
+Enumerate the six-digit numbers and print any winners.  
+
+
+
+
+### first
+
+
+Returns the first character of a string. 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### last
+
+
+Returns the last of a string. 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### middle
+
+
+Returns all but the first and last characters of a string. 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### is_palindrome
+
+
+Returns True if word is a palindrome. 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### make_word_dict
+
+
+Reads a word list and returns a dictionary. 
+
+
+
+
+### is_reducible
+
+
+If word is reducible, returns a list of its reducible children.   
+Also adds an entry to the memo dictionary.   
+A string is reducible if it has at least one child that is reducible.  The empty string is also reducible.   
+word: string word_dict: dictionary with words as keys 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+word_dict |  | 
+
+
+
+
+
+### children
+
+
+Returns a list of all words that can be formed by removing one letter.   
+word: string   
+Returns: list of strings 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+word_dict |  | 
+
+
+
+
+
+### all_reducible
+
+
+Checks all words in the word_dict; returns a list reducible ones.   
+word_dict: dictionary with words as keys 
+#### Parameters
+name | description | default
+--- | --- | ---
+word_dict |  | 
+
+
+
+
+
+### print_trail
+
+
+Prints the sequence of words that reduces this word to the empty string.   
+If there is more than one choice, it chooses the first.   
+word: string 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+
+
+
+
+
+### print_longest_words
+
+
+Finds the longest reducible words and prints them.   
+word_dict: dictionary of valid words 
+#### Parameters
+name | description | default
+--- | --- | ---
+word_dict |  | 
+
+
+
+
+
+### process_file
+
+
+Reads a file and performs Markov analysis.   
+filename: string order: integer number of words in the prefix   
+returns: map from prefix to list of possible suffixes. 
+#### Parameters
+name | description | default
+--- | --- | ---
+filename |  | 
+order |  | 2
+
+
+
+
+
+### skip_gutenberg_header
+
+
+Reads from fp until it finds the line that ends the header.   
+fp: open file object 
+#### Parameters
+name | description | default
+--- | --- | ---
+fp |  | 
+
+
+
+
+
+### process_word
+
+
+Processes each word.   
+word: string order: integer   
+During the first few iterations, all we do is store up the words; after that we start adding entries to the dictionary. 
+#### Parameters
+name | description | default
+--- | --- | ---
+word |  | 
+order |  | 2
+
+
+
+
+
+### random_text
+
+
+Generates random wordsfrom the analyzed text.   
+Starts with a random prefix from the dictionary.   
+n: number of words to generate 
+#### Parameters
+name | description | default
+--- | --- | ---
+n |  | 100
+
+
+
+
+
+### shift
+
+
+Forms a new tuple by removing the head and adding word to the tail.   
+t: tuple of strings word: string   
+Returns: tuple of strings 
+#### Parameters
+name | description | default
+--- | --- | ---
+t |  | 
+word |  | 
+
+
+
+
+
+### main
+
+
 
 #### Parameters
 name | description | default
 --- | --- | ---
-series | is a sequence of unsorted elements | 
-
-
-
-
-
-### calculate_grade
-Authors: **kgashok**
-
-Computes the distance between two Point objects.   
-
-#### Parameters
-name | description | default
---- | --- | ---
-score | individual student's score | 
-gradeChart | list of tuples | 
-
-
-
-
-
-### classAverage
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-scores |  | 
-gc |  | 
-
-
-
-
-
-### swap_func
-Authors: **kgashok**
-
-swap the contents of a and b   
-
-#### Parameters
-name | description | default
---- | --- | ---
-a | is global | 
-b | is global | 
-
-
-
-
-
-### distance_between
-Authors: **kgashok**
-
-Computes the distance between two Point objects.   
-
-#### Parameters
-name | description | default
---- | --- | ---
-pointA | is a tuple | 
-pointB | is a tuple | 
-
-
-
-
-
-### getOutBoundURLs
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-a_tags |  | 
-
-
-
-
-
-### generateBanner
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-url |  | 
-anchorCount |  | 
-linkCount |  | 
-
-
-
-
-
-### printURLs
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-url |  | 
-anchors |  | 
-f |  | None
-
-
-
-
-
-### getOutBoundURLs2
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-anchors |  | 
-
-
-
-
-
-### getOutBoundHttpURLs
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-alist |  | 
-
-
-
-
-
-### circulate
-Authors: **kgashok**
-
-circulate between three variables, three times   
-
-#### Parameters
-name | description | default
---- | --- | ---
-a | is a integer | 
-b | is a integer | 
-c | is a integer | 
-
-
-
-
-
-### circulate_list
-Authors: **kgashok**
-
-circulate 'n' elements in a list, n times   
-
-#### Parameters
-name | description | default
---- | --- | ---
-alist | contains the 'n' elements | 
-
-
-
-
-
-### test_random_lists
-
-
-Generates 20 lists of random sizes within the range -5, 10, inclusive. Modify these as per your choice 
-
-
-
-
-### printlist
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-alist |  | 
-
-
-
-
-
-### test_life_the_universe_and_everything
-
-
-a simple example to start you off 
-
-
-
-
-### test_random_lists
-
-
-Generates 20 lists of random sizes within the range - 5, 10, inclusive.Modify these as per your choice 
-
-
-
-
-### missing_plane
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-alist |  | 
-
-
-
-
-
-### get_addresses
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-anchors |  | 
-
-
-
-
-
-### printURLs
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-url |  | 
-anchors |  | 
-f |  | None
-
-
-
-
-
-### googleSearch
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-query |  | 
-
-
-
-
-
-### googlesearch
-
-
-
-#### Parameters
-name | description | default
---- | --- | ---
-searchfor |  | 
+script |  | 
+filename |  | "emma.txt"
+n |  | 100
+order |  | 2
 
 
 
