@@ -15,7 +15,8 @@ class State(Enum):
 
 class Board:
     ''' Board class to represent the game board '''
-    def __init__(self, m : int, n : int, init : List[List[int]]):
+
+    def __init__(self, m: int, n: int, init: List[List[int]]):
         self.m = m   # the number of rows
         self.n = n   # the number of columns
         self.board_ = [
@@ -28,7 +29,7 @@ class Board:
         '''
         return '\n'.join([
             ''.join(
-                    ['*' if cell.value else ' ' for cell in row]
+                ['*' if cell.value else ' ' for cell in row]
             ) for row in self.board_]
         )
 
@@ -37,14 +38,14 @@ class Board:
         ''' population — the number of live cells on the board '''
         return sum(cell.value for row in self.board_ for cell in row)
 
-    def count_live_neighbours(self, x : int, y : int) -> int:
+    def count_live_neighbours(self, x: int, y: int) -> int:
         ''' count the live neighbours of a cell '''
         count = 0
         for i in range(x - 1, x + 2):
             for j in range(y - 1, y + 2):
                 if (i == x and j == y) or i < 0 or j < 0:
                     continue
-                # handle IndexErrors raised during invalid indexing operations 
+                # handle IndexErrors raised during invalid indexing operations
                 try:
                     count += self.board_[i][j].value
                 except IndexError:
@@ -52,11 +53,11 @@ class Board:
 
         return count
 
-    def next_cell_state(self, x : int, y : int) -> State:
+    def next_cell_state(self, x: int, y: int) -> State:
         count = self.count_live_neighbours(x, y)
         cur_state = self.board_[x][y]
-        # determine the next state based on the current state and 
-        # number of live neighbours 
+        # determine the next state based on the current state and
+        # number of live neighbours
         if count in {2, 3} and cur_state == State.alive:
             return cur_state
         elif count == 3 and cur_state == State.dead:
@@ -64,11 +65,10 @@ class Board:
 
         return State.dead
 
-    def next_board_state(self) -> List[List[State]]: 
-        ''' return board configuration for the next state '''    
-        return [
-            [self.next_cell_state(i, j) for j in range(self.n)] for i in range(self.m)
-        ]
+    def next_board_state(self) -> List[List[State]]:
+        ''' return board configuration for the next state '''
+        return [[self.next_cell_state(i, j) for j in range(
+            self.n)] for i in range(self.m)]
 
     def advance_state(self):
         ''' update the board configuration with the config for the next state '''
@@ -80,7 +80,7 @@ class Board:
 
 
 if __name__ == '__main__':
-    arr = np.random.choice([0, 1], (20, 100), p=[0.90, 0.1]) 
+    arr = np.random.choice([0, 1], (20, 100), p=[0.90, 0.1])
     board = Board(arr.shape[0], arr.shape[1], init=arr.tolist())
 
     step = 0
