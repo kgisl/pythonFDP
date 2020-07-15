@@ -26,6 +26,8 @@ Bring your creativity to the fore.
 How do I go about finding algorithms to get inspired by? Visit any of the 
 following links. 
 
+## Algorithms at work
+  - http://j.mp/algoAtWork
 
 ## Quora Based    
 - http://j.mp/AlgoKG  
@@ -437,8 +439,9 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MjA1Nzk4LDE3MDA3OTE2NzIsMjIwNT
-Y1MTYwLDcwNTkyMjU1MywtMTgxOTI0MzgxNCwxMDE4OTQ1MTU4
-LDI0OTEzMTE1NSwtMTc1Mzg0OTEwMCwtMTM1MzQwNDMyMyw0Nj
-YxOTkxOTcsLTE2Njc5NzI3OTMsMjEyNDMwNzM4OF19
+eyJoaXN0b3J5IjpbMTM5NDcwNjQ2NCwyNDUyMDU3OTgsMTcwMD
+c5MTY3MiwyMjA1NjUxNjAsNzA1OTIyNTUzLC0xODE5MjQzODE0
+LDEwMTg5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5MTAwLC0xMz
+UzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5MywyMTI0MzA3
+Mzg4XX0=
 -->
