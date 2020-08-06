@@ -29,6 +29,9 @@ following links.
 ## Algorithms at work
   - http://j.mp/algoAtWork
 
+## Dictionary of Algorithms and DS (DaDS)
+[https://xlinux.nist.gov/dads/](https://xlinux.nist.gov/dads/)
+
 ## Quora Based    
 - http://j.mp/AlgoKG  
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
@@ -439,9 +442,9 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDcwNjQ2NCwyNDUyMDU3OTgsMTcwMD
-c5MTY3MiwyMjA1NjUxNjAsNzA1OTIyNTUzLC0xODE5MjQzODE0
-LDEwMTg5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5MTAwLC0xMz
-UzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5MywyMTI0MzA3
-Mzg4XX0=
+eyJoaXN0b3J5IjpbLTgzNTYyMjIyOSwxMzk0NzA2NDY0LDI0NT
+IwNTc5OCwxNzAwNzkxNjcyLDIyMDU2NTE2MCw3MDU5MjI1NTMs
+LTE4MTkyNDM4MTQsMTAxODk0NTE1OCwyNDkxMzExNTUsLTE3NT
+M4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5MTk3LC0xNjY3OTcy
+NzkzLDIxMjQzMDczODhdfQ==
 -->
