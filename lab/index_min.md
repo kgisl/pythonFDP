@@ -21,5 +21,6 @@ Refactor the code to only one line.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTkxMjc4NiwtMTQ3MjIxOTMzMV19
+eyJoaXN0b3J5IjpbMTkyOTk1MDg5NCwxODQ1OTEyNzg2LC0xND
+cyMjE5MzMxXX0=
 -->
