@@ -1101,6 +1101,14 @@ hist |  |
 
 
 
+### test_fun
+
+
+test function which is used to validate if the custom packge installation worked successfully 
+
+
+
+
 ### square
 
 
