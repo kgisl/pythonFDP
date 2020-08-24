@@ -1,5 +1,13 @@
 # Sandbox to try ThinkPy2 code 
 
+In your code, or in IDLE prompt, do this: 
+
+```bash 
+>> from thinkpy2.has_duplicates import *
+>> has_duplicates([1, 2, 3, 1])
+True
+```
+
 ## How it was created 
 
 0. This was created by following the instructions on https://j.mp/stepsPackage
@@ -25,14 +33,3 @@ or use the script [`make_my_package.py`](https://github.com/kgisl/pythonFDP/blob
 4. At the level of the `/sandbox` directory, type:  
 
     ```pip3 install -e . ```
-
-
-### How to use your custom package 
-
-In your code, or in IDLE prompt, do this: 
-
-```bash 
->> from thinkpy2.has_duplicates import *
->> has_duplicates([1, 2, 3, 1])
-True
-```
