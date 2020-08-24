@@ -11,3 +11,5 @@ After Steps 1-4:
         
     setup.py
 ```
+
+Added to `setup.py`
