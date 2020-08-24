@@ -1,4 +1,5 @@
 
+# Code from ThinkPython Github repository
 
-### Code from ThinkPython repository
+For the latest version see [here](https://github.com/AllenDowney/ThinkPython2/tree/master/code)
 
