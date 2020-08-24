@@ -11,6 +11,8 @@ In this case, just one function to make sure it works.
 
 
 def test_fun():
-<<<<<<< HEAD
-    '''test function to run and validate if the custom packge installation worked'''
-    print("yup -- this worked!!")
+
+
+<< << << < HEAD
+'''test function to run and validate if the custom packge installation worked'''
+print("yup -- this worked!!")
