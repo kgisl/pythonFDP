@@ -19,3 +19,12 @@
 3. created a sample `some_code.py` with `test_fun` code in it 
 
 
+### How to use it 
+
+In your code, or in IDLE prompt, do this: 
+
+```bash 
+>> from thinkpy2.has_duplicates import *
+>> has_duplicates([1, 2, 3, 1])
+True
+```
