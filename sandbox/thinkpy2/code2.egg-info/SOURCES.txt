@@ -1,0 +1,8 @@
+README.md
+setup.py
+code2.egg-info/PKG-INFO
+code2.egg-info/SOURCES.txt
+code2.egg-info/dependency_links.txt
+code2.egg-info/top_level.txt
+thinkpy2/__init__.py
+thinkpy2/some_code.py
