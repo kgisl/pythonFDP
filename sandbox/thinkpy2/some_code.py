@@ -11,7 +11,7 @@ In this case, just one function to make sure it works.
 
 
 def test_fun():
-    '''test function which is used to validate if the 
+    '''test function which is used to validate if the
     custom packge installation worked successfully
     '''
     print("yup -- this worked!!")
