@@ -14,7 +14,7 @@
 
 2. Added to `setup.py`
 
-3. Now, bringing some code from  the github repo.
-  - choosing has_duplicates.py
+3. created a sample some_code.py with `test_fun` code in it 
+
 
 
