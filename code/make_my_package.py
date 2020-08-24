@@ -4,7 +4,8 @@
 A simple script that builds a as_simple_as_possible package
 to use for your own code.
 """
-import sys, os
+import sys
+import os
 
 USAGE = """
 python make_my_package.py your_package_name
@@ -39,7 +40,6 @@ def test_fun():
 
 if __name__ == "__main__":
 
-
     try:
         package_name = sys.argv[1]
     except IndexError:
@@ -63,8 +63,3 @@ if __name__ == "__main__":
         initfile.write(test_code)
 
     os.chdir("../..")
-
-
-
-
-
