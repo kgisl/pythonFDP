@@ -1,8 +1,8 @@
 # Custom Package Creation
 
-This was created by following the instructions on https://j.mp/stepsPackage
+0. This was created by following the instructions on https://j.mp/stepsPackage
 
-After Steps 1-4: 
+1. After Steps 1-4: 
 
 ```
 /code2
@@ -12,4 +12,9 @@ After Steps 1-4:
     setup.py
 ```
 
-Added to `setup.py`
+2. Added to `setup.py`
+
+3. Now, bringing some code from  the github repo.
+  - choosing has_duplicates.py
+
+
