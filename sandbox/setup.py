@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='code2',
+setup(name='sandbox',
       packages=['thinkpy2'],
       )
 
