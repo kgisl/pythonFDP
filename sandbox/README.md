@@ -18,12 +18,13 @@
 
 3. created a sample `some_code.py` with `test_fun` code in it 
 
-or 
-## Use the script 
+or use the script [`make_my_package.py`](https://github.com/kgisl/pythonFDP/blob/6d0f662cdc7c9ac1aaa4a1ef641d74401a4b18b4/code/make_my_package.py) 
 
-Use the [`make_my_package.py`](https://github.com/kgisl/pythonFDP/blob/6d0f662cdc7c9ac1aaa4a1ef641d74401a4b18b4/code/make_my_package.py) 
+    usage: python3 make_my_package.py <your_package_name>
 
-    Usage python3 make_my_package.py <your_package_name>
+4. At the level of the `/sandbox` directory, type:  
+
+    ```pip3 install -e . ```
 
 
 ### How to use your custom package 
