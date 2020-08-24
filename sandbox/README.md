@@ -18,8 +18,15 @@
 
 3. created a sample `some_code.py` with `test_fun` code in it 
 
+or 
+## Use the script 
 
-### How to use it 
+Use the [`make_my_package.py`](https://github.com/kgisl/pythonFDP/blob/6d0f662cdc7c9ac1aaa4a1ef641d74401a4b18b4/code/make_my_package.py) 
+
+    Usage python3 make_my_package.py <your_package_name>
+
+
+### How to use your custom package 
 
 In your code, or in IDLE prompt, do this: 
 
