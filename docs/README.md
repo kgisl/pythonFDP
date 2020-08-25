@@ -3933,3 +3933,11 @@ word |  |
 
 
 
+
+### test_fun2
+
+
+test function which is used to validate if the custom packge installation worked successfully 
+
+
+
