@@ -1,6 +1,9 @@
 
 ## Update
 
+Step 0: 
+First go to http://j.mp/bookmarkKG 
+
 Step 1: 
 ![bookmarklet](https://i.imgur.com/AYixZo9.jpg)
 
