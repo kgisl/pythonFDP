@@ -269,7 +269,7 @@ pointB | is a tuple |
 ### calculate_grade
 Authors: **kgashok**
 
-Computes the distance between two Point objects.   
+calculate the grade given a score and a grading chart.   
 
 #### Parameters
 name | description | default
