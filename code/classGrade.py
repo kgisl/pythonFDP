@@ -38,11 +38,11 @@ def calculate_grade(score, gradeChart):
     return grade_letter[index]
 
 
-def classAverage(scores, gc):
+def class_average(scores, gc):
     """returns the average grade for the entire class 
     
     @author kgashok
-
+    
     @param scores list of student scores
     @param gc list of tuples
     @return a grade char 'A'-'F'
