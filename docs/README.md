@@ -281,7 +281,7 @@ gradeChart | list of tuples |
 
 
 
-### classAverage
+### class_average
 Authors: **kgashok**
 
 returns the average grade for the entire class   
