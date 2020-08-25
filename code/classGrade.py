@@ -19,7 +19,7 @@ gradeChart = [
 
 
 def calculate_grade(score, gradeChart):
-    """calculate the grade given a score 
+    """calculate the grade given a score
     and a grading chart.
 
     @author kgashok
@@ -38,9 +38,15 @@ def calculate_grade(score, gradeChart):
     return grade_letter[index]
 
 
+<<<<<<< HEAD
 def class_average(scores, gc):
     """returns the average grade for the entire class 
     
+=======
+def classAverage(scores, gc):
+    """returns the average grade for the entire class
+
+>>>>>>> 2b0d258e5b35e315e652048190018016a894fe1d
     @author kgashok
     
     @param scores list of student scores
