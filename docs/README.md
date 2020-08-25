@@ -282,14 +282,15 @@ gradeChart | list of tuples |
 
 
 ### classAverage
+Authors: **kgashok**
 
-
+returns the average grade for the entire class   
 
 #### Parameters
 name | description | default
 --- | --- | ---
-scores |  | 
-gc |  | 
+scores | list of student scores | 
+gc | list of tuples | 
 
 
 
