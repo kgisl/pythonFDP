@@ -19,7 +19,8 @@ gradeChart = [
 
 
 def calculate_grade(score, gradeChart):
-    """Computes the distance between two Point objects.
+    """calculate the grade given a score 
+    and a grading chart.
 
     @author kgashok
 
