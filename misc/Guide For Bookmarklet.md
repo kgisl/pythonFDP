@@ -1,4 +1,20 @@
 
+## Update
+
+Step 1: 
+![bookmarklet](https://i.imgur.com/AYixZo9.jpg)
+
+Step 2: 
+![preview](https://i.imgur.com/luBQPwp.jpg)
+
+And you are all done! 
+
+Now visit a HTML file in the Github repository  
+4. For e.g. go to [https://github.com/kgisl/pythonFDP/blob/master/sortPythonic.html](https://github.com/kgisl/pythonFDP/blob/master/sortPythonic.html)  
+5. Click on the bookmarklet “preview” in your bookmark bar.  
+6. The HTML file will be rendered in your browser in a new tab. Viola!
+
+
 ## Install your HTML bookmarklet
 
 Check out this video: [https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?](https://share.vidyard.com/watch/hrVSP13pjYXg8qfCKqJxgs?)
