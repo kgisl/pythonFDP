@@ -588,19 +588,19 @@ http://j.mp/divideTwo - divide a list into two halves
 Which one is which? 
 
 ## Sort 1
-![gifSelect](https://github.com/kgisl/pythonFDP/blob/master/img/SelectionEg01.gif)
+![gifSelect](../img/SelectionEg01.gif)
 ## Sort 2 
-![gifInsert](../img/Insertion-sort-examle-300px.gif)
+![gifInsert](../img/Insertion-sort-example-300px.gif)
 ## Sort 3 
 ![gifMerge](../img/Merge-sort-example-300px.gif)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDQ1Njk1NCwxMzc0NjEzMTI3LC0xOD
-MwNzMwMjIxLC05Njk4MzA5MywtMTk1NTkwNzIxNywxMDU5MjA2
-NzQsLTE2MzUyNDk3NCw3MjkzMTYxNDgsLTExOTUxMjMwOCwtMT
-M5MzI2MTM2MSwtNDI5NzEzNTc2LC0zOTk3MTgxOTcsOTI3OTE3
-Mjk0LDk1NTY5NDM4MSwtNjcyMjkxMDA3LDE3NjQ3MTc2NTksMT
-Y0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMDMwOTI4NDY5LC0xOTMz
-NzAzMThdfQ==
+eyJoaXN0b3J5IjpbLTE4MDQ4NTUyNzAsMTM3NDYxMzEyNywtMT
+gzMDczMDIyMSwtOTY5ODMwOTMsLTE5NTU5MDcyMTcsMTA1OTIw
+Njc0LC0xNjM1MjQ5NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLT
+EzOTMyNjEzNjEsLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkx
+NzI5NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LD
+E2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkz
+MzcwMzE4XX0=
 -->
