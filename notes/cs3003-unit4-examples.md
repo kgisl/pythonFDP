@@ -588,19 +588,19 @@ http://j.mp/divideTwo - divide a list into two halves
 Which one is which? 
 
 ## Sort 1
-![gifSelect](../img/SelectionEg01.gif)
+![gif1](../img/Merge-sort-example-300px.gif)
 ## Sort 2 
-![gifInsert](../img/Insertion-sort-example-300px.gif)
+![gif2](../img/Insertion-sort-example-300px.gif)
 ## Sort 3 
-![gifMerge](../img/Merge-sort-example-300px.gif)
+![gif3](../img/SelectionEg01.gif)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ4NTUyNzAsMTM3NDYxMzEyNywtMT
-gzMDczMDIyMSwtOTY5ODMwOTMsLTE5NTU5MDcyMTcsMTA1OTIw
-Njc0LC0xNjM1MjQ5NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLT
-EzOTMyNjEzNjEsLTQyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkx
-NzI5NCw5NTU2OTQzODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LD
-E2NDMxOTczOTgsMTU4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkz
-MzcwMzE4XX0=
+eyJoaXN0b3J5IjpbLTM0MzIwMjU1MSwtMTgwNDg1NTI3MCwxMz
+c0NjEzMTI3LC0xODMwNzMwMjIxLC05Njk4MzA5MywtMTk1NTkw
+NzIxNywxMDU5MjA2NzQsLTE2MzUyNDk3NCw3MjkzMTYxNDgsLT
+ExOTUxMjMwOCwtMTM5MzI2MTM2MSwtNDI5NzEzNTc2LC0zOTk3
+MTgxOTcsOTI3OTE3Mjk0LDk1NTY5NDM4MSwtNjcyMjkxMDA3LD
+E3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMDMw
+OTI4NDY5XX0=
 -->
