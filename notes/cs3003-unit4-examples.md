@@ -588,7 +588,7 @@ http://j.mp/divideTwo - divide a list into two halves
 Which one is which? 
 
 ## Sort 1
-![gifSelect](../img/SelectionEg01.gif)
+![gifSelect](https://github.com/kgisl/pythonFDP/blob/master/img/SelectionEg01.gif)
 ## Sort 2 
 ![gifInsert](../img/Insertion-sort-examle-300px.gif)
 ## Sort 3 
@@ -596,7 +596,7 @@ Which one is which?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDgxNjYzOCwxMzc0NjEzMTI3LC0xOD
+eyJoaXN0b3J5IjpbLTM2MDQ1Njk1NCwxMzc0NjEzMTI3LC0xOD
 MwNzMwMjIxLC05Njk4MzA5MywtMTk1NTkwNzIxNywxMDU5MjA2
 NzQsLTE2MzUyNDk3NCw3MjkzMTYxNDgsLTExOTUxMjMwOCwtMT
 M5MzI2MTM2MSwtNDI5NzEzNTc2LC0zOTk3MTgxOTcsOTI3OTE3
