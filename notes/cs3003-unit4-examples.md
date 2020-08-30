@@ -587,7 +587,8 @@ http://j.mp/divideTwo - divide a list into two halves
 
 Which one is which? 
 
-## Sort 1![gifSelect]()
+## Sort 1
+![gifSelect]()
 ## Sort 2 
 ![gifInsert]()
 ## Sort 3 
@@ -595,11 +596,11 @@ Which one is which?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUyMDQ1NTUsLTE4MzA3MzAyMjEsLT
-k2OTgzMDkzLC0xOTU1OTA3MjE3LDEwNTkyMDY3NCwtMTYzNTI0
-OTc0LDcyOTMxNjE0OCwtMTE5NTEyMzA4LC0xMzkzMjYxMzYxLC
-00Mjk3MTM1NzYsLTM5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Njk0
-MzgxLC02NzIyOTEwMDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4LD
-E1ODU0NjY1MjAsLTIwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMTM4
-NDI1MDQ4MF19
+eyJoaXN0b3J5IjpbMTM3NDYxMzEyNywtMTgzMDczMDIyMSwtOT
+Y5ODMwOTMsLTE5NTU5MDcyMTcsMTA1OTIwNjc0LC0xNjM1MjQ5
+NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEzNjEsLT
+QyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQz
+ODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMT
+U4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0
+MjUwNDgwXX0=
 -->
