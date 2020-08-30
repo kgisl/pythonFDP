@@ -583,12 +583,24 @@ http://j.mp/divideTwo - divide a list into two halves
 - http://j.mp/enumListCC  - manually code out the enumerate function 
 
 
+## GIF galore 
+
+Which one is which? 
+
+## Sort 1
+![gifSelect]()
+## Sort 2 
+![gifInsert]()
+## Sort 3 
+![gifMerge]()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA3MzAyMjEsLTk2OTgzMDkzLC0xOT
-U1OTA3MjE3LDEwNTkyMDY3NCwtMTYzNTI0OTc0LDcyOTMxNjE0
-OCwtMTE5NTEyMzA4LC0xMzkzMjYxMzYxLC00Mjk3MTM1NzYsLT
-M5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Njk0MzgxLC02NzIyOTEw
-MDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0NjY1MjAsLT
-IwMzA5Mjg0NjksLTE5MzM3MDMxOCwtMTM4NDI1MDQ4MCwtMTI3
-NzE0MjU4OV19
+eyJoaXN0b3J5IjpbMTM3NDYxMzEyNywtMTgzMDczMDIyMSwtOT
+Y5ODMwOTMsLTE5NTU5MDcyMTcsMTA1OTIwNjc0LC0xNjM1MjQ5
+NzQsNzI5MzE2MTQ4LC0xMTk1MTIzMDgsLTEzOTMyNjEzNjEsLT
+QyOTcxMzU3NiwtMzk5NzE4MTk3LDkyNzkxNzI5NCw5NTU2OTQz
+ODEsLTY3MjI5MTAwNywxNzY0NzE3NjU5LDE2NDMxOTczOTgsMT
+U4NTQ2NjUyMCwtMjAzMDkyODQ2OSwtMTkzMzcwMzE4LC0xMzg0
+MjUwNDgwXX0=
 -->
