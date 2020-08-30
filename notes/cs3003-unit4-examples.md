@@ -588,11 +588,11 @@ http://j.mp/divideTwo - divide a list into two halves
 Which one is which? 
 
 ## Sort 1
-![gifSelect]()
+![gifSelect](../img/SelectionEg01.gif)
 ## Sort 2 
-![gifInsert]()
+![gifInsert](../img/Insertion-sort-examle-300px.gif)
 ## Sort 3 
-![gifMerge]()
+![gifMerge](../img/Merge-sort-example-300px.gif)
 
 
 <!--stackedit_data:
