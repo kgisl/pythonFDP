@@ -14,19 +14,23 @@ def linear_search(myl, token):
 
 def binary_search(myl, token):
     found = False
-
+    # initialize markers at the edges of the list
     left  = 0
     right = len(myl)-1
 
-    while left <= right and not found:
+    while not found and left <= right:
         mid = (right+left)//2
-        if myl[mid] == token:
+        midvalue = myl[mid]
+        
+        if token == midvalue:
             found = True
 
-        if myl[mid] > token:
-            right = mid - 1
-        else:
+        if token > midvalue:
+            # for e.g. token is 7 and midval is 5, then
+            # shift left marker to the right of mid
             left  = mid + 1
+        else:
+            right = mid - 1
             
     return found
 
