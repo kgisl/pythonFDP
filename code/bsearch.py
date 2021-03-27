@@ -1,5 +1,5 @@
 def binary_search(alist, token):
-     '''function implements binary search algorithm using slicing
+    '''function implements binary search algorithm using slicing
 
     @author kgashok
     @param alist is list of numbers to be searched
