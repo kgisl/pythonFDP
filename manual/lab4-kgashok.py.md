@@ -109,3 +109,56 @@ As per the test output, there are four calls made to the `binary_search_recursiv
   - https://www.hackerearth.com/practice/notes/sentinel-linear-search/ 
 
 
+## Test First Teaching Binary Search 
+
+Refer to [cyberdojo-exercises repo](https://github.com/kgashok/cyberdojo-exercises/tree/master/binarysearch2) for code and test cases
+
+- Use Slice to teach Binary Search, and use Binary Search as use-case for Slicing
+- The code is very simple and elegant to teach and understand 
+
+```python
+def binary_search(alist, token): 
+    while alist: 
+        mid = len(alist) // 2
+        midvalue = alist[mid]
+    
+        if token is midvalue: 
+            return True
+        if token < midvalue: 
+            # for e.g. token is 3, and midvalue is 5
+            # throw/slice away the upper half
+            alist = alist[:mid]
+        else:
+            # if token is 7, and midvalue is 5 
+            # throw/slice away the lower half
+            alist = alist[mid + 1:]
+
+    return False
+```
+
+### Version 2
+
+ - Presenting a non-slice version of the Binary search then become as the   
+   the next logical step 
+
+```python
+def binary_search(alist, token): 
+    left = 0
+    right = len(alist)
+    
+    while left < right: 
+        mid = (left + right) // 2
+        midvalue = alist[mid]
+        #print(f'\nmid:{mid}, midvalue:{midvalue}')
+        if token is midvalue: 
+            return mid
+
+        if token < midvalue: 
+            # move right marker to left of mid
+            right = mid
+        elif token > midvalue:
+            # move left marker to right of mid
+            left = mid+1
+        
+    return -1
+
