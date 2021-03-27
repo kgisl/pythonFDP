@@ -1,4 +1,4 @@
-def binary_search(alist, token): 
+def binary_search(alist, token):
      '''function implements binary search algorithm using slicing
 
     @author kgashok
