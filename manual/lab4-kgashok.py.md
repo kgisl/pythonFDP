@@ -111,13 +111,16 @@ As per the test output, there are four calls made to the `binary_search_recursiv
 
 ## Test First Teaching Binary Search 
 
-Refer to [cyberdojo-exercises repo](https://github.com/kgashok/cyberdojo-exercises/tree/master/binarysearch2) for code and test cases
+Refer to [cyberdojo-exercises repo](https://github.com/kgashok/cyberdojo-exercises/tree/master/binarysearch2) for actual tested code and test cases
 
 - Use Slice to teach Binary Search, and use Binary Search as use-case for Slicing
 - The code is very simple and elegant to teach and understand 
 
 ```python
 def binary_search(alist, token): 
+    '''uses slicing instead of left and right markers
+    easier to explain, easier to understand by beginners
+    '''
     while alist: 
         mid = len(alist) // 2
         midvalue = alist[mid]
