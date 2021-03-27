@@ -11,7 +11,7 @@ jobs:
     - name: Generate Python Docs
       uses: jbheard/markdown-docs@v1
     - name: Open docs update PR
-      uses: repo-sync/pull-request@v2
+      uses: peter-evans/create-pull-request@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
   
