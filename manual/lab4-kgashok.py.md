@@ -159,7 +159,7 @@ def binary_search(alist, token):
         if token < midvalue: 
             # move right marker to left of mid
             right = mid
-        elif token > midvalue:
+        else:
             # move left marker to right of mid
             left = mid+1
         
