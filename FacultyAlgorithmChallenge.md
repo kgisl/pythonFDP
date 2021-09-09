@@ -1,4 +1,11 @@
 
+# Faculty ELi5 Algorithm Teaching (FEAT) challenge `#FEAT`
+
+# UPDATE 2
+
+The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm.  
+Of course, for the real world use case, they might want to target a more mature audience.
+
 
 # Guidelines for Evaluation
 
