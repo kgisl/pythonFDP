@@ -1,12 +1,12 @@
 # Lists, Tuples and Dictionaries 
 - Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods; 
 - Advanced list processing - list comprehension
+- For last section of Unit 4, `Illustrative Programs`, please see [http://j.mp/unit4Easy](http://j.mp/unit4Easy)
 
 Pre-requisite: http://j.mp/pythonREPLcourse
 _Refer to the glossary below to become familiar with the terms relevant to this unit_
 
 I just scored 63% on @realpython's "Python Lists and Tuples" quiz. What's your score? #pythonquiz https://realpython.com/quizzes/python-lists-tuples/results
-
 
 ## Concept Map 
 _A picture is worth a 1000 words_
@@ -805,11 +805,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjk5NDEwNiwtMTg3NTkyODU0MiwtMT
-MzMzU4MjQyLDI2OTc2MzE3MCwtMjEzNjU3MDcyNSwtNjcwNzQ4
-MDI5LDEzMDIxNzA4ODYsLTkzMjExNDU1Myw0MDMzNTc3MSwxNT
-E4MTcyNzgyLDE1NTQyMTQxNTEsODEyNjQ2MjYxLC0xODk4ODcx
-NTUxLC0xNjY1NDgyMDYzLC01OTA0MDQyMjQsODAzODQ0NTI2LC
-0yMDcxNjgxNzcxLDE4OTkzMTE2ODYsNTM1ODQ4MjE3LDE3Mjg1
-MzQyODVdfQ==
+eyJoaXN0b3J5IjpbMTQwMzI1NDI0OSwxNjAyOTk0MTA2LC0xOD
+c1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYzMTcwLC0yMTM2NTcw
+NzI1LC02NzA3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLD
+QwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYy
+NjEsLTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNC
+w4MDM4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4
+NDgyMTddfQ==
 -->
