@@ -12,10 +12,10 @@
 	To do input/output with files in Python.
  
 ### UNIT I  ALGORITHMIC PROBLEM SOLVING                                                                    9
- Algorithms, building blocks of algorithms (instructions/statements, state, control flow, functions), notation (pseudo code, flow chart, programming language), algorithmic problem solving, simple strategies for developing algorithms (iteration, recursion)
+ Algorithms, building blocks of algorithms (instructions/statements, state, control flow, functions), notation (pseudo code, flow chart, programming language), algorithmic problem solving, simple strategies for developing algorithms (iteration, recursion). **Illustrative problems**: find minimum in a list, insert a card in a list of sorted cards, guess an integer number in a range, Towers of Hanoi.
  
 ### UNIT II  DATA, EXPRESSIONS, STATEMENTS                                                                  9
-Python interpreter and interactive mode; values and types: int, float, booleans, strings, and lists; variables, expressions,  statements, tuple assignment, precedence of operators, comments; modules and functions, function definition and use, flow of execution, parameters and arguments;  **Illustrative programs**: exchange the values of two variables, circulate the values of n variables, test for leap year.
+Python interpreter and interactive mode; values and types: int, float, booleans, strings, and lists; variables, expressions,  statements, tuple assignment, precedence of operators, comments; modules and functions, function definition and use, flow of execution, parameters and arguments;  **Illustrative programs**: exchange the values of two variables, circulate the values of n variables, test for leap year, distance between two points.
  
 ### UNIT III CONTROL FLOW, FUNCTIONS                                                                               9
 Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, scope: local and global, composition, recursion; Strings:  string slices, immutability, string functions and methods, string module; Lists as arrays. **Illustrative programs**: square root, gcd, exponentiation, sum the array of numbers, linear search, binary search.
