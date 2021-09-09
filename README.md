@@ -22,6 +22,11 @@ Python FDP for KITE faculty
 * http://www.mytectra.com/blog/will-python-replace-java/ 
 
 
+# Syllabus 
+
+![theory](/img/theorySyllabus3003.png)
 
 
+## Lab Syllabus
 
+![lab](/img/labSyllabus3003.png)
