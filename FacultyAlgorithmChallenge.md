@@ -2,6 +2,11 @@
 
 # Guidelines for Evaluation
 
+## Faculty ELi5 Algorithm Teaching (FEAT) challenge `#FEAT`
+
+### UPDATE 2
+The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm. Of course, for the real world use case, they might want to target a more mature audience.
+
 **OBJECTIVE**: To tell the world why you as a CSE faculty care about 
 algorithms, which is the bedrock of Computer Science. Secondly, your 
 presentation must motivate and inspire your peers and students to adopt an 
@@ -442,9 +447,9 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTYyMjIyOSwxMzk0NzA2NDY0LDI0NT
-IwNTc5OCwxNzAwNzkxNjcyLDIyMDU2NTE2MCw3MDU5MjI1NTMs
-LTE4MTkyNDM4MTQsMTAxODk0NTE1OCwyNDkxMzExNTUsLTE3NT
-M4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5MTk3LC0xNjY3OTcy
-NzkzLDIxMjQzMDczODhdfQ==
+eyJoaXN0b3J5IjpbLTE5ODA5NjQyNDgsLTgzNTYyMjIyOSwxMz
+k0NzA2NDY0LDI0NTIwNTc5OCwxNzAwNzkxNjcyLDIyMDU2NTE2
+MCw3MDU5MjI1NTMsLTE4MTkyNDM4MTQsMTAxODk0NTE1OCwyND
+kxMzExNTUsLTE3NTM4NDkxMDAsLTEzNTM0MDQzMjMsNDY2MTk5
+MTk3LC0xNjY3OTcyNzkzLDIxMjQzMDczODhdfQ==
 -->
