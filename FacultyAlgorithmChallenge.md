@@ -12,7 +12,8 @@ Of course, for the real world use case, they might want to target a more mature 
 ## Faculty ELi5 Algorithm Teaching (FEAT) challenge `#FEAT`
 
 ### UPDATE 2
-The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm. Of course, for the real world use case, they might want to target a more mature audience.
+The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm. Of course, for the real world use case, they might want to target a more mature audience. 
+https://bit.ly/facultyPK
 
 **OBJECTIVE**: To tell the world why you as a CSE faculty care about 
 algorithms, which is the bedrock of Computer Science. Secondly, your 
@@ -454,10 +455,10 @@ Ray Stata, Analog Devices, Inc
 End of File 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDMyNjM4OCwtMTk4MDk2NDI0OCwtOD
-M1NjIyMjI5LDEzOTQ3MDY0NjQsMjQ1MjA1Nzk4LDE3MDA3OTE2
-NzIsMjIwNTY1MTYwLDcwNTkyMjU1MywtMTgxOTI0MzgxNCwxMD
-E4OTQ1MTU4LDI0OTEzMTE1NSwtMTc1Mzg0OTEwMCwtMTM1MzQw
-NDMyMyw0NjYxOTkxOTcsLTE2Njc5NzI3OTMsMjEyNDMwNzM4OF
-19
+eyJoaXN0b3J5IjpbMTAyNDEyMjcxOSwxOTAwMzI2Mzg4LC0xOT
+gwOTY0MjQ4LC04MzU2MjIyMjksMTM5NDcwNjQ2NCwyNDUyMDU3
+OTgsMTcwMDc5MTY3MiwyMjA1NjUxNjAsNzA1OTIyNTUzLC0xOD
+E5MjQzODE0LDEwMTg5NDUxNTgsMjQ5MTMxMTU1LC0xNzUzODQ5
+MTAwLC0xMzUzNDA0MzIzLDQ2NjE5OTE5NywtMTY2Nzk3Mjc5My
+wyMTI0MzA3Mzg4XX0=
 -->
