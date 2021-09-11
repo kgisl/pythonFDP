@@ -124,18 +124,22 @@ else:
 ### Example 1: “or” operator
 
     Number of days in a month varies from 30 to 31 days. 
-    Write a python program to read the name of the month and display corresponding days. 
-    If he input is other than the given month, then display error message as “Invalid”.
+    Write a python program to read the name of the month 
+    and display corresponding days. 
+    If the input is other than the given month, 
+    then display error message as “Invalid”.
    
-	    import sys
-		month=input()
-		if(month=="may" or month=="july" or month=="august"):
-			 print ("31")
-		elif(month=="jun"):
-			 print ("30")
-		else:
-			 print ("invalid")`
-	   
+```python
+import sys
+month=input()
+if(month=="may" or month=="july" or month=="august"):
+  print ("31")
+elif(month=="jun"):
+  print ("30")
+else:
+  print ("invalid")
+```
+
 ### 3.1.2. OPERATORS
 
  - Each built-in data types come with its set of operators.
