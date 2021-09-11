@@ -10,32 +10,32 @@
 
 #  Table of Contents
 
-[3.1. CONDITIONALS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#3.1.conditionals)
+[3.1. CONDITIONALS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#3.1.conditionals)
 
--   [3.1.1 BOOLEAN VALUES AND OPERATORS:](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#311-boolean-values-and-operators)
--   [3.1.2. OPERATORS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#312-operators)
--   [3.1.3 CONDITIONAL STATEMENTS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#313conditional-statements)
+-   [3.1.1 BOOLEAN VALUES AND OPERATORS:](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#311-boolean-values-and-operators)
+-   [3.1.2. OPERATORS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#312-operators)
+-   [3.1.3 CONDITIONAL STATEMENTS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#313conditional-statements)
 
-[3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#32-repetition-structureloopingiterative-statements)
+[3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#32-repetition-structureloopingiterative-statements)
 
-[3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#33-fruitful-functions-return-values-parameters-local-and-global-scope-function-composition-recursion)
+[3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#33-fruitful-functions-return-values-parameters-local-and-global-scope-function-composition-recursion)
 
--   [3.3.1. Functions](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#331-functions)
--   [3.3.2 Return Values](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#332return-values)
--   [3.3.3 Function Arguments](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#333-function-arguments)
--   [3.3.4. Scope of Variables](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#334-scope-of-variables)
--   [3.3.5. Function composition or Anonymous Functions](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#335-function-composition-or-anonymous-functions)
--   [3.3.6. Recursive Function](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#336-recursive-function)
+-   [3.3.1. Functions](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#331-functions)
+-   [3.3.2 Return Values](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#332return-values)
+-   [3.3.3 Function Arguments](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#333-function-arguments)
+-   [3.3.4. Scope of Variables](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#334-scope-of-variables)
+-   [3.3.5. Function composition or Anonymous Functions](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#335-function-composition-or-anonymous-functions)
+-   [3.3.6. Recursive Function](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#336-recursive-function)
 
-[3.4. STRINGS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#34-strings)
+[3.4. STRINGS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#34-strings)
 
- -   [3.4.1. len()](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#341-len)
- -   [3.4.2. String slices](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#342-string-slices)
- -   [3.4.3. Strings are immutable](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#343-strings-are-immutable)
- -   [3.4.4. String methods](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#344-string-methods)
- -   [3.4.4 . String module](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#344--string-module)
- -   [3.4.5. Example Programs](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#345-example-programs)
- -   [3.4.6. String functions and methods](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#346-string-functions-and-methods)
+ -   [3.4.1. len()](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#341-len)
+ -   [3.4.2. String slices](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#342-string-slices)
+ -   [3.4.3. Strings are immutable](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#343-strings-are-immutable)
+ -   [3.4.4. String methods](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#344-string-methods)
+ -   [3.4.4 . String module](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#344--string-module)
+ -   [3.4.5. Example Programs](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#345-example-programs)
+ -   [3.4.6. String functions and methods](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#346-string-functions-and-methods)
 ### Online References attribution
  - Understand   [operators](https://www.w3schools.com/python/python_operators.asp)
   - Execute   [functions](https://www.w3schools.com/python/python_functions.asp)
