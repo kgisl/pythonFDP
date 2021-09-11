@@ -1,11 +1,11 @@
 
-![poster, image](/img/control-flow-cloud-concept-white-background.jpg)
+![poster, image](https://github.com/kgisl/pythonFDP/blob/master/img/control-flow-cloud-concept-white-background.jpg?raw=true)
 
 # UNIT 3 CONTROL FLOW, FUNCTIONS
 - Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); 
 - Iteration: state, while, for, break, continue, pass; 
 - Fruitful functions: return values, parameters, local and global scope, function composition, recursion; 
-- Strings: string slices, immutability, string functions and methods, string module; Lists as arrays. 
+- Strings: string slices, immutability, string functions and methods, string module; Lists as arrays;
 - **Illustrative programs**: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search
 
 [Memcode flashcards](https://www.memcode.com/courses/2294/learn)  - 50+ flashcards to review the contents of this unit. Space repetition of the flashcards will help in retaining the content and perform better in exams.
@@ -143,6 +143,7 @@ Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit3) of
 	 4. Logical  Operators
 	 5. Membership  Operators
 	 6. Identity  Operators
+
 ### i) Arithmetic operators
 
  - Arithmetic  operators  are  used  to  perform  mathematical  operations  like  addition,  subtraction,  Multiplication
