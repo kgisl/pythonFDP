@@ -2,9 +2,13 @@
 ![poster, image](/img/control-flow-cloud-concept-white-background.jpg)
 
 # UNIT 3 CONTROL FLOW, FUNCTIONS
-**Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, local and global scope, function composition, recursion; Strings: string slices, immutability, string functions and methods, string module; Lists as arrays. Illustrative programs: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search**
+- Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); 
+- Iteration: state, while, for, break, continue, pass; 
+- Fruitful functions: return values, parameters, local and global scope, function composition, recursion; 
+- Strings: string slices, immutability, string functions and methods, string module; Lists as arrays. 
+- **Illustrative programs**: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search
 
-[Memcode flashcards](https://www.memcode.com/courses/2294/learn)  - 50+ flashcards to review the contents of this unit.
+[Memcode flashcards](https://www.memcode.com/courses/2294/learn)  - 50+ flashcards to review the contents of this unit. Space repetition of the flashcards will help in retaining the content and perform better in exams.
 
 [Illustrative problems](https://replit.com/@Kamalav/GE8151-unit-programs#unit3/binary.py) - list of illustrative programs provided for this unit
 
@@ -36,6 +40,7 @@
  -   [3.4.4 . String module](#344--string-module)
  -   [3.4.5. Example Programs](#345-example-programs)
  -   [3.4.6. String functions and methods](#346-string-functions-and-methods)
+
 ### Online References attribution
  - Understand   [operators](https://www.w3schools.com/python/python_operators.asp)
   - Execute   [functions](https://www.w3schools.com/python/python_functions.asp)
@@ -45,15 +50,14 @@
 Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit2) of unit 2.
 ## Post-Unit exercises
 Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit3) of unit 3
+
 ## KEY TERMS
 - **Operators** - _Operators_ are the constructs which can manipulate the value of operands.
 - **Control flow statements:** - *Control statements* in python are used to control the order of execution of the program based on the values and logic.
 - **Repetition Statements** - *Repetition statements* are called loops, and are used to repeat the same code multiple times in succession.
 - **Functions** - A _function_ is a block of code which only runs when it is called.
-- **Fruitful functions**
-The _functions_ which return any value are called as _fruitful functions_.
-- **Strings**
-*Strings* are arrays of bytes representing Unicode characters.
+- **Fruitful functions** - The _functions_ which return any value are called as _fruitful functions_.
+- **Strings** - *Strings* are arrays of bytes representing Unicode characters.
 
 
 ## 3.1. CONDITIONALS:
@@ -991,18 +995,11 @@ Program that use different string methods
 	print(“str[::-3]=”,str[::-3])
 
 **6.String Immutability**
-•	Python strings are immutable
-•	Once the strings are created it cannot be modified
-•	To modify an existing string variable, a new string is created
-•	The id() returns the memory address of that object
-•	Str1 and str2 have the same object, then both point to same object
-
-**6.String Immutability**
-•	Python strings are immutable
-•	Once the strings are created it cannot be modified
-•	To modify an existing string variable, a new string is created
-•	The id() returns the memory address of that object
-•	Str1 and str2 have the same object, then both point to same object
+•	Python strings are immutable  
+•	Once the strings are created it cannot be modified  
+•	To modify an existing string variable, a new string is created  
+•	The id() returns the memory address of that object  
+•	Str1 and str2 have the same object, then both point to same object  
 
 ### 3.4.6. String functions and methods
 •	Python supports many build-in methods to manipulate strings
