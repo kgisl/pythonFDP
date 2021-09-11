@@ -42,9 +42,9 @@
 -   [Strings](https://www.w3schools.com/python/python_strings.asp)   reference
 
 ## Pre-Unit exercises
-Execute and understand the [illustrative programs](https://replit.com/@Kamalav/GE8151-unit-programs#unit2/circulate.py) of unit 2.
+Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit2) of unit 2.
 ## Post-Unit exercises
-Execute and understand the [illustrative programs](https://replit.com/@Kamalav/GE8151-unit-programs#unit3/exponent.py) of unit 3
+Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit3) of unit 3
 ## KEY TERMS
 - **Operators** - _Operators_ are the constructs which can manipulate the value of operands.
 - **Control flow statements:** - *Control statements* in python are used to control the order of execution of the program based on the values and logic.
