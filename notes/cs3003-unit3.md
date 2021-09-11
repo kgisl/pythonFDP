@@ -690,6 +690,7 @@ An asterisk (*) is placed before the variable name that holds the values of all 
 
 		printinfo( 10 )
 		printinfo( 70, 60, 50 )
+
 ### 3.3.4. Scope of Variables
 •	All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
 •	The scope of a variable determines the portion of the program where you can access a particular identifier.
@@ -1033,7 +1034,7 @@ Program that use different string methods
 Strings and recursion and reversal 
 
 ### Which program is correct?
-We need a string reversal function and it needs to be using recursion. Between Program A and Program B which one accomplishes this goal? If so, does it achieve the objective for any type and length of string? 
+We need a string reversal function and it needs to be using recursion. Between `Program A` and `Program B` which one accomplishes this goal? If so, does it achieve the objective for any type and length of string? 
 
 ```python
 ## Program A
