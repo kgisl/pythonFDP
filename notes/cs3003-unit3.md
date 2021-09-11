@@ -1,5 +1,5 @@
 
-![poster, image](https://github.com/kgisl/pythonFDP/blob/master/img/control-flow-cloud-concept-white-background.jpg?raw=true)
+![poster, image](https://github.com/kgisl/pythonFDP/blob/master/img/unit3-wordcloud-alternative.png?raw=true)
 
 # UNIT 3 CONTROL FLOW, FUNCTIONS
 - Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); 
