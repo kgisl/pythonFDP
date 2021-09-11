@@ -8,7 +8,7 @@
 
 [Illustrative problems](https://replit.com/@Kamalav/GE8151-unit-programs#unit3/binary.py) - list of illustrative programs provided for this unit
 
-# [](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#table-of-contents)                    Table of Contents
+#  Table of Contents
 
 [3.1. CONDITIONALS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/fns.md#3.1.conditionals)
 
@@ -1053,6 +1053,7 @@ def reverse2(text):
 print(reverse2("abcdefghi"))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA5Njk5NDksLTE4NzkxODc5NTgsMj
-E0MzE5MDE1MSw5ODM2MjkxNjIsMjA5MTQ0NzY2NV19
+eyJoaXN0b3J5IjpbMTAzMDEyNjIsLTE3NDA5Njk5NDksLTE4Nz
+kxODc5NTgsMjE0MzE5MDE1MSw5ODM2MjkxNjIsMjA5MTQ0NzY2
+NV19
 -->
