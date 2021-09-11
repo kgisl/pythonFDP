@@ -27,7 +27,7 @@
 -   [3.3.5. Function composition or Anonymous Functions](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#335-function-composition-or-anonymous-functions)
 -   [3.3.6. Recursive Function](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#336-recursive-function)
 
-[3.4. STRINGS](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#34-strings)
+[3.4. STRINGS](#34-strings)
 
  -   [3.4.1. len()](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#341-len)
  -   [3.4.2. String slices](https://github.com/KAMALATHANGARAJAN/PSPP-NOTES/blob/master/#342-string-slices)
