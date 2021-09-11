@@ -1029,12 +1029,12 @@ Program that use different string methods
 
 
 
-### Miscellaneous 
+## Miscellaneous 
 
-####  Strings
+###  Strings
 Strings and recursion and reversal 
 
-#### Which program is correct?
+### Which program is correct?
 We need a string reversal function and it needs to be using recursion. Between Program A and Program B which one accomplishes this goal? If so, does it achieve the objective for any type and length of string? 
 
 ```python
@@ -1052,3 +1052,5 @@ def reverse2(text):
   return text[-1] + reverse2(text[:-1])
 print(reverse2("abcdefghi"))
 ```
+
+
