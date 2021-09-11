@@ -161,9 +161,10 @@ else:
  - Assume variable ‘_a’_ holds 10 and variable ‘_b_’ holds 20  then the following table shows the result of arithmetic operators.
  
  
-|Symbol|Operator|Description |	Example
-|:--:|--|--|--|--|
+|Symbol|Operator|Description |	Example |
+|:--:|--|--|--|
 |**+** | Addition	|Adds values on either side of the operator.	|a + b = 30
+
 ### (ii)	Comparison Operators
 •	These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators.
 •	The result of these operators is a Boolean value (True / False)
