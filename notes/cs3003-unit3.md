@@ -1,5 +1,5 @@
 
-![poster, image](img/control-flow-cloud-concept-white-background.jpg)
+![poster, image](/img/control-flow-cloud-concept-white-background.jpg)
 
 # UNIT 3 CONTROL FLOW, FUNCTIONS
 **Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, local and global scope, function composition, recursion; Strings: string slices, immutability, string functions and methods, string module; Lists as arrays. Illustrative programs: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search**
@@ -1053,6 +1053,6 @@ def reverse2(text):
 print(reverse2("abcdefghi"))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkxODc5NTgsMjE0MzE5MDE1MSw5OD
-M2MjkxNjIsMjA5MTQ0NzY2NV19
+eyJoaXN0b3J5IjpbLTE3NDA5Njk5NDksLTE4NzkxODc5NTgsMj
+E0MzE5MDE1MSw5ODM2MjkxNjIsMjA5MTQ0NzY2NV19
 -->
