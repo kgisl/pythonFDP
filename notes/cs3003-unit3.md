@@ -112,13 +112,13 @@ print("Enter Month and Day")
 month=input()
 day=int(input())
 if(month =="january" and day ==26):
-    print ("republic day")
+  print ("republic day")
 elif(month =="august" and day ==15):
-    print ("independence day")
+  print ("independence day")
 elif(month =="october" and day ==2):
-    print ("Gandhi Jayanthi")
+  print ("Gandhi Jayanthi")
 else:
-    print ("invalid input")
+  print ("invalid input")
 ```
 
 ### Example 1: “or” operator
