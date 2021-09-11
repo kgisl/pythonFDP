@@ -20,7 +20,7 @@ disks cannot rest on top of a smaller disk.
 
 More info at https://en.wikipedia.org/wiki/Tower_of_Hanoi
 """
-    )
+          )
 
     # Set up the towers. The end of the list is the top of the tower.
     towers = {'A': copy.copy(COMPLETE_TOWER), 'B': [], 'C': []}
