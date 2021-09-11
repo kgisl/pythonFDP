@@ -96,24 +96,31 @@ Execute and understand the [illustrative programs](http://bit.ly/kamalaUnit3) of
 |FALSE	|FALSE	|FALSE
 
 ### Example 1: “and” operator
-       A python program to display the National holidays.
-       For example:
-           January 26-Republic day
-           August 15-Indepependance day 
-           October 2-Gandhi Jayanthi*
-       If user input is other than the given condition,Error will be displayed as “Invalid input”.
-    
-			    print("Enter Month and Day")
-				month=input()
-				day=int(input())
-				if(month =="january" and day ==26):
-					print ("republic day")
-				elif(month =="august" and day ==15):
-					print ("independence day")
-				elif(month =="october" and day ==2):
-					print ("Gandhi Jayanthi")
-				else:
-					print ("invalid input")
+
+```
+A python program to display the National holidays.
+For example:
+    January 26 -Republic day
+    August 15  -Indepependance day 
+    October 2  -Gandhi Jayanthi
+If user input is other than the given condition,
+Error will be displayed as “Invalid input”.
+```    
+
+```python
+print("Enter Month and Day")
+month=input()
+day=int(input())
+if(month =="january" and day ==26):
+	print ("republic day")
+elif(month =="august" and day ==15):
+	print ("independence day")
+elif(month =="october" and day ==2):
+	print ("Gandhi Jayanthi")
+else:
+	print ("invalid input")
+```
+
 ### Example 1: “or” operator
 
     Number of days in a month varies from 30 to 31 days. 
