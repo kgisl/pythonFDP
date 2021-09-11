@@ -1052,8 +1052,3 @@ def reverse2(text):
   return text[-1] + reverse2(text[:-1])
 print(reverse2("abcdefghi"))
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDEyNjIsLTE3NDA5Njk5NDksLTE4Nz
-kxODc5NTgsMjE0MzE5MDE1MSw5ODM2MjkxNjIsMjA5MTQ0NzY2
-NV19
--->
