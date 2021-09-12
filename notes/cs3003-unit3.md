@@ -1013,7 +1013,7 @@ Program that use different string methods
 •	Once the strings are created it cannot be modified  
 •	To modify an existing string variable, a new string is created  
 •	The id() returns the memory address of that object  
-•	Str1 and str2 have the same object, then both point to same object  
+•	If the value returned by id() of two strings (str1 & str2) are same,  then both point to the same object 
 
 ### 3.4.6. String functions and methods
 •	Python supports many build-in methods to manipulate strings
