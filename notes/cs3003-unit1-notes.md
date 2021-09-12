@@ -92,9 +92,11 @@ The rules one must follow when solving the tower puzzle are:
 
 In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:
 
-	1.  Move the upper n-1 discs from tower A to B (the temporary tower), using C as the in-between.
+	1.  Move the upper n-1 discs from tower A to B 
+	    (the temporary tower), using C as the in-between.
 	2.  Move the single lowest disc from A to C.
-	3.  Move the n-1 discs from tower B to C, using A as the in-between.
+	3.  Move the n-1 discs from tower B to C,
+	    using A as the in-between.
 
 The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  **`hanoi()`**  that is responsible for moving discs from one tower to another, given a third temporary tower.
 
@@ -127,6 +129,6 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NjQ0NjcsMTExMjM5MzU2NiwtMT
-MwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEwXX0=
+eyJoaXN0b3J5IjpbNTkwNzU3MTk5LDExMTIzOTM1NjYsLTEzMD
+c4MTI5MjgsMTQ2NDA0Njc5LDY3NzE3NDUxMF19
 -->
