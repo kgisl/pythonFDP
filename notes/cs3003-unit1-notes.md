@@ -152,10 +152,10 @@ Using [http://bit.ly/hanoiInteractive](http://bit.ly/hanoiInteractive)
 c = 0
 def moveTower(height,fromPole, toPole, withPole):
     if height == 1: 
-        moveDisk(fromPole, toPole)
+        moveDisk(height, fromPole, toPole)
     else: 
         moveTower(height-1,fromPole,withPole,toPole)
-        moveDisk(fromPole,toPole)
+        moveDisk(height, fromPole,toPole)
         moveTower(height-1,withPole,toPole,fromPole)
 
 def moveDisk(fp,tp):
@@ -176,7 +176,8 @@ moveTower(3,"Start","Dest","Middle")
 7 moving disk from Start to Dest
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTY2ODA0NCwxMDI4ODUxNTkwLC05Mz
-MyMjkzMDMsNzcyNjk4NTIxLDU5MDc1NzE5OSwxMTEyMzkzNTY2
-LC0xMzA3ODEyOTI4LDE0NjQwNDY3OSw2NzcxNzQ1MTBdfQ==
+eyJoaXN0b3J5IjpbMzE3MTMyNzM4LDEyMTU2NjgwNDQsMTAyOD
+g1MTU5MCwtOTMzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTks
+MTExMjM5MzU2NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MT
+c0NTEwXX0=
 -->
