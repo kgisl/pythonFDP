@@ -24,8 +24,11 @@
 </li>
 <li><a href="#tower-of-hanoi">Tower of Hanoi</a>
 <ul>
-<li><a href="#pseudocode">Pseudocode</a></li>
+<li><a href="#pseudocode-1">Pseudocode 1</a></li>
+<li><a href="#pseudocode-2">Pseudocode 2</a></li>
 <li><a href="#output-for-3-disc-hanoi-problem">Output for 3 disc Hanoi Problem</a></li>
+<li><a href="#python-code">Python Code</a></li>
+<li><a href="#hanoi-output">Hanoi Output</a></li>
 </ul>
 </li>
 </ul>
@@ -122,18 +125,35 @@ insert_into_sortedArray <span class="token punctuation">(</span>ar + <span class
 </code></pre>
 <p>The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  <strong><code>hanoi()</code></strong>  that is responsible for moving discs from one tower to another, given a third temporary tower.</p>
 <p>In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).</p>
-<h2 id="pseudocode">Pseudocode</h2>
+<h2 id="pseudocode-1">Pseudocode 1</h2>
 <pre><code>func moveDisk (A, B)
 	print "Moving top disk from tower {A} to tower {B} "
 	
 func towerOfHanoi (n, fromTower, toTower, tempTower)
-
 	if (n &gt;= 1) 
 	   towerOfHanoi(n-1, fromTower, tempTower, toTower)
 	   moveDisk(fromTower, toTower)
 	   towerOfHanoi(n-1, tempTower, toTower, fromTower)
 	   
 end func 
+</code></pre>
+<h2 id="pseudocode-2">Pseudocode 2</h2>
+<pre><code>Pseudo code:
+BEGIN
+	READ disk, source, dest, aux
+	FUNCTION Hanoi (disk, source, dest, aux)
+END
+
+Pseudo code for function Hanoi (disk, source, dest, aux)
+BEGIN
+   IF disk=1 THEN
+	   Move disk from source to dest
+   ELSE
+       Hanoi (disk-1, source, aux, dest)
+       Move disk from source to dest
+       Hanoi (disk-1, source, aux, dest)
+ENDIF
+END
 </code></pre>
 <h2 id="output-for-3-disc-hanoi-problem">Output for 3 disc Hanoi Problem</h2>
 <pre><code> Move top disk from tower Tower1 to tower Tower2
@@ -143,6 +163,32 @@ end func
  Move top disk from tower Inter to tower Tower1
  Move top disk from tower Inter to tower Tower2
  Move top disk from tower Tower1 to tower Tower2
+</code></pre>
+<h2 id="python-code">Python Code</h2>
+<pre class=" language-python"><code class="prism  language-python">c <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">def</span> <span class="token function">moveTower</span><span class="token punctuation">(</span>height<span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">,</span> withPole<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> height <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> 
+        moveDisk<span class="token punctuation">(</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">)</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span> 
+        moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
+        moveDisk<span class="token punctuation">(</span>fromPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
+        moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">,</span>fromPole<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">moveDisk</span><span class="token punctuation">(</span>fp<span class="token punctuation">,</span>tp<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">global</span> c
+    c <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>c<span class="token punctuation">,</span> <span class="token string">"moving disk from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
+
+moveTower<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token string">"Start"</span><span class="token punctuation">,</span><span class="token string">"Dest"</span><span class="token punctuation">,</span><span class="token string">"Middle"</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="hanoi-output">Hanoi Output</h2>
+<pre class=" language-bash"><code class="prism  language-bash">1 moving disk from Start to Dest  
+2 moving disk from Start to Middle  
+3 moving disk from Dest to Middle  
+4 moving disk from Start to Dest  
+5 moving disk from Middle to Start  
+6 moving disk from Middle to Dest  
+7 moving disk from Start to Dest
 </code></pre>
 
     </div>
