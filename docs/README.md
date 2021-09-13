@@ -363,6 +363,37 @@ a simple example to start you off
 
 
 
+### moveTower
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+height |  | 
+fromPole |  | 
+toPole |  | 
+withPole |  | 
+
+
+
+
+
+### moveDisk
+
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+disk |  | 
+fp |  | 
+tp |  | 
+
+
+
+
+
 ### distance_between
 Authors: **kgashok**
 
@@ -606,6 +637,53 @@ circulate 'n' elements in a list, n times
 name | description | default
 --- | --- | ---
 alist | contains the 'n' elements | 
+
+
+
+
+
+### main
+
+
+
+
+
+
+
+### askForPlayerMove
+
+
+Asks the player for a move. Returns (fromTower, toTower). 
+#### Parameters
+name | description | default
+--- | --- | ---
+towers |  | 
+
+
+
+
+
+### displayTowers
+
+
+Display the current state. 
+#### Parameters
+name | description | default
+--- | --- | ---
+towers |  | 
+
+
+
+
+
+### displayDisk
+
+
+Display a disk of the given width. A width of 0 means no disk. 
+#### Parameters
+name | description | default
+--- | --- | ---
+width |  | 
 
 
 
