@@ -161,20 +161,20 @@ def moveDisk(fp,tp):
     c += 1
     print(c, "moving disk from",fp,"to",tp)
 
-moveTower(3,"LPole","RightPole","MiddlePole")
+moveTower(3,"Start","Dest","Middle")
 ```
 ## Hanoi Output
 ```bash
-1 moving disk from LPole to RPole  
-2 moving disk from LPole to Middle  
-3 moving disk from RPole to Middle  
-4 moving disk from LPole to RPole  
-5 moving disk from Middle to LPole  
-6 moving disk from Middle to RPole  
-7 moving disk from LPole to RPole
+1 moving disk from Start to Dest  
+2 moving disk from Start to Middle  
+3 moving disk from Dest to Middle  
+4 moving disk from Start to Dest  
+5 moving disk from Middle to Start  
+6 moving disk from Middle to Dest  
+7 moving disk from Start to Dest
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc0NTE5OTEsMTAyODg1MTU5MCwtOT
+eyJoaXN0b3J5IjpbLTE2MDcyMTQ4NjksMTAyODg1MTU5MCwtOT
 MzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMjM5MzU2
 NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEwXX0=
 -->
