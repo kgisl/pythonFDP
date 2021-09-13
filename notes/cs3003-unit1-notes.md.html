@@ -167,29 +167,31 @@ END
 <h2 id="python-code">Python Code</h2>
 <p>Using <a href="http://bit.ly/hanoiInteractive">http://bit.ly/hanoiInteractive</a></p>
 <pre class=" language-python"><code class="prism  language-python">c <span class="token operator">=</span> <span class="token number">0</span>
+tower <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token string">'red  '</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue '</span><span class="token punctuation">]</span>
 <span class="token keyword">def</span> <span class="token function">moveTower</span><span class="token punctuation">(</span>height<span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">,</span> withPole<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> height <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> 
-        moveDisk<span class="token punctuation">(</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">)</span>
-    <span class="token keyword">else</span><span class="token punctuation">:</span> 
+    <span class="token keyword">if</span> height <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
         moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
-        moveDisk<span class="token punctuation">(</span>fromPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
+        moveDisk<span class="token punctuation">(</span>height<span class="token punctuation">,</span> fromPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
         moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">,</span>fromPole<span class="token punctuation">)</span>
 
-<span class="token keyword">def</span> <span class="token function">moveDisk</span><span class="token punctuation">(</span>fp<span class="token punctuation">,</span>tp<span class="token punctuation">)</span><span class="token punctuation">:</span>
+<span class="token keyword">def</span> <span class="token function">moveDisk</span><span class="token punctuation">(</span>disk<span class="token punctuation">,</span> fp<span class="token punctuation">,</span>tp<span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token keyword">global</span> c
     c <span class="token operator">+=</span> <span class="token number">1</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span>c<span class="token punctuation">,</span> <span class="token string">"moving disk from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Step"</span><span class="token punctuation">,</span> c<span class="token punctuation">,</span> <span class="token string">"moving Disk"</span><span class="token punctuation">,</span> tower<span class="token punctuation">[</span>disk<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">"from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
 
-moveTower<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token string">"Start"</span><span class="token punctuation">,</span><span class="token string">"Dest"</span><span class="token punctuation">,</span><span class="token string">"Middle"</span><span class="token punctuation">)</span>
+moveTower<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">"Start"</span><span class="token punctuation">,</span> <span class="token string">"Dest"</span><span class="token punctuation">,</span> <span class="token string">"Middle"</span><span class="token punctuation">)</span>
+
 </code></pre>
 <h2 id="hanoi-output">Hanoi Output</h2>
-<pre class=" language-bash"><code class="prism  language-bash">1 moving disk from Start to Dest  
-2 moving disk from Start to Middle  
-3 moving disk from Dest to Middle  
-4 moving disk from Start to Dest  
-5 moving disk from Middle to Start  
-6 moving disk from Middle to Dest  
-7 moving disk from Start to Dest
+<pre class=" language-bash"><code class="prism  language-bash">moveTower<span class="token punctuation">(</span>3,<span class="token string">"Start"</span>,<span class="token string">"Dest"</span>,<span class="token string">"Middle"</span><span class="token punctuation">)</span>
+
+Step 1 <span class="token keyword">:</span> moving Disk red   from Start to Dest  
+Step 2 <span class="token keyword">:</span> moving Disk green from Start to Middle  
+Step 3 <span class="token keyword">:</span> moving Disk red   from Dest to Middle  
+Step 4 <span class="token keyword">:</span> moving Disk blue  from Start to Dest  
+Step 5 <span class="token keyword">:</span> moving Disk red   from Middle to Start  
+Step 6 <span class="token keyword">:</span> moving Disk green from Middle to Dest  
+Step 7 <span class="token keyword">:</span> moving Disk red   from Start to Dest
 </code></pre>
 
     </div>
