@@ -146,8 +146,35 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
 
 ## Python Code 
 
+```python 
+c = 0
+def moveTower(height,fromPole, toPole, withPole):
+    if height == 1: 
+        moveDisk(fromPole, toPole)
+    else: 
+        moveTower(height-1,fromPole,withPole,toPole)
+        moveDisk(fromPole,toPole)
+        moveTower(height-1,withPole,toPole,fromPole)
+
+def moveDisk(fp,tp):
+    global c
+    c += 1
+    print(c, "moving disk from",fp,"to",tp)
+
+moveTower(3,"A","B","C")
+```
+## Hanoi Output
+```bash
+1 moving disk from A to B  
+2 moving disk from A to C  
+3 moving disk from B to C  
+4 moving disk from A to B  
+5 moving disk from C to A  
+6 moving disk from C to B  
+7 moving disk from A to B
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM4MTI4MTEsMTAyODg1MTU5MCwtOT
-MzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMjM5MzU2
-NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEwXX0=
+eyJoaXN0b3J5IjpbLTY3Mjg0NTY0NywxMDI4ODUxNTkwLC05Mz
+MyMjkzMDMsNzcyNjk4NTIxLDU5MDc1NzE5OSwxMTEyMzkzNTY2
+LC0xMzA3ODEyOTI4LDE0NjQwNDY3OSw2NzcxNzQ1MTBdfQ==
 -->
