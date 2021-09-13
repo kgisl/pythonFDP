@@ -9,7 +9,7 @@ def getOutBoundURLs(anchors):
     the href addresses whenever it is available.
 
     @author kgashok
-    
+
     '''
     addressList = []
     for anchor in anchors:
