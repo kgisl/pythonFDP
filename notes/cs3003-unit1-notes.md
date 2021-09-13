@@ -46,9 +46,10 @@ During the intermediary steps, the contents of `ar` are as shown below. The `key
 		
 ## Source Code
 ```python
+
 def printarray(arr):
     for e in arr: print (e, end = " ")
-    print()
+    #print()
 
 def insert_into_sortedArray(ar):    
     key = ar[-1]  # the candidate to insert
@@ -56,9 +57,10 @@ def insert_into_sortedArray(ar):
     j = i
 
     while j > 0 and ar[j-1] > key: 
+        printarray(ar)
+        print("", key)
         ar[j] = ar[j-1] # move bigger element right
         j = j-1
-        printarray(ar)
     if j != i: 
         ar[j] = key
         printarray(ar)
@@ -129,6 +131,7 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwNzU3MTk5LDExMTIzOTM1NjYsLTEzMD
-c4MTI5MjgsMTQ2NDA0Njc5LDY3NzE3NDUxMF19
+eyJoaXN0b3J5IjpbNzcyNjk4NTIxLDU5MDc1NzE5OSwxMTEyMz
+kzNTY2LC0xMzA3ODEyOTI4LDE0NjQwNDY3OSw2NzcxNzQ1MTBd
+fQ==
 -->
