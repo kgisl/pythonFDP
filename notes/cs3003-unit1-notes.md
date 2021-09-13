@@ -178,10 +178,13 @@ Step 5 : moving Disk red   from Middle to Start
 Step 6 : moving Disk green from Middle to Dest  
 Step 7 : moving Disk red   from Start to Dest
 ```
+
+# Thinking about Recursion
+_Credits: [http://bit.ly/recursionELI5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODkzMDI4OSwxNzM1MDAwODkyLC01OT
-M3NzM1OTEsMzE3MTMyNzM4LDEyMTU2NjgwNDQsMTAyODg1MTU5
-MCwtOTMzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMj
-M5MzU2NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEw
-XX0=
+eyJoaXN0b3J5IjpbOTIxODEyMjc1LDE3ODg5MzAyODksMTczNT
+AwMDg5MiwtNTkzNzczNTkxLDMxNzEzMjczOCwxMjE1NjY4MDQ0
+LDEwMjg4NTE1OTAsLTkzMzIyOTMwMyw3NzI2OTg1MjEsNTkwNz
+U3MTk5LDExMTIzOTM1NjYsLTEzMDc4MTI5MjgsMTQ2NDA0Njc5
+LDY3NzE3NDUxMF19
 -->
