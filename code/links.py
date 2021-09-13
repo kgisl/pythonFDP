@@ -7,6 +7,9 @@ def getOutBoundURLs(anchors):
     anchors contains all \<a\> tag elements from the HTML content.
     Iterate through the list of anchors and build list containing
     the href addresses whenever it is available.
+
+    @author kgashok
+    
     '''
     addressList = []
     for anchor in anchors:
