@@ -47,6 +47,8 @@ Attributes: cards: list of Card objects.
 **[Point](Point.md)**: Represents a point in 2-D space.   
 attributes: x, y 
 
+**[Markov](Markov.md)**: Encapsulates the statistical summary of a text. 
+
 **[Point](Point.md)**: Represents a point in 2-D space.   
 attributes: x, y 
 
@@ -410,10 +412,10 @@ pointB | is a tuple |
 
 
 ### getOutBoundURLs
+Authors: **kgashok**
 
+http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element anchors contains all \<a\> tag elements from the HTML content. Iterate through the list of anchors and build list containing the href addresses whenever it is available.   
 
-http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element   
-anchors contains all <a> tag elements from the HTML content. Iterate through the list of anchors and build list containing the href addresses whenever it is available 
 #### Parameters
 name | description | default
 --- | --- | ---
@@ -3513,83 +3515,6 @@ i |  |
 
 
 Enumerate the six-digit numbers and print any winners.  
-
-
-
-
-### process_file
-
-
-Reads a file and performs Markov analysis.   
-filename: string order: integer number of words in the prefix   
-returns: map from prefix to list of possible suffixes. 
-#### Parameters
-name | description | default
---- | --- | ---
-filename |  | 
-order |  | 2
-
-
-
-
-
-### skip_gutenberg_header
-
-
-Reads from fp until it finds the line that ends the header.   
-fp: open file object 
-#### Parameters
-name | description | default
---- | --- | ---
-fp |  | 
-
-
-
-
-
-### process_word
-
-
-Processes each word.   
-word: string order: integer   
-During the first few iterations, all we do is store up the words; after that we start adding entries to the dictionary. 
-#### Parameters
-name | description | default
---- | --- | ---
-word |  | 
-order |  | 2
-
-
-
-
-
-### random_text
-
-
-Generates random wordsfrom the analyzed text.   
-Starts with a random prefix from the dictionary.   
-n: number of words to generate 
-#### Parameters
-name | description | default
---- | --- | ---
-n |  | 100
-
-
-
-
-
-### shift
-
-
-Forms a new tuple by removing the head and adding word to the tail.   
-t: tuple of strings word: string   
-Returns: tuple of strings 
-#### Parameters
-name | description | default
---- | --- | ---
-t |  | 
-word |  | 
-
 
 
 
