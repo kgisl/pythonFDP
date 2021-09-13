@@ -2,11 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 
 '''
-    http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
+http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
 
-    anchors contains <a> tag elements from the HTML content.
-    Iterate through the list of anchors and extract 'href' property value
-    that start with 'https:'
+anchors contains \<a\> tag elements from the HTML content.
+Iterate through the list of anchors and extract 'href' property value
+that start with 'https:'
 '''
 # http://j.mp/linktagPythonCode - borrowed code from this example
 

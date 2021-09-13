@@ -3,12 +3,10 @@ from bs4 import BeautifulSoup
 
 
 def getOutBoundURLs(anchors):
-    '''
-        http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
-
-        anchors contains all <a> tag elements from the HTML content.
-        Iterate through the list of anchors and build list containing
-        the href addresses whenever it is available
+    '''http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
+    anchors contains all \<a\> tag elements from the HTML content.
+    Iterate through the list of anchors and build list containing
+    the href addresses whenever it is available.
     '''
     addressList = []
     for anchor in anchors:
