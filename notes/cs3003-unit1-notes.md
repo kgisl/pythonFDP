@@ -151,22 +151,21 @@ Using [http://bit.ly/hanoiInteractive](http://bit.ly/hanoiInteractive)
 ```python 
 c = 0
 def moveTower(height,fromPole, toPole, withPole):
-    if height == 1: 
-        moveDisk(height, fromPole, toPole)
-    else: 
+    if height >= 1:
         moveTower(height-1,fromPole,withPole,toPole)
         moveDisk(height, fromPole,toPole)
         moveTower(height-1,withPole,toPole,fromPole)
 
-def moveDisk(fp,tp):
+def moveDisk(disk, fp,tp):
     global c
     c += 1
-    print(c, "moving disk from",fp,"to",tp)
+    print("Step", c, "moving Disk", disk, "from",fp,"to",tp)
 
-moveTower(3,"Start","Dest","Middle")
 ```
 ## Hanoi Output
 ```bash
+moveTower(3,"Start","Dest","Middle")
+
 1 moving disk from Start to Dest  
 2 moving disk from Start to Middle  
 3 moving disk from Dest to Middle  
@@ -176,8 +175,8 @@ moveTower(3,"Start","Dest","Middle")
 7 moving disk from Start to Dest
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MTMyNzM4LDEyMTU2NjgwNDQsMTAyOD
-g1MTU5MCwtOTMzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTks
-MTExMjM5MzU2NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MT
-c0NTEwXX0=
+eyJoaXN0b3J5IjpbLTU5Mzc3MzU5MSwzMTcxMzI3MzgsMTIxNT
+Y2ODA0NCwxMDI4ODUxNTkwLC05MzMyMjkzMDMsNzcyNjk4NTIx
+LDU5MDc1NzE5OSwxMTEyMzkzNTY2LC0xMzA3ODEyOTI4LDE0Nj
+QwNDY3OSw2NzcxNzQ1MTBdfQ==
 -->
