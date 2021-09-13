@@ -72,8 +72,8 @@ def insert_into_sortedArray(ar):
 ar = [1, 2, 5,  6, 7, 9]
 insert_into_sortedArray (ar + [4])
 ```
-
 ![Imgur](https://imgur.com/gJn6bDt.png)
+
 # Tower of Hanoi
 
 Pre-requisite: http://bit.ly/recursionELI5 
@@ -125,7 +125,7 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDgxMDQxMyw3NzI2OTg1MjEsNTkwNz
+eyJoaXN0b3J5IjpbLTkzMzIyOTMwMyw3NzI2OTg1MjEsNTkwNz
 U3MTk5LDExMTIzOTM1NjYsLTEzMDc4MTI5MjgsMTQ2NDA0Njc5
 LDY3NzE3NDUxMF19
 -->
