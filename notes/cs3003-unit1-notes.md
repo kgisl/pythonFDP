@@ -46,9 +46,10 @@ During the intermediary steps, the contents of `ar` are as shown below. The `key
 		
 ## Source Code
 ```python
+
 def printarray(arr):
     for e in arr: print (e, end = " ")
-    print()
+    #print()
 
 def insert_into_sortedArray(ar):    
     key = ar[-1]  # the candidate to insert
@@ -56,9 +57,10 @@ def insert_into_sortedArray(ar):
     j = i
 
     while j > 0 and ar[j-1] > key: 
+        printarray(ar)
+        print("", key)
         ar[j] = ar[j-1] # move bigger element right
         j = j-1
-        printarray(ar)
     if j != i: 
         ar[j] = key
         printarray(ar)
@@ -69,14 +71,8 @@ def insert_into_sortedArray(ar):
 # sorted array 
 ar = [1, 2, 5,  6, 7, 9]
 insert_into_sortedArray (ar + [4])
-'''	
-	1 2 5 6 7 9 9 
-	1 2 5 6 7 7 9 
-	1 2 5 6 6 7 9 
-	1 2 5 5 6 7 9 
-	1 2 4 5 6 7 9 
-'''
 ```
+![Imgur](https://imgur.com/gJn6bDt.png)
 
 # Tower of Hanoi
 
@@ -92,28 +88,49 @@ The rules one must follow when solving the tower puzzle are:
 
 In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:
 
-4.  Move the upper n-1 discs from tower A to B (the temporary tower), using C as the in-between.
-5.  Move the single lowest disc from A to C.
-6.  Move the n-1 discs from tower B to C, using A as the in-between.
+	1.  Move the upper n-1 discs from tower A to B 
+	    (the temporary tower), using C as the in-between.
+	2.  Move the single lowest disc from A to C.
+	3.  Move the n-1 discs from tower B to C,
+	    using A as the in-between.
 
-The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  hanoi()  that is responsible for moving discs from one tower to another, given a third temporary tower.
+The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  **`hanoi()`**  that is responsible for moving discs from one tower to another, given a third temporary tower.
 
 In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).
 
 
-## Pseudocode 
+## Pseudocode 1
 
 	func moveDisk (A, B)
 		print "Moving top disk from tower {A} to tower {B} "
 		
 	func towerOfHanoi (n, fromTower, toTower, tempTower)
-	
 		if (n >= 1) 
 		   towerOfHanoi(n-1, fromTower, tempTower, toTower)
 		   moveDisk(fromTower, toTower)
 		   towerOfHanoi(n-1, tempTower, toTower, fromTower)
 		   
 	end func 
+
+## Pseudocode 2
+
+	Pseudo code:
+	BEGIN
+		READ disk, source, dest, aux
+		FUNCTION Hanoi (disk, source, dest, aux)
+	END
+
+	Pseudo code for function Hanoi (disk, source, dest, aux)
+	BEGIN
+	   IF disk=1 THEN
+		   Move disk from source to dest
+	   ELSE
+	       Hanoi (disk-1, source, aux, dest)
+	       Move disk from source to dest
+	       Hanoi (disk-1, source, aux, dest)
+	ENDIF
+	END
+
 
 
 ## Output for 3 disc Hanoi Problem
@@ -126,7 +143,45 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
  Move top disk from tower Inter to tower Tower2
  Move top disk from tower Tower1 to tower Tower2
 ```
+
+## Python Code 
+
+Using [http://bit.ly/hanoiInteractive](http://bit.ly/hanoiInteractive)
+
+```python 
+c = 0
+def moveTower(height,fromPole, toPole, withPole):
+    if height == 1:
+        moveDisk(height, fromPole, toPole)
+    else:
+        moveTower(height-1,fromPole,withPole,toPole)
+        moveDisk(height, fromPole,toPole)
+        moveTower(height-1,withPole,toPole,fromPole)
+
+def moveDisk(disk, fp,tp):
+    global c
+    c += 1
+    print("Step", c, ": moving Disk", tower[disk], "from",fp,"to",tp)
+
+tower = ['', 'red  ', 'green', 'blue ']
+moveTower(3, "Start", "Dest", "Middle")
+
+```
+## Hanoi Output
+```bash
+
+Step 1 : moving Disk red   from Start to Dest  
+Step 2 : moving Disk green from Start to Middle  
+Step 3 : moving Disk red   from Dest to Middle  
+Step 4 : moving Disk blue  from Start to Dest  
+Step 5 : moving Disk red   from Middle to Start  
+Step 6 : moving Disk green from Middle to Dest  
+Step 7 : moving Disk red   from Start to Dest
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjM5MzU2NiwtMTMwNzgxMjkyOCwxND
-Y0MDQ2NzksNjc3MTc0NTEwXX0=
+eyJoaXN0b3J5IjpbMTc4ODkzMDI4OSwxNzM1MDAwODkyLC01OT
+M3NzM1OTEsMzE3MTMyNzM4LDEyMTU2NjgwNDQsMTAyODg1MTU5
+MCwtOTMzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMj
+M5MzU2NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEw
+XX0=
 -->

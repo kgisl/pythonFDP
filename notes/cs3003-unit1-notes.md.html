@@ -24,8 +24,11 @@
 </li>
 <li><a href="#tower-of-hanoi">Tower of Hanoi</a>
 <ul>
-<li><a href="#pseudocode">Pseudocode</a></li>
+<li><a href="#pseudocode-1">Pseudocode 1</a></li>
+<li><a href="#pseudocode-2">Pseudocode 2</a></li>
 <li><a href="#output-for-3-disc-hanoi-problem">Output for 3 disc Hanoi Problem</a></li>
+<li><a href="#python-code">Python Code</a></li>
+<li><a href="#hanoi-output">Hanoi Output</a></li>
 </ul>
 </li>
 </ul>
@@ -79,9 +82,10 @@ end func
 Final: 2 3 4 6 7
 </code></pre>
 <h2 id="source-code">Source Code</h2>
-<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">printarray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+<pre class=" language-python"><code class="prism  language-python">
+<span class="token keyword">def</span> <span class="token function">printarray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token keyword">for</span> e <span class="token keyword">in</span> arr<span class="token punctuation">:</span> <span class="token keyword">print</span> <span class="token punctuation">(</span>e<span class="token punctuation">,</span> end <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">)</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token comment">#print()</span>
 
 <span class="token keyword">def</span> <span class="token function">insert_into_sortedArray</span><span class="token punctuation">(</span>ar<span class="token punctuation">)</span><span class="token punctuation">:</span>    
     key <span class="token operator">=</span> ar<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>  <span class="token comment"># the candidate to insert</span>
@@ -89,9 +93,10 @@ Final: 2 3 4 6 7
     j <span class="token operator">=</span> i
 
     <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> key<span class="token punctuation">)</span>
         ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token comment"># move bigger element right</span>
         j <span class="token operator">=</span> j<span class="token number">-1</span>
-        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
     <span class="token keyword">if</span> j <span class="token operator">!=</span> i<span class="token punctuation">:</span> 
         ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> key
         printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
@@ -101,36 +106,54 @@ Final: 2 3 4 6 7
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token comment"># sorted array </span>
 ar <span class="token operator">=</span> <span class="token punctuation">[</span>1, 2, 5,  6, 7, 9<span class="token punctuation">]</span>
 insert_into_sortedArray <span class="token punctuation">(</span>ar + <span class="token punctuation">[</span>4<span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token string">''</span><span class="token string">'	
-	1 2 5 6 7 9 9 
-	1 2 5 6 7 7 9 
-	1 2 5 6 6 7 9 
-	1 2 5 5 6 7 9 
-	1 2 4 5 6 7 9 
-'</span><span class="token string">''</span>
 </code></pre>
+<p><img src="https://imgur.com/gJn6bDt.png" alt="Imgur"></p>
 <h1 id="tower-of-hanoi">Tower of Hanoi</h1>
+<p>Pre-requisite: <a href="http://bit.ly/recursionELI5">http://bit.ly/recursionELI5</a></p>
 <p>The Tower of Hanoi problem is a popular puzzle that is used to introduce the concept of <strong>Recursion</strong>. It also helps to demonstrate the power of recursion in how it can present an elegation solution to a problem of medium complexity.</p>
-<p>In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:</p>
+<p>The rules one must follow when solving the tower puzzle are:</p>
 <ol>
-<li>Move the upper n-1 discs from tower A to B (the temporary tower), using C as the in-between.</li>
-<li>Move the single lowest disc from A to C.</li>
-<li>Move the n-1 discs from tower B to C, using A as the in-between.</li>
+<li>Disks must be removed one at a time from the top of one tower and placed onto the top of another tower.</li>
+<li>No disk can be larger than any disk below it (i.e., the disks on each tower make a pyramid shape).</li>
 </ol>
-<p>The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  hanoi()  that is responsible for moving discs from one tower to another, given a third temporary tower.</p>
+<p>In our three-disc example, we had a simple base case of moving a single disc and a recursive case of moving all of the other discs (two in this case), using the third tower temporarily. We could break the recursive case into three steps:</p>
+<pre><code>1.  Move the upper n-1 discs from tower A to B 
+    (the temporary tower), using C as the in-between.
+2.  Move the single lowest disc from A to C.
+3.  Move the n-1 discs from tower B to C,
+    using A as the in-between.
+</code></pre>
+<p>The amazing thing is that this recursive algorithm works not only for three discs, but for any number of discs. We will codify it as a function called  <strong><code>hanoi()</code></strong>  that is responsible for moving discs from one tower to another, given a third temporary tower.</p>
 <p>In our Towers of Hanoi solution, we recurse on the largest disk to be moved. That is, we will write a recursive function that takes as a parameter the disk that is the largest disk in the tower we want to move. Our function will also take three parameters indicating from which peg the tower should be moved (source), to which peg it should go (dest), and the other peg, which we can use temporarily to make this happen (spare).</p>
-<h2 id="pseudocode">Pseudocode</h2>
+<h2 id="pseudocode-1">Pseudocode 1</h2>
 <pre><code>func moveDisk (A, B)
 	print "Moving top disk from tower {A} to tower {B} "
 	
 func towerOfHanoi (n, fromTower, toTower, tempTower)
-
 	if (n &gt;= 1) 
 	   towerOfHanoi(n-1, fromTower, tempTower, toTower)
-	   moveDisk(from, to)
+	   moveDisk(fromTower, toTower)
 	   towerOfHanoi(n-1, tempTower, toTower, fromTower)
 	   
 end func 
+</code></pre>
+<h2 id="pseudocode-2">Pseudocode 2</h2>
+<pre><code>Pseudo code:
+BEGIN
+	READ disk, source, dest, aux
+	FUNCTION Hanoi (disk, source, dest, aux)
+END
+
+Pseudo code for function Hanoi (disk, source, dest, aux)
+BEGIN
+   IF disk=1 THEN
+	   Move disk from source to dest
+   ELSE
+       Hanoi (disk-1, source, aux, dest)
+       Move disk from source to dest
+       Hanoi (disk-1, source, aux, dest)
+ENDIF
+END
 </code></pre>
 <h2 id="output-for-3-disc-hanoi-problem">Output for 3 disc Hanoi Problem</h2>
 <pre><code> Move top disk from tower Tower1 to tower Tower2
@@ -140,6 +163,34 @@ end func
  Move top disk from tower Inter to tower Tower1
  Move top disk from tower Inter to tower Tower2
  Move top disk from tower Tower1 to tower Tower2
+</code></pre>
+<h2 id="python-code">Python Code</h2>
+<p>Using <a href="http://bit.ly/hanoiInteractive">http://bit.ly/hanoiInteractive</a></p>
+<pre class=" language-python"><code class="prism  language-python">c <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">def</span> <span class="token function">moveTower</span><span class="token punctuation">(</span>height<span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">,</span> withPole<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> height <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
+        moveDisk<span class="token punctuation">(</span>height<span class="token punctuation">,</span> fromPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
+        moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">,</span>fromPole<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">moveDisk</span><span class="token punctuation">(</span>disk<span class="token punctuation">,</span> fp<span class="token punctuation">,</span>tp<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">global</span> c
+    c <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Step"</span><span class="token punctuation">,</span> c<span class="token punctuation">,</span> <span class="token string">"moving Disk"</span><span class="token punctuation">,</span> tower<span class="token punctuation">[</span>disk<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">"from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
+
+tower <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token string">'red  '</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue '</span><span class="token punctuation">]</span>
+moveTower<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">"Start"</span><span class="token punctuation">,</span> <span class="token string">"Dest"</span><span class="token punctuation">,</span> <span class="token string">"Middle"</span><span class="token punctuation">)</span>
+
+</code></pre>
+<h2 id="hanoi-output">Hanoi Output</h2>
+<pre class=" language-bash"><code class="prism  language-bash">
+Step 1 <span class="token keyword">:</span> moving Disk red   from Start to Dest  
+Step 2 <span class="token keyword">:</span> moving Disk green from Start to Middle  
+Step 3 <span class="token keyword">:</span> moving Disk red   from Dest to Middle  
+Step 4 <span class="token keyword">:</span> moving Disk blue  from Start to Dest  
+Step 5 <span class="token keyword">:</span> moving Disk red   from Middle to Start  
+Step 6 <span class="token keyword">:</span> moving Disk green from Middle to Dest  
+Step 7 <span class="token keyword">:</span> moving Disk red   from Start to Dest
 </code></pre>
 
     </div>
