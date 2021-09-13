@@ -79,9 +79,10 @@ end func
 Final: 2 3 4 6 7
 </code></pre>
 <h2 id="source-code">Source Code</h2>
-<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">printarray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+<pre class=" language-python"><code class="prism  language-python">
+<span class="token keyword">def</span> <span class="token function">printarray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token keyword">for</span> e <span class="token keyword">in</span> arr<span class="token punctuation">:</span> <span class="token keyword">print</span> <span class="token punctuation">(</span>e<span class="token punctuation">,</span> end <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">)</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token comment">#print()</span>
 
 <span class="token keyword">def</span> <span class="token function">insert_into_sortedArray</span><span class="token punctuation">(</span>ar<span class="token punctuation">)</span><span class="token punctuation">:</span>    
     key <span class="token operator">=</span> ar<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>  <span class="token comment"># the candidate to insert</span>
@@ -89,9 +90,10 @@ Final: 2 3 4 6 7
     j <span class="token operator">=</span> i
 
     <span class="token keyword">while</span> j <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">and</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> key<span class="token punctuation">:</span> 
+        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> key<span class="token punctuation">)</span>
         ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> ar<span class="token punctuation">[</span>j<span class="token number">-1</span><span class="token punctuation">]</span> <span class="token comment"># move bigger element right</span>
         j <span class="token operator">=</span> j<span class="token number">-1</span>
-        printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
     <span class="token keyword">if</span> j <span class="token operator">!=</span> i<span class="token punctuation">:</span> 
         ar<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> key
         printarray<span class="token punctuation">(</span>ar<span class="token punctuation">)</span>
@@ -101,14 +103,8 @@ Final: 2 3 4 6 7
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token comment"># sorted array </span>
 ar <span class="token operator">=</span> <span class="token punctuation">[</span>1, 2, 5,  6, 7, 9<span class="token punctuation">]</span>
 insert_into_sortedArray <span class="token punctuation">(</span>ar + <span class="token punctuation">[</span>4<span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token string">''</span><span class="token string">'	
-	1 2 5 6 7 9 9 
-	1 2 5 6 7 7 9 
-	1 2 5 6 6 7 9 
-	1 2 5 5 6 7 9 
-	1 2 4 5 6 7 9 
-'</span><span class="token string">''</span>
 </code></pre>
+<p><img src="https://imgur.com/gJn6bDt.png" alt="Imgur"></p>
 <h1 id="tower-of-hanoi">Tower of Hanoi</h1>
 <p>Pre-requisite: <a href="http://bit.ly/recursionELI5">http://bit.ly/recursionELI5</a></p>
 <p>The Tower of Hanoi problem is a popular puzzle that is used to introduce the concept of <strong>Recursion</strong>. It also helps to demonstrate the power of recursion in how it can present an elegation solution to a problem of medium complexity.</p>
