@@ -18,7 +18,7 @@ def moveDisk(disk, fp, tp):
 
 tower = ['', 'red  ', 'green', 'blue ']
 moveTower(3, "Start", "Dest", "Middle")
-c = 0 # very very hacky!
+c = 0  # very very hacky!
 print("5 disks")
 tower = ['', 'A', 'B', 'C', 'D', 'E']
 moveTower(5, "Start", "Dest", "Middle")
