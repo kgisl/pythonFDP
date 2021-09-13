@@ -113,21 +113,22 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
 		   
 	end func 
 
-Pseudo code:
-BEGIN
-	READ disk, source, dest, aux
-	FUNCTION Hanoi (disk, source, dest, aux)
-END
+	Pseudo code:
+	BEGIN
+		READ disk, source, dest, aux
+		FUNCTION Hanoi (disk, source, dest, aux)
+	END
 
-Pseudo code for function Hanoi (disk, source, dest, aux)
-BEGIN
-   IF disk=1 THEN
-	   Move disk from source to dest
-   ELSE
-	 Hanoi (disk-1, source, aux, dest)
-	Move disk from source to dest
-ENDIF
-END
+	Pseudo code for function Hanoi (disk, source, dest, aux)
+	BEGIN
+	   IF disk=1 THEN
+		   Move disk from source to dest
+	   ELSE
+	       Hanoi (disk-1, source, aux, dest)
+	       Move disk from source to dest
+	       Hanoi (disk-1, source, aux, dest)
+	ENDIF
+	END
 
 
 
@@ -142,7 +143,7 @@ END
  Move top disk from tower Tower1 to tower Tower2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMjcyOTE0LC05MzMyMjkzMDMsNzcyNj
-k4NTIxLDU5MDc1NzE5OSwxMTEyMzkzNTY2LC0xMzA3ODEyOTI4
-LDE0NjQwNDY3OSw2NzcxNzQ1MTBdfQ==
+eyJoaXN0b3J5IjpbMTAyODg1MTU5MCwtOTMzMjI5MzAzLDc3Mj
+Y5ODUyMSw1OTA3NTcxOTksMTExMjM5MzU2NiwtMTMwNzgxMjky
+OCwxNDY0MDQ2NzksNjc3MTc0NTEwXX0=
 -->
