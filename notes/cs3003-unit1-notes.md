@@ -146,6 +146,8 @@ In our Towers of Hanoi solution, we recurse on the largest disk to be moved. Tha
 
 ## Python Code 
 
+Using [http://bit.ly/hanoiInteractive](http://bit.ly/hanoiInteractive)
+
 ```python 
 c = 0
 def moveTower(height,fromPole, toPole, withPole):
@@ -174,7 +176,7 @@ moveTower(3,"Start","Dest","Middle")
 7 moving disk from Start to Dest
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcyMTQ4NjksMTAyODg1MTU5MCwtOT
-MzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMjM5MzU2
-NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEwXX0=
+eyJoaXN0b3J5IjpbMTIxNTY2ODA0NCwxMDI4ODUxNTkwLC05Mz
+MyMjkzMDMsNzcyNjk4NTIxLDU5MDc1NzE5OSwxMTEyMzkzNTY2
+LC0xMzA3ODEyOTI4LDE0NjQwNDY3OSw2NzcxNzQ1MTBdfQ==
 -->
