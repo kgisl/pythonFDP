@@ -178,10 +178,8 @@ Step 5 : moving Disk red   from Middle to Start
 Step 6 : moving Disk green from Middle to Dest  
 Step 7 : moving Disk red   from Start to Dest
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODkzMDI4OSwxNzM1MDAwODkyLC01OT
-M3NzM1OTEsMzE3MTMyNzM4LDEyMTU2NjgwNDQsMTAyODg1MTU5
-MCwtOTMzMjI5MzAzLDc3MjY5ODUyMSw1OTA3NTcxOTksMTExMj
-M5MzU2NiwtMTMwNzgxMjkyOCwxNDY0MDQ2NzksNjc3MTc0NTEw
-XX0=
--->
+
+# Thinking about Recursion
+_Credits: [http://bit.ly/recursionELI5](http://bit.ly/recursionELI5)
+
+![recimage](https://lh3.googleusercontent.com/kyRNNR2Vm5_1C9ksQtFfO7MED_JzVdhP_vlmDtVTZ9mtzn7H8WHVd4M2t88yNU7X7PsLnkRRDHTt72L8O2h3BLDzzNRzoPpLuJ4Un1VyHWxGqym-vFPtWKc46KOCs-738V_nO-9GUNHn5bH8s11cmCWEsKe-zfAmVwIdJGMEN5dTSTMHROL_Po-ffRUTDx4_4ImOfMsf-XCABGFXCM13e6sj8DsJKl63lDG1nCfi07sAGowuBQAHaP1SpCrLXY-rqRIRJYyksZDK5rPDkwwju_8xO4RFKuF3NG_iHej0wC-xlD8NlPpmwPT1HflUl_p5LS49W-IF58jgmUeud0mHCPN6GJvQ0j4iJjeQ8QGBoz-P4rMSNI34w11hr82lCTvNZPWkzDiDAPj_W0cYfQgVYIumiKBtWHg8jtbU61tDyFug0N5X5skltOJM0rJ0i97IwU_QOaaXt6SKP9r9X-c8l_53_n1wK0vFbnVml_79nF0rH0rG11aK3xYpXTVJKo1eaV0ZUrv8dzhQHY1UWNgzyVKdcn56ZaogU1wwFeCALNY5zVhu7kkVbxTQRZBGY1192q8wTADgF2FZnNNyY5AmiU0BGf0udm2qglb5aAM0MCGNk1EVvH-croiLGcaA0Keg4MI1eacbZA-L6EFpoH0efFMwf5oqtjTC2j61DlbYhzTB64p7E_Wnqg0acX6Ue53JJtWNp7wsJdNnlBL-LIt8N1kJ-w=w567-h696-no?authuser=0)

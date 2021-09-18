@@ -31,6 +31,7 @@
 <li><a href="#hanoi-output">Hanoi Output</a></li>
 </ul>
 </li>
+<li><a href="#thinking-about-recursion">Thinking about Recursion</a></li>
 </ul>
 
     </div>
@@ -168,7 +169,9 @@ END
 <p>Using <a href="http://bit.ly/hanoiInteractive">http://bit.ly/hanoiInteractive</a></p>
 <pre class=" language-python"><code class="prism  language-python">c <span class="token operator">=</span> <span class="token number">0</span>
 <span class="token keyword">def</span> <span class="token function">moveTower</span><span class="token punctuation">(</span>height<span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">,</span> withPole<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> height <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> height <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        moveDisk<span class="token punctuation">(</span>height<span class="token punctuation">,</span> fromPole<span class="token punctuation">,</span> toPole<span class="token punctuation">)</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
         moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>fromPole<span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
         moveDisk<span class="token punctuation">(</span>height<span class="token punctuation">,</span> fromPole<span class="token punctuation">,</span>toPole<span class="token punctuation">)</span>
         moveTower<span class="token punctuation">(</span>height<span class="token number">-1</span><span class="token punctuation">,</span>withPole<span class="token punctuation">,</span>toPole<span class="token punctuation">,</span>fromPole<span class="token punctuation">)</span>
@@ -176,7 +179,7 @@ END
 <span class="token keyword">def</span> <span class="token function">moveDisk</span><span class="token punctuation">(</span>disk<span class="token punctuation">,</span> fp<span class="token punctuation">,</span>tp<span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token keyword">global</span> c
     c <span class="token operator">+=</span> <span class="token number">1</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Step"</span><span class="token punctuation">,</span> c<span class="token punctuation">,</span> <span class="token string">"moving Disk"</span><span class="token punctuation">,</span> tower<span class="token punctuation">[</span>disk<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">"from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Step"</span><span class="token punctuation">,</span> c<span class="token punctuation">,</span> <span class="token string">": moving Disk"</span><span class="token punctuation">,</span> tower<span class="token punctuation">[</span>disk<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">"from"</span><span class="token punctuation">,</span>fp<span class="token punctuation">,</span><span class="token string">"to"</span><span class="token punctuation">,</span>tp<span class="token punctuation">)</span>
 
 tower <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token string">'red  '</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue '</span><span class="token punctuation">]</span>
 moveTower<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">"Start"</span><span class="token punctuation">,</span> <span class="token string">"Dest"</span><span class="token punctuation">,</span> <span class="token string">"Middle"</span><span class="token punctuation">)</span>
@@ -192,6 +195,9 @@ Step 5 <span class="token keyword">:</span> moving Disk red   from Middle to Sta
 Step 6 <span class="token keyword">:</span> moving Disk green from Middle to Dest  
 Step 7 <span class="token keyword">:</span> moving Disk red   from Start to Dest
 </code></pre>
+<h1 id="thinking-about-recursion">Thinking about Recursion</h1>
+<p>_Credits: <a href="http://bit.ly/recursionELI5">http://bit.ly/recursionELI5</a></p>
+<p><img src="https://lh3.googleusercontent.com/kyRNNR2Vm5_1C9ksQtFfO7MED_JzVdhP_vlmDtVTZ9mtzn7H8WHVd4M2t88yNU7X7PsLnkRRDHTt72L8O2h3BLDzzNRzoPpLuJ4Un1VyHWxGqym-vFPtWKc46KOCs-738V_nO-9GUNHn5bH8s11cmCWEsKe-zfAmVwIdJGMEN5dTSTMHROL_Po-ffRUTDx4_4ImOfMsf-XCABGFXCM13e6sj8DsJKl63lDG1nCfi07sAGowuBQAHaP1SpCrLXY-rqRIRJYyksZDK5rPDkwwju_8xO4RFKuF3NG_iHej0wC-xlD8NlPpmwPT1HflUl_p5LS49W-IF58jgmUeud0mHCPN6GJvQ0j4iJjeQ8QGBoz-P4rMSNI34w11hr82lCTvNZPWkzDiDAPj_W0cYfQgVYIumiKBtWHg8jtbU61tDyFug0N5X5skltOJM0rJ0i97IwU_QOaaXt6SKP9r9X-c8l_53_n1wK0vFbnVml_79nF0rH0rG11aK3xYpXTVJKo1eaV0ZUrv8dzhQHY1UWNgzyVKdcn56ZaogU1wwFeCALNY5zVhu7kkVbxTQRZBGY1192q8wTADgF2FZnNNyY5AmiU0BGf0udm2qglb5aAM0MCGNk1EVvH-croiLGcaA0Keg4MI1eacbZA-L6EFpoH0efFMwf5oqtjTC2j61DlbYhzTB64p7E_Wnqg0acX6Ue53JJtWNp7wsJdNnlBL-LIt8N1kJ-w=w567-h696-no?authuser=0" alt="recimage"></p>
 
     </div>
   </div>
