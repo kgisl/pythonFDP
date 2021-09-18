@@ -64,7 +64,7 @@ Contrast that with:  <a href="#parameter">parameter</a> - a variable<br>
 declared in a function (or method) for representing an<br>
 argument.</p>
 </blockquote>
-<p>There are two kinds of arguments:</p>
+<p>There are two kinds of argument:</p>
 <h3 id="keyword-argument">keyword argument</h3>
 <p>an argument preceded by an identifier (e.g. name=) in a<br>
 function call or  passed as a value in a dictionary<br>
@@ -94,11 +94,9 @@ on the difference between arguments and parameters, and<br>
 <h2 id="attribute">attribute</h2>
 <p>A value associated with an object which is referenced by<br>
 name using dotted expressions.  For example, if an object<br>
-<code>o</code> has an attribute  <code>a</code> it would be referenced as <code>o.a</code>.</p>
+<code>o</code> has an attribute  a<code>it would be referenced as</code>o.a`.</p>
 <h2 id="bdfl">BDFL</h2>
-<p>Benevolent Dictator For Life, a.k.a. Guido van Rossum,<br>
-Python’s creator.</p>
-<p>On <a href="http://bit.ly/guidoRetires">July 12, 2018</a>, he stepped down.<br>
+<p>Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.<br>
 <img src="https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg" alt="guido"></p>
 <h2 id="binary-file">binary file</h2>
 <p>A file object able to read and write bytes-like objects.<br>
@@ -110,8 +108,8 @@ Examples of binary files are</p>
 <li><code>sys.stdout.buffer</code>, and</li>
 <li>instances of <code>io.BytesIO</code> and <code>gzip.GzipFile</code>.</li>
 </ul>
-<p>See also:<br>
-A <a href="#text-file">text file</a> reads and writes string objects.</p>
+<p>See also<br>
+A text file reads and writes string objects.</p>
 <h2 id="coroutine">coroutine</h2>
 <p>Coroutines is a more generalized form of subroutines.<br>
 Subroutines are entered at one point and exited at another<br>
@@ -119,11 +117,11 @@ point. Coroutines can be entered, exited, and resumed at<br>
 many different points. They can be implemented with the<br>
 async <code>def</code> statement. See also PEP 492.</p>
 <pre><code>def fizzBuzz(number): 
-    if number%3: 
-	    return "Fizz"
-    if number%5: 
-	    return "Buzz" 
-    return number
+	if number%3: 
+		return "Fizz"
+	if number%5: 
+		return "Buzz" 
+	return number
 </code></pre>
 <p>The above <strong>coroutine</strong> <code>fizzBuzz</code> has three exit points<br>
 (the three <code>return</code> statements).</p>
@@ -141,9 +139,9 @@ and <code>dict.items()</code> are called dictionary views. They<br>
 provide a dynamic view on the dictionary’s entries, which<br>
 means that when the dictionary changes, the view reflects<br>
 these changes. To force the dictionary view to become a<br>
-full list, use <code>list(dictview)</code>.</p>
+full list use <code>list(dictview)</code>.</p>
 <h2 id="docstring">docstring</h2>
-<p>A <a href="#triple-quoted-string">string literal</a> which appears as the first expression in a<br>
+<p>A string literal which appears as the first expression in a<br>
 class, function or module.  While ignored when the suite is<br>
 executed, it is recognized by the compiler and put into the<br>
 <strong>doc</strong> attribute of the enclosing class, function or<br>
@@ -190,14 +188,6 @@ canonical way to create a file object is by using the<br>
 caller. It can also be passed zero or more arguments which<br>
 may be used in the execution of the body. See also<br>
 parameter, method, and the Function definitions section.</p>
-<p>Functions that return values, are also called<br>
-<em><a href="http://openbookproject.net/thinkcs/python/english3e/fruitful_functions.html#fruitful-functions">fruitful functions</a></em>. As an example find below a fruitful<br>
-function  <code>area</code>, which returns the area of a  circle with the<br>
-given radius:</p>
-<pre><code>def area(radius):
-    a = 3.14159 * radius**2
-    return a
-</code></pre>
 <h2 id="immutable">immutable</h2>
 <p>An object with a fixed value.  Immutable objects include<br>
 numbers, strings and tuples.  Such an object cannot be<br>
@@ -205,7 +195,6 @@ altered.  A new object has to be created if a different<br>
 value has to be stored.  They play an important role in<br>
 places where a constant hash value is needed, for example<br>
 as a key in a dictionary.</p>
-<p><em>also see <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></em></p>
 <h2 id="iterable">iterable</h2>
 <p>An object capable of returning its members one at a time.<br>
 Examples of iterables include all sequence types (such as<br>
@@ -234,15 +223,14 @@ since access to elements are <code>O(1)</code>.</p>
 A compact way to process all or part of the elements in a<br>
 sequence and return a list with the results.</p>
 <pre><code>result = ['{:#04x}'.format(x) for x in range(256)
-    if x % 2 == 0
-]
-
+          if x % 2 == 0
+          ]
 # ['0x00', '0x02', '0x04', '0x06', '0x08', 
 '0x0a','0x0c', '0x0e', '0x10', '0x12', 
 '0x14', '0x16', ...]
 </code></pre>
 <p>generates a list of strings containing even hex numbers<br>
-<code>(</code>0x<code>..)</code>  in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause<br>
+<code>(0x..)</code>  in the range from <code>0</code> to <code>255</code>. The <code>if</code> clause<br>
 is optional. If omitted, all elements in <code>range(256)</code> are<br>
 processed.</p>
 <h2 id="mapping">mapping</h2>
@@ -323,7 +311,7 @@ the difference between arguments and parameters, inspect,<br>
 Parameter class, the Function definitions section, and PEP<br>
 362.</p>
 <h2 id="positional-argument-1">positional argument</h2>
-<p>See <a href="#argument">argument</a>.</p>
+<p>See argument.</p>
 <h2 id="sequence">sequence</h2>
 <p>An iterable which supports efficient element access using<br>
 integer indices via the <strong>getitem</strong>() special method and<br>
@@ -345,7 +333,11 @@ slice is created using the subscript notation, <code>[]</code> with<br>
 colons between numbers when several are given, such as in<br>
 <code>variable_name[1:3:5]</code>.  The bracket (subscript) notation<br>
 uses slice objects internally.</p>
-<pre class=" language-python"><code class="prism  language-python">a <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<pre class=" language-python"><code class="prism  language-python">
+a <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment"># [1, 2]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># [0, 1, 2]</span>
 
 even <span class="token operator">=</span> <span class="token builtin">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">[</span>even<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment"># [0, 2, 4, 6, 8]</span>
@@ -375,7 +367,7 @@ Examples of text files are</p>
 <li>instances of <code>io.StringIO</code>.</li>
 </ul>
 <p>See also:<br>
-A <a href="#binary-file">binary file</a> reads and write bytes objects.</p>
+A binary file reads and write bytes objects.</p>
 <h2 id="triple-quoted-string">triple-quoted string</h2>
 <p>A string which is bound by three instances of either a<br>
 quotation mark (<code>”</code>) or an apostrophe (<code>‘</code>).  While<br>
@@ -384,7 +376,8 @@ single-quoted strings, they are useful for a number of<br>
 reasons.  They allow you to include unescaped single and<br>
 double quotes within a string and they can span multiple<br>
 lines without the use of the continuation character, making<br>
-them especially useful when writing <a href="#docstring"><code>docstring</code></a>s.</p>
+them especially useful when<br>
+writing <code>docstrings</code>.</p>
 <h2 id="tuple">tuple</h2>
 <p>A tuple is a sequence of immutable Python objects.  Tuples<br>
 are sequences, just like lists. The differences between<br>
