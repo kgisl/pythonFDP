@@ -1,4 +1,5 @@
 
+
 Want a ToC? View at http://j.mp/pyGlossary  
 
 # Important Terms
@@ -424,5 +425,6 @@ listing can be found by typing `import this` at the
 interactive prompt.
 
 ----
+
 
 
