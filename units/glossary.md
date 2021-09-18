@@ -431,9 +431,12 @@ atuple[0] = 5
     TypeError: 'tuple' object does not support item
  assignment
 
-atuple[1].append(5)
-print(t1)
-(1, [2, 3, 5], 4)
+atuple[1][:] = 5,
+print(atuple)
+(1, [5], 4)
+atuple[1].append(2)
+print(atuple)
+(1, [5, 2], 4)
 
 ```
 What are the four ways to construct a tuple? See [here](https://docs.python.org/3.5/library/stdtypes.html#tuple)
