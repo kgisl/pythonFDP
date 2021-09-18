@@ -439,11 +439,11 @@ print(atuple)
 (1, [5, 2], 4)
 
 ```
-What are the four ways to construct a tuple? See [here](https://docs.python.org/3.5/library/stdtypes.html#tuple)
+What are the four ways to construct a tuple? See [here](http://bit.ly/tupleDoc)
 -   Using a pair of parentheses to denote the empty tuple:  `()`
 -   Using a trailing comma for a singleton tuple:  `a,`  or  `(a,)`
 -   Separating items with commas:  `a,  b,  c`  or  `(a,  b,  c)`
--   Using the  [`tuple()`](https://docs.python.org/3.5/library/stdtypes.html#tuple "tuple")  built-in:  `tuple()`  or  `tuple(iterable)`
+-   Using the  [`tuple()`](http://bit.ly/tupleDoc "tuple")  built-in:  `tuple()`  or  `tuple(iterable)`
 
 ## Zen of Python
 Listing of Python design principles and philosophies that 
