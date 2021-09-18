@@ -389,14 +389,11 @@ brackets</li>
 </ul>
 <p>The elements in a tuple cannot be replaced or deleted.<br>
 New elements cannot be added to the tuple.<br>
-However if an element in a tuple is mutable, it can be modified.</p>
+However if an element in a tuple is mutable,<br>
+that element <em>alone</em> can be modified.</p>
 <pre class=" language-python"><code class="prism  language-python">atuple <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span>
 atuple<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">5</span>
 	Error<span class="token punctuation">:</span> Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
-	File "<span class="token operator">/</span>lib<span class="token operator">/</span>python3<span class="token number">.7</span><span class="token operator">/</span>site<span class="token operator">-</span>packages<span class="token operator">/</span>pyodide<span class="token punctuation">.</span>py
-	"<span class="token punctuation">,</span> line <span class="token number">43</span><span class="token punctuation">,</span> <span class="token keyword">in</span> eval_code
-    <span class="token keyword">exec</span><span class="token punctuation">(</span><span class="token builtin">compile</span><span class="token punctuation">(</span>mod<span class="token punctuation">,</span> <span class="token string">'&lt;exec&gt;'</span><span class="token punctuation">,</span> mode<span class="token operator">=</span><span class="token string">'exec'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> ns<span class="token punctuation">,</span> ns<span class="token punctuation">)</span>
-    File <span class="token string">"&lt;exec&gt;"</span><span class="token punctuation">,</span> line <span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
     TypeError<span class="token punctuation">:</span> <span class="token string">'tuple'</span> <span class="token builtin">object</span> does <span class="token operator">not</span> support item
  assignment
 
