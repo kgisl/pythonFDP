@@ -348,7 +348,7 @@ interface can be registered explicitly using`register()`.
 
 ## slice
 _also see http://j.mp/sliceObject_  
-An object usually containing a portion of a sequence.  A 
+An object usually containing a **`portion`** of a sequence.  A 
 slice is created using the subscript notation, `[]` with 
 colons between numbers when several are given, such as in 
 `variable_name[1:3:5]`.  The bracket (subscript) notation 
@@ -411,7 +411,7 @@ writing `docstrings`.
 
 ## tuple 
 
-A tuple is an immutable sequence type.  Tuples 
+A tuple is an **`immutable`** sequence type.  Tuples 
 are sequences, just like lists. The differences between  
 tuples and lists are:  
   - the tuples cannot be changed unlike lists and 
