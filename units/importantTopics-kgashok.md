@@ -141,12 +141,12 @@ There are 4 main types in Python (string, tuples, list and dictionary). And acro
 
 ### Argument Definition 
 
-https://docs.python.org/3/glossary.html#term-argument
+https://docs.python.org/3/glossary.html#term-argument  
 ![argument](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/argumentGlossary.jpeg)
 
 ### Parameter Definition 
 
-https://docs.python.org/3/glossary.html#term-parameter
+https://docs.python.org/3/glossary.html#term-parameter  
 ![parameter](https://cdn.rawgit.com/kgisl/pythonFDP/7d9a152b/img/parameterGlossary.jpeg)
 
 What is the difference between arguments and parameters?

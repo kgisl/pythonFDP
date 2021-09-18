@@ -1,6 +1,6 @@
 
 # Guidelines for Evaluation
-http://j.mp/facultyPK 
+This document can also be accessed through http://j.mp/facultyPK 
 
 ## Faculty ELi5 Algorithm Teaching (FEAT) challenge `#FEAT`
 

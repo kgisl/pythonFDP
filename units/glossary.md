@@ -53,8 +53,7 @@ name using dotted expressions.  For example, if an object
 
 
 ## BDFL
-Benevolent Dictator For Life, a.k.a. Guido van Rossum, 
-Python’s creator.
+Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.  
 ![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
 ## binary file
@@ -355,7 +354,11 @@ colons between numbers when several are given, such as in
 uses slice objects internally.
 
 ```python
+
 a = list(range(10))
+
+print(a[1:3]) # [1, 2]
+print(a[:3])  # [0, 1, 2]
 
 even = slice(0, -1, 2)
 print(a[even]) # [0, 2, 4, 6, 8]
