@@ -418,18 +418,16 @@ tuples and lists are:
   - tuples use parentheses, whereas lists use square 
 brackets
 
-The elements in a tuple cannot be replaced or deleted.  
+The elements in a tuple cannot be replaced or deleted. 
 New elements cannot be added to the tuple. 
-However if an element in a tuple is mutable, it can be modified.
+However if an element in a tuple is mutable, 
+that element *alone* can be modified.
+
 
 ```python
 atuple = (1, [2, 3], 4)
 atuple[0] = 5
 	Error: Traceback (most recent call last):
-	File "/lib/python3.7/site-packages/pyodide.py
-	", line 43, in eval_code
-    exec(compile(mod, '<exec>', mode='exec'), ns, ns)
-    File "<exec>", line 1, in <module>
     TypeError: 'tuple' object does not support item
  assignment
 
