@@ -411,12 +411,34 @@ writing `docstrings`.
 
 ## tuple 
 
-A tuple is a sequence of immutable Python objects.  Tuples 
+A tuple is an immutable sequence type.  Tuples 
 are sequences, just like lists. The differences between  
 tuples and lists are:  
   - the tuples cannot be changed unlike lists and 
   - tuples use parentheses, whereas lists use square 
 brackets
+
+The elements in a tuple cannot be replaced or deleted.  
+New elements cannot be added to the tuple. 
+However if an element in a tuple is mutable, it can be modified.
+
+```python
+atuple = (1, [2, 3], 4)
+atuple[0] = 5
+	Error: Traceback (most recent call last):
+	File "/lib/python3.7/site-packages/pyodide.py
+	", line 43, in eval_code
+    exec(compile(mod, '<exec>', mode='exec'), ns, ns)
+    File "<exec>", line 1, in <module>
+    TypeError: 'tuple' object does not support item
+ assignment
+
+atuple[1].append(5)
+print(t1)
+(1, [2, 3, 5], 4)
+
+```
+What are the four ways to construct a tuple? See [here](https://docs.python.org/3.5/library/stdtypes.html#tuple)
 
 ## Zen of Python
 Listing of Python design principles and philosophies that 
