@@ -439,7 +439,7 @@ print(atuple)
 (1, [5, 2], 4)
 
 ```
-What are the four ways to construct a tuple? See [here](http://bit.ly/tupleDoc)
+What are the four ways to construct a tuple? See [here](http://bit.ly/tupleDoc "refer to official documentation")
 -   Using a pair of parentheses to denote the empty tuple:  `()`
 -   Using a trailing comma for a singleton tuple:  `a,`  or  `(a,)`
 -   Separating items with commas:  `a,  b,  c`  or  `(a,  b,  c)`
