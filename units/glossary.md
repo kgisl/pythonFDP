@@ -411,7 +411,7 @@ writing `docstrings`.
 
 ## tuple 
 
-A tuple is an **`immutable`** sequence type.  Tuples 
+A tuple is an [**`immutable`**](#immutable) sequence type.  Tuples 
 are sequences, just like lists. The differences between  
 tuples and lists are:  
   - the tuples cannot be changed unlike lists and 
