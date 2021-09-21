@@ -5,17 +5,18 @@ def is_palindrome(aseq):
     @param aseq is a sequence, for e.g. string or list
     '''
     while len(aseq) > 1:
-        first, *aseq, last = aseq 
-        if first != last: 
+        first, *aseq, last = aseq
+        if first != last:
             break
-    else: 
+    else:
         return True
 
     return False
 
+
 def is_palindrome_rec(aseq):
     '''check for palindrome using unpacking, recursively
-    
+
     @author kgashok
     @param aseq is a sequence of elements, string or list
     '''
@@ -32,7 +33,7 @@ def is_palindrome_rec(aseq):
     return is_palindrome_rec(aseq)
 
 
-def is_palindrome_rec_slice(aseq, first='', last=''):
+def is_palindrome_rec_slice(aseq, first=str(), last=str()):
     '''check for palindrome using slicing, recursively
 
     @author kgashok
