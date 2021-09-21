@@ -4,7 +4,7 @@ Want a ToC? View at http://j.mp/pyGlossary
 
 # Important Terms
 
-## argument
+## 1 argument
 > A value passed to a function (or method) when calling the 
 function. 
 > Contrast that with:  [parameter](#parameter) - a variable 
@@ -47,17 +47,17 @@ on the difference between arguments and parameters, and
 [PEP  362](http://j.mp/pep362_doc).
 
 
-## attribute
+## 2 attribute
 A value associated with an object which is referenced by 
 name using dotted expressions.  For example, if an object 
 `o` has an attribute  a` it would be referenced as `o.a`.
 
 
-## BDFL
+## 3 BDFL
 Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.  
 ![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
-## binary file
+## 4 binary file
 A file object able to read and write bytes-like objects. 
 Examples of binary files are   
   - files opened in binary mode (`'rb'`, `'wb'` or 
@@ -70,7 +70,7 @@ See also
 A text file reads and writes string objects.
 
 
-## coroutine
+## 5 coroutine
 Coroutines is a more generalized form of subroutines. 
 Subroutines are entered at one point and exited at another 
 point. Coroutines can be entered, exited, and resumed at 
@@ -89,7 +89,7 @@ The above **coroutine** `fizzBuzz` has three exit points
 
 
 
-## dictionary
+## 6 dictionary
 An associative array, where arbitrary keys are mapped to 
 values.  The keys can be any object with __hash__() and 
 __eq__() methods. 
@@ -100,7 +100,7 @@ __eq__() methods.
 	
 
 
-## dictionary view
+## 7 dictionary view
 The objects returned from `dict.keys()`, `dict.values()`, 
 and `dict.items()` are called dictionary views. They 
 provide a dynamic view on the dictionary’s entries, which 
@@ -109,7 +109,7 @@ these changes. To force the dictionary view to become a
 full list use `list(dictview)`.  
 
 
-## docstring
+## 8 docstring
 A string literal which appears as the first expression in a 
 class, function or module.  While ignored when the suite is 
 executed, it is recognized by the compiler and put into the 
@@ -118,7 +118,7 @@ module.  Since it is available via introspection, it is the
 canonical place for documentation of the object.
 
 
-## expression
+## 9 expression
 A piece of syntax which can be evaluated to some value.  In 
 other words, an expression is an accumulation of expression 
 elements like literals, names, attribute access, operators 
@@ -141,7 +141,7 @@ gives the value that the variable refers to.
 	
 
 
-## file object
+## 10 file object
 An object exposing a file-oriented API (with methods such 
 as  `read()` or `write()`) to an underlying resource.  
 Depending on the way it was created, a file object can 
@@ -159,14 +159,14 @@ canonical way to create a file object is by using the
 `open()` function.
 
 
-## function
+## 11 function
 A series of statements which returns some value to a 
 caller. It can also be passed zero or more arguments which 
 may be used in the execution of the body. See also 
 parameter, method, and the Function definitions section.
 
 
-## immutable
+## 12 immutable
 An object with a fixed value.  Immutable objects include 
 numbers, strings and tuples.  Such an object cannot be 
 altered.  A new object has to be created if a different 
@@ -175,7 +175,7 @@ places where a constant hash value is needed, for example
 as a key in a dictionary.
 
 
-## iterable
+## 13 iterable
 An object capable of returning its members one at a time. 
 Examples of iterables include all sequence types (such as 
 list, str, and tuple) and some non-sequence types like 
@@ -195,17 +195,17 @@ duration of the loop.
 See also iterator, sequence, and generator.
 
 
-## keyword argument
+## 14 keyword argument
 See [argument](#keyword-argument).
 
 
-## list
+## 15 list
 A built-in Python sequence.  Despite its name, it is more 
 akin to an array in other languages than to a linked list 
 since access to elements are `O(1)`.
 
 
-## list comprehension
+## 16 list comprehension
 _also see http://j.mp/listBenefit and http://j.mp/listComprehension_  
 A compact way to process all or part of the elements in a 
 sequence and return a list with the results.  
@@ -223,7 +223,7 @@ is optional. If omitted, all elements in `range(256)` are
 processed.  
 
 
-## mapping
+## 17 mapping
 A container object that supports arbitrary key lookups and  
 implements the methods specified in the `Mapping` or  
 `MutableMapping` abstract base classes.  
@@ -235,7 +235,7 @@ Examples include
  - `collections.Counter`
 
 
-## method
+## 18 method
 A function which is defined inside a class body.  If called 
 as an attribute of an instance of that class, the method 
 will get the instance object as its first argument (which 
@@ -244,7 +244,7 @@ is usually called `self`).
 See function and nested scope.  
 
 
-## module
+## 19 module
 An object that serves as an organizational unit of Python 
 code. Modules have a namespace containing arbitrary Python 
 objects. Modules are loaded into Python by the process of 
@@ -254,12 +254,12 @@ See also package.
 
 
 
-## mutable
+## 20 mutable
 Mutable objects can change their value but keep their id(). 
  See also immutable.
 
 
-## package
+## 21 package
 A Python module which can contain submodules or 
 recursively, subpackages.  Technically, a package is a 
 Python module with an __path__ attribute.
@@ -268,7 +268,7 @@ See also regular package and namespace package.
 
 
 
-## parameter
+## 22 parameter
 A named entity in a function (or method) definition that 
 specifies an argument (or in some cases, arguments) that 
 the function can accept.  There are five kinds of parameter:
@@ -325,11 +325,11 @@ Parameter class, the Function definitions section, and PEP
 362.  
 
 
-## positional argument
+## 23 positional argument
 See [argument](#positional-argument).
 
 
-## sequence  
+## 24 sequence  
 An iterable which supports efficient element access using 
 integer indices via the __getitem__() special method and 
 defines a __len__() method that returns the length of the 
@@ -346,7 +346,7 @@ and __reversed__(). Types that implement this expanded
 interface can be registered explicitly using`register()`.
 
 
-## slice
+## 25 slice
 _also see http://j.mp/sliceObject_  
 An object usually containing a **`portion`** of a sequence.  A 
 slice is created using the subscript notation, `[]` with 
@@ -369,7 +369,7 @@ print(a[everyThird]) # [1, 4, 7]
 
 ```
 
-## special method
+## 26 special method
 A method that is called implicitly by Python to execute a 
 certain operation on a type, such as addition.  Such 
 methods have names starting and ending with double 
@@ -377,13 +377,13 @@ underscores. Special methods are documented in Special
 method names.  
 
 
-## statement
+## 27 statement
 A statement is part of a suite (a “block” of code).  A 
 statement is either an expression or one of several 
 constructs with a keyword, such as if, while or for.
 
 
-## text file
+## 28 text file
 A file object able to read and write string objects. Often, 
 a text file actually accesses a byte-oriented datastream 
 and handles the text encoding automatically.
@@ -398,7 +398,7 @@ A binary file reads and write bytes objects.
 
 
 
-## triple-quoted string
+## 29 triple-quoted string
 A string which is bound by three instances of either a 
 quotation mark (`”`) or an apostrophe (`‘`).  While 
 they don’t provide any functionality not available with 
@@ -409,7 +409,7 @@ lines without the use of the continuation character, making
 them especially useful when
 writing `docstrings`.  
 
-## tuple 
+## 30 tuple 
 
 A tuple is an [**`immutable`**](#immutable) sequence type.  Tuples 
 are sequences, just like lists. The differences between  
@@ -445,7 +445,7 @@ What are the four ways to construct a tuple? See [here](http://bit.ly/tupleDoc "
 -   Separating items with commas:  `a,  b,  c`  or  `(a,  b,  c)`
 -   Using the  [`tuple()`](http://bit.ly/tupleDoc "tuple")  built-in:  `tuple()`  or  `tuple(iterable)`
 
-## Zen of Python
+## 31 Zen of Python
 Listing of Python design principles and philosophies that 
 are helpful in understanding and using the language.  The 
 listing can be found by typing `import this` at the 
