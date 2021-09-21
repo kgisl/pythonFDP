@@ -3507,6 +3507,50 @@ L |  |
 
 
 
+### is_palindrome
+Authors: **kgashok**
+
+check whether a sequence is palindromic using unpacking   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+aseq | is a sequence, for e.g. string or list | 
+
+
+
+
+
+### is_palindrome_rec
+Authors: **kgashok**
+
+check for palindrome using unpacking, recursively   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+aseq | is a sequence of elements, string or list | 
+
+
+
+
+
+### is_palindrome_rec_slice
+Authors: **kgashok**
+
+check for palindrome using slicing, recursively   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+aseq | is a sequence of elements, string or list | 
+first | is first element in seq | None
+last | is last element in seq | None
+
+
+
+
+
 ### distance_between
 Authors: **kgashok**
 
