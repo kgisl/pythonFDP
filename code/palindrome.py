@@ -33,7 +33,7 @@ def is_palindrome_rec(aseq):
     return is_palindrome_rec(aseq)
 
 
-def is_palindrome_rec_slice(aseq, first=str(), last=str()):
+def is_palindrome_rec_slice(aseq, first=None, last=None):
     '''check for palindrome using slicing, recursively
 
     @author kgashok
