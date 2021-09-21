@@ -38,8 +38,8 @@ def is_palindrome_rec_slice(aseq, first=None, last=None):
 
     @author kgashok
     @param aseq is a sequence of elements, string or list
-    @param first is a character
-    @param last is a character
+    @param first is first element in seq
+    @param last is last element in seq
     '''
     
     # Terminal case 1
