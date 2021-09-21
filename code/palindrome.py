@@ -41,7 +41,7 @@ def is_palindrome_rec_slice(aseq, first=str(), last=str()):
     @param first is a character
     @param last is a character
     '''
-    
+
     # Terminal case 1
     if len(aseq) < 2:
         return True
