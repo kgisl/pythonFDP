@@ -2,7 +2,7 @@
 
 Want a ToC? View at http://j.mp/pyGlossary  
 
-# Important Terms
+# ~30 Important Terms
 
 ## 1 argument
 > A value passed to a function (or method) when calling the 
