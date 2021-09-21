@@ -41,7 +41,7 @@ def is_palindrome_rec_slice(aseq, first=None, last=None):
     @param first is first element in seq
     @param last is last element in seq
     '''
-    
+
     # Terminal case 1
     if len(aseq) < 2:
         return True
