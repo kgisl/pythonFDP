@@ -143,7 +143,7 @@ print("Sorted", insertionsort(alist))
  - Practice insertionsort at http://j.mp/insertionSortCC   
 	 -  The million insert challenge http://j.mp/millionInsert 
 
- - Review http://j.mp/selectVisual for the next class 
+ - Review [http://j.mp/selectVisual](https://observablehq.com/@pcsilcan/selection-sort/2?collection=@pcsilcan/sorting-algorithms) for the next class 
 
 ## Program File for Demo
 
@@ -153,9 +153,9 @@ Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDY5Mjc4Nyw4MDc0MDk3NDAsLTEyMT
-QxMzM5MzYsLTY3NDQ5MjQ2NCwtMjYwMjc1MjkwLDE3NjA4MTMz
-NzAsLTEzMDkwOTU3OTAsMjMzNzY0MzU3LDQ2OTQ1NjU1OSwtMz
-EwNjMyNzQ5LDEzNTA4NjIyMTksLTU0MzY4NTg3MSwxOTEzOTUw
-NywtMTMyMzI4Njg2N119
+eyJoaXN0b3J5IjpbLTI3Mzc2NDQwNCwtOTI0NjkyNzg3LDgwNz
+QwOTc0MCwtMTIxNDEzMzkzNiwtNjc0NDkyNDY0LC0yNjAyNzUy
+OTAsMTc2MDgxMzM3MCwtMTMwOTA5NTc5MCwyMzM3NjQzNTcsND
+Y5NDU2NTU5LC0zMTA2MzI3NDksMTM1MDg2MjIxOSwtNTQzNjg1
+ODcxLDE5MTM5NTA3LC0xMzIzMjg2ODY3XX0=
 -->
