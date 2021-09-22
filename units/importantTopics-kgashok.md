@@ -341,7 +341,7 @@ You’ll all be certified Pythonistas in no time. Welcome to the community, and 
 
 [https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/](https://web.archive.org/web/20190321053433/https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/)
 
-[http://my.safaribooksonline.com/book/programming/python/9780134291154](http://my.safaribooksonline.com/book/programming/python/9780134291154) - book TOC 
+[http://my.safaribooksonline.com/book/programming/python/9780134291154](https://web.archive.org/web/20170628214050/http://my.safaribooksonline.com/book/programming/python/9780134291154) - book TOC 
 
 
 ## List Methods and Operations
@@ -372,11 +372,11 @@ IzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0x
 MTYyODUyNzM3XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY2NDQwNywxNzMxOTE4MjM0LC0xMz
-E4NTk5MjU4LDEzNDAwNjQ5LDE2Njk5OTg3NzgsLTIwNDUwODQz
-NzUsLTIwMDI3ODI4NzAsNzExODg4MzA3LC0xMDA4MTY2NjYwLD
-IwNjIwMTQ5ODYsMTc4MzgzODM0NCw0NzEyMTAzMjAsMTg4MDUw
-NjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MTIzNiwtMjA4OTAyND
-g4MiwxNDc3Mzk3MzE3LDIwODEyNTEyMzAsLTE1NTgyMTIyMTIs
-MjI0MjgyNjUwXX0=
+eyJoaXN0b3J5IjpbLTEwMTYxMDgyNzEsMTQ0NDY2NDQwNywxNz
+MxOTE4MjM0LC0xMzE4NTk5MjU4LDEzNDAwNjQ5LDE2Njk5OTg3
+NzgsLTIwNDUwODQzNzUsLTIwMDI3ODI4NzAsNzExODg4MzA3LC
+0xMDA4MTY2NjYwLDIwNjIwMTQ5ODYsMTc4MzgzODM0NCw0NzEy
+MTAzMjAsMTg4MDUwNjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MT
+IzNiwtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIwODEyNTEyMzAs
+LTE1NTgyMTIyMTJdfQ==
 -->
