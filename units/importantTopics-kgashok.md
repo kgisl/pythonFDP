@@ -41,7 +41,6 @@ http://j.mp/howToThinkLikeAProgrammer - 7 very clear steps / tactics that must b
 - https://www.quora.com/How-should-I-start-learning-Python-1?redirected_qid=907
 
 - http://j.mp/pythonKoanVideo 
-	- https://bitbucket.org/gregmalcolm/python_koans or
 	- https://github.com/gregmalcolm/python_koans - 289 koans to enlightenment! 
    
 - https://www.quora.com/What-is-an-ideal-checklist-to-learn-Python-in-30-days/answer/Janarthanan-S-1?srid=ul6v - explore Python in 30 days 
@@ -296,7 +295,9 @@ The distinction between module and package seems to hold just at the file system
   [2]: http://docs.python.org/tutorial/modules.html#packages
 
 ## 9. How to maintain a sorted list? 
-You need to maintain a list in sorted order without having to call `sort` each time an item is added to the list. How will you do this? http://j.mp/sortApply
+You need to maintain a list in sorted order without having to call `sort` each time an item is added to the list. How will you do this? 
+
+[//]: http://j.mp/sortApply
 
 # Misc
 
