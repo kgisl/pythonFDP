@@ -26,6 +26,7 @@
 <li><a href="#four-ways-to-reverse-a-list">Four ways to reverse a list</a></li>
 <li><a href="#four-ways-to-swap-2-values">Four ways to swap 2 values</a></li>
 <li><a href="#list-parameters">List Parameters</a></li>
+<li><a href="#tuple-assignment-packing-unpacking">Tuple Assignment, Packing, Unpacking</a></li>
 <li><a href="#dictionary">Dictionary</a></li>
 <li><a href="#glossary">Glossary</a></li>
 <li><a href="#exercises-1">Exercises</a></li>
@@ -152,7 +153,7 @@
 <h2 id="list-mutability">List Mutability</h2>
 <p><a href="http://bit.ly/immutableThis">http://bit.ly/immutableThis</a>  - explanation of Immutability in Python</p>
 <p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
-<p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
+<p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the <strong>number ‘2’</strong> throughout my program.</p>
 <p>It would be incorrect to say that <em>“mutable objects can change and immutable ones can’t”</em>, however.</p>
 <p><img src="https://lh3.googleusercontent.com/KHaT75BiFYdScHXhvP1PvyKrcm7TP3jiPMXNy877dk8jAlUgkM-Dk1y_PkwnB5ulIvm2-GcZJsf34AVkeQi2cGEy6b_sjFYAS7kBSeOHSVJIY3iKoKXq1l58oeYd305-Z8cVACCb5V2dGGHp5kAtWEfz4npgRPmWN9nWo7NjRmoK-TnmEURFY4DoGihdt7BzOQZYd-ipBCVKjfYaDAf4zPQ95V3FF7lS_1zpWxjHv_9iN8cBaEBM5dx1CXwrXR29EfSuqWvSinB3T8izn46k6oRTLzSMWYrBMSIW6muBAd3nYIIZqEgYHE_nSY48BNqqh3eiyxlmuMtXrGsEdSh8SXmKEqNhkeyPyG6TsIJRaJDO-XL2nrvzE7p9oeYw03FG3XzTxqB7Zy_pF_y__kOc2uba4Wxq6Z92zfkV9c2XbHy-qJet1SEnepV5EfUQ2ExdGIjemZIVSkYzvwOtI-mHW036v2e4NLDQbdamXaXotAyd1k2Hk1FO6-pjDjWSOGYurVMmAolr-BShTyyBfH6ZBRD6mzil-tDPkxF_2macaGP3-PH492zOlsZrWTv_GPU_LNpSxRnnq8hkj-VWFOwWI89X4zPm58CaTeFXjlXsk4F96n94cTkViDBtnIkO-UmLfuRntdI2D4xdtfPh1NqZUe9zqPbN_niE1rWG1qszY7iAjn24v-IOeYi8EVMgv4baqzcu3r1WgRkIQ8JGWDqa_wHHZw=w665-h306-no?authuser=0" alt="passs"></p>
@@ -343,6 +344,9 @@ b = al.pop()</p>
 <p><a href="https://medium.com/@george.smith2024/there-is-no-pass-by-value-in-python-5a0efa544736?source=responses---------13-----------------------">Python has no pass by value</a></p>
 <p>There is no pass by value in Python. Functions arguments are always passed by reference (or object reference, to be exact). The reason that numbers don’t change even if they are passed by reference is because of their immutability.</p>
 <p><a href="https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html">Refer book section for more details</a></p>
+<h2 id="tuple-assignment-packing-unpacking">Tuple Assignment, Packing, Unpacking</h2>
+<p>This is very unique to the Python language, that you can do multiple assignments in the same statement.</p>
+<p><img src="https://lh3.googleusercontent.com/crPAz6dxvkGQXIgmSXwKIGgtbVvWLhwrFUBsTaX40MUFx9W263yYvW9FKkYu7d7jt9ib1S99U67VOUk4prG-XBi75e0QAoFsULIHjVq-BNiKkBml909dPoCtrXiastbvk0q-UVMIfTHaWlAwbFNZ4QUGVgEG4-mp7rsTzUtRYRTBEgCrmD1hy1CwiUTVwYpWEBKdGAMw_LH2vfOad_i7Nm4aTJUnKf1I1zwakO6wF_bG7RyjQSFuteKL6eQlTpQ9lZqV2dh6ldqABI3DDMb5pPLN9ZcvqyKkdlYAXuRKpJDLvNKuHrDOLN6x7lf7Jn8MGo8roYvh0EpelhmPsXeUzVPGu6gNUtVwl1Vpp2LMBShW8oXR434JFKYD1iiQYrw3ilRqXEJXi-4NSG7IS0Vpp6Ob0jCNBGeqSGJVTx61rk7Bs7Nw849ADNhkfXoauMoZ2VPajuwpWoJv2x0DRFUXR-86L85FP8upGfLKArQFwdcRhGA2JEhpUonDV7FnonLf_QzJ0RGBA5Jwv8wpPVTdRWDeQOojbwygPYtFJbZW8XehvPYdp7ZYuTYVdWdwCqMkzxftV6aVGW_3W8JtBuELDsX_PAY0og4Xztn9j6twA-c45QBqvyzy39p0nlqrKyGnjj1E8a5RTfkzvVEHhATP2YiDU0gtw9tTQnb9mbhwOVPENlrGrB4nDbOBwnTVthLSXfPsZXDMcUx-_ta7KD_S4dpt0Q=w644-h317-no?authuser=0" alt="tuple"></p>
 <h2 id="dictionary">Dictionary</h2>
 <p>A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  <a href="http://en.wikipedia.org/wiki/Associative_array">associative array</a>  abstract data type.</p>
 <p><strong>key</strong>:  A data item that is  <em>mapped to</em>  a value in a dictionary. Keys are used to look up values in a dictionary.</p>
