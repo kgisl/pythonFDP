@@ -213,6 +213,10 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 [Refer book section for more details](https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html)
 
+## Tuple Assignment, Packing, Unpacking 
+
+
+
 ## Dictionary
 
 A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  [associative array](http://en.wikipedia.org/wiki/Associative_array)  abstract data type. 
@@ -806,11 +810,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTgyNTc0LC03MTY3MzgzNzMsMTI4Mj
-Q3MDAyOSwxMDY2NzExNDgzLDE2MDI5OTQxMDYsLTE4NzU5Mjg1
-NDIsLTEzMzM1ODI0MiwyNjk3NjMxNzAsLTIxMzY1NzA3MjUsLT
-Y3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1NTMsNDAzMzU3
-NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMjY0NjI2MSwtMT
-g5ODg3MTU1MSwtMTY2NTQ4MjA2MywtNTkwNDA0MjI0LDgwMzg0
-NDUyNl19
+eyJoaXN0b3J5IjpbMTg2NDI3MzI2MiwtOTI1ODI1NzQsLTcxNj
+czODM3MywxMjgyNDcwMDI5LDEwNjY3MTE0ODMsMTYwMjk5NDEw
+NiwtMTg3NTkyODU0MiwtMTMzMzU4MjQyLDI2OTc2MzE3MCwtMj
+EzNjU3MDcyNSwtNjcwNzQ4MDI5LDEzMDIxNzA4ODYsLTkzMjEx
+NDU1Myw0MDMzNTc3MSwxNTE4MTcyNzgyLDE1NTQyMTQxNTEsOD
+EyNjQ2MjYxLC0xODk4ODcxNTUxLC0xNjY1NDgyMDYzLC01OTA0
+MDQyMjRdfQ==
 -->
