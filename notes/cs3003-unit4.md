@@ -215,6 +215,8 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 ## Tuple Assignment, Packing, Unpacking 
 
+This is very unique to the Python language, that you can do multiple assignments in the same statement. 
+
 ![tuple](https://lh3.googleusercontent.com/crPAz6dxvkGQXIgmSXwKIGgtbVvWLhwrFUBsTaX40MUFx9W263yYvW9FKkYu7d7jt9ib1S99U67VOUk4prG-XBi75e0QAoFsULIHjVq-BNiKkBml909dPoCtrXiastbvk0q-UVMIfTHaWlAwbFNZ4QUGVgEG4-mp7rsTzUtRYRTBEgCrmD1hy1CwiUTVwYpWEBKdGAMw_LH2vfOad_i7Nm4aTJUnKf1I1zwakO6wF_bG7RyjQSFuteKL6eQlTpQ9lZqV2dh6ldqABI3DDMb5pPLN9ZcvqyKkdlYAXuRKpJDLvNKuHrDOLN6x7lf7Jn8MGo8roYvh0EpelhmPsXeUzVPGu6gNUtVwl1Vpp2LMBShW8oXR434JFKYD1iiQYrw3ilRqXEJXi-4NSG7IS0Vpp6Ob0jCNBGeqSGJVTx61rk7Bs7Nw849ADNhkfXoauMoZ2VPajuwpWoJv2x0DRFUXR-86L85FP8upGfLKArQFwdcRhGA2JEhpUonDV7FnonLf_QzJ0RGBA5Jwv8wpPVTdRWDeQOojbwygPYtFJbZW8XehvPYdp7ZYuTYVdWdwCqMkzxftV6aVGW_3W8JtBuELDsX_PAY0og4Xztn9j6twA-c45QBqvyzy39p0nlqrKyGnjj1E8a5RTfkzvVEHhATP2YiDU0gtw9tTQnb9mbhwOVPENlrGrB4nDbOBwnTVthLSXfPsZXDMcUx-_ta7KD_S4dpt0Q=w644-h317-no?authuser=0)
 
 
@@ -811,7 +813,7 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTg2NDkwNywtOTI1ODI1NzQsLTcxNj
+eyJoaXN0b3J5IjpbMTIyNTQxOTU1MiwtOTI1ODI1NzQsLTcxNj
 czODM3MywxMjgyNDcwMDI5LDEwNjY3MTE0ODMsMTYwMjk5NDEw
 NiwtMTg3NTkyODU0MiwtMTMzMzU4MjQyLDI2OTc2MzE3MCwtMj
 EzNjU3MDcyNSwtNjcwNzQ4MDI5LDEzMDIxNzA4ODYsLTkzMjEx
