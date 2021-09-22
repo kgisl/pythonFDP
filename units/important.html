@@ -114,7 +114,6 @@
 <li>
 <p><a href="http://j.mp/pythonKoanVideo">http://j.mp/pythonKoanVideo</a></p>
 <ul>
-<li><a href="https://bitbucket.org/gregmalcolm/python_koans">https://bitbucket.org/gregmalcolm/python_koans</a> or</li>
 <li><a href="https://github.com/gregmalcolm/python_koans">https://github.com/gregmalcolm/python_koans</a> - 289 koans to enlightenment!</li>
 </ul>
 </li>
@@ -379,12 +378,12 @@ AttributeError: 'module' object has no attribute 'ElementTree'
 &lt;function parse at 0x00B135B0&gt;
 </code></pre>
 <h2 id="how-to-maintain-a-sorted-list">9. How to maintain a sorted list?</h2>
-<p>You need to maintain a list in sorted order without having to call <code>sort</code> each time an item is added to the list. How will you do this? <a href="http://j.mp/sortApply">http://j.mp/sortApply</a></p>
+<p>You need to maintain a list in sorted order without having to call <code>sort</code> each time an item is added to the list. How will you do this?</p>
 <h1 id="misc-1">Misc</h1>
 <h2 id="important-links">Important Links</h2>
 <p><a href="http://www.pixelmonkey.org/2015/06/06/pybooks">http://www.pixelmonkey.org/2015/06/06/pybooks</a><br>
 <a href="https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/">https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/</a></p>
-<p><a href="http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/">http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/</a></p>
+<p><a href="https://docs.python-guide.org/intro/learning/#beginner">https://docs.python-guide.org/intro/learning/#beginner</a></p>
 <p>The best programming practice book!<br>
 ByKevin Lon April 17, 2017<br>
 Format: Paperback<br>
@@ -403,9 +402,9 @@ Format: Paperback<br>
 </ul>
 <p>You’ll all be certified Pythonistas in no time. Welcome to the community, and Happy Hacking!</p>
 <h2 id="learn-by-example">Learn by Example</h2>
-<p><a href="https://doughellmann.com/blog/the-python-3-standard-library-by-example/">https://doughellmann.com/blog/the-python-3-standard-library-by-example/</a></p>
+<p><a href="https://web.archive.org/web/20210414031230/https://doughellmann.com/books/the-python-3-standard-library-by-example/">https://doughellmann.com/blog/the-python-3-standard-library-by-example/</a></p>
 <h3 id="what-standard-libraries-to-learn-in-python">What standard libraries to learn in Python?</h3>
-<p><a href="https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/">https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/</a></p>
+<p><a href="https://web.archive.org/web/20190321053433/https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/">https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/</a></p>
 <p><a href="http://my.safaribooksonline.com/book/programming/python/9780134291154">http://my.safaribooksonline.com/book/programming/python/9780134291154</a> - book TOC</p>
 <h2 id="list-methods-and-operations">List Methods and Operations</h2>
 <p><em>Clustering</em> multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well.</p>
@@ -422,17 +421,17 @@ Format: Paperback<br>
 <tr>
 <td align="left"><strong>Initialize</strong></td>
 <td align="left"><code>[]</code>, <code>list()</code> or <code>list(sequence)</code></td>
-<td align="left">initialize a list with nothing in it, using a tuple, using another list</td>
+<td align="left">initialize an empty list, using a tuple, using another list</td>
 </tr>
 <tr>
 <td align="left"><strong>Access</strong></td>
-<td align="left"><code>.find()</code>, <code>.index()</code> <code>.count()</code> and <code>[idx]</code></td>
+<td align="left">[<em>idx</em>], <code>.find()</code>, <code>.index()</code> <code>.count()</code></td>
 <td align="left"><code>find</code> returns <code>-1</code>, <code>index</code> throws an exception if not present</td>
 </tr>
 <tr>
 <td align="left"><em>operation</em></td>
 <td align="left"><code>in</code> and <code>not in</code>, <code>any</code> and <code>all</code>, <code>max</code>, <code>min</code>, <code>len</code>, <code>sum</code></td>
-<td align="left">membership <code>in</code> list, <code>all</code> or <code>any</code> one is <code>True</code></td>
+<td align="left">membership <code>in</code> list, <code>all</code> or <code>any</code> if element(s) is <code>True</code></td>
 </tr>
 <tr>
 <td align="left"><strong>Modify</strong></td>
@@ -446,7 +445,7 @@ Format: Paperback<br>
 </tr>
 <tr>
 <td align="left"></td>
-<td align="left"><em>others</em>  <code>.reverse()</code>, <code>.sort()</code></td>
+<td align="left"><em>ordering</em>  <code>.reverse()</code>, <code>.sort()</code></td>
 <td align="left">rearrange elements in the list</td>
 </tr>
 <tr>
@@ -465,7 +464,8 @@ Format: Paperback<br>
 <td align="left">same as slice operator <code>[]</code>, <code>zip</code> creates a new list with tuples from two lists<code>,</code>enumerate` provides list with tuples containing index and value pair)</td>
 </tr>
 </tbody>
-</table>
+</table><!--stackedit_data:&#10;eyJoaXN0b3J5IjpbLTEzMTg1OTkyNTgsMTM0MDA2NDksMTY2OT&#10;k5ODc3OCwtMjA0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgz&#10;MDcsLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LD&#10;Q3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4&#10;MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MT&#10;IzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0x&#10;MTYyODUyNzM3XX0=&#10;-->
+
     </div>
   </div>
 </body>
