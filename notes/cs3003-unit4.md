@@ -213,10 +213,9 @@ There is no pass by value in Python. Functions arguments are always passed by re
 
 [Refer book section for more details](https://runestone.academy/runestone/static/thinkcspy/Lists/UsingListsasParameters.html)
 
-## Tuple Assignment, Packing, Unpacking 
+## Sequence Assignment, Packing, Unpacking 
 
-This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function 
-for determining whether a string is a palindrome, it works quite elegantly.
+This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function for determining whether a string is a palindrome, it works quite elegantly.
 
 ![tuple](../img/palindromeUnpack.png)
 
@@ -814,11 +813,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDIyMTY2OSwyMTMwODI1ODQ1LDIxMz
-A4MjU4NDUsMTIyNTQxOTU1MiwtOTI1ODI1NzQsLTcxNjczODM3
-MywxMjgyNDcwMDI5LDEwNjY3MTE0ODMsMTYwMjk5NDEwNiwtMT
-g3NTkyODU0MiwtMTMzMzU4MjQyLDI2OTc2MzE3MCwtMjEzNjU3
-MDcyNSwtNjcwNzQ4MDI5LDEzMDIxNzA4ODYsLTkzMjExNDU1My
-w0MDMzNTc3MSwxNTE4MTcyNzgyLDE1NTQyMTQxNTEsODEyNjQ2
-MjYxXX0=
+eyJoaXN0b3J5IjpbMTc5MzQ4OTE5MiwxNjcwMjIxNjY5LDIxMz
+A4MjU4NDUsMjEzMDgyNTg0NSwxMjI1NDE5NTUyLC05MjU4MjU3
+NCwtNzE2NzM4MzczLDEyODI0NzAwMjksMTA2NjcxMTQ4MywxNj
+AyOTk0MTA2LC0xODc1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYz
+MTcwLC0yMTM2NTcwNzI1LC02NzA3NDgwMjksMTMwMjE3MDg4Ni
+wtOTMyMTE0NTUzLDQwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIx
+NDE1MV19
 -->
