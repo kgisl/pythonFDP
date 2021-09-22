@@ -60,7 +60,7 @@ This brings us to an important point: there are actually two kinds of objects in
 
 It would be incorrect to say that *"mutable objects can change and immutable ones can't"*, however.
 
-![passs](https://lh3.googleusercontent.com/KHaT75BiFYdScHXhvP1PvyKrcm7TP3jiPMXNy877dk8jAlUgkM-Dk1y_PkwnB5ulIvm2-GcZJsf34AVkeQi2cGEy6b_sjFYAS7kBSeOHSVJIY3iKoKXq1l58oeYd305-Z8cVACCb5V2dGGHp5kAtWEfz4npgRPmWN9nWo7NjRmoK-TnmEURFY4DoGihdt7BzOQZYd-ipBCVKjfYaDAf4zPQ95V3FF7lS_1zpWxjHv_9iN8cBaEBM5dx1CXwrXR29EfSuqWvSinB3T8izn46k6oRTLzSMWYrBMSIW6muBAd3nYIIZqEgYHE_nSY48BNqqh3eiyxlmuMtXrGsEdSh8SXmKEqNhkeyPyG6TsIJRaJDO-XL2nrvzE7p9oeYw03FG3XzTxqB7Zy_pF_y__kOc2uba4Wxq6Z92zfkV9c2XbHy-qJet1SEnepV5EfUQ2ExdGIjemZIVSkYzvwOtI-mHW036v2e4NLDQbdamXaXotAyd1k2Hk1FO6-pjDjWSOGYurVMmAolr-BShTyyBfH6ZBRD6mzil-tDPkxF_2macaGP3-PH492zOlsZrWTv_GPU_LNpSxRnnq8hkj-VWFOwWI89X4zPm58CaTeFXjlXsk4F96n94cTkViDBtnIkO-UmLfuRntdI2D4xdtfPh1NqZUe9zqPbN_niE1rWG1qszY7iAjn24v-IOeYi8EVMgv4baqzcu3r1WgRkIQ8JGWDqa_wHHZw=w665-h306-no?authuser=0)
+![passs](img/)
 
 ## Slicing
 
@@ -218,7 +218,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function 
 for determining whether a string is a palindrome, it works quite elegantly.
 
-![tuple](https://lh3.googleusercontent.com/crPAz6dxvkGQXIgmSXwKIGgtbVvWLhwrFUBsTaX40MUFx9W263yYvW9FKkYu7d7jt9ib1S99U67VOUk4prG-XBi75e0QAoFsULIHjVq-BNiKkBml909dPoCtrXiastbvk0q-UVMIfTHaWlAwbFNZ4QUGVgEG4-mp7rsTzUtRYRTBEgCrmD1hy1CwiUTVwYpWEBKdGAMw_LH2vfOad_i7Nm4aTJUnKf1I1zwakO6wF_bG7RyjQSFuteKL6eQlTpQ9lZqV2dh6ldqABI3DDMb5pPLN9ZcvqyKkdlYAXuRKpJDLvNKuHrDOLN6x7lf7Jn8MGo8roYvh0EpelhmPsXeUzVPGu6gNUtVwl1Vpp2LMBShW8oXR434JFKYD1iiQYrw3ilRqXEJXi-4NSG7IS0Vpp6Ob0jCNBGeqSGJVTx61rk7Bs7Nw849ADNhkfXoauMoZ2VPajuwpWoJv2x0DRFUXR-86L85FP8upGfLKArQFwdcRhGA2JEhpUonDV7FnonLf_QzJ0RGBA5Jwv8wpPVTdRWDeQOojbwygPYtFJbZW8XehvPYdp7ZYuTYVdWdwCqMkzxftV6aVGW_3W8JtBuELDsX_PAY0og4Xztn9j6twA-c45QBqvyzy39p0nlqrKyGnjj1E8a5RTfkzvVEHhATP2YiDU0gtw9tTQnb9mbhwOVPENlrGrB4nDbOBwnTVthLSXfPsZXDMcUx-_ta7KD_S4dpt0Q=w644-h317-no?authuser=0)
+![tuple](img/palindromeUnpack.png)
 
 
 ## Dictionary
@@ -814,11 +814,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDgyNTg0NSwyMTMwODI1ODQ1LDEyMj
-U0MTk1NTIsLTkyNTgyNTc0LC03MTY3MzgzNzMsMTI4MjQ3MDAy
-OSwxMDY2NzExNDgzLDE2MDI5OTQxMDYsLTE4NzU5Mjg1NDIsLT
-EzMzM1ODI0MiwyNjk3NjMxNzAsLTIxMzY1NzA3MjUsLTY3MDc0
-ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1NTMsNDAzMzU3NzEsMT
-UxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMjY0NjI2MSwtMTg5ODg3
-MTU1MV19
+eyJoaXN0b3J5IjpbLTE3NzQ0NjEyNzgsMjEzMDgyNTg0NSwyMT
+MwODI1ODQ1LDEyMjU0MTk1NTIsLTkyNTgyNTc0LC03MTY3Mzgz
+NzMsMTI4MjQ3MDAyOSwxMDY2NzExNDgzLDE2MDI5OTQxMDYsLT
+E4NzU5Mjg1NDIsLTEzMzM1ODI0MiwyNjk3NjMxNzAsLTIxMzY1
+NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1NT
+MsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMjY0
+NjI2MV19
 -->
