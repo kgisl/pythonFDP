@@ -5,7 +5,7 @@ What is an ideal problem set? Especially for someone who is learning Python as a
 
 ## Links
   - http://j.mp/pc2PythonHTML and http://bit.ly/pc2doc
-  - http://j.mp/programmingProblemSetForSoftwareEngineers 
+  - [http://j.mp/programmingProblemSetForSoftwareEngineers](https://www.shiftedup.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour) 
   - http://j.mp/bigIdeasInProgramming 
   - http://bit.ly/pythonPathwaysKITE
  
@@ -53,10 +53,10 @@ http://j.mp/reverseDictionary
 http://j.mp/ladderCD 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU3MDYzODIsLTEwMDg3MDEwNTksLT
-M0Mjc4NzIyLC0xMDAyMDc0ODcwLC0xNTk4MzcwNDA0LDk5MzU5
-MjkwNywtMzYwMzExNzQzLDU3OTE3OTAwNSwtMTcxNTQ5NDE1NC
-wxNjM3NjM5NDY4LDM4Nzg5OTU5MywtMTQ4OTE5NTQzNywtMTMx
-ODI5Mjk1NiwtMjY3NjM0NDcsMTIwODE1MDE3MiwzNzAwMDIzOD
-ZdfQ==
+eyJoaXN0b3J5IjpbLTU4MjM2NzQ1LC0yMDQ1NzA2MzgyLC0xMD
+A4NzAxMDU5LC0zNDI3ODcyMiwtMTAwMjA3NDg3MCwtMTU5ODM3
+MDQwNCw5OTM1OTI5MDcsLTM2MDMxMTc0Myw1NzkxNzkwMDUsLT
+E3MTU0OTQxNTQsMTYzNzYzOTQ2OCwzODc4OTk1OTMsLTE0ODkx
+OTU0MzcsLTEzMTgyOTI5NTYsLTI2NzYzNDQ3LDEyMDgxNTAxNz
+IsMzcwMDAyMzg2XX0=
 -->
