@@ -61,6 +61,7 @@ This brings us to an important point: there are actually two kinds of objects in
 It would be incorrect to say that *"mutable objects can change and immutable ones can't"*, however.
 
 
+
 ## Slicing
 
 - **A Python slice** extracts elements from an `iterable` based on a start and stop.  It returns a `iterable` (or sequence) containing the extracted elements. 
@@ -805,11 +806,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjcxMTQ4MywxNjAyOTk0MTA2LC0xOD
-c1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYzMTcwLC0yMTM2NTcw
-NzI1LC02NzA3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLD
-QwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYy
-NjEsLTE4OTg4NzE1NTEsLTE2NjU0ODIwNjMsLTU5MDQwNDIyNC
-w4MDM4NDQ1MjYsLTIwNzE2ODE3NzEsMTg5OTMxMTY4Niw1MzU4
-NDgyMTddfQ==
+eyJoaXN0b3J5IjpbMTI4MjQ3MDAyOSwxMDY2NzExNDgzLDE2MD
+I5OTQxMDYsLTE4NzU5Mjg1NDIsLTEzMzM1ODI0MiwyNjk3NjMx
+NzAsLTIxMzY1NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC
+05MzIxMTQ1NTMsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0
+MTUxLDgxMjY0NjI2MSwtMTg5ODg3MTU1MSwtMTY2NTQ4MjA2My
+wtNTkwNDA0MjI0LDgwMzg0NDUyNiwtMjA3MTY4MTc3MSwxODk5
+MzExNjg2XX0=
 -->
