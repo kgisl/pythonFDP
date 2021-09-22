@@ -156,7 +156,7 @@
 <p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
 <p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the <strong>number ‘2’</strong> throughout my program.</p>
 <p>It would be incorrect to say that <em>“mutable objects can change and immutable ones can’t”</em>, however.</p>
-<p><img src="img/pythonCallByValue.png" alt="passs"></p>
+<p><img src="../img/pythonCallByValue.png" alt="passs"></p>
 <h2 id="slicing">Slicing</h2>
 <ul>
 <li><strong>A Python slice</strong> extracts elements from an <code>iterable</code> based on a start and stop.  It returns a <code>iterable</code> (or sequence) containing the extracted elements.</li>
@@ -347,7 +347,7 @@ b = al.pop()</p>
 <h2 id="tuple-assignment-packing-unpacking">Tuple Assignment, Packing, Unpacking</h2>
 <p>This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function<br>
 for determining whether a string is a palindrome, it works quite elegantly.</p>
-<p><img src="img/palindromeUnpack.png" alt="tuple"></p>
+<p><img src="../img/palindromeUnpack.png" alt="tuple"></p>
 <h2 id="dictionary">Dictionary</h2>
 <p>A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  <a href="http://en.wikipedia.org/wiki/Associative_array">associative array</a>  abstract data type.</p>
 <p><strong>key</strong>:  A data item that is  <em>mapped to</em>  a value in a dictionary. Keys are used to look up values in a dictionary.</p>
