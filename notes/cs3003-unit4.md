@@ -60,7 +60,7 @@ This brings us to an important point: there are actually two kinds of objects in
 
 It would be incorrect to say that *"mutable objects can change and immutable ones can't"*, however.
 
-![passs](img/)
+![passs](img/pythonCallByValue.png)
 
 ## Slicing
 
@@ -814,11 +814,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ0NjEyNzgsMjEzMDgyNTg0NSwyMT
-MwODI1ODQ1LDEyMjU0MTk1NTIsLTkyNTgyNTc0LC03MTY3Mzgz
-NzMsMTI4MjQ3MDAyOSwxMDY2NzExNDgzLDE2MDI5OTQxMDYsLT
-E4NzU5Mjg1NDIsLTEzMzM1ODI0MiwyNjk3NjMxNzAsLTIxMzY1
-NzA3MjUsLTY3MDc0ODAyOSwxMzAyMTcwODg2LC05MzIxMTQ1NT
-MsNDAzMzU3NzEsMTUxODE3Mjc4MiwxNTU0MjE0MTUxLDgxMjY0
-NjI2MV19
+eyJoaXN0b3J5IjpbNzIwNDA1NzMxLDIxMzA4MjU4NDUsMjEzMD
+gyNTg0NSwxMjI1NDE5NTUyLC05MjU4MjU3NCwtNzE2NzM4Mzcz
+LDEyODI0NzAwMjksMTA2NjcxMTQ4MywxNjAyOTk0MTA2LC0xOD
+c1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYzMTcwLC0yMTM2NTcw
+NzI1LC02NzA3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLD
+QwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYy
+NjFdfQ==
 -->
