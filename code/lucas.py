@@ -5,8 +5,8 @@ def sequence_gen(number):
     '''
     a, b, c = 0, 0, 1
     alist = [a, b, c]
- 
-    number -= 3 
+
+    number -= 3
     while number > 0:
         nextv = a + b + c
         alist.append(nextv)
@@ -22,13 +22,13 @@ def sequence_gen_alt(number):
     @param number is an int
 
     @return list containing the lucas sequence
-    
+
     '''
     a, b, c = 0, 0, 1
     alist = [a, b, c]
     temp = alist.copy()
 
-    number -= 3 
+    number -= 3
     while number > 0:
         nextv = sum(temp)
         alist.append(nextv)
@@ -36,4 +36,3 @@ def sequence_gen_alt(number):
         print(temp)
         number -= 1
     return alist
-
