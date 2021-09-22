@@ -306,7 +306,7 @@ You need to maintain a list in sorted order without having to call `sort` each t
 http://www.pixelmonkey.org/2015/06/06/pybooks
 https://www.safaribooksonline.com/library/view/python-in-a/9781491913833/
 
-http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
+https://docs.python-guide.org/intro/learning/#beginner
 
 The best programming practice book!
 ByKevin Lon April 17, 2017
@@ -334,13 +334,13 @@ You’ll all be certified Pythonistas in no time. Welcome to the community, and 
 
 ##  Learn by Example
 
-https://doughellmann.com/blog/the-python-3-standard-library-by-example/ 
+[https://doughellmann.com/blog/the-python-3-standard-library-by-example/](https://web.archive.org/web/20210414031230/https://doughellmann.com/books/the-python-3-standard-library-by-example/)
 
 ### What standard libraries to learn in Python? 
 
-https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/
+[https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/](https://web.archive.org/web/20190321053433/https://doughellmann.com/blog/the-python-3-standard-library-by-example/the-python-3-standard-library-by-example-table-of-contents/)
 
-http://my.safaribooksonline.com/book/programming/python/9780134291154 - book TOC 
+[http://my.safaribooksonline.com/book/programming/python/9780134291154](http://my.safaribooksonline.com/book/programming/python/9780134291154) - book TOC 
 
 
 ## List Methods and Operations
