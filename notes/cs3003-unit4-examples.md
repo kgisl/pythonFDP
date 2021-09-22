@@ -3,7 +3,7 @@
 ## Pre-requisites
 
 - http://j.mp/insertVisual   
-- http://j.mp/selectVisual  
+- [http://j.mp/selectVisual](https://observablehq.com/@pcsilcan/selection-sort/2?collection=@pcsilcan/sorting-algorithms)  
 - http://j.mp/mergeVisual    
 - http://bit.ly/histogramVisual    
 - [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms)
@@ -596,11 +596,11 @@ Which one is which?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzIwMjU1MSwtMTgwNDg1NTI3MCwxMz
-c0NjEzMTI3LC0xODMwNzMwMjIxLC05Njk4MzA5MywtMTk1NTkw
-NzIxNywxMDU5MjA2NzQsLTE2MzUyNDk3NCw3MjkzMTYxNDgsLT
-ExOTUxMjMwOCwtMTM5MzI2MTM2MSwtNDI5NzEzNTc2LC0zOTk3
-MTgxOTcsOTI3OTE3Mjk0LDk1NTY5NDM4MSwtNjcyMjkxMDA3LD
-E3NjQ3MTc2NTksMTY0MzE5NzM5OCwxNTg1NDY2NTIwLC0yMDMw
-OTI4NDY5XX0=
+eyJoaXN0b3J5IjpbMjA3MDU4MTcyNiwtMzQzMjAyNTUxLC0xOD
+A0ODU1MjcwLDEzNzQ2MTMxMjcsLTE4MzA3MzAyMjEsLTk2OTgz
+MDkzLC0xOTU1OTA3MjE3LDEwNTkyMDY3NCwtMTYzNTI0OTc0LD
+cyOTMxNjE0OCwtMTE5NTEyMzA4LC0xMzkzMjYxMzYxLC00Mjk3
+MTM1NzYsLTM5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Njk0MzgxLC
+02NzIyOTEwMDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0
+NjY1MjBdfQ==
 -->
