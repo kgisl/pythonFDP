@@ -60,7 +60,7 @@ This brings us to an important point: there are actually two kinds of objects in
 
 It would be incorrect to say that *"mutable objects can change and immutable ones can't"*, however.
 
-![passs](img/pythonCallByValue.png)
+![passs](../img/pythonCallByValue.png)
 
 ## Slicing
 
@@ -218,7 +218,7 @@ There is no pass by value in Python. Functions arguments are always passed by re
 This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function 
 for determining whether a string is a palindrome, it works quite elegantly.
 
-![tuple](img/palindromeUnpack.png)
+![tuple](../img/palindromeUnpack.png)
 
 
 ## Dictionary
@@ -814,11 +814,11 @@ slice(1,None,-1) or [1::-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwNDA1NzMxLDIxMzA4MjU4NDUsMjEzMD
-gyNTg0NSwxMjI1NDE5NTUyLC05MjU4MjU3NCwtNzE2NzM4Mzcz
-LDEyODI0NzAwMjksMTA2NjcxMTQ4MywxNjAyOTk0MTA2LC0xOD
-c1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYzMTcwLC0yMTM2NTcw
-NzI1LC02NzA3NDgwMjksMTMwMjE3MDg4NiwtOTMyMTE0NTUzLD
-QwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIxNDE1MSw4MTI2NDYy
-NjFdfQ==
+eyJoaXN0b3J5IjpbMTY3MDIyMTY2OSwyMTMwODI1ODQ1LDIxMz
+A4MjU4NDUsMTIyNTQxOTU1MiwtOTI1ODI1NzQsLTcxNjczODM3
+MywxMjgyNDcwMDI5LDEwNjY3MTE0ODMsMTYwMjk5NDEwNiwtMT
+g3NTkyODU0MiwtMTMzMzU4MjQyLDI2OTc2MzE3MCwtMjEzNjU3
+MDcyNSwtNjcwNzQ4MDI5LDEzMDIxNzA4ODYsLTkzMjExNDU1My
+w0MDMzNTc3MSwxNTE4MTcyNzgyLDE1NTQyMTQxNTEsODEyNjQ2
+MjYxXX0=
 -->
