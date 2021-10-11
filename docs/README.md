@@ -3507,6 +3507,33 @@ L |  |
 
 
 
+### sequence_gen
+
+
+generate the Lucas Sequence and return upto n elements in a list and ref: https://cyber-dojo.org/kata/edit/s4Z3PL 
+#### Parameters
+name | description | default
+--- | --- | ---
+number |  | 
+
+
+
+
+
+### sequence_gen_alt
+Authors: **kgashok**
+
+generate the Lucas sequence using another 3 element list   
+
+#### Parameters
+name | description | default
+--- | --- | ---
+number | is an int | 
+
+
+
+
+
 ### is_palindrome
 Authors: **kgashok**
 
@@ -3862,6 +3889,30 @@ b | is global |
 
 
 a simple example to start you off 
+
+
+
+
+### test_for_three_elements
+
+
+
+
+
+
+
+### test_for_five_elements
+
+
+
+
+
+
+
+### test_for_big_numbers
+
+
+
 
 
 
