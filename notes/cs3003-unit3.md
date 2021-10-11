@@ -190,6 +190,8 @@ else:
 •	Used to assign values to variables
 •	Compound operator performs arithmetic operation and then assigns the value
 •	Assume variable a holds 10 and variable b holds 20, then 
+
+
 | Operator	|Description	|Example
 |--|--|--|
 | = Assignment	|Assigns values from right side operands to left side operand   |c = a + b assigns value of a + b into c
@@ -203,13 +205,14 @@ else:
 ### iv) Logical Operators
 •	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
 •	Used to reverse the logical state of its operand.
-•	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then –
+•	There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then 
 
 |Operator  |Description	  |Example
 |--|--|--|
 |*and* Logical AND  |If both the operands are true then condition becomes true.   |(a and b) is true.
 |*or* Logical OR	|If any of the two operands are non-zero then condition becomes true.|(a or b) is true.
 |*not* Logical NOT	| Used to reverse the logical state of its operand.	|Not(a and b) is false.
+
 
 ### v) Membership Operators
 •	Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples.
@@ -540,9 +543,9 @@ Syntax of pass
 
 ## 3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION
 ### 3.3.1. Functions
+
 •	Function is a group of statements that together perform a task.
-•	A function is a block of organized, reusable code that is used to perform a single, related action.
-Defining a Function
+•	A function is a block of organized, reusable code that is used to perform a single, related action. Defining a Function
 Simple rules to define a function in Python.
 •	Function blocks begin with the keyword def followed by the function name and parentheses ( ).
 •	Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
@@ -1018,6 +1021,7 @@ Program that use different string methods
 ### 3.4.6. String functions and methods
 •	Python supports many build-in methods to manipulate strings
 •	A method is like a function
+
 |SNo|Function| Descrition |Example
 |--|--|--|--|
 |1| capitalize() |Capitalizes first letter of string  |str=”hello” print(str.capitalize()) 
