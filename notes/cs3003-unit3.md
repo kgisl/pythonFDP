@@ -279,7 +279,6 @@ Available conditional statements in python are
     	if(n>=18):
     		print("Eligible for voting")
 
-
 ### 2. ‘if...else’ STATEMENT(ALTERNATIVE CONDITIONAL STATEMENT)
 
 • The if..else statement evaluates test expression and will execute body of if only when test condition is True.

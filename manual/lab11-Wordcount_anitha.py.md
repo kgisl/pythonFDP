@@ -15,7 +15,6 @@ Write a Python program to count the number of words passed in command line argum
     Sample Input3: @@@,python,FDP,@@@,FDP,FDP
     Sample Output3:{@@@ :2,'python': 1,'FDP': 3}
 
-
 ## Solution Key
 
 ```python

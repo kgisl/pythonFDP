@@ -2566,7 +2566,7 @@ One alternative is to start with a copy ofpolygonand transform it intoarc. The r
 might look like this:
 
 def arc(t, r, angle):
-arc_length = 2 _ math.pi _ r \* angle / 360
+arc*length = 2 * math.pi \_ r \* angle / 360
 n = int(arc_length / 3) + 1
 step_length = arc_length / n
 step_angle = float(angle) / n
@@ -2594,7 +2594,7 @@ angle = 360.0 / n
 polyline(t, n, length, angle)
 
 def arc(t, r, angle):
-arc_length = 2 _ math.pi _ r \* angle / 360
+arc*length = 2 * math.pi \_ r \* angle / 360
 n = int(arc_length / 3) + 1
 step_length = arc_length / n
 step_angle = float(angle) / n
@@ -5529,18 +5529,14 @@ The slice operator also works on lists:
 **90 Chapter 10. Lists**
 
 > > > t = ['a', 'b', 'c', 'd','e','f']
-> > > t[1:3]
-> > > ['b', 'c']
-> > > t[:4]
-> > > ['a', 'b', 'c','d']
-> > > t[3:]
-> > > ['d', 'e', 'f']
+> > > t[1:3] > > > ['b', 'c']
+> > > t[:4] > > > ['a', 'b', 'c','d']
+> > > t[3:] > > > ['d', 'e', 'f']
 
 If you omit the first index, the slice starts at the beginning. If you omit the second, the slice
 goes to the end. So if you omit both, the slice is a copy of the whole list.
 
-> > > t[:]
-> > > ['a', 'b', 'c','d','e','f']
+> > > t[:] > > > ['a', 'b', 'c','d','e','f']
 
 Since lists are mutable, it is often useful to make a copy before performing operations that
 fold, spindle or mutilate lists.

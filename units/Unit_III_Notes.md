@@ -266,13 +266,11 @@ Positive or Zero
     			else:
     			    print("Odd Number")
 
-
 **Output**
 
     			Enter a number
     			10
     			Even Number
-
 
 ### 3.1.3.3. ‘if...elif...else’(CHAINED CONDITIONAL STATEMENT)
 
@@ -308,8 +306,6 @@ print("Negative number")
 
     			Negative number
 
-
-
 **Example 3.7:**
 
 **Program**
@@ -326,14 +322,11 @@ print("Negative number")
     			else:
     			    print("input should be from 7 to 10")
 
-
 **Output**
 
     			Enter a number between seven and ten
     			8
     			octogon
-
-
 
 ### 3.1.3.4. NESTED CONDITIONAL
 
@@ -361,8 +354,6 @@ Python program to check if the number is positive or negative or zero using nest
 
     			Enter a number: 10
     			Positive number
-
-
 
 ## 3.2. REPETITION STRUCTURE/LOOPING/ITERATIVE STATEMENTS
 
@@ -423,7 +414,6 @@ Python program using while Loop to add natural numbers upto n
     			    sum = sum + i
     			    i = i+1
     			print("The sum is", sum)
-
 
 **Output**
 
@@ -533,7 +523,6 @@ Python program to demonstrate break
     			4
     			completed
 
-
 **ii. Python continue statement**
 
 -[] The continue statement is used to skip the rest of the code inside a loop for the current iteration only.
@@ -542,7 +531,6 @@ Python program to demonstrate break
 **Syntax of Continue**
 
     			continue
-
 
 **Example 3.14:**
 
@@ -556,7 +544,6 @@ Python Program to show the use of continue statement inside loops
     				print(val)
     			print("The end")
 
-
 **Output**
 
     			s
@@ -565,7 +552,6 @@ Python Program to show the use of continue statement inside loops
     			n
     			g
     			The end
-
 
 - [ ] This program is same as the above example except the break statement has been replaced with continue.
 - [ ] continue with the loop, if the string is "i", not executing the rest of the block. Hence, we see in our output that all the letters except "i" gets printed.
@@ -582,7 +568,6 @@ Python Program to show the use of continue statement inside loops
     				if(a<0):
     					continue
     				print("Number is "+str(a))
-
 
 **Output**
 
@@ -618,7 +603,6 @@ Python program to illustrate pass
     			    pass
     			print("pass is just a placeholder for functionality to be added later.")
 
-
 **Output**
 
     			pass is just a placeholder for functionality to be added later.
@@ -633,13 +617,11 @@ Python program to illustrate pass
     				else:
     					print(num)
 
-
 **Output**
 
     			11
     			9
     			89
-
 
 ## 3.3. FRUITFUL FUNCTIONS: RETURN VALUES, PARAMETERS, LOCAL AND GLOBAL SCOPE, FUNCTION COMPOSITION, RECURSION
 
@@ -684,7 +666,6 @@ To call a function, use the function name followed by parenthesis.
 
     			Hello from a function
 
-
 **iii. Parameters**
 
 - [ ] Information can be passed to functions as parameter.
@@ -702,7 +683,6 @@ To call a function, use the function name followed by parenthesis.
     			my_function("Emil")
     			my_function("Tobias")
     			my_function("Linus")
-
 
 **Output**
 
@@ -735,7 +715,6 @@ To call a function, use the function name followed by parenthesis.
     			I am from Norway
     			I am from Brazil
 
-
 ### 3.3.2 Return Values
 
 - [ ] The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
@@ -752,7 +731,6 @@ To call a function, use the function name followed by parenthesis.
       		total = sum( 10, 20 );
       		print("Outside the function : ", total)
 
-
 **Example 3.22:**
 
 **Program**
@@ -764,7 +742,6 @@ To call a function, use the function name followed by parenthesis.
     			print(my_function(3))
     			print(my_function(5))
     			print(my_function(9))
-
 
 **Output**
 
@@ -801,11 +778,9 @@ The types of formal arguments are:
     			str="hello"
     			display(str)
 
-
 **Output**
 
     			hello
-
 
 **ii. Keyword arguments**
 
@@ -825,13 +800,11 @@ The types of formal arguments are:
     			#Main script-Fucntion calling with keyword arguments
     			display(fraction=58.62,name="hello",number=28)
 
-
 **Output**
 
     			The string is: hello
     			The integer is: 28
     			The float is: 58.62
-
 
 **iii. Default arguments**
 
@@ -852,7 +825,6 @@ The types of formal arguments are:
     				#Calling printinfo function
     				printinfo(age=50, name="miki" )
     				printinfo(name="miki")
-
 
 **Output**
 
@@ -929,7 +901,6 @@ An asterisk is placed before the variable name that holds the values of all non 
     			sum( 10, 20 );
     			print("Outside the function global total : ", total)
 
-
 **Output**
 
     			Inside the function local total :  30
@@ -955,7 +926,6 @@ An asterisk is placed before the variable name that holds the values of all non 
     			# Now you can call sum as a function
     			print("Value of total : ", sum( 10, 20 ))
     			print("Value of total : ", sum( 20, 20 ))
-
 
 **Output**
 
@@ -984,7 +954,6 @@ return (x \* calc_factorial(x-1))
     			#Main Script
     			num = 4
     			print("The factorial of", num, "is",calc_factorial(num))
-
 
 **Output**
 
@@ -1029,7 +998,6 @@ A string is a sequence of characters. You can access the characters one at a tim
     			fruit = 'banana'
     			letter = fruit[1]
     			print("The letter present at index 1 is:",letter)
-
 
 **Output**
 The letter present at index 1 is: a
@@ -1104,7 +1072,6 @@ If the first index is greater than or equal to the second the result is an empty
 
     			fruit = 'banana'
     			print(fruit[3:3]) #Prints ' '
-
 
 An empty string contains no characters and has length 0, but other than that, it is the same as any other string.
 
@@ -1214,7 +1181,6 @@ Program that use different string methods
     			print("count of o=",str.count('o' ))
     			print("find of =",str.find("of"))
 
-
 **Output**
 
     			uppercase= WELCOME TO THE WORLD OF PYTHON
@@ -1224,7 +1190,6 @@ Program that use different string methods
     			replace= welcome to the world of java
     			count of o= 5
     			find of = 21
-
 
 ### 3.4.5. Example Programs:\*\*
 
@@ -1254,7 +1219,6 @@ index+=1
     			print("Character at index 2: ",str[i])
     			print("Character at index i*3+1: ",str[i*3+1])
 
-
 **Output**
 
     			Character at index 2:  l
@@ -1269,11 +1233,9 @@ index+=1
     			str3=str1+str2
     			print("The string is:",str3)
 
-
 **Output**
 
     			The string is: helloworld
-
 
 **4. Append a string**
 
@@ -1283,7 +1245,6 @@ index+=1
     			n=input("Enter the String to Concatenate:")
     			Greet+=n;
     			print(Greet))
-
 
 **Output**
 Enter the String to Concatenate:World
@@ -1304,7 +1265,6 @@ HelloWorld
     			print("str[1:]=",str[1:])
     			print("str[:]=",str[:])
     			print("str[1:20]=",str[1:20])
-
 
 **Output**
 
@@ -1342,7 +1302,6 @@ print("str[-5:-2]=",str[-5:-2])
     			print("str[::3]=",str[::3])
     			print("str[::-1]=",str[::-1])
     			print("str[::-3]=",str[::-3])
-
 
 **Output**
 

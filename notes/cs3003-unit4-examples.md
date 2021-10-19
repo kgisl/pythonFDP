@@ -79,8 +79,6 @@ More detailed pseudo-code:
         else break loop and insert X here
     return sorted list
 
-
-
 ## Source code
 
 ```python
