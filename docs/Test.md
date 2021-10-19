@@ -1,11 +1,21 @@
 # Test
 
+
+
+
 ## Methods
+
 
 ### testDeckRemove
 
-#### Parameters
 
-| name | description | default |
-| ---- | ----------- | ------- |
-| self |             |
+
+
+#### Parameters
+name | description | default
+--- | --- | ---
+self |  | 
+
+
+
+

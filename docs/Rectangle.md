@@ -1,6 +1,8 @@
 # Rectangle
 
-Represents a rectangle.  
-attributes: width, height, corner.
+
+Represents a rectangle.   
+attributes: width, height, corner. 
 
 ## Methods
+

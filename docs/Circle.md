@@ -1,6 +1,8 @@
 # Circle
 
-Represents a circle.  
-Attributes: center, radius
+
+Represents a circle.   
+Attributes: center, radius 
 
 ## Methods
+

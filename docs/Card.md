@@ -1,50 +1,70 @@
 # Card
 
-Represents a standard playing card.  
-Attributes: suit: integer 0-3 rank: integer 1-13
+
+Represents a standard playing card.   
+Attributes: suit: integer 0-3 rank: integer 1-13 
 
 ## Methods
 
-### **init**
+
+### __init__
+
+
+
 
 #### Parameters
+name | description | default
+--- | --- | ---
+self |  | 
+suit |  | 0
+rank |  | 2
 
-| name | description | default |
-| ---- | ----------- | ------- |
-| self |             |
-| suit |             | 0       |
-| rank |             | 2       |
 
-### **str**
 
-Returns a human-readable string representation.
 
-#### Parameters
 
-| name | description | default |
-| ---- | ----------- | ------- |
-| self |             |
+### __str__
 
-### **eq**
 
-Checks whether self and other have the same rank and suit.  
-returns: boolean
+Returns a human-readable string representation. 
 
 #### Parameters
+name | description | default
+--- | --- | ---
+self |  | 
 
-| name  | description | default |
-| ----- | ----------- | ------- |
-| self  |             |
-| other |             |
 
-### **lt**
 
-Compares this card to other, first by suit, then rank.  
-returns: boolean
+
+
+### __eq__
+
+
+Checks whether self and other have the same rank and suit.   
+returns: boolean 
 
 #### Parameters
+name | description | default
+--- | --- | ---
+self |  | 
+other |  | 
 
-| name  | description | default |
-| ----- | ----------- | ------- |
-| self  |             |
-| other |             |
+
+
+
+
+### __lt__
+
+
+Compares this card to other, first by suit, then rank.   
+returns: boolean 
+
+#### Parameters
+name | description | default
+--- | --- | ---
+self |  | 
+other |  | 
+
+
+
+
