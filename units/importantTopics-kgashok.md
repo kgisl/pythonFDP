@@ -357,26 +357,6 @@ _Clustering_ multiple items based on some categorization - this is easier to exp
 | | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
 | | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
 | _operation_|  `del`, `sorted`| same effect as the methods with better performance?|
-|**Allocate** | `.copy()` `[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
-|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with tuples containing index and value pair)  
+|**Allocate** | `.copy()` `[:]`, repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
+|  _operation_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate` | same as slice operator [_s_:_s_:_s_], `zip` creates a new list with tuples from two lists, `enumerate` provides list with tuples containing index and value pair)  
 
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg1OTkyNTgsMTM0MDA2NDksMTY2OT
-k5ODc3OCwtMjA0NTA4NDM3NSwtMjAwMjc4Mjg3MCw3MTE4ODgz
-MDcsLTEwMDgxNjY2NjAsMjA2MjAxNDk4NiwxNzgzODM4MzQ0LD
-Q3MTIxMDMyMCwxODgwNTA2MzUwLC0yMDcyMTAxOTEzLC0xMDE4
-MDQxMjM2LC0yMDg5MDI0ODgyLDE0NzczOTczMTcsMjA4MTI1MT
-IzMCwtMTU1ODIxMjIxMiwyMjQyODI2NTAsMzk5MDkwODA3LC0x
-MTYyODUyNzM3XX0=
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTYxMDgyNzEsMTQ0NDY2NDQwNywxNz
-MxOTE4MjM0LC0xMzE4NTk5MjU4LDEzNDAwNjQ5LDE2Njk5OTg3
-NzgsLTIwNDUwODQzNzUsLTIwMDI3ODI4NzAsNzExODg4MzA3LC
-0xMDA4MTY2NjYwLDIwNjIwMTQ5ODYsMTc4MzgzODM0NCw0NzEy
-MTAzMjAsMTg4MDUwNjM1MCwtMjA3MjEwMTkxMywtMTAxODA0MT
-IzNiwtMjA4OTAyNDg4MiwxNDc3Mzk3MzE3LDIwODEyNTEyMzAs
-LTE1NTgyMTIyMTJdfQ==
--->
