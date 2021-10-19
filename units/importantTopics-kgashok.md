@@ -330,16 +330,4 @@ You’ll all be certified Pythonistas in no time. Welcome to the community, and 
 
 ## List Methods and Operations
 
-_Clustering_ multiple items based on some categorization - this is easier to explain, deliver and help retention among students. Of course, there is going to be better engagement as well.
-
-| Intent         | Method / Operation                                                    | Description                                                                                                                                                       |
-| :------------- | :-------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Initialize** | `[]`, `list()` or `list(sequence)`                                    | initialize an empty list, using a tuple, using another list                                                                                                       |
-| **Access**     | [_idx_], `.find()`, `.index()` `.count()`                             | `find` returns `-1`, `index` throws an exception if not present                                                                                                   |
-| _operation_    | `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`        | membership `in` list, `all` or `any` if element(s) is `True`                                                                                                      |
-| **Modify**     | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend()`           | add elements to the list at specific locations; `extend` adds multiple elements from sequence                                                                     |
-|                | _extraction_ `.pop(loc)` `.remove(elem)`, `.clear()`                  | take out from specified index, or element or all elements                                                                                                         |
-|                | _ordering_ `.reverse()`, `.sort()`                                    | rearrange elements in the list                                                                                                                                    |
-| _operation_    | `del`, `sorted`                                                       | same effect as the methods with better performance?                                                                                                               |
-| **Allocate**   | `.copy()` `[:]`, repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones                                                                                                         |
-| _operation_    | slice(_start_, _stop_, _step_), `zip`, `enumerate`                    | same as slice operator [_s_:_s_:_s_], `zip` creates a new list with tuples from two lists, `enumerate` provides list with tuples containing index and value pair) |
+See [http://j.mp/listThis](http://j.mp/listThis)
