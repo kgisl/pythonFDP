@@ -187,6 +187,8 @@ def selection_sortr(L):
 => [-1, 1, 22, 56, 99, 99]
 ```
 
+Visualize a *slight variant* of this code at https://tinyurl.com/x697cwwj
+
 ## Recursive InsertionSort
 
 ```python
