@@ -1,6 +1,6 @@
 
 
-Want a ToC? View at http://j.mp/pyGlossary  
+Want a ToC? View at [http://j.mp/pyGlossary](http://j.mp/pyGlossary)  
 
 # ~30 Important Terms
 
@@ -26,7 +26,7 @@ arguments in the following calls to `complex()`:
 
 
 ### positional argument
-an argument that is not a keyword argument.
+...is an argument that is not a **keyword** argument.
 
 Positional arguments can appear at the beginning of an 
 argument list and/or be passed as elements of an iterable 
@@ -452,6 +452,5 @@ listing can be found by typing `import this` at the
 interactive prompt.
 
 ----
-
 
 
