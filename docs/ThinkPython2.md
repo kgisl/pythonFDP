@@ -1840,9 +1840,9 @@ This observation suggests another approach to the whole problem—we can convert
 
 Here is a function that converts Times to integers:
 
-def time_to_int(time):
-minutes = time.hour _ 60 + time.minute
-seconds = minutes _ 60 + time.second
+def time*to_int(time):
+minutes = time.hour * 60 + time.minute
+seconds = minutes \_ 60 + time.second
 return seconds
 
 And here is the function that converts integers to Times (recall thatdivmoddivides the first

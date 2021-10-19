@@ -87,7 +87,6 @@ Read and write data from/to files in Python.
     - Programs that take command line arguments (word count)
     - Find the most frequent words in a text read from a file
 
-
 ## Platform needed
 
 Python 3 interpreter for Windows/Linux

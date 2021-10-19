@@ -29,22 +29,23 @@ Here are some important methods that are associated with `tuple`, `list` and `di
 
 The following table has been created by **_clustering_** multiple items based on some criteria. This is easier to internalize and deliver to maximize retention among students. Moreover, there is going to be _better_ chance of overall engagement.
 
-  - What is a list **method** (an attribute of a variable)? What is a list **operation** (a stand-alone function)? What is the difference? Get this clarified *first*! 
+- What is a list **method** (an attribute of a variable)? What is a list **operation** (a stand-alone function)? What is the difference? Get this clarified _first_!
 
-|Intent | Method / Operation | Description |
-|:-------|:--------------|:----------------|
-|**Initialize** methods | _none_ | initialize an empty list, using a tuple, using another list | 
- | _operations_ | `[]`, `list()` or `list(sequence)`, the `=` operator | `bl = al` initializes `bl` as an **alias** for the`al` list object
-|**Access** methods| [_idx_], `.find(elem)`, `.index(elem)` `.count()`  | `find` returns `-1`, `index` throws an exception if not present| 
-|   _operations_| `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`| membership `in` list, `all` or `any` if element(s) is `True`
-|**Modify** methods| _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)` | add elements to the list at specific locations; `extend` adds multiple elements from sequence 
-| | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`| take out from specified index, or element or all elements |
-| | _ordering_  `.reverse()`, `.sort()` | rearrange elements in the list|
-| _operations_|  `del`, `sorted`| same effect as the methods with better performance?|
-|**Allocate** methods | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`) | Create distinct list objects by duplicating existing ones
-|  _operations_ |  slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists, `enumerate` provides list with (_index_, _element_) tuple  
+| Intent                 | Method / Operation                                                                                                    | Description                                                                                                                                 |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Initialize** methods | _none_                                                                                                                | initialize an empty list, using a tuple, using another list                                                                                 |
+| _operations_           | `[]`, `list()` or `list(sequence)`, the `=` operator                                                                  | `bl = al` initializes `bl` as an **alias** for the`al` list object                                                                          |
+| **Access** methods     | [_idx_], `.find(elem)`, `.index(elem)` `.count()`                                                                     | `find` returns `-1`, `index` throws an exception if not present                                                                             |
+| _operations_           | `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`                                                        | membership `in` list, `all` or `any` if element(s) is `True`                                                                                |
+| **Modify** methods     | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)`                                                        | add elements to the list at specific locations; `extend` adds multiple elements from sequence                                               |
+|                        | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`                                                                 | take out from specified index, or element or all elements                                                                                   |
+|                        | _ordering_ `.reverse()`, `.sort()`                                                                                    | rearrange elements in the list                                                                                                              |
+| _operations_           | `del`, `sorted`                                                                                                       | same effect as the methods with better performance?                                                                                         |
+| **Allocate** methods   | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)                                  | Create distinct list objects by duplicating existing ones                                                                                   |
+| _operations_           | slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists, `enumerate` provides list with (_index_, _element_) tuple |
 
-## List indexing 
+## List indexing
+
 - http://j.mp/swapListCC - swap elements in a list
 - What is a list **method** (an attribute of a variable)? What is a list **operation** (a stand-alone function)? What is the difference? Get this clarified _first_!
 

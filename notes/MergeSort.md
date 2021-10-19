@@ -10,6 +10,7 @@
 - InsertionSort
   - TBD
 - MergeSort
+
   - List functions
     - Looping through a list - write code to iterate through the elements in a list
       - Using indexing

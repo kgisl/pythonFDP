@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 2. Refactor the solution to the Question_1 to use `getopt` and handle the exceptions for handling options flags in an appropriate manner. For example, choose a option flag which can be used to denote which file can be updated with the results of the processing.
 
-3. Provide support for processing adhoc strings through the command line option. For example, when program is invoked with `-s` option,  
+3. Provide support for processing adhoc strings through the command line option. For example, when program is invoked with `-s` option,
 
    wcount.py -s "This is a sentence. Another one." file1.txt
 

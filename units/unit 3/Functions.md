@@ -75,7 +75,6 @@
     	else:
     		 print ("invalid")`
 
-
 #### 3.1.2. OPERATORS
 
 - Each built-in data types come with its set of operators.
