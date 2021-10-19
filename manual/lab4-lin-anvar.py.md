@@ -1,4 +1,5 @@
 # Solution for Linear Search
+
 ```python
 def answer(list, key):
     if len(list) <= 0:
@@ -15,7 +16,8 @@ def answer(list, key):
        if list[position] == key:
           return position
     return -1
- ```
- 
- # CyberDojo Link
- http://10.100.8.8/kata/edit/86A713A750?avatar=walrus
+```
+
+# CyberDojo Link
+
+http://10.100.8.8/kata/edit/86A713A750?avatar=walrus

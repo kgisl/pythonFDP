@@ -11,7 +11,7 @@ Sample Input0: [1, 2, 3, 4]
 Sample Output0: [1, 2, 3, 4]
 
 Sample Input1: [5, 12, 3, 21, 4]
-Sample Output1: [3, 4, 5, 12, 21] 
+Sample Output1: [3, 4, 5, 12, 21]
 
 Sample Input2: [7.1, 9.2, 3.1]
 Sample Output2: [3.1, 7.1, 9.2]
@@ -60,10 +60,10 @@ def sort(lst):
 
 1. Quick sort uses `___________`.
 
-   * a. Divide and Conquer Technique
-   * b. Greedy Approach       
-   * c. Back Tracking                 
-   * d. None of the above
+   - a. Divide and Conquer Technique
+   - b. Greedy Approach
+   - c. Back Tracking
+   - d. None of the above
 
 2. How to select a pivot element?
 
@@ -73,17 +73,17 @@ def sort(lst):
 
 5. What is the average case complexity for quick sort algorithm?
 
-   * a. `O(n)`    
-   * b. `O(n*n)`        
-   * c. `O(nlogn)`          
-   * d. `O(logn)`
+   - a. `O(n)`
+   - b. `O(n*n)`
+   - c. `O(nlogn)`
+   - d. `O(logn)`
 
 6. What is the worst case complexity for quick sort algorithm?
 
-   * a. `O(n)`    
-   * b. `O(n*n)`            
-   * c. `O(nlogn)`           
-   * d. `O(logn)`
+   - a. `O(n)`
+   - b. `O(n*n)`
+   - c. `O(nlogn)`
+   - d. `O(logn)`
 
 ## Post-Lab Questions
 
@@ -110,9 +110,6 @@ CD Local Link: [http://10.100.8.8/kata/edit/8EE56C12AC?avatar=parrot](http://10.
 
 ![](/assets/Sorting_quicksort_anim.gif)
 
-## Compare Merge and Quick 
+## Compare Merge and Quick
 
-http://j.mp/mergeVsQuick 
-
-
-
+http://j.mp/mergeVsQuick

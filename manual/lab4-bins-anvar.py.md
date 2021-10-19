@@ -1,4 +1,5 @@
 # Solution for Binary Search
+
 ```python
 def answer(list, key):
     if len(list) <= 0:

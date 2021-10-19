@@ -1,29 +1,26 @@
-
 # Lab 3: Exponentiation (power of a number)
 
 [TOC]
 
-## Problem statement 
+## Problem statement
 
 Write a Python program to compute the power of number.
 
-	Sample Input1: 0,2
-	Sample Output1: 0
-	
-	Sample Input2: 2, 0
-	Sample Output2: 1
+    Sample Input1: 0,2
+    Sample Output1: 0
 
-	Sample Input3: 2, 3.2
-	Sample Output3: 9.19
-		
-	Sample Input3: 2, -3.3
-	Sample Output3: 0.11
+    Sample Input2: 2, 0
+    Sample Output2: 1
 
+    Sample Input3: 2, 3.2
+    Sample Output3: 9.19
 
+    Sample Input3: 2, -3.3
+    Sample Output3: 0.11
 
 ## Solution Key
 
-```python 
+```python
 
 def expo(x, n):
     result = 1
@@ -68,33 +65,21 @@ def expofloat(x, n):
 
 ```
 
+## CloudCoder Exercise
 
-## CloudCoder Exercise 
+## Related material
 
-
-
-
-## Related material 
-
-
-
-
-
-## Pre-Lab Questions 
-
-
+## Pre-Lab Questions
 
 ## Post-lab Questions
 
+## Bonus 1
 
-
-## Bonus 1 
-
-## Related Material 
+## Related Material
 
 Review https://stackoverflow.com/questions/327002/which-is-faster-in-python-x-5-or-math-sqrtx
 
 ## Cyber Dojo Link
+
 http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=rhino (madhuramya)
 http://cyberdojo.kgfsl.com/kata/edit/BA4E02B440?avatar=vulture (kgashok)
-

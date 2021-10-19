@@ -1,109 +1,108 @@
-
 # One-line factorial function in Python
+
 _November 3, 2006_
 
-def fact(x): return (1 if x==0 else x * fact(x-1))
-
-
+def fact(x): return (1 if x==0 else x \* fact(x-1))
 
 ## 7 Comments
 
-**1.**  [Peter Hosey](https://web.archive.org/web/20100327214000/http://boredzo.org/)  | December 25, 2006 at 7:24 pm
-    
+**1.** [Peter Hosey](https://web.archive.org/web/20100327214000/http://boredzo.org/) | December 25, 2006 at 7:24 pm
+
 Here’s an alternate solution, unless you count the import operator statement…
-    
+
 ```python
-def fact(x): 
+def fact(x):
 	return reduce(operator.mul, xrange(2, x+1))
 
 # If you want to be really strict about it, you can do this:
- 
-def fact(x): 
+
+def fact(x):
 	return reduce(lambda x, y: x*y, xrange(2, x+1))
 ```
-     
-but it probably won’t be as fast, since you’re now using a Python function in place of a built-in.
-    
-    As for exactly how these two functions stack up against yours, here’s what I get on my Mac Pro:
-    
-    > >>> time_ptfact(500, 5000)  
-    > 0.00046299901008605955  
-    > >>> time_reducefact(500, 5000)  
-    > 0.00028626961708068849  
-    > >>> time_reducefact_lambda(500, 5000)  
-    > 0.0003613057613372803
-    
-    Shows once again the value of doing as much as possible in C code (reduce, operator.mul, and xrange all being built-ins).
-    
-    The timing functions are defined as:
-    
-    > def time_FUNC(x, count=500):  
-    > import time  
-    > start = time.time()  
-    > for i in xrange(count):  
-    > FUNC(x) and None  
-    > end = time.time()  
-    > return (end – start) / count
-    
-    for all three values of FUNC.
-    
 
-**2.**  [Aditya](https://web.archive.org/web/20100327214000/http://blog.adityashevade.com/)  | June 3, 2008 at 6:44 am
-    
- Thanks for the information Peter, but can’t you just give the command ‘time’ while calculating the factorial? I mean, give the command,
-    
+but it probably won’t be as fast, since you’re now using a Python function in place of a built-in.
+
+    As for exactly how these two functions stack up against yours, here’s what I get on my Mac Pro:
+
+    > >>> time_ptfact(500, 5000)
+    > 0.00046299901008605955
+    > >>> time_reducefact(500, 5000)
+    > 0.00028626961708068849
+    > >>> time_reducefact_lambda(500, 5000)
+    > 0.0003613057613372803
+
+    Shows once again the value of doing as much as possible in C code (reduce, operator.mul, and xrange all being built-ins).
+
+    The timing functions are defined as:
+
+    > def time_FUNC(x, count=500):
+    > import time
+    > start = time.time()
+    > for i in xrange(count):
+    > FUNC(x) and None
+    > end = time.time()
+    > return (end – start) / count
+
+    for all three values of FUNC.
+
+**2.** [Aditya](https://web.archive.org/web/20100327214000/http://blog.adityashevade.com/) | June 3, 2008 at 6:44 am
+
+Thanks for the information Peter, but can’t you just give the command ‘time’ while calculating the factorial? I mean, give the command,
+
     time python programName.py
-    
-it will output the time. Built-in time function for all *nix systems.
-    
- **3.**  [Michael Hartley](https://web.archive.org/web/20100327214000/http://www.dr-mikes-maths.com/maths.html)  | June 25, 2008 at 7:23 am
-    
+
+it will output the time. Built-in time function for all \*nix systems.
+
+**3.** [Michael Hartley](https://web.archive.org/web/20100327214000/http://www.dr-mikes-maths.com/maths.html) | June 25, 2008 at 7:23 am
+
     err.. pardon my ignorance of large non-venomous snakes, but how do I actually use this? Here’s what happened when I tried :
-    
-    `[mikeh@pud21 ~]$ python  
-    Python 2.4.3 (#1, Mar 14 2007, 19:01:42)  
-    [GCC 4.1.1 20070105 (Red Hat 4.1.1-52)] on linux2  
-    Type "help", "copyright", "credits" or "license" for more information.  
-    >>> def fact(x): return (1 if x==0 else x * fact(x-1))  
-    File "", line 1  
-    def fact(x): return (1 if x==0 else x * fact(x-1))  
-    ^  
-    SyntaxError: invalid syntax  
+
+    `[mikeh@pud21 ~]$ python
+    Python 2.4.3 (#1, Mar 14 2007, 19:01:42)
+    [GCC 4.1.1 20070105 (Red Hat 4.1.1-52)] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> def fact(x): return (1 if x==0 else x * fact(x-1))
+    File "", line 1
+    def fact(x): return (1 if x==0 else x * fact(x-1))
+    ^
+    SyntaxError: invalid syntax
     >>>`
-    
-**4.**  Jameson  | June 26, 2008 at 7:50 am
-    
+
+**4.** Jameson | June 26, 2008 at 7:50 am
+
 python needs a carriage returns followed by an indentation after defining a function… do it like this:
-          
-    >>> def fact(x):  
-    … return (1 if x==0 else x * fact(x-1))  
-    …  
-    >>> fact(1)  
-    1  
-    >>> fact(10)  
-    3628800  
-    
-**5.**  David Borsheim  | August 18, 2008 at 9:24 pm
-    
- I realize that this is a very old post, but I couldn’t resist throwing my 2 cents in…Here is an actual 1-line factorial:
-    
+
+    >>> def fact(x):
+    … return (1 if x==0 else x * fact(x-1))
+    …
+    >>> fact(1)
+    1
+    >>> fact(10)
+    3628800
+
+**5.** David Borsheim | August 18, 2008 at 9:24 pm
+
+I realize that this is a very old post, but I couldn’t resist throwing my 2 cents in…Here is an actual 1-line factorial:
+
 ```python
-seed =  
+seed =
 	reduce(lambda x, y: x * y, xrange(1, seed+1))
 
-# or as a literal  
-factorial_10 = reduce(lambda x, y: x * y, xrange(1, 11)) 
+# or as a literal
+factorial_10 = reduce(lambda x, y: x * y, xrange(1, 11))
 # 10 + 1
-```    
-I use xrange() because range() chokes on very large numbers. Even so, if you send if off to return the factorial of 1,000,000, you will wait a while.  By way of example, the factorial of 
+```
+
+I use xrange() because range() chokes on very large numbers. Even so, if you send if off to return the factorial of 1,000,000, you will wait a while. By way of example, the factorial of
 
 ```
 1,000 == “402387260077093773543702433923003985719374864210714632543799910429938512398629020592044208486969404800479988610197196058631666872994808558901323829669944590997424504087073759918823627727188732519779505950995276120874975462497043601418278094646496291056393887437886487337119181045825783647849977012476632889835955735432513185323958463075557409114262417474349347553428646576611667797396668820291207379143853719588249808126867838374559731746136085379534524221586593201928090878297308431392844403281231558611036976801357304216168747609675871348312025478589320767169132448426236131412508780208000261683151027341827977704784635868170164365024153691398281264810213092761244896359928705114964975419909342221566832572080821333186116811553615836546984046708975602900950537616475847728421889679646244945160765353408198901385442487984959953319101723355556602139450399736280750137837615307127761926849034352625200015888535147331611702103968175921510907788019393178114194545257223865541461062892187960223838971476088506276862967146674697562911234082439208160153780889893964518263243671616762179168909779911903754031274622289988005195444414282012187361745992642956581746628302955570299024324153181617210465832036786906117260158783520751516284225540265170483304226143974286933061690897968482590125458327168226458066526769958652682272807075781391858178889652208164348344825993266043367660176999612831860788386150279465955131156552036093988180612138558600301435694527224206344631797460594682573103790084024432438465657245014402821885252470935190620929023136493273497565513958720559654228749774011413346962715422845862377387538230483865688976461927383814900140767310446640259899490222221765904339901886018566526485061799702356193897017860040811889729918311021171229845901641921068884387121855646124960798722908519296819372388642614839657382291123125024186649353143970137428531926649875337218940694281434118520158014123344828015051399694290153483077644569099073152433278288269864602789864321139083506217095002597389863554277196742822248757586765752344220207573630569498825087968928162753848863396909959826280956121450994871701244516461260379029309120889086942028510640182154399457156805941872748998094254742173582401063677404595741785160829230135358081840096996372524230560855903700624271243416909004153690105933983835777939410970027753472000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000L”
-```    
+```
+
 Best regards,
-    
+
 Borsheim
-        
-**7.**  Tristam MacDonald  | October 21, 2008 at 9:21 pm
-    
+
+**7.** Tristam MacDonald | October 21, 2008 at 9:21 pm
+
 Unfortunately, neither Peter or David actually defined a factorial function – in particular, neither handles factorial(1) or factorial(0).

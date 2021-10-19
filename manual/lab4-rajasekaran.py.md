@@ -1,9 +1,11 @@
 # Linear Searcher
+
 [TOC]
 
 ## Problem Statement
-Write a python program to do linear search operations on a list
-0. Find the size of the list.
+
+Write a python program to do linear search operations on a list 0. Find the size of the list.
+
 1. Is list is a MonoTypeList?
 2. Is list is EmptyList?
 3. Is list has only one Element?
@@ -15,6 +17,7 @@ Write a python program to do linear search operations on a list
 9. Find the List is Sorted or not.
 
 ## Solution Key for Linear Search
+
 ```python
 def sizeOfList(list):
     return len(list)
@@ -45,7 +48,7 @@ def searcher(list, element):
         for thing in list:
           if thing == element:
             return True
-        return False   
+        return False
 
 def isAvailable(list, element):
     return searcher(list, element)
@@ -138,7 +141,8 @@ def findTheElementInPosition(list, position_of_element):
     else:
         return "Invalid List"
 ```
-## Test Cases 
+
+## Test Cases
 
 ```python
 import LinearSearcher
@@ -152,7 +156,7 @@ class TestLinearSearcher(unittest.TestCase):
         list = [3, 1, 5, 2, 4]
         expected = True
         actual = LinearSearcher.isAvailable(list, 5)
-        self.assertEqual(expected, actual)    
+        self.assertEqual(expected, actual)
 
 #Test 2
     def test_list_element_is_not_available(self):
@@ -178,7 +182,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.isMonoTypeList(list)
         self.assertEqual(expected, actual)
 
-#Test 5    
+#Test 5
     def test_list_list_is_empty(self):
         '''Expected list is Empty'''
         list = []
@@ -186,7 +190,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.isEmptyList(list)
         self.assertEqual(expected, actual)
 
-#Test 6   
+#Test 6
     def test_list_list_is_non_empty(self):
         '''Expected list is Non_Empty'''
         list = [1]
@@ -202,7 +206,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.sizeOfList(list)
         self.assertEqual(expected, actual)
 
-#Test 8    
+#Test 8
     def test_list_for_single_element(self):
         '''Expected isSilgleElementList is True'''
         list = [3]
@@ -210,7 +214,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.isSingleElementList(list)
         self.assertEqual(expected, actual)
 
-#Test 9   
+#Test 9
     def test_list_search_for_element_in_empty_list(self):
         '''Searching for element 3 in empty list'''
         list = []
@@ -218,7 +222,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.searcher(list,3)
         self.assertEqual(expected, actual)
 
-#Test 10    
+#Test 10
     def test_list_finding_max_element_in_list(self):
         '''List has max element is 10'''
         list = [1, 2, 3, 10, 4, 7, 5, 9, 0]
@@ -226,7 +230,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findMaxElement(list)
         self.assertEqual(expected, actual)
 
-#Test 11    
+#Test 11
     def test_list_finding_max_element_in_list_empty_list(self):
         '''Empty list but we trying to find element 10'''
         list = []
@@ -234,14 +238,14 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findMaxElement(list)
         self.assertEqual(expected, actual)
 
-#Test 12    
+#Test 12
     def test_list_finding_min_element_in_list(self):
         '''List has max element is 10'''
         list = [1, 2, 3, 10, 4, 7, 5, 9, 0]
         expected = 0
         actual = LinearSearcher.findMinElement(list)
         self.assertEqual(expected, actual)
-#Test 13    
+#Test 13
     def test_list_finding_min_element_in_list_empty_list(self):
         '''Empty list but we trying to find element 10'''
         list = []
@@ -249,7 +253,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findMinElement(list)
         self.assertEqual(expected, actual)
 
-#Test 14    
+#Test 14
     def test_list_finding_first_element_in_list(self):
         '''List has first element is 1'''
         list = [1, 2, 3, 10, 4, 7, 5, 9, 0]
@@ -257,7 +261,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findFirstElement(list)
         self.assertEqual(expected, actual)
 
-#Test 15    
+#Test 15
     def test_list_finding_first_element_in_list_empty_list(self):
         '''Empty list but we trying to find first element'''
         list = []
@@ -265,7 +269,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findFirstElement(list)
         self.assertEqual(expected, actual)
 
-#Test 16    
+#Test 16
     def test_list_finding_last_element_in_list(self):
         '''List has last element is 1'''
         list = [1, 2, 3, 10, 4, 7, 5, 9, 20]
@@ -273,7 +277,7 @@ class TestLinearSearcher(unittest.TestCase):
         actual = LinearSearcher.findLastElement(list)
         self.assertEqual(expected, actual)
 
-#Test 17    
+#Test 17
     def test_list_finding_last_element_in_list_empty_list(self):
         '''Empty list but we trying to find last element'''
         list = []
@@ -356,8 +360,11 @@ if __name__ == '__main__':
     unittest.main()
 
 ```
+
 ## PythonTutor Visualizer
+
 http://rajasekaranap.github.io/lins.html
 
 ## CyberDojo Link Updated
+
 http://10.100.8.8/kata/edit/86A713A750?avatar=moose

@@ -12,15 +12,14 @@ Sample Input2: 0, 3
 Sample Output2: 0
 
 Sample Input3: 3,0
-Sample Output3: 1 
-	
+Sample Output3: 1
+
 Sample Input4: 2, -3
 Sample Output4: 0.125
 
 Sample Input4: 2, "ab"
 Sample Output4: Invalid Input
 ```
-
 
 ## Solution Key
 
@@ -43,7 +42,7 @@ def expo(base, expo):
 
 ### Using while loop:
 
-```python 
+```python
 def expo(base, expo):
     ans = 1.0
     if type(base) == str or type(expo) == str:
@@ -73,9 +72,9 @@ def expo(base, expo):
         return n
 ```
 
-### Using ** operator:
+### Using \*\* operator:
 
-```python 
+```python
 def expo(base, expo):
     if type(base) == str or type(expo) == str:
         return "Invalid Input"
@@ -85,7 +84,8 @@ def expo(base, expo):
 ```
 
 ## CD links
+
 http://cyberdojo.kgfsl.com/kata/edit/90A83D4231?avatar=peacock - for loop
 http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=elephant - Builtin func
-http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=bear - using ** operator
+http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=bear - using \*\* operator
 http://cyberdojo.kgfsl.com/kata/edit/06D7B4092A?avatar=squirrel - while loop

@@ -1,148 +1,145 @@
-
 # Guidelines for Evaluation
-This document can also be accessed through http://j.mp/facultyPK 
+
+This document can also be accessed through http://j.mp/facultyPK
 
 ## Faculty ELi5 Algorithm Teaching (FEAT) challenge `#FEAT`
 
 ### UPDATE 2
-The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm. Of course, for the real world use case, they might want to target a more mature audience.  The  faculty  presentation will be scored on
-  - the power and elegance of algorithm
-  - the interestingness and entertainment value of the real world application
-  - the style and content of the presenter and his presentation
 
-**OBJECTIVE**: To tell the world why you as a CSE faculty care about 
-algorithms, which is the bedrock of Computer Science. Secondly, your 
-presentation must motivate and inspire your peers and students to adopt an 
-algorithm of their choice and be inspired to make a presentation which is as 
-fascinating as yours. 
+The key thing is `ELi5` -> "Explain Like I am 5" applies to the part of explaining the algorithm. Of course, for the real world use case, they might want to target a more mature audience. The faculty presentation will be scored on
 
-**IMPORTANT**: Bonus points for adopting PechaKucha format, and sticking to 400 
-seconds (20 by 20). No more than 10 minutes, whatsoever. 
+- the power and elegance of algorithm
+- the interestingness and entertainment value of the real world application
+- the style and content of the presenter and his presentation
 
-> 1. Personality of the presentation - there is no right or wrong in your 
-choice of algorithm. All that matters, why are _you_ passionate about the 
-algorithm and what about it is so fascinating from your perspective? 
-> 2. Choose at least one real-world application that the algorithm finds use 
-for. Don't choose more than two. Describe the real-world application. 
-> 3. Show the code for the algorithm either in pseudo code or your favourite 
-language
-> 4. Choose whatever format makes sense to you to present all the above three. 
-Bring your creativity to the fore. 
+**OBJECTIVE**: To tell the world why you as a CSE faculty care about
+algorithms, which is the bedrock of Computer Science. Secondly, your
+presentation must motivate and inspire your peers and students to adopt an
+algorithm of their choice and be inspired to make a presentation which is as
+fascinating as yours.
 
+**IMPORTANT**: Bonus points for adopting PechaKucha format, and sticking to 400
+seconds (20 by 20). No more than 10 minutes, whatsoever.
+
+> 1. Personality of the presentation - there is no right or wrong in your
+>    choice of algorithm. All that matters, why are _you_ passionate about the
+>    algorithm and what about it is so fascinating from your perspective?
+> 2. Choose at least one real-world application that the algorithm finds use
+>    for. Don't choose more than two. Describe the real-world application.
+> 3. Show the code for the algorithm either in pseudo code or your favourite
+>    language
+> 4. Choose whatever format makes sense to you to present all the above three.
+>    Bring your creativity to the fore.
 
 # Inspiration for Algorithmic Challenge
-How do I go about finding algorithms to get inspired by? Visit any of the 
-following links. 
+
+How do I go about finding algorithms to get inspired by? Visit any of the
+following links.
 
 ## Algorithms at work
-  - http://j.mp/algoAtWork
+
+- http://j.mp/algoAtWork
 
 ## Dictionary of Algorithms and DS (DaDS)
+
 [https://xlinux.nist.gov/dads/](https://xlinux.nist.gov/dads/)
 
-## Quora Based    
-- http://j.mp/AlgoKG  
+## Quora Based
+
+- http://j.mp/AlgoKG
 - https://www.quora.com/What-is-the-most-clever-yet-simple-algorithm
 - https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student
--must-implement-at-least-once-in-life 
+  -must-implement-at-least-once-in-life
 - https://www.quora.com/What-are-some-interesting-algorithms-that-have-no-known-im
-plementation-to-date
+  plementation-to-date
 
-## Misc   
+## Misc
+
 - http://j.mp/algo2KG
-- http://www.scriptol.com/programming/list-algorithms.php by various 
-application domains 
-- http://www.scriptol.com/programming/graphic-algorithms.php 
+- http://www.scriptol.com/programming/list-algorithms.php by various
+  application domains
+- http://www.scriptol.com/programming/graphic-algorithms.php
 - http://blog.hackerearth.com/2015/05/top-7-algorithms-and-data-structures-every-programmer-should-know-about.html
-- http://interviewkickstart.com/curriculum - what you need to know to get 
-employed at leading tech companies 
+- http://interviewkickstart.com/curriculum - what you need to know to get
+  employed at leading tech companies
 
 ## Stackoverflow TCS (Theoretical Computer Science)
 
 - https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
-   - [Euclid's Algorithm][Euclid] features in this list
-   - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
-   - From [Software Engineering SO][SESO] 
+  - [Euclid's Algorithm][euclid] features in this list
+  - And also on this list - https://cstheory.stackexchange.com/a/10422/12933
+  - From [Software Engineering SO][seso]
 
+[euclid]: https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
+[seso]: https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades
 
-[Euclid]: https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book
-[SESO]: https://softwareengineering.stackexchange.com/questions/20128/which-are-the-significant-algorithms-for-humankind-in-past-decades  
+## Personality based
 
+- 50 ways MIT has transformed computing - http://j.mp/mitCSE
+- http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks
+  of algorithms (search for "algorithm" across the article) - https://news.ycombinator.com/item?id=10897460 - Hackers on Knuth's books
+- https://www.quora.com/What-is-Professor-Thomas-Cormens-favorite-algorithm - It's not an algorithm, but a data structure. I've always marveled at
+  the simple tree-based data structure for disjoint-set union, using union by
+  rank and path compression (Section 21.3 in the third edition of CLRS). The
+  code is amazingly simple, the data structure operations take just barely
+  superlinear time, and the analysis (by Bob Tarjan) blows my mind.
+- [Slack's Keith Adams, Chief Architect][keithadams] favourites
 
-## Personality based   
-
-- 50 ways MIT has transformed computing - http://j.mp/mitCSE 
-- http://www.informit.com/articles/article.aspx?p=2213858 - what Knuth thinks 
-of algorithms (search for "algorithm" across the article) 
-    - https://news.ycombinator.com/item?id=10897460 - Hackers on Knuth's books 
-- https://www.quora.com/What-is-Professor-Thomas-Cormens-favorite-algorithm 
-	- It's not an algorithm, but a data structure.  I've always marveled at 
-the simple tree-based data structure for disjoint-set union, using union by 
-rank and path compression (Section 21.3 in the third edition of CLRS).  The 
-code is amazingly simple, the data structure operations take just barely 
-superlinear time, and the analysis (by Bob Tarjan) blows my mind.
-- [Slack's Keith Adams, Chief Architect][KeithAdams] favourites  
-    - Skip lists
-    - Paxos
-    - The "state machine" family of lock-free algorithms.
+  - Skip lists
+  - Paxos
+  - The "state machine" family of lock-free algorithms.
 
 - http://www.siam.org/pdf/news/637.pdf - SIAM News, Volume 33, Number 4
-- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html -  American 
-Institute of Physics and the IEEE Computer Society
-    - Comments about it on [reddit][redditComments]
+- https://www.computer.org/csdl/mags/cs/2000/01/c1022.html - American
+  Institute of Physics and the IEEE Computer Society - Comments about it on [reddit][redditcomments]
 
+[keithadams]: https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v
+[redditcomments]: https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10
 
-[KeithAdams]: https://www.quora.com/What-are-some-of-the-most-ingenious-algorithms-in-computer-science/answer/Keith-Adams?srid=ul6v
-[redditComments]: https://www.reddit.com/r/programming/comments/1qztc0/from_the_ieee_computer_society_journal_the_top_10
+## Nine Algorithms that change the World
 
-## Nine Algorithms that change the World 
-
-An algorithm is a well defined procedure for performing a task. A household 
-example of an algorithm is a recipe -- for example, the list of ingredients 
-together with the sequence of instructions needed to bake a pie. In order for a 
-computer to perform a task, it needs ingredients -- the data -- and 
+An algorithm is a well defined procedure for performing a task. A household
+example of an algorithm is a recipe -- for example, the list of ingredients
+together with the sequence of instructions needed to bake a pie. In order for a
+computer to perform a task, it needs ingredients -- the data -- and
 instructions -- the algorithm.
 
-Author John MacCormick, currently Professor of Computer Science at Dickinson 
-College, has chosen nine important tasks performed by computers and explained 
+Author John MacCormick, currently Professor of Computer Science at Dickinson
+College, has chosen nine important tasks performed by computers and explained
 the algorithms that are used. In a chapter devoted to each, he explains:
 
- - The development of search engines -- how to find information on the internet.
- - The PageRank process used by Google to produce highly relevant search 
-results.
- - Public-key cryptography, enabling secure transmission of secret messages -- 
-such as your credit card number -- over open communication channels.
- - Methods for detecting errors in data transmission and automatically 
-correcting them.
- - Several pattern recognition techniques, illustrated by classifying 
-handwritten numbers, facial recognition, and decision trees.
- - Data compression. Storing text, music, and images efficiently.
- - Databases. Storing and retrieving information efficiently. Techniques for 
-modifying databases reliably, even when computers crash while the modification 
-is in progress.
- - Digital signatures. How to be certain data is trustworthy.
- - Deciding what is computable.
+- The development of search engines -- how to find information on the internet.
+- The PageRank process used by Google to produce highly relevant search
+  results.
+- Public-key cryptography, enabling secure transmission of secret messages --
+  such as your credit card number -- over open communication channels.
+- Methods for detecting errors in data transmission and automatically
+  correcting them.
+- Several pattern recognition techniques, illustrated by classifying
+  handwritten numbers, facial recognition, and decision trees.
+- Data compression. Storing text, music, and images efficiently.
+- Databases. Storing and retrieving information efficiently. Techniques for
+  modifying databases reliably, even when computers crash while the modification
+  is in progress.
+- Digital signatures. How to be certain data is trustworthy.
+- Deciding what is computable.
 
-Even though the techniques that enable these algorithms are complex, Dr. 
-MacCormick explains them in a clear and interesting manner using well 
+Even though the techniques that enable these algorithms are complex, Dr.
+MacCormick explains them in a clear and interesting manner using well
 constructed examples.
 
-I highly recommend this book for a fascinating and easily accessible look at 
+I highly recommend this book for a fascinating and easily accessible look at
 the core of computer science and its application to everyday lives.
 
-
-
 ## Timeline of Computer Science
- 
- Please read https://www.scottaaronson.com/blog/?p=524 and 
-https://www.scottaaronson.com/blog/?p=608 (including the zillion comments 
-below). 
- 
+
+Please read https://www.scottaaronson.com/blog/?p=524 and
+https://www.scottaaronson.com/blog/?p=608 (including the zillion comments
+below).
 
 **CS timeline voting: the results are in!**
 
-
-### The top 10 
+### The top 10
 
 1. Euclid’s Elements: 116 votes
 2. Turing’s “On Computable Numbers”: 110 votes
@@ -223,7 +220,7 @@ Conway’s Game of Life: 34 votes
 Xerox Parc’s Alto With First GUI: 33 votes  
 Kuttaka Algorithm from Ancient India: 32 votes  
 Scientific Computing During Manhattan Project: 30 votes  
-Wilkes, Wheeler, and Gill Define Closed Subroutines: 29 votes 
+Wilkes, Wheeler, and Gill Define Closed Subroutines: 29 votes
 Stroustrup creates C++: 28 votes  
 Zimmermann creates PGP: 28 votes  
 Dartmouth Conference Popularizes Term “AI”: 27 votes  
@@ -261,7 +258,7 @@ Edward Lorenz (Re)discovers Chaos Theory: 16 votes
 Apollo Guidance Computer: 16 votes  
 CAPTCHAs: 16 votes  
 VC Dimension: 16 votes  
-Macsyma    Computer Algebra System: 15 votes  
+Macsyma Computer Algebra System: 15 votes  
 Amazon.com: 15 votes  
 UNIVAC I: 13 votes  
 DaVinci Surgical Robot: 13 votes  
@@ -323,7 +320,7 @@ Y2K Bug: -18 votes
 Facebook Launched: -18 votes
 Nintendo’s Donkey Kong: -19 votes
 “Robot” Coined: -21 votes
-CSIRAC    -21
+CSIRAC -21
 Apple’s iPhone: -21 votes
 Slashdot: -27 votes
 Godwin’s Law: -29 votes
@@ -332,122 +329,127 @@ Match.com: -34 votes
 de Vaucanson’s Mechanical Duck: -39 votes
 von Kempelen’s Mechanical Turk: -52 votes
 
-
-
-# The Next 50 years of Computing by MIT 
+# The Next 50 years of Computing by MIT
 
 http://mac50.csail.mit.edu/agenda.html
 
 ## SESSION 1
-9:00 AM                                   
+
+9:00 AM  
 Fifty Years of Robotics; Now the Practical Payoff
 Rodney Brooks, Rethink Robotics, Inc
- 
+
 Tales from the Blocks World
 Matt Mason, Carnegie Mellon University
- 
+
 Dynamic Robots
 Marc Raibert, Boston Dynamics
- 
+
 Aerial Robots: Computing in the Sky
 Russ Tedrake, MIT CSAIL
- 
+
 The Analysis Revolution in Genomics and Modern Medicine
 Manolis Kellis, MIT CSAIL
-                       
-10:30 AM - BREAK           
- 
+
+10:30 AM - BREAK
+
 ## SESSION II
-11:00 AM                                   
- 
+
+11:00 AM
+
 Akamai: From Theory to Practice
 Tom Leighton, Akamai Technologies
- 
+
 Everyday Life in a Data-Rich World
 Jon Kleinberg, Cornell University
- 
+
 The Evolution of Proofs in Computer Science
 Yael Tauman Kalai, Microsoft Research
- 
+
 Quantum Computing and Fundamental Physics
 Scott Aaronson, MIT CSAIL
- 
-12:25 PM - LUNCH           
- 
+
+12:25 PM - LUNCH
+
 ## SESSION III
+
 2:00 PM
 Towards a Theory of Trust in Networks of Humans and Computers
 Jeannette Wing, Microsoft Research
- 
+
 Harmonizing Technology with Society
 Latanya Sweeney, Harvard University
- 
-On the Benefits of Coordination – Before, During, and Even After the Fact! 
+
+On the Benefits of Coordination – Before, During, and Even After the Fact!
 – in Differential Privacy
 Cynthia Dwork, Microsoft Research
- 
-The Scalable Commutativity Rule: Designing Scalable Software for Multicore 
+
+The Scalable Commutativity Rule: Designing Scalable Software for Multicore
 Processors
 Nickolai Zeldovich, MIT CSAIL
- 
+
 3:25 PM - BREAK
- 
+
 ## SESSION IV
+
 4:00 PM
 Time Sharing vs Personal Computing
 Ivan Sutherland, Portland State University
- 
+
 The End of Moore's Law and the Future of Computing
 Bill Dally, Stanford University
- 
+
 How I invented Ethernet at MIT Project MAC 1969-1972
-Bob Metcalfe, The University of Texas at Austin      
- 
+Bob Metcalfe, The University of Texas at Austin
+
 5:20 PM – ADJOURN
- 
+
 Banquet Dinner – Cambridge Marriott Hotel - Grand Ballroom
 7:00-9:00 PM
 Recognition of Bob Fano
 Entertainment by ImprovBoston
- 
+
 Thursday, May 29, 2014
 Location: MIT Stata Center, 32-123 Kirsch Auditorium
- 
+
 8:00 AM Continental Breakfast/Registration
-                     
+
 ## SESSION V
-9:00 AM                                   
+
+9:00 AM  
 Turtles All the Way Down
 Greg Papadopoulos, New Enterprise Associates
- 
+
 Graduate Education and Research in the Information Age
 Daniel Huttenlocher, Cornell Tech NYC
- 
-Some Surprising Lessons Learned while Creating a Real MOOC-based Masters of 
+
+Some Surprising Lessons Learned while Creating a Real MOOC-based Masters of
 Science
 Charles Isbell, Georgia Institute of Technology
- 
-10:20 AM - BREAK           
- 
+
+10:20 AM - BREAK
+
 ## SESSION VI
-10:50 AM           
+
+10:50 AM  
 Small, n=me, data
 Deborah Estrin, Cornell Tech NYC
- 
+
 The Right Thing: Things We Hit, Things We Missed, Things Still Left To Do
 Tom Knight, Ginko Bioworks
- 
+
 Teaching Computers to See
 Antonio Torralba, MIT CSAIL
- 
+
 Modeling Brain Connectivity from Functional MRI
 Polina Golland, MIT CSAIL
- 
+
 Reflections of an Entrepreneur on Experiences at MIT Then and Now
 Ray Stata, Analog Devices, Inc
 
 ---
-End of File 
+
+End of File
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg3MjI4ODcyOSwxOTAwMzI2Mzg4LC0xOT
