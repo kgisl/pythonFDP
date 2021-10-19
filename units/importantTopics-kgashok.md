@@ -1,6 +1,6 @@
 
 
-Want a ToC? View at http://j.mp/importantPy    
+Want a ToC? View at [http://j.mp/importantPy](http://j.mp/importantPy)    
 # Useful links to explore
 
 http://j.mp/python30  - Why Python? What's in Python? Where in Python? All in 30 minutes! 
