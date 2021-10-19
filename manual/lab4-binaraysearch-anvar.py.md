@@ -1,4 +1,5 @@
 # Solution for Binary Search
+
 ```python
 def answer(list, key):
     if len(list) <= 0:
@@ -24,7 +25,9 @@ def answer(list, key):
            if list[mid] == key:
               return mid
         return -1
-        
+
 ```
+
 # CyberDojo Link
+
 http://10.100.8.8/kata/edit/86A713A750?avatar=walrus

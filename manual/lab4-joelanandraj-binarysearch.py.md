@@ -1,29 +1,31 @@
-
 #Solution for BinarySearch
+
 ```python
 
 def Bsearch(lst,searchElement):
     lst.sort()
     length=len(lst)
     left=0
-    right=length-1  
-   
+    right=length-1
+
     if length==0:
-        return "The list is Empty"  
- 
- 
+        return "The list is Empty"
+
+
     while(left<=right):
         middle=round((left+right)/2)
- 
+
         if searchElement==lst[middle]:
             return "The Element is found in the position "+str(middle)
         elif searchElement<lst[middle]:
             right=middle-1
         elif searchElement>lst[middle]:
             left=middle+1
-    
+
     return "The Element is not present in the list"
- ```
+```
+
 ##Cyberdojo Link
 http://10.100.8.8/kata/edit/A32A2A3D41?avatar=starfish
+
 ###

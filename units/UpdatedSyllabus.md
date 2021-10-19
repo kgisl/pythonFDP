@@ -20,7 +20,6 @@ developing algorithms (iteration, recursion). Illustrative problems:
 find [minimum in a list](http://j.mp/matrixMultiplyCC), insert a card in a list of sorted cards, guess
 an integer number in a range, Towers of Hanoi.
 
-
 # UNIT II DATA, EXPRESSIONS, STATEMENTS 9
 
 Python interpreter and interactive mode; values and types: int, float,
@@ -73,37 +72,37 @@ file.
 **TEXT BOOKS:**
 
 1. Allen B. Downey, \`\`Think Python: How to Think Like a Computer
-Scientist‘‘, 2nd edition, Updated for Python 3, Shroff/O‘Reilly
-Publishers, 2016
-[Think Python V2 HTML](http://greenteapress.com/thinkpython2/html/index.html)
+   Scientist‘‘, 2nd edition, Updated for Python 3, Shroff/O‘Reilly
+   Publishers, 2016
+   [Think Python V2 HTML](http://greenteapress.com/thinkpython2/html/index.html)
 
 2. Guido van Rossum and Fred L. Drake Jr, ―An Introduction to Python –
-Revised and updated for Python 3.2, Network Theory Ltd., 2011.
+   Revised and updated for Python 3.2, Network Theory Ltd., 2011.
 
 **REFERENCES:**
 
 1. John V Guttag, ―Introduction to Computation and Programming Using
-Python‘‘, Revised and
+   Python‘‘, Revised and
 
 expanded Edition, MIT Press , 2013
 
 2. Robert Sedgewick, Kevin Wayne, Robert Dondero, ―Introduction to
-Programming in Python:
+   Programming in Python:
 
 An Inter-disciplinary Approach, Pearson India Education Services Pvt.
 Ltd., 2016.
 
 3. Timothy A. Budd, ―Exploring Python‖, Mc-Graw Hill Education (India)
-Private Ltd.,, 2015.
+   Private Ltd.,, 2015.
 
 4. Kenneth A. Lambert, ―Fundamentals of Python: First Programs‖,
-CENGAGE Learning, 2012.
+   CENGAGE Learning, 2012.
 
 5. Charles Dierbach, ―Introduction to Computer Science using Python: A
-Computational Problem- Solving Focus, Wiley India Edition, 2013.
+   Computational Problem- Solving Focus, Wiley India Edition, 2013.
 
 6. Paul Gries, Jennifer Campbell and Jason Montojo, ―Practical
-Programming: An Introduction to
+   Programming: An Introduction to
 
 Computer Science using Python 3‖, Second edition, Pragmatic
 Programmers, LLC, 2013.

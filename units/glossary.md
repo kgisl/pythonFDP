@@ -1,357 +1,351 @@
-
-
-Want a ToC? View at [http://j.mp/pyGlossary](http://j.mp/pyGlossary)  
+Want a ToC? View at [http://j.mp/pyGlossary](http://j.mp/pyGlossary)
 
 # ~30 Important Terms
 
 ## 1 argument
-> A value passed to a function (or method) when calling the 
-function. 
-> Contrast that with:  [parameter](#parameter) - a variable 
-declared in a function (or method) for representing an 
-argument. 
+
+> A value passed to a function (or method) when calling the
+> function.
+> Contrast that with: [parameter](#parameter) - a variable
+> declared in a function (or method) for representing an
+> argument.
 
 There are two kinds of argument:
 
 ### keyword argument
 
-an argument preceded by an identifier (e.g. name=) in a 
-function call or  passed as a value in a dictionary 
-preceded by **.  For example, 3 and 5 are both keyword 
+an argument preceded by an identifier (e.g. name=) in a
+function call or passed as a value in a dictionary
+preceded by \*\*. For example, 3 and 5 are both keyword
 arguments in the following calls to `complex()`:
 
-	complex(real=3, imag=5)
-	complex(**{'real': 3, 'imag': 5})
-
-
+    complex(real=3, imag=5)
+    complex(**{'real': 3, 'imag': 5})
 
 ### positional argument
+
 ...is an argument that is not a **keyword** argument.
 
-Positional arguments can appear at the beginning of an 
-argument list and/or be passed as elements of an iterable 
-preceded by `*`. For example, 3 and 5 are both positional 
+Positional arguments can appear at the beginning of an
+argument list and/or be passed as elements of an iterable
+preceded by `*`. For example, 3 and 5 are both positional
 arguments in the following calls:
 
-	complex(3, 5)
-	complex(*(3, 5))
+    complex(3, 5)
+    complex(*(3, 5))
 
-Arguments are assigned to the named local variables (aka 
+Arguments are assigned to the named local variables (aka
 parameters) in a function body.
-See the Calls section for the rules governing this 
-assignment. Syntactically, any expression can be used to 
-represent an argument; the evaluated value is assigned to 
-the local variable. See also the [parameter](#parameter) 
-glossary entry, the [FAQ question](http://j.mp/argsVsParams) 
-on the difference between arguments and parameters, and 
-[PEP  362](http://j.mp/pep362_doc).
-
+See the Calls section for the rules governing this
+assignment. Syntactically, any expression can be used to
+represent an argument; the evaluated value is assigned to
+the local variable. See also the [parameter](#parameter)
+glossary entry, the [FAQ question](http://j.mp/argsVsParams)
+on the difference between arguments and parameters, and
+[PEP 362](http://j.mp/pep362_doc).
 
 ## 2 attribute
-A value associated with an object which is referenced by 
-name using dotted expressions.  For example, if an object 
-`o` has an attribute  a` it would be referenced as `o.a`.
 
+A value associated with an object which is referenced by
+name using dotted expressions. For example, if an object
+`o` has an attribute a`it would be referenced as`o.a`.
 
 ## 3 BDFL
+
 Benevolent Dictator For Life, a.k.a. Guido van Rossum, Python’s creator.  
 ![guido](https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg)
 
 ## 4 binary file
-A file object able to read and write bytes-like objects. 
-Examples of binary files are   
-  - files opened in binary mode (`'rb'`, `'wb'` or 
-`'rb+'`), 
-  - `sys.stdin.buffer`, 
-  - `sys.stdout.buffer`, and 
-  - instances of `io.BytesIO` and `gzip.GzipFile`.
+
+A file object able to read and write bytes-like objects.
+Examples of binary files are
+
+- files opened in binary mode (`'rb'`, `'wb'` or
+  `'rb+'`),
+- `sys.stdin.buffer`,
+- `sys.stdout.buffer`, and
+- instances of `io.BytesIO` and `gzip.GzipFile`.
 
 See also
 A text file reads and writes string objects.
 
-
 ## 5 coroutine
-Coroutines is a more generalized form of subroutines. 
-Subroutines are entered at one point and exited at another 
-point. Coroutines can be entered, exited, and resumed at 
-many different points. They can be implemented with the 
+
+Coroutines is a more generalized form of subroutines.
+Subroutines are entered at one point and exited at another
+point. Coroutines can be entered, exited, and resumed at
+many different points. They can be implemented with the
 async `def` statement. See also PEP 492.
 
-	def fizzBuzz(number): 
-		if number%3: 
-			return "Fizz"
-		if number%5: 
-			return "Buzz" 
-		return number
+    def fizzBuzz(number):
+    	if number%3:
+    		return "Fizz"
+    	if number%5:
+    		return "Buzz"
+    	return number
 
-The above **coroutine** `fizzBuzz` has three exit points 
-(the three `return` statements). 
-
-
+The above **coroutine** `fizzBuzz` has three exit points
+(the three `return` statements).
 
 ## 6 dictionary
-An associative array, where arbitrary keys are mapped to 
-values.  The keys can be any object with __hash__() and 
-__eq__() methods. 
 
-	adict = dict() # initialization
-	adict['Sam'] = 233-2333
-	adict['Victor'] = 900-2222
-	
+An associative array, where arbitrary keys are mapped to
+values. The keys can be any object with **hash**() and
+**eq**() methods.
 
+    adict = dict() # initialization
+    adict['Sam'] = 233-2333
+    adict['Victor'] = 900-2222
 
 ## 7 dictionary view
-The objects returned from `dict.keys()`, `dict.values()`, 
-and `dict.items()` are called dictionary views. They 
-provide a dynamic view on the dictionary’s entries, which 
-means that when the dictionary changes, the view reflects 
-these changes. To force the dictionary view to become a 
-full list use `list(dictview)`.  
 
+The objects returned from `dict.keys()`, `dict.values()`,
+and `dict.items()` are called dictionary views. They
+provide a dynamic view on the dictionary’s entries, which
+means that when the dictionary changes, the view reflects
+these changes. To force the dictionary view to become a
+full list use `list(dictview)`.
 
 ## 8 docstring
-A string literal which appears as the first expression in a 
-class, function or module.  While ignored when the suite is 
-executed, it is recognized by the compiler and put into the 
-__doc__ attribute of the enclosing class, function or 
-module.  Since it is available via introspection, it is the 
+
+A string literal which appears as the first expression in a
+class, function or module. While ignored when the suite is
+executed, it is recognized by the compiler and put into the
+**doc** attribute of the enclosing class, function or
+module. Since it is available via introspection, it is the
 canonical place for documentation of the object.
 
-
 ## 9 expression
-A piece of syntax which can be evaluated to some value.  In 
-other words, an expression is an accumulation of expression 
-elements like literals, names, attribute access, operators 
-or function calls which all return a value.  In contrast to 
-many other languages, not all language constructs are 
-expressions.  There are also statements which cannot be used
-as expressions, such as the conditional `if`.  Assignments 
-are also statements, not expressions.  
 
-The _evaluation of an expression_ produces a value, which 
-is why  expressions can appear on the right hand side of 
-assignment statements.  A value all by itself is a simple 
-expression, and so is a variable. Evaluating a variable 
+A piece of syntax which can be evaluated to some value. In
+other words, an expression is an accumulation of expression
+elements like literals, names, attribute access, operators
+or function calls which all return a value. In contrast to
+many other languages, not all language constructs are
+expressions. There are also statements which cannot be used
+as expressions, such as the conditional `if`. Assignments
+are also statements, not expressions.
+
+The _evaluation of an expression_ produces a value, which
+is why expressions can appear on the right hand side of
+assignment statements. A value all by itself is a simple
+expression, and so is a variable. Evaluating a variable
 gives the value that the variable refers to.
 
-	3.141569   # is a value, and therefore a simple expression
-	pi = 3.141569  # is an assignment statement 
-	radius = 5     # is an assignment statement
-	2*pi*radius    # is an expression that evaluates to 31.4
-	
-
+    3.141569   # is a value, and therefore a simple expression
+    pi = 3.141569  # is an assignment statement
+    radius = 5     # is an assignment statement
+    2*pi*radius    # is an expression that evaluates to 31.4
 
 ## 10 file object
-An object exposing a file-oriented API (with methods such 
-as  `read()` or `write()`) to an underlying resource.  
-Depending on the way it was created, a file object can 
-mediate access to a real on-disk file or to another type of 
-storage or communication device (for example, standard 
-input/output, in-memory buffers, sockets, pipes, etc.).  
-File objects are also called file-like objects or streams. 
-There are actually three categories of file objects:  
-  - raw binary files  
-  - buffered binary files  
-  - text files  
 
-Their interfaces are defined in the `io` module.  The 
-canonical way to create a file object is by using the 
+An object exposing a file-oriented API (with methods such
+as `read()` or `write()`) to an underlying resource.  
+Depending on the way it was created, a file object can
+mediate access to a real on-disk file or to another type of
+storage or communication device (for example, standard
+input/output, in-memory buffers, sockets, pipes, etc.).  
+File objects are also called file-like objects or streams.
+There are actually three categories of file objects:
+
+- raw binary files
+- buffered binary files
+- text files
+
+Their interfaces are defined in the `io` module. The
+canonical way to create a file object is by using the
 `open()` function.
 
-
 ## 11 function
-A series of statements which returns some value to a 
-caller. It can also be passed zero or more arguments which 
-may be used in the execution of the body. See also 
+
+A series of statements which returns some value to a
+caller. It can also be passed zero or more arguments which
+may be used in the execution of the body. See also
 parameter, method, and the Function definitions section.
 
-
 ## 12 immutable
-An object with a fixed value.  Immutable objects include 
-numbers, strings and tuples.  Such an object cannot be 
-altered.  A new object has to be created if a different 
-value has to be stored.  They play an important role in 
-places where a constant hash value is needed, for example 
+
+An object with a fixed value. Immutable objects include
+numbers, strings and tuples. Such an object cannot be
+altered. A new object has to be created if a different
+value has to be stored. They play an important role in
+places where a constant hash value is needed, for example
 as a key in a dictionary.
 
-
 ## 13 iterable
-An object capable of returning its members one at a time. 
-Examples of iterables include all sequence types (such as 
-list, str, and tuple) and some non-sequence types like 
-dict, file objects, and objects of any classes you define 
-with an __iter__() or __getitem__() method. Iterables can 
-be used in a for loop and in many other places where a 
-sequence is needed (`zip()`, `map()`, `...`). When an 
-iterable object  is passed as an argument to the built-in 
-function `iter()`,  it returns an iterator for the object. 
-This iterator is  good for one pass over the set of values. 
-When using iterables, it is usually not necessary to call 
-`iter()` or  deal with iterator objects yourself. The `for` 
-statement  does that automatically for you, creating 
-a temporary unnamed variable to hold the iterator for the 
-duration of the loop.   
+
+An object capable of returning its members one at a time.
+Examples of iterables include all sequence types (such as
+list, str, and tuple) and some non-sequence types like
+dict, file objects, and objects of any classes you define
+with an **iter**() or **getitem**() method. Iterables can
+be used in a for loop and in many other places where a
+sequence is needed (`zip()`, `map()`, `...`). When an
+iterable object is passed as an argument to the built-in
+function `iter()`, it returns an iterator for the object.
+This iterator is good for one pass over the set of values.
+When using iterables, it is usually not necessary to call
+`iter()` or deal with iterator objects yourself. The `for`
+statement does that automatically for you, creating
+a temporary unnamed variable to hold the iterator for the
+duration of the loop.
 
 See also iterator, sequence, and generator.
 
-
 ## 14 keyword argument
+
 See [argument](#keyword-argument).
 
-
 ## 15 list
-A built-in Python sequence.  Despite its name, it is more 
-akin to an array in other languages than to a linked list 
+
+A built-in Python sequence. Despite its name, it is more
+akin to an array in other languages than to a linked list
 since access to elements are `O(1)`.
 
-
 ## 16 list comprehension
+
 _also see [http://j.mp/listBenefit](http://j.mp/listBenefit) and [http://j.mp/listComprehension](http://j.mp/listComprehension)_  
-A compact way to process all or part of the elements in a 
-sequence and return a list with the results.  
+A compact way to process all or part of the elements in a
+sequence and return a list with the results.
 
-	result = ['{:#04x}'.format(x) for x in range(256)
-	          if x % 2 == 0
-	          ]
-	# ['0x00', '0x02', '0x04', '0x06', '0x08', 
-	'0x0a','0x0c', '0x0e', '0x10', '0x12', 
-	'0x14', '0x16', ...]
+    result = ['{:#04x}'.format(x) for x in range(256)
+              if x % 2 == 0
+              ]
+    # ['0x00', '0x02', '0x04', '0x06', '0x08',
+    '0x0a','0x0c', '0x0e', '0x10', '0x12',
+    '0x14', '0x16', ...]
 
-generates a list of strings containing even hex numbers 
-`(0x..)`  in the range from `0` to `255`. The `if` clause 
-is optional. If omitted, all elements in `range(256)` are 
-processed.  
-
+generates a list of strings containing even hex numbers
+`(0x..)` in the range from `0` to `255`. The `if` clause
+is optional. If omitted, all elements in `range(256)` are
+processed.
 
 ## 17 mapping
+
 A container object that supports arbitrary key lookups and  
 implements the methods specified in the `Mapping` or  
-`MutableMapping` abstract base classes.  
+`MutableMapping` abstract base classes.
 
-Examples include 
- - `dict`, 
- - `collections.defaultdict`,
- - `collections.OrderedDict` and 
- - `collections.Counter`
+Examples include
 
+- `dict`,
+- `collections.defaultdict`,
+- `collections.OrderedDict` and
+- `collections.Counter`
 
 ## 18 method
-A function which is defined inside a class body.  If called 
-as an attribute of an instance of that class, the method 
-will get the instance object as its first argument (which 
-is usually called `self`).  
 
-See function and nested scope.  
+A function which is defined inside a class body. If called
+as an attribute of an instance of that class, the method
+will get the instance object as its first argument (which
+is usually called `self`).
 
+See function and nested scope.
 
 ## 19 module
-An object that serves as an organizational unit of Python 
-code. Modules have a namespace containing arbitrary Python 
-objects. Modules are loaded into Python by the process of 
-importing.  
+
+An object that serves as an organizational unit of Python
+code. Modules have a namespace containing arbitrary Python
+objects. Modules are loaded into Python by the process of
+importing.
 
 See also package.
 
-
-
 ## 20 mutable
-Mutable objects can change their value but keep their id(). 
- See also immutable.
 
+Mutable objects can change their value but keep their id().
+See also immutable.
 
 ## 21 package
-A Python module which can contain submodules or 
-recursively, subpackages.  Technically, a package is a 
-Python module with an __path__ attribute.
+
+A Python module which can contain submodules or
+recursively, subpackages. Technically, a package is a
+Python module with an **path** attribute.
 
 See also regular package and namespace package.
 
-
-
 ## 22 parameter
-A named entity in a function (or method) definition that 
-specifies an argument (or in some cases, arguments) that 
-the function can accept.  There are five kinds of parameter:
 
-**positional-or-keyword:** specifies an argument that can 
+A named entity in a function (or method) definition that
+specifies an argument (or in some cases, arguments) that
+the function can accept. There are five kinds of parameter:
+
+**positional-or-keyword:** specifies an argument that can
 be passed either positionally or as a keyword argument.  
-This is the default kind  of parameter, for example foo and 
+This is the default kind of parameter, for example foo and
 bar in the following:
 
-	def func(foo, bar=None):
-		...
+    def func(foo, bar=None):
+    	...
 
-**positional-only**: specifies an argument that can be 
-supplied only by position.  Python has no syntax for 
-defining positional-only parameters.  However, some 
-built-in functions have positional-only parameters (e.g. 
-`abs()`).  
+**positional-only**: specifies an argument that can be
+supplied only by position. Python has no syntax for
+defining positional-only parameters. However, some
+built-in functions have positional-only parameters (e.g.
+`abs()`).
 
-
-**keyword-only**: specifies an argument that can be 
-supplied only by keyword.  Keyword-only parameters can be 
-defined by including a single var-positional parameter or 
-bare `*` in the parameter list of the function definition 
-before them. For example, `kw_only1` and `kw_only2` in the 
+**keyword-only**: specifies an argument that can be
+supplied only by keyword. Keyword-only parameters can be
+defined by including a single var-positional parameter or
+bare `*` in the parameter list of the function definition
+before them. For example, `kw_only1` and `kw_only2` in the
 following:
 
-	def func(arg, *, kw_only1, kw_only2): 
-		...
+    def func(arg, *, kw_only1, kw_only2):
+    	...
 
-
-**var-positional**: specifies that an arbitrary sequence of 
-positional arguments can be provided (in addition to any 
-positional arguments already accepted by other parameters). 
- Such a parameter can be defined by prepending the 
-parameter name with `*`, for example `args` in the 
+**var-positional**: specifies that an arbitrary sequence of
+positional arguments can be provided (in addition to any
+positional arguments already accepted by other parameters).
+Such a parameter can be defined by prepending the
+parameter name with `*`, for example `args` in the
 following:
 
-	def func(*args, **kwargs): 
-		...
+    def func(*args, **kwargs):
+    	...
 
-**var-keyword**: specifies that arbitrarily many keyword 
-arguments can be provided (in addition to any keyword 
-arguments already accepted by other parameters).  Such a 
-parameter can be defined by prepending the parameter name 
+**var-keyword**: specifies that arbitrarily many keyword
+arguments can be provided (in addition to any keyword
+arguments already accepted by other parameters). Such a
+parameter can be defined by prepending the parameter name
 with `**`, for example `kwargs` in the example above.
 
-Parameters can specify both optional and required 
-arguments, as well as default values for some optional 
+Parameters can specify both optional and required
+arguments, as well as default values for some optional
 arguments.
 
-See also the `argument` glossary entry, the FAQ question on 
+See also the `argument` glossary entry, the FAQ question on
 the difference between arguments and parameters, inspect,  
-Parameter class, the Function definitions section, and PEP 
-362.  
-
+Parameter class, the Function definitions section, and PEP 362.
 
 ## 23 positional argument
+
 See [argument](#positional-argument).
 
+## 24 sequence
 
-## 24 sequence  
-An iterable which supports efficient element access using 
-integer indices via the __getitem__() special method and 
-defines a __len__() method that returns the length of the 
-sequence. Some built-in sequence types are list, str, 
-tuple, and bytes. Note that dict also supports 
-__getitem__() and __len__(), but is considered a mapping 
-rather than a sequence because the lookups use arbitrary 
+An iterable which supports efficient element access using
+integer indices via the **getitem**() special method and
+defines a **len**() method that returns the length of the
+sequence. Some built-in sequence types are list, str,
+tuple, and bytes. Note that dict also supports
+**getitem**() and **len**(), but is considered a mapping
+rather than a sequence because the lookups use arbitrary
 immutable keys rather than integers.
 
-The `collections.abc.Sequence` abstract base class defines 
-a much richer interface that goes beyond just __getitem__() 
-and __len__(), adding `count()`, `index()`, __contains__(), 
-and __reversed__(). Types that implement this expanded 
+The `collections.abc.Sequence` abstract base class defines
+a much richer interface that goes beyond just **getitem**()
+and **len**(), adding `count()`, `index()`, **contains**(),
+and **reversed**(). Types that implement this expanded
 interface can be registered explicitly using`register()`.
 
-
 ## 25 slice
+
 _also see [http://j.mp/sliceObject](http://j.mp/sliceObject)_  
-An object usually containing a **`portion`** of a sequence.  A 
-slice is created using the subscript notation, `[]` with 
-colons between numbers when several are given, such as in 
-`variable_name[1:3:5]`.  The bracket (subscript) notation 
+An object usually containing a **`portion`** of a sequence. A
+slice is created using the subscript notation, `[]` with
+colons between numbers when several are given, such as in
+`variable_name[1:3:5]`. The bracket (subscript) notation
 uses slice objects internally.
 
 ```python
@@ -370,59 +364,59 @@ print(a[everyThird]) # [1, 4, 7]
 ```
 
 ## 26 special method
-A method that is called implicitly by Python to execute a 
-certain operation on a type, such as addition.  Such 
-methods have names starting and ending with double 
-underscores. Special methods are documented in Special 
-method names.  
 
+A method that is called implicitly by Python to execute a
+certain operation on a type, such as addition. Such
+methods have names starting and ending with double
+underscores. Special methods are documented in Special
+method names.
 
 ## 27 statement
-A statement is part of a suite (a “block” of code).  A 
-statement is either an expression or one of several 
+
+A statement is part of a suite (a “block” of code). A
+statement is either an expression or one of several
 constructs with a keyword, such as if, while or for.
 
-
 ## 28 text file
-A file object able to read and write string objects. Often, 
-a text file actually accesses a byte-oriented datastream 
+
+A file object able to read and write string objects. Often,
+a text file actually accesses a byte-oriented datastream
 and handles the text encoding automatically.
-Examples of text files are 
-  - files opened in text mode (`'r'` or `'w'`),
-  - sys.stdin, sys.stdout, and 
-  - instances of `io.StringIO`.
+Examples of text files are
+
+- files opened in text mode (`'r'` or `'w'`),
+- sys.stdin, sys.stdout, and
+- instances of `io.StringIO`.
 
 See also:  
 A binary file reads and write bytes objects.
 
-
-
-
 ## 29 triple-quoted string
-A string which is bound by three instances of either a 
-quotation mark (`”`) or an apostrophe (`‘`).  While 
-they don’t provide any functionality not available with 
-single-quoted strings, they are useful for a number of 
-reasons.  They allow you to include unescaped single and 
-double quotes within a string and they can span multiple 
-lines without the use of the continuation character, making 
+
+A string which is bound by three instances of either a
+quotation mark (`”`) or an apostrophe (`‘`). While
+they don’t provide any functionality not available with
+single-quoted strings, they are useful for a number of
+reasons. They allow you to include unescaped single and
+double quotes within a string and they can span multiple
+lines without the use of the continuation character, making
 them especially useful when
-writing `docstrings`.  
+writing `docstrings`.
 
-## 30 tuple 
+## 30 tuple
 
-A tuple is an [**`immutable`**](#immutable) sequence type.  Tuples 
+A tuple is an [**`immutable`**](#immutable) sequence type. Tuples
 are sequences, just like lists. The differences between  
-tuples and lists are:  
-  - the tuples cannot be changed unlike lists and 
-  - tuples use parentheses, whereas lists use square 
-brackets
+tuples and lists are:
 
-The elements in a tuple cannot be replaced or deleted. 
-New elements cannot be added to the tuple. 
-However if an element in a tuple is mutable, 
-that element *alone* can be modified.
+- the tuples cannot be changed unlike lists and
+- tuples use parentheses, whereas lists use square
+  brackets
 
+The elements in a tuple cannot be replaced or deleted.
+New elements cannot be added to the tuple.
+However if an element in a tuple is mutable,
+that element _alone_ can be modified.
 
 ```python
 atuple = (1, [2, 3], 4)
@@ -439,18 +433,19 @@ print(atuple)
 (1, [5, 2], 4)
 
 ```
+
 What are the four ways to construct a tuple? See [here](http://bit.ly/tupleDoc "refer to official documentation").
--   Using a pair of parentheses to denote the empty tuple:  `()`
--   Using a trailing comma for a singleton tuple:  `a,`  or  `(a,)`
--   Separating items with commas:  `a,  b,  c`  or  `(a,  b,  c)`
--   Using the  [`tuple()`](http://bit.ly/tupleDoc "tuple")  built-in:  `tuple()`  or  `tuple(iterable)`
+
+- Using a pair of parentheses to denote the empty tuple: `()`
+- Using a trailing comma for a singleton tuple: `a,` or `(a,)`
+- Separating items with commas: `a, b, c` or `(a, b, c)`
+- Using the [`tuple()`](http://bit.ly/tupleDoc "tuple") built-in: `tuple()` or `tuple(iterable)`
 
 ## 31 Zen of Python
-Listing of Python design principles and philosophies that 
-are helpful in understanding and using the language.  The 
-listing can be found by typing `import this` at the 
+
+Listing of Python design principles and philosophies that
+are helpful in understanding and using the language. The
+listing can be found by typing `import this` at the
 interactive prompt.
 
-----
-
-
+---

@@ -1,11 +1,10 @@
 ## **UNIT II**
 
-___
-
+---
 
 ## **DATA, EXPRESSIONS, STATEMENTS**
 
-___
+---
 
 Python interpreter and interactive mode - values and types: int, float, boolean,
 string, and list- variables, expressions, statements-tuple assignment-
@@ -14,55 +13,55 @@ and use - flow of execution - Parameters and arguments - Illustrative programs:
 exchange the values of two variables, circulate the values of n variables,
 distance between two points.
 
-___
+---
 
 **TABLE OF CONTENTS**
 
--   Unit II -- Data, Expressions and Statements
+- Unit II -- Data, Expressions and Statements
 
-    -   The Python Programming language
+  - The Python Programming language
 
-    -   Python Interpreter and its mode
+  - Python Interpreter and its mode
 
-        -   Normal Mode
+    - Normal Mode
 
-        -   Interactive Mode
+    - Interactive Mode
 
-    -   Value and Types
+  - Value and Types
 
-        -   Integer
+    - Integer
 
-        -   Float
+    - Float
 
-        -   Boolean
+    - Boolean
 
-        -   String
+    - String
 
-        -   List
+    - List
 
-    -   Variable Expression and Statements
+  - Variable Expression and Statements
 
-    -   Tuple Assignment
+  - Tuple Assignment
 
-    -   Operators and Precedence
+  - Operators and Precedence
 
-        -   Operators
+    - Operators
 
-        -   Operator Precedence and Associativity
+    - Operator Precedence and Associativity
 
-    -   Comments
+  - Comments
 
-    -   Modules and Functions
+  - Modules and Functions
 
-        -   Function Definition
+    - Function Definition
 
-            -   Function Call
+      - Function Call
 
-        -   Flow of Execution
+    - Flow of Execution
 
-        -   Parameter and Arguments
+    - Parameter and Arguments
 
-        -   Modules
+    - Modules
 
 **2.0 The Python programming language**
 
@@ -75,15 +74,14 @@ run. A program needs to be translated in to a low level language that a machine
 There are two kinds of programs process high-level languages into low-level
 languages:
 
--   Interpreters
+- Interpreters
 
--   Compiler
+- Compiler
 
 An **interpreter** processes the program a little at a time, alternately reading
 lines and performing computations.
 
 ![alt text](Unit2-img/interpreter.png)
-
 
 In the above diagram a python program is the source code and the interpreter
 translates and executes the statement.
@@ -101,7 +99,6 @@ source code, and the translated program is called the object code or the
 executable. Once a program is compiled, you can execute it repeatedly without
 further translation.
 
-
 ![alt text](Unit2-img/Compiler.png)
 
 **2.1 Python Interpreter and its mode:**
@@ -111,9 +108,9 @@ interpreter reads your program and carries out the instructions it contains.
 
 Python Interpreter operates in two modes:
 
--   Normal Mode or Script Mode
+- Normal Mode or Script Mode
 
--   Interactive Mode
+- Interactive Mode
 
 **2.1.1 Normal Mode**
 
@@ -143,15 +140,15 @@ operating system it's running on. The last line is a prompt that indicates that
 the interpreter is ready for you to enter code.
 
 If you type a line of code and hit Enter, the interpreter displays the result:
-                
+
                 >>> 1 + 1
                     2
 
 The basic method for working with interactive mode is simply this:
 
--   Type a Statement or Expression
+- Type a Statement or Expression
 
--   Press the Enter Key
+- Press the Enter Key
 
 Let's try to increment a value in the interactive mode
 
@@ -160,7 +157,6 @@ Let's try to increment a value in the interactive mode
 Let's try it with a variable
 
 ![alt text](Unit2-img/2.1.5.png)
-
 
 As you can observe the interactive interpreter automatically prints the results
 of expressions, you do not need to type complete print statements interactively.
@@ -210,7 +206,6 @@ other than base 10 numbers.
 
         0x or 0X -- Hexadecimal
 
-
 ![alt text](Unit2-img/2.2.3.png)
 
 **Floating-Point Numbers**
@@ -248,8 +243,6 @@ written with square brackets.
 A list can contain different types of data\`s in it. The example above shows
 integer, float and string data being present in it.
 
-
-
 **2.3 VARIABLES, EXPRESSION AND STATEMENT**
 
 **Variables:** A variable is a name that refers to a value.
@@ -267,19 +260,19 @@ Let briefly discuss about variables, expression and statements.
 Variables refer to a value. Every variable has a name associated with it. There
 are rules usually programmers follow in naming a variable.
 
--   A variable name can contain both letter and numbers but they can\`t begin
-    with a number.
+- A variable name can contain both letter and numbers but they can\`t begin
+  with a number.
 
-        Ex., **number1** is legal, but **1drivelink** is illegal.
+      Ex., **number1** is legal, but **1drivelink** is illegal.
 
--   It is legal to use uppercase letters, but it is conventional to use only
-    lowercase for variables names.
+- It is legal to use uppercase letters, but it is conventional to use only
+  lowercase for variables names.
 
--   The underscore character, \_ , can appear in a name.
+- The underscore character, \_ , can appear in a name.
 
-        Ex., your_name or airspeed_of_unladen_swallow.
+      Ex., your_name or airspeed_of_unladen_swallow.
 
--   A variable name cannot be a keyword.
+- A variable name cannot be a keyword.
 
 ![alt text](Unit2-img/2.3.1.png)
 
@@ -351,17 +344,17 @@ an operator acts on are called operands.
 
 There are various types of operators,
 
--   Arithmetic Operator
+- Arithmetic Operator
 
--   Comparison Operator
+- Comparison Operator
 
--   Logical Operator
+- Logical Operator
 
--   Assignment Operator
+- Assignment Operator
 
--   Identity Operator
+- Identity Operator
 
--   Membership Operator
+- Membership Operator
 
 **Arithmetic operators**
 
@@ -369,7 +362,7 @@ Arithmetic operators are used to perform mathematical operations like addition,
 subtraction, multiplication etc.
 
 | **Operator** | **Meaning**                                                                                      | **Example**               |
-|--------------|--------------------------------------------------------------------------------------------------|---------------------------|
+| ------------ | ------------------------------------------------------------------------------------------------ | ------------------------- |
 | \+           | Add two operands or unary plus                                                                   | x + y                     |
 | \-           | Subtract right operand from the left                                                             | x - y                     |
 | \*           | Multiply two operands                                                                            | x \* y                    |
@@ -386,7 +379,7 @@ Comparison operators are used to compare values. It either returns True or False
 according to the condition.
 
 | **Operator** | **Meaning**                                                                            | **Example** |
-|--------------|----------------------------------------------------------------------------------------|-------------|
+| ------------ | -------------------------------------------------------------------------------------- | ----------- |
 | \>           | Greater than - True if left operand is greater than the right                          | x \> y      |
 | \<           | Less than - True if left operand is less than the right                                | x \< y      |
 | ==           | Equal to - True if both operands are equal                                             | x == y      |
@@ -402,7 +395,7 @@ Logical Operators are used to combine the true or false value of variables and
 provides a resultant truth value.
 
 | **Operator** | **Meaning**                                        | **Example** |
-|--------------|----------------------------------------------------|-------------|
+| ------------ | -------------------------------------------------- | ----------- |
 | and          | True if both the operands are true                 | x and y     |
 | or           | True if either of the operands is true             | x or y      |
 | not          | True if operand is false (complements the operand) | not x       |
@@ -420,7 +413,7 @@ There are various compound operators in Python like a += 5 that adds to the
 variable and later assigns the same. It is equivalent to a = a + 5.
 
 | **Operator** | **Example** | **Equivalent to** |
-|--------------|-------------|-------------------|
+| ------------ | ----------- | ----------------- |
 | =            | x = 5       | x = 5             |
 | \+=          | x += 5      | x = x + 5         |
 | \-=          | x -= 5      | x = x - 5         |
@@ -438,13 +431,11 @@ Identity operators are used to verify if two variables point to the same memory
 location or not.
 
 | **Operator** | **Meaning**                                                              | **Example**   |
-|--------------|--------------------------------------------------------------------------|---------------|
+| ------------ | ------------------------------------------------------------------------ | ------------- |
 | is           | True if the operands are identical (refer to the same object)            | x is True     |
 | is not       | True if the operands are not identical (do not refer to the same object) | x is not True |
 
-
 ![alt text](Unit2-img/identity.png)
-
 
 **Membership Operators**
 
@@ -453,7 +444,7 @@ operators are used to find out whether a value is a member of a sequence such as
 string or list.
 
 | **Operator** | **Meaning**                                         | **Example** |
-|--------------|-----------------------------------------------------|-------------|
+| ------------ | --------------------------------------------------- | ----------- |
 | in           | True if value/variable is found in the sequence     | 5 in x      |
 | not in       | True if value/variable is not found in the sequence | 5 not in x  |
 
@@ -469,37 +460,37 @@ evaluation order, called PEMDAS rule, which is an acronym for Parenthesis,
 Exponentiation, Multiplication, Division, Addition and Subtraction. Mathematical
 operators in python also follow the same rule. We call these rules as operator Precedence.
 
--   Parentheses have the highest precedence and can be used to force an
-    expression to evaluate in the order you want.
+- Parentheses have the highest precedence and can be used to force an
+  expression to evaluate in the order you want.
 
-    **Example:** 2 * (3-1) is 4, and (1+1) ** (5-2) is 8.
-        
--   Exponentiation has the next highest precedence.
+  **Example:** 2 \* (3-1) is 4, and (1+1) \*\* (5-2) is 8.
 
-    **Example:** 1 + 2**3 is 9, not 27
+- Exponentiation has the next highest precedence.
 
--   Multiplication and Division have higher precedence than Addition and
-    Subtraction.
+  **Example:** 1 + 2\*\*3 is 9, not 27
 
-    **Example:** 2*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
+- Multiplication and Division have higher precedence than Addition and
+  Subtraction.
 
--   Operators with the same precedence are evaluated from left to right
+  **Example:** 2\*3-1 is 5, not 4, and 6+4/2 is 8, not 5.
 
-    **Example:** degrees / 2 * pi, here division is performed first and then
-      multiplication happens.
+- Operators with the same precedence are evaluated from left to right
+
+  **Example:** degrees / 2 \* pi, here division is performed first and then
+  multiplication happens.
 
 ![alt text](Unit2-img/Operator_Precedence.png)
 
 **Associativity :**
 
-Associativity is the order in which Python evaluates an expression containing multiple operators of the same precedence. 
-Almost all operators except the exponent (**) support the left-to-right associativity.
+Associativity is the order in which Python evaluates an expression containing multiple operators of the same precedence.
+Almost all operators except the exponent (\*\*) support the left-to-right associativity.
 
-For example, the product (*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
+For example, the product (\*) and the modulus (%) have the same precedence. So, if both appear in an expression, then the left one will get evaluated first.
 
 ![alt text](Unit2-img/LRAssociativity.png)
 
-The only operator which has right-to-left associativity in Python is the exponent (**) operator. In the example below you may notice that the expression is evaluated from the right side  and the result is passed to the other operator.
+The only operator which has right-to-left associativity in Python is the exponent (\*\*) operator. In the example below you may notice that the expression is evaluated from the right side and the result is passed to the other operator.
 
 ![alt text](Unit2-img/RLAssociativity.png)
 
@@ -541,7 +532,7 @@ Syntax for function definition:
     def function_name (parameters):
 
         """docstring"""
-    
+
         statement(s)
 
 The first line of the function definition is called the header. The rest is
@@ -651,11 +642,11 @@ function, separated by a. This format is called dot notation.
 In the above figure two math functions were called, one find the square root of
 a number and the other prints the power of a number.
 
-___
+---
 
 ## **Bonus Section:**
 
-___
+---
 
 **Bitwise Operators**
 
@@ -675,7 +666,7 @@ In the below example, Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in
 binary)
 
 | **Operator** | **Meaning**         | **Example**              |
-|--------------|---------------------|--------------------------|
+| ------------ | ------------------- | ------------------------ |
 | &            | Bitwise AND         | x& y = 0 (0000 0000)     |
 | \|           | Bitwise OR          | x \| y = 14 (0000 1110)  |
 | \~           | Bitwise NOT         | \~x = -11 (1111 0101)    |
@@ -689,7 +680,7 @@ The operator precedence in Python are listed in the following table. The upper
 group has higher precedence than the lower ones.
 
 | **Operators**                                    | **Meaning**                                       |
-|--------------------------------------------------|---------------------------------------------------|
+| ------------------------------------------------ | ------------------------------------------------- |
 | ()                                               | Parentheses                                       |
 | \*\*                                             | Exponent                                          |
 | \+x, -x, \~x                                     | Unary plus, Unary minus, Bitwise NOT              |
@@ -718,7 +709,7 @@ Here is the list of all the functions and attributes defined in math module with
 a brief explanation of what they do.
 
 | **Function**   | **Description**                                                                             |
-|----------------|---------------------------------------------------------------------------------------------|
+| -------------- | ------------------------------------------------------------------------------------------- |
 | ceil(x)        | Returns the smallest integer greater than or equal to x.                                    |
 | copysign(x,y)  | Returns x with the sign of y                                                                |
 | fabs(x)        | Returns the absolute value of x                                                             |

@@ -1,94 +1,99 @@
-# Merge Sort 
+# Merge Sort
+
 _Lecture Guidelines_
-# Context setting 
+
+# Context setting
+
 Unit 4 -> Lists, Tuples and Dictionaries -> Illustrative Programs
-  - It is very important to use a data type in a real-world case, to understand its true value and benefit. 
-  - We are covering three types of sorts 
-	 - **Comparison** Algorithms - Insertion Sort and Selection Sort 
-	 - **Divide and Conquer** Algorithms - Merge Sort, Quick Sort
-  
-# Agenda 
+
+- It is very important to use a data type in a real-world case, to understand its true value and benefit.
+- We are covering three types of sorts
+  - **Comparison** Algorithms - Insertion Sort and Selection Sort
+  - **Divide and Conquer** Algorithms - Merge Sort, Quick Sort
+
+# Agenda
+
 - Over the next 20 minutes, we shall see how lists can be used to implement **Merge Sort**
 
-# Pre-req quiz 
-- Are you ready?
-	- Known to Unknown
-- Best practice of a engineering student is to come prepared for the class. 
-	- You must spend at least 2 hours reviewing the material taught in class, and preparing for the class 
- - Quiz 
-	 -  44+ MCQ in Online Socrative portal 
-		- Immediate feedback
-	- Paper based 
-			- Show of hands? How many completed it? Attempted it?
+# Pre-req quiz
 
-  - http://j.mp/mergeListCC 
+- Are you ready?
+  - Known to Unknown
+- Best practice of a engineering student is to come prepared for the class.
+  - You must spend at least 2 hours reviewing the material taught in class, and preparing for the class
+- Quiz
+
+  - 44+ MCQ in Online Socrative portal
+    - Immediate feedback
+  - Paper based - Show of hands? How many completed it? Attempted it?
+
+- http://j.mp/mergeListCC
 
 ## Interactive Coding
 
 ## Stage - 1
- - How to divide a sorted list into equal halves? 
- - How to merge the list back into original form? 
+
+- How to divide a sorted list into equal halves?
+- How to merge the list back into original form?
 
 ---
 
 ## Stage 2
 
-  - How to merge (combine) sorted list? 
-  - How to merge odd number list and even number list? 
-  - Use PythonAnywhere.com to zoom in and out of a `mergesort` verbose run 
+- How to merge (combine) sorted list?
+- How to merge odd number list and even number list?
+- Use PythonAnywhere.com to zoom in and out of a `mergesort` verbose run
 
-Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide  portion of the divide and conquer  method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer  portion of divide and conquer.
+Notice that at each level we divide the array into two halves until we get bunch of single element arrays. This is the divide portion of the divide and conquer method. Then, we start merging and sorting the smaller arrays in a series of steps which is the conquer portion of divide and conquer.
 
 ![merge](http://bit.ly/mergeVerbose)
 
-
-## Merge Sort Description 
+## Merge Sort Description
 
 tl;dr![tldr](http://bit.ly/tamilMerge)
-
 
 - InsertSort and SelectionSort are examples of **comparison** sorts
 - However, MergeSort, is an example of the **Divide-and-Conquer** algorithm sorts
 
-  - **Divide** means portioning the n-element array to be sorted into two sub-arrays of n/2 elements. If A is an array containing zero or one element, then it is already sorted. However, if there are more elements in the array, divide A into two sub-arrays, A1 and A2, each containing about half of the elements of A. 
+  - **Divide** means portioning the n-element array to be sorted into two sub-arrays of n/2 elements. If A is an array containing zero or one element, then it is already sorted. However, if there are more elements in the array, divide A into two sub-arrays, A1 and A2, each containing about half of the elements of A.
   - **Conquer** means sorting the two sub-arrays recursively using merge sort. Combine means merging the two sorted sub-arrays of size n/2 to produce the sorted array of n elements.
 
 ## Algorithm
 
 - In `mergesort`, a divide-and-conquer partitioning algorithm (which more often requires extra memory), the input array is divided in two halves, calls itself recursively for the two halves and then merges the two sorted halves. The `merge()` function is used for merging two halves.
 
-The basic steps in the recursive MergeSort Algorithm is as follows: 
+The basic steps in the recursive MergeSort Algorithm is as follows:
 
-	Func MERGESORT: 
-	    input (unsorted list of elements)  `ulist` 
-	    output (sorted list of elements)   `slist`
+    Func MERGESORT:
+        input (unsorted list of elements)  `ulist`
+        output (sorted list of elements)   `slist`
 
-	- TERMINAL CASE: 
-		- if size of list is 0 or 1, return (since it is sorted)
-	- Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist 
-	- Recursively call MergeSort on the left sublist (`leftA`) 
-	- Recursively call MergeSort on the right sublist (`leftB`) 
-	- Merge the sorted left and sorted right sublists to form one sorted list 
-	- Return the sorted list (`slist`) 
+    - TERMINAL CASE:
+    	- if size of list is 0 or 1, return (since it is sorted)
+    - Split the unsorted list (`ulist`) into equal sublists: left sublist and right sublist
+    - Recursively call MergeSort on the left sublist (`leftA`)
+    - Recursively call MergeSort on the right sublist (`leftB`)
+    - Merge the sorted left and sorted right sublists to form one sorted list
+    - Return the sorted list (`slist`)
 
 ## Source code
 
-Visualize at http://tinyurl.com/visualMerge 
+Visualize at http://tinyurl.com/visualMerge
 
 ```python
 # a helper function for the mergesort function
 # function to merge already sorted lists
-def merge(A, B): 
+def merge(A, B):
   C = []
   while A and B:
     candidate = (A if A[0] < B[0] else B).pop(0)
     C.append(candidate)
 
-  # pick up the residual elements in A or B	
+  # pick up the residual elements in A or B
   return C + A + B
 
-def mergesort(ulist): 
-  if len(ulist) <= 1: 
+def mergesort(ulist):
+  if len(ulist) <= 1:
     return ulist
 
   mid = len(ulist)//2
@@ -96,9 +101,9 @@ def mergesort(ulist):
   leftA    = ulist[:mid]
   rightB   = ulist[mid:]
 
-  sortedA  = mergesort(leftA) 
+  sortedA  = mergesort(leftA)
   sortedB  = mergesort(rightB)
-	
+
   slist = merge(sortedA, sortedB)
   return slist
 
@@ -109,50 +114,55 @@ print(mergesort(alist))
 # [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
-## Part 2 
-_Break Activity for the 20th min_ which also helps students review what was covered until now. 
-- Lead with the question: **Can you improve on the above logic?** How can you do it? Please discuss with your immediate neighbour. 
-	- Refer to the last question of the Pre-requisite Quiz
-		- Ask your faculty for more clues 
+## Part 2
 
+_Break Activity for the 20th min_ which also helps students review what was covered until now.
+
+- Lead with the question: **Can you improve on the above logic?** How can you do it? Please discuss with your immediate neighbour.
+  - Refer to the last question of the Pre-requisite Quiz
+    - Ask your faculty for more clues
 
 ## Summary
-1. We incrementally developed MergeSort in a "demo mode" 
-2. We arrived at the pseudo code 
-3. We wrote the equivalent code for MergeSort 
 
-The beauty of MergeSort is that regardless of the list and how badly it is sorted, O(n) is `nlog(n)` which is favourable among almost most sorting algorithms.  
+1. We incrementally developed MergeSort in a "demo mode"
+2. We arrived at the pseudo code
+3. We wrote the equivalent code for MergeSort
 
-## Last 2 Minute 
+The beauty of MergeSort is that regardless of the list and how badly it is sorted, O(n) is `nlog(n)` which is favourable among almost most sorting algorithms.
 
- - respond to Questions from Students 
-	 - review the relevant Question Paper snippets
-	 - Ask 1 or more students questions from Pre-requisites
-	 - Practice your MergeSort code on http://j.mp/mergeSortCC
-  
- - Review Pre-requisites for Histogram (next class) 
+## Last 2 Minute
+
+- respond to Questions from Students
+
+  - review the relevant Question Paper snippets
+  - Ask 1 or more students questions from Pre-requisites
+  - Practice your MergeSort code on http://j.mp/mergeSortCC
+
+- Review Pre-requisites for Histogram (next class)
 
 ## Program File for Demo
 
 Modify this file as you deem fit to demonstrate on PythonAnywhere.com or on the mu editor
-  - http://j.mp/mergePAW
-  - This is the script I use in my sample video http://bit.ly/mergeVideo
+
+- http://j.mp/mergePAW
+- This is the script I use in my sample video http://bit.ly/mergeVideo
 
 ## Solve the Million Element Merge Sort
 
-- Use  [http://ras.am](http://ras.am/)  (yes, RASAM!) to get to the CyberDojo server.
-	- Use **elzm6m** as the session ID.
-	- Use KG.id file to claim the Avatar that is assigned to you.
+- Use [http://ras.am](http://ras.am/) (yes, RASAM!) to get to the CyberDojo server.
+  - Use **elzm6m** as the session ID.
+  - Use KG.id file to claim the Avatar that is assigned to you.
 
 ```python
-def test_a_million_mostly_sorted_elements(): 
-  '''1_000_000 number of elements, mostly sorted''' 
-  alist = list(range(950_000)) 
-  sublist = list(range(950_000, 1_000_000)) 
-  random.shuffle(sublist) 
-  alist += sublist 
+def test_a_million_mostly_sorted_elements():
+  '''1_000_000 number of elements, mostly sorted'''
+  alist = list(range(950_000))
+  sublist = list(range(950_000, 1_000_000))
+  random.shuffle(sublist)
+  alist += sublist
   assert mergesort(alist, True) == list(range(1_000_000))
 ```
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExMDYzMzM5NSwtNjE4Nzg1MjQsMTU0NT
 I0MTAwNSwzMzg2MTQ0ODksLTk4NDA4NDgxMCwyMzA1MTkwODUs

@@ -1,4 +1,3 @@
-
 ### 12.11 Exercises
 
 **Exercise 12.3.** Write a function calledmost_frequentthat takes a string and prints the let-
@@ -9,8 +8,8 @@ Solution: http://thinkpython.com/code/most_frequent.py .
 **Exercise 12.4.** More anagrams!
 
 1. Write a program that reads a word list from a file (see Section 9.1) and prints all the sets of
-    words that are anagrams.
-    Here is an example of what the output might look like:
+   words that are anagrams.
+   Here is an example of what the output might look like:
 
 ```
 ['deltas','desalt','lasted', 'salted', 'slated','staled']
@@ -18,18 +17,19 @@ Solution: http://thinkpython.com/code/most_frequent.py .
 ['generating', 'greatening']
 ['resmelts','smelters','termless']
 ```
+
 ```
 Hint: you might want to build a dictionary that maps from a set of letters to a list of words
 that can be spelled with those letters. The question is, how can you represent the set of letters
 in a way that can be used as a key?
 ```
-2. Modify the previous program so that it prints the largest set of anagrams first, followed by the
-    second largest set, and so on.
-3. In Scrabble a “bingo” is when you play all seven tiles in your rack, along with a letter on
-    the board, to form an eight-letter word. What set of 8 letters forms the most possible bingos?
-    Hint: there are seven.
-    Solution:http: // thinkpython. com/ code/ anagram_ sets. py.
 
+2. Modify the previous program so that it prints the largest set of anagrams first, followed by the
+   second largest set, and so on.
+3. In Scrabble a “bingo” is when you play all seven tiles in your rack, along with a letter on
+   the board, to form an eight-letter word. What set of 8 letters forms the most possible bingos?
+   Hint: there are seven.
+   Solution:http: // thinkpython. com/ code/ anagram\_ sets. py.
 
 **122 Chapter 12. Tuples**
 
@@ -54,21 +54,21 @@ you take a letter off, one from the interior of the word, take the r away, and w
 with the word spite, then we take the e off the end, we’re left with spit, we take the s off,
 we’re left with pit, it, and I.
 ```
+
 Write a program to find all words that can be reduced in this way, and then find the longest one.
 
 This exercise is a little more challenging than most, so here are some suggestions:
 
 1. You might want to write a function that takes a word and computes a list of all the words that
-    can be formed by removing one letter. These are the “children” of the word.
+   can be formed by removing one letter. These are the “children” of the word.
 2. Recursively, a word is reducible if any of its children are reducible. As a base case, you can
-    consider the empty string reducible.
+   consider the empty string reducible.
 3. The wordlist I provided,words.txt, doesn’t contain single letter words. So you might want
-    to add “I”, “a”, and the empty string.
+   to add “I”, “a”, and the empty string.
 4. To improve the performance of your program, you might want to memoize the words that are
-    known to be reducible.
+   known to be reducible.
 
 Solution:http: // thinkpython. com/ code/ reducible. py.
-
 
 ## Chapter 13
 
@@ -86,9 +86,9 @@ Hint: Thestringmodule provides strings namedwhitespace, which contains space, ta
 etc., andpunctuationwhich contains the punctuation characters. Let’s see if we can make Python
 swear:
 
->>> import string
->>> print string.punctuation
-!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+> > > import string
+> > > print string.punctuation
+> > > !"#$%&'()\*+,-./:;<=>?@[\]^\_`{|}~
 
 Also, you might consider using the string methodsstrip,replaceandtranslate.
 **Exercise 13.2.** Go to Project Gutenberg (http: // gutenberg. org) and download your favorite
@@ -107,7 +107,6 @@ words in the book.
 **Exercise 13.4.** Modify the previous program to read a word list (see Section 9.1) and then print all
 the words in the book that are not in the word list. How many of them are typos? How many of
 them are common words thatshouldbe in the word list, and how many of them are really obscure?
-
 
 **124 Chapter 13. Case study: data structure selection**
 
@@ -140,18 +139,18 @@ print x
 The functionrandinttakes parameterslowandhighand returns an integer betweenlow
 andhigh(including both).
 
->>> random.randint(5, 10)
-5
->>> random.randint(5, 10)
-9
+> > > random.randint(5, 10)
+> > > 5
+> > > random.randint(5, 10)
+> > > 9
 
 To choose an element from a sequence at random, you can usechoice:
 
->>> t = [1, 2, 3]
->>> random.choice(t)
-2
->>> random.choice(t)
-3
+> > > t = [1, 2, 3]
+> > > random.choice(t)
+> > > 2
+> > > random.choice(t)
+> > > 3
 
 Therandommodule also provides functions to generate random values from continuous
 distributions including Gaussian, exponential, gamma, and a few more.
@@ -159,13 +158,12 @@ distributions including Gaussian, exponential, gamma, and a few more.
 Section 11.1 and returns a random value from the histogram, chosen with probability in proportion
 to frequency. For example, for this histogram:
 
->>> t = ['a', 'a', 'b']
->>> hist = histogram(t)
->>> print hist
-{'a': 2,'b': 1}
+> > > t = ['a', 'a', 'b']
+> > > hist = histogram(t)
+> > > print hist
+> > > {'a': 2,'b': 1}
 
 your function should return'a'with probability2/3and'b'with probability1/3.
-
 
 **13.3. Word histogram 125**
 
@@ -194,9 +192,11 @@ for word in line.split():
 word = word.strip(string.punctuation + string.whitespace)
 word = word.lower()
 ```
+
 ```
 hist[word] = hist.get(word, 0) + 1
 ```
+
 hist = process_file('emma.txt')
 
 This program readsemma.txt, which contains the text ofEmmaby Jane Austen.
@@ -229,7 +229,6 @@ Here is some code to print the results:
 print'Total number of words:', total_words(hist)
 print'Number of different words:', different_words(hist)
 
-
 **126 Chapter 13. Case study: data structure selection**
 
 And the results:
@@ -251,6 +250,7 @@ t.append((value, key))
 t.sort(reverse=True)
 return t
 ```
+
 Here is a loop that prints the ten most common words:
 
 t = most_common(hist)
@@ -287,7 +287,6 @@ print word,'\t', freq
 The first parameter is required; the second is optional. The **default value** ofnumis 10.
 
 If you only provide one argument:
-
 
 **13.6. Dictionary subtraction 127**
 
@@ -341,7 +340,7 @@ common use. But a few are common words that should really be in the list!
 **Exercise 13.6.** Python provides a data structure calledsetthat provides many common set opera-
 tions. Read the documentation athttp: // docs. python. org/ 2/ library/ stdtypes. html#
 types- setand write a program that uses set subtraction to find words in the book that are not in
-the word list. Solution:http: // thinkpython. com/ code/ analyze_ book2. py.
+the word list. Solution:http: // thinkpython. com/ code/ analyze\_ book2. py.
 
 ### 13.7 Random words
 
@@ -349,18 +348,18 @@ To choose a random word from the histogram, the simplest algorithm is to build a
 multiple copies of each word, according to the observed frequency, and then choose from
 the list:
 
-
 **128 Chapter 13. Case study: data structure selection**
 
 def random_word(h):
 t = []
 for word, freq in h.items():
-t.extend([word] * freq)
+t.extend([word] \* freq)
 
 ```
 return random.choice(t)
 ```
-The expression[word] * freqcreates a list withfreqcopies of the stringword. The
+
+The expression[word] \* freqcreates a list withfreqcopies of the stringword. The
 extendmethod is similar toappendexcept that the argument is a sequence.
 **Exercise 13.7.** This algorithm works, but it is not very efficient; each time you choose a random
 word, it rebuilds the list, which is as big as the original book. An obvious improvement is to build
@@ -370,13 +369,13 @@ An alternative is:
 
 1. Usekeysto get a list of the words in the book.
 2. Build a list that contains the cumulative sum of the word frequencies (see Exercise 10.3). The
-    last item in this list is the total number of words in the book, n.
+   last item in this list is the total number of words in the book, n.
 3. Choose a random number from 1 to n. Use a bisection search (See Exercise 10.11) to find the
-    index where the random number would be inserted in the cumulative sum.
+   index where the random number would be inserted in the cumulative sum.
 4. Use the index to find the corresponding word in the word list.
 
 Write a program that uses this algorithm to choose a random word from the book. Solution:http:
-// thinkpython. com/ code/ analyze_ book3. py.
+// thinkpython. com/ code/ analyze\_ book3. py.
 
 ### 13.8 Markov analysis
 
@@ -399,6 +398,7 @@ Must, ipso facto, half not be.
 But half the bee has got to be
 Vis a vis, its entity. D’you see?
 ```
+
 ```
 But can a bee be said to be
 Or not to be an entire bee
@@ -427,21 +427,21 @@ any prefix length. The length of the prefix is called the “order” of the ana
 **Exercise 13.8.** Markov analysis:
 
 1. Write a program to read a text from a file and perform Markov analysis. The result should be
-    a dictionary that maps from prefixes to a collection of possible suffixes. The collection might
-    be a list, tuple, or dictionary; it is up to you to make an appropriate choice. You can test your
-    program with prefix length two, but you should write the program in a way that makes it easy
-    to try other lengths.
+   a dictionary that maps from prefixes to a collection of possible suffixes. The collection might
+   be a list, tuple, or dictionary; it is up to you to make an appropriate choice. You can test your
+   program with prefix length two, but you should write the program in a way that makes it easy
+   to try other lengths.
 2. Add a function to the previous program to generate random text based on the Markov analysis.
-    Here is an example fromEmmawith prefix length 2:
-       He was very clever, be it sweetness or be angry, ashamed or only amused, at such
-       a stroke. She had never thought of Hannah till you were never meant for me?" "I
-       cannot make speeches, Emma:" he soon cut it all himself.
-    For this example, I left the punctuation attached to the words. The result is almost syntacti-
-    cally correct, but not quite. Semantically, it almost makes sense, but not quite.
-    What happens if you increase the prefix length? Does the random text make more sense?
+   Here is an example fromEmmawith prefix length 2:
+   He was very clever, be it sweetness or be angry, ashamed or only amused, at such
+   a stroke. She had never thought of Hannah till you were never meant for me?" "I
+   cannot make speeches, Emma:" he soon cut it all himself.
+   For this example, I left the punctuation attached to the words. The result is almost syntacti-
+   cally correct, but not quite. Semantically, it almost makes sense, but not quite.
+   What happens if you increase the prefix length? Does the random text make more sense?
 3. Once your program is working, you might want to try a mash-up: if you analyze text from
-    two or more books, the random text you generate will blend the vocabulary and phrases from
-    the sources in interesting ways.
+   two or more books, the random text you generate will blend the vocabulary and phrases from
+   the sources in interesting ways.
 
 Credit: This case study is based on an example from Kernighan and Pike,The Practice of Pro-
 gramming, Addison-Wesley, 1999.
@@ -457,7 +457,6 @@ exercise: data structure selection. In your solution to the previous exercises, 
 choose:
 
 - How to represent the prefixes.
-
 
 **130 Chapter 13. Case study: data structure selection**
 
@@ -518,7 +517,6 @@ sible to use one structure for analysis and then convert to another structure fo
 This would be a net win if the time saved during generation exceeded the time spent in
 conversion.
 
-
 **13.10. Debugging 131**
 
 ### 13.10 Debugging
@@ -576,7 +574,6 @@ time.
 Finding a hard bug requires reading, running, ruminating, and sometimes retreating. If
 you get stuck on one of these activities, try the others.
 
-
 **132 Chapter 13. Case study: data structure selection**
 
 ### 13.11 Glossary
@@ -600,18 +597,20 @@ natives and testing them on a sample of the possible inputs.
 common word has rank 1, the second most common has rank 2, etc.
 
 Zipf’s law describes a relationship between the ranks and frequencies of words in natural languages
-(http: // en. wikipedia. org/ wiki/ Zipf' s_ law). Specifically, it predicts that the frequency,
+(http: // en. wikipedia. org/ wiki/ Zipf' s\_ law). Specifically, it predicts that the frequency,
 f , of the word with rank r is:
 
 ```
 f=cr−s
 ```
+
 where s and c are parameters that depend on the language and the text. If you take the logarithm of
 both sides of this equation, you get:
 
 ```
 logf=logc−slogr
 ```
+
 So if you plot log f versus log r, you should get a straight line with slope−s and intercept log c.
 
 Write a program that reads a text from a file, counts word frequencies, and prints one line for each
@@ -621,7 +620,6 @@ s?
 
 Solution:http: // thinkpython. com/ code/ zipf. py. To make the plots, you might have to
 install matplotlib (seehttp: // matplotlib. sourceforge. net/).
-
 
 ## Chapter 14
 
@@ -655,38 +653,37 @@ flash memory, or CD-ROM. We saw how to open and read a file in Section 9.1.
 
 To write a file, you have to open it with mode'w'as a second parameter:
 
->>> fout = open('output.txt','w')
->>> print fout
-<open file'output.txt', mode'w'at 0xb7eb2410>
+> > > fout = open('output.txt','w')
+> > > print fout
+> > > <open file'output.txt', mode'w'at 0xb7eb2410>
 
 If the file already exists, opening it in write mode clears out the old data and starts fresh,
 so be careful! If the file doesn’t exist, a new one is created.
 
 Thewritemethod puts data into the file.
 
-
 **134 Chapter 14. Files**
 
->>> line1 = "This here's the wattle,\n"
->>> fout.write(line1)
+> > > line1 = "This here's the wattle,\n"
+> > > fout.write(line1)
 
 Again, the file object keeps track of where it is, so if you callwriteagain, it adds the new
 data to the end.
 
->>> line2 = "the emblem of our land.\n"
->>> fout.write(line2)
+> > > line2 = "the emblem of our land.\n"
+> > > fout.write(line2)
 
 When you are done writing, you have to close the file.
 
->>> fout.close()
+> > > fout.close()
 
 ### 14.3 Format operator
 
 The argument ofwritehas to be a string, so if we want to put other values in a file, we
 have to convert them to strings. The easiest way to do that is withstr:
 
->>> x = 52
->>> fout.write(str(x))
+> > > x = 52
+> > > fout.write(str(x))
 
 An alternative is to use the **format operator** ,%. When applied to integers,%is the modulus
 operator. But when the first operand is a string,%is the format operator.
@@ -697,18 +694,18 @@ which specify how the second operand is formatted. The result is a string.
 For example, the format sequence'%d'means that the second operand should be format-
 ted as an integer (dstands for “decimal”):
 
->>> camels = 42
->>>'%d'% camels
-' 42 '
+> > > camels = 42
+> > > '%d'% camels
+> > > ' 42 '
 
 The result is the string' 42 ', which is not to be confused with the integer value 42.
 
 A format sequence can appear anywhere in the string, so you can embed a value in a
 sentence:
 
->>> camels = 42
->>>'I have spotted %d camels.' % camels
-'I have spotted 42 camels.'
+> > > camels = 42
+> > > 'I have spotted %d camels.' % camels
+> > > 'I have spotted 42 camels.'
 
 If there is more than one format sequence in the string, the second argument has to be a
 tuple. Each format sequence is matched with an element of the tuple, in order.
@@ -716,17 +713,16 @@ tuple. Each format sequence is matched with an element of the tuple, in order.
 The following example uses'%d'to format an integer,'%g'to format a floating-point num-
 ber (don’t ask why), and'%s'to format a string:
 
->>>'In %d years I have spotted %g %s.' % (3, 0.1,'camels')
-'In 3 years I have spotted 0.1 camels.'
+> > > 'In %d years I have spotted %g %s.' % (3, 0.1,'camels')
+> > > 'In 3 years I have spotted 0.1 camels.'
 
 The number of elements in the tuple has to match the number of format sequences in the
 string. Also, the types of the elements have to match the format sequences:
 
->>>'%d %d %d' % (1, 2)
-TypeError: not enough arguments for format string
->>>'%d'% 'dollars'
-TypeError: illegal argument type for built-in operation
-
+> > > '%d %d %d' % (1, 2)
+> > > TypeError: not enough arguments for format string
+> > > '%d'% 'dollars'
+> > > TypeError: illegal argument type for built-in operation
 
 **14.4. Filenames and paths 135**
 
@@ -745,10 +741,10 @@ you open a file for reading, Python looks for it in the current directory.
 Theosmodule provides functions for working with files and directories (“os” stands for
 “operating system”).os.getcwdreturns the name of the current directory:
 
->>> import os
->>> cwd = os.getcwd()
->>> print cwd
-/home/dinsdale
+> > > import os
+> > > cwd = os.getcwd()
+> > > print cwd
+> > > /home/dinsdale
 
 cwdstands for “current working directory.” The result in this example is/home/dinsdale,
 which is the home directory of a user nameddinsdale.
@@ -759,27 +755,27 @@ directory; an **absolute path** starts from the topmost directory in the file sy
 The paths we have seen so far are simple filenames, so they are relative to the current
 directory. To find the absolute path to a file, you can useos.path.abspath:
 
->>> os.path.abspath('memo.txt')
-'/home/dinsdale/memo.txt'
+> > > os.path.abspath('memo.txt')
+> > > '/home/dinsdale/memo.txt'
 
 os.path.existschecks whether a file or directory exists:
 
->>> os.path.exists('memo.txt')
-True
+> > > os.path.exists('memo.txt')
+> > > True
 
 If it exists,os.path.isdirchecks whether it’s a directory:
 
->>> os.path.isdir('memo.txt')
-False
->>> os.path.isdir('music')
-True
+> > > os.path.isdir('memo.txt')
+> > > False
+> > > os.path.isdir('music')
+> > > True
 
 Similarly,os.path.isfilechecks whether it’s a file.
 
 os.listdirreturns a list of the files (and other directories) in the given directory:
 
->>> os.listdir(cwd)
-['music', 'photos','memo.txt']
+> > > os.listdir(cwd)
+> > > ['music', 'photos','memo.txt']
 
 To demonstrate these functions, the following example “walks” through a directory, prints
 the names of all the files, and calls itself recursively on all the directories.
@@ -787,7 +783,6 @@ the names of all the files, and calls itself recursively on all the directories.
 def walk(dirname):
 for name in os.listdir(dirname):
 path = os.path.join(dirname, name)
-
 
 **136 Chapter 14. Files**
 
@@ -797,6 +792,7 @@ print path
 else:
 walk(path)
 ```
+
 os.path.jointakes a directory and a file name and joins them into a complete path.
 **Exercise 14.1.** Theosmodule provides a function calledwalkthat is similar to this one but more
 versatile. Read the documentation and use it to print the names of the files in a given directory and
@@ -809,18 +805,18 @@ Solution:http: // thinkpython. com/ code/ walk. py.
 A lot of things can go wrong when you try to read and write files. If you try to open a file
 that doesn’t exist, you get anIOError:
 
->>> fin = open('bad_file')
-IOError: [Errno 2] No such file or directory: 'bad_file'
+> > > fin = open('bad_file')
+> > > IOError: [Errno 2] No such file or directory: 'bad_file'
 
 If you don’t have permission to access a file:
 
->>> fout = open('/etc/passwd', 'w')
-IOError: [Errno 13] Permission denied:'/etc/passwd'
+> > > fout = open('/etc/passwd', 'w')
+> > > IOError: [Errno 13] Permission denied:'/etc/passwd'
 
 And if you try to open a directory for reading, you get
 
->>> fin = open('/home')
-IOError: [Errno 21] Is a directory
+> > > fin = open('/home')
+> > > IOError: [Errno 21] Is a directory
 
 To avoid these errors, you could use functions likeos.path.existsandos.path.isfile,
 but it would take a lot of time and code to check all the possibilities (if “Errno 21” is any
@@ -850,7 +846,6 @@ string, and two filenames; it should read the first file and write the contents 
 (creating it if necessary). If the pattern string appears anywhere in the file, it should be replaced
 with the replacement string.
 
-
 **14.6. Databases 137**
 
 If an error occurs while opening, reading, writing or closing files, your program should catch the
@@ -868,25 +863,25 @@ example, I’ll create a database that contains captions for image files.
 
 Opening a database is similar to opening other files:
 
->>> import anydbm
->>> db = anydbm.open('captions.db', 'c')
+> > > import anydbm
+> > > db = anydbm.open('captions.db', 'c')
 
 The mode'c'means that the database should be created if it doesn’t already exist. The
 result is a database object that can be used (for most operations) like a dictionary. If you
 create a new item,anydbmupdates the database file.
 
->>> db['cleese.png'] ='Photo of John Cleese.'
+> > > db['cleese.png'] ='Photo of John Cleese.'
 
 When you access one of the items,anydbmreads the file:
 
->>> print db['cleese.png']
-Photo of John Cleese.
+> > > print db['cleese.png']
+> > > Photo of John Cleese.
 
 If you make another assignment to an existing key,anydbmreplaces the old value:
 
->>> db['cleese.png'] ='Photo of John Cleese doing a silly walk.'
->>> print db['cleese.png']
-Photo of John Cleese doing a silly walk.
+> > > db['cleese.png'] ='Photo of John Cleese doing a silly walk.'
+> > > print db['cleese.png']
+> > > Photo of John Cleese doing a silly walk.
 
 Many dictionary methods, likekeysanditems, also work with database objects. So does
 iteration with aforstatement.
@@ -896,7 +891,7 @@ print key
 
 As with other files, you should close the database when you are done:
 
->>> db.close()
+> > > db.close()
 
 ### 14.7 Pickling
 
@@ -909,42 +904,41 @@ for storage in a database, and then translates strings back into objects.
 pickle.dumpstakes an object as a parameter and returns a string representation (dumpsis
 short for “dump string”):
 
-
 **138 Chapter 14. Files**
 
->>> import pickle
->>> t = [1, 2, 3]
->>> pickle.dumps(t)
-'(lp0\nI1\naI2\naI3\na.'
+> > > import pickle
+> > > t = [1, 2, 3]
+> > > pickle.dumps(t)
+> > > '(lp0\nI1\naI2\naI3\na.'
 
 The format isn’t obvious to human readers; it is meant to be easy forpickleto interpret.
 pickle.loads(“load string”) reconstitutes the object:
 
->>> t1 = [1, 2, 3]
->>> s = pickle.dumps(t1)
->>> t2 = pickle.loads(s)
->>> print t2
-[1, 2, 3]
+> > > t1 = [1, 2, 3]
+> > > s = pickle.dumps(t1)
+> > > t2 = pickle.loads(s)
+> > > print t2
+> > > [1, 2, 3]
 
 Although the new object has the same value as the old, it is not (in general) the same object:
 
->>> t1 == t2
-True
->>> t1 is t2
-False
+> > > t1 == t2
+> > > True
+> > > t1 is t2
+> > > False
 
 In other words, pickling and then unpickling has the same effect as copying the object.
 
 You can usepickleto store non-strings in a database. In fact, this combination is so com-
 mon that it has been encapsulated in a module calledshelve.
 **Exercise 14.3.** If you download my solution to Exercise 12.4 fromhttp: // thinkpython. com/
-code/ anagram_ sets. py, you’ll see that it creates a dictionary that maps from a sorted string of
+code/ anagram\_ sets. py, you’ll see that it creates a dictionary that maps from a sorted string of
 letters to the list of words that can be spelled with those letters. For example,'opst'maps to the
 list['opts', 'post', 'pots', 'spot', 'stop', 'tops'].
 
-Write a module that importsanagram_setsand provides two new functions:store_anagrams
+Write a module that importsanagram*setsand provides two new functions:store_anagrams
 should store the anagram dictionary in a “shelf;”read_anagramsshould look up a word and return
-a list of its anagrams. Solution:http: // thinkpython. com/ code/ anagram_ db. py
+a list of its anagrams. Solution:http: // thinkpython. com/ code/ anagram* db. py
 
 ### 14.8 Pipes
 
@@ -959,8 +953,8 @@ a **pipe**. A pipe is an object that represents a running program.
 For example, the Unix commandls -lnormally displays the contents of the current di-
 rectory (in long format). You can launchlswithos.popen^1 :
 
->>> cmd = 'ls -l'
->>> fp = os.popen(cmd)
+> > > cmd = 'ls -l'
+> > > fp = os.popen(cmd)
 
 The argument is a string that contains a shell command. The return value is an object that
 behaves just like an open file. You can read the output from thelsprocess one line at a
@@ -970,16 +964,15 @@ time withreadlineor get the whole thing at once withread:
 module. But for simple cases, I findsubprocessmore complicated than necessary. So I am going to keep using
 popenuntil they take it away.
 
-
 **14.9. Writing modules 139**
 
->>> res = fp.read()
+> > > res = fp.read()
 
 When you are done, you close the pipe like a file:
 
->>> stat = fp.close()
->>> print stat
-None
+> > > stat = fp.close()
+> > > print stat
+> > > None
 
 The return value is the final status of thelsprocess;Nonemeans that it ended normally
 (with no errors).
@@ -991,27 +984,27 @@ small (that is, unlikely to happen before the universe collapses).
 
 You can use a pipe to runmd5sumfrom Python and get the result:
 
->>> filename ='book.tex'
->>> cmd ='md5sum '+ filename
->>> fp = os.popen(cmd)
->>> res = fp.read()
->>> stat = fp.close()
->>> print res
-1e0033f0ed0656636de0d75144ba32e0 book.tex
->>> print stat
-None
-**Exercise 14.4.** In a large collection of MP3 files, there may be more than one copy of the same song,
-stored in different directories or with different file names. The goal of this exercise is to search for
-duplicates.
+> > > filename ='book.tex'
+> > > cmd ='md5sum '+ filename
+> > > fp = os.popen(cmd)
+> > > res = fp.read()
+> > > stat = fp.close()
+> > > print res
+> > > 1e0033f0ed0656636de0d75144ba32e0 book.tex
+> > > print stat
+> > > None
+> > > **Exercise 14.4.** In a large collection of MP3 files, there may be more than one copy of the same song,
+> > > stored in different directories or with different file names. The goal of this exercise is to search for
+> > > duplicates.
 
 1. Write a program that searches a directory and all of its subdirectories, recursively, and returns
-    a list of complete paths for all files with a given suffix (like.mp3). Hint:os.pathprovides
-    several useful functions for manipulating file and path names.
+   a list of complete paths for all files with a given suffix (like.mp3). Hint:os.pathprovides
+   several useful functions for manipulating file and path names.
 2. To recognize duplicates, you can usemd5sumto compute a “checksum” for each files. If two
-    files have the same checksum, they probably have the same contents.
+   files have the same checksum, they probably have the same contents.
 3. To double-check, you can use the Unix commanddiff.
 
-Solution:http: // thinkpython. com/ code/ find_ duplicates. py.
+Solution:http: // thinkpython. com/ code/ find\_ duplicates. py.
 
 ### 14.9 Writing modules
 
@@ -1026,24 +1019,23 @@ return count
 
 print linecount('wc.py')
 
-
 **140 Chapter 14. Files**
 
 If you run this program, it reads itself and prints the number of lines in the file, which is 7.
 You can also import it like this:
 
->>> import wc
-7
+> > > import wc
+> > > 7
 
 Now you have a module objectwc:
 
->>> print wc
-<module'wc'from 'wc.py'>
+> > > print wc
+> > > <module'wc'from 'wc.py'>
 
 That provides a function calledlinecount:
 
->>> wc.linecount('wc.py')
-7
+> > > wc.linecount('wc.py')
+> > > 7
 
 So that’s how you write modules in Python.
 
@@ -1053,14 +1045,14 @@ it doesn’t execute them.
 
 Programs that will be imported as modules often use the following idiom:
 
-if __name__ == '__main__':
+if **name** == '**main**':
 print linecount('wc.py')
 
-__name__is a built-in variable that is set when the program starts. If the program is run-
-ning as a script,__name__has the value__main__; in that case, the test code is executed.
+**name**is a built-in variable that is set when the program starts. If the program is run-
+ning as a script,**name**has the value**main**; in that case, the test code is executed.
 Otherwise, if the module is being imported, the test code is skipped.
 **Exercise 14.5.** Type this example into a file namedwc.pyand run it as a script. Then run the
-Python interpreter andimport wc. What is the value of__name__when the module is being
+Python interpreter andimport wc. What is the value of**name**when the module is being
 imported?
 
 Warning: If you import a module that has already been imported, Python does nothing. It does not
@@ -1074,18 +1066,17 @@ the safest thing to do is restart the interpreter and then import the module aga
 When you are reading and writing files, you might run into problems with whitespace.
 These errors can be hard to debug because spaces, tabs and newlines are normally invisible:
 
->>> s ='1 2\t 3\n 4'
->>> print s
-1 2 3
-4
+> > > s ='1 2\t 3\n 4'
+> > > print s
+> > > 1 2 3
+> > > 4
 
 The built-in functionreprcan help. It takes any object as an argument and returns a string
 representation of the object. For strings, it represents whitespace characters with backslash
 sequences:
 
->>> print repr(s)
-'1 2\t 3\n 4'
-
+> > > print repr(s)
+> > > '1 2\t 3\n 4'
 
 **14.11. Glossary 141**
 
@@ -1132,7 +1123,7 @@ to values.
 ### 14.12 Exercises
 
 **Exercise 14.6.** Theurllibmodule provides methods for manipulating URLs and downloading
-information from the web. The following example downloads and prints a secret message from http://thinkpython.com : 
+information from the web. The following example downloads and prints a secret message from http://thinkpython.com :
 
 ```
 import urllib
@@ -1141,12 +1132,10 @@ for line in conn:
 	print line.strip()
 ```
 
-Run this code and follow the instructions you see there. 
+Run this code and follow the instructions you see there.
 Solution: http://thinkpython.com/code/zip_code.py
 
-
 **142 Chapter 14. Files**
-
 
 ## Chapter 15
 
@@ -1188,37 +1177,41 @@ functions inside a class definition, but we will get back to that later.
 
 Defining a class namedPointcreates a class object.
 
-
 **144 Chapter 15. Classes and objects**
 
 ```
 x
 y
 ```
+
 ```
 3.0
 4.0
 ```
+
 ```
 blank
 ```
+
 ```
 Point
 ```
+
 ```
 Figure 15.1: Object diagram.
 ```
->>> print Point
-<class '__main__.Point'>
 
-BecausePointis defined at the top level, its “full name” is__main__.Point.
+> > > print Point
+> > > <class '**main**.Point'>
+
+BecausePointis defined at the top level, its “full name” is**main**.Point.
 
 The class object is like a factory for creating objects. To create a Point, you callPointas if it
 were a function.
 
->>> blank = Point()
->>> print blank
-<__main__.Point instance at 0xb7e9d3ac>
+> > > blank = Point()
+> > > print blank
+> > > <**main**.Point instance at 0xb7e9d3ac>
 
 The return value is a reference to a Point object, which we assign toblank. Creating a new
 object is called **instantiation** , and the object is an **instance** of the class.
@@ -1230,8 +1223,8 @@ in memory (the prefix0xmeans that the following number is in hexadecimal).
 
 You can assign values to an instance using dot notation:
 
->>> blank.x = 3.0
->>> blank.y = 4.0
+> > > blank.x = 3.0
+> > > blank.y = 4.0
 
 This syntax is similar to the syntax for selecting a variable from a module, such asmath.pi
 orstring.whitespace. In this case, though, we are assigning values to named elements of
@@ -1248,11 +1241,11 @@ refers to a floating-point number.
 
 You can read the value of an attribute using the same syntax:
 
->>> print blank.y
-4.0
->>> x = blank.x
->>> print x
-3.0
+> > > print blank.y
+> > > 4.0
+> > > x = blank.x
+> > > print x
+> > > 3.0
 
 The expressionblank.xmeans, “Go to the objectblankrefers to and get the value ofx.”
 In this case, we assign that value to a variable namedx. There is no conflict between the
@@ -1260,14 +1253,13 @@ variablexand the attributex.
 
 You can use dot notation as part of any expression. For example:
 
-
 **15.3. Rectangles 145**
 
->>> print'(%g, %g)'% (blank.x, blank.y)
-(3.0, 4.0)
->>> distance = math.sqrt(blank.x**2 + blank.y**2)
->>> print distance
-5.0
+> > > print'(%g, %g)'% (blank.x, blank.y)
+> > > (3.0, 4.0)
+> > > distance = math.sqrt(blank.x**2 + blank.y**2)
+> > > print distance
+> > > 5.0
 
 You can pass an instance as an argument in the usual way. For example:
 
@@ -1277,8 +1269,8 @@ print'(%g, %g)'% (p.x, p.y)
 print_pointtakes a point as an argument and displays it in mathematical notation. To
 invoke it, you can passblankas an argument:
 
->>> print_point(blank)
-(3.0, 4.0)
+> > > print_point(blank)
+> > > (3.0, 4.0)
 
 Inside the function,pis an alias forblank, so if the function modifiesp,blankchanges.
 **Exercise 15.1.** Write a function calleddistance_between_pointsthat takes two Points as ar-
@@ -1294,7 +1286,7 @@ nore angle; to keep things simple, assume that the rectangle is either vertical 
 There are at least two possibilities:
 
 - You could specify one corner of the rectangle (or the center), the width, and the
-    height.
+  height.
 - You could specify two opposing corners.
 
 At this point it is hard to say whether either is better than the other, so we’ll implement the
@@ -1309,6 +1301,7 @@ class Rectangle(object):
 attributes: width, height, corner.
 """
 ```
+
 The docstring lists the attributes:widthandheightare numbers;corneris a Point object
 that specifies the lower-left corner.
 
@@ -1319,36 +1312,43 @@ box = Rectangle()
 box.width = 100.0
 box.height = 200.0
 
-
 **146 Chapter 15. Classes and objects**
 
 ```
 y
 ```
+
 ```
 x 0.0
 0.0
 ```
+
 ```
 width 100.0
 ```
+
 ```
 corner
 ```
+
 ```
 200.0
 ```
+
 ```
 Point
 ```
+
 ```
 Rectangle
 box
 height
 ```
+
 ```
 Figure 15.2: Object diagram.
 ```
+
 box.corner = Point()
 box.corner.x = 0.0
 box.corner.y = 0.0
@@ -1373,9 +1373,9 @@ return p
 Here is an example that passesboxas an argument and assigns the resulting Point to
 center:
 
->>> center = find_center(box)
->>> print_point(center)
-(50.0, 100.0)
+> > > center = find_center(box)
+> > > print_point(center)
+> > > (50.0, 100.0)
 
 ### 15.5 Objects are mutable
 
@@ -1394,20 +1394,19 @@ def grow_rectangle(rect, dwidth, dheight):
 rect.width += dwidth
 rect.height += dheight
 
-
 **15.6. Copying 147**
 
 Here is an example that demonstrates the effect:
 
->>> print box.width
-100.0
->>> print box.height
-200.0
->>> grow_rectangle(box, 50, 100)
->>> print box.width
-150.0
->>> print box.height
-300.0
+> > > print box.width
+> > > 100.0
+> > > print box.height
+> > > 200.0
+> > > grow_rectangle(box, 50, 100)
+> > > print box.width
+> > > 150.0
+> > > print box.height
+> > > 300.0
 
 Inside the function,rectis an alias forbox, so if the function modifiesrect,boxchanges.
 **Exercise 15.2.** Write a function namedmove_rectanglethat takes a Rectangle and two numbers
@@ -1423,23 +1422,23 @@ refer to a given object.
 Copying an object is often an alternative to aliasing. Thecopymodule contains a function
 calledcopythat can duplicate any object:
 
->>> p1 = Point()
->>> p1.x = 3.0
->>> p1.y = 4.0
+> > > p1 = Point()
+> > > p1.x = 3.0
+> > > p1.y = 4.0
 
->>> import copy
->>> p2 = copy.copy(p1)
+> > > import copy
+> > > p2 = copy.copy(p1)
 
 p1andp2contain the same data, but they are not the same Point.
 
->>> print_point(p1)
-(3.0, 4.0)
->>> print_point(p2)
-(3.0, 4.0)
->>> p1 is p2
-False
->>> p1 == p2
-False
+> > > print_point(p1)
+> > > (3.0, 4.0)
+> > > print_point(p2)
+> > > (3.0, 4.0)
+> > > p1 is p2
+> > > False
+> > > p1 == p2
+> > > False
 
 Theisoperator indicates thatp1andp2are not the same object, which is what we expected.
 But you might have expected==to yieldTruebecause these points contain the same data.
@@ -1450,49 +1449,58 @@ This behavior can be changed—we’ll see how later.
 If you usecopy.copyto duplicate a Rectangle, you will find that it copies the Rectangle
 object but not the embedded Point.
 
-
 **148 Chapter 15. Classes and objects**
 
 ```
 y
 ```
+
 ```
 x 0.0
 0.0
 ```
+
 ```
 width
 height
 ```
+
 ```
 100.0
 ```
+
 ```
 corner
 ```
+
 ```
 200.0
 ```
+
 ```
 box 100.0
 200.0
 ```
+
 ```
 width
 height
 corner
 ```
+
 ```
 box2
 ```
+
 ```
 Figure 15.3: Object diagram.
 ```
->>> box2 = copy.copy(box)
->>> box2 is box
-False
->>> box2.corner is box.corner
-True
+
+> > > box2 = copy.copy(box)
+> > > box2 is box
+> > > False
+> > > box2.corner is box.corner
+> > > True
 
 Figure 15.3 shows what the object diagram looks like. This operation is called a **shallow
 copy** because it copies the object and any references it contains, but not the embedded
@@ -1506,11 +1514,11 @@ Fortunately, thecopymodule contains a method nameddeepcopythat copies not only t
 object but also the objects it refers to, and the objectstheyrefer to, and so on. You will not
 be surprised to learn that this operation is called a **deep copy**.
 
->>> box3 = copy.deepcopy(box)
->>> box3 is box
-False
->>> box3.corner is box.corner
-False
+> > > box3 = copy.deepcopy(box)
+> > > box3 is box
+> > > False
+> > > box3.corner is box.corner
+> > > False
 
 box3andboxare completely separate objects.
 **Exercise 15.3.** Write a version ofmove_rectanglethat creates and returns a new Rectangle
@@ -1521,23 +1529,22 @@ instead of modifying the old one.
 When you start working with objects, you are likely to encounter some new exceptions. If
 you try to access an attribute that doesn’t exist, you get anAttributeError:
 
->>> p = Point()
->>> print p.z
-AttributeError: Point instance has no attribute'z'
+> > > p = Point()
+> > > print p.z
+> > > AttributeError: Point instance has no attribute'z'
 
 If you are not sure what type an object is, you can ask:
 
->>> type(p)
-<type '__main__.Point'>
+> > > type(p)
+> > > <type '**main**.Point'>
 
 If you are not sure whether an object has a particular attribute, you can use the built-in
 functionhasattr:
 
->>> hasattr(p, 'x')
-True
->>> hasattr(p, 'z')
-False
-
+> > > hasattr(p, 'x')
+> > > True
+> > > hasattr(p, 'z')
+> > > False
 
 **15.8. Glossary 149**
 
@@ -1600,7 +1607,6 @@ is the lower-left corner of the rectangle; the second pair is the upper-right co
 
 You can draw a circle like this:
 
-
 **150 Chapter 15. Classes and objects**
 
 canvas.circle([-25,0], 70, outline=None, fill='red')
@@ -1609,26 +1615,26 @@ The first parameter is the coordinate pair for the center of the circle; the sec
 radius.
 
 If you add this line to the program, the result should resemble the national flag of Bangladesh (see
-[http:](http:) // en. wikipedia. org/ wiki/ Gallery_ of_ sovereign- state_ flags).
+[http:](http:) // en. wikipedia. org/ wiki/ Gallery* of* sovereign- state\_ flags).
 
 1. Write a function calleddraw_rectanglethat takes a Canvas and a Rectangle as arguments
-    and draws a representation of the Rectangle on the Canvas.
+   and draws a representation of the Rectangle on the Canvas.
 2. Add an attribute namedcolorto your Rectangle objects and modifydraw_rectangleso
-    that it uses the color attribute as the fill color.
+   that it uses the color attribute as the fill color.
 3. Write a function calleddraw_pointthat takes a Canvas and a Point as arguments and draws
-    a representation of the Point on the Canvas.
+   a representation of the Point on the Canvas.
 4. Define a new class called Circle with appropriate attributes and instantiate a few Circle ob-
-    jects. Write a function calleddraw_circlethat draws circles on the canvas.
+   jects. Write a function calleddraw_circlethat draws circles on the canvas.
 5. Write a program that draws the national flag of the Czech Republic. Hint: you can draw a
-    polygon like this:
+   polygon like this:
 
 ```
 points = [[-150,-100], [150, 100], [150, -100]]
 canvas.polygon(points, fill='blue')
 ```
-I have written a small program that lists the available colors; you can download it fromhttp:
-// thinkpython. com/ code/ color_ list. py.
 
+I have written a small program that lists the available colors; you can download it fromhttp:
+// thinkpython. com/ code/ color\_ list. py.
 
 ## Chapter 16
 
@@ -1649,6 +1655,7 @@ class Time(object):
 attributes: hour, minute, second
 """
 ```
+
 We can create a newTimeobject and assign attributes for hours, minutes, and seconds:
 
 time = Time()
@@ -1671,28 +1678,32 @@ two kinds of functions: pure functions and modifiers. They also demonstrate a de
 ment plan I’ll call **prototype and patch** , which is a way of tackling a complex problem by
 starting with a simple prototype and incrementally dealing with the complications.
 
-
 **152 Chapter 16. Classes and functions**
 
 ```
 59
 30
 ```
+
 ```
 hour
 minute
 second
 ```
+
 ```
 11
 ```
+
 ```
 Time
 time
 ```
+
 ```
 Figure 16.1: Object diagram.
 ```
+
 Here is a simple prototype ofadd_time:
 
 def add_time(t1, t2):
@@ -1713,19 +1724,19 @@ which is one hour 35 minutes.
 
 add_timefigures out when the movie will be done.
 
->>> start = Time()
->>> start.hour = 9
->>> start.minute = 45
->>> start.second = 0
+> > > start = Time()
+> > > start.hour = 9
+> > > start.minute = 45
+> > > start.second = 0
 
->>> duration = Time()
->>> duration.hour = 1
->>> duration.minute = 35
->>> duration.second = 0
+> > > duration = Time()
+> > > duration.hour = 1
+> > > duration.minute = 35
+> > > duration.second = 0
 
->>> done = add_time(start, duration)
->>> print_time(done)
-10:80:00
+> > > done = add_time(start, duration)
+> > > print_time(done)
+> > > 10:80:00
 
 The result,10:80:00might not be what you were hoping for. The problem is that this
 function does not deal with cases where the number of seconds or minutes adds up to
@@ -1740,7 +1751,6 @@ sum.hour = t1.hour + t2.hour
 sum.minute = t1.minute + t2.minute
 sum.second = t1.second + t2.second
 
-
 **16.3. Modifiers 153**
 
 ```
@@ -1748,14 +1758,17 @@ if sum.second >= 60:
 sum.second -= 60
 sum.minute += 1
 ```
+
 ```
 if sum.minute >= 60:
 sum.minute -= 60
 sum.hour += 1
 ```
+
 ```
 return sum
 ```
+
 Although this function is correct, it is starting to get big. We will see a shorter alternative
 later.
 
@@ -1775,11 +1788,13 @@ if time.second >= 60:
 time.second -= 60
 time.minute += 1
 ```
+
 ```
 if time.minute >= 60:
 time.minute -= 60
 time.hour += 1
 ```
+
 The first line performs the basic operation; the remainder deals with the special cases we
 saw before.
 
@@ -1801,7 +1816,6 @@ to modifiers only if there is a compelling advantage. This approach might be cal
 **functional programming style**.
 **Exercise 16.4.** Write a “pure” version ofincrementthat creates and returns a new Time object
 rather than modifying the parameter.
-
 
 **154 Chapter 16. Classes and functions**
 
@@ -1827,8 +1841,8 @@ This observation suggests another approach to the whole problem—we can convert
 Here is a function that converts Times to integers:
 
 def time_to_int(time):
-minutes = time.hour * 60 + time.minute
-seconds = minutes * 60 + time.second
+minutes = time.hour _ 60 + time.minute
+seconds = minutes _ 60 + time.second
 return seconds
 
 And here is the function that converts integers to Times (recall thatdivmoddivides the first
@@ -1859,7 +1873,6 @@ times. Base conversion is more abstract; our intuition for dealing with time val
 But if we have the insight to treat times as base 60 numbers and make the investment of
 writing the conversion functions (time_to_intandint_to_time), we get a program that
 is shorter, easier to read and debug, and more reliable.
-
 
 **16.5. Debugging 155**
 
@@ -1918,7 +1931,6 @@ gram, testing, and correcting errors as they are found.
 **planned development:** A development plan that involves high-level insight into the prob-
 lem and more planning than incremental development or prototype development.
 
-
 **156 Chapter 16. Classes and functions**
 
 **pure function:** A function that does not modify any of the objects it receives as arguments.
@@ -1948,15 +1960,14 @@ and Time objects in this chapter, but they provide a rich set of methods and ope
 documentation athttp: // docs. python. org/ 2/ library/ datetime. html.
 
 1. Use thedatetimemodule to write a program that gets the current date and prints the day of
-    the week.
+   the week.
 2. Write a program that takes a birthday as input and prints the user’s age and the number of
-    days, hours, minutes and seconds until their next birthday.
+   days, hours, minutes and seconds until their next birthday.
 3. For two people born on different days, there is a day when one is twice as old as the other.
-    That’s their Double Day. Write a program that takes two birthdays and computes their Double
-    Day.
+   That’s their Double Day. Write a program that takes two birthdays and computes their Double
+   Day.
 4. For a little more challenge, write the more general version that computes the day when one
-    person is n times older than the other.
-
+   person is n times older than the other.
 
 ## Chapter 17
 
@@ -1974,10 +1985,10 @@ It is not easy to define object-oriented programming, but we have already seen s
 characteristics:
 
 - Programs are made up of object definitions and function definitions, and most of the
-    computation is expressed in terms of operations on objects.
+  computation is expressed in terms of operations on objects.
 - Each object definition corresponds to some object or concept in the real world, and
-    the functions that operate on that object correspond to the ways real-world objects
-    interact.
+  the functions that operate on that object correspond to the ways real-world objects
+  interact.
 
 For example, theTimeclass defined in Chapter 16 corresponds to the way people record
 the time of day, and the functions we defined correspond to the kinds of things people do
@@ -1999,11 +2010,10 @@ this chapter, we will define methods for user-defined types.
 
 Methods are semantically the same as functions, but there are two syntactic differences:
 
-
 **158 Chapter 17. Classes and methods**
 
 - Methods are defined inside a class definition in order to make the relationship be-
-    tween the class and the method explicit.
+  tween the class and the method explicit.
 - The syntax for invoking a method is different from the syntax for calling a function.
 
 In the next few sections, we will take the functions from the previous two chapters and
@@ -2024,12 +2034,12 @@ print '%.2d:%.2d:%.2d' % (time.hour, time.minute, time.second)
 
 To call this function, you have to pass aTimeobject as an argument:
 
->>> start = Time()
->>> start.hour = 9
->>> start.minute = 45
->>> start.second = 00
->>> print_time(start)
-09:45:00
+> > > start = Time()
+> > > start.hour = 9
+> > > start.minute = 45
+> > > start.second = 00
+> > > print_time(start)
+> > > 09:45:00
 
 To makeprint_timea method, all we have to do is move the function definition inside the
 class definition. Notice the change in indentation.
@@ -2041,16 +2051,16 @@ print '%.2d:%.2d:%.2d' % (time.hour, time.minute, time.second)
 Now there are two ways to callprint_time. The first (and less common) way is to use
 function syntax:
 
->>> Time.print_time(start)
-09:45:00
+> > > Time.print_time(start)
+> > > 09:45:00
 
 In this use of dot notation,Timeis the name of the class, andprint_timeis the name of the
 method.startis passed as a parameter.
 
 The second (and more concise) way is to use method syntax:
 
->>> start.print_time()
-09:45:00
+> > > start.print_time()
+> > > 09:45:00
 
 In this use of dot notation,print_timeis the name of the method (again), andstartis
 the object the method is invoked on, which is called the **subject**. Just as the subject of
@@ -2059,7 +2069,6 @@ method is about.
 
 Inside the method, the subject is assigned to the first parameter, so in this casestartis
 assigned totime.
-
 
 **17.3. Another example 159**
 
@@ -2073,10 +2082,10 @@ print '%.2d:%.2d:%.2d' % (self.hour, self.minute, self.second)
 The reason for this convention is an implicit metaphor:
 
 - The syntax for a function call,print_time(start), suggests that the function is the
-    active agent. It says something like, “Heyprint_time! Here’s an object for you to
-    print.”
+  active agent. It says something like, “Heyprint_time! Here’s an object for you to
+  print.”
 - In object-oriented programming, the objects are the active agents. A method invoca-
-    tion likestart.print_time()says “Heystart! Please print yourself.”
+  tion likestart.print_time()says “Heystart! Please print yourself.”
 
 This change in perspective might be more polite, but it is not obvious that it is useful. In the
 examples we have seen so far, it may not be. But sometimes shifting responsibility from the
@@ -2096,16 +2105,17 @@ def increment(self, seconds):
 seconds += self.time_to_int()
 return int_to_time(seconds)
 ```
+
 This version assumes thattime_to_intis written as a method, as in Exercise 17.1. Also,
 note that it is a pure function, not a modifier.
 
 Here’s how you would invokeincrement:
 
->>> start.print_time()
-09:45:00
->>> end = start.increment(1337)
->>> end.print_time()
-10:07:17
+> > > start.print_time()
+> > > 09:45:00
+> > > end = start.increment(1337)
+> > > end.print_time()
+> > > 10:07:17
 
 The subject,start, gets assigned to the first parameter,self. The argument, 1337 , gets
 assigned to the second parameter,seconds.
@@ -2113,12 +2123,11 @@ assigned to the second parameter,seconds.
 This mechanism can be confusing, especially if you make an error. For example, if you
 invokeincrementwith two arguments, you get:
 
->>> end = start.increment(1337, 460)
-TypeError: increment() takes exactly 2 arguments (3 given)
+> > > end = start.increment(1337, 460)
+> > > TypeError: increment() takes exactly 2 arguments (3 given)
 
 The error message is initially confusing, because there are only two arguments in paren-
 theses. But the subject is also considered an argument, so all together that’s three.
-
 
 **160 Chapter 17. Classes and methods**
 
@@ -2134,17 +2143,18 @@ second parameterother:
 def is_after(self, other):
 return self.time_to_int() > other.time_to_int()
 ```
+
 To use this method, you have to invoke it on one object and pass the other as an argument:
 
->>> end.is_after(start)
-True
+> > > end.is_after(start)
+> > > True
 
 One nice thing about this syntax is that it almost reads like English: “end is after start?”
 
 ### 17.5 The init method
 
 The init method (short for “initialization”) is a special method that gets invoked when an
-object is instantiated. Its full name is__init__(two underscore characters, followed by
+object is instantiated. Its full name is**init**(two underscore characters, followed by
 init, and then two more underscores). An init method for theTimeclass might look like
 this:
 
@@ -2156,43 +2166,44 @@ self.hour = hour
 self.minute = minute
 self.second = second
 ```
-It is common for the parameters of__init__to have the same names as the attributes. The
+
+It is common for the parameters of**init**to have the same names as the attributes. The
 statement
 
 ```
 self.hour = hour
 ```
+
 stores the value of the parameterhouras an attribute ofself.
 
 The parameters are optional, so if you callTimewith no arguments, you get the default
 values.
 
->>> time = Time()
->>> time.print_time()
-00:00:00
+> > > time = Time()
+> > > time.print_time()
+> > > 00:00:00
 
 If you provide one argument, it overrideshour:
 
->>> time = Time (9)
->>> time.print_time()
-09:00:00
+> > > time = Time (9)
+> > > time.print_time()
+> > > 09:00:00
 
 If you provide two arguments, they overridehourandminute.
 
->>> time = Time(9, 45)
->>> time.print_time()
-09:45:00
+> > > time = Time(9, 45)
+> > > time.print_time()
+> > > 09:45:00
 
 And if you provide three arguments, they override all three default values.
 **Exercise 17.2.** Write an init method for thePointclass that takesxandyas optional parameters
 and assigns them to the corresponding attributes.
 
+**17.6. The** **str** **method 161**
 
-**17.6. The** __str__ **method 161**
+### 17.6 The**str**method
 
-### 17.6 The__str__method
-
-__str__is a special method, like__init__, that is supposed to return a string representa-
+**str**is a special method, like**init**, that is supposed to return a string representa-
 tion of an object.
 
 For example, here is astrmethod for Time objects:
@@ -2203,20 +2214,21 @@ For example, here is astrmethod for Time objects:
 def __str__(self):
 return '%.2d:%.2d:%.2d' % (self.hour, self.minute, self.second)
 ```
+
 When youprintan object, Python invokes thestrmethod:
 
->>> time = Time(9, 45)
->>> print time
-09:45:00
+> > > time = Time(9, 45)
+> > > print time
+> > > 09:45:00
 
-When I write a new class, I almost always start by writing__init__, which makes it easier
-to instantiate objects, and__str__, which is useful for debugging.
+When I write a new class, I almost always start by writing**init**, which makes it easier
+to instantiate objects, and**str**, which is useful for debugging.
 **Exercise 17.3.** Write astrmethod for thePointclass. Create a Point object and print it.
 
 ### 17.7 Operator overloading
 
 By defining other special methods, you can specify the behavior of operators on user-
-defined types. For example, if you define a method named__add__for theTimeclass,
+defined types. For example, if you define a method named**add**for theTimeclass,
 you can use the+operator on Time objects.
 
 Here is what the definition might look like:
@@ -2228,29 +2240,29 @@ def __add__(self, other):
 seconds = self.time_to_int() + other.time_to_int()
 return int_to_time(seconds)
 ```
+
 And here is how you could use it:
 
->>> start = Time(9, 45)
->>> duration = Time(1, 35)
->>> print start + duration
-11:20:00
+> > > start = Time(9, 45)
+> > > duration = Time(1, 35)
+> > > print start + duration
+> > > 11:20:00
 
-When you apply the+operator to Time objects, Python invokes__add__. When you print
-the result, Python invokes__str__. So there is quite a lot happening behind the scenes!
+When you apply the+operator to Time objects, Python invokes**add**. When you print
+the result, Python invokes**str**. So there is quite a lot happening behind the scenes!
 
 Changing the behavior of an operator so that it works with user-defined types is called **op-
 erator overloading**. For every operator in Python there is a corresponding special method,
-like__add__. For more details, seehttp://docs.python.org/2/reference/datamodel.
+like**add**. For more details, seehttp://docs.python.org/2/reference/datamodel.
 html#specialnames.
 **Exercise 17.4.** Write anaddmethod for the Point class.
-
 
 **162 Chapter 17. Classes and methods**
 
 ### 17.8 Type-based dispatch
 
 In the previous section we added two Time objects, but you also might want to add an
-integer to a Time object. The following is a version of__add__that checks the type of
+integer to a Time object. The following is a version of**add**that checks the type of
 otherand invokes eitheradd_timeorincrement:
 
 # inside class Time:
@@ -2262,42 +2274,45 @@ return self.add_time(other)
 else:
 return self.increment(other)
 ```
+
 ```
 def add_time(self, other):
 seconds = self.time_to_int() + other.time_to_int()
 return int_to_time(seconds)
 ```
+
 ```
 def increment(self, seconds):
 seconds += self.time_to_int()
 return int_to_time(seconds)
 ```
+
 The built-in functionisinstancetakes a value and a class object, and returnsTrueif the
 value is an instance of the class.
 
-Ifotheris a Time object,__add__invokesadd_time. Otherwise it assumes that the param-
+Ifotheris a Time object,**add**invokesadd_time. Otherwise it assumes that the param-
 eter is a number and invokesincrement. This operation is called a **type-based dispatch**
 because it dispatches the computation to different methods based on the type of the argu-
 ments.
 
 Here are examples that use the+operator with different types:
 
->>> start = Time(9, 45)
->>> duration = Time(1, 35)
->>> print start + duration
-11:20:00
->>> print start + 1337
-10:07:17
+> > > start = Time(9, 45)
+> > > duration = Time(1, 35)
+> > > print start + duration
+> > > 11:20:00
+> > > print start + 1337
+> > > 10:07:17
 
 Unfortunately, this implementation of addition is not commutative. If the integer is the
 first operand, you get
 
->>> print 1337 + start
-TypeError: unsupported operand type(s) for +: 'int'and'instance'
+> > > print 1337 + start
+> > > TypeError: unsupported operand type(s) for +: 'int'and'instance'
 
 The problem is, instead of asking the Time object to add an integer, Python is asking an
 integer to add a Time object, and it doesn’t know how to do that. But there is a clever
-solution for this problem: the special method__radd__, which stands for “right-side add.”
+solution for this problem: the special method**radd**, which stands for “right-side add.”
 This method is invoked when a Time object appears on the right side of the+operator.
 Here’s the definition:
 
@@ -2307,19 +2322,19 @@ Here’s the definition:
 def __radd__(self, other):
 return self.__add__(other)
 ```
-And here’s how it’s used:
 
+And here’s how it’s used:
 
 **17.9. Polymorphism 163**
 
->>> print 1337 + start
-10:07:17
-**Exercise 17.5.** Write anaddmethod for Points that works with either a Point object or a tuple:
+> > > print 1337 + start
+> > > 10:07:17
+> > > **Exercise 17.5.** Write anaddmethod for Points that works with either a Point object or a tuple:
 
 - If the second operand is a Point, the method should return a new Point whose x coordinate is
-    the sum of the x coordinates of the operands, and likewise for the y coordinates.
+  the sum of the x coordinates of the operands, and likewise for the y coordinates.
 - If the second operand is a tuple, the method should add the first element of the tuple to the x
-    coordinate and the second element to the y coordinate, and return a new Point with the result.
+  coordinate and the second element to the y coordinate, and return a new Point with the result.
 
 ### 17.9 Polymorphism
 
@@ -2343,9 +2358,9 @@ return d
 This function also works for lists, tuples, and even dictionaries, as long as the elements of
 sare hashable, so they can be used as keys ind.
 
->>> t = ['spam','egg','spam', 'spam', 'bacon', 'spam']
->>> histogram(t)
-{'bacon': 1, 'egg': 1,'spam': 4}
+> > > t = ['spam','egg','spam', 'spam', 'bacon', 'spam']
+> > > histogram(t)
+> > > {'bacon': 1, 'egg': 1,'spam': 4}
 
 Functions that can work with several types are called **polymorphic**. Polymorphism can
 facilitate code reuse. For example, the built-in functionsum, which adds the elements of a
@@ -2353,19 +2368,18 @@ sequence, works as long as the elements of the sequence support addition.
 
 Since Time objects provide anaddmethod, they work withsum:
 
->>> t1 = Time(7, 43)
->>> t2 = Time(7, 41)
->>> t3 = Time(7, 37)
->>> total = sum([t1, t2, t3])
->>> print total
-23:01:00
+> > > t1 = Time(7, 43)
+> > > t2 = Time(7, 41)
+> > > t3 = Time(7, 37)
+> > > total = sum([t1, t2, t3])
+> > > print total
+> > > 23:01:00
 
 In general, if all of the operations inside a function work with a given type, then the func-
 tion works with that type.
 
 The best kind of polymorphism is the unintentional kind, where you discover that a func-
 tion you already wrote can be applied to a type you never planned for.
-
 
 **164 Chapter 17. Classes and methods**
 
@@ -2379,17 +2393,17 @@ the init method.
 If you are not sure whether an object has a particular attribute, you can use the built-in
 functionhasattr(see Section 15.7).
 
-Another way to access the attributes of an object is through the special attribute__dict__,
+Another way to access the attributes of an object is through the special attribute**dict**,
 which is a dictionary that maps attribute names (as strings) and values:
 
->>> p = Point(3, 4)
->>> print p.__dict__
-{'y': 4,'x': 3}
+> > > p = Point(3, 4)
+> > > print p.**dict**
+> > > {'y': 4,'x': 3}
 
 For purposes of debugging, you might find it useful to keep this function handy:
 
 def print_attributes(obj):
-for attr in obj.__dict__:
+for attr in obj.**dict**:
 print attr, getattr(obj, attr)
 
 print_attributestraverses the items in the object’s dictionary and prints each attribute
@@ -2426,14 +2440,12 @@ the interface.
 But if you designed the interface carefully, you can change the implementation without
 changing the interface, which means that other parts of the program don’t have to change.
 
-
 **17.12. Glossary 165**
 
 Keeping the interface separate from the implementation means that you have to hide the
 attributes. Code in other parts of the program (outside the class definition) should use
 methods to read and modify the state of the object. They should not access the attributes di-
 rectly. This principle is called **information hiding** ; see http://en.wikipedia.org/wiki/Information_hiding.
-
 
 **Exercise 17.6.** Download the code from this chapter ( http://thinkpython.com/code/Time2. py ). Change the attributes ofTimeto be a single integer representing seconds since mid-
 night. Then modify the methods (and the functionint_to_time) to work with the new implemen-
@@ -2469,15 +2481,14 @@ pend on its implementation, in particular the representation of its attributes.
 **Exercise 17.7.** This exercise is a cautionary tale about one of the most common, and difficult to
 find, errors in Python. Write a definition for a class namedKangaroowith the following methods:
 
-1. An__init__method that initializes an attribute namedpouch_contentsto an empty list.
+1. An**init**method that initializes an attribute namedpouch_contentsto an empty list.
 2. A method named put_in_pouch that takes an object of any type and adds it to
-    pouch_contents.
-3. A__str__method that returns a string representation of the Kangaroo object and the con-
-    tents of the pouch.
+   pouch_contents.
+3. A**str**method that returns a string representation of the Kangaroo object and the con-
+   tents of the pouch.
 
 Test your code by creating twoKangarooobjects, assigning them to variables namedkangaand
 roo, and then addingrooto the contents ofkanga’s pouch.
-
 
 **166 Chapter 17. Classes and methods**
 
@@ -2493,7 +2504,7 @@ there, fromhttp: // vpython. org.
 The following example creates a 3-D space that is 256 units wide, long and high, and sets the
 “center” to be the point(128, 128, 128). Then it draws a blue sphere.
 
-from visual import *
+from visual import \*
 
 scene.range = (256, 256, 256)
 scene.center = (128, 128, 128)
@@ -2502,7 +2513,7 @@ color = (0.1, 0.1, 0.9) # mostly blue
 sphere(pos=scene.center, radius=128, color=color)
 
 coloris an RGB tuple; that is, the elements are Red-Green-Blue levels between 0.0 and 1.0 (see
-[http:](http:) // en. wikipedia. org/ wiki/ RGB_ color_ model).
+[http:](http:) // en. wikipedia. org/ wiki/ RGB* color* model).
 
 If you run this code, you should see a window with a black background and a blue sphere. If you
 drag the middle button up and down, you can zoom in and out. You can also rotate the scene by
@@ -2519,14 +2530,13 @@ sphere(pos=pos, radius=10, color=color)
 
 1. Put this code in a script and make sure it works for you.
 2. Modify the program so that each sphere in the cube has the color that corresponds to its
-    position in RGB space. Notice that the coordinates are in the range 0–255, but the RGB
-    tuples are in the range 0.0–1.0.
-3. Downloadhttp: // thinkpython. com/ code/ color_ list. py and use the function
-    read_colorsto generate a list of the available colors on your system, their names and RGB
-    values. For each named color draw a sphere in the position that corresponds to its RGB values.
+   position in RGB space. Notice that the coordinates are in the range 0–255, but the RGB
+   tuples are in the range 0.0–1.0.
+3. Downloadhttp: // thinkpython. com/ code/ color\_ list. py and use the function
+   read_colorsto generate a list of the available colors on your system, their names and RGB
+   values. For each named color draw a sphere in the position that corresponds to its RGB values.
 
-You can see my solution athttp: // thinkpython. com/ code/ color_ space. py.
-
+You can see my solution athttp: // thinkpython. com/ code/ color\_ space. py.
 
 ## Chapter 18
 
@@ -2565,9 +2575,9 @@ Hearts 7→ 2
 Diamonds 7→ 1
 Clubs 7→ 0
 ```
+
 This code makes it easy to compare cards; because higher suits map to higher numbers, we
 can compare suits by comparing their codes.
-
 
 **168 Chapter 18. Inheritance**
 
@@ -2579,6 +2589,7 @@ Jack 7→ 11
 Queen 7→ 12
 King 7→ 13
 ```
+
 I am using the7→symbol to make it clear that these mappings are not part of the Python
 program. They are part of the program design, but they don’t appear explicitly in the code.
 
@@ -2592,6 +2603,7 @@ def __init__(self, suit=0, rank=2):
 self.suit = suit
 self.rank = rank
 ```
+
 As usual, the init method takes an optional parameter for each attribute. The default card
 is the 2 of Clubs.
 
@@ -2612,11 +2624,13 @@ suit_names = ['Clubs', 'Diamonds','Hearts', 'Spades']
 rank_names = [None, 'Ace', ' 2 ', ' 3 ', ' 4 ', ' 5 ',' 6 ',' 7 ',
 ' 8 ', ' 9 ', ' 10 ','Jack','Queen','King']
 ```
+
 ```
 def __str__(self):
 return '%s of %s'% (Card.rank_names[self.rank],
 Card.suit_names[self.suit])
 ```
+
 Variables likesuit_namesandrank_names, which are defined inside a class but outside
 of any method, are called class attributes because they are associated with the class object
 Card.
@@ -2624,13 +2638,12 @@ Card.
 This term distinguishes them from variables likesuitandrank, which are called **instance
 attributes** because they are associated with a particular instance.
 
-Both kinds of attribute are accessed using dot notation. For example, in__str__,self
+Both kinds of attribute are accessed using dot notation. For example, in**str**,self
 is a Card object, and self.rank is its rank. Similarly, Cardis a class object, and
 Card.rank_namesis a list of strings associated with the class.
 
 Every card has its ownsuitandrank, but there is only one copy ofsuit_namesand
 rank_names.
-
 
 **18.3. Comparing cards 169**
 
@@ -2638,33 +2651,42 @@ rank_names.
 list
 suit_names
 ```
+
 ```
 list
 rank_names
 ```
+
 ```
 Card
 ```
+
 ```
 type
 ```
+
 ```
 1
 11
 ```
+
 ```
 suit
 rank
 ```
+
 ```
 card1
 ```
+
 ```
 Card
 ```
+
 ```
 Figure 18.1: Object diagram.
 ```
+
 Putting it all together, the expressionCard.rank_names[self.rank]means “use the at-
 tributerankfrom the objectselfas an index into the listrank_namesfrom the classCard,
 and select the appropriate string.”
@@ -2676,9 +2698,9 @@ of a list.
 
 With the methods we have so far, we can create and print cards:
 
->>> card1 = Card(2, 11)
->>> print card1
-Jack of Hearts
+> > > card1 = Card(2, 11)
+> > > print card1
+> > > Jack of Hearts
 
 Figure 18.1 is a diagram of theCardclass object and one Card instance. Cardis a class
 object, so it has typetype.card1has typeCard. (To save space, I didn’t draw the contents
@@ -2688,9 +2710,9 @@ ofsuit_namesandrank_names).
 
 For built-in types, there are relational operators (<,>,==, etc.) that compare values and de-
 termine when one is greater than, less than, or equal to another. For user-defined types, we
-can override the behavior of the built-in operators by providing a method named__cmp__.
+can override the behavior of the built-in operators by providing a method named**cmp**.
 
-__cmp__takes two parameters,selfandother, and returns a positive number if the first
+**cmp**takes two parameters,selfandother, and returns a positive number if the first
 object is greater, a negative number if the second object is greater, and 0 if they are equal to
 each other.
 
@@ -2702,8 +2724,7 @@ The answer might depend on what game you are playing, but to keep things simple,
 make the arbitrary choice that suit is more important, so all of the Spades outrank all of the
 Diamonds, and so on.
 
-With that decided, we can write__cmp__:
-
+With that decided, we can write**cmp**:
 
 **170 Chapter 18. Inheritance**
 
@@ -2715,15 +2736,18 @@ def __cmp__(self, other):
 if self.suit > other.suit: return 1
 if self.suit < other.suit: return -1
 ```
+
 ```
 # suits are the same... check ranks
 if self.rank > other.rank: return 1
 if self.rank < other.rank: return -1
 ```
+
 ```
 # ranks are the same... it's a tie
 return 0
 ```
+
 You can write this more concisely using tuple comparison:
 
 # inside class Card:
@@ -2734,14 +2758,15 @@ t1 = self.suit, self.rank
 t2 = other.suit, other.rank
 return cmp(t1, t2)
 ```
-The built-in functioncmphas the same interface as the method__cmp__: it takes two values
+
+The built-in functioncmphas the same interface as the method**cmp**: it takes two values
 and returns a positive number if the first is larger, a negative number if the second is larger,
 and 0 if they are equal.
 
-In Python 3,cmpno longer exists, and the__cmp__method is not supported. Instead you
-should provide__lt__, which returnsTrueifselfis less thanother. You can implement
-__lt__using tuples and the<operator.
-**Exercise 18.1.** Write a__cmp__method for Time objects. Hint: you can use tuple comparison, but
+In Python 3,cmpno longer exists, and the**cmp**method is not supported. Instead you
+should provide**lt**, which returnsTrueifselfis less thanother. You can implement
+**lt**using tuples and the<operator.
+**Exercise 18.1.** Write a**cmp**method for Time objects. Hint: you can use tuple comparison, but
 you also might consider using integer subtraction.
 
 ### 18.4 Decks
@@ -2762,16 +2787,16 @@ for rank in range(1, 14):
 card = Card(suit, rank)
 self.cards.append(card)
 ```
+
 The easiest way to populate the deck is with a nested loop. The outer loop enumerates the
 suits from 0 to 3. The inner loop enumerates the ranks from 1 to 13. Each iteration creates
 a new Card with the current suit and rank, and appends it toself.cards.
-
 
 **18.5. Printing the deck 171**
 
 ### 18.5 Printing the deck
 
-Here is a__str__method forDeck:
+Here is a**str**method forDeck:
 
 #inside class Deck:
 
@@ -2782,18 +2807,19 @@ for card in self.cards:
 res.append(str(card))
 return '\n'.join(res)
 ```
+
 This method demonstrates an efficient way to accumulate a large string: building a list of
-strings and then usingjoin. The built-in functionstrinvokes the__str__method on each
+strings and then usingjoin. The built-in functionstrinvokes the**str**method on each
 card and returns the string representation.
 
 Since we invokejoinon a newline character, the cards are separated by newlines. Here’s
 what the result looks like:
 
->>> deck = Deck()
->>> print deck
-Ace of Clubs
-2 of Clubs
-3 of Clubs
+> > > deck = Deck()
+> > > print deck
+> > > Ace of Clubs
+> > > 2 of Clubs
+> > > 3 of Clubs
 
 10 of Spades
 Jack of Spades
@@ -2813,6 +2839,7 @@ The list methodpopprovides a convenient way to do that:
 def pop_card(self):
 return self.cards.pop()
 ```
+
 Sincepopremoves thelastcard in the list, we are dealing from the bottom of the deck. In
 real life “bottom dealing” is frowned upon, but in this context it’s ok.
 
@@ -2824,10 +2851,10 @@ To add a card, we can use the list methodappend:
 def add_card(self, card):
 self.cards.append(card)
 ```
+
 A method like this that uses another function without doing much real work is sometimes
 called a **veneer**. The metaphor comes from woodworking, where it is common to glue a
 thin layer of good quality wood to the surface of a cheaper piece of wood.
-
 
 **172 Chapter 18. Inheritance**
 
@@ -2843,9 +2870,10 @@ shufflefrom therandommodule:
 def shuffle(self):
 random.shuffle(self.cards)
 ```
+
 Don’t forget to importrandom.
 **Exercise 18.2.** Write a Deck method namedsortthat uses the list methodsortto sort the cards
-in aDeck.sortuses the__cmp__method we defined to determine sort order.
+in aDeck.sortuses the**cmp**method we defined to determine sort order.
 
 ### 18.7 Inheritance
 
@@ -2876,7 +2904,7 @@ class Hand(Deck):
 This definition indicates thatHandinherits fromDeck; that means we can use methods like
 pop_cardandadd_cardfor Hands as well as Decks.
 
-Handalso inherits__init__fromDeck, but it doesn’t really do what we want: instead of
+Handalso inherits**init**fromDeck, but it doesn’t really do what we want: instead of
 populating the hand with 52 new cards, the init method for Hands should initializecards
 with an empty list.
 
@@ -2894,20 +2922,20 @@ self.label = label
 
 So when you create a Hand, Python invokes this init method:
 
->>> hand = Hand('new hand')
->>> print hand.cards
-[]
->>> print hand.label
-new hand
+> > > hand = Hand('new hand')
+> > > print hand.cards
+> > > []
+> > > print hand.label
+> > > new hand
 
 But the other methods are inherited fromDeck, so we can usepop_cardandadd_cardto
 deal a card:
 
->>> deck = Deck()
->>> card = deck.pop_card()
->>> hand.add_card(card)
->>> print hand
-King of Spades
+> > > deck = Deck()
+> > > card = deck.pop_card()
+> > > hand.add_card(card)
+> > > print hand
+> > > King of Spades
 
 A natural next step is to encapsulate this code in a method calledmove_cards:
 
@@ -2918,6 +2946,7 @@ def move_cards(self, hand, num):
 for i in range(num):
 hand.add_card(self.pop_card())
 ```
+
 move_cardstakes two arguments, a Hand object and the number of cards to deal. It modi-
 fies bothselfandhand, and returnsNone.
 
@@ -2949,28 +2978,30 @@ They are also highly detailed; for some purposes, too detailed. A class diagram 
 abstract representation of the structure of a program. Instead of showing individual ob-
 jects, it shows classes and the relationships between them.
 
-
 **174 Chapter 18. Inheritance**
 
 ```
 Hand
 ```
+
 ```
 Deck * Card
 ```
+
 ```
 Figure 18.2: Class diagram.
 ```
+
 There are several kinds of relationship between classes:
 
 - Objects in one class might contain references to objects in another class. For example,
-    each Rectangle contains a reference to a Point, and each Deck contains references to
-    many Cards. This kind of relationship is called **HAS-A** , as in, “a Rectangle has a
-    Point.”
+  each Rectangle contains a reference to a Point, and each Deck contains references to
+  many Cards. This kind of relationship is called **HAS-A** , as in, “a Rectangle has a
+  Point.”
 - One class might inherit from another. This relationship is called **IS-A** , as in, “a Hand
-    is a kind of a Deck.”
+  is a kind of a Deck.”
 - One class might depend on another in the sense that changes in one class would
-    require changes in the other.
+  require changes in the other.
 
 A **class diagram** is a graphical representation of these relationships. For example, Fig-
 ure 18.2 shows the relationships betweenCard,DeckandHand.
@@ -2981,7 +3012,7 @@ cates that Hand inherits from Deck.
 The standard arrow head represents a HAS-A relationship; in this case a Deck has refer-
 ences to Card objects.
 
-The star (*) near the arrow head is a **multiplicity** ; it indicates how many Cards a Deck has.
+The star (\*) near the arrow head is a **multiplicity** ; it indicates how many Cards a Deck has.
 A multiplicity can be a simple number, like 52 , a range, like5..7or a star, which indicates
 that a Deck can have any number of Cards.
 
@@ -3003,7 +3034,6 @@ this method, you’ll get that version instead.
 Any time you are unsure about the flow of execution through your program, the sim-
 plest solution is to add print statements at the beginning of the relevant methods. If
 
-
 **18.10. Data encapsulation 175**
 
 Deck.shuffleprints a message that says something likeRunning Deck.shuffle, then as
@@ -3014,14 +3044,14 @@ As an alternative, you could use this function, which takes an object and a meth
 
 def find_defining_class(obj, meth_name):
 for ty in type(obj).mro():
-if meth_name in ty.__dict__:
+if meth_name in ty.**dict**:
 return ty
 
 Here’s an example:
 
->>> hand = Hand()
->>> print find_defining_class(hand,'shuffle')
-<class'Card.Deck'>
+> > > hand = Hand()
+> > > print find_defining_class(hand,'shuffle')
+> > > <class'Card.Deck'>
 
 So theshufflemethod for this Hand is the one inDeck.
 
@@ -3062,7 +3092,6 @@ for some interesting generated text).
 To run multiple analyses, and keep them separate, we can encapsulate the state of each
 analysis in an object. Here’s what that looks like:
 
-
 **176 Chapter 18. Inheritance**
 
 class Markov(object):
@@ -3072,6 +3101,7 @@ def __init__(self):
 self.suffix_map = {}
 self.prefix = ()
 ```
+
 Next, we transform the functions into methods. For example, here’sprocess_word:
 
 ```
@@ -3080,6 +3110,7 @@ if len(self.prefix) < order:
 self.prefix += (word,)
 return
 ```
+
 ```
 try:
 self.suffix_map[self.prefix].append(word)
@@ -3087,9 +3118,11 @@ except KeyError:
 # if there is no entry for this prefix, make one
 self.suffix_map[self.prefix] = [word]
 ```
+
 ```
 self.prefix = shift(self.prefix, word)
 ```
+
 Transforming a program like this—changing the design without changing the function—is
 another example of refactoring (see Section 4.7).
 
@@ -3097,7 +3130,7 @@ This example suggests a development plan for designing objects and methods:
 
 1. Start by writing functions that read and write global variables (when necessary).
 2. Once you get the program working, look for associations between global variables
-    and the functions that use them.
+   and the functions that use them.
 3. Encapsulate related variables as attributes of an object.
 4. Transform the associated functions into methods of the new class.
 
@@ -3121,7 +3154,6 @@ out doing much computation.
 
 **inheritance:** The ability to define a new class that is a modified version of a previously
 defined class.
-
 
 **18.12. Exercises 177**
 
@@ -3166,62 +3198,60 @@ and so is10-Jack-Queen-King-Ace, butQueen-King-Ace-2-3is not.)
 The goal of these exercises is to estimate the probability of drawing these various hands.
 
 1. Download the following files fromhttp: // thinkpython. com/ code:
-    Card.py: A complete version of theCard,DeckandHandclasses in this chapter.
-    PokerHand.py: An incomplete implementation of a class that represents a poker hand, and
-       some code that tests it.
+   Card.py: A complete version of theCard,DeckandHandclasses in this chapter.
+   PokerHand.py: An incomplete implementation of a class that represents a poker hand, and
+   some code that tests it.
 2. If you runPokerHand.py, it deals seven 7-card poker hands and checks to see if any of them
-    contains a flush. Read this code carefully before you go on.
+   contains a flush. Read this code carefully before you go on.
 3. Add methods toPokerHand.pynamedhas_pair,has_twopair, etc. that return True or
-    False according to whether or not the hand meets the relevant criteria. Your code should
-    work correctly for “hands” that contain any number of cards (although 5 and 7 are the most
-    common sizes).
+   False according to whether or not the hand meets the relevant criteria. Your code should
+   work correctly for “hands” that contain any number of cards (although 5 and 7 are the most
+   common sizes).
 4. Write a method namedclassifythat figures out the highest-value classification for a hand
-    and sets thelabelattribute accordingly. For example, a 7-card hand might contain a flush
-    and a pair; it should be labeled “flush”.
-
+   and sets thelabelattribute accordingly. For example, a 7-card hand might contain a flush
+   and a pair; it should be labeled “flush”.
 
 **178 Chapter 18. Inheritance**
 
 5. When you are convinced that your classification methods are working, the next step is to esti-
-    mate the probabilities of the various hands. Write a function inPokerHand.pythat shuffles
-    a deck of cards, divides it into hands, classifies the hands, and counts the number of times
-    various classifications appear.
+   mate the probabilities of the various hands. Write a function inPokerHand.pythat shuffles
+   a deck of cards, divides it into hands, classifies the hands, and counts the number of times
+   various classifications appear.
 6. Print a table of the classifications and their probabilities. Run your program with larger and
-    larger numbers of hands until the output values converge to a reasonable degree of accu-
-    racy. Compare your results to the values athttp: // en. wikipedia. org/ wiki/ Hand_
-    rankings.
+   larger numbers of hands until the output values converge to a reasonable degree of accu-
+   racy. Compare your results to the values athttp: // en. wikipedia. org/ wiki/ Hand\_
+   rankings.
 
 Solution:http: // thinkpython. com/ code/ PokerHandSoln. py.
 **Exercise 18.7.** This exercise uses TurtleWorld from Chapter 4. You will write code that makes
 Turtles play tag. If you are not familiar with the rules of tag, seehttp: // en. wikipedia. org/
-wiki/ Tag_ ( game).
+wiki/ Tag\_ ( game).
 
 1. Downloadhttp: // thinkpython. com/ code/ Wobbler. pyand run it. You should see a
-    TurtleWorld with three Turtles. If you press theRunbutton, the Turtles wander at random.
+   TurtleWorld with three Turtles. If you press theRunbutton, the Turtles wander at random.
 2. Read the code and make sure you understand how it works. TheWobblerclass inherits from
-    Turtle, which means that theTurtlemethodslt,rt,fdandbkwork on Wobblers.
-    Thestepmethod gets invoked by TurtleWorld. It invokessteer, which turns the Turtle
-    in the desired direction,wobble, which makes a random turn in proportion to the Turtle’s
-    clumsiness, andmove, which moves forward a few pixels, depending on the Turtle’s speed.
+   Turtle, which means that theTurtlemethodslt,rt,fdandbkwork on Wobblers.
+   Thestepmethod gets invoked by TurtleWorld. It invokessteer, which turns the Turtle
+   in the desired direction,wobble, which makes a random turn in proportion to the Turtle’s
+   clumsiness, andmove, which moves forward a few pixels, depending on the Turtle’s speed.
 3. Create a file namedTagger.py. Import everything fromWobbler, then define a class named
-    Taggerthat inherits fromWobbler. Callmake_worldpassing theTaggerclass object as an
-    argument.
+   Taggerthat inherits fromWobbler. Callmake_worldpassing theTaggerclass object as an
+   argument.
 4. Add asteermethod toTaggerto override the one inWobbler. As a starting place, write a
-    version that always points the Turtle toward the origin. Hint: use the math functionatan2
-    and the Turtle attributesx,yandheading.
+   version that always points the Turtle toward the origin. Hint: use the math functionatan2
+   and the Turtle attributesx,yandheading.
 5. Modifysteerso that the Turtles stay in bounds. For debugging, you might want to use the
-    Stepbutton, which invokessteponce on each Turtle.
+   Stepbutton, which invokessteponce on each Turtle.
 6. Modifysteerso that each Turtle points toward its nearest neighbor. Hint: Turtles have an
-    attribute,world, that is a reference to the TurtleWorld they live in, and the TurtleWorld has
-    an attribute,animals, that is a list of all Turtles in the world.
+   attribute,world, that is a reference to the TurtleWorld they live in, and the TurtleWorld has
+   an attribute,animals, that is a list of all Turtles in the world.
 7. Modifysteerso the Turtles play tag. You can add methods toTaggerand you can override
-    steerand__init__, but you may not modify or overridestep,wobbleormove. Also,
-    steeris allowed to change the heading of the Turtle but not the position.
-    Adjust the rules and yoursteermethod for good quality play; for example, it should be
-    possible for the slow Turtle to tag the faster Turtles eventually.
+   steerand**init**, but you may not modify or overridestep,wobbleormove. Also,
+   steeris allowed to change the heading of the Turtle but not the position.
+   Adjust the rules and yoursteermethod for good quality play; for example, it should be
+   possible for the slow Turtle to tag the faster Turtles eventually.
 
 Solution:http: // thinkpython. com/ code/ Tagger. py.
-
 
 ## Chapter 19
 
@@ -3250,11 +3280,11 @@ Here is a simple example that creates and displays a Gui:
 
 To create a GUI, you have to importGuifrom Swampy:
 
-from swampy.Gui import *
+from swampy.Gui import \*
 
 Or, depending on how you installed Swampy, like this:
 
-from Gui import *
+from Gui import \*
 
 Then instantiate a Gui object:
 
@@ -3264,7 +3294,6 @@ g.mainloop()
 
 When you run this code, a window should appear with an empty gray square and the
 titleGui. mainloopruns the **event loop** , which waits for the user to do something and
-
 
 **180 Chapter 19. Case study: Tkinter**
 
@@ -3324,7 +3353,6 @@ g.la(text='Thank you.')
 
 Now we can create a button with this function as its command:
 
-
 **19.3. Canvas widgets 181**
 
 button2 = g.bu(text='No, press me!', command=make_label)
@@ -3347,7 +3375,7 @@ pressed it should create a second button. Whenthatbutton is pressed, it should c
 says, “Nice job!”.
 
 What happens if you press the buttons more than once? Solution:http: // thinkpython. com/
-code/ button_ demo. py
+code/ button\_ demo. py
 
 ### 19.3 Canvas widgets
 
@@ -3388,7 +3416,6 @@ Thefilloption specifies that the circle should be filled in with red.
 
 The return value fromcircleis an Item object that provides methods for modifying the
 item on the canvas. For example, you can useconfigto change any of the circle’s options:
-
 
 **182 Chapter 19. Case study: Tkinter**
 
@@ -3437,8 +3464,8 @@ entry = g.en(text='Default text.')
 Thetextoption allows you to put text into the entry when it is created. Thegetmethod
 returns the contents of the Entry (which may have been changed by the user):
 
->>> entry.get()
-'Default text.'
+> > > entry.get()
+> > > 'Default text.'
 
 tecreates a Text widget:
 
@@ -3450,7 +3477,6 @@ insertputs text into the Text widget:
 
 text.insert(END,'A line of text.')
 
-
 **19.6. Packing widgets 183**
 
 ENDis a special index that indicates the last character in the Text widget.
@@ -3459,29 +3485,29 @@ You can also specify a character using a dotted index, like1.1, which has the li
 ber before the dot and the column number after. The following example adds the letters
 'nother'after the first character of the first line.
 
->>> text.insert(1.1,'nother')
+> > > text.insert(1.1,'nother')
 
 Thegetmethod reads the text in the widget; it takes a start and end index as arguments.
 The following example returns all the text in the widget, including the newline character:
 
->>> text.get(0.0, END)
-'Another line of text.\n'
+> > > text.get(0.0, END)
+> > > 'Another line of text.\n'
 
 Thedeletemethod removes text from the widget; the following example deletes all but
 the first two characters:
 
->>> text.delete(1.2, END)
->>> text.get(0.0, END)
-'An\n'
-**Exercise 19.3.** Modify your solution to Exercise 19.2 by adding an Entry widget and a second
-button. When the user presses the second button, it should read a color name from the Entry and
-use it to change the fill color of the circle. Useconfigto modify the existing circle; don’t create a
-new one.
+> > > text.delete(1.2, END)
+> > > text.get(0.0, END)
+> > > 'An\n'
+> > > **Exercise 19.3.** Modify your solution to Exercise 19.2 by adding an Entry widget and a second
+> > > button. When the user presses the second button, it should read a color name from the Entry and
+> > > use it to change the fill color of the circle. Useconfigto modify the existing circle; don’t create a
+> > > new one.
 
 Your program should handle the case where the user tries to change the color of a circle that hasn’t
 been created, and the case where the color name is invalid.
 
-You can see my solution athttp: // thinkpython. com/ code/ circle_ demo. py.
+You can see my solution athttp: // thinkpython. com/ code/ circle\_ demo. py.
 
 ### 19.6 Packing widgets
 
@@ -3505,6 +3531,7 @@ def setup(self):
 self.row()
 ...
 ```
+
 setupis the function that creates and arranges the widgets. Arranging widgets in a GUI is
 called **packing**.
 
@@ -3513,16 +3540,17 @@ another Frame is created, all subsequent widgets are packed in a row.
 
 Here is the code that creates the Canvas and the column Frame that hold the other widgets:
 
-
 **184 Chapter 19. Case study: Tkinter**
 
 ```
 Figure 19.1: TurtleWorld after running the snowflake code.
 ```
+
 ```
 self.canvas = self.ca(width=400, height=400, bg='white')
 self.col()
 ```
+
 The first widget in the column is a grid Frame, which contains four buttons arranged two-
 by-two:
 
@@ -3534,6 +3562,7 @@ self.bu(text='Make Turtle', command=self.make_turtle)
 self.bu(text='Clear', command=self.clear)
 self.endgr()
 ```
+
 grcreates the grid; the argument is the number of columns. Widgets in the grid are laid
 out left-to-right, top-to-bottom.
 
@@ -3549,6 +3578,7 @@ self.bu(text='Run file', command=self.run_file)
 self.en_file = self.en(text='snowflake.py', width=5)
 self.endrow()
 ```
+
 The first argument torowis a list of weights that determines how extra space is allocated
 between widgets. The list[0,1]means that all extra space is allocated to the second wid-
 get, which is the Entry. If you run this code and resize the window, you will see that the
@@ -3557,16 +3587,15 @@ Entry grows and the Button doesn’t.
 The optionpady“pads” this row in theydirection, adding 30 pixels of space above and
 below.
 
-
 **19.7. Menus and Callables 185**
 
 endrowends this row of widgets, so subsequent widgets are packed in the column Frame.
 Gui.pykeeps a stack of Frames:
 
 - When you userow,colorgrto create a Frame, it goes on top of the stack and becomes
-    the current Frame.
+  the current Frame.
 - When you useendrow,endcolorendgrto close a Frame, it gets popped off the stack
-    and the previous Frame on the stack becomes the current Frame.
+  and the previous Frame on the stack becomes the current Frame.
 
 The methodrun_filereads the contents of the Entry, uses it as a filename, reads the con-
 tents and passes it torun_code.self.interis an Interpreter object that knows how to take
@@ -3579,6 +3608,7 @@ fp = open(filename)
 source = fp.read()
 self.inter.run_code(source, filename)
 ```
+
 The last two widgets are a Text widget and a Button:
 
 ```
@@ -3586,9 +3616,11 @@ self.te_code = self.te(width=25, height=10)
 self.te_code.insert(END, 'world.clear()\n')
 self.te_code.insert(END, 'bob = Turtle(world)\n')
 ```
+
 ```
 self.bu(text='Run code', command=self.run_text)
 ```
+
 run_textis similar torun_fileexcept that it takes the code from the Text widget instead
 of from a file:
 
@@ -3597,6 +3629,7 @@ def run_text(self):
 source = self.te_code.get(1.0, END)
 self.inter.run_code(source, '<user-provided code>')
 ```
+
 Unfortunately, the details of widget layout are different in other languages, and in different
 Python modules. Tkinter alone provides three different mechanisms for arranging widgets.
 These mechanisms are called **geometry managers**. The one I demonstrated in this section
@@ -3617,7 +3650,6 @@ g = Gui()
 g.la('Select a color:')
 colors = ['red','green', 'blue']
 mb = g.mb(text=colors[0])
-
 
 **186 Chapter 19. Case study: Tkinter**
 
@@ -3677,7 +3709,6 @@ def make_circle(event):
 pos = ca.canvas_coords([event.x, event.y])
 item = ca.circle(pos, 5, fill='red')
 
-
 **19.8. Binding 187**
 
 The Event object contains information about the type of event and details like the coordi-
@@ -3718,6 +3749,7 @@ self.bind('<Button-3>', self.select)
 self.bind('<B3-Motion>', self.drag)
 self.bind('<Release-3>', self.drop)
 ```
+
 The init method takes an Item as a parameter. It copies the attributes of the Item and then
 creates bindings for three events: a button press, button motion, and button release.
 
@@ -3729,10 +3761,12 @@ def select(self, event):
 self.dragx = event.x
 self.dragy = event.y
 ```
+
 ```
 self.fill = self.cget('fill')
 self.config(fill='yellow')
 ```
+
 cgetstands for “get configuration;” it takes the name of an option as a string and returns
 the current value of that option.
 
@@ -3749,13 +3783,16 @@ dx = event.x - self.dragx
 ```
 dy = event.y - self.dragy
 ```
+
 ```
 self.dragx = event.x
 self.dragy = event.y
 ```
+
 ```
 self.move(dx, dy)
 ```
+
 This computation is done in pixel coordinates; there is no need to convert to Canvas coor-
 dinates.
 
@@ -3765,6 +3802,7 @@ Finally,droprestores the original color of the item:
 def drop(self, event):
 self.config(fill=self.fill)
 ```
+
 You can use theDraggableclass to add drag-and-drop capability to an existing item. For
 example, here is a modified version ofmake_circlethat usescircleto create an Item and
 Draggableto make it draggable:
@@ -3806,7 +3844,6 @@ other changes the color of the Circle. If the user creates the circle and then c
 there’s no problem. But what if the user changes the color of a circle that doesn’t exist yet?
 Or creates more than one circle?
 
-
 **19.10. Glossary 189**
 
 As the number of widgets grows, it is increasingly difficult to imagine all possible se-
@@ -3814,13 +3851,13 @@ quences of events. One way to manage this complexity is to encapsulate the state
 system in an object and then consider:
 
 - What are the possible states? In the Circle example, we might consider two states:
-    before and after the user creates the first circle.
+  before and after the user creates the first circle.
 - In each state, what events can occur? In the example, the user can press either of the
-    buttons, or quit.
+  buttons, or quit.
 - For each state-event pair, what is the desired outcome? Since there are two states and
-    two buttons, there are four state-event pairs to consider.
+  two buttons, there are four state-event pairs to consider.
 - What can cause a transition from one state to another? In this case, there is a transition
-    when the user creates the first circle.
+  when the user creates the first circle.
 
 You might also find it useful to define, and check, invariants that should hold regardless of
 the sequence of events.
@@ -3864,7 +3901,6 @@ corners.
 **binding:** An association between a widget, an event, and an event handler. The event
 handler is called when the event occurs in the widget.
 
-
 **190 Chapter 19. Case study: Tkinter**
 
 ### 19.11 Exercises
@@ -3901,30 +3937,29 @@ photo2 = ImageTk.PhotoImage(image)
 g.la(image=photo2)
 
 1. Downloadimage_demo.py,danger.gifandallen.pngfromhttp: // thinkpython.
-    com/ code. Runimage_demo.py. You might have to installPILandImageTk. They
-    are probably in your software repository, but if not you can get them fromhttp: //
-    pythonware. com/ products/ pil.
+   com/ code. Runimage_demo.py. You might have to installPILandImageTk. They
+   are probably in your software repository, but if not you can get them fromhttp: //
+   pythonware. com/ products/ pil.
 2. Inimage_demo.pychange the name of the second PhotoImage fromphoto2tophotoand
-    run the program again. You should see the second PhotoImage but not the first.
-    The problem is that when you reassignphotoit overwrites the reference to the first PhotoIm-
-    age, which then disappears. The same thing happens if you assign a PhotoImage to a local
-    variable; it disappears when the function ends.
-    To avoid this problem, you have to store a reference to each PhotoImage you want to keep. You
-    can use a global variable, or store PhotoImages in a data structure or as an attribute of an
-    object.
-    This behavior can be frustrating, which is why I am warning you (and why the example image
-    says “Danger!”).
+   run the program again. You should see the second PhotoImage but not the first.
+   The problem is that when you reassignphotoit overwrites the reference to the first PhotoIm-
+   age, which then disappears. The same thing happens if you assign a PhotoImage to a local
+   variable; it disappears when the function ends.
+   To avoid this problem, you have to store a reference to each PhotoImage you want to keep. You
+   can use a global variable, or store PhotoImages in a data structure or as an attribute of an
+   object.
+   This behavior can be frustrating, which is why I am warning you (and why the example image
+   says “Danger!”).
 3. Starting with this example, write a program that takes the name of a directory and loops
-    through all the files, displaying any files that PIL recognizes as images. You can use atry
-    statement to catch the files PIL doesn’t recognize.
-    When the user clicks on the image, the program should display the next one.
-
+   through all the files, displaying any files that PIL recognizes as images. You can use atry
+   statement to catch the files PIL doesn’t recognize.
+   When the user clicks on the image, the program should display the next one.
 
 **19.11. Exercises 191**
 
 4. PIL provides a variety of methods for manipulating images. You can read about them at
-    [http:](http:) // pythonware. com/ library/ pil/ handbook. As a challenge, choose a few of
-    these methods and provide a GUI for applying them to images.
+   [http:](http:) // pythonware. com/ library/ pil/ handbook. As a challenge, choose a few of
+   these methods and provide a GUI for applying them to images.
 
 Solution:http: // thinkpython. com/ code/ ImageBrowser. py.
 **Exercise 19.5.** A vector graphics editor is a program that allows users to draw and edit shapes on
@@ -3944,9 +3979,7 @@ to parse the HTML tags (seehttp: // docs. python. org/ 2/ library/ htmlparser. h
 At a minimum your browser should handle plain text and hyperlinks. As a challenge you could
 handle background colors, text formatting tags and images.
 
-
 **192 Chapter 19. Case study: Tkinter**
-
 
 ## Appendix A
 
@@ -3956,16 +3989,16 @@ Different kinds of errors can occur in a program, and it is useful to distinguis
 in order to track them down more quickly:
 
 - Syntax errors are produced by Python when it is translating the source code into
-    byte code. They usually indicate that there is something wrong with the syntax of
-    the program. Example: Omitting the colon at the end of adefstatement yields the
-    somewhat redundant messageSyntaxError: invalid syntax.
+  byte code. They usually indicate that there is something wrong with the syntax of
+  the program. Example: Omitting the colon at the end of adefstatement yields the
+  somewhat redundant messageSyntaxError: invalid syntax.
 - Runtime errors are produced by the interpreter if something goes wrong while the
-    program is running. Most runtime error messages include information about where
-    the error occurred and what functions were executing. Example: An infinite recur-
-    sion eventually causes the runtime error “maximum recursion depth exceeded.”
+  program is running. Most runtime error messages include information about where
+  the error occurred and what functions were executing. Example: An infinite recur-
+  sion eventually causes the runtime error “maximum recursion depth exceeded.”
 - Semantic errors are problems with a program that runs without producing error mes-
-    sages but doesn’t do the right thing. Example: An expression may not be evaluated
-    in the order you expect, yielding an incorrect result.
+  sages but doesn’t do the right thing. Example: An expression may not be evaluated
+  in the order you expect, yielding an incorrect result.
 
 The first step in debugging is to figure out which kind of error you are dealing with. Al-
 though the following sections are organized by error type, some techniques are applicable
@@ -3983,7 +4016,6 @@ Actually, it tells you where Python noticed a problem, which is not necessarily 
 error is. Sometimes the error is prior to the location of the error message, often on the
 preceding line.
 
-
 **194 Appendix A. Debugging**
 
 If you are building the program incrementally, you should have a good idea about where
@@ -3997,21 +4029,21 @@ Here are some ways to avoid the most common syntax errors:
 
 1. Make sure you are not using a Python keyword for a variable name.
 2. Check that you have a colon at the end of the header of every compound statement,
-    includingfor,while,if, anddefstatements.
+   includingfor,while,if, anddefstatements.
 3. Make sure that any strings in the code have matching quotation marks.
 4. If you have multiline strings with triple quotes (single or double), make sure you
-    have terminated the string properly. An unterminated string may cause aninvalid
-    tokenerror at the end of your program, or it may treat the following part of the
-    program as a string until it comes to the next string. In the second case, it might not
-    produce an error message at all!
+   have terminated the string properly. An unterminated string may cause aninvalid
+   tokenerror at the end of your program, or it may treat the following part of the
+   program as a string until it comes to the next string. In the second case, it might not
+   produce an error message at all!
 5. An unclosed opening operator—(,{, or[—makes Python continue with the next line
-    as part of the current statement. Generally, an error occurs almost immediately in the
-    next line.
+   as part of the current statement. Generally, an error occurs almost immediately in the
+   next line.
 6. Check for the classic=instead of==inside a conditional.
 7. Check the indentation to make sure it lines up the way it is supposed to. Python
-    can handle space and tabs, but if you mix them it can cause problems. The best way
-    to avoid this problem is to use a text editor that knows about Python and generates
-    consistent indentation.
+   can handle space and tabs, but if you mix them it can cause problems. The best way
+   to avoid this problem is to use a text editor that knows about Python and generates
+   consistent indentation.
 
 If nothing works, move on to the next section...
 
@@ -4028,18 +4060,17 @@ running the new code.
 There are a few likely culprits:
 
 - You edited the file and forgot to save the changes before running it again. Some
-    programming environments do this for you, but some don’t.
+  programming environments do this for you, but some don’t.
 - You changed the name of the file, but you are still running the old name.
 - Something in your development environment is configured incorrectly.
-
 
 **A.2. Runtime errors 195**
 
 - If you are writing a module and usingimport, make sure you don’t give your module
-    the same name as one of the standard Python modules.
+  the same name as one of the standard Python modules.
 - If you are usingimportto read a module, remember that you have to restart the
-    interpreter or usereloadto read a modified file. If you import the module again, it
-    doesn’t do anything.
+  interpreter or usereloadto read a modified file. If you import the module again, it
+  doesn’t do anything.
 
 If you get stuck and you can’t figure out what is going on, one approach is to start again
 with a new program like “Hello, World!,” and make sure you can get a known program to
@@ -4065,21 +4096,20 @@ If a program stops and seems to be doing nothing, it is “hanging.” Often tha
 is caught in an infinite loop or infinite recursion.
 
 - If there is a particular loop that you suspect is the problem, add aprintstatement
-    immediately before the loop that says “entering the loop” and another immediately
-    after that says “exiting the loop.”
-    Run the program. If you get the first message and not the second, you’ve got an
-    infinite loop. Go to the “Infinite Loop” section below.
+  immediately before the loop that says “entering the loop” and another immediately
+  after that says “exiting the loop.”
+  Run the program. If you get the first message and not the second, you’ve got an
+  infinite loop. Go to the “Infinite Loop” section below.
 - Most of the time, an infinite recursion will cause the program to run for a while and
-    then produce a “RuntimeError: Maximum recursion depth exceeded” error. If that
-    happens, go to the “Infinite Recursion” section below.
-    If you are not getting this error but you suspect there is a problem with a recursive
-    method or function, you can still use the techniques in the “Infinite Recursion” sec-
-    tion.
+  then produce a “RuntimeError: Maximum recursion depth exceeded” error. If that
+  happens, go to the “Infinite Recursion” section below.
+  If you are not getting this error but you suspect there is a problem with a recursive
+  method or function, you can still use the techniques in the “Infinite Recursion” sec-
+  tion.
 - If neither of those steps works, start testing other loops and other recursive functions
-    and methods.
+  and methods.
 - If that doesn’t work, then it is possible that you don’t understand the flow of execu-
-    tion in your program. Go to the “Flow of Execution” section below.
-
+  tion in your program. Go to the “Flow of Execution” section below.
 
 **196 Appendix A. Debugging**
 
@@ -4092,7 +4122,9 @@ in the condition and the value of the condition.
 For example:
 
 while x > 0 and y < 0 :
+
 # do something to x
+
 # do something to y
 
 ```
@@ -4100,6 +4132,7 @@ print "x: ", x
 print "y: ", y
 print "condition: ", (x > 0 and y < 0)
 ```
+
 Now when you run the program, you will see three lines of output for each time through
 the loop. The last time through the loop, the condition should befalse. If the loop keeps
 going, you will be able to see the values ofxandy, and you might figure out why they are
@@ -4137,7 +4170,6 @@ of the exception, the line of the program where the problem occurred, and a trac
 The traceback identifies the function that is currently running, and then the function that
 invoked it, and then the function that invokedthat, and so on. In other words, it traces the
 
-
 **A.2. Runtime errors 197**
 
 sequence of function invocations that got you to where you are. It also includes the line
@@ -4153,15 +4185,15 @@ function where they are defined.
 **TypeError:** There are several possible causes:
 
 - You are trying to use a value improperly. Example: indexing a string, list, or
-    tuple with something other than an integer.
+  tuple with something other than an integer.
 - There is a mismatch between the items in a format string and the items passed
-    for conversion. This can happen if either the number of items does not match or
-    an invalid conversion is called for.
+  for conversion. This can happen if either the number of items does not match or
+  an invalid conversion is called for.
 - You are passing the wrong number of arguments to a function or method. For
-    methods, look at the method definition and check that the first parameter is
-    self. Then look at the method invocation; make sure you are invoking the
-    method on an object with the right type and providing the other arguments
-    correctly.
+  methods, look at the method definition and check that the first parameter is
+  self. Then look at the method invocation; make sure you are invoking the
+  method on an object with the right type and providing the other arguments
+  correctly.
 
 **KeyError:** You are trying to access an element of a dictionary using a key that the dictio-
 nary does not contain.
@@ -4190,7 +4222,6 @@ program.
 
 To simplify the output, you can remove or comment outprintstatements that aren’t help-
 ing, or combine them, or format the output so it is easier to understand.
-
 
 **198 Appendix A. Debugging**
 
@@ -4229,19 +4260,18 @@ and “stepping” the program to where the error is occurring.
 You should ask yourself these questions:
 
 - Is there something the program was supposed to do but which doesn’t seem to be
-    happening? Find the section of the code that performs that function and make sure
-    it is executing when you think it should.
+  happening? Find the section of the code that performs that function and make sure
+  it is executing when you think it should.
 - Is something happening that shouldn’t? Find code in your program that performs
-    that function and see if it is executing when it shouldn’t.
+  that function and see if it is executing when it shouldn’t.
 - Is a section of code producing an effect that is not what you expected? Make sure that
-    you understand the code in question, especially if it involves invocations to functions
-    or methods in other Python modules. Read the documentation for the functions you
-    invoke. Try them out by writing simple test cases and checking the results.
+  you understand the code in question, especially if it involves invocations to functions
+  or methods in other Python modules. Read the documentation for the functions you
+  invoke. Try them out by writing simple test cases and checking the results.
 
 In order to program, you need to have a mental model of how programs work. If you write
 a program that doesn’t do what you expect, very often the problem is not in the program;
 it’s in your mental model.
-
 
 **A.3. Semantic errors 199**
 
@@ -4277,7 +4307,7 @@ Another problem that can occur with big expressions is that the order of evaluat
 not be what you expect. For example, if you are translating the expression 2 x _π_ into Python,
 you might write:
 
-y = x / 2 * math.pi
+y = x / 2 \* math.pi
 
 That is not correct because multiplication and division have the same precedence and are
 evaluated from left to right. So this expression computesx _π_ /2.
@@ -4288,6 +4318,7 @@ explicit:
 ```
 y = x / (2 * math.pi)
 ```
+
 Whenever you are not sure of the order of evaluation, use parentheses. Not only will the
 program be correct (in the sense of doing what you intended), it will also be more readable
 for other people who haven’t memorized the rules of precedence.
@@ -4307,7 +4338,6 @@ return count
 
 Now you have the opportunity to display the value ofcountbefore returning.
 
-
 **200 Appendix A. Debugging**
 
 **A.3.4 I’m really, really stuck and I need help.**
@@ -4317,9 +4347,9 @@ affect the brain, causing these symptoms:
 
 - Frustration and rage.
 - Superstitious beliefs (“the computer hates me”) and magical thinking (“the program
-    only works when I wear my hat backward”).
+  only works when I wear my hat backward”).
 - Random walk programming (the attempt to program by writing every possible pro-
-    gram and choosing the one that does the right thing).
+  gram and choosing the one that does the right thing).
 
 If you find yourself suffering from any of these symptoms, get up and go for a walk. When
 you are calm, think about the program. What is it doing? What are some possible causes
@@ -4345,7 +4375,7 @@ When you bring someone in to help, be sure to give them the information they nee
 
 - If there is an error message, what is it and what part of the program does it indicate?
 - What was the last thing you did before this error occurred? What were the last lines
-    of code that you wrote, or what is the new test case that fails?
+  of code that you wrote, or what is the new test case that fails?
 - What have you tried so far, and what have you learned?
 
 When you find the bug, take a second to think about what you could have done to find it
@@ -4353,7 +4383,6 @@ faster. Next time you see something similar, you will be able to find the bug mo
 
 Remember, the goal is not just to make the program work. The goal is to learn how to make
 the program work.
-
 
 ## Appendix B
 
@@ -4364,6 +4393,7 @@ This appendix is an edited excerpt fromThink Complexity, by Allen B. Downey,
 also published by O’Reilly Media (2011). When you are done with this book,
 you might want to move on to that one.
 ```
+
 **Analysis of algorithms** is a branch of computer science that studies the performance of
 algorithms, especially their run time and space requirements. See http://en.wikipedia.org/wiki/Analysis_of_algorithms .
 
@@ -4381,18 +4411,17 @@ swer Schmidt was probably looking for is “radix sort” (http://en.wikipedia.o
 The goal of algorithm analysis is to make meaningful comparisons between algorithms, but there are some problems:
 
 - The relative performance of the algorithms might depend on characteristics of the
-    hardware, so one algorithm might be faster on Machine A, another on Machine B.
-    The general solution to this problem is to specify a **machine model** and analyze the
-    number of steps, or operations, an algorithm requires under a given model.
+  hardware, so one algorithm might be faster on Machine A, another on Machine B.
+  The general solution to this problem is to specify a **machine model** and analyze the
+  number of steps, or operations, an algorithm requires under a given model.
 - Relative performance might depend on the details of the dataset. For example, some
-    sorting algorithms run faster if the data are already partially sorted; other algorithms
+  sorting algorithms run faster if the data are already partially sorted; other algorithms
 
 (^1) But if you get a question like this in an interview, I think a better answer is, “The fastest way to sort a million
 integers is to use whatever sort function is provided by the language I’m using. Its performance is good enough
 for the vast majority of applications, but if it turned out that my application was too slow, I would use a profiler
 to see where the time was being spent. If it looked like a faster sort algorithm would have a significant effect on
 performance, then I would look around for a good implementation of radix sort.”
-
 
 **202 Appendix B. Analysis of Algorithms**
 
@@ -4401,10 +4430,11 @@ run slower in this case. A common way to avoid this problem is to analyze the wo
 case scenario. It is sometimes useful to analyze average case performance, but that’s
 usually harder, and it might not be obvious what set of cases to average over.
 ```
+
 - Relative performance also depends on the size of the problem. A sorting algorithm
-    that is fast for small lists might be slow for long lists. The usual solution to this
-    problem is to express run time (or number of operations) as a function of problem
-    size, and to compare the functions **asymptotically** as the problem size increases.
+  that is fast for small lists might be slow for long lists. The usual solution to this
+  problem is to express run time (or number of operations) as a function of problem
+  size, and to compare the functions **asymptotically** as the problem size increases.
 
 The good thing about this kind of comparison that it lends itself to simple classification of
 algorithms. For example, if I know that the run time of Algorithm A tends to be propor-
@@ -4429,6 +4459,7 @@ size Algorithm A Algorithm B
 1 000 100 001 1 001 001
 10 000 1 000 001 > 1010
 ```
+
 Atn=10, Algorithm A looks pretty bad; it takes almost 10 times longer than Algorithm
 B. But forn=100 they are about the same, and for larger values A is much better.
 
@@ -4452,7 +4483,6 @@ analysis. But that doesn’t mean you can forget about it.
 If two algorithms have the same leading order term, it is hard to say which is better; again,
 the answer depends on the details. So for algorithmic analysis, functions with the same
 leading term are considered equivalent, even if they have different coefficients.
-
 
 **B.1. Order of growth 203**
 
@@ -4478,18 +4508,19 @@ O(n^2 ) quadratic
 O(n^3 ) cubic
 O(cn) exponential (for anyc)
 ```
+
 For the logarithmic terms, the base of the logarithm doesn’t matter; changing bases is the
 equivalent of multiplying by a constant, which doesn’t change the order of growth. Sim-
 ilarly, all exponential functions belong to the same order of growth regardless of the base
 of the exponent. Exponential functions grow very quickly, so exponential algorithms are
 only useful for small problems.
 **Exercise B.1.** Read the Wikipedia page on Big-Oh notation athttp: // en. wikipedia. org/
-wiki/ Big_ O_ notationand answer the following questions:
+wiki/ Big* O* notationand answer the following questions:
 
 1. What is the order of growth of n^3 +n^2? What about 1000000 n^3 +n^2? What about n^3 +
-    1000000 n^2?
+   1000000 n^2?
 2. What is the order of growth of(n^2 +n)·(n+ 1 )? Before you start multiplying, remember
-    that you only need the leading term.
+   that you only need the leading term.
 3. If f is in O(g), for some unspecified function g, what can we say about a f+b?
 4. If f 1 and f 2 are in O(g), what can we say about f 1 +f 2?
 5. If f 1 is in O(g)and f 2 is in O(h), what can we say about f 1 +f 2?
@@ -4505,7 +4536,6 @@ But if you keep those caveats in mind, algorithmic analysis is a useful tool. At
 large problems, the “better” algorithms is usually better, and sometimes it ismuchbetter.
 The difference between two algorithms with the same order of growth is usually a constant
 factor, but the difference between a good algorithm and a bad algorithm is unbounded!
-
 
 **204 Appendix B. Analysis of Algorithms**
 
@@ -4528,6 +4558,7 @@ total = 0
 for x in t:
 total += x
 ```
+
 The built-in functionsumis also linear because it does the same thing, but it tends to be
 faster because it is a more efficient implementation; in the language of algorithmic analysis,
 it has a smaller leading coefficient.
@@ -4554,27 +4585,27 @@ for example, operations on single characters—they are considered constant time
 Most list methods are linear, but there are some exceptions:
 
 - Adding an element to the end of a list is constant time on average; when it runs
-    out of room it occasionally gets copied to a bigger location, but the total time forn
-    operations isO(n), so we say that the “amortized” time for one operation isO( 1 ).
+  out of room it occasionally gets copied to a bigger location, but the total time forn
+  operations isO(n), so we say that the “amortized” time for one operation isO( 1 ).
 - Removing an element from the end of a list is constant time.
 - Sorting isO(nlogn).
 
 Most dictionary operations and methods are constant time, but there are some exceptions:
 
 - The run time ofcopyis proportional to the number of elements, but not the size of
-    the elements (it copies references, not the elements themselves).
-
+  the elements (it copies references, not the elements themselves).
 
 ```
 B.3. Analysis of search algorithms 205
 ```
+
 - The run time ofupdateis proportional to the size of the dictionary passed as a pa-
-    rameter, not the dictionary being updated.
+  rameter, not the dictionary being updated.
 - keys, values and items are linear because they return new lists; iterkeys,
-    itervaluesanditeritemsare constant time because they return iterators. But if
-    you loop through the iterators, the loop will be linear. Using the “iter” functions
-    saves some overhead, but it doesn’t change the order of growth unless the number of
-    items you access is bounded.
+  itervaluesanditeritemsare constant time because they return iterators. But if
+  you loop through the iterators, the loop will be linear. Using the “iter” functions
+  saves some overhead, but it doesn’t change the order of growth unless the number of
+  items you access is bounded.
 
 ```
 The performance of dictionaries is one of the minor miracles of computer science. We will
@@ -4582,17 +4613,18 @@ see how they work in Section B.4.
 Exercise B.2. Read the Wikipedia page on sorting algorithms athttp: // en. wikipedia. org/
 wiki/ Sorting_ algorithmand answer the following questions:
 ```
+
 1. What is a “comparison sort?” What is the best worst-case order of growth for a comparison
-    sort? What is the best worst-case order of growth for any sort algorithm?
+   sort? What is the best worst-case order of growth for any sort algorithm?
 2. What is the order of growth of bubble sort, and why does Barack Obama think it is “the wrong
-    way to go?”
+   way to go?”
 3. What is the order of growth of radix sort? What preconditions do we need to use it?
 4. What is a stable sort and why might it matter in practice?
 5. What is the worst sorting algorithm (that has a name)?
 6. What sort algorithm does the C library use? What sort algorithm does Python use? Are these
-    algorithms stable? You might have to Google around to find these answers.
+   algorithms stable? You might have to Google around to find these answers.
 7. Many of the non-comparison sorts are linear, so why does does Python use an O(nlogn)
-    comparison sort?
+   comparison sort?
 
 ### B.3 Analysis of search algorithms
 
@@ -4600,15 +4632,18 @@ wiki/ Sorting_ algorithmand answer the following questions:
 A search is an algorithm that takes a collection and a target item and determines whether
 the target is in the collection, often returning the index of the target.
 ```
+
 ```
 The simplest search algorithm is a “linear search,” which traverses the items of the collec-
 tion in order, stopping if it finds the target. In the worst case it has to traverse the entire
 collection, so the run time is linear.
 ```
+
 ```
 Theinoperator for sequences uses a linear search; so do string methods likefindand
 count.
 ```
+
 If the elements of the sequence are in order, you can use a **bisection search** , which is
 O(logn). Bisection search is similar to the algorithm you probably use to look a word
 up in a dictionary (a real dictionary, not the data structure). Instead of starting at the be-
@@ -4662,10 +4697,12 @@ class LinearMap(object):
 def __init__(self):
 self.items = []
 ```
+
 ```
 def add(self, k, v):
 self.items.append((k, v))
 ```
+
 ```
 def get(self, k):
 for key, val in self.items:
@@ -4673,6 +4710,7 @@ if key == k:
 return val
 raise KeyError
 ```
+
 addappends a key-value tuple to the list of items, which takes constant time.
 
 getuses aforloop to search the list: if it finds the target key it returns the corresponding
@@ -4680,7 +4718,6 @@ value; otherwise it raises aKeyError. Sogetis linear.
 
 An alternative is to keep the list sorted by key. Thengetcould use a bisection search,
 which isO(logn). But inserting a new item in the middle of a list is linear, so this might
-
 
 **B.4. Hashtables 207**
 
@@ -4699,22 +4736,26 @@ self.maps = []
 for i in range(n):
 self.maps.append(LinearMap())
 ```
+
 ```
 def find_map(self, k):
 index = hash(k) % len(self.maps)
 return self.maps[index]
 ```
+
 ```
 def add(self, k, v):
 m = self.find_map(k)
 m.add(k, v)
 ```
+
 ```
 def get(self, k):
 m = self.find_map(k)
 return m.get(k)
 ```
-__init__makes a list ofn LinearMaps.
+
+**init**makes a list ofn LinearMaps.
 
 find_mapis used byaddandgetto figure out which map to put the new item in, or which
 map to search.
@@ -4743,7 +4784,6 @@ a threshold, resize the hashtable by adding more LinearMaps.
 
 Here is an implementation of a hashtable:
 
-
 **208 Appendix B. Analysis of Algorithms**
 
 class HashMap(object):
@@ -4753,32 +4793,39 @@ def __init__(self):
 self.maps = BetterMap(2)
 self.num = 0
 ```
+
 ```
 def get(self, k):
 return self.maps.get(k)
 ```
+
 ```
 def add(self, k, v):
 if self.num == len(self.maps.maps):
 self.resize()
 ```
+
 ```
 self.maps.add(k, v)
 self.num += 1
 ```
+
 ```
 def resize(self):
 new_maps = BetterMap(self.num * 2)
 ```
+
 ```
 for m in self.maps.maps:
 for k, v in m.items:
 new_maps.add(k, v)
 ```
+
 ```
 self.maps = new_maps
 ```
-EachHashMapcontains aBetterMap;__init__starts with just 2 LinearMaps and initializes
+
+EachHashMapcontains aBetterMap;**init**starts with just 2 LinearMaps and initializes
 num, which keeps track of the number of items.
 
 getjust dispatches toBetterMap. The real work happens inadd, which checks the number
@@ -4807,12 +4854,12 @@ of work for 4 items.
 The nextaddcosts 5 units, but the next three are only one unit each, so the total is 14 units
 for the first 8 adds.
 
-
 **B.4. Hashtables 209**
 
 ```
 Figure B.1: The cost of a hashtable add.
 ```
+
 The nextaddcosts 9 units, but then we can add 7 more before the next resize, so the total is
 30 units for the first 16 adds.
 
@@ -4836,9 +4883,7 @@ arithmetically—adding a fixed number each time—the average time peraddis lin
 
 You can download my implementation of HashMap from http://thinkpython/code/Map.py, but remember that there is no reason to use it; if you want a map, just use a Python dictionary.
 
-
-**210  Appendix B. Analysis of Algorithms**
-
+**210 Appendix B. Analysis of Algorithms**
 
 ## Appendix C
 
@@ -4882,30 +4927,36 @@ generate object diagrams (including stack diagrams) and class diagrams.
 
 Here’s an example that uses Lumpy to generate a state diagram.
 
-
 **212 Appendix C. Lumpy**
 
 ```
 n 17
 ```
+
 ```
 message 'And now for something complete'
 ```
+
 ```
 pi 3.14159265359
 ```
+
 ```
 <module>
 ```
+
 ```
 Figure C.1: State diagram generated by Lumpy.
 ```
+
 ```
 <module> countdownn 2 countdownn 1 countdownn 0
 ```
+
 ```
 Figure C.2: Stack diagram.
 ```
+
 from swampy.Lumpy import Lumpy
 
 lumpy = Lumpy()
@@ -4944,36 +4995,44 @@ Try adding some additional assignments and see what the diagram looks like.
 
 Here’s an example that uses **Lumpy** to generate a stack diagram. You can download it from [http://thinkpython.com/code/lumpy_demo2.py](http://thinkpython.com/code/lumpy_demo2.py)
 
-
 **C.3. Object diagrams 213**
 
 ```
 cheeses 0 'Cheddar'
 ```
+
 ```
 1 'Edam'
 ```
+
 ```
 2 'Gouda'
 ```
+
 ```
 list
 ```
+
 ```
 numbers 0 17
 ```
+
 ```
 1 123
 ```
+
 ```
 list
 ```
+
 ```
 empty list
 ```
+
 ```
 <module>
 ```
+
 ```
 Figure C.3: Object diagram.
 ```
@@ -4993,11 +5052,12 @@ lumpy = Lumpy()
 lumpy.make_reference()
 countdown(3)
 ```
+
 Figure C.2 shows the result. Each frame is represented with a box that has the function’s name outside and variables inside. Since this function is recursive, there is one frame for each level of recursion.
 
 Remember that a stack diagram shows the state of the program at a particular point in its execution. To get the diagram you want, sometimes you have to think about where to invoke object_diagram.
 
-In this case I invokeobject_diagramafter executing the base case of the recursion; that way the stack diagram shows each level of the recursion. You can call `object_diagram`  more than once to get a series of snapshots of the program’s execution.
+In this case I invokeobject_diagramafter executing the base case of the recursion; that way the stack diagram shows each level of the recursion. You can call `object_diagram` more than once to get a series of snapshots of the program’s execution.
 
 ### C.3 Object diagrams
 
@@ -5017,51 +5077,67 @@ cheeses = ['Cheddar', 'Edam','Gouda']
 ```
 inverse 1 0 'a'
 ```
+
 ```
 1 'p'
 ```
+
 ```
 2 't'
 ```
+
 ```
 3 'o'
 ```
+
 ```
 list
 ```
+
 ```
 2 0 'r'
 ```
+
 ```
 list
 ```
+
 ```
 dict
 ```
+
 ```
 hist 'a' 1
 ```
+
 ```
 'p' 1
 ```
+
 ```
 'r' 2
 ```
+
 ```
 't' 1
 ```
+
 ```
 'o' 1
 ```
+
 ```
 dict
 ```
+
 ```
 <module>
 ```
+
 ```
 Figure C.4: Object diagram.
 ```
+
 numbers = [17, 123]
 empty = []
 
@@ -5094,80 +5170,102 @@ tion 15.6. You can download it fromhttp://thinkpython.com/code/lumpy_demo5.py.
 import copy
 from swampy.Lumpy import Lumpy
 
-
 **C.4. Function and class objects 215**
 
 ```
 box width 100.0
 ```
+
 ```
 corner y 0.0
 ```
+
 ```
 x 0.0
 ```
+
 ```
 Point
 ```
+
 ```
 height 200.0
 ```
+
 ```
 Rectangle
 ```
+
 ```
 box2
 ```
+
 ```
 width 100.0
 ```
+
 ```
 height 200.0
 ```
+
 ```
 corner
 ```
+
 ```
 Rectangle
 ```
+
 ```
 <module>
 ```
+
 ```
 Figure C.5: Object diagram.
 ```
+
 ```
 Point __name__ 'Point'
 ```
+
 ```
 type
 ```
+
 ```
 instantiate __name__ 'instantiate'
 ```
+
 ```
 function
 ```
+
 ```
 Rectangle __name__ 'Rectangle'
 ```
+
 ```
 type
 ```
+
 ```
 <module>
 obj
 Point
 ```
+
 ```
 constructor
 ```
+
 ```
 instantiate
 ```
+
 ```
 Figure C.6: Object diagram.
 ```
+
 lumpy = Lumpy()
 lumpy.make_reference()
 
@@ -5193,7 +5291,6 @@ When I use Lumpy to make object diagrams, I usually define the functions and cla
 before I make the reference point. That way, function and class objects don’t appear in the
 diagram.
 
-
 **216 Appendix C. Lumpy**
 
 ```
@@ -5202,14 +5299,17 @@ corner
 height
 width
 ```
+
 ```
 Point
 x
 y
 ```
+
 ```
 Figure C.7: Class diagram.
 ```
+
 But if you are passing functions and classes as parameters, you might want them to appear.
 This example shows what that looks like; you can download it fromhttp://thinkpython.
 com/code/lumpy_demo6.py.
@@ -5250,7 +5350,6 @@ tion object created wheninstantiateis defined, and the frame created with it is 
 Although I distinguish between state diagrams, stack diagrams and object diagrams, they
 are mostly the same thing: they show the state of a running program at a point in time.
 
-
 **C.5. Class Diagrams 217**
 
 ```
@@ -5265,10 +5364,12 @@ shuffle
 sort
 cards
 ```
+
 ```
 Hand
 __init__
 ```
+
 ```
 PokerHand
 has_flush
@@ -5276,6 +5377,7 @@ suit_hist
 cards
 label
 ```
+
 ```
 Card
 __cmp__
@@ -5286,9 +5388,11 @@ suit_names
 rank
 suit
 ```
+
 ```
 Figure C.8: Class diagram.
 ```
+
 Class diagrams are different. They show the classes that make up a program and the re-
 lationships between them. They are timeless in the sense that they describe the program
 as a whole, not any particular point in time. For example, if an instance of Class A gener-
@@ -5321,7 +5425,6 @@ The arrow fromRectangletoPointshows that Rectangles contain an embedded Point.
 In addition,RectangleandPointboth inherit fromobject, which is represented in the
 diagram with a triangle-headed arrow.
 
-
 **218 Appendix C. Lumpy**
 
 Here’s a more complex example using my solution to Exercise 18.6. You can download
@@ -5330,7 +5433,7 @@ the code fromhttp://thinkpython.com/code/lumpy_demo8.py; you will also needhttp:
 
 from swampy.Lumpy import Lumpy
 
-from PokerHand import *
+from PokerHand import \*
 
 lumpy = Lumpy()
 lumpy.make_reference()

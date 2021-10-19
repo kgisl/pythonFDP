@@ -1,22 +1,14 @@
 # Hand
 
-
-Represents a hand of playing cards. 
+Represents a hand of playing cards.
 
 ## Methods
 
-
-### __init__
-
-
-
+### **init**
 
 #### Parameters
-name | description | default
---- | --- | ---
-self |  | 
-label |  | ""
 
-
-
-
+| name  | description | default |
+| ----- | ----------- | ------- |
+| self  |             |
+| label |             | ""      |

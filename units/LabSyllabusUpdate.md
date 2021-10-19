@@ -1,12 +1,14 @@
 # GE8161 PROBLEM SOLVING AND PYTHON PROGRAMMING LABORATORY L T P C
+
 **0 0 4 2**
 
 **OBJECTIVES:**
- - To write, test, and debug simple Python programs.
- - To implement Python programs with conditionals and loops.
- - Use functions for structuring Python programs.
- - Represent compound data using Python lists, tuples, dictionaries.
- - Read and write data from/to files in Python.
+
+- To write, test, and debug simple Python programs.
+- To implement Python programs with conditionals and loops.
+- Use functions for structuring Python programs.
+- Represent compound data using Python lists, tuples, dictionaries.
+- Read and write data from/to files in Python.
 
 **LIST OF PROGRAMS:**
 
@@ -32,11 +34,11 @@ Python 3 interpreter for Windows/Linux
 
 **Upon completion of the course, students will be able to:**
 
- - Write, test, and debug simple Python programs.
- - Implement Python programs with conditionals and loops.
- - Develop Python programs step-wise by defining functions and calling
-them.
- - Use Python lists, tuples, dictionaries for representing compound data.
- - Read and write data from/to files in Python.
+- Write, test, and debug simple Python programs.
+- Implement Python programs with conditionals and loops.
+- Develop Python programs step-wise by defining functions and calling
+  them.
+- Use Python lists, tuples, dictionaries for representing compound data.
+- Read and write data from/to files in Python.
 
 **TOTAL: 60 PERIODS**

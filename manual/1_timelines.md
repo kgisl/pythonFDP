@@ -1,11 +1,11 @@
 # Unit Notes
 
-Unit       | Faculty
-:--------- | :--------------------------------
-Unit 1 & 2 | Mr Rajasekaran & Mrs Dhanalakshmi
-Unit 3     | Mr Nandhakumar
-Unit 4     | Mr Ashok R
-Unit 5     | Ms Pricilla & Ms Divya
+| Unit       | Faculty                           |
+| :--------- | :-------------------------------- |
+| Unit 1 & 2 | Mr Rajasekaran & Mrs Dhanalakshmi |
+| Unit 3     | Mr Nandhakumar                    |
+| Unit 4     | Mr Ashok R                        |
+| Unit 5     | Ms Pricilla & Ms Divya            |
 
 ## Timelines
 
@@ -39,11 +39,11 @@ Lab Manual could be done based on your mail message.
 ## Pre Lab Questions
 
 ```
-Aim: 
+Aim:
 Algorithm: ?
 Pseudocode: ?
 Flowchart: ?
-Program: 
+Program:
 Validation and verification: ?
 Test Cases:
 Results:
@@ -56,25 +56,25 @@ Plan to complete the Lab Experiments.
 1. Level I: Introduction to Programming- 1st Lab session
 2. Level 2: Basic constructs (2nd and 3rd lab sessions)
 
-  ```
-  1.Variables,Expressions and statements
-   2.Assignments
-   3.Conditions
-   4.Loops
-   5.Functions
-  ```
+```
+1.Variables,Expressions and statements
+ 2.Assignments
+ 3.Conditions
+ 4.Loops
+ 5.Functions
+```
 
 3. Level 3: Actual Lab experiments Starts.
 
-  ```
-  Lab 4 -1,2&3 Experiments
-   Lab 5 - 4th Experiment
-   Lab 6 - 5&6 Experiments
-   Lab 7- 7th Experiment
-   Lab 8 - 8th Experiment
-   Lab 9 - 9th Experiment
-   Lab 10 - 10th Experiment
-   Lab 11 - 11th Experiment
-   Lab 12 - 12th Experiment
-   Lab 13 - Model Exam
-  ```
+```
+Lab 4 -1,2&3 Experiments
+ Lab 5 - 4th Experiment
+ Lab 6 - 5&6 Experiments
+ Lab 7- 7th Experiment
+ Lab 8 - 8th Experiment
+ Lab 9 - 9th Experiment
+ Lab 10 - 10th Experiment
+ Lab 11 - 11th Experiment
+ Lab 12 - 12th Experiment
+ Lab 13 - Model Exam
+```

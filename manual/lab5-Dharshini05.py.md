@@ -1,11 +1,10 @@
-
 # Lab 5 : find n prime numbers
 
 [TOC]
 
-## Problem statement 
+## Problem statement
 
-Implement a python program that finds the first `n` prime numbers. 
+Implement a python program that finds the first `n` prime numbers.
 
     Sample Input1: [1,10]
     Sample Output1: [2,3,5,7]
@@ -16,10 +15,9 @@ Implement a python program that finds the first `n` prime numbers.
     Sample Input3: ["hello","world"]
     Sample Output3: Invalid Range
 
-
 ## Solution Key
 
-```python 
+```python
 
 def generate_primes(min, max):
     primeList = []
@@ -36,20 +34,18 @@ def generate_primes(min, max):
     return primeList
 ```
 
-## CloudCoder Exercise 
+## CloudCoder Exercise
 
+## Pre-Lab Questions
 
+## Post-Lab Questions
 
-## Pre-Lab Questions 
+## Bonus
 
-
-## Post-Lab Questions 
-
-## Bonus 
-## Interview Grade 
+## Interview Grade
 
 ## Related Links
 
 ### CyberDojo Link
 
-http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf or [alt](http://cyberdojo1.kgfsl.com/kata/edit/FECB42D487?avatar=wolf) 
+http://10.100.8.8/kata/edit/FECB42D487?avatar=wolf or [alt](http://cyberdojo1.kgfsl.com/kata/edit/FECB42D487?avatar=wolf)

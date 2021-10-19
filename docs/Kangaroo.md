@@ -1,71 +1,53 @@
 # Kangaroo
 
-
-A Kangaroo is a marsupial. 
+A Kangaroo is a marsupial.
 
 ## Methods
 
+### **init**
 
-### __init__
-
-
-Initialize the pouch contents.   
-name: string contents: initial pouch contents. 
+Initialize the pouch contents.  
+name: string contents: initial pouch contents.
 
 #### Parameters
-name | description | default
---- | --- | ---
-self |  | 
-name |  | 
-contents |  | 
 
+| name     | description | default |
+| -------- | ----------- | ------- |
+| self     |             |
+| name     |             |
+| contents |             |
 
+### **init**
 
-
-
-### __init__
-
-
-Initialize the pouch contents.   
-name: string contents: initial pouch contents. 
+Initialize the pouch contents.  
+name: string contents: initial pouch contents.
 
 #### Parameters
-name | description | default
---- | --- | ---
-self |  | 
-name |  | 
-contents |  | None
 
+| name     | description | default |
+| -------- | ----------- | ------- |
+| self     |             |
+| name     |             |
+| contents |             | None    |
 
+### **str**
 
-
-
-### __str__
-
-
-Return a string representaion of this Kangaroo.  
+Return a string representaion of this Kangaroo.
 
 #### Parameters
-name | description | default
---- | --- | ---
-self |  | 
 
-
-
-
+| name | description | default |
+| ---- | ----------- | ------- |
+| self |             |
 
 ### put_in_pouch
 
-
-Adds a new item to the pouch contents.   
-item: object to be added 
+Adds a new item to the pouch contents.  
+item: object to be added
 
 #### Parameters
-name | description | default
---- | --- | ---
-self |  | 
-item |  | 
 
-
-
-
+| name | description | default |
+| ---- | ----------- | ------- |
+| self |             |
+| item |             |

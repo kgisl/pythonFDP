@@ -1,33 +1,32 @@
 **Table of Contents**
 
-* [Lab CheatSheet](#lab-cheatsheet)  
-	* [Lab 1](#lab-1)  
-* [Program starts here](#program-starts-here)  
-	* [Lab 2](#lab-2)  
-	* [Lab 3](#lab-3)  
-	* [Lab 4](#lab-4)  
-		* [Alternative](#alternative)  
-		* [Pythonic Search](#pythonic-search)  
-		* [Alternative](#alternative)  
-	* [Lab 5](#lab-5)  
-		* [Alternative](#alternative)  
-	* [Lab 6](#lab-6)  
-		* [Alternative](#alternative)  
-	* [Lab 7](#lab-7)  
-		* [Alternative](#alternative)  
-	* [Lab 8](#lab-8)  
-	* [Lab 9](#lab-9)  
-		* [Alternative](#alternative)  
-	* [Lab 10](#lab-10)  
-	* [Lab 11](#lab-11)  
-		* [Alternative](#alternative)  
-	* [Lab 12](#lab-12)  
-		* [Alternative](#alternative)  
-
+- [Lab CheatSheet](#lab-cheatsheet)
+  - [Lab 1](#lab-1)
+- [Program starts here](#program-starts-here)
+  - [Lab 2](#lab-2)
+  - [Lab 3](#lab-3)
+  - [Lab 4](#lab-4)
+    - [Alternative](#alternative)
+    - [Pythonic Search](#pythonic-search)
+    - [Alternative](#alternative)
+  - [Lab 5](#lab-5)
+    - [Alternative](#alternative)
+  - [Lab 6](#lab-6)
+    - [Alternative](#alternative)
+  - [Lab 7](#lab-7)
+    - [Alternative](#alternative)
+  - [Lab 8](#lab-8)
+  - [Lab 9](#lab-9)
+    - [Alternative](#alternative)
+  - [Lab 10](#lab-10)
+  - [Lab 11](#lab-11)
+    - [Alternative](#alternative)
+  - [Lab 12](#lab-12)
+    - [Alternative](#alternative)
 
 # Lab CheatSheet
-The minimal code that is expected of the student for each of the lab is collated together in one place, for the benefit of the student, faculty and mentor. Practice problems around the base code will also need to be exercised during the labs. 
 
+The minimal code that is expected of the student for each of the lab is collated together in one place, for the benefit of the student, faculty and mentor. Practice problems around the base code will also need to be exercised during the labs.
 
 [TOC]
 
@@ -46,7 +45,7 @@ def gcd(number1, number2):
 
 
 def get_twonumbers():
-    global a, b  
+    global a, b
     a = input('Enter number: ')
     b = input('Enter number: ')
     a, b =  int (a), int (b)
@@ -55,20 +54,20 @@ def get_twonumbers():
 # Program starts here
 a = None  # initializing variables
 b = None
-get_twonumbers() # to get values from user 
-gcdval = gcd(a, b) 
+get_twonumbers() # to get values from user
+gcdval = gcd(a, b)
 print ('The gcd is ', gcdval)
 
 
-def gcd_r(a, b): 
-	if b == 0: 
+def gcd_r(a, b):
+	if b == 0:
 		return a
 	return gcd_r(b, a % b)
-	
+
 ```
 
-
 ## Lab 2
+
 ```python
 def square_root(number):
     epsilon = 0.01
@@ -77,10 +76,11 @@ def square_root(number):
     while abs(guess * guess - k) >= epsilon:
         guess = guess - (guess ** 2 - k) / (2 * guess)
     return guess
-    
+
 ```
 
 ## Lab 3
+
 ```python
 def expo(base, expo):
     ans = 1.0
@@ -96,6 +96,7 @@ def expo(base, expo):
 ```
 
 ## Lab 4
+
 ```python
 
 def linear_search(myl, token):
@@ -108,6 +109,7 @@ def linear_search(myl, token):
 ```
 
 ### Alternative
+
 ```python
 def linear_search(mylist, token):
     for elem in mylist:
@@ -117,6 +119,7 @@ def linear_search(mylist, token):
 ```
 
 ### Pythonic Search
+
 ```python
 def linear_search(mylist, token):
     return token in mylist
@@ -137,17 +140,18 @@ def binary_search(myl, token):
         if myl[mid] > token:
             right = mid - 1
         else:
-            left  = mid + 1       
+            left  = mid + 1
     return found
 
 ```
 
 ### Alternative
+
 ```python
 def bsearch(mylist, token):
     if not mylist:
         return False
-    mid = len(mylist)//2    
+    mid = len(mylist)//2
     if mylist[mid] is token:
         return True
     elif mylist[mid] > token:
@@ -159,10 +163,10 @@ def bsearch(mylist, token):
 ### Using Bisect module in the Python library
 
 ```python
-import bisect 
+import bisect
 def bsearch(number, L):
     '''
-    returns -1 if the 'number' is not in the list 'L' 
+    returns -1 if the 'number' is not in the list 'L'
     otherwise, returns the index at which is is present
     '''
     index = bisect.bisect_left(L, number)
@@ -171,9 +175,8 @@ def bsearch(number, L):
     return -1
 ```
 
-
-
 ## Lab 5
+
 ```python
 
 def generate_primes(min, max):
@@ -192,10 +195,12 @@ def generate_primes(min, max):
 
 ```
 
-### Alternative 
+### Alternative
+
 **using List comprehension**
+
 ```python
-def generate_primes(min, max):    
+def generate_primes(min, max):
     return [num for num in range(min, max + 1) if isPrime(num)]
 
 def isPrime(num):
@@ -211,16 +216,18 @@ def isPrime(num):
 
 ```python
 def get_maxnumber(numbers):
-    maxval = None  
-    for num in numbers:  
-        if not maxval or maxval < num:  
+    maxval = None
+    for num in numbers:
+        if not maxval or maxval < num:
             maxval = num
-    return maxval  
-    
+    return maxval
+
 ```
 
 ### Alternative
+
 **using reduce function**
+
 ```python
 from functools import reduce
 def get_maxnumber(numbers):
@@ -228,21 +235,23 @@ def get_maxnumber(numbers):
 
 def max_of_two(x,y):
     return x if x > y else y
-```    
+```
 
 **using lambda function**
+
 ```python
 from functools import reduce
 def get_maxnumber(numbers):
     return reduce(lambda x, y: x if x > y else y, numbers)
-```    
-
-**using max**
-```python
-get_maxnumber = max 
 ```
 
-## Lab 7 
+**using max**
+
+```python
+get_maxnumber = max
+```
+
+## Lab 7
 
 ```python
 
@@ -252,22 +261,24 @@ def remove_duplicates(L):
         if elem not in res:
             res.append(elem)
     return result
-	
+
 
 ```
 
 ### Alternative
+
 ```python
 def remove_duplicates(L):
 	return list(set(L))
 ```
+
 Note: it returns the sorted list without duplicates, and therefore the original order may not be maintained (aka _unstable_).
 
-## Lab 8 
+## Lab 8
 
 ```python
 
-def selectsort(L): 
+def selectsort(L):
     for slot in range(len(L)-1, 0, -1):
         positionOfMax = 0
         for location in range(1, slot + 1):
@@ -318,7 +329,7 @@ def merge(left, right):
     merged += left
     merged += right
     return merged
-    
+
 ```
 
 ```python
@@ -339,8 +350,8 @@ def quicksort(s):
   return quicksort(L) + E + quicksort(G)
 ```
 
+### Alternative
 
-### Alternative 
 ```python
 from heapq import merge
 
@@ -352,14 +363,13 @@ def mergesort(w):
         return merge(mergesort(w[:mid]), mergesort(w[mid:]))
 ```
 
-
 ## Lab 10
 
 ```python
 
 def format_matrix(matrix):
     return "\n".join((("{:<5}"*len(row)).format(*row))for row in matrix)
-    
+
 def matrixmulti(X, Y):
     result = [[0 for col in range(len(Y[0]))] for row in range(len(X))]
 
@@ -371,12 +381,11 @@ def matrixmulti(X, Y):
         for j in range(len(Y[0])):
             for k in range(len(Y)):
                 result[i][j] += X[i][k] * Y[k][j]
-    
+
     print(format_matrix(result))
     return result
 
 ```
-
 
 ## Lab 11
 
@@ -409,7 +418,7 @@ if __name__ == '__main__':
 
 ```
 
-### Alternative 
+### Alternative
 
 ```python
 def wordcount(file=None):
@@ -418,11 +427,10 @@ def wordcount(file=None):
         return len(f.read().strip().split())
 
     import sys
-    if file: 
+    if file:
         return countwords(open(file))
     return countwords(sys.stdin)
 ```
-
 
 ## Lab 12
 
@@ -434,11 +442,11 @@ text = open(sys.argv[1], 'r').read()
 text = text.lower()
 for ch in string.punctuation:
     text = text.replace(ch, ' ')
-	
+
 counts = {}
 for w in text.split():
-    counts[w] = counts.get(w,0) + 1 
-	
+    counts[w] = counts.get(w,0) + 1
+
 items = []
 for w, c in counts.items():
     items.append((c, w))
@@ -447,32 +455,34 @@ items.reverse()
 
 for i in range (5):
     c, w = items[i]
-    print (w, c) 
+    print (w, c)
 
 ```
 
 ### Alternative
+
 ```python
 import sys
 def frequent(f):
     words = f.read().strip().split()
-    count = {}    
-    maxCount = 0                               
+    count = {}
+    maxCount = 0
     for word in words:
-	count[word] = count.get(word, 0) + 1 
+	count[word] = count.get(word, 0) + 1
         if count[word] > maxCount:
             maxWord = word
-            maxCount = count[word]                                   
+            maxCount = count[word]
     return maxWord, maxCount
 
 
 file = sys.argv[1]
 if file:
     word, frequency = frequent(open(file))
-    print(file + ',', '"' + word + '"', frequency)   
+    print(file + ',', '"' + word + '"', frequency)
 ```
 
 Output:
+
 ```
 python frequent.py file1.txt -> file1.txt, "the" 12
 ```
