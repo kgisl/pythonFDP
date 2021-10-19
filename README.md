@@ -30,3 +30,8 @@ Python FDP for KITE faculty
 ## Lab Syllabus
 
 ![lab](/img/labSyllabus3003.png)
+
+## Our Awesome Contributors
+<a href="https://github.com/kgisl/pythonFDP/contributors">
+  <img src="https://contrib.rocks/image?repo=kgisl/pythonFDP&max=100" />
+</a>
