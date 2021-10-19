@@ -44,35 +44,18 @@ The following table has been created by **_clustering_** multiple items based on
 | **Allocate** methods   | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)                                  | Create distinct list objects by duplicating existing ones                                                                                   |
 | _operations_           | slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists, `enumerate` provides list with (_index_, _element_) tuple |
 
-## List indexing
-
-- http://j.mp/swapListCC - swap elements in a list
-- What is a list **method** (an attribute of a variable)? What is a list **operation** (a stand-alone function)? What is the difference? Get this clarified _first_!
-
-| Intent                 | Method / Operation                                                                                                    | Description                                                                                                                                  |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Initialize** methods | _none_                                                                                                                | initialize an empty list, using a tuple, using another list                                                                                  |
-| _operations_           | `[]`, `list()` or `list(sequence)`, the `=` operator                                                                  | `bl = al` initializes `bl` as an **alias** for the`al` list object                                                                           |
-| **Access** methods     | [_idx_], `.find(elem)`, `.index(elem)` `.count()`                                                                     | `find` returns `-1`, `index` throws an exception if not present                                                                              |
-| _operations_           | `in` and `not in`, `any` and `all`, `max`, `min`, `len`, `sum`                                                        | membership `in` list, `all` or `any` if element(s) is `True`                                                                                 |
-| **Modify** methods     | _addition_ `.append(val)`, `.insert(loc, val)`, `.extend(lst)`                                                        | add elements to the list at specific locations; `extend` adds multiple elements from sequence                                                |
-|                        | _extraction_ `.pop(loc)`, `.remove(elem)`, `.clear()`                                                                 | take out from specified index, or element or all elements                                                                                    |
-|                        | _ordering_ `.reverse()`, `.sort()`                                                                                    | rearrange elements in the list                                                                                                               |
-| _operations_           | `del`, `sorted`                                                                                                       | same effect as the methods with better performance?                                                                                          |
-| **Allocate** methods   | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)                                  | Create distinct list objects by duplicating existing ones                                                                                    |
-| _operations_           | slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists`, `enumerate` provides list with (_index_, _element_) tuple |
 
 ## List indexing
 
-- http://j.mp/swapListCC - swap elements in a list
+- [http://j.mp/swapListCC](http://j.mp/swapListCC) - swap elements in a list
 
 ## List Mutability
 
-http://bit.ly/immutableThis - explanation of Immutability in Python
+[http://bit.ly/immutableThis](http://bit.ly/immutableThis) - explanation of Immutability in Python
 
-Pre-requisite: http://j.mp/immutablePython
+Pre-requisite: [http://j.mp/immutablePython](http://j.mp/immutablePython)
 
-From [https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/](https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/)
+From [https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/](https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/)
 
 This brings us to an important point: there are actually two kinds of objects in Python. A _mutable_ object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python's lists are an example of mutable objects. An _immutable_ object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They _can_ be used to compute the values of **new** objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the **number '2'** throughout my program.
 
@@ -821,13 +804,3 @@ slice(1,None,-1) or [1::-1]
 
 
 ```
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzQ4OTE5MiwxNjcwMjIxNjY5LDIxMz
-A4MjU4NDUsMjEzMDgyNTg0NSwxMjI1NDE5NTUyLC05MjU4MjU3
-NCwtNzE2NzM4MzczLDEyODI0NzAwMjksMTA2NjcxMTQ4MywxNj
-AyOTk0MTA2LC0xODc1OTI4NTQyLC0xMzMzNTgyNDIsMjY5NzYz
-MTcwLC0yMTM2NTcwNzI1LC02NzA3NDgwMjksMTMwMjE3MDg4Ni
-wtOTMyMTE0NTUzLDQwMzM1NzcxLDE1MTgxNzI3ODIsMTU1NDIx
-NDE1MV19
--->

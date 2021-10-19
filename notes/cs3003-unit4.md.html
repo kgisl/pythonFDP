@@ -127,7 +127,7 @@
 </tr>
 <tr>
 <td align="left"></td>
-<td align="left"><em>ordering</em>  <code>.reverse()</code>, <code>.sort()</code></td>
+<td align="left"><em>ordering</em> <code>.reverse()</code>, <code>.sort()</code></td>
 <td align="left">rearrange elements in the list</td>
 </tr>
 <tr>
@@ -151,15 +151,15 @@
 <li><a href="http://j.mp/swapListCC">http://j.mp/swapListCC</a> - swap elements in a list</li>
 </ul>
 <h2 id="list-mutability">List Mutability</h2>
-<p><a href="http://bit.ly/immutableThis">http://bit.ly/immutableThis</a>  - explanation of Immutability in Python</p>
+<p><a href="http://bit.ly/immutableThis">http://bit.ly/immutableThis</a> - explanation of Immutability in Python</p>
 <p>Pre-requisite: <a href="http://j.mp/immutablePython">http://j.mp/immutablePython</a></p>
-<p>From <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
-<p>This brings us to an important point: there are actually two kinds of objects in Python. A  <em>mutable</em>  object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An  <em>immutable</em>  object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They  <em>can</em>  be used to compute the values of  <strong>new</strong>  objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the <strong>number ‘2’</strong> throughout my program.</p>
+<p>From <a href="https://web.archive.org/web/20201203041546/https://www.jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/</a></p>
+<p>This brings us to an important point: there are actually two kinds of objects in Python. A <em>mutable</em> object exhibits time-varying behavior. Changes to a mutable object are visible through all names bound to it. Python’s lists are an example of mutable objects. An <em>immutable</em> object does not exhibit time-varying behavior. The value of immutable objects can not be modified after they are created. They <em>can</em> be used to compute the values of <strong>new</strong> objects, which is how a function like string.join works. When you think about it, this dichotomy is necessary because, again, everything is an object in Python. If integers were not immutable I could change the meaning of the <strong>number ‘2’</strong> throughout my program.</p>
 <p>It would be incorrect to say that <em>“mutable objects can change and immutable ones can’t”</em>, however.</p>
 <p><img src="../img/pythonCallByValue.png" alt="passs"></p>
 <h2 id="slicing">Slicing</h2>
 <ul>
-<li><strong>A Python slice</strong> extracts elements from an <code>iterable</code> based on a start and stop.  It returns a <code>iterable</code> (or sequence) containing the extracted elements.</li>
+<li><strong>A Python slice</strong> extracts elements from an <code>iterable</code> based on a start and stop. It returns a <code>iterable</code> (or sequence) containing the extracted elements.</li>
 <li>We take slices on many types (<code>string, list and/or tuple</code>) in Python.</li>
 <li>We specify an optional <code>start</code> index, an optional <code>stop</code> index, and an optional <code>step</code> value (<code>0</code> is not acceptable as step value).</li>
 </ul>
@@ -202,7 +202,7 @@
 </table><pre class=" language-python"><code class="prism  language-python">rlist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">88</span><span class="token punctuation">,</span> <span class="token number">44</span><span class="token punctuation">,</span> <span class="token number">65</span><span class="token punctuation">,</span> <span class="token number">68</span><span class="token punctuation">,</span> <span class="token number">78</span><span class="token punctuation">,</span> \
 	<span class="token number">23</span><span class="token punctuation">,</span> <span class="token number">72</span><span class="token punctuation">,</span> <span class="token number">28</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">72</span><span class="token punctuation">,</span> <span class="token number">21</span><span class="token punctuation">,</span> <span class="token number">47</span><span class="token punctuation">,</span> <span class="token number">27</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">]</span>
 
-What does rlist<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">]</span> evaluate to? 
+What does rlist<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">]</span> evaluate to?
 <span class="token comment"># [88, 44, 65, 68, 78]</span>
 What does rlist<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span> evaluate to?
 <span class="token comment"># [88, 68]</span>
@@ -210,7 +210,7 @@ What does rlist<span class="token punctuation">[</span><span class="token punctu
 alist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">84</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span> <span class="token number">99</span><span class="token punctuation">,</span> <span class="token number">96</span><span class="token punctuation">,</span> <span class="token number">67</span><span class="token punctuation">,</span>\
 			 <span class="token number">27</span><span class="token punctuation">,</span> <span class="token number">78</span><span class="token punctuation">,</span> <span class="token number">73</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token number">7</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>
 
-What does `alist` contain? 
+What does `alist` contain?
 
 </code></pre>
 <p><a href="https://www.dotnetperls.com/slice-python">https://www.dotnetperls.com/slice-python</a></p>
@@ -229,7 +229,7 @@ What does `alist` contain?
 </li>
 </ul>
 <h2 id="list-comprehension">List Comprehension</h2>
-<p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a>  and <a href="https://j.mp/listComprehensions">https://j.mp/listComprehensions</a><br>
+<p>Pre-requisite; <a href="http://j.mp/listBenefit">http://j.mp/listBenefit</a> and <a href="https://j.mp/listComprehensions">https://j.mp/listComprehensions</a><br>
 List comprehensions are concise ways to create lists. The general syntax is:</p>
 <pre><code>[&lt;expression&gt; for &lt;item&gt; in &lt;sequence&gt; if  &lt;condition&gt;]
 </code></pre>
@@ -247,14 +247,14 @@ yourlist <span class="token operator">=</span> <span class="token punctuation">[
 blist <span class="token operator">=</span> <span class="token punctuation">[</span>num<span class="token operator">*</span><span class="token number">2</span> <span class="token keyword">for</span> num <span class="token keyword">in</span> alist <span class="token keyword">if</span> num<span class="token operator">%</span><span class="token number">2</span><span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">]</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>blist<span class="token punctuation">)</span>
 </code></pre>
-<pre><code> (A) [4,2,8,6,5]  
- (B) [8,4,16,12,10]  
- (C) 10  
- (D) [10]
+<pre><code>(A) [4,2,8,6,5]
+(B) [8,4,16,12,10]
+(C) 10
+(D) [10]
 </code></pre>
 </li>
 <li>
-<p><a href="http://j.mp/enumListCC">http://j.mp/enumListCC</a>  - manually code out the enumerate function</p>
+<p><a href="http://j.mp/enumListCC">http://j.mp/enumListCC</a> - manually code out the enumerate function</p>
 </li>
 <li>
 <p>Find the output for these list comprehensions</p>
@@ -266,29 +266,24 @@ blist <span class="token operator">=</span> <span class="token punctuation">[</s
 </ol>
 <pre class=" language-python"><code class="prism  language-python">pylist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'n'</span><span class="token punctuation">,</span> <span class="token string">'o'</span><span class="token punctuation">,</span> <span class="token string">'h'</span><span class="token punctuation">,</span> <span class="token string">'t'</span><span class="token punctuation">,</span> <span class="token string">'y'</span><span class="token punctuation">,</span> <span class="token string">'p'</span><span class="token punctuation">]</span>
 <span class="token keyword">for</span> c <span class="token keyword">in</span> ???<span class="token punctuation">(</span>???<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    ???<span class="token punctuation">(</span>c<span class="token punctuation">)</span>   
+    ???<span class="token punctuation">(</span>c<span class="token punctuation">)</span>
 </code></pre>
 <h2 id="eight-ways-to-copyclone-a-list">Eight Ways to copy/clone a list?</h2>
 <p><em>Using functions/operations</em></p>
 <ol>
-<li>Use slicing - <code>bl = al[:]</code>  (apparently, the fastest technique)</li>
+<li>Use slicing - <code>bl = al[:]</code> (apparently, the fastest technique)</li>
 <li>Use list comprehension <code>bl = [elem for elem in al ]</code></li>
 <li>Use <code>list()</code> function</li>
 </ol>
-<p><em>Using methods</em><br>
-4. Use the <code>.copy</code> method - <code>bl = al.copy()</code><br>
-5. Using <code>.extend</code> method<br>
-6. Using <code>.append</code> method</p>
-<p><em>Using modules</em><br>
-7. Use the <code>copy.copy</code> function<br>
-8. Use the <code>copy.deepcopy</code> function</p>
+<p><em>Using methods</em> 4. Use the <code>.copy</code> method - <code>bl = al.copy()</code> 5. Using <code>.extend</code> method 6. Using <code>.append</code> method</p>
+<p><em>Using modules</em> 7. Use the <code>copy.copy</code> function 8. Use the <code>copy.deepcopy</code> function</p>
 <p><a href="https://www.geeksforgeeks.org/python-cloning-copying-list/">https://www.geeksforgeeks.org/python-cloning-copying-list/</a></p>
 <h2 id="four-ways-to-reverse-a-list">Four ways to reverse a list</h2>
 <ol>
-<li>Use <code>reverse</code>method   - <code>al.reverse()</code></li>
-<li>Use slice  <code>al = al[::-1]</code>
+<li>Use <code>reverse</code>method - <code>al.reverse()</code></li>
+<li>Use slice <code>al = al[::-1]</code>
 <ul>
-<li>Can you  use<code>slice</code> to reverse the list, in place?</li>
+<li>Can you use<code>slice</code> to reverse the list, in place?</li>
 </ul>
 </li>
 <li>Use <code>reversed</code> function - <code>list (reversed(al))</code></li>
@@ -326,7 +321,7 @@ a ^= b</p>
 <p>tuple assignment</p>
 </blockquote>
 <blockquote>
-<p>An assignment to all of the elements in a tuple using a single assignment statement. Tuple assignment occurs  <em>simultaneously</em>  rather than in sequence, making it useful for swapping values.<br>
+<p>An assignment to all of the elements in a tuple using a single assignment statement. Tuple assignment occurs <em>simultaneously</em> rather than in sequence, making it useful for swapping values.<br>
 a, b, = (b, a)</p>
 </blockquote>
 </li>
@@ -348,16 +343,16 @@ b = al.pop()</p>
 <p>This is very unique to the Python language in that you can do multiple assignments in the same statement. For coming up with the function for determining whether a string is a palindrome, it works quite elegantly.</p>
 <p><img src="../img/palindromeUnpack.png" alt="tuple"></p>
 <h2 id="dictionary">Dictionary</h2>
-<p>A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the  <a href="http://en.wikipedia.org/wiki/Associative_array">associative array</a>  abstract data type.</p>
-<p><strong>key</strong>:  A data item that is  <em>mapped to</em>  a value in a dictionary. Keys are used to look up values in a dictionary.</p>
-<p><strong>key-value pair</strong>:  One of the pairs of items in a dictionary. Values are looked up in a dictionary by key.</p>
+<p>A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type. Dictionaries implement the <a href="http://en.wikipedia.org/wiki/Associative_array">associative array</a> abstract data type.</p>
+<p><strong>key</strong>: A data item that is <em>mapped to</em> a value in a dictionary. Keys are used to look up values in a dictionary.</p>
+<p><strong>key-value pair</strong>: One of the pairs of items in a dictionary. Values are looked up in a dictionary by key.</p>
 <pre><code>adict = dict() # initialization
 adict['Sam'] = 233-2333
 adict['Victor'] = 900-2222
 </code></pre>
 <h3 id="exercises">Exercises</h3>
 <ul>
-<li>Tackle a Cloudcoder exercise <a href="http://j.mp/fromlistCC">http://j.mp/fromlistCC</a>  - generate a dictionary or a list of tuples.</li>
+<li>Tackle a Cloudcoder exercise <a href="http://j.mp/fromlistCC">http://j.mp/fromlistCC</a> - generate a dictionary or a list of tuples.</li>
 <li><a href="http://j.mp/reverseDictionary">http://j.mp/reverseDictionary</a></li>
 <li><a href="http://j.mp/friendsCC">http://j.mp/friendsCC</a></li>
 </ul>
@@ -377,7 +372,7 @@ adict['Victor'] = 900-2222
 <p><strong>delimiter</strong> A character or string used to indicate where a string should be split.</p>
 <p><strong>element</strong> One of the values in a list (or other sequence). The bracket operator selects elements of a list.</p>
 <p><strong>index</strong> An integer variable or value that indicates an element of a list.</p>
-<p><strong>list</strong> A collection of objects, where each object is identified by an index. Like other types  <code>str</code>,  <code>int</code>,  <code>float</code>, etc. there is also a  <code>list</code>  type-converter function that tries to turn its argument into a list.</p>
+<p><strong>list</strong> A collection of objects, where each object is identified by an index. Like other types <code>str</code>, <code>int</code>, <code>float</code>, etc. there is also a <code>list</code> type-converter function that tries to turn its argument into a list.</p>
 <p><strong>list traversal</strong> The sequential accessing of each element in a list.</p>
 <p><strong>modifier</strong> A function which changes its arguments inside the function body. Only mutable types can be changed by modifiers.</p>
 <p><strong>mutable data type</strong> A data type in which the elements can be modified. All mutable types are compound types. Lists are mutable data types; strings are not.</p>
@@ -390,8 +385,7 @@ adict['Victor'] = 900-2222
 <p><strong>sequence</strong> Any of the data types that consist of an ordered collection of elements, with each element identified by an index.</p>
 <p><strong>tuple</strong> A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.</p>
 <h2 id="exercises-1">Exercises</h2>
-<p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a><br>
-2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
+<p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a> 2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
 <h2 id="exercises-for-illustrative-programs">Exercises for Illustrative Programs</h2>
 <ul>
 <li><a href="http://j.mp/butFirstCC">http://j.mp/butFirstCC</a> and <a href="http://j.mp/butLastCC">http://j.mp/butLastCC</a> - iterate over a list
@@ -405,7 +399,7 @@ adict['Victor'] = 900-2222
 </ul>
 </li>
 <li><a href="http://j.mp/swapListCC">http://j.mp/swapListCC</a> - swap elements in a list</li>
-<li><a href="http://j.mp/enumListCC">http://j.mp/enumListCC</a>  - manually code out the enumerate function</li>
+<li><a href="http://j.mp/enumListCC">http://j.mp/enumListCC</a> - manually code out the enumerate function</li>
 <li><a href="http://j.mp/divideTwo">http://j.mp/divideTwo</a> - divide a list into two halves</li>
 </ul>
 <h2 id="slice-exercises---part-0">Slice Exercises - Part 0</h2>
