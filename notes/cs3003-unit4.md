@@ -4,10 +4,12 @@
 - Advanced list processing - list comprehension
 - For last section of Unit 4, `Illustrative Programs`, please see [http://j.mp/unit4Easy](http://j.mp/unit4Easy)
 
-Pre-requisite: http://j.mp/pythonREPLcourse
-_Refer to the glossary below to become familiar with the terms relevant to this unit_
+<!---Pre-requisite: [http://j.mp/pythonREPLcourse](http://j.mp/pythonREPLcourse)
+--->
 
-I just scored 63% on @realpython's "Python Lists and Tuples" quiz. What's your score? #pythonquiz https://realpython.com/quizzes/python-lists-tuples/results
+_Refer to the [glossary](#glossary) below to become familiar with the terms relevant to this unit_
+
+I just scored 63% on @realpython's "Python Lists and Tuples" quiz. What's your score? #pythonquiz [https://realpython.com/quizzes/python-lists-tuples/results](https://realpython.com/quizzes/python-lists-tuples/results)
 
 ## Concept Map
 
