@@ -1,11 +1,11 @@
 // Prefetch necessary data
 var predefined_ = {
     "csglossary":"https://github.com/kgisl/project-ideas/blob/master/ias/csGlossary.md#computer-science-glossary",
-    "syllabus":"https:j.mp/sypy3", 
+    "syllabus":"https:j.mp/sypy3",
     "list":"https://docs.python.org/3.6/library/stdtypes.html#common-sequence-operations",
     "list.":"https://j.mp/listThis",
-	"glossary":"https://j.mp/pyGlossary", 
-	"unit4":"https://j.mp/unit4Easy",
+    "glossary":"https://j.mp/pyGlossary", 
+    "unit4":"https://j.mp/unit4Easy",
     "assert":"reference/simple_stmts.html#the-assert-statement",
     "pass":"reference/simple_stmts.html#the-pass-statement",
     "del":"reference/simple_stmts.html#the-del-statement",
