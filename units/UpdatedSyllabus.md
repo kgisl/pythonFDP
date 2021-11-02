@@ -82,9 +82,7 @@ file.
 **REFERENCES:**
 
 1. John V Guttag, ―Introduction to Computation and Programming Using
-   Python‘‘, Revised and
-
-expanded Edition, MIT Press , 2013
+   Python‘‘, Revised and expanded Edition, MIT Press , 2013
 
 2. Robert Sedgewick, Kevin Wayne, Robert Dondero, ―Introduction to
    Programming in Python:
