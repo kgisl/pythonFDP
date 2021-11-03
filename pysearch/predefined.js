@@ -1,5 +1,6 @@
 // Prefetch necessary data
 var predefined_ = {
+    "common":"https://bit.ly/commonPythonThis",
     "csglossary":"https://github.com/kgisl/project-ideas/blob/master/ias/csGlossary.md#computer-science-glossary",
     "syllabus":"https:j.mp/sypy3",
     "list":"https://docs.python.org/3.6/library/stdtypes.html#common-sequence-operations",
