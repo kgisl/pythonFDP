@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "String.js", "index.js", "background.js" ]
+   },
+   "description": "Adds support to the omnibox to search within the Java API.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb2WLipzSC2+woyuOY992BMbdK9ZZUTnwd96xXk6Jikr0UyFUhTqcsZUjkd4bwH3yKJ/Mcp7Y5dNHsBhkSRc0qTsSTZWr4/4ULsxVVrXS/M/9mf7KXMgf8Xk8FLPnQna4/iWXjhMUAg3jjX9lk3WEe7LJ3ToIDEQ5OZ96HDSvoQQIDAQAB",
+   "manifest_version": 2,
+   "name": "Java API Search",
+   "omnibox": {
+      "keyword": "java"
+   },
+   "permissions": [ "tabs", "http://docs.oracle.com/", "https://docs.oracle.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.2.0"
+}
