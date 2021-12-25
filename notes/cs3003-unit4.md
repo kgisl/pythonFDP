@@ -45,6 +45,8 @@ The following table has been created by **_clustering_** multiple items based on
 | **Allocate** methods   | `.copy()`,`[:]`, [_s_:_s_:_s_], repetition (using `*`) and concatenation (using `+`)                                  | Create distinct list objects by duplicating existing ones                                                                                   |
 | _operations_           | slice(_start_, _stop_, _step_), `zip`, `enumerate`, **cloning** (_copy.copy and deepcopy_) and **list comprehension** | same as slice operator `[]`, `zip` creates a new list with tuples from two lists, `enumerate` provides list with (_index_, _element_) tuple |
 
+![disp](../img/listMethodsInAction.jpeg)
+
 ## List indexing
 
 - [http://j.mp/swapListCC](http://j.mp/swapListCC) - swap elements in a list
