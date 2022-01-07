@@ -277,7 +277,9 @@ adict['Victor'] = 900-2222
 
 ## Exercises
 
-1 [Runestone exercises](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html) 2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.
+
+1 [Runestone exercises](https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html)   
+2. **Remove duplicates.** A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.  
 
 ## Exercises for Illustrative Programs
 
@@ -296,7 +298,7 @@ adict['Victor'] = 900-2222
 - http://j.mp/divideTwo - divide a list into two halves
 - http://j.mp/slice51 - from repl course for Python
 
-- Given a list, cut it into two equal parts. If the length of the list is odd, leave the middle item within the first chunk, so that the first list contains one more character than the second. Now print a new list on a single row with the first and second halves swapped: second half first and the first half last.
+- Given a list, cut it into two equal parts. If the length of the list is odd, leave the middle item within the first chunk, so that the first list contains one more character than the second. Now print a new list on a single row with the first and second halves swapped: second half first and the first half last.  
 
 ## Slice Exercises - Part 1
 
