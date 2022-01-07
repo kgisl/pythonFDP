@@ -1,3 +1,4 @@
+
 # Unit 4 Lists, Tuples and Dictionaries
 _To contribute/fix, fork and edit the corresponding file [here](https://github.com/kgisl/pythonFDP/blob/master/notes/cs3003-unit4.md)_  
 - Lists: list operations, list slices, list methods, list loop, mutability, aliasing, cloning lists, list parameters; Tuples: tuple assignment, tuple as return value; Dictionaries: operations and methods;
@@ -293,7 +294,7 @@ adict['Victor'] = 900-2222
 - http://j.mp/rightShiftCC - right shift exactly by one position
   - and http://j.mp/rotateCC
 - http://j.mp/divideTwo - divide a list into two halves
-- j.mp/slicingCC - from repl course for Python
+- http://j.mp/slice51 - from repl course for Python
 
 - Given a list, cut it into two equal parts. If the length of the list is odd, leave the middle item within the first chunk, so that the first list contains one more character than the second. Now print a new list on a single row with the first and second halves swapped: second half first and the first half last.
 
