@@ -23,7 +23,7 @@ Python FDP for KITE faculty
 
 # Syllabus
 
-![theory](/img/theorySyllabus3003.png)
+![theory](/img/theorySyllabus3003.png?raw=true "Syllabus")
 
 ## Lab Syllabus
 
