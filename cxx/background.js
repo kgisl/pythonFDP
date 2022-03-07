@@ -117,7 +117,7 @@ String.prototype.strip = function() {
                     var href = match.substring(hrefstartidx, hrefendidx);
                     var content = match.substring(contentstartidx, contentendidx);
                     //stl_[content.toLowerCase()] = {"name":content, "url":"http://www.sgi.com/tech/stl/"+href};   
-                    console.log("href", href, "content", content);
+                    //console.log("href", href, "content", content);
                     stl_[content.toLowerCase()] = {"name":content, "url":"http://tinf2.vub.ac.be/~dvermeir/mirrors/www.sgi.com/Technology/STL/"+href};
                 }
                 localStorage.setObject('stl', stl_);
@@ -148,7 +148,7 @@ String.prototype.strip = function() {
                     var href = match.substring(hrefstartidx, hrefendidx);
                     var content = match.substring(contentstartidx, contentendidx).strip();
                     //cpp_.push({'name':content, 'url':'http://cplusplus.com/'+href});
-                    console.log("href", href, "content", content);
+                    //console.log("href", href, "content", content);
                     //cpp_.push({'name':content, 'url':'http://en.cppreference.com'+href});
                     cpp_[content.toLowerCase()] =   {"name":content, "url":"http://en.cppreference.com"+href};
 
