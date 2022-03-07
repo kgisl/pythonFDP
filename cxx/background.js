@@ -259,13 +259,13 @@ String.prototype.strip = function() {
     chrome.omnibox.onInputEntered.addListener(function(text) {
         console.log("Input entered: " + text);
         if (!text) {
-            nav("http://www.sgi.com/tech/stl/");
+            nav("https://en.cppreference.com/w/c");
             return;
         }
         
         var stripped_text = text.strip();
         if (!stripped_text) {
-            nav("http://www.sgi.com/tech/stl/");
+            nav("https://en.cppreference.com/w/c");
             return;
         }
         
@@ -282,7 +282,7 @@ String.prototype.strip = function() {
         var google_codesearch_suffix = " [Google Code Search]";
         if (stripped_text.endsWith(google_codesearch_suffix)) {
             var newquery = stripped_text.substring(0, stripped_text.length - google_codesearch_suffix.length).strip();
-            nav("http://code.google.com/codesearch#search/&q=" + encodeURIComponent(newquery +" lang:c++"));
+            nav("http://code.google.com/codesearch#search/&q=" + encodeURIComponent(newquery +" lang:c"));
             return;
         }
         
