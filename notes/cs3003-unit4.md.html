@@ -108,8 +108,8 @@
 </tr>
 <tr>
 <td align="left"><strong>Access</strong> methods</td>
-<td align="left">[<em>idx</em>], <code>.find(elem)</code>, <code>.index(elem)</code> <code>.count()</code></td>
-<td align="left"><code>find</code> returns <code>-1</code>, <code>index</code> throws an exception if not present</td>
+<td align="left">[<em>idx</em>],  <code>.index(elem)</code>[1] <code>.count()</code>[2]</td>
+<td align="left"><code>index</code> throws an exception if not present</td>
 </tr>
 <tr>
 <td align="left"><em>operations</em></td>
@@ -118,17 +118,17 @@
 </tr>
 <tr>
 <td align="left"><strong>Modify</strong> methods</td>
-<td align="left"><em>addition</em> <code>.append(val)</code>, <code>.insert(loc, val)</code>, <code>.extend(lst)</code></td>
+<td align="left"><em>addition</em> <code>.append(val)</code>[3], <code>.insert(loc, val)</code>[4], <code>.extend(lst)</code>[5]</td>
 <td align="left">add elements to the list at specific locations; <code>extend</code> adds multiple elements from sequence</td>
 </tr>
 <tr>
 <td align="left"></td>
-<td align="left"><em>extraction</em> <code>.pop(loc)</code>, <code>.remove(elem)</code>, <code>.clear()</code></td>
+<td align="left"><em>extraction</em> <code>.pop(loc)</code>[6], <code>.remove(elem)</code>[7], <code>.clear()</code>[8]</td>
 <td align="left">take out from specified index, or element or all elements</td>
 </tr>
 <tr>
 <td align="left"></td>
-<td align="left"><em>ordering</em> <code>.reverse()</code>, <code>.sort()</code></td>
+<td align="left"><em>ordering</em> <code>.reverse()</code>[9], <code>.sort()</code>[10]</td>
 <td align="left">rearrange elements in the list</td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@
 </tr>
 <tr>
 <td align="left"><strong>Allocate</strong> methods</td>
-<td align="left"><code>.copy()</code>,<code>[:]</code>, [<em>s</em>:<em>s</em>:<em>s</em>], repetition (using <code>*</code>) and concatenation (using <code>+</code>)</td>
+<td align="left"><code>.copy()</code>[11],<code>[:]</code>, [<em>s</em>:<em>s</em>:<em>s</em>], repetition (using <code>*</code>) and concatenation (using <code>+</code>)</td>
 <td align="left">Create distinct list objects by duplicating existing ones</td>
 </tr>
 <tr>
@@ -387,7 +387,8 @@ adict['Victor'] = 900-2222
 <p><strong>sequence</strong> Any of the data types that consist of an ordered collection of elements, with each element identified by an index.</p>
 <p><strong>tuple</strong> A sequential collection of items, similar to a list. Any python object can be an element of a tuple. However, unlike a list, tuples are immutable.</p>
 <h2 id="exercises-1">Exercises</h2>
-<p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a> 2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
+<p>1 <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/Exercises.html">Runestone exercises</a><br>
+2. <strong>Remove duplicates.</strong> A list contains duplicate elements. How can we remove them? Some approaches may lead to the elements becoming reordered, but this is not necessary.</p>
 <h2 id="exercises-for-illustrative-programs">Exercises for Illustrative Programs</h2>
 <ul>
 <li><a href="http://j.mp/butFirstCC">http://j.mp/butFirstCC</a> and <a href="http://j.mp/butLastCC">http://j.mp/butLastCC</a> - iterate over a list
