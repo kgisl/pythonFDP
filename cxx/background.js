@@ -174,14 +174,14 @@ String.prototype.strip = function() {
             return;
         }
         
-        var kMaxSuggestions = 30;
+        var kMaxSuggestions = 20;
         var suggestions = [];
         var stripped_text = text.strip();
         if (!stripped_text) {
             return;
         }
         var qlower = stripped_text.toLowerCase();
-        
+        // console.log("qlower", qlower);
         var prefix = "";
         if (qlower.startsWith("std::")) {
             prefix = "std::";
@@ -191,8 +191,7 @@ String.prototype.strip = function() {
         if (!qlower) {
             return;
         }
-        
-        
+
         //console.log(cpp_.length, cpp_);
         if (cpp_) {
             for (var key in cpp_) {
@@ -247,12 +246,15 @@ String.prototype.strip = function() {
                 }
             }
         }
+
+
         if (stripped_text.length >= 2) {
             suggestions.push({"content":stripped_text +  " [Google Code Search]", 
-                "description":["Search for \"<match>", stripped_text, "</match> <dim>lang:c++</dim>\" using <match><url>Google Code Search</url></match> - <url>http://code.google.com/codesearch#search/&amp;q=", encodeURIComponent(stripped_text + " lang:c++"), "</url>"].join('')}); 
+                "description":["Search for \"<match>", stripped_text, "</match> <dim>lang:c</dim>\" using <match><url>Google Code Search</url></match> - <url>http://code.google.com/codesearch#search/&amp;q=", encodeURIComponent(stripped_text + " lang:c"), "</url>"].join('')}); 
             suggestions.push({"content":stripped_text +  " [Development and Coding Search]", 
-                "description":["Search for \"<match>", stripped_text, "</match>\" using <match><url>Develoment and Coding Search</url></match> - <url>http://www.google.com/cse?cx=005154715738920500810:fmizctlroiw&amp;q=", encodeURIComponent(stripped_text), "</url>"].join('')});
+                "description":["Search for \"<match>", stripped_text, "</match>\" using <match><url>Development and Coding Search</url></match> - <url>http://www.google.com/cse?cx=005154715738920500810:fmizctlroiw&amp;q=", encodeURIComponent(stripped_text), "</url>"].join('')});
         }
+        // console.log(suggestions);
         suggest_callback(suggestions);
     });
     
@@ -264,6 +266,7 @@ String.prototype.strip = function() {
         }
         
         var stripped_text = text.strip();
+        //console.log(stripped_text);
         if (!stripped_text) {
             nav("https://en.cppreference.com/w/c");
             return;
@@ -303,6 +306,11 @@ String.prototype.strip = function() {
             return;
         }
         
+        if (stl_ && stl_[qlower]) {
+            nav(stl_[qlower]["url"]);
+            return;
+        }
+
         nav("http://www.google.com/search?q=" + encodeURIComponent("C++ STL "+stripped_text));
     });
 })();
