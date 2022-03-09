@@ -93,6 +93,7 @@ String.prototype.strip = function() {
     var stl_ = null;
     var cpp_ = null;
     var clang_ = null;
+    var ckey_ = null;
     
     // Prefetch necessary data
     chrome.omnibox.onInputStarted.addListener(function(){
@@ -189,6 +190,40 @@ String.prototype.strip = function() {
 
                 }
                 localStorage.setObject('clang', clang_);
+            },
+            function(url, req) {
+                console.log("Failed to receive: "+url);
+            }).send(null);
+        }
+
+        if (localStorage.hasUnexpired('ckey')) {
+            ckey_ = localStorage.getObject('ckey');
+        } else {
+            //xhr("http://cplusplus.com/reference/",
+            xhr("http://en.cppreference.com/w/c/keyword",
+            function(url, req) {
+                console.log("Received: "+url);
+                ckey_ = [];
+                var text = req.responseText;
+                //console.log(text);
+                //var matches = text.match(new RegExp("<td><a href=\"[^\"]*\">[^<]*</a></td>", "g"));
+                var matches = text.match(new RegExp("<a href=\"/w/c/keyword/[^\"]*\".*>[^<]*<\/a>", "g"));
+                // console.log(matches);
+                for (var i = 0; i < matches.length; ++i) {
+                    var match = matches[i];
+                    var hrefstartidx = match.indexOf("href=\"") + 6;
+                    var hrefendidx = match.indexOf("\"", hrefstartidx);
+                    var contentstartidx = match.indexOf("span>", hrefendidx) + 5;
+                    var contentendidx = match.indexOf("</span>", contentstartidx);
+                    var href = match.substring(hrefstartidx, hrefendidx);
+                    var content = match.substring(contentstartidx, contentendidx).strip();
+                    //cpp_.push({'name':content, 'url':'http://cplusplus.com/'+href});
+                    console.log("href", href, "content", content);
+                    //cpp_.push({'name':content, 'url':'http://en.cppreference.com'+href});
+                    ckey_[content.toLowerCase()] =   {"name":content, "url":"http://en.cppreference.com"+href};
+
+                }
+                localStorage.setObject('ckey', ckey_);
             },
             function(url, req) {
                 console.log("Failed to receive: "+url);
@@ -309,6 +344,33 @@ String.prototype.strip = function() {
             }
         }
 
+        if (ckey_) {
+            for (var key in ckey_) {
+                if (key.startsWith(qlower) && (key == ckey_[key]["name"])) {
+                    var item = ckey_[key];
+                    var name = item["name"];
+                    var url = item["url"];
+                    suggestions.push({"content":prefix + name, "description":["<match>", prefix + name, "</match> - <url>", url, "</url>"].join('')});
+                    if (suggestions.length > kMaxSuggestions) {
+                        break;
+                    }
+                }
+            }
+            if (prefix.length == 0) {
+                for (var key in ckey_) {
+                    if (key.startsWith(qlower) && (key != ckey_[key]["name"])) {
+                        var item = ckey_[key];
+                        var name = item["name"];
+                        var url = item["url"];
+                        suggestions.push({"content":name, "description":["<match>", name, "</match> - <url>", url, "</url>"].join('')});
+                        if (suggestions.length > kMaxSuggestions) {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
         if (stripped_text.length >= 2) {
             suggestions.push({"content":stripped_text +  " [Google Code Search]", 
                 "description":["Search for \"<match>", stripped_text, "</match> <dim>lang:c</dim>\" using <match><url>Google Code Search</url></match> - <url>http://code.google.com/codesearch#search/&amp;q=", encodeURIComponent(stripped_text + " lang:c"), "</url>"].join('')}); 
@@ -377,6 +439,10 @@ String.prototype.strip = function() {
             return;
         }
 
+        if (ckey_ && ckey_[qlower]) {
+            nav(ckey_[qlower]["url"]);
+            return;
+        }
 
         nav("http://www.google.com/search?q=" + encodeURIComponent("C++ STL "+stripped_text));
     });
