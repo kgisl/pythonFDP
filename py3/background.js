@@ -291,6 +291,7 @@
     // Event handler for when user input is received.
     chrome.omnibox.onInputChanged.addListener(function(text, suggest_callback) {
         setDefaultSuggestion(text);
+        // console.log("changed:", text);
         if (!text) {
             return;
         }
@@ -303,11 +304,13 @@
         }
         var qlower = stripped_text.toLowerCase();
         
-        if ("print".startsWith(qlower)) {
-          suggestions.push({
+        /*if ("print".startsWith(qlower)) {
+          console.log("***print?"); 
+            suggestions.push({
             "content":"http://docs.python.org/release/3.0.1/library/functions.html#print",
             "description":"<match>print<match> - <url>http://docs.python.org/release/3.0.1/library/functions.html#print</url>"});
-        }
+
+        }*/
         
         for (var key in predefined_) {
             if (key.startsWith(qlower)) {
@@ -380,7 +383,8 @@
             suggest_callback(suggestions);
             return;
         }
-        
+
+        //console.log(builtin_functions_);
         if (builtin_functions_) {
             for (var key in builtin_functions_) {
                 if (key.startsWith(qlower)) {
@@ -466,6 +470,7 @@
             suggestions.push({"content":stripped_text +  " [Development and Coding Search]", 
                 "description":["Search for \"<match>", stripped_text, "</match>\" using <match><url>Develoment and Coding Search</url></match> - <url>http://www.google.com/cse?cx=005154715738920500810:fmizctlroiw&amp;q=", encodeURIComponent(stripped_text), "</url>"].join('')});
         }
+        // console.log("changed: suggestions", suggestions);
         suggest_callback(suggestions);
     });
     
@@ -508,10 +513,11 @@
             return;
         }
         
+        /*console.log("qlower ", qlower);
         if (qlower == "print") {
             nav("http://docs.python.org/release/3.0.1/library/functions.html#print");
             return;
-        }
+        }*/
         
         if (predefined_[qlower]) {
             nav("http://docs.python.org/3/" + predefined_[qlower]);

@@ -175,7 +175,7 @@ String.prototype.strip = function() {
                 //console.log(text);
                 //var matches = text.match(new RegExp("<td><a href=\"[^\"]*\">[^<]*</a></td>", "g"));
                 var matches = text.match(new RegExp("<a href=\"/w/c/language/[^\"]*\".*>[^<]*<\/a>", "g"));
-                // console.log(matches);
+                //console.log(matches);
                 for (var i = 0; i < matches.length; ++i) {
                     var match = matches[i];
                     var hrefstartidx = match.indexOf("href=\"") + 6;
@@ -192,8 +192,8 @@ String.prototype.strip = function() {
                 }
                 localStorage.setObject('clang', clang_);
             },
-            function(url, req) {
-                console.log("Failed to receive: "+url);
+            (url, req) => {
+                console.log("Failed to receive: " + url);
             }).send(null);
         }
 
@@ -238,8 +238,8 @@ String.prototype.strip = function() {
                 }
                 localStorage.setObject('ckey', ckey_);
             },
-            function(url, req) {
-                console.log("Failed to receive: "+url);
+            (url, req) => {
+                console.log("Failed to receive: " + url);
             }).send(null);
         }
 
@@ -252,8 +252,15 @@ String.prototype.strip = function() {
     
     setDefaultSuggestion('');
     
+    /*
+     * 
+     * When the input changes, what it does? 
+     * When the input changes, what it does?
+     * 
+    */ 
     chrome.omnibox.onInputChanged.addListener(function(text, suggest_callback) {
         setDefaultSuggestion(text);
+        // console.log("changed: text", text);
         if (!text) {
             return;
         }
@@ -267,14 +274,14 @@ String.prototype.strip = function() {
         var qlower = stripped_text.toLowerCase();
         // console.log("qlower", qlower);
         var prefix = "";
-        if (qlower.startsWith("std::")) {
+        /*if (qlower.startsWith("std::")) {
             prefix = "std::";
             qlower = qlower.substr(5);
         }
         
         if (!qlower) {
             return;
-        }
+        }*/
         
         if (clang_) {
             for (var key in clang_) {
@@ -392,7 +399,7 @@ String.prototype.strip = function() {
             suggestions.push({"content":stripped_text +  " [Development and Coding Search]", 
                 "description":["Search for \"<match>", stripped_text, "</match>\" using <match><url>Development and Coding Search</url></match> - <url>http://www.google.com/cse?cx=005154715738920500810:fmizctlroiw&amp;q=", encodeURIComponent(stripped_text), "</url>"].join('')});
         }
-        // console.log(suggestions);
+        // console.log("changed: suggestions", suggestions);
         suggest_callback(suggestions);
     });
     
