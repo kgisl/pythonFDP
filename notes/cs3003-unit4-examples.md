@@ -517,9 +517,9 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
 **UPDATE: May 30, 2022**
 _Added bubblesort (for AD3251)_   
-![bubble](https://i.imgur.com/wXqaMty.png)
+![bubble](https://i.imgur.com/AW0GrdY.png)
  
-  - bubblesort: iteratively swap elements 
+  - bubblesort: compare adjacent elements and swap, as you iterate the list
   - insertionsort : get a key and **insert** it into *sorted* sublist
   - selectionsort : **select** minimum value and swap into *sorted* sublist 
   - mergesort :  divide and **merge** (_conquer_) of *sorted* sublists
