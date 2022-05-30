@@ -1,3 +1,4 @@
+
 # Illustrative programs of Tuples, Lists and Dictionaries
 
 ## Pre-requisites
@@ -514,11 +515,26 @@ A comparison screenshot of the three sorts in action in "verbose" mode is presen
 
 ## Python Pseudo Code Compare
 
-- insertionsort : get a key and **insert** it into _sorted_ sublist
-- selectionsort : **select** minimum value and swap into _sorted_ sublist
-- mergesort : divide and **merge** (_conquer_) of _sorted_ sublists
+**UPDATE: May 30, 2022**
+_Added bubblesort (for AD3251)_   
+![bubble](https://i.imgur.com/wXqaMty.png)
+ 
+  - bubblesort: iteratively swap elements 
+  - insertionsort : get a key and **insert** it into *sorted* sublist
+  - selectionsort : **select** minimum value and swap into *sorted* sublist 
+  - mergesort :  divide and **merge** (_conquer_) of *sorted* sublists
+  - quicksort: choose a pivot and partition (_divide_) into big and small lists and then merge them
 
 ![sortCode](http://bit.ly/sortCompared2)
+
+**UPDATE: May 30, 2022**
+_Added quicksort (for AD3251)_   
+![qsort](https://i.imgur.com/dGztZZe.png)
+
+With the ```partition``` function:   
+
+![qsort2](https://i.imgur.com/1LVSfeW.png)
+
 
 ## Helper functions
 
@@ -605,13 +621,3 @@ Which one is which?
 ## Sort 3
 
 ![gif3](../img/SelectionEg01.gif)
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDU4MTcyNiwtMzQzMjAyNTUxLC0xOD
-A0ODU1MjcwLDEzNzQ2MTMxMjcsLTE4MzA3MzAyMjEsLTk2OTgz
-MDkzLC0xOTU1OTA3MjE3LDEwNTkyMDY3NCwtMTYzNTI0OTc0LD
-cyOTMxNjE0OCwtMTE5NTEyMzA4LC0xMzkzMjYxMzYxLC00Mjk3
-MTM1NzYsLTM5OTcxODE5Nyw5Mjc5MTcyOTQsOTU1Njk0MzgxLC
-02NzIyOTEwMDcsMTc2NDcxNzY1OSwxNjQzMTk3Mzk4LDE1ODU0
-NjY1MjBdfQ==
--->
