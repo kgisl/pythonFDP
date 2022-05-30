@@ -523,7 +523,7 @@ _Added bubblesort (for AD3251)_
   - insertionsort : get a key and **insert** it into *sorted* sublist
   - selectionsort : **select** minimum value and swap into *sorted* sublist 
   - mergesort :  divide and **merge** (_conquer_) of *sorted* sublists
-  - quicksort: choose a pivot and partition (_divide_) into big and small lists and then merge them
+  - quicksort: choose a pivot and partition (_divide_) into big and small sublists and then combine them
 
 ![sortCode](http://bit.ly/sortCompared2)
 
